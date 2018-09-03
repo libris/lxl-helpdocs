@@ -1,0 +1,26 @@
+{
+  "name": "lxl-helpdocs",
+  "version": "1.0.0",
+  "description": "Filerna i den här mappen (``helpdocs``) utgör hjälpdokumentationen för gränssnittet. Om det i denna mappen skapas, ändras eller redigeras så kommer de ändringarna att komma in i gränssnittet.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./build/* && mkdir build && m2j ./docs/*.md -c -o ./build/help.json && cp ./img/*.png ./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libris/lxl-helpdocs.git"
+  },
+  "author": "Ola Blissing <ola.blissing@kb.se>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/libris/lxl-helpdocs/issues"
+  },
+  "homepage": "https://github.com/libris/lxl-helpdocs#readme",
+  "dependencies": {
+    "markdown-to-json": "^0.5.1"
+  }
+}
