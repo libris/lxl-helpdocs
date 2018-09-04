@@ -1,6 +1,18 @@
 # lxl-helpdocs - Hjälpdokumentation för Libris XL
 
-## Hur man arbetar med hjälptexterna
+Detta projekt hanterar hjälpdokumentationen för Libris XL och paketering av densamma. Själva dokumentationen skrivs i markdown med YAML-metadata och paketeras till JSON.
+
+## Hur man bygger och konsumerar projektet
+
+Kör `npm run build` för att bygga ihop en JSON-fil där all markdown är sorterad in i noder enligt avsnittens metadata.
+
+Servera sedan build-foldern på lämpligt ställe.
+
+**Obs:**
+* Detta projekt hanterar inte konvertering av markdown till HTML. det skall förslagsvis göras när man konsumerar JSON-strukturen i en applikation.
+* Du behöver ta hänsyn till (och troligtvis konvertera) hänvisningar till bilder.
+
+## Redaktionellt innehåll - Hur man arbetar med hjälptexterna
 
 Filerna i mappen (``docs``) utgör hjälpdokumentationen för gränssnittet. Om det i denna mapp skapas, ändras eller redigeras så kommer de ändringarna att komma in i gränssnittet.
 
