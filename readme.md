@@ -43,14 +43,14 @@ Kategori på dokumentet. Används till exempel för att lägga dokumenten bredvi
 **Title:**  
 Titel på dokumentet. Används till menyn. **Används inte till rubriker i dokumentet.**  
 
-**Order:**  
+`Valfritt` **Order:**  
 Ordning inom kategorin i menyn. Högre siffra -> Längre ner inom kategorin. Avsnitt som saknar order-attributet hamnar alltid längre ner än de som har attributet.
 
-**Date:**  
+`Valfritt` **Date:**  
 Datum i `YYYY-MM-DD` format. Ska ej ha citationstecken. Exempel: `2018-05-23`  
 Om date inte anges så kommer ej "Uppdaterad NN dagar sedan" att synas.
 
-**Tags:**  
+`Valfritt` **Tags:**  
 Etiketter på dokumentet som eventuellt skulle kunna användas till sökning. Lägg till `under arbete` för att visa en notis högs upp i dokumentet.
 
 ### Innehåll
