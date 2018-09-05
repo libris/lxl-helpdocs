@@ -9,7 +9,7 @@ Kör `npm run build` för att bygga ihop en JSON-fil där all markdown är sorte
 Servera sedan build-foldern på lämpligt ställe.
 
 **Obs:**
-* Detta projekt hanterar inte konvertering av markdown till HTML. det skall förslagsvis göras när man konsumerar JSON-strukturen i en applikation.
+* Detta projekt hanterar inte konvertering av markdown till HTML. Det skall förslagsvis göras när man konsumerar JSON-strukturen i en applikation.
 * Du behöver ta hänsyn till (och troligtvis konvertera) hänvisningar till bilder.
 
 ## Redaktionellt innehåll - Hur man arbetar med hjälptexterna
