@@ -18,7 +18,7 @@ Servera sedan build-foldern på lämpligt ställe.
 
 ## Redigera avsnitt
 
-Filerna i mappen (``docs``) utgör hjälpdokumentationen för gränssnittet. Om det i denna mapp skapas, ändras eller redigeras så kommer de ändringarna att komma in i gränssnittet.
+Filerna i mappen `docs` utgör hjälpdokumentationen för gränssnittet. Om det i denna mapp skapas, ändras eller redigeras så kommer de ändringarna att komma in i gränssnittet.
 
 ### Förstasidan
 
