@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./build/* && mkdir build && m2j ./docs/*.md -c -o ./build/help.json && cp ./img/*.png ./build/"
+    "build": "rm -rf ./build && mkdir -p build && m2j ./docs/*.md -c -o ./build/help.json && cp ./img/*.png ./build/"
   },
   "repository": {
     "type": "git",
