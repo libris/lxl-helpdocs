@@ -5,6 +5,7 @@ order: 1
 tags:
 - main
 - start
+- index
 ---
 
 # Hjälp
