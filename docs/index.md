@@ -19,3 +19,4 @@ Den här hjälpen omfattar instruktioner för gränssnittet och materialtyper, v
 * Vill du komma i kontakt med kundservice gör du det [här](http://www.kb.se/libris/kontakta/).
 * [Här](https://goo.gl/forms/3mL7jTlEpbU3BQM13) kan du rapportera fel.
 * [Här](https://goo.gl/forms/dPxkhMqE10RvKQFE2) kan du ge ändringsförslag.
+
