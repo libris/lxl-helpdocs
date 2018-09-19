@@ -2,21 +2,22 @@
 section: Main
 title: Start
 order: 1
+date: 2018-09-19
 tags:
-- main
 - start
-- index
 ---
 
 # Hjälp
 
-Den här hjälpen omfattar instruktioner för gränssnittet och materialtyper, välj avsnitt till vänster för att läsa mer.
+Hjälpsektionen innehåller information om kortkommandon och specialtecken. Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
-## Nyttiga länkar
+Under rubriken Arbetsflöden finns hjälptexter för katalogisering av ett antal materialtyper. Arbetsflödena finns även filmatiserade och publicerade på KB:s Youtubekanal, i spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). Filmerna visar gränssnittet i rådande läge. 
 
-* Om du vill läsa om Formatet (mappning och basvokabulär) så har du det [här](https://id-qa.kb.se/).
-* Är du ute efter instruktionsmaterial hittar du det [här](http://librisbloggen.kb.se/2017/10/31/sjalvstudier-infor-overgangen-till-nya-libris-och-xl/).
-* Vill du komma i kontakt med kundservice gör du det [här](http://www.kb.se/libris/kontakta/).
-* [Här](https://goo.gl/forms/3mL7jTlEpbU3BQM13) kan du rapportera fel.
-* [Här](https://goo.gl/forms/dPxkhMqE10RvKQFE2) kan du ge ändringsförslag.
+Hjälpsektionen är under arbete och uppdateras kontiruerligt. 
 
+## Vidare information
+
+* [Felrapporering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
+* [Librisbloggen](https://librisbloggen.kb.se)
+* [Supportforum för nya Libris](https://kundo.se/org/librisxl/) 
+* [Ändringsförlsag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
