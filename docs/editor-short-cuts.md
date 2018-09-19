@@ -2,6 +2,7 @@
 section: Redigering
 title: Kortkommandon
 order: 12
+date: 2018-09-19
 tags:
 - under arbete
 ---
