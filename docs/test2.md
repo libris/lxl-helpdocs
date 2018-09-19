@@ -1,6 +1,6 @@
 ---
 section: MD
-title: - MD test
+title: * MD test
 order: 2
 date: 2018-09-19
 tags:
