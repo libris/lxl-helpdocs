@@ -3,6 +3,7 @@ section: Redigering
 title: Kortkommandon
 order: 12
 tags:
+- under arbete
 ---
 
 # Kortkommandon för PC och MAC
