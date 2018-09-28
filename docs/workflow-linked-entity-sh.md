@@ -1,14 +1,14 @@
 ---
 section: Arbetsflöden
-title: Länka entitet - auktoriserat ämnesord
+title: Länka ämnesord
 order: 100
 date: 2018-08-27
 tags:
-- editor
+- ämnesord
 - under arbete
 ---
 
-## Lägg till auktoriserat ämnesord (sao)
+## Länka till auktoriserat ämnesord (sao)
 
 Lathunden beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
 
