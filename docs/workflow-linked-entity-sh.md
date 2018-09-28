@@ -1,7 +1,7 @@
 ---
 section: Arbetsflöden
 title: Länka entitet - auktoriserat ämnesord
-order: 95
+order: 100
 date: 2018-08-27
 tags:
 - editor
