@@ -1,10 +1,11 @@
 ---
 section: Arbetsflöden
-title: Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag
+title: Lägg till okontrollerat ämnesord
 order: 125
 date: 2018-08-27
 tags:
-- editor
+- okontrollerat ämnesord
+- prel-termer
 - under arbete
 ---
 
