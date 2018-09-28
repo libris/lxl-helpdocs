@@ -1,14 +1,15 @@
 ---
 section: Arbetsflöden
-title: Tryckt monografi - bok
-order: 15
-date: 2018-08-28
+title: Tryckt monografi
+order: 16
+date: 2018-09-28
 tags:
 - editor
-- under arbete
+- tryckt monografi
+- bok
 --- 
 
-## Tryckt monografi -bok
+## Tryckt monografi - bok
 
 Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
