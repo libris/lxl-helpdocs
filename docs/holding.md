@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden
-title: **Bestånd**
+title: Bestånd
 order: 75
 date: 2018-09-28
 tags:
