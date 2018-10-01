@@ -2,7 +2,7 @@
 section: Arbetsflöden
 title: Tryckt monografi
 order: 16
-date: 2018-09-28
+date: 2018-10-01
 tags:
 - editor
 - tryckt monografi
@@ -298,29 +298,28 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
 ```Exempel:  nc (= volym)```  
 
 #### Seriemedlemskap
-* Seriemedlemskap/Ingår i serie (seriesMembership)  
+* Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
-  
-  Avsnittet Seriemedlemskap är under utredning. För närvarande måste man fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. Om serien har ett ISSN ska även Identifikator/ISSN läggas till båda seriemedlemskapen. [Läs mer om seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/).  
+  Nytt 2018-10-04: man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. 
    
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
-    ```Exempel: 0```  
-  Ange indikator 1 om Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (motsvarande 830 i MARC) anges (om det finns en seriehuvudpost).  
   Skriv in uppgiften.  
+  ```Exempel: 0```   
+  Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
   ```Exempel: 1```   
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
+  Skriv in uppgiften.   
+  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
+  Skriv in uppgiften.  
+  ```Exempel: 1103-498X```     
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
    ```Exempel: Årstasällskapets skriftserie```   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
-  Skriv in uppgiften.  
-  ```Exempel: 1103-498X```    
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
-  Skriv in uppgiften.   
-  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
   
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
