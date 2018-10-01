@@ -5,7 +5,9 @@ order: 25
 date: 2018-10-01
 tags:
 - editor
-- under arbete
+- seriell resurs
+- tidskrift
+- monografiserie
 --- 
 
 ## Tryckt seriell resurs
