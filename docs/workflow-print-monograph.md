@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden
-title: 1.1 Tryckt monografi
+title: Tryckt monografi
 order: 16
 date: 2018-09-28
 tags:
