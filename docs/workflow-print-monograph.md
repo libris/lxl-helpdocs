@@ -301,26 +301,32 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
   Nytt 2018-10-04: man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. 
-   
+  
+#####  Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
   Skriv in uppgiften.  
   ```Exempel: 0```   
   Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
   ```Exempel: 1```   
+##### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
+  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften.   
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
+##### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
+##### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
    ```Exempel: Årstasällskapets skriftserie```   
+##### Numrering inom serie  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
-  
+ 
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
@@ -330,7 +336,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
   ```Exempel: Larsson, Stieg, 1954-2004```  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: 1```  
   
 #### Anmarkning
