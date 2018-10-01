@@ -24,25 +24,25 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringsspr&aring;k) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
-| | [Mått](#mått) | |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
+| | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
-| | [Bärartyp](#bärartyp) | |
+| | [Bärartyp](#barartyp) | |
 |  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) | |
-|  | [Innehållsanmärkning](#innehållsanmärkning) | |
-| | [Målgrupp](#målgrupp) | |
-| | [Annat bärarformat](#annat-bärarformat) | | 
+| | [Anmärkning](#anmarkning) | |
+|  | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | | 
 
 
 ### Adminmetadata  
@@ -82,7 +82,7 @@ Innehåll:
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
   
-#### Katalogiseringsspr&aring;k  
+#### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
@@ -93,7 +93,7 @@ Innehåll:
   Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
-#### Beskrivningsnivå  
+#### Beskrivningsniva  
 * Beskrivningsnivå (000/17)  
   Välj från lista.   
   ```Exempel: CIP-post, ändra till biblioteksnivå```
@@ -103,8 +103,8 @@ Innehåll:
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
-  
-#### Systemteknisk anmärkning
+ 
+#### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
 I samband med att du uppgraderar en Bokinfopost (beskrivningsnivå: CIP-post), kom ihåg att ändra beskrivningsnivå från CIP-post till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
  
@@ -114,7 +114,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  
 
 ### Instans
-#### Utgivningssätt
+#### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
@@ -262,12 +262,12 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   ```Exempel: 2017```  
   ```Exempel: [2017]```  
   
-#### Copyrightår   
+#### Copyrightar   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
    
-#### Omfång   
+#### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```  
@@ -277,7 +277,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
 
-#### Mått 
+#### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 24 cm``` 
@@ -292,7 +292,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
   
-#### Bärartyp
+#### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```  
@@ -334,12 +334,12 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Skriv in uppgiften. 
   ```Exempel: 1```  
   
-#### Anmärkning
+#### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
    
-#### Innehållsanmärkning  
+#### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
@@ -351,16 +351,17 @@ Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst
   Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
 Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).   
 
-#### Målgrupp
+#### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
   ```Exempel: För årskurs 1```  
+Observera att kodning av målgrupp, motsvarande 008/22, registreras under Instans av Verk/Genre.  
   
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
-#### Annat bärarformat
+#### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
   Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
@@ -420,7 +421,7 @@ Under Instans av Verk/Text, klicka på +-tecknet vid Verk (lägg till fält unde
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
 Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på +-tecknet vid Relation (Lägg till fält under: Relation), välj Entitet. Skapa verk som lokal entitet genom att klicka på +-tecknet vid Entitet (Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
-#### Språk 
+#### Sprak 
 * Språk (language = 008/35-37)  
   Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
@@ -591,19 +592,19 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
   Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
      ```Exempel: Akademisk avhandling```     
  
-#### Målgrupp     
+##### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
-#### Innehållstyp
+#### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från +-tecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från +-tecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
   
-#### Anmärkning om akademisk avhandling    
+#### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
   Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
