@@ -2,7 +2,7 @@
 section: Arbetsflöden
 title: Tryckt monografi
 order: 16
-date: 2018-10-01
+date: 2018-10-02
 tags:
 - editor
 - tryckt monografi
@@ -316,7 +316,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   ```Exempel: 1```   
 ##### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
-  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften.   
+  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
 ##### ISSN  
