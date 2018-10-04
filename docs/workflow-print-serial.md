@@ -2,7 +2,7 @@
 section: Arbetsflöden
 title: Tryckt seriell resurs
 order: 25
-date: 2018-10-01
+date: 2018-10-04
 tags:
 - editor
 - seriell resurs
@@ -54,8 +54,9 @@ Innehåll:
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
  Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
-  ```Exempel: NB```  
-  ```Exempel: SAMB```  
+  ```Exempel:```  
+  ```NB```  
+  ```SAMB``  
   
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
@@ -76,8 +77,9 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 #### Poststatus   
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
-  ```Exempel: Ny post```  
-  ```Exempel: Rättad eller reviderad post```
+  ```Exempel:```
+  ```Ny post``` 
+  ```Rättad eller reviderad post```
   
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
@@ -171,7 +173,7 @@ Används för akronymer som är en del av huvudtiteln.
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   Skriv in uppgiften.  
-    ```Exempel: 2011```  
+   ```Exempel: 2011```  
   * Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
   För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
@@ -211,7 +213,7 @@ Används för akronymer som är en del av huvudtiteln.
 #### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-```Exempel:  nc (= volym)```
+  ```Exempel:  nc (= volym)```
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
@@ -221,13 +223,13 @@ Används för akronymer som är en del av huvudtiteln.
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
-  Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+  Skapa en instans som lokal entitet genom att klicka på plustecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
 * Annat bärarformat/Typanmärkning (776 ‡i)  
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till. 
 * Annat bärarformat/Har titel/Titel (776 ‡t)  
-  Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
+  Under Instans, lägg till titel genom att klicka på plustecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
 * Annat bärarformat/Identifikator/ISSN/Värde (776 ‡x)  
-  Under Instans, lägg till identifikator genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISSN. Skriv in ISSN för den utgåva du vill länka till under Värde.  
+  Under Instans, lägg till identifikator genom att klicka på plustecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISSN. Skriv in ISSN för den utgåva du vill länka till under Värde.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
@@ -239,7 +241,7 @@ Används för akronymer som är en del av huvudtiteln.
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 * Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
-  Lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj Uttryck av och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Uttryck av (Lägg till verk). Klicka på Skapa lokal entitet. Välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
+  Lägg till Uttryck av genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj Uttryck av och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Uttryck av (Lägg till verk). Klicka på Skapa lokal entitet. Välj Verk i listan. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
   ```Exempel:  Architecture (Paris. 1888)```  
   
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
@@ -253,8 +255,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. I sökrutan, skriv in sökbegrepp, till exempel "Riksförbundet Sveriges kammarmusikarrangörer". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
-  Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 ‡4)   
   Länka till entitet.   
@@ -263,8 +264,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 #### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på +-tecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på +-tecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
+  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
@@ -273,21 +274,21 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
   ```Exempel: 23/swe```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
-   ```Exempel: 23/swe```  
+  ```Exempel: 23/swe```  
   
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på +-tecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på +-tecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
+  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
-  ```Exempel: Sei-e```  
+     ```Exempel: Sei-e```  
 * Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
  * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
- ```Exempel: 8``` 
+   ```Exempel: 8``` 
  
 #### Amne  
  * Ämne  
@@ -296,30 +297,65 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
-* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
-  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
-  
+##### Allmänt ämnesord  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
-   Länka till entitet.  
-   ```Exempel: Kammarmusik```  
- 
+  Länka till entitet.  
+  ```Exempel: Kammarmusik```  
+   
+##### Allmänt ämnesord med underindelning   
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
+  Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
+  ```Exempel: Varumärken```    
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 ‡x)   
+  Sök fram och länka till entiteten för underindelningen.    
+  ```Exempel: juridik och lagstiftning```   
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Lägg till Termlista. Sök fram och länka till entiteten "sao".    
+  ```Exempel: sao```   
+  
+##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-   Länka till entitet.  
-   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
-    ```Exempel: Sverige```
-    
+  Sök fram och länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  ```Exempel: Sverige```
+  
+##### Geografiskt ämnesord med geografisk underindelning  
+* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
+  Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
+  Skriv in uppgiften, med interpunktion.  
+  ```Exempel: Tyskland -- Bonn```  
+* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme = ‡2 sao)    
+   Lägg till Termlista. Sök fram och länka till entiteten "sao".      
+  ```Exempel: sao```  
+* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
+  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning.  
+  Skriv in uppgiften.  
+  ```Exempel: Tyskland```  
+  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
+  Skriv in uppgiften.  
+   ```Exempel: Bonn``` 
+   
+##### Ämnesord Organisation  
+* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
+```Exempel: Svenska Röda korset```
+
 #### Genre 
+##### Typ av fortlöpande resurs  
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: p (Tidskrift = marc/Periodical)```  
   
+ ##### Konferenspublikation  
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-     ```Exempel: Ja, resursen härrör från konferens```      
+  ```Exempel: Ja, resursen härrör från konferens```      
      
 #### Sprak
 * Språk (language = 008/35-37)  
@@ -328,7 +364,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   
 #### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
-   Länka till entitet.  
+  Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
   
 #### Innehallstyp
@@ -336,20 +372,19 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-#### Länkfält
 #### Relationer under verk
 * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
-  Under Instans av Verk, lägg till fält genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på +-tecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
+  Under Instans av Verk, lägg till fält genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
-```Exempel:   Aktuellt magazin```  
+  Klicka på plustecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
+```Exempel: Aktuellt magazin```  
   
 * Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 ‡x)  
- För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på +-tecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
- ```Exempel: 1402-1250```
+ För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+```Exempel: 1402-1250```
 
 * Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
