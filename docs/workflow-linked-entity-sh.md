@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden koncept (ämnesord)
+section: Arbetsflöden koncept
 title: Länka ämnesord
 order: 100
 date: 2018-08-27
