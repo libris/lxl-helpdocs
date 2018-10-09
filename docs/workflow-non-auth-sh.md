@@ -1,10 +1,11 @@
 ---
-section: Arbetsflöden
+section: Arbetsflöden koncept (ämnesord)
 title: Lägga till sammansatt men ej auktoriserat ämnesord (sao)
 order: 115
 date: 2018-08-27
 tags:
-- editor
+- ämnesord
+- sammansatta ämnesord
 - under arbete
 ---
 
