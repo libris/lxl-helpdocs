@@ -132,7 +132,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
- ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3``` 
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
@@ -145,15 +145,39 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Varianttitel   
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+  Lägg till Har titel och välj typ Varianttitel. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Lägg vid behov till Typanmärkning.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Typanmärkning.  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
+Lägg till Huvudtitel genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Huvudtitel.   
   Skriv in uppgiften.  
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
+Lägg till Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Skriv in uppgiften.  
+  
+##### Omslagstitel, Ryggtitel, Rubriktitel  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Lägg därefter till Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
+
+##### Omslagstitel   
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
+Lägg till Huvudtitel genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Huvudtitel.  
+ Skriv in uppgiften.    
+ ```Exempel: Bergens väktare```  
+* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
+Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
+Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Övrig titelinformation.    
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
+```Exempel: Djingis Khan – historiens störste erövrare```
+
+För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
+Skriv in uppgifterna.    
+```Exempel:```  
+```Typanmärkning (246 ‡i): Skyddsomslag:```  
+```Omslagstitel/Huvudtitel  (246 ‡a): På väg mot döden```  
+```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
   
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
@@ -182,10 +206,6 @@ Skriv in uppgiften.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
-
-##### Omslagstitel, Ryggtitel, Rubriktitel
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-  Skriv in uppgiften.  
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
@@ -447,8 +467,9 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
-  
-  För en översättning, ange även:  
+
+##### Översättning  
+För en översättning, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet) och lägg till Benämning (klicka på Lägg till fält under: Språk).  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
@@ -463,6 +484,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
   
+##### Parallelltext    
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
@@ -497,11 +519,25 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: 23/swe```  
+  ```full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
    ```Exempel: 23/swe```  
   
+##### Sekundär DDK-klassifikation  
+Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
+Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet.  Skriv in uppgiften under Kod.  
+* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 791.430233092```
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+  (classification/ClassificationDdc/edition = 083 ‡2)  
+  ```Exempel: full```  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+ (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
+  ```Exempel: 23/swe``` 
+
+##### SAB-klassifikation  
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
