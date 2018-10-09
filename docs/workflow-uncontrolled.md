@@ -1,10 +1,10 @@
 ---
-section: Arbetsflöden
-title: Lägg till okontrollerat ämnesord
+section: Arbetsflöden koncept
+title: Okontrollerade ämnesord
 order: 125
 date: 2018-08-27
 tags:
-- okontrollerat ämnesord
+- okontrollerade ämnesord
 - prel-termer
 - under arbete
 ---
