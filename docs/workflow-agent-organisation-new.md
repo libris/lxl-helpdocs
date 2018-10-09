@@ -1,6 +1,6 @@
 ---
 section: Arbetsflöden agenter
-title: Skapa ny Organisation
+title: Organisation - Skapa ny 
 order: 55
 date: 2018-08-28
 tags:
