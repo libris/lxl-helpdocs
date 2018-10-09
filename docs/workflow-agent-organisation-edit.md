@@ -1,11 +1,13 @@
 ---
-section: Arbetsflöden
-title: Redigera befintlig Agent - Organisation
+section: Arbetsflöden agenter
+title: Redigera befintlig Organisation
 order: 65
 date: 2018-08-28
 tags:
-- editor
 - under arbete
+- agenter
+- auktoriteter
+- organisationer
 --- 
 
 ## Redigera befintlig: Agent - Organisation
