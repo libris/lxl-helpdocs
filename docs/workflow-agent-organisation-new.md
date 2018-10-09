@@ -1,11 +1,13 @@
 ---
-section: Arbetsflöden
-title: Skapa ny Agent - Organisation
+section: Arbetsflöden agenter
+title: Skapa ny Organisation
 order: 55
 date: 2018-08-28
 tags:
-- editor
 - under arbete
+- agenter
+- auktoriteter
+- organisationer
 --- 
 
 ## Skapa ny: Agent - Organisation
