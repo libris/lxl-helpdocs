@@ -1,11 +1,13 @@
 ---
-section: Arbetsflöden
-title: Lägga till kontrollerade men ej auktoriserade ämnesord
+section: Arbetsflöden koncept
+title: Kontrollerade, ej auktoriserade ämnesord
 order: 105
 date: 2018-08-27
 tags:
-- editor
 - under arbete
+- ämnesord
+- koncept
+- kontrollerade ej auktoriserade ämnesord
 ---
 
 ## Lägg till kontrollerade men ej auktoriserade ämnesord
