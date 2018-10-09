@@ -172,7 +172,7 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
-För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
+  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
 Skriv in uppgifterna.    
 ```Exempel:```  
 ```Typanmärkning (246 ‡i): Skyddsomslag:```  
