@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden ämnesord
+section: Arbetsflöden koncept
 title: Sammansatt, ej auktoriserat ämnesord
 order: 105
 date: 2018-08-27
