@@ -1,10 +1,10 @@
 ---
-section: Arbetsflöden
+section: Arbetsflöden katalogisering
 title: Tryckt monografi
 order: 16
-date: 2018-10-04
+date: 2018-10-09
 tags:
-- editor
+- under arbete
 - tryckt monografi
 - bok
 --- 
