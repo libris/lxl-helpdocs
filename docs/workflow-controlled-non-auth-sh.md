@@ -1,7 +1,7 @@
 ---
 section: Arbetsflöden koncept
-title: Kontrollerade, ej auktoriserade ämnesord
-order: 105
+title: Kontrollerat, ej auktoriserat ämnesord
+order: 115
 date: 2018-08-27
 tags:
 - under arbete
@@ -10,7 +10,7 @@ tags:
 - kontrollerade ej auktoriserade ämnesord
 ---
 
-## Lägg till kontrollerade men ej auktoriserade ämnesord
+## Lägg till kontrollerat men ej auktoriserat ämnesord
 
 Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
 
