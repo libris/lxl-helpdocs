@@ -1,11 +1,12 @@
 ---
-section: Arbetsflöden
+section: Arbetsflöden bestånd
 title: Beståndsregistrering
 order: 85
 date: 2018-08-28
 tags:
-- editor
 - under arbete
+- bestånd
+- beståndsregistrering
 --- 
 
 # Beståndsregistrering
