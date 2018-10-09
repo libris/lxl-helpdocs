@@ -1,7 +1,7 @@
 ---
 section: Terminologi
 title: BIBFRAME kort parlör
-order: 40
+order: 140
 tags:
 - bibframe
 - rda
