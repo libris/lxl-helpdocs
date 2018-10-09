@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden - Agenter
+section: Arbetsflöden agenter
 title: Skapa ny Person
 order: 40
 date: 2018-10-09
