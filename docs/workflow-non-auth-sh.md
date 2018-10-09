@@ -1,6 +1,6 @@
 ---
-section: Arbetsflöden koncept (ämnesord)
-title: Lägga till sammansatt men ej auktoriserat ämnesord (sao)
+section: Arbetsflöden
+title: Sammansatt men ej auktoriserat ämnesord
 order: 115
 date: 2018-08-27
 tags:
