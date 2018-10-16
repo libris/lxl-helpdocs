@@ -2,7 +2,7 @@
 section: Arbetsflöden agenter
 title: Organisation - Skapa ny 
 order: 55
-date: 2018-10-12
+date: 2018-10-16
 tags:
 - under arbete
 - agenter
@@ -27,21 +27,21 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn-i-tva-led) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namn i två led](#namn) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
 | [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#katalogisatorens-anmarkning) | [Variant](#variant) |
-| [Konsulterad källa](#konsulterad-kalla) | [Se även](#se-aven) |
+| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
+| [Konsulterad källa](#poststatus) | [Se även](#variant) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#auktoritetskontrollniva) | [**Valbara egenskaper att lägga till i Agent**](#valbara-egenskaper-att-lagga-till-i-agent) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Tid för grundande](#tid-for-grundande) | |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
+| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#verksamhetsomrade) | |
-| | [Språk](#sprak) | |
-| | [Andra attribut för person- och organisationsnamn](#sprak) | |
-| | [Organisatorisk tillhörighet](#sprak) | |
+| | [Verksamhetsområde](#tid-for-grundande) | |
+| | [Språk](#tid-for-grundande) | |
+| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
+| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
  
 
   
@@ -59,7 +59,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-#### Katalogiseringssprak
+#### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
  <br/>```Exempel: Svenska```Ändras ej.
 
@@ -71,14 +71,14 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Poststatus (recordStatus = = 000)
   <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
 
-#### Katalogisatorens anmarkning
+#### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
-#### Konsulterad kalla
+#### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
@@ -102,11 +102,11 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
-#### Auktoritetskontrollniva
+#### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
  
-#### Beskrivningsniva 
+#### Beskrivningsnivå 
  * Beskrivningsnivå
   <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
   <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
@@ -121,7 +121,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Arbetslivscentrum```
   <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet. Om egenskapen Namn används måste egenskaperna Är del av samt Namn på underordnad enhet raderas. Klicka i så fall på papperskorgen vid respektive egenskap.
   
-#### Namn i tva led 
+#### Namn i två led 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- ‡a)
   <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
@@ -159,7 +159,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
   OBS! Varianter ska inte göras till sökbara länkar.
 
-#### Se aven
+#### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
@@ -177,25 +177,25 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
   
-### Valbara egenskaper att lagga till i Agent
+### Valbara egenskaper att lägga till i Agent
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av det runda plustecknet i verktygsmenyn.
 
 #### Tid for grundande
 * Tid för grundande/Startdatum (establishDate = 046 ‡q)
   <br/>```Exempel: 1965```
 
-#### Tid for upphörande
+#### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
   <br/>```Exempel: 2003```
 
-#### Verksamhetsomrade
+#### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Sprak
+#### Språk
 * Språk (associatedLanguage = 377 ‡a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
@@ -212,6 +212,4 @@ För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för 
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till den egenskap som behövs t ex namn. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
-
-<br/>Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
