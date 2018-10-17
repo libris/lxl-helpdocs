@@ -74,8 +74,8 @@ Innehåll:
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
   ```Exempel:```    
-  ```NB```  
-  ```SAMB```  
+ * ```NB```  
+ * ```SAMB```  
   
 #### Systemnummer 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
@@ -106,8 +106,8 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel:```   
-  ```Ny post```  
-  ```Rättad eller reviderad post```  
+  * ```Ny post```  
+  * ```Rättad eller reviderad post```  
  
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
