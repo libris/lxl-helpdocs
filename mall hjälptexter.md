@@ -10,6 +10,8 @@ tags:
 # Mall vid skapande av hjälptexter
 Sektionen (headern) ovan ska ingå i alla filer. Uppgifterna för section, title, order och tags ändras efter uppgifterna i Excelfilen. Datum (date)  behöver uppdateras manuellt när texten uppdateras.
 
+Mallen är under utveckling och uppdateras vid behov.
+
 ## Innehållsförteckning:
 
 [Rubriker och textformatering](#rubriker-och-textformatering)  
