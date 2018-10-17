@@ -38,7 +38,7 @@ OBS! Instruktionen ovan fungerar även för sammansatta men ej auktoriserade ter
 
 
 ### Geografiskt huvudord med geografisk underindelning
-Instruktionen nedan gäller geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord.
+Instruktionen nedan gäller ej auktoriserade geografiska ämnesord i flera led konstruerade enligt Riktlinjer för Svenska ämnesord.
 Exempel: Tyskland--Bonn--sao
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj Sammansatt term under Skapa lokal entitet.
