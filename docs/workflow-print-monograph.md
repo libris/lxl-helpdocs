@@ -73,7 +73,7 @@ Innehåll:
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
-  ```Exempel:```  
+  ```Exempel:```    
   ```NB```  
   ```SAMB```  
   
@@ -105,7 +105,7 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
 #### Poststatus     
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
-  ```Exempel:```  
+  ```Exempel:```   
   ```Ny post```  
   ```Rättad eller reviderad post```  
  
