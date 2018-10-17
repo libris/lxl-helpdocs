@@ -72,7 +72,7 @@ Innehåll:
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
-  Skriv in uppgiften.  
+  Skriv in uppgiften.
  <br/>```Exempel:```
   * ```NB```
   * ```SAMB```
@@ -104,8 +104,8 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
   
 #### Poststatus     
 * Poststatus (000/05)  
-  Uppdateras automatiskt. Ändra inte.   
-  ```Exempel:```
+  Uppdateras automatiskt. Ändra inte.
+  <br/>```Exempel:```
   * ```Ny post```
   * ```Rättad eller reviderad post```
  
@@ -173,8 +173,8 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-Skriv in uppgifterna.    
-  ```Exempel:```
+Skriv in uppgifterna.
+  <br/>```Exempel:```
   * ```Typanmärkning (246 ‡i): Skyddsomslag:```
   * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
   * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
@@ -264,13 +264,13 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   Datum får innehålla text och interpunktionstecken.  
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
-  Skriv in uppgiften.  
-  ```Exempel:```
+  Skriv in uppgiften.
+  <br/>```Exempel:```
   * ```[2017]```
   * ```[mellan 1863 och 1866?]```     
   * Flera år (flerbandsverk)  
- Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".  
-  ```Exempel:```
+ Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
+  <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```     
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```   
@@ -285,8 +285,8 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   Skriv in uppgiften.   
   ```Exempel: Scandbook```  
   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
-   Skriv in uppgiften. Klamra vid behov.  
-   ```Exempel:```
+   Skriv in uppgiften. Klamra vid behov.
+   <br/>```Exempel:```
    * ```2017```
    * ```[2017]```
   
