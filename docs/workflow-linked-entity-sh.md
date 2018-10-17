@@ -2,7 +2,7 @@
 section: Arbetsflöden koncept
 title: Länka ämnesord
 order: 100
-date: 2018-08-27
+date: 2018-10-17
 tags:
 - ämnesord
 - koncept
@@ -19,16 +19,16 @@ Det beskrivna tillvägagångssättet nedan gäller för allmänna ämnesord, kro
 
 #### Ämne (subject)
 Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen. 
-<br/>För att lägga till egenskapen Ämne: Klicka på +ikonen högst upp till höger inom avsnittet för Instans av Verk, sök efter och lägg till Ämne (subject).
+<br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
 ##### Länka entitet
 
-* Klicka på **+ikonen** intill egenskapen Ämne, pop up-rutan för **Lägg till entitet** öppnas.
+* Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas.
 
-* Välj typ av ämnesord (**Allmänt ämnesord** / **Geografiskt ämnesord** / **Kronologiskt ämnesord** / **Sammansatt term**) i rullgardinsmenyn **Alla typer**.
+* Sök/välj typ av ämnesord (Allmänt ämnesord / Geografiskt ämnesord / Kronologiskt ämnesord / Sammansatt term) i rullgardinsmenyn Alla typer.
 
 * Sök efter önskad term.
 
-* Välj term och klicka på **Lägg till**, termen länkas då till verksinformationen i Instans av Verk.
+* Välj term genom att klicka på den, termen länkas då till verksinformationen i Instans av Verk.
 
-För att lägga till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet i punktlistan ovan. 
+För att lägga till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet i punktlistan ovan.
