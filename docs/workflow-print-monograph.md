@@ -266,11 +266,11 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.
   <br/>```Exempel:```
-  * ```[2017]```
-  * ```[mellan 1863 och 1866?]```     
-  * Flera år (flerbandsverk)  
- Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
-  <br/>```Exempel:```
+   * ```[2017]```
+   * ```[mellan 1863 och 1866?]```     
+   * Flera år (flerbandsverk)  
+ Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".  
+ <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```     
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```   
@@ -279,12 +279,12 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
  
 #### Tillverkning 
 * Tillverkning (manufacture)  
-  * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
+* Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
   * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```  
-  * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
+ * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
    Skriv in uppgiften. Klamra vid behov.
    <br/>```Exempel:```
    * ```2017```
