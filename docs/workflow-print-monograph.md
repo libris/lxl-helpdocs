@@ -73,7 +73,7 @@ Innehåll:
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
-  ```Exempel:```
+ <br/>```Exempel:```
   * ```NB```
   * ```SAMB```
   
