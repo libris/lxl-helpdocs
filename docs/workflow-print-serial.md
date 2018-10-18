@@ -2,7 +2,7 @@
 section: Arbetsflöden katalogisering
 title: Tryckt seriell resurs
 order: 25
-date: 2018-10-09
+date: 2018-10-18
 tags:
 - under arbete
 - seriell resurs
@@ -45,18 +45,33 @@ Innehåll:
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```  
   
+#### Uppgraderad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån ändras, lägg till denna uppgift. Vid postimport, lägg till uppgiften.  
-  Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet. Välj Bibliotek i rullgardinsmenyn. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
+  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
+  
+  Lägg till Uppgraderad eller importerad av (plustecknet Lägg till fält under: Post). Klicka på plustecknet vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Bibliotek.  
+  Lägg till Sigel (plustecknet Lägg till fält under: Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
+  
+#### Katalogiserande instans
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
+  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
+ (marc/CooperativeCatalogingProgram).   
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
+  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
+  ```Exempel: Nationalbibliografi```   
+  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
+  ```Exempel: Annan verksamhet```  
   
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
- Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
-  ```Exempel:```  
-  ```NB```  
-  ```SAMB``  
+  Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. 
+  
+  Lägg till Bibliografi (plustecknet Lägg till fält under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan). Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
+  Skriv in uppgiften.
+ <br/>```Exempel:```
+  * ```NB```
+  * ```SAMB```
   
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
@@ -65,21 +80,21 @@ Innehåll:
 
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). När man skapar ny post från mall visas entiteten som "marc/isbd". I en sparad post visas samma entitet som "ISBD information finns". Båda är rätt.  
-Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".  
- ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda ```
+  Lägg till Katalogiseringsregler (plustecknet Lägg till fält under: Post). Lägg till entitet (plustecknet vid Katalogiseringsregler - lägg till entitet). Välj "Regler för deskriptiv katalogisering (bib)" i listan. För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man skapar ny post från mall visas entiteten som "marc/Isbd". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". Båda är rätt.      
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Regler för deskriptiv katalogisering (bib). Lägg till Kod (plustecknet vid Regler för deskriptiv katalogisering (bib). Skriv in "rda".    
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 #### Beskrivningsniva   
 * Beskrivningsnivå (000/17)  
   Välj från lista.    
   ```Exempel: biblioteksnivå```
   
-#### Poststatus   
+#### Poststatus     
 * Poststatus (000/05)  
-  Uppdateras automatiskt. Ändra inte.   
-  ```Exempel:```
-  ```Ny post``` 
-  ```Rättad eller reviderad post```
+  Uppdateras automatiskt. Ändra inte.
+  <br/>```Exempel:```
+  * ```Ny post```
+  * ```Rättad eller reviderad post```
   
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
@@ -186,10 +201,11 @@ Används för akronymer som är en del av huvudtiteln.
   Datum får innehålla text och interpunktionstecken.  
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
-  Skriv in uppgiften.  
-  ```Exempel: 2012-2013```  
-  ```Exempel: [1988-]```  
-  
+  Skriv in uppgiften.
+  <br/>```Exempel:```
+  * ```2012-2013```
+  * ```[1988-]```
+
 #### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
@@ -252,7 +268,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Medverkan och funktion  
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
@@ -272,10 +288,24 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: 23/swe```  
+  ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
   ```Exempel: 23/swe```  
   
+##### Sekundär DDK-klassifikation  
+Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
+Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet.  Skriv in uppgiften under Kod.  
+* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 791.430233092```
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+  (classification/ClassificationDdc/edition = 083 ‡2)  
+  ```Exempel: full```  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+ (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
+   ```Exempel: 23/swe``` 
+   
+##### SAB-klassifikation    
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
@@ -293,9 +323,10 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 #### Amne  
  * Ämne  
   Läs mer:  
-  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
-  [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
 
 ##### Allmänt ämnesord  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
@@ -340,9 +371,11 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
    
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
-```Exempel: Svenska Röda korset```
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+```Exempel: Svenska Röda korset```  
+Läs mer:  
+  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
 
 #### Genre 
 ##### Typ av fortlöpande resurs  
