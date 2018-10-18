@@ -240,10 +240,14 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
  
-##### Utgivningsland och utgivningsplats
+ ##### Utgivningsplats
+ * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.   
+  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
+  ```Exempel: [Göteborg]```  
  ##### Utgivarnamn
   * Agent/Agent//Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
+  För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.     
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```   
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet (längst ner i sidorutan). Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet under Har del för nästa utgivare.
@@ -272,13 +276,10 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+##### Utgivningsland  
  * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Sverige (sw)```  
-  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
-  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
-  ```Exempel: [Göteborg]```  
+  ```Exempel: Sverige (sw)```   
   
 #### Tillverkning 
 * Tillverkning (manufacture)  
@@ -384,12 +385,12 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
+  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.   
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på plustecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan). Välj Utökad innehållsanmärkning genom att skriva Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välja * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.   
-Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
+Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)
+För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på plustecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan). Välj Utökad innehållsanmärkning genom att skriva Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välja * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.
+Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
 
 #### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
@@ -404,7 +405,7 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
-  Skapa en instans som lokal entitet genom att klicka på plustecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+  Skapa en instans som lokal entitet genom att klicka på plustecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet (längst ner i sidorutan) och välj Instans. 
 * Annat bärarformat/Typanmärkning (776 ‡i)  
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Har titel/Titel (776 ‡t)  
@@ -471,7 +472,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 ##### Översättning  
 För en översättning, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet) och lägg till Benämning (klicka på Lägg till fält under: Språk).  
+  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan) och lägg till Benämning (klicka på Lägg till fält under: Språk).  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
@@ -482,7 +483,7 @@ För en översättning, ange även:
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på Lägg till fält under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
+  Klicka på Lägg till fält under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
   
 ###### Texten delvis översatt  
@@ -490,7 +491,7 @@ För en översättning, ange även:
 * Har del/Verk/Språk (hasPart/Work/language) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote) +  
   Originalversion/Verk/Språk (originalVersion/Work/language)  
-  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Lägg sedan till Har del under Instans av Verk/Text. Välj Skapa lokal entitet och välj Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till, till exempel engelska. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Lägg sedan till Har del under Instans av Verk/Text. Välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till, till exempel engelska. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
   
 ##### Parallelltext    
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
@@ -515,14 +516,15 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
   ```Exempel: Skoglund, Svante, 1960-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
-  Länka till entitet.   
+  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
+För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel: relator/trl (= översättare)```  
   
 #### Klassifikation 
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
+  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
@@ -537,7 +539,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
-Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet.  Skriv in uppgiften under Kod.  
+Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan).  Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
@@ -551,8 +553,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 ##### SAB-klassifikation  
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
+  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj Klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj Klassifikation.  
    Skriv in uppgiften under Kod.  
 * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
@@ -591,12 +593,12 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  I undantagsfall, skapa lokal entitet (längst ner i sidorutan) och skriv in uppgiften.  
   ```Exempel: Sverige```
   
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
-  Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
+  Skapa Sammansatt term som lokal entitet (längst ner i sidorutan). Lägg till Föredragen benämning.  
   Skriv in uppgiften, med interpunktion.  
   ```Exempel: Tyskland -- Bonn```  
 * Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme = ‡2 sao)    
@@ -604,7 +606,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
   (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning.  
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet (längst ner i sidorutan). Lägg till Föredragen benämning.  
   Skriv in uppgiften.  
   ```Exempel: Tyskland```  
   Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
@@ -618,13 +620,13 @@ Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva a
   
 ##### Ämnesord Person  
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan).  
 ```Exempel: Lindgren, Astrid, 1907-2002```  
 Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
  
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan).    
 ```Exempel: Svenska Röda korset```  
 Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
@@ -634,43 +636,43 @@ Läs mer:
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
  ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
-  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.   
   ```Exempel: 0 ( = ej skönlitterärt verk)```
   
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
-  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.     
   ```Exempel: a (= självbiografi)```  
     
  ##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Länka till entitet.  
-  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: Ja, resursen är en festskrift```    
     
  ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.      
   ```Exempel: Ja, resursen härrör från konferens```   
      
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: Akademisk avhandling```     
  
 ##### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
-  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
+  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
 #### Innehallstyp
@@ -682,5 +684,5 @@ Läs mer:
   
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling genom att klicka på plustecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på plustecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
+  Lägg till anmärkning om akademisk avhandling genom att klicka på plustecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan). Klicka på plustecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
