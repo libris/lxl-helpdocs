@@ -2,36 +2,33 @@
 section: Arbetsflöden bestånd
 title: Enkel beståndsregistrering
 order: 135
-date: 2018-08-28
+date: 2018-10-18
 tags:
 - under arbete
 - bestånd
 - beståndsregistrering
 --- 
 
-# Enkel beståndsregistrering
+## Enkel beståndsregistrering
 
-Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd.
+Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till.
 
-De mest vanliga fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via **+ikonen** för bestånd. För hjälp med detta och mer information om 852 se hjälpen **Beståndsregistrering**.
+De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecknet i verktygsmenyn. För vidare instruktioner och mer information om 852 se hjältexten [Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding)
 
 ### Har komponent (852)
-Klicka på pilen för *Bestånd*. Du kan då lägga till:
+Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas till:
 * Hyllkod (852 ‡h)
-Här lägger du uppställning efter klassifikation eller annan hyllkod
-
+Här läggs uppställning efter klassifikation eller annan hyllkod
  ```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
-Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-
+Används då ytterligare information om placering utöver Hyllkod behöver läggas till.
  ```Exempel: Institution 14```
 
 * Hyllsignum: Löpnummer (852 ‡j)
-
  ```Exempel: 2594```
 
-För att lägga till ytterligare ett Bestånd (motsvarande flera 852) klickar du på **+ikonen** vid **Har komponent**.
+För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Klicka på plustecknet inom Har komponent, ytterligare bestånd läggs då till.
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 
