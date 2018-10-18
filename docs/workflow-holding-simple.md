@@ -18,15 +18,15 @@ De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som k
 ### Har komponent (852)
 Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas till:
 * Hyllkod (852 ‡h)
-Här läggs uppställning efter klassifikation eller annan hyllkod
- ```Exempel: 158.1```
+Här läggs uppställning efter klassifikation eller annan hyllkod.
+<br/>```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
 Används då ytterligare information om placering utöver Hyllkod behöver läggas till.
- ```Exempel: Institution 14```
+<br/>```Exempel: Institution 14```
 
 * Hyllsignum: Löpnummer (852 ‡j)
- ```Exempel: 2594```
+<br/>```Exempel: 2594```
 
 För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Klicka på plustecknet inom Har komponent, ytterligare bestånd läggs då till.
 
