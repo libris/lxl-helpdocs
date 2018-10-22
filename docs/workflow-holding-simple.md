@@ -13,7 +13,7 @@ tags:
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till.
 
-De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecknet i verktygsmenyn. För vidare instruktioner och mer information om 852 se hjältexten [Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding)
+De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecknet i verktygsmenyn. För vidare instruktioner och mer information om 852, se hjälptexten [Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding).
 
 ### Har komponent (852)
 Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas till:
