@@ -12,9 +12,9 @@ tags:
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. I Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
+<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
 
-Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
