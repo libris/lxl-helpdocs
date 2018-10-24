@@ -45,6 +45,7 @@ Mallen är under utveckling och uppdateras vid behov.
 | | [Annat bärarformat](#annat-bärarformat) | | 
 
 ## Rubriker och textformatering
+Se befintliga hjälptexter för att använda motsvarande rubriker.
 
 <br/>Rubrik nivå 1: # före rubriken
 <br/>Rubrik nivå 2: ## före rubriken
