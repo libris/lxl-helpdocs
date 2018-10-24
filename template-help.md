@@ -69,10 +69,10 @@ Se befintliga hjälptexter för att använda motsvarande rubriker.
   * Punkt 3 underordnad nivå
 
 ### Fetstil: 
-** före och ** efter det/de ord som ska **fetas**. Används restriktivt och endast där något verkligen behöver framhävas.
+** direkt före och ** direkt efter det/de ord som ska **fetas**. Används restriktivt och endast där något verkligen behöver framhävas.
 
 ### Kursiv stil: 
-Asterisk * direkt före och efter det/de ord som ska *kursiveras*. Används företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra i katalogiseringsverktyget.
+Asterisk * direkt före och efter det/de ord som ska *kursiveras*. Används restriktivt och företrädesvis för kommentarer om sådant som är under utveckling/ej ännu går att göra i katalogiseringsverktyget.
 
 ### Brödtext: 
 Ingen formatering alls. Endast brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext brödtext.
