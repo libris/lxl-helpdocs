@@ -214,7 +214,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 #### Fullständigare namnform
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
-  <br/>```Exempel: 
+  <br/>```Exempel:``` 
   * ```Efternamn: Smith```
   * ```Förnamn: A. D.```
   * ```Fullständigare namnform: Adam David```
