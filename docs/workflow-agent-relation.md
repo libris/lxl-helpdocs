@@ -14,7 +14,7 @@ tags:
 
 Den här hjälpen visar hur man skapar relationer av olika typer. Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälpen för att Skapa ny agent Person samt Organisation. Det finns även hjälp för att redigera befintliga auktoriteter. Se även hjälp för att lägga till Agent - Organisation
 
-I de första versionerna av nya Libris bör man inte länka till eller skapa verk.
+*I de första versionerna av nya Libris bör man inte länka till eller skapa nya verk, det är under utveckling.*
 
 ## Relationer
 
@@ -65,7 +65,7 @@ Välj Primär medverkan när en agent har en relation till verk som beskrivs som
 
    * Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
    
-    Länka i första hand till auktoritet.
+   Länka i första hand till en agent.
     ```Exempel: Austin,  Jane, 1775-1817```
  
 
