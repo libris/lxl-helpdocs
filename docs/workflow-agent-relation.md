@@ -27,17 +27,17 @@ Välj Medverkan när en agent har en relation till det verk som beskrivs i insta
 
   I undantagsfall, skapa lokal entitet och välj Person
    * Lägg till Efternamn
-   ```Exempel: Andersson```
+   <br/>```Exempel: Andersson```
   
    * Förnamn
-   ```Exempel: Frans```
+   <br/>```Exempel: Frans```
    
    * Levnadsår (700 ‡d)
-    ```Exempel: 1974-```
+    <br/>```Exempel: 1974-```
 
   * Funktion - klicka på plustecknet intill Funktion (700 ‡4)
     Länka till entitet.
-   ```Exempel: relator/trl (= översättare)```
+    <br/>```Exempel: relator/trl (= översättare)```
     
 
 #### Relation till verk uttryckt genom text (700 ‡i)
@@ -53,10 +53,10 @@ Lägg till Verk som entitet.
 Vid plustecknet för Verk lägger man till delfält:
 
 *  Benämning
-  ```Exempel: Parafraserar```
+  <br/>```Exempel: Parafraserar```
   
  *  Har titel/ Titel / Huvudtitel
-  ```Exempel: Pride and prejudice```
+  <br/>```Exempel: Pride and prejudice```
  
 *  Medverkande och funktion / Primär medverkan
 
@@ -66,7 +66,7 @@ Välj Primär medverkan när en agent har en relation till verk som beskrivs som
    * Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
    
    Länka i första hand till en agent.
-    ```Exempel: Austin,  Jane, 1775-1817```
+    <br/>```Exempel: Austin,  Jane, 1775-1817```
  
 
 #### Obestämt relation till ett verk (700)
@@ -83,7 +83,7 @@ Välj Entitet vid plustecknet vid Relation
 Lägg till Verk som entitet. 
 
 *  Har titel/ Titel / Huvudtitel
-  ```Exempel: En sund själ i en sund kropp```
+  <br/>```Exempel: En sund själ i en sund kropp```
  
 *  Medverkande och funktion / Primär medverkan
 
@@ -93,7 +93,7 @@ Välj Primär medverkan när en agent har en relation till verk som beskrivs som
    * Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
    
  Länka i första hand till auktoritet.
- ```Exempel: Hammarberg, Lena, 1943-```
+   <br/>```Exempel: Hammarberg, Lena, 1943-```
  
 
 #### Flera verk kopplade till instansen
@@ -103,7 +103,7 @@ Välj Primär medverkan när agenten har relation till ett annat verk än det so
 
 * Har del / skapa lokal entitet - välj Verk (långt ner i listan, ge inte upp! - i senare versioner kommer vi att förenkla detta.)
   * Har titel / Huvudtitel  - skriv in titeln
-  ```Exempel:  Mind over matter```
+    <br/>```Exempel:  Mind over matter```
   
   
 ####  Fler delfält
@@ -127,8 +127,8 @@ Välj Primär medverkan när agenten har relation till ett annat verk än det so
   Länka i första hand till agent. För att lägga till som lokal entitet:
   
   * Medverkan och funktion / Primär medverkan / Agent / Person / Efternamn
-  ```Exempel: Roberts```
+    <br/>```Exempel: Roberts```
 
   * Medverkan och funktion / Primär medverkan / Agent/ Förnamn
-   ```Exempel: Nora```
+    <br/>```Exempel: Nora```
   
