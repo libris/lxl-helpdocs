@@ -2,7 +2,7 @@
 section: Arbetsflöden agenter
 title: Person - Redigera befintlig 
 order: 45
-date: 2018-10-24
+date: 2018-10-25
 tags:
 - redigera agent
 - redigera auktoritet
@@ -132,9 +132,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 #### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
- <br/>```Exempel: Svenska```Ändras ej.
- <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
-
+ <br/>```Exempel: Svenska```
+ <br/>Ändras ej. Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
@@ -142,7 +141,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
-  <br/>Ändras ej.
+  <br/>Fullständig, ändras vid behov. 
+  <br/>```Exempel: Fullständig```
 
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)
@@ -214,7 +214,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 #### Fullständigare namnform
 * Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
-  <br/>```Exempel:``` 
+  <br/>```Exempel:```
   * ```Efternamn: Smith```
   * ```Förnamn: A. D.```
   * ```Fullständigare namnform: Adam David```
@@ -257,3 +257,5 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+
+
