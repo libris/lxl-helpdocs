@@ -485,6 +485,7 @@ För en översättning, ange även:
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
+  För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
 ###### Texten delvis översatt  
 (041 0/- #a + 041 1/- #a #h)  
