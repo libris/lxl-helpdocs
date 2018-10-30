@@ -17,6 +17,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
     
 |               Åtgärd 				 		    	| 		 									Kortkommando 																	|
 |						 ------------------------- 						     | 					------------------------- 																|
+| Avbryt 				|Alt+Q  								    |
 | Växla mellan flikar 				|Ctrl+Tab  								    |
 | Kopiera, skapa identisk kopia av post 				|Ctrl+Shift+ C  								    |
 | Redigera, gå till postens redigeringsvy 						|Ctrl+E  				  							    |
@@ -38,6 +39,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
     
 |               Åtgärd 		 				    	| 						 					Kortkommando 																	|
 |						 ------------------------- 						    | 										------------------------- 																|
+| Avbryt 				|Alt+Q  								    |
 | Växla mellan flikar 				|Ctrl+Tab  								    |
 | Kopiera, skapa identisk kopia av post  				| ⌘+Shift+C  								|
 | Redigera, gå till postens redigeringsvy  | ⌘+E   |
