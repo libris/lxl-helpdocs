@@ -13,6 +13,8 @@ tags:
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
+Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du se om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
+
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
 
 Plustecken i sidorutan Lägg till entitet används för vad som motsvarande fält i marc. 
@@ -43,7 +45,7 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 
 ### Har komponent
 (852)
-OBS! I konverterade data med bara ett 852 ligger delfälten inte under **Har komponent**. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
 I Bestånd finns följande fält färdiga:
 * Hyllkod (852 ‡h)
@@ -95,7 +97,7 @@ Välj önskad nivå:
  
 
 ### Identifierare
-* Identifikator (IdentifiedBy) / Välj typ från lista (024 indikator 1)
+* Identifikator (IdentifiedBy) / Välj en typ från lista (024 indikator 1)
   * Värde (024 ‡a)
   * Ogiltigt värde (024 ‡z)
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
@@ -106,7 +108,7 @@ Välj önskad nivå:
 
 * Villkor för användning och åtkomst/Välj Skapa lokal entitet / Villkor som användning och åtkomst
   * Benämning (506 ‡a)
-  * Tillsåndsgivare (506 ‡b)
+  * Tillståndsgivare (506 ‡b)
   * Fysiska omständigheter (506 ‡c)
   * Godkända användare (506 ‡d)
   * Laglig grund för restriktion (506 ‡e)
@@ -136,7 +138,8 @@ Klicka på plustecknet för att lägga till. Gå till Skapa lokal entitet. Förv
 
 * Ägarhistorik (561 ‡a)
 
-* Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562 ‡a)/ Igenkänningstecken  
+* Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
+  * Igenkänningstecken (562 ‡a) 
   * Identifiering av exemplar (562 ‡b)
   * Identifiering av version (562 ‡c)
   * Presentationsformat (562 ‡d)
@@ -149,7 +152,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
   * Benämning (563 ‡a)
 
 * Har lokal anmärkning: Åtgärd (583)
-Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om **Lokal anmärkning: Åtgärd** för att lägga till delfält och indikator
+Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. *OBS! Det går ännu inte att ange Uppgift saknas - detta är under arbete.*
   * Benämning (583 ‡a)
   * Del av materialet som avses (583 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
@@ -161,10 +164,10 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
-* Lokala ämnesord (650_/4 ‡a)
+* Ämne (650_/4 ‡a)
   * Allmänt ämnesord / Föredragen benämning
  
-* Lokala ämnesord (653 ‡a)
+* Ämne (653 /0 ‡a)
   * Allmänt ämnesord / Benämning
 
 * Lokala ämnesord/rubriker (övriga) (698)
@@ -172,11 +175,14 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Benämning (698 ‡b)
   
 
-* Klassifikation/DDK-klassifikation/Kod (082 ‡a)
+* Klassifikation / Skapa lokal entitet / DDK-klassifikation/Kod (082 ‡a)
   * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt ```full```
-  * Utgåvans nummer och upphov (editionenumeration) (082 ‡2). ```23/swe```
+  * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). ```23/swe```
 
-* Klassifikation/Klassifikation/Kod (084 ‡a)
+
+* Klassifikation / Skapa lokal entitet / Klassifikation / Kod (084 ‡a)
+  * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. Kod: ```kssb```, Version: ```8```
+  
 
 ### Agenter - Personer och Organisationer
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
@@ -205,7 +211,7 @@ Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 * Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 4/1)
 Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
 
-* Är huvudämne för / Dokument (val vid Skapa lokal entitet) (856 4/2)
+* Relaterad beskrvining eller innehåll / Dokument (val vid Skapa lokal entitet) (856 4/2)
 Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Entiteten Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
 
 * Relaterad till  / Dokument (val vid Skapa lokal entitet) (856 4/8)
@@ -265,4 +271,4 @@ Ospecificerad relation
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
 Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
-Sök upp dett fält som önskas, t.ex. Beståndsfält 948, delfält a
+Sök upp det fält som önskas, t.ex. Beståndsfält 948, delfält a
