@@ -2,7 +2,7 @@
 section: Arbetsflöden katalogisering
 title: Tryckt monografi
 order: 16
-date: 2018-10-30
+date: 2018-10-31
 tags:
 - under arbete
 - tryckt monografi
