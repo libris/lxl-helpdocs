@@ -599,7 +599,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Säkerhetspolitik```
 
 ##### Allmänt ämnesord med underindelning   
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
 * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
   Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```   
