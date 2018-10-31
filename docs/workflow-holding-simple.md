@@ -2,7 +2,7 @@
 section: Arbetsflöden bestånd
 title: Enkel beståndsregistrering
 order: 135
-date: 2018-10-18
+date: 2018-10-31
 tags:
 - under arbete
 - bestånd
