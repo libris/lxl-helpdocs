@@ -2,14 +2,14 @@
 section: Arbetsflöden koncept
 title: Länka ämnesord
 order: 100
-date: 2018-10-17
+date: 2018-11-01
 tags:
 - ämnesord
 - koncept
 - under arbete
 ---
 
-## Länka till auktoriserat ämnesord (sao)
+## Lägg till auktoriserat ämnesord (sao)
 
 Lathunden beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
 
@@ -21,7 +21,7 @@ Det beskrivna tillvägagångssättet nedan gäller för allmänna ämnesord, kro
 Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
-#### Länka entitet
+##### Länka entitet
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas.
 
@@ -29,6 +29,4 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen.
 
 * Sök efter önskad term.
 
-* Välj term genom att klicka på den, termen länkas då till verksinformationen i Instans av Verk.
-
-För att lägga till ytterligare auktoriserat ämnesord upprepas tillvägagångssättet i punktlistan ovan.
+* Lägg till term genom att klicka på plustecknet, termen länkas då till verksinformationen i Instans av Verk. Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
