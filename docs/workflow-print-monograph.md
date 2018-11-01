@@ -27,9 +27,9 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)  |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
