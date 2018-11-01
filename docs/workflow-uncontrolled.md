@@ -2,7 +2,7 @@
 section: Arbetsflöden koncept
 title: Okontrollerat ämnesord
 order: 125
-date: 2018-10-17
+date: 2018-11-01
 tags:
 - okontrollerat ämnesord
 - prel-termer
@@ -24,4 +24,4 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 * Klicka på plustecknet  inom den tillagda typen Allmänt ämnesord, sidorutan Lägg till egenskap under öppnas. Sök efter och välj Benämning (label). Skriv in den aktuella termen och lägg till (prel/[sigel]).
 <br/>```Exempel: Korthårstax (prel/S)```
 
-Vid behov av att lägga till fler okontrollerde ämnesord får punkterna ovan upprepas.
+Vid behov av att lägga till fler okontrollerde ämnesord kan den skapade entiteten dupliceras och redigeras.
