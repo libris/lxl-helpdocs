@@ -61,8 +61,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Exempel:```
-  * ```Kod: rda```
+  <br/>```Exempel: Kod: rda```
 
 #### Translitterering
 * Translitterering (marc:romanization = 008/07)
