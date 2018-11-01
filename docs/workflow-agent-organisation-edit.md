@@ -2,7 +2,7 @@
 section: Arbetsflöden agenter
 title: Organisation - Redigera befintlig 
 order: 65
-date: 2018-10-16
+date: 2018-11-01
 tags:
 - under arbete
 - agenter
@@ -12,9 +12,9 @@ tags:
 
 ## Redigera befintlig: Agent - Organisation
 
-<br/>Lathunden beskriver en agentpost för en organisation som kompletterats med fler egenskaper. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
+<br/>Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva. 
 
-Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
@@ -29,12 +29,12 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Tid för grundande](#namn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Variant](#variant) |
-| [**Tillagda egenskaper i Adminmetadata**](#tillagda-egenskaper-i-adminmetadata) | [**Tillagda egenskaper i Agent**](#tillagda-egenskaper-i-agent) | |
-| [Konsulterad källa](#tillagda-egenskaper-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#tillagda-egenskaper-i-adminmetadata) | [Nationalitet](#nationalitet) | |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
+| [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
-| | [**Ytterligare egenskaper att lägga till i Agent vid behov**](#identifikator) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#identifikator) |
 | | [Tid för upphörande](#identifikator) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
@@ -70,7 +70,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
- <br/>```Exempel: Fullständig```Ändras ej.
+ <br/>```Exempel: Fullständig```
+ <br/>Ändras ej.
 
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
@@ -138,7 +139,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: auth/394287```.
   
 
-### Tillagda egenskaper i Adminmetadata
+### Egenskaper att lagga till i Adminmetadata
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
@@ -148,10 +149,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
   * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
-   Ytterligare relevanta källor kan vara.
-   <br/>```Exempel:```
-   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+  Ytterligare relevanta källor kan vara.
+  <br/>```Exempel:```
+  * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
@@ -179,7 +180,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation.
    
   ```Exempel på organisation i två led:```
   * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
@@ -193,7 +194,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: resource/auth/394287```
     
     
-### Tillagda egenskaper i Agent
+### Egenskaper att lagga till i Agent
 
 
   #### Administrativ historik
@@ -220,7 +221,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
 
-### Ytterligare egenskaper att lägga till i Agent vid behov
+### Ytterligare egenskaper att lägga till vid behov
 
 #### Tid för upphörande
 * Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
@@ -252,10 +253,10 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+<br/>Obs! Det fungerar inte att länka i nuläget.
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
-
