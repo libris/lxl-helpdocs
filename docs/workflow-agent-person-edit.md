@@ -2,14 +2,14 @@
 section: Arbetsflöden agenter
 title: Person - Redigera befintlig 
 order: 45
-date: 2018-10-25
+date: 2018-11-01
 tags:
 - redigera agent
 - redigera auktoritet
 - under arbete
 --- 
 
-## Redigera befintlig Agent - Person
+## Redigera befintlig: Agent - Person
 Lathunden beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i lathunden är fiktiva.
 
 Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
