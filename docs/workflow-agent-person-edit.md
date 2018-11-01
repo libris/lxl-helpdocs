@@ -159,7 +159,7 @@ Beskrivning av den auktoriserade agenten.
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
   
-### Egenskaper att lägga till i beskrivningen
+### Egenskaper att lägga till i Agent
 
 #### Födelsedatum
 * Födelsedatum (birthDate = 046 ‡f)
