@@ -2,7 +2,7 @@
 section: Arbetsflöden agenter
 title: Organisation - Skapa ny 
 order: 55
-date: 2018-10-16
+date: 2018-11-01
 tags:
 - under arbete
 - agenter
@@ -86,15 +86,15 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
   * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
-   Ytterligare relevanta källor kan vara.
-   <br/>```Exempel:```
-   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+  Ytterligare relevanta källor kan vara.
+  <br/>```Exempel:```
+  * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
+  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
  
- #### Uppdatering av posten
+#### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
@@ -124,7 +124,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Namn i två led 
 * Är del av/Namn
   <br/>(isPartOf/name = 110 2/- ‡a)
-  <br/>Överordnat namn i en auktoriserad namnform som består av underordnad enhet. Egenskapen används endast tillsammans med Namn på underordnad enhet.
+  <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
   
 * Namn på underordnad enhet (marc/subordinateUnit =110 2/- ‡b)
@@ -150,7 +150,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
-   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation. Lägg sedan till de egenskaper som behövs t ex namn.
+   <br/>För att lägga till variantnamn: Klicka på plustecknet vid egenskapen variant, och välj typ t ex organisation.
    
   ```Exempel på organisation i två led:```
   * ```Är del av/Organisation/Namn: Stockholm University samt Namn på underordnad enhet: Centre for Medieval Studies ```
@@ -207,6 +207,7 @@ För att lägga till: Klicka på plusikonen vid egenskapen Verksamhetsområde, v
   <br/>```Exempel: Herrgårdar```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Andra attribut för person- och organisationsnamn, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+<br/>Obs! Det fungerar inte att länka i nuläget.
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
