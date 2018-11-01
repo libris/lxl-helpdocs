@@ -2,7 +2,7 @@
 section: Arbetsflöden koncept
 title: Kontrollerat, ej auktoriserat ämnesord
 order: 115
-date: 2018-10-17
+date: 2018-11-01
 tags:
 - under arbete
 - ämnesord
@@ -12,7 +12,7 @@ tags:
 
 ## Lägg till kontrollerade men ej auktoriserade ämnesord
 
-Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
+Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller för olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
 
 ### Ämne (subject)
 
@@ -21,10 +21,10 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 * Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas. Välj typen Allmänt ämnesord i rullgardinsmenyn Skapa lokal entitet.
 
-* Klicka på plustecknet inom den tillagda typen Allmänt ämnesord, sidorutan Lägg till fält under öppnas. Sök efter och välj Föredragen benämning (prefLabel). Skriv in den aktuella termen.
+* Klicka på plustecknet inom den tillagda typen Allmänt ämnesord, sidorutan Lägg till fält under öppnas. Sök efter och välj Föredragen benämning (prefLabel) och Termlista (inScheme).
 
-* Klicka på plustecknet inom den tillagda typen Allmänt ämnesord, sidorutan Lägg till fält under öppnas. Sök efter och välj Termlista (inScheme). 
+* Skriv in aktuell term i Föredragen benämning.
 
 * Klicka på plustecknet intill Termlista, sidorutan Lägg till entitet öppnas. Sök efter och lägg till listkod (t.ex. kao). Koden länkas till verksinformationen.
 
-Upprepa punkterna ovan för att lägga till fler ämnesord.
+Duplicera och redigera den skapade entiteten för att lägga till fler ämnesord.
