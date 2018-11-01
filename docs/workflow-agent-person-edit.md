@@ -21,20 +21,20 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 ### Innehåll
 
-| [**Befintliga egenskaper i Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Befintliga egenskaper i beskrivningen**](#befintliga-egenskaper-i-beskrivningen) | 
+| [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
 | [Konsulterad källa](#poststatus) | [Nationalitet](#nationalitet) |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i beskrivningen**](#nationalitet) |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Valbara egenskaper relevanta för Agent Person**](#valbara-egenskaper-relevanta-for-agent-person) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#biografiska-uppgifter) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#verksamhetsomrade) |
@@ -45,75 +45,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Organisatorisk tillhörighet](#ordningstal) |
 
 
-
-### Befintliga egenskaper i beskrivningen
-Beskrivning av den auktoriserade agenten. 
-
-#### Efternamn
-* Efternamn (FamilyName = 100 i1=1 ‡a)
-  <br/>```Exempel: Jansson```
-
-#### Förnamn
-* Förnamn (GivenName = = 100 ‡a)
-  <br/>```Exempel: Erik```
-
-#### Födelse- och/eller dödstid
-* Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
-  <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
-  <br/>```Exempel: 1848-1920```
-
-#### Nationalitet
-* Nationalitet/verksamhetsland (Nationality = 043 ‡a)
-  <br/>Nationalitet/verksamhetsland förknippat med personen. Vid behov kan denna ändras eller raderas.
-  <br/>För att lägga till: Klicka på plustecknet under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-
-#### Samma sak som
-* Samma sak som (SameAs)
-  <br/>```Exempel: resource/auth/247521```
-  
-### Egenskaper att lägga till i beskrivningen
-
-#### Födelsedatum
-* Födelsedatum (birthDate = 046 ‡f)
-  <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/>```Exempel: 18480219```
-
-#### Dödsdatum  
-* Dödsdatum (deathDate = 046 ‡g)
-  <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/>```Exempel: 19201209```
-
-#### Variant
-* Variant (hasVariant = 400 ‡a ‡d)
-  <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
-  <br/>```Exempel:``` 
-  * ```Efternamn: Jansson```  
-  * ```Förnamn: Eric```
-  * ```Efternamn: Janzon```
-  * ```Förnamn: Erik Gustaf```
-    <br/>För att lägga till ytterligare Variant: Klicka på plustecknet under egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
-  
-#### Identifikator
-* Identifikator (identifiedBy = 024 ‡a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/>```Exempel: 0000000121339888 ```
-  <br/>För att lägga till: Klicka på plustecknet under Identifikator, välj typ (ISNI). Klicka på plustecknet inom det tillagda Identifikator, sök efter och lägg till Värde.
-
-#### Har yrke eller sysselsättning
-* Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-   <br/>```Exempel:```
-   * ```Romanförfattare ```
-   * ```Översättare```
-   <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-
-#### Biografiska uppgifter
-* Biografiska uppgifter (hasBiographicalInformation = 678)
-  <br/>Används för att ange biografisk information är om personens liv eller historia.
-  <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
-
-### Befintliga egenskaper i Adminmetadata
+### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
 
 #### Kontrollnummer
@@ -201,7 +133,76 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/marjan```
 
-### Valbara egenskaper relevanta for Agent Person
+  
+### Agent
+Beskrivning av den auktoriserade agenten. 
+
+#### Efternamn
+* Efternamn (FamilyName = 100 i1=1 ‡a)
+  <br/>```Exempel: Jansson```
+
+#### Förnamn
+* Förnamn (GivenName = = 100 ‡a)
+  <br/>```Exempel: Erik```
+
+#### Födelse- och/eller dödstid
+* Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
+  <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
+  <br/>```Exempel: 1848-1920```
+
+#### Nationalitet
+* Nationalitet/verksamhetsland (Nationality = 043 ‡a)
+  <br/>Nationalitet/verksamhetsland förknippat med personen. Vid behov kan denna ändras eller raderas.
+  <br/>För att lägga till: Klicka på plustecknet under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+
+#### Samma sak som
+* Samma sak som (SameAs)
+  <br/>```Exempel: resource/auth/247521```
+  
+### Egenskaper att lägga till i beskrivningen
+
+#### Födelsedatum
+* Födelsedatum (birthDate = 046 ‡f)
+  <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
+  <br/>```Exempel: 18480219```
+
+#### Dödsdatum  
+* Dödsdatum (deathDate = 046 ‡g)
+  <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
+  <br/>```Exempel: 19201209```
+
+#### Variant
+* Variant (hasVariant = 400 ‡a ‡d)
+  <br/>Här anges variantnamn och alternativa namnformer samt födelse och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i de bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till.
+  <br/>```Exempel:``` 
+  * ```Efternamn: Jansson```  
+  * ```Förnamn: Eric```
+  * ```Efternamn: Janzon```
+  * ```Förnamn: Erik Gustaf```
+    <br/>För att lägga till ytterligare Variant: Klicka på plustecknet under egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid).
+  
+#### Identifikator
+* Identifikator (identifiedBy = 024 ‡a)
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>```Exempel: 0000000121339888 ```
+  <br/>För att lägga till: Klicka på plustecknet under Identifikator, välj typ (ISNI). Klicka på plustecknet inom det tillagda Identifikator, sök efter och lägg till Värde.
+
+#### Har yrke eller sysselsättning
+* Har yrke eller sysselsättning (hasOccupation = 374)
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
+   <br/>```Exempel:```
+   * ```Romanförfattare ```
+   * ```Översättare```
+   <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+
+#### Biografiska uppgifter
+* Biografiska uppgifter (hasBiographicalInformation = 678)
+  <br/>Används för att ange biografisk information är om personens liv eller historia.
+  <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
+
+
+### Ytterligare egenskaper att lagga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
