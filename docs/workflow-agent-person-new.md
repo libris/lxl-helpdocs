@@ -220,8 +220,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 #### Namn
 * Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för Förnamn och Efternamn. **Kan användas i kombination med Förnamn och Efternamn endast för att ange variantnamn.**
-  <br/>```Exempel:```
-  * ```Namn: Bang``` 
+  <br/>```Exempel: Namn: Bang``` 
   <br/>Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
