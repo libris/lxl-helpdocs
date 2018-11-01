@@ -172,14 +172,15 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
- Skriv in uppgiften.    
+ Skriv in uppgiften under huvudtitel.      
  ```Exempel: Bergens väktare```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
+För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
 Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). 
+  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Typanmärkning (246 ‡i): Skyddsomslag:```
@@ -430,9 +431,6 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
   
-  Om andra delfält i 776 önskas, skapa istället Instans som lokal entitet och lägg till önskade egenskaper. 
-Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", skapa Instans som lokal entitet och lägg till Typanmärkning (= (776 ‡i) samt Har titel/Titel och Identifikator/ISBN/Värde. Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera det i befintliga beskrivningar. 
-
 
 ### Verk   
 
