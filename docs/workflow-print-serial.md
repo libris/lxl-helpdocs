@@ -187,7 +187,7 @@ Används för akronymer som är en del av huvudtiteln.
   Skriv in uppgiften under Benämning.    
   ```Exempel: [Göteborg]``` 
 ##### Utgivningsland
-   * Land (country = 008/15-17)  
+  * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
