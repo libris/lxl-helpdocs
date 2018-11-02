@@ -262,10 +262,12 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.  
   ```Exempel: [Göteborg]```  
+  
 ##### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
+  
 ##### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
