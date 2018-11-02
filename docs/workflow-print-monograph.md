@@ -28,7 +28,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)  |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
@@ -299,7 +299,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-  
+   
 #### Tillverkning 
 * Tillverkning (manufacture)  
 
@@ -339,7 +339,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: 24 cm``` 
   
 #### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e) 
+* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
@@ -404,7 +404,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här.    
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Benämning.  
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
@@ -434,7 +434,6 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
-
 ### Verk   
 
 #### Instans av Verk/Text  
@@ -460,7 +459,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
  "Originaltitel" för ett verk utan primär medverkande anger du här.  
 Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
-Skriv in uppgiften.  
+Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
