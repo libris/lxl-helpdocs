@@ -182,16 +182,16 @@ Används för akronymer som är en del av huvudtiteln.
   För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
   
 ##### Utgivningsplats
-  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.    
   ```Exempel: [Göteborg]```   
 ##### Utgivningsland
-  * Land (country = 008/15-17)  
+* Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```   
 ##### Utgivarnamn
-  * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+* Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```  
@@ -201,12 +201,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
   
 ##### År och datum    
-  * Startår (startYear = 008/7-10)  
+* Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   Skriv in uppgiften.  
    ```Exempel: 2011```  
-  * Slutår (endYear = 008/11-14)  
+* Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
   För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
@@ -214,7 +214,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften.  
   ```Exempel: 2013```     
   För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
-  * Datum (date = 264 -/1 ‡c)  
+* Datum (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
