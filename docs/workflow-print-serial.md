@@ -2,7 +2,7 @@
 section: Arbetsflöden katalogisering
 title: Tryckt seriell resurs
 order: 25
-date: 2018-11-02
+date: 2018-11-05
 tags:
 - under arbete
 - seriell resurs
@@ -205,7 +205,8 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ##### År och datum    
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
-  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
+  För att lägga till Startår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
   Skriv in uppgiften.  
    ```Exempel: 2011```  
 * Slutår (endYear = 008/11-14)  
@@ -213,6 +214,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
+   För att lägga till Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
   Skriv in uppgiften.  
   ```Exempel: 2013```     
   För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
@@ -369,7 +371,7 @@ Länka i första hand till färdiga sammansatta termer som entiteter. I övriga 
   Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
   ```Exempel: juridik och lagstiftning```   
   
-##### Geografiska ämnesord  
+##### Geografiskt ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
