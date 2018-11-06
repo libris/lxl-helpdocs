@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden katalogisering
+section: Hjälptexter katalogisering
 title: Tryckt seriell resurs
 order: 25
 date: 2018-11-05
