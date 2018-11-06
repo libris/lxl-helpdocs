@@ -12,7 +12,7 @@ tags:
 
 ## Lägg till kontrollerade men ej auktoriserade ämnesord
 
-Lathunden beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller för olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
+Hjälptexten beskriver hur kontrollerade men ej auktoriserade ämnesord läggs till verksinformationen i Instans av Verk. Det beskrivna tillvägagångssättet gäller för olika typer av ämnesord men i lathunden används allmänna ämnesord som exempel. Tillvägagångssättet gäller ämnesord från de kontrollerade listorna AGROVOC, kao, prvt m.fl.
 
 ### Ämne (subject)
 
