@@ -11,7 +11,7 @@ tags:
 
 ## Länka till auktoriserat ämnesord (sao)
 
-Lathunden beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
+Hjälptexten beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
 
 Det beskrivna tillvägagångssättet nedan gäller för allmänna ämnesord, kronologiska ämnesord, geografiska ämnesord och sammansatta termer (allmänna respektive geografiska termer med underindelning) där det finns auktoriserade termer att länka till. 
 
