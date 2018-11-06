@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden katalogisering
+section: Hjälptexter katalogisering
 title: Lägga till Agent - Organisation i Instans av Verk
 order: 33
 date: 2018-10-18
