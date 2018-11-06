@@ -11,7 +11,7 @@ tags:
 
 ## Lägg till sammansatt men ej auktoriserat ämnesord 
 
-Lathunden beskriver hur sammansatta ämnesord (som inte finns auktoriserade som en sträng) läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
+Hjälptexten beskriver hur sammansatta ämnesord (som inte finns auktoriserade som en sträng) läggs till verksinformationen i Instans av Verk och där de ingående beståndsdelarna (huvudord respektive underindelning) är auktoriserade termer från ämnesordssystemet Svenska ämnesord (sao). 
 
 För att lägga till geografiska sammansatta ämnesord är tillvägagångssättet delvis annorlunda. Se avsnittet [Geografiskt huvudord med geografisk underindelning](#geografiskt-huvudord-med-geografisk-underindelning) nedan.
 
