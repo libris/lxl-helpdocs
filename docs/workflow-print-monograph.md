@@ -88,7 +88,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.  
-   <br/>```Exempel:```
+  <br/>```Exempel:```
   * ```(BOKR)9789188107213```
   * ```(OCoLC)on1042213159```  
   
