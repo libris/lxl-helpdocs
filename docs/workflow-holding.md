@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden bestånd
+section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
 date: 2018-10-31
