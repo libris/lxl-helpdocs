@@ -12,7 +12,7 @@ tags:
 
 ## Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag
 
-Lathunden beskriver hur okontrollerade ämnesord läggs till verksinformationen i Instans av Verk. Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. Se mer information om ämnesordsförslag på [Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/nytt_amnesord/).
+Hjälptexten beskriver hur okontrollerade ämnesord läggs till verksinformationen i Instans av Verk. Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. Se mer information om ämnesordsförslag på [Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/nytt_amnesord/).
 
 ### Ämne (subject)
 
