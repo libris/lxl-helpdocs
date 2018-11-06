@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden katalogisering
+section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 16
 date: 2018-11-05
