@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 16
-date: 2018-11-06
+date: 2018-11-07
 tags:
 - under arbete
 - tryckt monografi
@@ -656,7 +656,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
   [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
