@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt seriell resurs
 order: 25
-date: 2018-11-05
+date: 2018-11-07
 tags:
 - under arbete
 - seriell resurs
@@ -350,7 +350,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
   [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
 ##### Allmänt ämnesord  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
