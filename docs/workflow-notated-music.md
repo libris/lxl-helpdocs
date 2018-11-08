@@ -1,3 +1,13 @@
+---
+section: Hjälptexter katalogisering
+title: Musiktryck
+order: 30
+date: 2018-11-08
+tags:
+- under arbete
+- musiktryck
+--- 
+
 
 ## Musiktryck
 
@@ -69,7 +79,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).  
   Skriv in uppgiften under Sigel.  
   För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
+  ```Exempel:```
   * ```NB```
   * ```SAMB```
   
@@ -96,16 +106,16 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
-Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
-I mallar är Miniminivå förvalt. Ändra vid behov.  
+  För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
+  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
+  Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
+  I mallar är Miniminivå förvalt. Ändra vid behov.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```  
   
 #### Translitterering
 * Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
-   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
+  Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
    
 #### Poststatus     
 * Poststatus (recordStatus = 000/05)  
@@ -116,12 +126,12 @@ I mallar är Miniminivå förvalt. Ändra vid behov.
  
 #### Systemteknisk anmarkning  
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
+  För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
+  Låt anmärkning om postimport ligga kvar.  
+  ```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
 
   I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
-```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
+  ```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
@@ -157,7 +167,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
   ```Exempel: Huvudtitel: The best of Heavy metal, fileringsvärde: 4```  
   Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+ [Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
@@ -190,90 +200,93 @@ För Varianttitel och andra titelvarianter, se hjälptexten för Tryckt monograf
   * ```Voix élevée```
   * ```Vocal score```    
 * Påföljande upplageuppgift (editionStatementRemainder = 250 ‡b)  
-Skriv in uppgifter som följer omedelbart efter upplagebeteckningen här.  
+  Skriv in uppgifter som följer omedelbart efter upplagebeteckningen här.  
   ```Exempel: prepared by Imogen Holst & Colin Matthews```  
 
 #### Utgivning  
-* Utgivning (publication)  
-  Välj typ från lista. För monografier, använd Primär utgivning.     
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
-  Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.  
+ * Utgivning (publication)  
+   Välj typ från lista. För monografier, använd Primär utgivning.     
+   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
+   NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
+   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
+   Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.  
  
  ##### Utgivningsplats  
- * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
-  Skriv in uppgiften under Benämning. Klamra vid behov.  
-  ```Exempel: [Wiesbaden]```  
+  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+    För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
+    Skriv in uppgiften under Benämning. Klamra vid behov.  
+    ```Exempel: [Wiesbaden]```  
  
  ##### Utgivarnamn  
   * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
-  Skriv in uppgiften under Benämning.  
-  ```Exempel: Breitkopf & Härtel```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
-  Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
+    För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
+    Skriv in uppgiften under Benämning.  
+    ```Exempel: Breitkopf & Härtel```   
+    Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
+    Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
+    Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
+    Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
  ##### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
-  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
-  ```Exempel: 2017```  
+    År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
+    Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
+    För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+    ```Exempel: 2017```  
+
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
-  Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År.  
-  Skriv in uppgiften.
-  <br/>```Exempel:```
+    Datum får innehålla text och interpunktionstecken.  
+    För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
+    För att ange ett år utan klamrar eller andra tecken, använd endast År.  
+    Skriv in uppgiften.
+    <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 1863 och 1866?]```
   
-* Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
- <br/>```Exempel:```
-  * ```Startår: 1999```
-  * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  * Flera år (flerbandsverk)  
+    Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
+    <br/>```Exempel:```
+    * ```Startår: 1999```
+    * ```Slutår: 2017```
+    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
  
 ##### Utgivningsland  
- * Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```  
+   * Land (country = 008/15-17)  
+     Länka till entitet.  
+     ```Exempel: Sverige (sw)```  
   
 #### Tillverkning 
-* Tillverkning (manufacture)  
+   * Tillverkning (manufacture)  
 
 ##### Tillverkningsplats (Tillverkningsort) 
-* Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
-  ```Exempel: Falun```  
+   * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
+    ```Exempel: Falun```  
+
 ##### Tillverkningsnamn  
-* Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
-  Skriv in uppgiften.   
-  ```Exempel: Scandbook```   
+   * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
+     Skriv in uppgiften.   
+     ```Exempel: Scandbook```   
+
 ##### Tillverkningstid   
-* Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
-  Skriv in uppgiften. Klamra vid behov.
-  <br/>```Exempel:```
-  * ```2017```
-  * ```[2017]```
+   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
+     Skriv in uppgiften. Klamra vid behov.
+     <br/>```Exempel:```
+     * ```2017```
+     * ```[2017]```
   
 #### Copyrightar   
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
-  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
-  Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  ```Exempel: ©2017```  
+  * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
+    För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
+    Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
+    Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+    ```Exempel: ©2017```  
 
 #### Identifikator 
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
+  * Identifikator (identifiedBy)  
+    Välj typ från lista.  
+    ```Exempel: ISBN```
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
@@ -290,10 +303,10 @@ För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Anv�
   Skriv in uppgiften.  
   ```Exempel: N.M.S. 1090```
 * Identifikator/Editionsnummer  
-  o Värde (identifiedBy/MusicPublisherNumber/value = 028 3 1 ‡a)
+  * Värde (identifiedBy/MusicPublisherNumber/value = 028 3 1 ‡a)
   Skriv in uppgiften.  
   ```Exempel: HN 6027```  
-  o Agent/organisation/namn (identifiedBy/MusicPublisherNumber/agent/Organization/name = 028 3 1 ‡b)  
+  * Agent/organisation/namn (identifiedBy/MusicPublisherNumber/agent/Organization/name = 028 3 1 ‡b)  
   Skriv in förlagets namn, om det anges i omedelbar anslutning till editionsnumret.  
   ```Exempel: Henle```
 
