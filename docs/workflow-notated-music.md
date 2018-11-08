@@ -80,7 +80,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).
   <br/>Skriv in uppgiften under Sigel.
   <br/>För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
-    <br/>```Exempel:```
+  <br/>```Exempel:```
   * ```NB```
   * ```SAMB```
   
