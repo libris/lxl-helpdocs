@@ -183,7 +183,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 För att ange föredragen titel (=uniform titel), se Verk/Har titel/Titel/Huvudtitel.  
 
 För Varianttitel och andra titelvarianter, se hjälptexten för Tryckt monografi:
-[Varianttitel](https://libris.kb.se/katalogisering/help/workflow-print-monograph#titel-varianttitel)
+[Varianttitel](https://libris.kb.se/katalogisering/help/workflow-print-monograph#titel)
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
@@ -284,8 +284,8 @@ För Varianttitel och andra titelvarianter, se hjälptexten för Tryckt monograf
 #### Copyrightar   
   * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
     För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
-    Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
-    Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+    Skriv in uppgiften. 
+    För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184. Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
     ```Exempel: ©2017```  
 
 #### Identifikator 
