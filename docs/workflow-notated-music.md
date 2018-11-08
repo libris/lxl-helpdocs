@@ -489,13 +489,13 @@ Ange eventuellt arrangemang. Skriv in uppgiften.
   ```Exempel: arr. röst, piano```  
          
 ##### Verkets titel - huvuduppslag
-För att ange "Originaltitel" för ett verk utan primär medverkande, t ex Bibeln, motsvarande fält 130, se [Hjälptext Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel) 
+För att ange "Originaltitel" för ett verk utan primär medverkande, t ex Bibeln, motsvarande fält 130, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - huvuduppslag
 
 ##### Verkets titel - analytisk sökingång  
-För att ange verk som ingår i det beskrivna verket motsvarande fält 730 0/2 (analytisk sökingång), se [Hjälptext Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel)  
+För att ange verk som ingår i det beskrivna verket motsvarande fält 730 0/2 (analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - analytisk sökingång    
 
 ##### Verkets titel - relaterade verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång), se [Hjälptext Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#verkets-titel) 
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - relaterade verk  
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
