@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2018-09-26
+date: 2018-11-08
 tags:
 - start
 ---
@@ -17,7 +17,7 @@ Hjälpsektionen är under arbete och uppdateras kontinuerligt.
 
 ## Vidare information
 
-* [Felrapportering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
 * [Librisbloggen](https://librisbloggen.kb.se)
 * [Supportforum för nya Libris](https://kundo.se/org/librisxl/) 
+* [Felrapportering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
 * [Ändringsförslag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
