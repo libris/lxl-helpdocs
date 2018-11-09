@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 65
-date: 2018-11-08
+date: 2018-11-09
 tags:
 - under arbete
 - agenter
@@ -176,7 +176,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 ‡a ‡b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
+<br/>OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
   <br/>```Exempel:```
    * ```Släktforskarförbundet```
    * ```Federation of Swedish Genealogical Societies```
