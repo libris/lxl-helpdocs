@@ -732,8 +732,3 @@ Läs mer:
   Lägg till anmärkning om akademisk avhandling (plustecknet vid Instans av Verk: Text - Lägg till egenskaper under: Text, välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan till höger).  
 Skriv in anmärkningen under Benämning.    
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
-
-
-[Test](workflow-notated-music#verkets-titel)
-
-## Header 1 {#header1}
