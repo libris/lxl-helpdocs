@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt seriell resurs
 order: 25
-date: 2018-11-07
+date: 2018-11-12
 tags:
 - under arbete
 - seriell resurs
@@ -464,3 +464,5 @@ Läs mer:
   Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
   Uppdelat på (splitInto = 785 0/6)  
   Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
+  
+  [Test](workflow-notated-music#verkets-titel)
