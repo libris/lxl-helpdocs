@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 16
-date: 2018-11-12
+date: 2018-11-13
 tags:
 - under arbete
 - tryckt monografi
@@ -154,7 +154,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.    
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
@@ -367,7 +367,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
+För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Instans och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
