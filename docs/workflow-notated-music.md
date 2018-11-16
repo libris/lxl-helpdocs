@@ -491,14 +491,14 @@ Ange numreringar för verket här, vid behov. Skriv in uppgiften.
     Ange eventuellt arrangemang. Skriv in uppgiften.  
      ```Exempel: arr. röst, piano```  
          
-##### Verkets titel - huvuduppslag
-För att ange "Originaltitel" för ett verk utan primär medverkande, t ex Bibeln, motsvarande fält 130, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - huvuduppslag
+  ##### Verkets titel - huvuduppslag
+  För att ange "Originaltitel" för ett verk utan primär medverkande, t ex Bibeln, motsvarande fält 130, se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - huvuduppslag
 
-##### Verkets titel - analytisk sökingång  
-För att ange verk som ingår i det beskrivna verket motsvarande fält 730 0/2 (analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - analytisk sökingång    
+  ##### Verkets titel - analytisk sökingång  
+  För att ange verk som ingår i det beskrivna verket motsvarande fält 730 0/2 (analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - analytisk sökingång    
 
-##### Verkets titel - relaterade verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - relaterade verk  
+  ##### Verkets titel - relaterade verk  
+  För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång), se hjälptexten [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph): Verkets titel - relaterade verk  
 
 #### Medverkan och funktion  
   * Medverkan och funktion  
@@ -532,9 +532,9 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     * ```svenska (swe)```  
   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
-##### Översättning  
-För en översättning, ange även:  
-  * Språk/Språk/Benämning (Language/label = 240 ‡l)  
+  ##### Översättning  
+  För en översättning, ange även:  
+    * Språk/Språk/Benämning (Language/label = 240 ‡l)  
     Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).   
     Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
@@ -550,48 +550,48 @@ För en översättning, ange även:
     ```Exempel: engelska (eng)```  
     För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
-###### Texten delvis översatt  
- (041 0/- #a + 041 1/- #a #h)  
-  * Språk (language = 008/35-37) +
+    ###### Texten delvis översatt  
+    (041 0/- #a + 041 1/- #a #h)  
+    * Språk (language = 008/35-37) +
     Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
-  * Har del/Verk/Språk (hasPart/Work/language = 041 ‡a) +  
+    * Har del/Verk/Språk (hasPart/Work/language = 041 ‡a) +  
     Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-    Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h)  
+    Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h)
     För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk - Lägg till egenskap under: Text och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
   
-Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+    Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
 
 #### Genre  
-##### Saogf-termer  
-  * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+  ##### Saogf-termer  
+    * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
     Här anges såväl besättning som genre/form. Länka till entitet.  
     För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.
     <br/>```Exempel:```
-    * ```Piano```
-    * ```Blandad kör```
-    * ```Menuetter```  
-    Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+      * ```Piano```
+      * ```Blandad kör```
+      * ```Menuetter```  
+      Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
 #### Klassifikation 
-  * DDK-klassifikation  
-  För att lägga till DDK-klassifikation:  
-    * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-    * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+    * DDK-klassifikation  
+    För att lägga till DDK-klassifikation:  
+      * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+      * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
 
-  * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 782.5```  
-  * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```full```  
-  *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-  (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+    * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
+    Skriv in uppgiften.  
+    ```Exempel: 782.5```  
+    * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+    (classification/ClassificationDdc/edition = 082 ‡2)  
+    ```full```  
+    * Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+    (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
    ```Exempel: 23/swe```  
   
-##### SAB-klassifikation  
-  * SAB-klassifikation  
-   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-    * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
+    ##### SAB-klassifikation  
+      * SAB-klassifikation  
+      För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
+        * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
     * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till egenskaper under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
