@@ -562,10 +562,10 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
 
 #### Genre  
-  ##### Saogf-termer  
-    * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+##### Saogf-termer  
+  * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
     Här anges såväl besättning som genre/form. Länka till entitet.  
-    För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.
+    För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med *  i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.
     <br/>```Exempel:```
       * ```Piano```
       * ```Blandad kör```
@@ -573,11 +573,10 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
       Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
 #### Klassifikation 
-    * DDK-klassifikation  
+   * DDK-klassifikation  
     För att lägga till DDK-klassifikation:  
       * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
       * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-
     * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
     Skriv in uppgiften.  
     ```Exempel: 782.5```  
@@ -588,14 +587,13 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
    ```Exempel: 23/swe```  
   
-    ##### SAB-klassifikation  
-      * SAB-klassifikation  
-      För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-        * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
+   * SAB-klassifikation  
+   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
+     * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
-    * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till egenskaper under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
+     * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till egenskaper under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
-  * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
+     * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
   ```Exempel: Xpbc```   
   * Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
@@ -604,40 +602,38 @@ Skriv in uppgiften under Kod.
  ```Exempel: 8``` 
 
 #### Amne  
-  * Ämne  
-  För samlingar där den geografiska eller kronologiska aspekten är framhävd får genre/form/besättning kompletteras med geografiska eller kronologiska ämnesord (i separata fält). Titel "French piano music" kan alltså indexeras med Piano och Frankrike.  
-  Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ämne och klicka på plustecknet vid termen. Klicka sedan på plustecknet vid Ämne och välj typ i listan Alla typer: Geografiskt ämnesord eller kronologiskt ämnesord. Sök upp ämnesordet, t ex Frankrike, och länka till entitet genom att klicka på plustecknet vid termen.
-  Läs mer:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
+   * Ämne  
+   För samlingar där den geografiska eller kronologiska aspekten är framhävd får genre/form/besättning kompletteras med geografiska eller kronologiska ämnesord (i separata fält). Titel "French piano music" kan alltså indexeras med Piano och Frankrike.  
+   Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ämne och klicka på plustecknet vid termen. Klicka sedan på plustecknet vid Ämne och välj typ i listan Alla typer: Geografiskt ämnesord eller kronologiskt ämnesord. Sök upp ämnesordet, t ex Frankrike, och länka till entitet genom att klicka på plustecknet vid termen.
+   Läs mer:  
+   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+   [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+   [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+   [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
-##### Geografiskt ämnesord  
+  ##### Geografiskt ämnesord  
   * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
   ```Exempel: Sverige```
   
-##### Geografiskt ämnesord med geografisk underindelning  
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-  * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
+  ##### Geografiskt ämnesord med geografisk underindelning  
+  Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till   höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+    * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+    Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```  
-  * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
- (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
- Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
-  ```Exempel: Tyskland```  
-  * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
- (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
+    * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+    Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan      Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
+    ```Exempel: Tyskland```  
+    * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
+    Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet.   I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
   ```Exempel: Bonn``` 
    
-##### Kronologiskt ämnesord
-  * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
- ```Exempel: 1800-talet```  
+  ##### Kronologiskt ämnesord
+   * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
+   Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
+  ```Exempel: 1800-talet```  
   
-##### Anmärkning om notationssystem och språk
+#### Anmärkning om notationssystem och språk
   * Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 ‡b)
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
@@ -653,7 +649,7 @@ Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva a
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
-##### Sekundär DDK-klassifikation  
+#### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
   * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
@@ -678,51 +674,51 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Här anges ingående verk om instansen manifesterar fler än ett verk, med föredragna titlar och medverkande.  
   För att ange verk som ingår i det beskrivna verket, klicka på pilen vid Relation och skriv in uppgifterna enligt instruktionerna nedan. För att ange ytterligare verk klicka på ikonen med dubbla fyrkanter till höger om Relation (Duplicera entitet).  
   
-##### Verk/Har titel/Titel
-  * Huvudtitel (hasTitle/Title/mainTitle = 700 1/_ ‡a)  
-  Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
-  <br/>```Exempel:```
-    * ```La traviata```
-    * ```Symfoni```
+  ##### Verk/Har titel/Titel
+   * Huvudtitel (hasTitle/Title/mainTitle = 700 1/_ ‡a)  
+   Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
+   <br/>```Exempel:```
+      * ```La traviata```
+      * ```Symfoni```
          
-  * Delbeteckning (hasTitle/Title/mainTitle = 700 1/_  ‡n)  
-  Ange numreringar för verket här, vid behov. Skriv in uppgiften.
-  <br/>```Exempel:```
-    * ```nr 96, Hob. I:96```
-    * ```nr 3, op. 90```
+   * Delbeteckning (hasTitle/Title/mainTitle = 700 1/_  ‡n)  
+    Ange numreringar för verket här, vid behov. Skriv in uppgiften.
+    <br/>```Exempel:```
+      * ```nr 96, Hob. I:96```
+      * ```nr 3, op. 90```
          
-  * Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 700 1/_ ‡p)  
-  Lägg till eventuell deltitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Deltitel. Skriv in uppgiften.
-  <br/>```Exempel:```
-    * ```Di Provenza il mar```
-    * ```Allegro```
+   * Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 700 1/_ ‡p)  
+    Lägg till eventuell deltitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Deltitel. Skriv in uppgiften.
+    <br/>```Exempel:```
+      * ```Di Provenza il mar```
+      * ```Allegro```
 
-  Använd Huvudtitel för hela den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version, Besättning och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
-  <br/>```Exempel:```
-    * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
-    * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```
+   Använd Huvudtitel för hela den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version, Besättning och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
+    <br/>```Exempel:```
+      * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
+      * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```
         
-  * Verk/Tonart (700 1/_ ‡r) 
-  Ange tonart. Skriv in uppgiften.  
-  ```Exempel: Fiss-moll```  
+   * Verk/Tonart (700 1/_ ‡r) 
+   Ange tonart. Skriv in uppgiften.  
+   ```Exempel: Fiss-moll```  
 
-  * Verk/Version (700 1/_ ‡o)  
-  Ange eventuellt arrangemang.  
-  Skriv in uppgiften.  
-  ```Exempel: arr. röst, piano```  
+   * Verk/Version (700 1/_ ‡o)  
+    Ange eventuellt arrangemang.  
+    Skriv in uppgiften.  
+    ```Exempel: arr. röst, piano```  
 
-  * Verk/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 700 1/_ ‡a)
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-  ```Exempel: Maier-Röntgen, Amanda, 1853-1894```  
+   * Verk/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 700 1/_ ‡a)
+    Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+    ```Exempel: Maier-Röntgen, Amanda, 1853-1894```  
 
-  * Verk/Besättning för framförande (700 1/_ ‡m)  
-  Ange besättning. Skriv in uppgiften.
-  <br/>```Exempel:```
-    * ```orkester```
-    * ```klarinett, piano```
-    * ```blandad kör```
+   * Verk/Besättning för framförande (700 1/_ ‡m)  
+    Ange besättning. Skriv in uppgiften.
+    <br/>```Exempel:```
+      * ```orkester```
+      * ```klarinett, piano```
+      * ```blandad kör```
       
-  * Verk/Språk/Språk/Benämning (Language/label = 700 1/_ ‡l)  
-  Språk för översättning. Lägg till en förekomst av Språk under Relation/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 1/_ ‡l.  
-  ```Exempel: Svenska```  
+   * Verk/Språk/Språk/Benämning (Language/label = 700 1/_ ‡l)  
+   Språk för översättning. Lägg till en förekomst av Språk under Relation/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
+    Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 1/_ ‡l.  
+    ```Exempel: Svenska```  
