@@ -94,9 +94,9 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
- <br/>```Exempel:```
-  * ```(BOKR)9789188107213```
-  * ```(OCoLC)on1042213159```  
+<br/>```Exempel:```
+ * ```(BOKR)9789188107213```
+ * ```(OCoLC)on1042213159```  
   
   För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
@@ -322,8 +322,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```  
- <br/>
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  
+
 ```Exempel:```
   * ```Startår: 1753```
   * ```Slutår: 1756```
