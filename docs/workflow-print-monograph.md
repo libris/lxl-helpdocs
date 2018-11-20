@@ -94,7 +94,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-  <br/>```Exempel:```
+ <br/>```Exempel:```
   * ```(BOKR)9789188107213```
   * ```(OCoLC)on1042213159```  
   
@@ -322,9 +322,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```  
   <br/>
-  ```Exempel:```
+ ```Exempel:```
   * ```Startår: 1753```
   * ```Slutår: 1756```
   * ```Datum: [1732?]-1756```
@@ -537,8 +537,8 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-  <br/>```Exempel:```
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
+ <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Jöran Persson, ca 1530-1568```
   
