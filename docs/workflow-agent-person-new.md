@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 40
-date: 2018-11-01
+date: 2018-11-20
 tags:
 - agenter
 - auktoriteter
@@ -10,7 +10,7 @@ tags:
 ---
 
 ## Skapa ny: Agent - Person
-Hjälptexten beskriver de egenskaper och klasser som finns representerade i mallen. Om någon egenskap eller något av inmatningsfälten i mallen inte behövs kan de raderas med hjälp av papperskorgen intill. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. 
+Hjälptexten beskriver de egenskaper och klasser som finns representerade i mallen. Ett urval av egenskaper relevanta för person som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. 
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
@@ -61,7 +61,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)
   <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Exempel: Kod: rda```
+  <br/>```Exempel:```
+  * ```Kod: rda```
 
 #### Translitterering
 * Translitterering (marc:romanization = 008/07)
@@ -86,14 +87,15 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
   <br/>```Exempel på obligatorisk källa:``` 
-  * ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
+  * ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Lagerlöf, Selma```
   * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
 
   <br/>```Exempel på kompletterande källa:``` 
   * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
   * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
-  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
+  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
+  * ```Benämning: Birthday. Uppgift från källa: Född: 1988```
+  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Proclus, approximately 410-485```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
@@ -220,7 +222,8 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 #### Namn
 * Namn (name = 100 0/- ‡a)
   <br/>Används för namn i rak följd istället för Förnamn och Efternamn. **Kan användas i kombination med Förnamn och Efternamn endast för att ange variantnamn.**
-  <br/>```Exempel: Namn: Bang``` 
+  <br/>```Exempel:```
+  * ```Namn: Bang``` 
   <br/>Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
@@ -271,3 +274,4 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+
