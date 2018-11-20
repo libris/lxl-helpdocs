@@ -2,14 +2,14 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 45
-date: 2018-11-01
+date: 2018-11-20
 tags:
 - redigera agent
 - redigera auktoritet
 - under arbete
 --- 
 
-## Redigera befintlig: Agent - Person
+## Redigera befintlig Agent - Person
 Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
 
 Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
@@ -116,11 +116,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
   <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
   
-  <br/>```Exempel på ytterligare källor:```
-  <br/>```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  <br/>```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
-  <br/>```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
-  <br/>```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Fullständigare namnform: Rowling, J. K.```
+  <br/>```Exempel på kompletterande källa:``` 
+  * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
+  * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
+  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
+  * ```Benämning: Birthday. Uppgift från källa: Född: 1988```
+  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Proclus, approximately 410-485```
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullgardinsmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
@@ -159,7 +160,7 @@ Beskrivning av den auktoriserade agenten.
 * Samma sak som (SameAs)
   <br/>```Exempel: resource/auth/247521```
   
-### Egenskaper att lägga till i Agent
+### Egenskaper att lägga till i beskrivningen
 
 #### Födelsedatum
 * Födelsedatum (birthDate = 046 ‡f)
@@ -202,7 +203,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
 
-### Ytterligare egenskaper att lägga till vid behov
+### Ytterligare egenskaper att lagga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
@@ -258,5 +259,4 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
-
 
