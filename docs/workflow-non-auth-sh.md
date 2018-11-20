@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter koncept
+section: Hjälptexter ämnesord
 title: Sammansatt, ej auktoriserat ämnesord
 order: 105
 date: 2018-11-01
