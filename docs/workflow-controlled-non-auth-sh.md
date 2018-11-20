@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter koncept
+section: Hjälptexter ämnesord
 title: Kontrollerat, ej auktoriserat ämnesord
 order: 115
 date: 2018-11-01
