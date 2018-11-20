@@ -323,6 +323,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Startår: 1999```
   * ```Slutår: 2017```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  
  <br/>```Exempel:```
   * ```Startår: 1753```
   * ```Slutår: 1756```
