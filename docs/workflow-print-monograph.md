@@ -47,7 +47,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Adminmetadata  
 
-För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)  
@@ -152,7 +152,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -322,9 +322,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  <br/>```Exempel:```
   * ```Startår: 1999```
   * ```Slutår: 2017```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```  
-  
-  ```Exempel:``` 
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  <br/>
+  ```Exempel:```
   * ```Startår: 1753```
   * ```Slutår: 1756```
   * ```Datum: [1732?]-1756```
@@ -538,7 +538,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-```Exempel:```
+  <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Jöran Persson, ca 1530-1568```
   
