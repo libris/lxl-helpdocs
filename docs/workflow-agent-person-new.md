@@ -248,10 +248,10 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>```Exempel: påve```
 
 #### Andra attribut för person- och organisationsnamn
-* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368)
-  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
-  <br/>```Exempel: Professorer```
-  <br/>För att lägga till: Klicka på plustecknet under egenskapen Andra attribut för person- och organisationsnamn, välj typen Allmänt ämnesord, sök efter och länka önskad term. *Det fungerar inte att länka i nuläget* (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡a ‡2)
+  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+  <br/>```Exempel: Professorer sao```
+  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
