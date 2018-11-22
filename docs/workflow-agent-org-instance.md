@@ -89,7 +89,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
  
- #### Fiktiv gestalt
+#### Fiktiv gestalt
 
 * Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ange personnamnet enligt samma princip som för en verklig person. Tillägget "(fiktiv gestalt)" läggs till via egenskapen Titel eller övrig beteckning.
