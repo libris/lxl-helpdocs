@@ -145,7 +145,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   
 * Släkt som Ämne (Subject/agent/Family = 600 3/ )
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet```
+  <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
 
 #### Möte
 
