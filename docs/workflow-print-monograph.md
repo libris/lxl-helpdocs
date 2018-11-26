@@ -152,7 +152,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
