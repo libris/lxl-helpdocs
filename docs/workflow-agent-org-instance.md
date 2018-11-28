@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Relationer till Agent i verksbeskrivningen
 order: 33
-date: 2018-11-23
+date: 2018-11-28
 tags:
 - editor
 - under arbete
@@ -16,7 +16,7 @@ Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent samt under Redigering -Entiteter. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
