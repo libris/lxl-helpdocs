@@ -466,7 +466,6 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
-
   
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
@@ -596,7 +595,7 @@ För översättningar i flera led, länka först till det mellanliggande språke
 För att lägga till sammanfattningsspråk, klicka på plustecknet vid Instans av Verk/Text (lägg till egenskaper under: Text) och välj Sammanfattning av innehåll. Lägg till Sammanfattning (tryck Enter eller klicka på plustecknet vid Sammanfattning av innehåll - Lägg till Sammanfattning). Ta bort Benämning. Lägg till Språk genom att klicka på plustecknet vid Sammanfattning (Lägg till egenskaper under: Sammanfattning) och välj Språk. Sök fram och länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```  
     
-##### Språkanmärkning   
+##### Anmärkning om språk  
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
