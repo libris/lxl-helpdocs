@@ -619,12 +619,12 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
   Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
     
- ##### Festskrift     
+##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Välj Festskrift i listan över typer. Länka till entitet.    
   ```Exempel: Ja, resursen är en festskrift```    
     
- ##### Konferenspublikation       
+##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Välj Konferenspublikation i listan över typer. Länka till entitet.         
   ```Exempel: Ja, resursen härrör från konferens```   
