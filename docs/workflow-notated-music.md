@@ -765,7 +765,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
       * ```blandad kör```
       
    * Verk/Språk/Språk/Benämning (Language/label = 700 1/_ ‡l)  
-    Språk för översättning. Lägg till en förekomst av Språk under Relation/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
-    Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 1/_ ‡l.  
+    Språk för översättning. Lägg till en förekomst av Språk under Relation/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk). Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 1/_ ‡l.  
     ```Exempel: Svenska```  
 
