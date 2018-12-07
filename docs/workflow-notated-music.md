@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Musiktryck
 order: 30
-date: 2018-11-16
+date: 2018-12-07
 tags:
 - under arbete
 - musiktryck
@@ -24,28 +24,35 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
+| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Besättning](#besattning-for-framforande) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Notationssystem och språk](#notationssystem-och-sprak) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |   
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Relation](#relation) | 
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |                                                                  
+| | [Bilagor](#bilagor) | |  
+| | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
-|  | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Musikalietyp](#musikalietyp) | |
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
 
 ### Adminmetadata  
+För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
+#### Kontrollnummer
+* Kontrollnummer (controlNumber = 001)  
+Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)  
+
 #### Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
@@ -54,7 +61,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
+  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
   Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
@@ -91,7 +98,10 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   
   För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
-För ISBN, se [Identifikator](#identifikator) under Instans.
+
+Vid kopiering av post, ta bort den kopierade postens systemnummer.  
+
+För ISBN, se [Identifikator](#identifikator) under Instans.  
   
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
@@ -111,7 +121,7 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 * Beskrivningsnivå (encodingLevel = 000/17)  
   För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
   I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
-  
+  I mallar är standardvärdet Biblioteksnivå. Ändra vid behov.
   Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde. I mallar är Miniminivå förvalt. Ändra vid behov.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```  
@@ -139,9 +149,10 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
  * Anmärkning om katalogiseringskälla  
- 
 
-### Instans
+### Instans  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
@@ -231,7 +242,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Tryckt monogra
     Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
     Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
- ##### År och datum 
+##### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
     Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
@@ -250,8 +261,9 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Tryckt monogra
   * Flera år (flerbandsverk)  
     Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
     <br/>```Exempel:```
-    * ```Startår: 1999```
-    * ```Slutår: 2017```
+    * ```Startår: 1753```
+    * ```Slutår: 1756```
+    * ```Datum: [1732?]-1756```
     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
@@ -284,7 +296,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Tryckt monogra
   * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
     För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
     Skriv in uppgiften. 
-    För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184. Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+    För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184. Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
     ```Exempel: ©2017```  
 
 #### Identifikator 
@@ -330,11 +342,11 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 
 #### Omfang   
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-  Skriv in uppgiften. 
-  <br/>```Exempel:```
-  * ```112 sidor```
-  * ```1 partitur (ix, 43 sidor)```
-  * ```1 klaverutdrag (18 sidor) + 2 stämmor```
+    Skriv in uppgiften under Benämning.
+    <br/>```Exempel:```
+    * ```112 sidor```
+    * ```1 partitur (ix, 43 sidor)```
+    * ```1 klaverutdrag (18 sidor) + 2 stämmor```
     
 #### Ovriga fysiska detaljer
   * Övriga fysiska detaljer (other physical details = 300 ‡b)  
@@ -343,12 +355,12 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 
 #### Matt 
   * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Benämning.  
   ```Exempel: 24 cm```  
   
 #### Bilagor
   * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e) 
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
+För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Instans och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
   ```Exempel: 1 CD```  
 
@@ -370,6 +382,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   
 ##### ISSN  
   * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
+  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
   
@@ -401,12 +414,26 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   
 #### Anmarkning
   * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här.    
+  Gör allmänna anmärkningar här.    
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```Med realiserad, ej besiffrad, b.c.-stämma```
     * ```Noter med övnings-cd typ ”Music minus one”```
     * ```Speltid: 21 min.```
+
+#### Musikalietyp
+  * Format för noterad musik/Format för noterad musik/Benämning (musicFormat/MusicFormat/label = 348 ‡a)   
+  Ange musikalietyp enligt [KBSP för RDA 7.20.1.3 Ange musikalietyp](http://access.rdatoolkit.org/kbspchp7_kbsp7-251.html)  
+  Partitur anges enligt svensk praxis, dvs. utelämnas för noter för soloinstrument och röst med piano. Om det behövs fler än en term, exempelvis partitur och stämma, skapa flera entiteter.   
+  Skriv in uppgiften.
+  <br/>```Exempel:```
+    * ```partitur```
+    * ```stämma```
+    * ```klaverutdrag```  
+  * Format för noterad musik/Källa/Källa/Kod (musicFormat/MusicFormat/source/Source/code = 348 ‡2)  
+  Ange att termen är hämtad från RDA.  
+  Skriv in uppgiften.  
+  ```Exempel: rda```  
 
 #### Innehallsanmarkning  
   * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
@@ -418,7 +445,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 
   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
   För en utökad innehållsanmärkning med titlar och upphovsuppgifter. Musik- och teaterbiblioteket rekommenderar dock enkel innehållsanmärkning för musiktryck.  
-  Klicka på på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift.  
+  Klicka på på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
   För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
 
 #### Malgruppsanmarkning
@@ -443,24 +470,26 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Noterad musik.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
+För att lägga till egenskaper under Instans av Verk/Musiktryck, klicka på plustecknet vid Instans av Verk/Musiktryck - Lägg till egenskaper under: Musiktryck. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
 #### Verkets titel
  
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
 
 ##### Verkets titel
   * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-    Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
+    Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften. 
   <br/>```Exempel:```
     * ```La traviata```
     * ```Symfoni```
     * ```Pianomusik```
  
-  Ange besättning i Huvudtitel efter form/genre/pregnant titel.
+    Ange besättning i Huvudtitel efter form/genre/pregnant titel.
   <br/>```Exempel:```
     * ```Kvartett, stråkar```
-    * ```Fosterlandspsalm, röst, orkester```
+    * ```Fosterlandspsalm, röst, orkester```  
   
-  Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.  
+    Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.  
   <br/>```Exempel:```
     * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
     * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```
@@ -485,7 +514,7 @@ Ange numreringar för verket här, vid behov. Skriv in uppgiften.
 
   * Tonart (240 1/0 ‡r)       
     Ange tonart. Skriv in uppgiften.  
-    ```Exempel: Fiss-moll```  
+    ```Exempel: fiss-moll```  
 
   * Version (240 1/0 ‡o)        
     Ange eventuellt arrangemang. Skriv in uppgiften.  
@@ -507,8 +536,11 @@ Ange numreringar för verket här, vid behov. Skriv in uppgiften.
     [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
   * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-    Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-    ```Exempel: Maier-Röntgen, Amanda, 1853-1894```  
+    Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
+  <br/>```Exempel:```
+    * ```Maier-Röntgen, Amanda, 1853-1894```
+    * ```Binchois, Gilles, ca 1400-1460```
+
   * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
     Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
@@ -519,7 +551,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
     Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
     För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
-    <br/>```Exempel:```
+  <br/>```Exempel:```
     * ```Sångtext/lyr```
     * ```Redaktör/edt```
   
@@ -530,11 +562,11 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     <br/>```Exempel:```
     * ```language/zxx```
     * ```svenska (swe)```  
-  För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
+  För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
   ##### Översättning  
   För en översättning, ange även:  
-    * Språk/Språk/Benämning (Language/label = 240 ‡l)  
+   * Språk/Språk/Benämning (Language/label = 240 ‡l)  
     Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).   
     Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
@@ -559,24 +591,29 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h)
     För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk - Lägg till egenskap under: Text och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
   
-    Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+   Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
 
 #### Genre  
+  Länka till entitet.  
+För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
+
 ##### Saogf-termer  
   * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
-    Här anges såväl besättning som genre/form. Länka till entitet.  
-    För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med *  i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.
+    Här anges såväl besättning som genre/form.  
+    Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
+  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
     <br/>```Exempel:```
       * ```Piano```
       * ```Blandad kör```
       * ```Menuetter```  
+      
       Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
-  
+
 #### Klassifikation 
    * DDK-klassifikation  
     För att lägga till DDK-klassifikation:  
       * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-      * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+      * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
     * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
     Skriv in uppgiften.  
     ```Exempel: 782.5```  
@@ -589,7 +626,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   
    * SAB-klassifikation  
    För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-     * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till egenskaper under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
+     * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
      * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda egenskap-knappen i verktygsmenyn (Lägg till egenskaper under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till egenskaper under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. 
 Skriv in uppgiften under Kod.  
@@ -618,23 +655,32 @@ Skriv in uppgiften under Kod.
   
   ##### Geografiskt ämnesord med geografisk underindelning  
   Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till   höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-    * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
     Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```  
-    * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+  * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
     Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan      Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
     ```Exempel: Tyskland```  
-    * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
+  * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
     Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet.   I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
   ```Exempel: Bonn``` 
    
-  ##### Kronologiskt ämnesord
+##### Kronologiskt ämnesord
    * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
    Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
   ```Exempel: 1800-talet```  
   
-#### Anmärkning om notationssystem och språk
-  * Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 ‡b)
+#### Besattning for framforande
+  * Besättning för framförande (musicMedium = 240 ‡m)  
+  Ange besättning. Skriv in uppgiften.
+  <br/>```Exempel:```
+    * ```orkester```
+    * ```klarinett, piano```
+    * ```blandad kör```
+      
+#### Notationssystem och sprak
+  * Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 ‡b)  
+  Ange notationssystem enligt [KBSP för RDA 7.13.3.3 Ange typ av musiknotation](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html) 
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
     * ```Grafisk notation```  
@@ -643,13 +689,13 @@ Skriv in uppgiften under Kod.
     * ```Sångtext på hebreiska```
     * ```Kritiska kommentarer på svenska och engelska```  
  
-#### Målgrupp     
+#### Malgrupp     
   * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
-#### Sekundär DDK-klassifikation  
+#### Sekundar DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
   * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
@@ -700,7 +746,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
         
    * Verk/Tonart (700 1/_ ‡r) 
    Ange tonart. Skriv in uppgiften.  
-   ```Exempel: Fiss-moll```  
+   ```Exempel: fiss-moll```  
 
    * Verk/Version (700 1/_ ‡o)  
     Ange eventuellt arrangemang.  
