@@ -227,29 +227,29 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Tryckt monogra
    
    Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.  
  
- ##### Utgivningsplats  
-  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+##### Utgivningsplats  
+ * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
     För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
     Skriv in uppgiften under Benämning. Klamra vid behov.  
     ```Exempel: [Wiesbaden]```  
  
- ##### Utgivarnamn  
-  * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+##### Utgivarnamn  
+ * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
     För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
     Skriv in uppgiften under Benämning.  
     ```Exempel: Breitkopf & Härtel```   
     
-    Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
+Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
     Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 ##### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
+ * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
     Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
     För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
     ```Exempel: 2017```  
 
-  * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
+ * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
     Datum får innehålla text och interpunktionstecken.  
     För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens 264 -/1 ‡c. Skriv in uppgiften.  
     För att ange ett år utan klamrar eller andra tecken, använd endast År.  
@@ -268,25 +268,25 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Tryckt monogra
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
  
-  ##### Utgivningsland  
-   * Land (country = 008/15-17)  
+##### Utgivningsland  
+  * Land (country = 008/15-17)  
      Länka till entitet.  
      ```Exempel: Sverige (sw)```  
   
 #### Tillverkning 
-   * Tillverkning (manufacture)  
+  * Tillverkning (manufacture)  
 
-  ##### Tillverkningsplats (Tillverkningsort) 
-   * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
+##### Tillverkningsplats (Tillverkningsort) 
+  * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
     ```Exempel: Falun```  
 
-  ##### Tillverkningsnamn  
-   * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
+##### Tillverkningsnamn  
+  * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
      Skriv in uppgiften.   
      ```Exempel: Scandbook```   
 
-  ##### Tillverkningstid   
-   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
+##### Tillverkningstid   
+  * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
      Skriv in uppgiften. Klamra vid behov.
      <br/>```Exempel:```
      * ```2017```
@@ -564,7 +564,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     * ```svenska (swe)```  
   För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
-  ##### Översättning  
+##### Översättning  
   För en översättning, ange även:  
    * Språk/Språk/Benämning (Language/label = 240 ‡l)  
     Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).   
@@ -582,8 +582,8 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
     ```Exempel: engelska (eng)```  
     För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
-    ###### Texten delvis översatt  
-    (041 0/- #a + 041 1/- #a #h)  
+###### Texten delvis översatt  
+   (041 0/- #a + 041 1/- #a #h)  
     * Språk (language = 008/35-37) +
     Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
     * Har del/Verk/Språk (hasPart/Work/language = 041 ‡a) +  
@@ -648,12 +648,12 @@ Skriv in uppgiften under Kod.
    [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
    [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
-  ##### Geografiskt ämnesord  
+##### Geografiskt ämnesord  
   * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
   ```Exempel: Sverige```
   
-  ##### Geografiskt ämnesord med geografisk underindelning  
+##### Geografiskt ämnesord med geografisk underindelning  
   Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till   höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
   * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
     Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
@@ -720,7 +720,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Här anges ingående verk om instansen manifesterar fler än ett verk, med föredragna titlar och medverkande.  
   För att ange verk som ingår i det beskrivna verket, klicka på pilen vid Relation och skriv in uppgifterna enligt instruktionerna nedan. För att ange ytterligare verk klicka på ikonen med dubbla fyrkanter till höger om Relation (Duplicera entitet).  
   
-  ##### Verk/Har titel/Titel
+##### Verk/Har titel/Titel
    * Huvudtitel (hasTitle/Title/mainTitle = 700 1/_ ‡a)  
    Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
    <br/>```Exempel:```
@@ -768,3 +768,4 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
    Språk för översättning. Lägg till en förekomst av Språk under Relation/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
     Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 1/_ ‡l.  
     ```Exempel: Svenska```  
+
