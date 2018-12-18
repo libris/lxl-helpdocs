@@ -28,5 +28,3 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 * Klicka på plustecknet intill Termlista, sidorutan Lägg till entitet öppnas. Sök efter och lägg till listkod (t.ex. kao). Koden länkas till verksinformationen.
 
 Duplicera och redigera den skapade entiteten för att lägga till fler ämnesord.
-
-![Lokalt ämnesord](LokaltEnkeltKao.PNG) 
