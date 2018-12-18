@@ -29,4 +29,4 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan i mallen inom
 
 Duplicera och redigera den skapade entiteten för att lägga till fler ämnesord.
 
-![Lokalt ämnesord](LokaltEnkeltKao.png) 
+![Lokalt ämnesord](LokaltEnkeltKao.PNG) 
