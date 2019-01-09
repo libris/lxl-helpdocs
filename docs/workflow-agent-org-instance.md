@@ -1,22 +1,22 @@
 ---
 section: Hjälptexter katalogisering
-title: Relationer till Agent i verksbeskrivningen
+title: Relationer till Agent
 order: 33
-date: 2018-11-28
+date: 2019-01-09
 tags:
 - editor
 - under arbete
 --- 
 
-## Relationer till Agent i verksbeskrivningen
+## Relationer till Agent
 
 Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
 
-Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid instanstypen.
+Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid verkstypen.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Skapa ny Agent samt under Redigering - Entiteter. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter. OBS! I nuläget finns endast mallar för att skapa ny Person och för att skapa ny Organisation.
 
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
@@ -34,8 +34,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
 | [Jurisdiktion](#jurisdiktion) | [Organisation](#organisation) |
 | [Släkt](#jurisdiktion) | [Jurisdiktion](#jurisdiktion) |
-| [Möte](#jurisdiktion) | [Släkt](#jurisdiktion)
-| | [Möte](#jurisdiktion) |
+| [Möte](#mote) | [Släkt](#jurisdiktion)
+| | [Möte](#mote) |
 
 
 ### Agent som Primar medverkan eller Medverkan
@@ -52,7 +52,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Kommunikationer i gränsland (konferens)```
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
-<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion. Sök efter en funktionskod och länka genom att klicka på plustecknet.
+<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka.
+För en sorterad lista på koder, se Formathandboken för Libris/Voyager: Funktions- och relationskoder
 <br/>```Exempel:```
   * ```Författare, aut```
   * ```Illustratör, ill```
@@ -147,7 +148,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
 
-#### Möte
+#### Mote
 
 * Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
