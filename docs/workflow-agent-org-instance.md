@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Relationer till Agent
 order: 33
-date: 2019-01-09
+date: 2019-01-10
 tags:
 - editor
 - under arbete
@@ -29,6 +29,8 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Agent som Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan)  | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
 | [**Länka till entitet**](#agent-som-primar-medverkan-eller-medverkan) | [**Länka till entitet**](#agent-som-amne) |
+| [Agent](#agent-som-primar-medverkan-eller-medverkan) | [Agent](#agent-som-amne)
+| [Funktion](#funktion)
 | [**Skapa lokal entitet**](#skapa-lokal-entitet) | [**Skapa lokal entitet**](#skapa-lokal-entitet) 
 | [Person](#person) | [Person](#person)
 | [Organisation](#organisation) | [Fiktiv gestalt](#fiktiv-gestalt) |
@@ -42,29 +44,36 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Länka till entitet
 
+##### Agent
+
 * Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
   * ```Arbetslivscentrum```
   * ```Sverige. Landsbygdsdepartementet```
   * ```Kommunikationer i gränsland (konferens)```
+  
+##### Funktion 
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
-<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka.
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+<br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka genom att klicka på plustecknet vid koden eller på koden. Vid behov länkas Funktion även när lokal entitet skapas.
+<br/>För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
 <br/>```Exempel:```
   * ```Författare, aut```
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
+  
 
 ### Agent som Amne
 
 #### Länka till entitet
 
+##### Agent
+
 * Ämne/Agent (subject/agent = 600, 610, 611)
-<br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Länka genom att klicka på plustecknet vid Agenten.
+<br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
 <br/>```Exempel:```
   * ```Lindgren, Astrid, 1907-2002```
   * ```Potter, Harry, (fiktiv gestalt)```
@@ -83,13 +92,13 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
  <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
  <br/>```Exempel: Namn: Sigfús Daðason```
-  
+
 * Person som Ämne (Subject/agent/Person = 600 1/4)
 <br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
  <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
- 
+
 #### Fiktiv gestalt
 
 * Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
@@ -158,4 +167,3 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
 
-  
