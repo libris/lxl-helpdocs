@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 16
-date: 2018-11-29
+date: 2019-01-17
 tags:
 - under arbete
 - tryckt monografi
@@ -441,8 +441,10 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
   ```Exempel: Millenium```   
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
-Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent (plustecknet vid Primär medverkan - Lägg till egenskaper under: Primär medverkan). Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent (plustecknet vid Primär medverkan - Lägg till egenskaper under: Primär medverkan). Länka till entitet. Börja alltid med att söka efter om agenten redan finns.    
  ```Exempel: Larsson, Stieg, 1954-2004```  
+ Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+ 
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
