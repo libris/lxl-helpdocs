@@ -1,31 +1,52 @@
 ---
 section: Hjälptexter ämnesord
-title: Länka ämnesord
+title: Ämnesord i Libris
 order: 100
-date: 2018-11-01
+date: 2019-01-18
 tags:
 - ämnesord
 - koncept
 - under arbete
 ---
 
-## Länka till auktoriserat ämnesord (sao)
+## Ämnesord i Libris
 
-Hjälptexten beskriver hur auktoriserade ämnesord från ämnesordssystemet Svenska ämnesord (sao) länkas till verksinformationen i Instans av Verk. 
+Ämnesord i Libris hanteras olika beroende på ämnesordstyp samt om ämnesordet finns auktoriserat eller inte. Auktoriserade ämnesord beskrivs med länkade entiteter och ämnesord som inte är auktoriserade beskrivs med lokala entiteter. Tabellen nedan redovisar hur de olika ämnesordstyperna anges i katalogiseringsverktyget, både som länkade entiteter och som lokala entiteter. Klicka på länken för den typ av ämnesord som ska anges för att komma till motsvarande instruktion i hjälptexterna.
 
-Det beskrivna tillvägagångssättet nedan gäller för allmänna ämnesord, kronologiska ämnesord, geografiska ämnesord och sammansatta termer (allmänna respektive geografiska termer med underindelning) där det finns auktoriserade termer att länka till. 
+I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn). Ämnesordssökningar kan göras direkt i katalogiseringsverktyget, via [Ämnesordsdatabasen](#http://www.kb.se/katalogisering/Svenska-amnesord/) eller [Auktoritetsdatabasen](#https://regina.kb.se/F/777EIEBLRXNYDJEXNJ1AVPKD7YUMRREJM3QFYX3RUHH9M9UMNP-05460?func=file&file_name=scan&local_base=kbs10). Ämnesord och genre/formtermer från listorna sao, barn, saogf, barngf och tgm är även sökbara via [id.kb.se](#https://id.kb.se/). Id.kb.se är KB:s tjänst för publicering av länkade data.
 
-### Utgå från Instans av Verk
+Information och riktlinjer för Svenska ämnesord finns på [Svenska ämnesords webbplats](#http://www.kb.se/katalogisering/Svenska-amnesord/). På webbsidan för skön- och barnlitteratur finns även information och riktlinjer för [Barnämnesorden](#http://www.kb.se/katalogisering/Svenska-amnesord/Indexering-i-LIBRIS/).
 
-#### Ämne (subject)
-Utgår katalogiseringen från en mall finns egenskapen Ämne i mallen. För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
+Resterande ämnesordssystems termer anges alltid som lokala entiteter. 
 
-##### Länka entitet
+Hjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:
 
-* Klicka på plustecknet intill egenskapen Ämne, sidorutan Lägg till entitet öppnas.
+| [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
+| ------ |  ----------- |
+| | |
+| **Allmänt ämnesord** | **Allmänt ämnesord** |
+| [Allmänt ämnesord från SAO [1a]](#lanka-amnesord) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.) [2a1]](#amnesord-som-lokal-entitet) </br>*Exempel: Präster kao* |
+| [Allmänt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](#amnesord-som-lokal-entitet) </br>*Exemepl: Horses lcsh* |
+| | [Ämnesordsförslag till SAO eller indexterm [3]](#amnesord-som-lokal-entitet) </br>*Exempel: Tunnbröd (prel/S)* |
+| | |
+| **Kronologiskt ämnesord** | **Kronologiskt ämnesord**  |
+| [Kronologiskt ämnesord från SAO [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord [2c]](#amnesord-som-lokal-entitet) </br>*Exempel: 1901-1908* |
+| [Kronologiskt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet barn* | |
+| | |
+| **Geografiskt ämnesord** |  |
+| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
+| | |
+| **Sammansatt ämnesord** | **Sammansatt ämnesord** |
+| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Myror--ekonomiska aspekter sao* |
+| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO [1b]](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Grekland--Athen sao* |
+| | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Präster--historia kao* |
+| | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH) [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
 
-* Sök/välj typ av ämnesord (Allmänt ämnesord / Geografiskt ämnesord / Kronologiskt ämnesord / Sammansatt term) i rullgardinsmenyn Alla typer.
 
-* Sök efter önskad term.
+För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](#https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
 
-* Lägg till term genom att klicka på plustecknet, termen länkas då till verksinformationen i Instans av Verk. Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
+För relationer till delar och verk, se hjälptext för [Relationer till delar och verk](#https://libris.kb.se/katalogisering/help/workflow-agent-relation)
+
+
+
+
