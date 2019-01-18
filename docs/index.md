@@ -2,12 +2,14 @@
 section: Main
 title: Start
 order: 1
-date: 2018-11-08
+date: 2019-01-19
 tags:
 - start
 ---
 
 # Hjälp
+
+NYHETER 2019-01-18 Hjälpsektionen är uppdaterad med delvis ny struktur för hjälptexter för ämnesord samt kompletterad med en ändringslogg.
 
 Hjälpsektionen innehåller information om kortkommandon och specialtecken. Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
