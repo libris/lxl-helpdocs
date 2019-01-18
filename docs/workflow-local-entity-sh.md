@@ -12,7 +12,7 @@ tags:
 
 ## Ämnesord som lokal entitet
 
-Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av Verk i de fall ämnesorden inte finns auktoriserade. För auktoriserade ämnesord använd hjälptext [Länka ämnesord](#https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)
+Hjälptexten beskriver hur man anger ämnesord i verksbeskrivningen i Instans av Verk i de fall ämnesorden inte finns auktoriserade. För auktoriserade ämnesord använd hjälptext [Länka ämnesord](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh)
 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
@@ -38,7 +38,6 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
 Exempel:
-
 ![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
 
 
@@ -58,11 +57,9 @@ Exempel:
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
 Exempel:
-
 ![Lokalt sammansatt ämnesord med listkod kao](LokaltSammansattKao.png) 
 
 Exempel:
-
 </br>![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
@@ -78,7 +75,6 @@ Exempel:
 * Skriv in aktuell listkod i rutan, t.ex. ”lcsh”.
 
 Exempel:
-
 ![Lokalt enkelt ämnesord med listkod lcsh](LokaltEnkeltLcsh.PNG)
 
 #### Sammansatt amnesord som lokal entitet utan lankbar listkod 
@@ -99,7 +95,6 @@ Exempel:
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
 Exempel:
-
 ![Lokalt sammansatt ämnesord med listkod lcsh](LokaltSammansattLcsh.png)
 
 #### Amnesord utan listkod
