@@ -13,9 +13,9 @@ tags:
 
 Ämnesord i Libris hanteras olika beroende på ämnesordstyp samt om ämnesordet finns auktoriserat eller inte. Auktoriserade ämnesord beskrivs med länkade entiteter och ämnesord som inte är auktoriserade beskrivs med lokala entiteter. Tabellen nedan redovisar hur de olika ämnesordstyperna anges i katalogiseringsverktyget, både som länkade entiteter och som lokala entiteter. Klicka på länken för den typ av ämnesord som ska anges för att komma till motsvarande instruktion i hjälptexterna.
 
-I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn). Ämnesordssökningar kan göras direkt i katalogiseringsverktyget, via [Ämnesordsdatabasen](#http://www.kb.se/katalogisering/Svenska-amnesord/) eller [Auktoritetsdatabasen](#https://regina.kb.se/F/777EIEBLRXNYDJEXNJ1AVPKD7YUMRREJM3QFYX3RUHH9M9UMNP-05460?func=file&file_name=scan&local_base=kbs10). Ämnesord och genre/formtermer från listorna sao, barn, saogf, barngf och tgm är även sökbara via [id.kb.se](#https://id.kb.se/). Id.kb.se är KB:s tjänst för publicering av länkade data.
+I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn). Ämnesordssökningar kan göras direkt i katalogiseringsverktyget, via [Ämnesordsdatabasen](http://www.kb.se/katalogisering/Svenska-amnesord/) eller [Auktoritetsdatabasen](https://regina.kb.se/F/777EIEBLRXNYDJEXNJ1AVPKD7YUMRREJM3QFYX3RUHH9M9UMNP-05460?func=file&file_name=scan&local_base=kbs10). Ämnesord och genre/formtermer från listorna sao, barn, saogf, barngf och tgm är även sökbara via [id.kb.se](https://id.kb.se/). Id.kb.se är KB:s tjänst för publicering av länkade data.
 
-Information och riktlinjer för Svenska ämnesord finns på [Svenska ämnesords webbplats](#http://www.kb.se/katalogisering/Svenska-amnesord/). På webbsidan för skön- och barnlitteratur finns även information och riktlinjer för [Barnämnesorden](#http://www.kb.se/katalogisering/Svenska-amnesord/Indexering-i-LIBRIS/).
+Information och riktlinjer för Svenska ämnesord finns på [Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/). På webbsidan för skön- och barnlitteratur finns även information och riktlinjer för [Barnämnesorden](http://www.kb.se/katalogisering/Svenska-amnesord/Indexering-i-LIBRIS/).
 
 Resterande ämnesordssystems termer anges alltid som lokala entiteter. 
 
@@ -43,9 +43,9 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH)](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
 
 
-För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](#https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
+För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
 
-För relationer till delar och verk, se hjälptext för [Relationer till delar och verk](#https://libris.kb.se/katalogisering/help/workflow-agent-relation)
+För relationer till delar och verk, se hjälptext för [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation)
 
 
 
