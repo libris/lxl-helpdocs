@@ -5,7 +5,7 @@ order: 105
 date: 2019-01-18
 tags:
 - ämnesord
-- sammansatta ämnesord
+- länka ämnesord
 - under arbete
 ---
 
