@@ -16,7 +16,7 @@ Hjälptexten beskriver hur ämnesord länkas till verksbeskrivningen i Instans a
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
-För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Amnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh). 
+För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh). 
 
 ### Länka till ett enkelt ämnesord 
 
@@ -30,7 +30,7 @@ Exempel:
 ![Länka enkelt ämnesord](LänkaEnkelt.png) 
 
 
-OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se hjälptext [Amnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) under rubriken *Sammansatt amnesord som lokal entitet med lankbar listkod*
+OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se hjälptext [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) under rubriken *Sammansatt amnesord som lokal entitet med lankbar listkod*
 
 ### Länka till ett sammansatt ämnesord
 
