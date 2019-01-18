@@ -14,7 +14,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 2019-01-18
 * Ny struktur för hjälptexterna avseende ämnesord. Uppdaterade sidor: 
-https://libris.kb.se/katalogisering/help/workflow-general-sh 
-https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
-https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
-https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-general-sh 
+</br>https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
+</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
+</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
