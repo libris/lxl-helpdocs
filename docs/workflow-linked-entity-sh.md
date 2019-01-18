@@ -26,7 +26,10 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
+Exempel:
+
 ![Länka enkelt ämnesord](LänkaEnkelt.png) 
+
 
 OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, se hjälptext [Amnesord som lokal entitet](#amnesord som lokal entitet) under rubriken *Sammansatt amnesord som lokal entitet med lankbar listkod*
 
@@ -37,6 +40,8 @@ OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka t
 * Sök efter och lägg till aktuell sammansatt term. Termen länkas då till verksbeskrivningen i Instans av Verk. 
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
+
+Exempel:
 
 ![Länka sammansatt ämnesord](LänkaSammansatt.png) 
 
