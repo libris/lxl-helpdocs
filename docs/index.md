@@ -9,7 +9,7 @@ tags:
 
 # Hjälp
 
-NYHETER 2019-01-18 Hjälpsektionen är uppdaterad med delvis ny struktur för hjälptexter för ämnesord samt kompletterad med en ändringslogg.
+NYHETER 2019-01-18 Hjälpsektionen uppdateras med delvis ny struktur samt kompletteras med en ändringslogg.
 
 Hjälpsektionen innehåller information om kortkommandon och specialtecken. Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
