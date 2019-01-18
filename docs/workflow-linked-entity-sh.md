@@ -25,22 +25,22 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | ------ |  ----------- |
 | | |
 | **Allmänt ämnesord** | **Allmänt ämnesord** |
-| [Allmänt ämnesord från SAO [1a]](#lanka-amnesord) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.) [2a1]](#amnesord-som-lokal-entitet) </br>*Exempel: Präster kao* |
-| [Allmänt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](#amnesord-som-lokal-entitet) </br>*Exemepl: Horses lcsh* |
-| | [Ämnesordsförslag till SAO eller indexterm [3]](#amnesord-som-lokal-entitet) </br>*Exempel: Tunnbröd (prel/S)* |
+| [Allmänt ämnesord från SAO](#lanka-amnesord) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.)](#amnesord-som-lokal-entitet) </br>*Exempel: Präster kao* |
+| [Allmänt ämnesord från Barn](#lanka-amnesord) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](#amnesord-som-lokal-entitet) </br>*Exemepl: Horses lcsh* |
+| | [Ämnesordsförslag till SAO eller indexterm](#amnesord-som-lokal-entitet) </br>*Exempel: Tunnbröd (prel/S)* |
 | | |
 | **Kronologiskt ämnesord** | **Kronologiskt ämnesord**  |
-| [Kronologiskt ämnesord från SAO [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord [2c]](#amnesord-som-lokal-entitet) </br>*Exempel: 1901-1908* |
-| [Kronologiskt ämnesord från Barn [1a]](#lanka-amnesord) </br>*Exempel: 1900-talet barn* | |
+| [Kronologiskt ämnesord från SAO](#lanka-amnesord) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord [2c]](#amnesord-som-lokal-entitet) </br>*Exempel: 1901-1908* |
+| [Kronologiskt ämnesord från Barn](#lanka-amnesord) </br>*Exempel: 1900-talet barn* | |
 | | |
 | **Geografiskt ämnesord** |  |
-| [Geografiskt ämnesord  [1a]](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
+| [Geografiskt ämnesord](#lanka-amnesord) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
 | | |
 | **Sammansatt ämnesord** | **Sammansatt ämnesord** |
-| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng [1a]](#lanka-amnesord) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Myror--ekonomiska aspekter sao* |
-| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO [1b]](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Grekland--Athen sao* |
-| | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Präster--historia kao* |
-| | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH) [2a2]](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
+| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng](#lanka-amnesord) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Myror--ekonomiska aspekter sao* |
+| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO](#amnesord-som-lokal-entitet) </br>*Exempel: Grekland--Athen sao* |
+| | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC](#amnesord-som-lokal-entitet) </br>*Exempel: Präster--historia kao* |
+| | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH)](#amnesord-som-lokal-entitet) </br>*Exempel: Horses--history lcsh* |
 
 
 För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](#https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
