@@ -25,22 +25,22 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | ------ |  ----------- |
 | | |
 | **Allmänt ämnesord** | **Allmänt ämnesord** |
-| [Allmänt ämnesord från SAO](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.)](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster kao* |
-| [Allmänt ämnesord från Barn](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exemepl: Horses lcsh* |
-| | [Ämnesordsförslag till SAO eller indexterm](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Tunnbröd (prel/S)* |
+| [Allmänt ämnesord från SAO](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster kao* |
+| [Allmänt ämnesord från Barn](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exemepl: Horses lcsh* |
+| | [Ämnesordsförslag till SAO eller indexterm](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Tunnbröd (prel/S)* |
 | | |
 | **Kronologiskt ämnesord** | **Kronologiskt ämnesord**  |
-| [Kronologiskt ämnesord från SAO](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: 1901-1908* |
-| [Kronologiskt ämnesord från Barn](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: 1900-talet barn* | |
+| [Kronologiskt ämnesord från SAO](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: 1901-1908* |
+| [Kronologiskt ämnesord från Barn](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: 1900-talet barn* | |
 | | |
 | **Geografiskt ämnesord** |  |
-| [Geografiskt ämnesord](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
+| [Geografiskt ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>Observera att det endast är entiteter för länder eller större geografiska enheter som länkas. </br>*Exempel: Etiopien* | |
 | | |
 | **Sammansatt ämnesord** | **Sammansatt ämnesord** |
-| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng](https://libris-dev.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Myror--ekonomiska aspekter sao* |
-| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Grekland--Athen sao* |
-| | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster--historia kao* |
-| | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH)](https://libris-dev.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Horses--history lcsh* |
+| [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Myror--ekonomiska aspekter sao* |
+| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Grekland--Athen sao* |
+| | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster--historia kao* |
+| | [Sammansatt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Horses--history lcsh* |
 
 
 För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
