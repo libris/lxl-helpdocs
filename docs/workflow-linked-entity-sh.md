@@ -16,7 +16,7 @@ Hjälptexten beskriver hur ämnesord länkas till verksbeskrivningen i Instans a
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
 
-För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Amnesord som lokal entitet](#amnesord som lokal entitet). 
+För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se hjälptexten [Amnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh). 
 
 ### Länka till ett enkelt ämnesord 
 
@@ -27,7 +27,6 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
 Exempel:
-
 ![Länka enkelt ämnesord](LänkaEnkelt.png) 
 
 
@@ -42,6 +41,5 @@ OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka t
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
 Exempel:
-
 ![Länka sammansatt ämnesord](LänkaSammansatt.png) 
 
