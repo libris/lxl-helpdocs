@@ -1,8 +1,8 @@
 ---
-section: Main
+section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-01-19
+date: 2019-01-18
 tags:
 - ändringslogg
 - uppdateringar
@@ -18,3 +18,4 @@ På denna sida listas ändringar i hjälptexterna.
 </br>https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
+
