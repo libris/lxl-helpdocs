@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Okontrollerad term
 order: 125
-date: 2019-01-19
+date: 2019-01-18
 tags:
 - okontrollerat ämnesord
 - okontrollerad term
