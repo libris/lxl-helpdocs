@@ -1,6 +1,6 @@
 ---
 section: Hjälptexter ämnesord
-title: Kontrollerat, ej auktoriserat ämnesord
+title: Ämnesord som lokal entitet
 order: 115
 date: 2019-01-18
 tags:
