@@ -17,5 +17,5 @@ På denna sida listas ändringar i hjälptexterna.
 </br>https://libris.kb.se/katalogisering/help/workflow-general-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
-</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh
 
