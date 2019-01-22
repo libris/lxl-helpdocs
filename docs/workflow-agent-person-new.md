@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 40
-date: 2018-11-21
+date: 2019-01-22
 tags:
 - agenter
 - auktoriteter
@@ -122,8 +122,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 
 #### Beskrivningsniva
 * Beskrivningsnivå
-  <br/>**OBS! Egenskapen måste för närvarande läggas till manuellt EFTER att den nya agenten först har sparats.**
-  <br/>För att lägga till: Skapa och spara agenten, klicka på plustecknet i verktygsmenyn, sök efter och lägg till Beskrivningsnivå, välj Fullständig i rullgardinsmenyn.
+  <br/>Förval: Fullständig. Ändras ej.
 
 
 ### Agent
