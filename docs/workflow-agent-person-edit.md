@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 45
-date: 2018-11-21
+date: 2019-01-22
 tags:
 - redigera agent
 - redigera auktoritet
@@ -73,7 +73,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsnivå
 * Beskrivningsnivå (encodingLevel = 000)
-  <br/>Fullständig, ändras vid behov. 
+  <br/>Ska vara Fullständig. Ändras vid behov. 
   <br/>```Exempel: Fullständig```
 
 #### Katalogiserande instans
