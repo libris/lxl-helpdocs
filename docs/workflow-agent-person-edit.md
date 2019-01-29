@@ -185,8 +185,10 @@ Beskrivning av den auktoriserade agenten.
 #### Identifikator
 * Identifikator (identifiedBy = 024 ‡a)
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
-  <br/>```Exempel: 0000000121339888 ```
-  <br/>För att lägga till: Klicka på plustecknet under Identifikator, välj typ (ISNI). Klicka på plustecknet inom det tillagda Identifikator, sök efter och lägg till Värde.
+  <br/>```Exempel:```
+  * ```Värde: 0000000121339888```
+  * ```Typanmärkning: isni```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
 
 #### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
