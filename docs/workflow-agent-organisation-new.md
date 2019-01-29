@@ -131,15 +131,15 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Centrum för medeltidsstudier```
 <br/>OBS! Det fungerar inte att göra Organisation med namnform i fler än två led i nuläget.
   
- #### Verksamhetens starttid  
+#### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 ‡s)
   <br/>```Exempel: 1977```
   
- #### Verksamhetens sluttid    
+#### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 ‡t)
   <br/>```Exempel: 1994```
   
- #### Administrativ historik
+#### Administrativ historik
 * Administativ historik (hasHistoricalData = 678 ‡a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
