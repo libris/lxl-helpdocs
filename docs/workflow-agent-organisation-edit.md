@@ -196,7 +196,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Egenskaper att lagga till i Agent
 
 
-  #### Administrativ historik
+#### Administrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
@@ -207,7 +207,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: e-sw---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
- #### Verksamhetsområde
+#### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
