@@ -12,6 +12,13 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-01-31
+* Redigera-sidorna har uppdaterats för att spegla förändringar i gränssnittet samt kompletterats med illustrerande skärmdumpar. Sidan Interaktionselement har bytt namn till Att använda verktyget. Sidan Mallar har tillkommit.
+<br>https://libris.kb.se/katalogisering/help/editor-01-overview
+<br>https://libris.kb.se/katalogisering/help/editor-03-interaktionselement
+<br>https://libris.kb.se/katalogisering/help/entity-search
+<br>https://libris.kb.se/katalogisering/help/templates
+
 2019-01-29
 * Uppdaterade instruktioner för Identifikator för Agent. Uppdaterade sidor:
 </br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
