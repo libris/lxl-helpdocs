@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-01-29
+date: 2019-01-31
 tags:
 - ändringslogg
 - uppdateringar
