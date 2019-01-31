@@ -643,10 +643,7 @@ Skriv in uppgiften under Kod.
    För samlingar där den geografiska eller kronologiska aspekten är framhävd får genre/form/besättning kompletteras med geografiska eller kronologiska ämnesord (i separata fält). Titel "French piano music" kan alltså indexeras med Piano och Frankrike.  
    Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ämne och klicka på plustecknet vid termen. Klicka sedan på plustecknet vid Ämne och välj typ i listan Alla typer: Geografiskt ämnesord eller kronologiskt ämnesord. Sök upp ämnesordet, t ex Frankrike, och länka till entitet genom att klicka på plustecknet vid termen.
    Läs mer:  
-   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-   [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-   [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-   [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
+   [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 ##### Geografiskt ämnesord  
   * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
