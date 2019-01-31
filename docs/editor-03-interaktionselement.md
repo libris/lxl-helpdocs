@@ -22,6 +22,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 
 ## Verktyg
 
+![Verktygsalternativ](verktygsalternativ.png)  
 
 ### Expandera/minimera alla
 För att skapa en bättre översikt på posten, samt för att enklare se vad posten innehåller finns möjlighet att expandera och minimera alla postens fält och delfält med ett klick.
