@@ -80,7 +80,7 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 ## Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
 
-## Lägg till förekomst av egenska
+## Lägg till förekomst av egenskap
 Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten.  
 
 ## Hjälp i formuläret
