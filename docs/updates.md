@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-01-31
+date: 2019-02-01
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-02-01
+* Tillägg av instruktion och exempel för Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter. Uppdaterad sida:
+<br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
 2019-01-31
 * Redigera-sidorna har uppdaterats för att spegla förändringar i gränssnittet samt kompletterats med illustrerande skärmdumpar. Sidan Interaktionselement har bytt namn till Att använda verktyget. Sidan Mallar har tillkommit.
