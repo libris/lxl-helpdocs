@@ -17,7 +17,7 @@ På denna sida listas ändringar i hjälptexterna.
 <br>https://libris.kb.se/katalogisering/help/editor-01-overview
 <br>https://libris.kb.se/katalogisering/help/editor-03-interaktionselement
 <br>https://libris.kb.se/katalogisering/help/entity-search
-<br>https://libris.kb.se/katalogisering/help/templates
+<br>https://libris.kb.se/katalogisering/help/editor-templates
 
 2019-01-29
 * Uppdaterade instruktioner för Identifikator för Agent. Uppdaterade sidor:
