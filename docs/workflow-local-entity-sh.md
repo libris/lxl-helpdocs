@@ -84,7 +84,7 @@ Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
 Exempel:
 
-![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.png) 
+![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.PNG) 
 
 ### Ämnesord från system med listkod utan listkod som länkad entitet
 
