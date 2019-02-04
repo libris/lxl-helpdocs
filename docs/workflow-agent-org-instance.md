@@ -122,7 +122,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Kastelholms slott```
 
-* Organisation med namnformen i flera led som Ämne (Subject/agent/Organization = 610 0/2)
+* Organisation med namnformen i flera led som Ämne (Subject/agent/Organization = 610 0/4)
 <br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Library of Congress samt Organisation/Namn på underordnad enhet: Federal Research Division```
 <br/>OBS! Det fungerar inte att konstruera namnformer i fler än två led i nuläget.
