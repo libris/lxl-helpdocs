@@ -12,6 +12,10 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-02-04
+* Ändrat instruktionen för Annat bärarformat (776) för Tryckt seriell resurs.
+<br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
+
 2019-02-01
 * Tillägg av instruktion och exempel för Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter. Uppdaterad sida:
 <br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
