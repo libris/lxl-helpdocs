@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 55
-date: 2018-11-28
+date: 2019-02-06
 tags:
 - under arbete
 - agenter
@@ -92,7 +92,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
+  <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+   
  
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
