@@ -28,19 +28,19 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 
 [Identifierare](#identifierare)
 
-[Anmärkningar](#anmärkningar)
+[Anmärkningar](#anmarkningar)
 
-[Lokala ämnesord och klassifikation](#lokala-ämnesord-och-klassifikation)
+[Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation)
 
 [Agenter](#agenter)
 
 [Elektronisk adress](#elektronisk-adress)
 
-[Oformaterad beståndsuppgift](#oformaterad-beståndsuppgift)
+[Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift)
 
 [Exemplarinformation](#exemplarinformation)
 
-[Lokalt definierade beståndsfält](#lokalt-definierade-beståndsfält)
+[Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt)
 
 
 ### Har komponent
@@ -103,7 +103,7 @@ Välj önskad nivå:
   * Typanmärkning, bestämning till indikator 1=7 (024 ‡2)
 
 
-### Anmärkningar
+### Anmarkningar
 * Anmärkning/hasNote (500 ‡a). Klicka på plustecknet vid Anmärkning för att lägga till en allmän anmärkning. 
 
 * Villkor för användning och åtkomst/Välj Skapa lokal entitet / Villkor som användning och åtkomst
@@ -160,7 +160,7 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
 
 
 
-### Lokala ämnesord och klassifikation
+### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
 
@@ -227,7 +227,7 @@ Ospecificerad relation
 
 
 
-### Oformaterad beståndsuppgift
+### Oformaterad bestandsuppgift
 * Beståndsuppgift (866 ‡a)
 * Katalogisatörens anmärkning (866 ‡x)
 * Offentlig anmärkning (866 ‡z)
@@ -266,7 +266,7 @@ Ospecificerad relation
   * Underordnad institution/enhet (876 ‡9)
 
 
-### Lokalt definierade beståndsfält
+### Lokalt definierade bestandsfalt
 *OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
