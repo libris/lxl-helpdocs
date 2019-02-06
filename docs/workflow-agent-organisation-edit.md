@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 65
-date: 2018-11-28
+date: 2019-02-06
 tags:
 - under arbete
 - agenter
@@ -152,11 +152,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   Ytterligare relevanta källor kan vara.
   <br/>```Exempel:```
   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte```
+  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte: 1986```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till: Klicka på plustecknet vid konsulterad källa. Välj typ av konsulterad källa i rullmenyn.
+  <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
   
+
 #### Katalogisatorens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
@@ -196,7 +197,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Egenskaper att lagga till i Agent
 
 
-#### Administrativ historik
+  #### Administrativ historik
 * Administativ historik (has Historical Data = 678 ‡a)
   <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
@@ -207,7 +208,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: e-sw---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-#### Verksamhetsområde
+ #### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
