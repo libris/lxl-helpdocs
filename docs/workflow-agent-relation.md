@@ -26,7 +26,7 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 [Ingående verk](#Ingående-verk)
 
-[Relation till ett verk av en författare](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
+[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
 
 [Fler delfält](#Fler-delfält)
 
