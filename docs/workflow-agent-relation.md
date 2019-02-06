@@ -22,13 +22,13 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
 
-[Obestämd relation till verk](#obestämd-relation-till-verk)
+[Obestämd relation till verk](#obestamd-relation-till-verk)
 
-[Ingående verk](#Ingående-verk)
+[Ingående verk](#Ingaende-verk)
 
-[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
+[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-forfattare-som-amnesord)
 
-[Fler delfält](#Fler-delfält)
+[Fler delfält](#Fler-delfalt)
 
     
 
@@ -56,7 +56,7 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
 
  <br/>
 
-### Obestämd relation till verk 
+### Obestamd relation till verk 
 Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 ‡a)
 
 
@@ -75,7 +75,7 @@ Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, g�
 
  <br/>
  
-### Ingående verk
+### Ingaende verk
 För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 ‡a ǂd ǂt)
 
 
@@ -90,7 +90,7 @@ För att skapa analytiska biuppslag på verk som ingår i den katalogiserade ins
 
 <br/> 
 
-### Relation till ett verk av en författare som ämnesord
+### Relation till ett verk av en forfattare som amnesord
 För att lägga till en författares verk som ämne (600 1/_ ǂa ǂd ǂt)
 
 ![Relation till verk av en författare som ämnesord](Relationverkauthsubj.png)
@@ -102,7 +102,7 @@ För att lägga till en författares verk som ämne (600 1/_ ǂa ǂd ǂt)
   * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
   * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, Välj Person och fyll i uppgifterna
     
-###  Fler delfält
+###  Fler delfalt
 För att lägga till fler delfält under Verk/Har titel/Titel/Lägg till egenskaper under: Titel/:
   * Specificering i form av grupptitel (700 ‡k)
   * Delbeteckning (700 ‡n)
