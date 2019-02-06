@@ -1,8 +1,8 @@
 ---
 section: Hjälptexter katalogisering
-title: Relationer till delar och verk
+title: Relationer till agenter, delar och verk
 order: 34
-date: 2018-11-22
+date: 2019-02-06
 tags:
 - editor
 - under arbete
@@ -24,68 +24,95 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 [Obestämd relation till verk](#obestämd-relation-till-verk)
 
-[Fler ingående verk](#Fler-ingaende-verk)
+[Ingående verk](#Ingående-verk)
+
+[Relation till ett verk av en författare](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
+
+[Fler delfält](#Fler-delfält)
 
     
 
-#### Relation till verk uttryckt genom text 
-Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet. Det är ännu inte möjligt att länka till dessa i nya Libris. Svensk översättning för relationerna behöver gås igenom.
-
+### Relation till verk uttryckt genom text 
 Relation till ett verk av en författare (700 1/_ ‡i a  ‡d ǂt)
-* Välj Relation (Relationship) vid plustecknet vid Verksdelen
-* Välj typ Relation (Relationship) i sidopanelen
-* Välj Relation (Relation) vid plustecknet vid Relation (Relationship)
+<br/>
+Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet, men det är ännu inte möjligt att länka till dessa i nya Libris. De kontrollerade relationsbeteckningarna tillämpas tills vidare restriktivt, eftersom det för närvarande saknas officiella svenska översättningar av RDA-termerna.
 
-Lägg till Entitet / Skapa lokalt / Verk / Benämning
-*  Benämning
-  <br/>```Exempel: Parafraserar```
-  
- *  Har titel/ Titel / Huvudtitel
-  <br/>```Exempel: Pride and prejudice```
- 
-Välj Primär medverkan när en agent har en relation till verk som beskrivs som relaterat.
-* Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a  ǂd )
-  Länka i första hand till en agent.
-    <br/>```Exempel: Austin,  Jane, 1775-1817```
- 
+För att uttrycka relationen till ett verk som har ett samband med (men inte ingår i) den katalogiserade instansen:
 
-#### Obestämd relation till verk 
+![Relation till ett verk av en författare](Relationverkauth.png) 
+
+* Öppna sidorutan Lägg till egenskaper under: Text
+* Välj egenskapen Relation (Relationship)
+* Välj typ Relation från rullgardinsmenyn
+* Öppna sidorutan Lägg till egenskaper under: Relation och välj Entitet
+  * Lägg till Entitet/Skapa lokal entitet/Verk
+  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titeln
+  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
+  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns Skapa lokal entitet, välj Person och fyll i uppgifterna
+* Öppna sidorutan Lägg till egenskaper under: Relation och välj Relation
+  * Lägg till Relation/Skapa lokal entitet
+  * Lägg till egenskaper under: Relation och välj Benämning
+  * Skriv in uppgiften. ```Exempel: Parafraserar```
+
+ <br/>
+
+### Obestämd relation till verk 
 Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 ‡a)
 
-* Anmärkning (hasNote) 
+
+![Obestämd relation till ett verk](Obestrelationverk.png) 
+
+* Öppna sidorutan Lägg till egenskaper under: Text
+* Välj egenskapen Relation (relationship)
+* Välj typ Relation från rullgardinsmenyn
+* Öppna sidorutan Lägg till egenskaper under: Relation och välj Entitet
+* Lägg till Entitet/Skapa lokal entitet/Verk
+  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titeln
+  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
+  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns Skapa lokal entitet, välj Person och fyll i uppgifterna
+* Lägg till en anmärkning (Lägg till egenskaper under: Instans/Anmärkning (hasNote)/Anmärkning/Benämning) och skriv in uppgiften
 <br/>```Exempel:Bygger på förf:s diss. med titeln: En sund själ i en sund kropp : hälsopolitik i Stockholms folkskolor 1880-1930```
 
-* Välj Relation vid plustecknet  vid Verk
-* Välj typ Relation i menyn
-* Välj Entitet vid plustecknet vid Relation
-
-Lägg till Entitet / Skapa lokalt / Verk 
-*  Har titel/ Titel / Huvudtitel
-  <br/>```Exempel: En sund själ i en sund kropp```
+ <br/>
  
-Välj Primär medverkan när en agent har en relation till verk som beskrivs som relaterat.
-* Medverkan och funktion / Primär medverkan / Agent/ Person (700 1/_ ‡a ǂd )
-   
- Länka i första hand till auktoritet.
-   <br/>```Exempel: Hammarberg, Lena, 1943-```
+### Ingående verk
+För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 ‡a ǂd ǂt)
+
+
+![Ingaende verk](Ingaendeverk.png) 
+* Öppna sidorutan Lägg till egenskaper under Text:
+* Välj egenskapen Har del (hasPart)
+* Lägg till entitet/Skapa Lokal entitet/Verk
+  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titlen
+  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
+  * Lägg till entitet och länka till autkoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, välj Person och fyll i uppgifterna
  
 
-#### Fler ingaende verk
-Om du vill ange fler ingående verk:
-(700 1/2 ‡a ǂd ǂt )
-  * Har del / skapa lokal entitet / Verk
-    * Har titel / Titel / Huvudtitel 
-  Skriv in titeln 
-  <br/>```Exempel:  Mind over matter```
+<br/> 
 
-  Lägg därefter till Agenten:
-* Medverkan och medverkan / Primär medverkan / Agent/ Person
- 
+### Relation till ett verk av en författare som ämnesord
+För att lägga till en författares verk som ämne (600 1/_ ǂa ǂd ǂt)
+
+![Relation till verk av en författare som ämnesord](Relationverkauthsubj.png)
+
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne
+* Välj Skapa lokalt entitet/Verk
+  * Lägg till egenskaper under Verk/Har titel/Huvudtitel
+  * Skriv in den föredragna titeln
+  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
+  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, Välj Person och fyll i uppgifterna
     
-####  Fler delfält
-  Fler delfält att lägga till vid plustecknet för Titeln som rör titeln:
+###  Fler delfält
+För att lägga till fler delfält under Verk/Har titel/Titel/Lägg till egenskaper under: Titel/:
   * Specificering i form av grupptitel (700 ‡k)
   * Delbeteckning (700 ‡n)
   * Deltitel (700 ‡p)
+  
+För att lägga till språk för det relaterade verket (700 ‡l):
+* Lägg till egenskaper under Verk/Språk
+  * Lägg till Språk/Skapa lokal entitet
+  * Lägg till egenskaper under: Språk/Benämning
+  * Skriv in språket i klartext 
+
   
  
