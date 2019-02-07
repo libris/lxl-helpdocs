@@ -147,8 +147,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel på obligatorisk källa:```
-  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016. Uppgift från källa: Namnformen: Sveriges släktforskarförbund```
-  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016. Uppgift från källa: Sveriges släktforskarförbund```
+  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Stockholm vatten och avfall```
   
   <br/>```Exempel på kompletterande källa:```
   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
