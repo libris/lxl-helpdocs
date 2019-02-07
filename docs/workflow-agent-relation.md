@@ -24,11 +24,11 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 [Obestämd relation till verk](#obestamd-relation-till-verk)
 
-[Ingående verk](#Ingaende-verk)
+[Ingående verk](#ingaende-verk)
 
-[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-forfattare-som-amnesord)
+[Relation till ett verk av en författare som ämnesord](#relation-till-ett-verk-av-en-forfattare-som-amnesord)
 
-[Fler delfält](#Fler-delfalt)
+[Fler delfält](#fler-delfalt)
 
     
 
