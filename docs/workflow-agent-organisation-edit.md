@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 65
-date: 2019-02-06
+date: 2019-02-07
 tags:
 - under arbete
 - agenter
@@ -141,22 +141,21 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Egenskaper att lagga till i Adminmetadata
 
+
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
-  <br/>```Exempel:```
-  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016```
+  <br/>```Exempel på obligatorisk källa:```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016. Uppgift från källa: Namnformen: Sveriges släktforskarförbund```
   * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
-  Ytterligare relevanta källor kan vara.
-  <br/>```Exempel:```
+  <br/>```Exempel på kompletterande källa:```
   * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  * ```Benämning: Företagets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte: 1986```
+  * ```Benämning: Landstingsförbundets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte: 1984```
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
-  
 
 #### Katalogisatorens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
@@ -258,3 +257,4 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+
