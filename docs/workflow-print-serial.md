@@ -25,16 +25,15 @@ Innehåll:
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Alfabet](#alfabet) |
+| [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Alfabet](#alfabet) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) |[Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Ämne](#amne) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Medietyp](#medietyp) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bärartyp](#barartyp) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | |
 
@@ -131,6 +130,12 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   ```Exempel: Seriell resurs```
   
 #### Titel 
+
+##### Nyckeltitel
+* Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
+För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
+Skriv in uppgiften.  
+ ```Exempel:  Kammarmusik-nytt ```
   
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
@@ -157,8 +162,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   ```Exempel: Titel felstavad i nummer 1 (2006):```  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ ‡a)  
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Housing sarts```  
-  
+  ```Exempel: Housing sarts```    
  
 ##### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
@@ -278,7 +282,6 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
-
 ### Verk
 
 * Instans av Verk/Text (instanceOf/Work/Text)  
@@ -361,7 +364,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Amne  
  * Ämne  
   Läs mer:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
 ##### Allmänt ämnesord  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
