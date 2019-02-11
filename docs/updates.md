@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-01
+date: 2019-02-11
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-02-08
+* Information om nyckeltitel tillagd på sidan Tryckt seriell resurs:
+<br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
 
 2019-02-04
 * Ändrat instruktionen för Annat bärarformat (776) för Tryckt seriell resurs.
