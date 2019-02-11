@@ -15,67 +15,23 @@ Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatis
 
 Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du se om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
 
-De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt att använda rätt plustecken: 
+  * Plustecken i sidorutan Lägg till entitet används för vad som motsvarande fält i marc. 
+  * Plustecken intill det som valts väljer man det som motsvarar delfält.
 
-Plustecken i sidorutan Lägg till entitet används för vad som motsvarande fält i marc. 
+### Innehåll   
 
-Plustecken intill det som valts väljer man det som motsvarar delfält.
-
-### Innehållsförteckning
-[Har komponent](#har-komponent)
-
-[Adminmetada](#adminmetadata)
-
-[Identifierare](#identifierare)
-
-[Anmärkningar](#anmarkningar)
-
-[Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation)
-
-[Agenter](#agenter)
-
-[Elektronisk adress](#elektronisk-adress)
-
-[Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift)
-
-[Exemplarinformation](#exemplarinformation)
-
-[Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt)
-
-
-### Har komponent
-(852)
-OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
-
-I Bestånd finns följande fält färdiga:
-* Hyllkod (852 ‡h)
-Här lägger du uppställning efter klassifikation eller annan hyllkod
-  ```Exempel: 158.1```
-
-* Hyllplacering (Avdelning,samling) (852 ‡c)
-Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-  ```Exempel: Institution 140```
-
-* Hyllsignum: Uppställningsord (852 ‡l)  ```Exempel: AND```
-
-* Hyllsignum: Löpnummer (852 ‡j)  ```Exempel: 2694```
- 
-Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
-* Tidigare hylluppställning (852 ‡d)
-* Precisering av hyllplacering (852 ‡g)
-* Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
-* Prefix för lokalsignum (852 ‡k)
-* Sufffix för lokalsignum (852 ‡m)
-* Unik exemplarbeteckning (streckkod) (852 ‡p)
-* Exemplarets fysiska tillstånd (852 ‡q)
-* Exemplarnummer (852 ‡t)
-* URI (852 ‡u)
-* Katalogisatörens anmärkning (852 ‡x)
-* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
-* Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
-* Underordnad institution/enhet (852 ‡9)
-
-För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plustecknet vid Har komponent.
+| [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
+| -----------  |  ----------- |
+| [Adminmetadata](#adminmetadata) | [Har komponent](#har-komponent) |
+| | [Identifierare](#identifierare) |
+| | [Anmärkningar](#anmarkningar) |
+| | [Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation) |
+| | [Agenter](#agenter)  |
+| | [Elektronisk adress](#elektronisk-adress) |
+| | [Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift) |
+| | [Exemplarinformation](#exemplarinformation) |
+| | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
 
 ### Adminmetadata
@@ -94,6 +50,42 @@ Välj önskad nivå:
   * z	Annan nivå
 
 * Katalogisatörens anmärkning (599 ‡a)
+
+### Har komponent
+(852)
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
+
+I Bestånd finns följande fält färdiga:
+* Hyllkod (852 ‡h)
+Här lägger du uppställning efter klassifikation eller annan hyllkod
+  </br>```Exempel: 158.1```
+
+* Hyllplacering (Avdelning,samling) (852 ‡c)
+Om ytterligare information om placering utöver Hyllkod behöver läggas till.
+  </br>```Exempel: Institution 140```
+
+* Hyllsignum: Uppställningsord (852 ‡l)  
+  </br>```Exempel: AND```
+
+* Hyllsignum: Löpnummer (852 ‡j)  
+  </br>```Exempel: 2694```
+ 
+Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
+* Tidigare hylluppställning (852 ‡d)
+* Precisering av hyllplacering (852 ‡g)
+* Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus / Du kan länka till ett antal vanliga beskrivningar. Du får fram dessa genom att söka med asterisk.  Andra beskrivningar skapar du istället som lokal entitet   - du får då ett nytt fält Exemplarstatus där du klickar på plusikonen och väljer Benämning. 
+* Prefix för lokalsignum (852 ‡k)
+* Sufffix för lokalsignum (852 ‡m)
+* Unik exemplarbeteckning (streckkod) (852 ‡p)
+* Exemplarets fysiska tillstånd (852 ‡q)
+* Exemplarnummer (852 ‡t)
+* URI (852 ‡u)
+* Katalogisatörens anmärkning (852 ‡x)
+* Anmärkning (hasNote) (852 ‡z) / Klicka på plustecknet direkt vid Anmärkning (Note) / Klicka på pilen. Du får då fram fältet Benämning. Skriv in din offentliga anmärkning 
+* Del av materialet som avses (852 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
+* Underordnad institution/enhet (852 ‡9)
+
+För att lägga till ytterligare ett bestånd (motsvarande flera 852) klickar du på plustecknet vid Har komponent.
  
 
 ### Identifierare
@@ -135,7 +127,6 @@ Klicka på plustecknet för att lägga till. Gå till Skapa lokal entitet. Förv
   * Anskaffningspris (541 ‡h)
   * Del av materialet som avses (541 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
 
-
 * Ägarhistorik (561 ‡a)
 
 * Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
@@ -158,8 +149,6 @@ Klicka på plustecknet för att lägga till. Klicka därefter på plustecknet ti
   * Del av materialet som avses (583 ‡3) / Resurs (val vid Skapa lokal entitet) / Benämning 
     
 
-
-
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och genre/form
@@ -173,15 +162,16 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 ‡a)
   * Benämning (698 ‡b)
-  
 
 * Klassifikation / Skapa lokal entitet / DDK-klassifikation/Kod (082 ‡a)
-  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt ```full```
-  * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). ```23/swe```
-
+  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt 
+    </br>```full```
+  * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). 
+    </br>```23/swe``
 
 * Klassifikation / Skapa lokal entitet / Klassifikation / Kod (084 ‡a)
-  * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. Kod: ```kssb```, Version: ```8```
+  * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. 
+    </br>Kod: ```kssb```, Version: ```8```
   
 
 ### Agenter - Personer och Organisationer
@@ -196,20 +186,20 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
    
 
   * Funktion - lägg till vid plustecknet till höger om Medverkan (700 ‡4)
-    Länka till entitet. Sök på kod eller term
-    ```Exempel: relator/fmo (=Tidigare ägare)```
+    Länka till entitet. Sök på kod eller term.
+    </br>```Exempel: relator/fmo (=Tidigare ägare)```
   * För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
 * Elektronisk adress / Mediaobjekt (val vid Skapa lokal entitet) (856 4/_)
-Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivis
+Ingen information om relation mellan den elektroniska resursen och bibliografiska resurs som beskrivits.
 
 * Tillhörande media / Mediaobjekt (val vid Skapa lokal entitet) (856 4/0)
-Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
+Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivits.
 
 * Annan relaterad resurs / Elektronisk (val vid Skapa lokal entitet) (856 4/1)
-Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
+Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits.
 
 * Relaterad beskrvining eller innehåll / Dokument (val vid Skapa lokal entitet) (856 4/2)
 Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Entiteten Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
@@ -224,7 +214,6 @@ Ospecificerad relation
   * Länktext (856 ‡y)
   * Offentlig anmärkning (856 ‡z)
   * Del av materialet som avses / Resurs (val vid Skapa lokal entitet) / Benämning (856 ‡3)
-
 
 
 ### Oformaterad bestandsuppgift
