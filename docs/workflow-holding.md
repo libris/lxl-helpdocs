@@ -185,7 +185,7 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * Funktion - lägg till vid plustecknet till höger om Medverkan (700 ‡4)
     Länka till entitet. Sök på kod eller term.
     </br>```Exempel: relator/fmo (=Tidigare ägare)```
-  * För information om vilka delfält som kan läggas till se  [Hjälp](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation "Hjälp")
+  * För information om vilka delfält som kan läggas till se hjälptext för [Relationer till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
 
 ### Elektronisk adress
 Om du inte lägger till motsvarande indikator 1 exporteras värdet som 4 (http).
