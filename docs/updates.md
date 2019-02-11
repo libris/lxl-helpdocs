@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-02-08
-* Information om nyckeltitel tillagd på sidan Tryckt seriell resurs:
+* Information om Nyckeltitel tillagd på sidan Tryckt seriell resurs:
 <br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
 
 2019-02-04
