@@ -57,8 +57,8 @@ OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har kompo
 
 I Bestånd finns följande fält färdiga:
 * Hyllkod (852 ‡h)
-Här lägger du uppställning efter klassifikation eller annan hyllkod
-  </br>```Exempel: 158.1```
+Här lägger du uppställning efter klassifikation eller annan hyllkod.
+ </br>```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
@@ -164,7 +164,7 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Benämning (698 ‡b)
 
 * Klassifikation / Skapa lokal entitet / DDK-klassifikation/Kod (082 ‡a)
-  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt 
+  * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt.
     </br>```full```
   * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). 
     </br>``23/swe``
