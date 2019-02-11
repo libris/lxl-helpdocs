@@ -253,7 +253,7 @@ Ospecificerad relation
 
 
 ### Lokalt definierade bestandsfalt
-*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras
+*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
 * Lokalt definierat beståndsfält (beståndsfält 948)
 * Lokalt definierat beståndsfält (beståndsfält 949)
 Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
