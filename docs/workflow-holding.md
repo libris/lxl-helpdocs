@@ -61,14 +61,11 @@ Här lägger du uppställning efter klassifikation eller annan hyllkod.
  </br>```Exempel: 158.1```
 
 * Hyllplacering (Avdelning,samling) (852 ‡c)
-Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-  </br>```Exempel: Institution 140```
+Om ytterligare information om placering utöver Hyllkod behöver läggas till.</br>```Exempel: Institution 140```
 
-* Hyllsignum: Uppställningsord (852 ‡l)  
-  </br>```Exempel: AND```
+* Hyllsignum: Uppställningsord (852 ‡l)</br>```Exempel: AND```
 
-* Hyllsignum: Löpnummer (852 ‡j)  
-  </br>```Exempel: 2694```
+* Hyllsignum: Löpnummer (852 ‡j)</br>```Exempel: 2694```
  
 Många ytterligare fält kan läggas till i Har komponent - gå till plustecknet vid beståndet under Har komponent. Där kan du söka upp följande:
 * Tidigare hylluppställning (852 ‡d)
