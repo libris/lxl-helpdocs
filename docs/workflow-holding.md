@@ -167,7 +167,7 @@ För att lägga till lokalt, se särskild hjälp för att skapa ämnesord och ge
   * Klassifikationsupplaga (082 indikator 1). Det vanligaste alternativet kommer automatiskt 
     </br>```full```
   * Parallell upplagebetckning/Upplagespecifik upphovsuppgift (Utgåvans nummer och upphov (editionenumeration)) (082 ‡2). 
-    </br>```23/swe``
+    </br>``23/swe``
 
 * Klassifikation / Skapa lokal entitet / Klassifikation / Kod (084 ‡a)
   * Termlista och Version (084 ‡2 ). Det vanligaste alternativet kommer automatiskt. 
