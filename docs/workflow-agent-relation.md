@@ -1,6 +1,6 @@
 ---
 section: Hjälptexter katalogisering
-title: Relationer till agenter, delar och verk
+title: Relationer till delar och verk
 order: 34
 date: 2019-02-06
 tags:
