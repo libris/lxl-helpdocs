@@ -1,5 +1,5 @@
 ---
-section: Arbetsflöden bestånd
+section: Hjälptexter bestånd
 title: Enkel beståndsregistrering
 order: 135
 date: 2019-02-07
