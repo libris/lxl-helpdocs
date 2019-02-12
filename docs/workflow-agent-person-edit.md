@@ -174,7 +174,7 @@ Beskrivning av den auktoriserade agenten.
 
 #### Variant
 * Variant (hasVariant = 400 ‡a ‡d)
-  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvaranter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
+  <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
   <br/>```Förnamn: Selma Ottiliana Lovisa``` 
