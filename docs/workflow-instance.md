@@ -238,8 +238,8 @@ Välj typ Osäkert år från listan.
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
 
-```Produktion/utgivning```
-<br/>```Datum: [mellan 1780 och 1815?]``` 
+```Produktion/utgivning```  
+```Datum: [mellan 1780 och 1815?]``` 
 
 #### Utgivning  
 * Utgivning (publication)  
