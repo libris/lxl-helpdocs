@@ -284,7 +284,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
-    * ```[mellan 1863 och 1866?]```
+    * ```[mellan 1863 och 1866?]```  
    För att ange ett osäkert utgivningsdatum där endast tidigare och senaste årtal kan anges, följ anvisningar under [Produktion](#produktion). Ange Kompletterande datum och Typ av utgivningsdatum.
   
 * Flera år (flerbandsverk)  
