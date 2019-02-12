@@ -10,6 +10,12 @@ tags:
 
 ## Tryckt monografi - bok
 
+**Nytt 2019-02-12:** Denna sida listar egenskaperna översiktligt och hänvisar till **de nya sidorna**:
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata)
+* [Verk](https://libris.kb.se/katalogisering/help/work)
+* [Instans](https://libris.kb.se/katalogisering/help/instance)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 Beskrivningen av en tryckt monografi innehåller:  
 * adminmetadata (administrativ data) om instansbeskrivningen  
 * en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
