@@ -18,37 +18,37 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris-dev.kb.se/katalogisering/help/workflow-work) |
-| [Skapad av](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris-dev.kb.se/katalogisering/help/workflow-work) |
-| [Uppgraderad eller importerad av](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Språk](#verk) |
-| [Katalogiserande instans](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#verk) |
-| [Poststatus](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Systemnummer](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris-dev.kb.se/katalogisering/help/workflow-work) |
-| [Katalogiseringsspråk](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Produktion](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris-dev.kb.se/katalogisering/help/workflow-work) |
-| [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris-dev.kb.se/katalogisering/help/workflow-instance)  |
-| [Beskrivningsnivå](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |
-| [Bibliografikod](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata)  | [Tillverkning](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |
-| [Systemteknisk anmärkning](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadat) | [Copyrightår](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |
-| | [Identifikator](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |
-| | [Omfång](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |
-| | [Övriga fysiska detaljer](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Mått](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | |                                                                  
+| [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](#verk) |
+| [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#verk) |
+| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Systemnummer](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Produktion](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Katalogiseringsregler](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)  |
+| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)  | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadat) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
+| | [Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |                                                                  
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Applicerat material](#applicerat-material) | |
 | | [Bärande material](#bärande-material) | |
 | | [Färginnehåll](#färginnehåll) | |
 | | [Genre/form](#polaritet) | |
 | | [Polaritet](#polaritet) | |
-| | [Bilagor](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Seriemedlemskap](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Anmärkning](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Innehållsanmärkning](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Annat bärarformat](https://libris-dev.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Bilagor](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Anmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Innehållsanmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
+| | [Annat bärarformat](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 
 
 ### Adminmetadata
 
-Använd generell hjälptext för [adminmetadata](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata).
+Använd generell hjälptext för [adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 
 ### Instans
@@ -108,7 +108,7 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 *	Språk (language (marc) = 008/35-37)
   </br>Länka till entitet. För stillbilder utan text, välj Icke-språkligt medium (=language/zxx). Denna entitet är förvald i stillbildsmallen, ändra vid behov.
 
-  </br>Se även: [Allmän hjälptext om verk](https://libris-dev.kb.se/katalogisering/help/workflow-work) under rubriken Språk.
+  </br>Se även: [Allmän hjälptext om verk](https://libris.kb.se/katalogisering/help/workflow-work) under rubriken Språk.
 
 #### Genre/form 
 *	Genre/form(genreForm (marc) = 007/00:k/00)
