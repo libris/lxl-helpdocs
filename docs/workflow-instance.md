@@ -285,8 +285,8 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 1863 och 1866?]```  
- 
- För att ange ett osäkert utgivningsdatum där endast tidigare och senaste årtal kan anges, följ exempel under [Produktion](#produktion) (men lägg in motsvarande egenskaper under Utgivning/Primär utgivning). Ange Kompletterande datum och Typ av utgivningsdatum.
+  
+ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel under [Produktion](#produktion). Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.  
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
