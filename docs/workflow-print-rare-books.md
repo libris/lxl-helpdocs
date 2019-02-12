@@ -1,7 +1,7 @@
 ---
 section: Hjälptexter katalogisering
 title: Äldre tryck
-order: 31
+order: 26
 date: 2018-11-16
 tags:
 - under arbete
