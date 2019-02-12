@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-11
+date: 2019-02-12
 tags:
 - ändringslogg
 - uppdateringar
@@ -18,6 +18,9 @@ På denna sida listas ändringar i hjälptexterna.
 <br>https://libris.kb.se/katalogisering/help/workflow-work
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
 <br>Sidan Tryckt monografi listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans. Övriga hjälptexter för olika materialtyper kommer framöver också att hänvisa till dessa sidor.
+
+* Ny hjälptext för stillbilder:
+<br>https://libris.kb.se/katalogisering/help/workflow-still-image
 
 2019-02-08
 * Information om Nyckeltitel tillagd på sidan Tryckt seriell resurs:
