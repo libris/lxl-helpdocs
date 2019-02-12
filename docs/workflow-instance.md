@@ -219,7 +219,7 @@ Datum får innehålla text och interpunktionstecken.
 Använd Kompletterande datum för material  med osäkert utgivningsår/produktionsår där tidigaste och senaste år kan anges. Får endast innehålla siffror (0-9). Ange senaste år, utan klamrar eller andra tecken, endast fyra positioner.
 
 ##### Typ av utgivningsdatum
-*	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)  
+*	Typ av utgivningsdatum (marc/publicationStatus = 008/06 q)  
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges.  
 Välj typ Osäkert år från listan.   
 
