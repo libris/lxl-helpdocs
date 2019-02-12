@@ -17,7 +17,7 @@ På denna sida listas ändringar i hjälptexterna.
 <br>https://libris.kb.se/katalogisering/help/workflow-adminmetadata
 <br>https://libris.kb.se/katalogisering/help/workflow-work
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
-Sidan Monografi listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans.
+<br>Sidan Monografi listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans.
 
 2019-02-08
 * Information om Nyckeltitel tillagd på sidan Tryckt seriell resurs:
