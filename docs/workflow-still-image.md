@@ -108,7 +108,7 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 *	Språk (language (marc) = 008/35-37)
   </br>Länka till entitet. För stillbilder utan text, välj Icke-språkligt medium (=language/zxx). Denna entitet är förvald i stillbildsmallen, ändra vid behov.
 
-  </br>Se även: [Länk till allmän hjälptext om språk]
+  </br>Se även: [Allmän hjälptext om verk], rubriken Språk(https://libris-dev.kb.se/katalogisering/help/workflow-work)
 
 #### Genre/form 
 *	Genre/form(genreForm (marc) = 007/00:k/00)
