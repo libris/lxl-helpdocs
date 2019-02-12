@@ -12,6 +12,13 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-02-12
+* Ny struktur på Hjälptexter Katalogsering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna:
+<br>https://libris.kb.se/katalogisering/help/workflow-adminmetadata
+<br>https://libris.kb.se/katalogisering/help/workflow-work
+<br>https://libris.kb.se/katalogisering/help/workflow-instance
+Sidan Monografi listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans.
+
 2019-02-08
 * Information om Nyckeltitel tillagd på sidan Tryckt seriell resurs:
 <br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
