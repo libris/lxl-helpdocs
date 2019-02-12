@@ -310,7 +310,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entitet.  
+  Länka till entitet.
   <br/>```Exempel:```
   * ```kartografisk bild (cri)```
   * ```framförd musik (prm)```
