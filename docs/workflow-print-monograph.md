@@ -60,6 +60,46 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 * Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
 * Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
+#### Kontrollnummer
+* Kontrollnummer    
+
+#### Skapad av  
+* Skapad av/Organisation/Namn  
+  
+#### Uppgraderad eller importerad av  
+* Uppgraderad eller importerad av/Bibliotek/Sigel  
+   
+#### Entry map  
+* Entry map 
+
+#### Katalogiserande instans
+* Katalogiserande instans  
+
+#### Bibliografikod
+* Bibliografi/Bibliotek/Sigel  
+  
+#### Systemnummer  
+* Identifikator/Lokal identifikator/Värde   
+
+För ISBN, se [Identifikator](#identifikator) under Instans.
+  
+#### Katalogiseringssprak  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
+  
+#### Katalogiseringsregler  
+* Katalogiseringsregler  
+
+#### Beskrivningsniva  
+* Beskrivningsnivå  
+  
+#### Poststatus     
+* Poststatus  
+  
+#### Translitterering
+* Institution som gjort translitterering  
+ 
+#### Systemteknisk anmarkning  
+* Systemteknisk anmärkning/Benämning  
 
 #### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
