@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 40
-date: 2019-01-29
+date: 2019-02-12
 tags:
 - agenter
 - auktoriteter
@@ -175,10 +175,14 @@ Beskrivning av agenten som ska auktoriseras.
   * ```Stvaningsvariant på efternamn: Lagerlœf``` 
   <br/>```Förnamn: Selma```
   <br/>```Födelse- och/eller dödstid: 1858-1940```
-  * ```Sammansatt släktnamn (dubbla efternamn): Månsson Lindmark```
-  <br/>```Förnamn: Helena``` 
+  * ```Sammansatt släktnamn (efternamn): Månsson```
+  <br/>```Förnamn: Helena Lindmark``` 
   <br/>```Födelse- och/eller dödstid: 1954-```
-  <br/>För att lägga till ytterligare Variant: Klicka på plustecknet inom egenskapen Variant, och välj typ (Person). Klicka på plustecknet inom den tillagda egenskapen Person, sök efter och lägg till Efternamn, Förnamn, Födelse- och/eller dödstid (ELLER Namn och Födelse- och/eller dödstid)
+  * ```Släktnamn med separata prefix (efternamn): Geer```
+  <br/>```Förnamn: Louis de``` 
+  <br/>```Födelse- och/eller dödstid: 1677-1735```
+  <br/>OBS! För sammansatta släktnamn och namn innehållande separata prefix läggs informationen för närvarande till enligt exemplen ovan.
+  <br/>För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
 
 #### Se även
 * Se även (seeAlso = 500 ‡a ‡d)
