@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-02-12
-* Ny struktur på Hjälptexter Katalogsering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna:
+* Ny struktur på Hjälptexter Katalogisering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna:
 <br>https://libris.kb.se/katalogisering/help/workflow-adminmetadata
 <br>https://libris.kb.se/katalogisering/help/workflow-work
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
