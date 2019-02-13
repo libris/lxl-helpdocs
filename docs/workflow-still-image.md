@@ -45,7 +45,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Innehållsanmärkning*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 | | [Annat bärarformat*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 
-(*) Länkas till annan sida. 
+(*) Länkas till aktuell hjälptext. 
 
 ### Adminmetadata
 
