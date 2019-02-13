@@ -18,7 +18,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Kontrollnummer*](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](#verk) |
 | [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#verk) |
@@ -35,7 +35,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |                                                                  
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Applicerat material](#applicerat-material) | |
-| | [Bärande material](#bärande-material) | |
+| | [Bärande material](#applicerat-material) | |
 | | [Färginnehåll](#färginnehåll) | |
 | | [Genre/form](#polaritet) | |
 | | [Polaritet](#polaritet) | |
@@ -68,7 +68,8 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 
 #### Bärande material 
 *	Bärande material (baseMaterial (marc) = 007/00: k/01)
-  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+  </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. 
+  </br>Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
   </br>I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
 
 *	Bärande material/Benämning ((baseMaterial/label = 340 ‡a)
