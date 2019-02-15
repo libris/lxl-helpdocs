@@ -17,7 +17,7 @@ På denna sida listas ändringar i hjälptexterna.
 <br>[Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
 <br>[Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 <br>[Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
-<br>Sidan Tryckt monografi listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans. Övriga hjälptexter för olika materialtyper kommer framöver också att hänvisa till dessa sidor.
+<br>Sidan [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph) listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans. Övriga hjälptexter för olika materialtyper kommer framöver också att hänvisa till dessa sidor.
 
 * Ny hjälptext för katalogisering av stillbilder:
 <br>https://libris.kb.se/katalogisering/help/workflow-still-image
