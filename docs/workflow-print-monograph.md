@@ -11,9 +11,9 @@ tags:
 ## Tryckt monografi - bok
 
 **Nytt 2019-02-12:** Denna sida listar egenskaperna översiktligt och hänvisar till **de nya sidorna**:
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata)
-* [Verk](https://libris.kb.se/katalogisering/help/work)
-* [Instans](https://libris.kb.se/katalogisering/help/instance)
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work)
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Beskrivningen av en tryckt monografi innehåller:  
@@ -24,7 +24,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
-Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work).
+Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) och [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -108,7 +108,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 ![Välj egenskap](plusegenskapinstans2.png)  
 
-Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/instance).  
+Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 ##### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -273,7 +273,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
-Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/work).  
+Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
 ##### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
