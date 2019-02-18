@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-12
+date: 2019-02-18
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-02-18
+* Förtydligad information om Seriemedlemskap/Indikator för seriebiuppslag:
+https://libris-dev.kb.se/katalogisering/help/workflow-instance#seriemedlemskap
 
 2019-02-12
 * Ny struktur på Hjälptexter Katalogisering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna:
