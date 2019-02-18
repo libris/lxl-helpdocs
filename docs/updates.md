@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-02-18
-* Förtydligad information om Seriemedlemskap/Indikator för seriebiuppslag:
+* Förtydligad information om Seriemedlemskap/Indikator för seriebiuppslag:  
 https://libris-dev.kb.se/katalogisering/help/workflow-instance#seriemedlemskap
 
 2019-02-12
