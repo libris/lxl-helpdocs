@@ -296,7 +296,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  <br/>```Exempel:```
   * ```Startår: 1753```
   * ```Slutår: 1756```
-  * ```Datum: [1732?]-1756```
+  * ```Datum: [1753?]-1756```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
   
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
