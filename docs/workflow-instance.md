@@ -350,7 +350,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
   
-**Vid postimport:**    
+*Vid postimport:*     
 Vid import från Andra källor kan posterna ibland innehålla många olika ISBN, både för tryckt och elektronisk utgåva. 
 För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande:
 -	Om det finns ISBN i varsitt Identifikator/ISBN/Värde (två 020 a) och det ena syftar på inbunden och det andra på häftad utgåva, låt båda ligga kvar. I övriga fall ska endast ISBN för den beskrivna utgåvan ligga i Identifikator/ISBN/Värde (020 a).  
@@ -425,9 +425,9 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
   ```Exempel: 1```   
  
-*Seriemedlemskap, vid postimport:* Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
-När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett genom att lägga till Serieuppgift och Indikator för seriebiuppslag i det Seriemedlemskap som innehåller Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
-Om man försöker göra tvärt om och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Text (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
+*Seriemedlemskap, vid postimport:*  
+Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
+När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett.   
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
 #### Anmarkning
