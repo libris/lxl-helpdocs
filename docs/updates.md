@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-02-19
-Ny information om hantering av ISBN vid postimport:
+* Ny information om hantering av ISBN vid postimport:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
 
 2019-02-18
