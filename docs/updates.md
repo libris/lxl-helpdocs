@@ -13,6 +13,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-02-19
+* Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
+
 * Ny information om hantering av ISBN vid postimport:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
 
