@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-18
+date: 2019-02-19
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-02-19
+Ny information om hantering av ISBN vid postimport:
+https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
 
 2019-02-18
 * Förtydligad information om Seriemedlemskap/Indikator för seriebiuppslag:  
