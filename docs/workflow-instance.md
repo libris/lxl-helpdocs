@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-02-18
+date: 2019-02-19
 tags:
 - under arbete
 - instans
@@ -12,7 +12,7 @@ tags:
 
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivningsplats, utgivare och utgivningsår, bärartyp och omfång.  
 
-En instans är av en viss typ. Exempel på instanstyper är: elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser anger vi för närvarande inte instanstyp. För dessa visas bara "Instans" i sammanfattningsrutan överst i beskrivningen.     
+En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser anger vi för närvarande inte instanstyp. För dessa visas bara "Instans" i sammanfattningsrutan överst i beskrivningen.     
 
 Till verket knyts information som ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger för närvarande lokalt inom varje instansbeskrivning, under Instans av verk. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
@@ -115,7 +115,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   Skriv in uppgiften.    
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Exempel:  
- ![Omslagstitel](omslagstitel.png)  
+ ![Omslagstitel](omslagstitel.png)   
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
   Skriv in uppgiften.
   <br/>```Exempel:```
@@ -218,7 +218,7 @@ Datum får innehålla text och interpunktionstecken.
 Använd Kompletterande datum för material  med osäkert utgivningsår/produktionsår där tidigaste och senaste år kan anges. Får endast innehålla siffror (0-9). Ange senaste år, utan klamrar eller andra tecken, endast fyra positioner.
 
 ##### Typ av utgivningsdatum
-*	Typ av utgivningsdatum (marc/publicationStatus = 008/06 q)  
+*	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)  
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges.  
 Välj typ Osäkert år från listan.   
 
@@ -236,7 +236,8 @@ Välj typ Osäkert år från listan.
 <br/>```År: 1780``` 
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
-<br/>```Produktion/utgivning```
+
+```Produktion/utgivning```
 <br/>```Datum: [mellan 1780 och 1815?]``` 
 
 #### Utgivning  
@@ -282,9 +283,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
-    * ```[mellan 1863 och 1866?]```  
-  
- För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, följ exempel under [Produktion](#produktion). Lägg in egenskaper under Utgivning/Utgivning och Huvudsakligt tillgängliggörande/Primär utgivning). Ange Land, År, Kompletterande datum och Typ av utgivningsdatum under Huvudsakligt tillgängliggörande.  
+    * ```[mellan 1863 och 1866?]```
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
@@ -298,7 +297,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Slutår: 1756```
   * ```Datum: [1753?]-1756```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
-  
+
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
 #### Tillverkning 
@@ -349,7 +348,21 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+  ```Exempel: inbunden``` 
+  
+**Vid postimport:**    
+Vid import från Andra källor kan posterna ibland innehålla många olika ISBN, både för tryckt och elektronisk utgåva. 
+För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande:
+-	Om det finns ISBN i varsitt Identifikator/ISBN/Värde (två 020 a) och det ena syftar på inbunden och det andra på häftad utgåva, låt båda ligga kvar. I övriga fall ska endast ISBN för den beskrivna utgåvan ligga i Identifikator/ISBN/Värde (020 a).  
+
+* För en tryckt bok, får det inte finnas ISBN för en annan tryckt version i Indirekt identifierad av/ISBN/Värde (020z), utan enbart i Identifierad av/ISBN/Värde (020a). Flytta ISBN för tryckta versioner till Identifierad av och låt ISBN för elektroniska versioner ligga kvar under Indirekt identifierad av.  
+
+  För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
+Om det är svårt att belägga vad det är för ISBN posten innehåller är det bättre att radera alla, förutom de som hör till resursen som ska katalogiseras.  
+
+* Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
+
+* Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 z), kan det särskiljande tillägget (020 q) ibland hamna fel, under Identifikator/ISBN/Värde. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.  
   
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
@@ -411,7 +424,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   ```Exempel: 0```   
   Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
   ```Exempel: 1```   
-  
+ 
 *Seriemedlemskap, vid postimport:* Om fält 490 ‡a och 830 ‡a matchar, läggs de vid import i samma Seriemedlemskap. Om de inte matchar, skapas två Seriemedlemskap: ett med Seriemedlemskap/Serieuppgift och ett med Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
 När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett genom att lägga till Serieuppgift och Indikator för seriebiuppslag i det Seriemedlemskap som innehåller Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
 Om man försöker göra tvärt om och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Text (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
