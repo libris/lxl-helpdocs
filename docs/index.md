@@ -2,14 +2,12 @@
 section: Main
 title: Start
 order: 1
-date: 2019-02-12
+date: 2019-02-22
 tags:
 - start
 ---
 
 # Hjälp
-
-NYHETER 2019-02-12. Ny struktur på Hjälptexter Katalogisering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna Adminmetadata, Verk och Instans. Sidan Tryckt monografi listar egenskaperna mera kortfattat och hänvisar till sidorna de allmänna sidorna. Ny hjälptext för stillbilder.
 
 Hjälpsektionen innehåller information om kortkommandon och specialtecken. Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
