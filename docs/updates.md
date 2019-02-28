@@ -16,6 +16,10 @@ På denna sida listas ändringar i hjälptexterna.
 * Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken.
 <br>https://libris.kb.se/katalogisering/help/search-01-queries
 
+2019-02-19
+
+* Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
+
 * Ny information om hantering av ISBN vid postimport:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
 
