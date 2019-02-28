@@ -64,7 +64,6 @@ För att söka på ISBN i fritextsökning (utan avgränsning), ta bort bindestre
     Exempel fritextsökning: `9789144113074`
 
 För att söka på ISBN med eller utan bindestreck, välj att söka med avgränsning ISBN.  
-
 <br/>`Exempel:`
   * `ISBN: 9789144113074`
   * `ISBN: 978-91-44-11307-4`  
