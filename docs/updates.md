@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-19
+date: 2019-02-28
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,8 +12,9 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
-2019-02-19
-* Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
+2019-02-28
+* Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken.
+<br>https://libris.kb.se/katalogisering/help/search-01-queries
 
 * Ny information om hantering av ISBN vid postimport:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
