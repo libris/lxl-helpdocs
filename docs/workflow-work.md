@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 21
-date: 2019-02-20
+date: 2019-03-01
 tags:
 - under arbete
 - verk
@@ -10,8 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om
-[Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
@@ -115,11 +114,15 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning  
-För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 130 ‡l, 240 ‡l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l, 240 ‡l, 730 ‡l.  
-  ![Språk](sprak.png)
+För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält ‡l, som ett tillägg till verkets titel.   
+Om översättningen är ett verk som har Primär medverkan, ange språket i klartext här:  
+* Språk/Språk/Benämning (Language/label = 240 ‡l)  
+  Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.    
+  ![Språk](sprak.png)  
+Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
+Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 ‡l)  
+Om översättningen är ett ingående verk, ange språket i klartext här:  
+Har del/Verk/Språk/Språk/Benämning (Language/label = 730 ‡l)  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
