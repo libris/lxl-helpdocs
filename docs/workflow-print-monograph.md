@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 23
-date: 2019-02-12
+date: 2019-03-06
 tags:
 - under arbete
 - monografi
@@ -24,7 +24,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
-Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) och [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -391,11 +391,12 @@ Genre/form (saogf-term): Poesi
 Litterär genre (008): Dikter
 
 **Bilderbok för barn**  
-Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar  
+Genre/form (barngf-term): Bilderböcker  
+Genre/form (barngf-term): Barn- och ungdomslitteratur  
 Litterär genre (008): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar  
+Genre/form (barngf-term): Faktaböcker   
 Litterär genre (008): Ej skönlitterärt verk
 
 **Biografi**  
@@ -445,10 +446,10 @@ Innehåll: Avhandling
 
 #### Amne  
 
-[Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-[Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-[Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-[Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+[Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+[Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+[Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)    
+[Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
 #### Malgrupp     
 * Målgrupp (008)
