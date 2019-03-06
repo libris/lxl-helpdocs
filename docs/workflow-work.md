@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 21
-date: 2019-03-01
+date: 2019-03-06
 tags:
 - under arbete
 - verk
@@ -248,15 +248,16 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Amne  
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna på följande sidor:  
-  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)    
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)       
    
 * Ämne - annan kontrollerad lista (subject = 650 -/7 ‡a, ‡2)  
   För ämnesord från andra kontrollerade listor, följ denna instruktion:  
@@ -264,24 +265,24 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   
 * Ämne - okontrollerade (subject = 653 -/- ‡a)  
   För ämnesord från andra kontrollerade listor, följ denna instruktion:  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+ [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
 
 ##### Allmänt ämnesord med underindelning   
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡x, ‡2 sao)  
   Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)
-  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+   
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡x, ‡2 sao)  
   För auktoriserade geografiska ämnesordssträngar, följ denna instruktion:    
- [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)     
   För ej auktoriserade geografiska ämnesordssträngar, följ denna instruktion:  
- [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh) 
+  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) 
    
 ##### Kronologiskt ämnesord
 * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
