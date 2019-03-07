@@ -251,7 +251,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
   [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
 ##### Allmänt ämnesord  
@@ -274,11 +273,11 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  Följ instruktioner:  
+  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
    
 ##### Geografiskt ämnesord med geografisk underindelning  
-* Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡x, ‡2 sao)  
+* Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
   För auktoriserade geografiska ämnesordssträngar, följ denna instruktion:    
   [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)     
   För ej auktoriserade geografiska ämnesordssträngar, följ denna instruktion:  
