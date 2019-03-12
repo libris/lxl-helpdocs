@@ -13,9 +13,9 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-03-12
-* Kompletterat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:  
+* Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:  
 https://libris.kb.se/katalogisering/help/workflow-instance
-* Kompletterat information om Utgivning/Datum på sidan Tryckt monografi:  
+* Förtydligat information om Utgivning/Datum på sidan Tryckt monografi:  
 https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-02-28
