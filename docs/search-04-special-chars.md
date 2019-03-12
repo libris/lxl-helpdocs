@@ -2,8 +2,9 @@
 section: Sök
 title: Specialtecken
 order: 5
+date: 2019-03-12
 tags:
-- search
+- special characters
 ---
 
 # Specialtecken
@@ -16,12 +17,12 @@ Uppdatera till Windows 10 (eller senare version)
 #### Installera flera språk/tangentbord 
 * Inställningar > Tid och språk > Region och språk > Språk/lägg till ett språk > Klicka på tillagt språk > Alternativ > + Lägg till tangentbord 
 
-#### För att aktivera tangentbord aktivitetsfältet
+#### För att aktivera tangentbord i aktivitetsfältet
 * Högerklicka på Aktivitetsfältet > aktivera Visa knappen Pektangentbord, eller
 * Inställningar > Anpassning > Aktivitetsfältet > Aktivera och inaktivera systemikoner > aktivera Pektangentbordet 
 
 #### För att komma åt specialtecken på det virtuella tangentbordet (gäller även för olika språk) 
-* Håll in relevant knapp för att se olika variationer av det tecknet.
+* Håll in relevant knapp för att se olika variationer av tecknet.
 
 #### Teckenuppsättning
 Sök på teckenuppsättning i “Sök i windows” och öppna programmet. Mata in tecken för tecken när du står i ett inmatningsfält. 
@@ -37,14 +38,10 @@ Infogar tecken för tecken.
 #### Få fram specialtecken via tangentbordet
 * Håll in en tangent och specialtecken visas då på vissa tangenter.
 
-## Google Input Tools för webben (Chrome) och Windows 
+## Google inmatningsverktyg (Chrometillägg)
 
-#### Chrome 
-* Installera Chrome för MAC/ WINDOWS/ LINUX [här](https://www.google.com/inputtools/try/)
-* Installera Google input tools plugin. 
+* [Installera Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=sv)
+* [Testa och installera Chrometillägget](https://www.google.com/inputtools/try/)
 
-#### Windows 
-* Läs mer och ladda ner [här](https://www.google.com/inputtools/windows/)
-
-
-
+## Sökning på specialtecken
+Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
