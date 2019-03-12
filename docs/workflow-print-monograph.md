@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 23
-date: 2019-03-06
+date: 2019-03-12
 tags:
 - under arbete
 - monografi
@@ -180,7 +180,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 **Datum**
 * Primär utgivning/Utgivning/Datum  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
-  Datum används endast när andra tecken än siffror och bokstaven u ska anges.
+  Datum används endast när man förutom årtalet ska använda andra tecken än siffror och bokstaven u.  
   
 **Flera år (flerbandsverk):**  
 Använd Startår och Slutår (inte År).
