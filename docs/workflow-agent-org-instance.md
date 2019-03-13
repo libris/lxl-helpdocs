@@ -1,7 +1,7 @@
 ---
 section: Hjälptexter katalogisering
 title: Relationer till Agent
-order: 33
+order: 50
 date: 2019-02-04
 tags:
 - editor
