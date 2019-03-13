@@ -2,9 +2,10 @@
 section: Hjälptexter ämnesord
 title: Ämnesord i Libris
 order: 100
-date: 2019-01-18
+date: 2019-03-13
 tags:
 - ämnesord
+- ämnesord i Libris
 - koncept
 - under arbete
 ---
@@ -27,7 +28,7 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | **Allmänt ämnesord** | **Allmänt ämnesord** |
 | [Allmänt ämnesord från SAO](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, MeSH m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster kao* |
 | [Allmänt ämnesord från Barn](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (LCSH, Quiding, SveMeSH m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exemepl: Horses lcsh* |
-| | [Ämnesordsförslag till SAO eller indexterm](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Tunnbröd (prel/S)* |
+| | [Ämnesordsförslag till SAO eller indexterm](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh) </br>*Exempel: Tunnbröd (prel/S)* |
 | | |
 | **Kronologiskt ämnesord** | **Kronologiskt ämnesord**  |
 | [Kronologiskt ämnesord från SAO](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: 1900-talet sao* | [Fritt formulerat kronologiskt ämnesord](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: 1901-1908* |
