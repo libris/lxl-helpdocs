@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-03-12
+date: 2019-03-13
 tags:
 - under arbete
 - instans
@@ -93,18 +93,24 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel. 
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. 
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
+ I äldre poster kan titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord ligga i Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel.  
+  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+ Se exempel i formathandboken för Libris/Voyager: 
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
-  ```Exempel: Titeln felstavad, korrekt titel:```   
-  
+  ```Exempel: Titeln felstavad, korrekt titel:```     
+     
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
@@ -143,16 +149,7 @@ För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en del
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
-
-  För att lägga till en alternativ sökingång för titeln, lägg till Relation. Lägg till Entitet. Skapa verk som lokal entitet. Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
-Skriv in uppgiften under Huvudtitel.  
-```Exempel: Commentarii fratrum arvalium qui supersunt```  
-
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
- ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+I äldre poster kan titlar med alternativ stavning ligga här. Använd i stället Varianttitel.    
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -482,11 +479,10 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
    Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
   
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
-  
-**Om länken går till relaterat innehåll:**    
+    
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
-  För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
 * Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
