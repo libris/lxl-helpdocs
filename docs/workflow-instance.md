@@ -457,28 +457,36 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
 
 ##### Tillhörande media
-* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
+* Tillhörande media/Mediaobjekt/URI  
+(associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
 **Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning  
+(marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
-* Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/0 ‡3)  
+* Del av materialet som avses/Resurs/Benämning  
+(marc:versionOfResource/Electronic/appliesTo = 856 4/0 ‡3)  
    Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
   
 ##### Annan relaterad resurs
-* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)  
+* Annan relaterad resurs/Elektronisk/URI  
+(marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)  
 **Om instansbeskrivningen inte gäller en elektronisk resurs, använd Annan relaterad resurs** för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
-* Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote  
- = 856 4/1 ‡z)   
+* Annan relaterad resurs/Elektronisk/Offentlig anmärkning  
+(marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)   
    Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
-* Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
-   Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
+* Del av materialet som avses/Resurs/Benämning  
+(marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
+  Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
   
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
     
 ##### Relaterad beskrivning eller innehåll
-* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
+* Relaterad beskrivning eller innehåll/Dokument/URI  
+(isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
   För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
+* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
+(isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
-* Del av materialet som avses/Dokument/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
+* Del av materialet som avses/Dokument/Benämning  
+(marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
