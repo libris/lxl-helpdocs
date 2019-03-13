@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 21
-date: 2019-03-06
+date: 2019-03-13
 tags:
 - under arbete
 - verk
@@ -28,7 +28,7 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 
 | [Verk](#verk) |  |  | 
 | ----------- |  ----------- |  ----------- |
-| [Verkets titel](#verkets-titel) |  | [Ämne](#amne) | 
+| [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
@@ -246,60 +246,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  ```Exempel: 8``` 
  
 #### Amne  
-* Ämne  
-  Länka  i första hand till entiteter för ämnesord. Följ instruktionerna på följande sidor:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
-  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
-
-##### Allmänt ämnesord  
-* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)       
-   
-* Ämne - annan kontrollerad lista (subject = 650 -/7 ‡a, ‡2)  
-  För ämnesord från andra kontrollerade listor, följ denna instruktion:  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
+* [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   
-* Ämne - okontrollerade (subject = 653 -/- ‡a)  
-  För ämnesord från andra kontrollerade listor, följ denna instruktion:  
- [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-
-##### Allmänt ämnesord med underindelning   
-* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡x, ‡2 sao)  
-  Länka till entitet från Svenska ämnesord, enligt instruktion:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  
-##### Geografiska ämnesord  
-* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Följ instruktioner:  
-  [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)   
-   
-##### Geografiskt ämnesord med geografisk underindelning  
-* Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
-  För auktoriserade geografiska ämnesordssträngar, följ denna instruktion:    
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)     
-  För ej auktoriserade geografiska ämnesordssträngar, följ denna instruktion:  
-  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) 
-   
-##### Kronologiskt ämnesord
-* Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-  Länka till entitet. Följ denna instruktion:  
-  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  
-##### Ämnesord Person  
-* Ämne/Agent/Person (subject = 600 1/4- ‡a)      
- Länka till entitet. Följ dessa instruktioner:  
- [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
- I undantagsfall, skapa lokal entitet.  
-  
-##### Ämnesord Organisation  
-* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-  Länka till entitet. Följ dessa instruktioner:  
-  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
-  I undantagsfall, skapa lokal entitet.  
- 
 #### Malgrupp     
 * Målgrupp (intendedAudience = 008/22)
  Länka till entitet.  
