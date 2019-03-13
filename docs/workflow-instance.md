@@ -478,7 +478,7 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 (marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
 Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
 
-Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
+  Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
     
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI  
