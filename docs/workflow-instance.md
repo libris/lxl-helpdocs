@@ -462,7 +462,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
 
 ##### Tillhörande media
-* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
+* Tillhörande media/Mediaobjekt/URI  
+(associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
 **Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
 (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
