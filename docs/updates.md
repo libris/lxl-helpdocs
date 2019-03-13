@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-02-28
+date: 2019-03-13
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,9 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-03-13
+* Nu korrekt länk till hjälptext för Ämnesordsförslag till SAO eller indexterm: https://github.com/libris/lxl-helpdocs/blob/master/docs/workflow-general-sh.md
 
 2019-03-12
 * Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:  
