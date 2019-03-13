@@ -15,7 +15,6 @@ På denna sida listas ändringar i hjälptexterna.
 2019-03-13
 * Ändrad information om titel med stavningsvarianter, tidigare Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel. 
 https://libris.kb.se/katalogisering/help/workflow-instance
-
 * Nu korrekt länk till hjälptext för Ämnesordsförslag till SAO eller indexterm: https://libris.kb.se/katalogisering/help/workflow-general-sh
 
 2019-03-12
