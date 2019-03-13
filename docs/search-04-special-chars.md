@@ -2,12 +2,15 @@
 section: Sök
 title: Specialtecken
 order: 5
-date: 2019-03-12
+date: 2019-03-13
 tags:
 - special characters
 ---
 
 # Specialtecken
+
+[Sökning på specialtecken](#specialtecken)
+
 För att komma åt specialtecken, samt tecken på olika språk rekommenderar vi att arbeta med de verktyg som finns i operativsystemet för PC och MAC. Instruktioner följer nedan.
 
 * [Här](https://unicode-table.com) kan du även hämta världens alla unicode‐tecken, samt deras unicode‐nummer.
