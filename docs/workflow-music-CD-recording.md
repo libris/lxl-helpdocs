@@ -424,6 +424,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  Skriv in uppgiften under Benämning.</br>
   ```Exempel:```  
    * ```Inspelad 2010```
-   * ```Inspelad i Konserthuset 9 juni 1967```
+   * ```Inspelad i Konserthuset 9 juni 1967``` 
+   
 
 
