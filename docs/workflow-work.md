@@ -210,24 +210,28 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod  
+(classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 082 i1)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet. Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+* Klassifikation/DDK-klassifikation/Kod  
+(additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 ‡2)  
+  (classification/ClassificationDdc/edition = 083 i1)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift   
  (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
   ```Exempel: 23/swe``` 
    
@@ -237,12 +241,15 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
+* Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Kod  
+(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Version  
+(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
  
 #### Amne  
@@ -252,7 +259,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Målgrupp (intendedAudience = 008/22)
  Länka till entitet.  
  <br/>```Exempel:```
-  * ```Barn och ungdom (0-16 år) (008/22: j)```
+  * ```Barn och ungdom (0-16 år) (008/22: j)```  
   Normalvärde för barn- och ungdomslitteratur.
   
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
@@ -274,7 +281,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
-Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Samanfattning.  
+Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
