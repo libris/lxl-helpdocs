@@ -1,6 +1,6 @@
 ---
 section: Hjälptexter katalogisering
-title: Stillbild
+title: Musik-CD - ljudinspelning
 order: 26
 date: 2019-03-14
 tags:
