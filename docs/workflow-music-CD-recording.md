@@ -34,7 +34,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | [Upplageuppgift](#upplageuppgift) | [Målgrupp](#malgrupp) |
 | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
-| [Copyright- eller p-år](#copyright--eller-p-ar) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| [Copyright- eller p-år](#år-och-datum ) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Omfång](#omfang) | |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
