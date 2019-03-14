@@ -256,7 +256,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   
 #### Malgrupp     
-* Målgrupp (intendedAudience = 008/22)
+* Målgrupp (intendedAudience = 008/22)  
  Länka till entitet.  
  <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
