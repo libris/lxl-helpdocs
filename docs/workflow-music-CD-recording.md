@@ -1,7 +1,7 @@
 ---
 section: Hjälptexter katalogisering
 title: Stillbild
-order: 28
+order: 26
 date: 2019-03-14
 tags:
 - under arbete
