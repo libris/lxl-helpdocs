@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 21
-date: 2019-03-13
+date: 2019-03-14
 tags:
 - under arbete
 - verk
@@ -61,7 +61,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
 ###### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 ‡a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
 Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
