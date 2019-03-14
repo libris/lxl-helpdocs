@@ -422,7 +422,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  Här anges uppgift om inspelningens tid, plats och omständigheter.  
  Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
  Skriv in uppgiften under Benämning.</br>
-  ```Exempel:```  
+  <br/>```Exempel:```  
    * ```Inspelad 2010```
    * ```Inspelad i Konserthuset 9 juni 1967``` 
    
