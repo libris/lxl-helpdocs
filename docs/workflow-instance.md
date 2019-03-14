@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-03-13
+date: 2019-03-14
 tags:
 - under arbete
 - instans
@@ -332,10 +332,10 @@ För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive h
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive hjälptext.  
 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
+* Indirekt identifierad av/ISBN  
   Välj typ från lista.  
   ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
