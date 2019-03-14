@@ -91,7 +91,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
     Skriv in uppgiften under Huvudtitel.    
     ```Exempel: Live at M.```  
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
+För en huvudtitel på ett annat språk eller i en annan skriftart, se Parallelltitel nedan.
 
 Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 
@@ -380,7 +380,7 @@ Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämne
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
-  ```Exempel:``` 
+  </br>```Exempel:``` 
    * ```Musikinspelningar```
    * ```Reggae```
 
