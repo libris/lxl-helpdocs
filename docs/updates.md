@@ -27,7 +27,7 @@ https://libris.kb.se/katalogisering/help/workflow-instance
 https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-02-28
-* Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken.
+* Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:  
 <br>https://libris.kb.se/katalogisering/help/search-01-queries
 
 2019-02-19
