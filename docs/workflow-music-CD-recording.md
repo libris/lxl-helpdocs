@@ -331,6 +331,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   Under Instans av Verk/Musik, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
   Lägg till eventuell deltitel, delbeteckning och benämning på språk (lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket). 
   För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion: Primär medverkan.  
+  
   För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
