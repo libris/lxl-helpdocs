@@ -1,6 +1,6 @@
 ---
 section: Hjälptexter katalogisering
-title: Musik-CD - ljudinspelning
+title: Musik-CD
 order: 26
 date: 2019-03-14
 tags:
@@ -44,20 +44,20 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Anmärkning](#anmarkning) | | 
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+  För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
-* Utgivningssätt (issuanceType)   
+  * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel: audio, s```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   ```Exempel: audio disc, sd```</BR>
   Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten marc/SoundDisc.</BR>
@@ -67,7 +67,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+  * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).</BR> 
   ```Exempel: En schlager i Sverige```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -78,7 +78,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+  * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: original motion picture soundtrack```  
   Om det finns flera undertitlar, skriv in dem efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
@@ -109,42 +109,42 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Välj först Har titel, välj sedan typ Parallelltitel.  
   Skriv in uppgiften under Huvudtitel.     
   ```Exempel: The doors of death, fileringsvärde: 4```  
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
+  * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
   Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.   
   ```Exempel: for computer and soprano```  
   
 #### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
+  * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```Pray for Locust```
     * ```Steve Dobrogosz, Anna Christoffersson```
 
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)</BR>
+  * Upplageuppgift (editionStatement = 250 ‡a)</BR>
   Skriv in upplagebeteckning här. Följ resursens formulering.  
   ```Exempel: Limiterad upplaga```  
   
 #### Utgivning  
-* Utgivning (publication)  
+  * Utgivning (publication)  
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats,    Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning. (NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.)
+  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats,        Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning. (NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.)
   
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.
  
 ##### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   Sök inte efter Plats som entitet. Skapa Plats som lokal entitet.     
   Skriv in uppgiften under Benämning. Klamra vid behov.</br>
   ```Exempel: Malmö```  
   
 ##### Utgivningsland  
-* Land (country = 008/15-17)  
+  * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
   
 ##### Utgivarnamn
-* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+  * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.       
   Skriv in uppgiften under Benämning.  
   ```Exempel: Dead End Exit Records```  
@@ -194,39 +194,39 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för musik-CD är Utgivningsnummer (ljudinspelning) och EAN förvalda.
 
 ##### Utgivningsnummer (ljudinspelning)
-* Identifikator (identifiedBy)<br/>
+  * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
-* Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)<br/>
+  * Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)<br/>
   Ange identifikator som det förekommer i resursen.
   <br/>```Exempel: DEERCD016```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
+  * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
   Ange utgivarens namn.
   <br/>```Exempel: Dead End Exit Records```<br/>
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+  * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Ange eventuell bestämning.    
   
 ##### EAN
-* Identifikator (identifiedBy)  
+  * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: EAN```
-* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 ‡a)<br/>
+  * Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 ‡a)<br/>
   Ange identifikator.<br/>
   ```Exempel: 7320470195826```  
    
 #### Omfang
   Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+  * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```  
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 ‡b)     
+  * Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
   ```Exempel: mono```
   
 #### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
+  * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
   Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
   Lägg till Benämning. Skriv in uppgiften.  
    ```Exempel: Sångtexter och kommentarer i bilaga```  
@@ -248,30 +248,30 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
   
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+  * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Gör allmänna anmärkningar här.  
   För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen i verktygsmenyn - Lägg till egenskaper under: Ljudinspelning) och välj Anmärkning (hasNote). Lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.</BR> 
   ```Tidigare utgiven 1997```  
   
 #### Relaterad beskrivning eller innehall
-* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
+  * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
   Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell länk.
   
 ### Verk   
 #### Instans av Verk/Musik
-* Instans av Verk/Musik (instanceOf/Work/Audio)  
+  * Instans av Verk/Musik (instanceOf/Work/Audio)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Musik.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
   För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
-Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
+  Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
 
 ##### Verkets titel - verk med primär medverkande
-Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
+  Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
   * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
     Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften. 
   <br/>```Exempel:```
@@ -343,31 +343,31 @@ Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Ti
   För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 #### Medverkan och funktion  
-* Medverkan och funktion  
+  * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
   För ytterligare instruktioner om hur man anger relationer till agenter, se: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
   Se även: [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).  
   
 ##### Primär medverkan
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
+  * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
 <br/>```Exempel: Persson, Peps, 1946-```  
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
+  * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
   För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
   ```Exempel: Framförande, prf (=Exekutör)```
 
 ##### Medverkan
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
+  * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
   ```Exempel: Skoglund, Bosse, 1936-```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
+  * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel: Producent, pro```  
 
 #### Sprak 
-* Språk (language = 008/35-37)  
+  * Språk (language = 008/35-37)  
   Ange det talade språket eller sjungna språket här.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
@@ -379,7 +379,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008. För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla). För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. 
 
 ##### Saogf-termer  
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+  * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
   </br>```Exempel:``` 
    * ```Musikinspelningar```
@@ -391,35 +391,35 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) under rubriken Klassifikation.
    
 #### Malgrupp     
- * Målgrupp (intendedAudience = 008/22)  
+  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
 
   För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se hjälptexten för [Instans](https://libris-dev.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning) under rubriken Målgruppsanmärkning.
 
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
   ```Exempel: term/rda/PerformedMusic```  
   
 #### Anmarkning om medverkande
- * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)  
+  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)  
  Ange namn på medverkande följt av instrumentnamn och/eller röstläge.  
   ```Exempel: Mats Gustafsson, flutephone, tenorsaxofon ; David Grubbs, harmonium```
   
 #### Sammanfattning av innehall    
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
+  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
   Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
     * ```60 trallar från Dalarna```
     * ```Musik från filmen The star```
 
-* Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
+  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
  ```Exempel: Ej preciserad```  
 
 #### Inspelning
-* Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
+  * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
  Här anges uppgift om inspelningens tid, plats och omständigheter.  
  Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
  Skriv in uppgiften under Benämning.</br>
