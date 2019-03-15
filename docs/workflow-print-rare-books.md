@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (efter typ)
+section: Materialtyper
 title: Äldre tryck
 order: 58
 date: 2018-11-16
