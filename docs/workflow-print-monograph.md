@@ -431,7 +431,8 @@ Genre/form (saogf-term, 655): Avhandlingar
 Innehåll (008/24-27): Avhandling
 
 #### Klassifikation  
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)
+* Klassifikation/DDK-klassifikation/Kod  
+(classification/ClassificationDdc/code = 082 0/4 ‡a)
 
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 082 i1)
