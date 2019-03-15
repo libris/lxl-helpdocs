@@ -1,3 +1,13 @@
+---
+section: Hjälptexter katalogisering
+title: Ljudbok
+order: 27
+date: 2019-03-15
+tags:
+- under arbete
+- ljudbok
+--- 
+
 ## Ljudbok - ljudinspelning 
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av ljudböcker (tillgängliga på CD eller MP3-CD), med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Ljudbok - ljudinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information. 
