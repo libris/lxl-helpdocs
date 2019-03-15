@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (efter typ)
+section: Materialtyper
 title: Musik-CD
 order: 48
 date: 2019-03-14
