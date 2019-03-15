@@ -13,7 +13,7 @@ tags:
 
 Denna hjälptext tar upp ett antal vanligt förekommande egenskaper vid beskrivning av musik-CD med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information.
 
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn under Hjälp. För anvisningar om Adminmetadata, se Adminmetadata i vänstermenyn under Hjälp/Hjälptexter katalogisering.  
+För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn under Hjälp. För instruktioner om adminmetadata, se generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
@@ -28,15 +28,15 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- |
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| [Upplageuppgift](#upplageuppgift) | [Målgrupp](#malgrupp) |
-| [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
-| [Copyright- eller p-år](#år-och-datum ) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Omfång](#omfang) | |
+| [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Titel](#titel) | [Språk](#sprak)  |
+| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
+| [Copyright- eller p-år](#år-och-datum ) | [Innehållstyp](#innehallstyp) |
+| [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
