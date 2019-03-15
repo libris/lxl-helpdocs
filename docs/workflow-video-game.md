@@ -1,3 +1,14 @@
+---
+section: Materialtyper
+title: Ljudbok
+order: 470
+date: 2019-03-15
+tags:
+- under arbete
+- datorspel
+- TV-spel
+--- 
+
 ## Datorspel - multimedia
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av datorspel med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Datorspel - multimedia, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information. 
 
