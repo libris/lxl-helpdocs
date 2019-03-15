@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (efter typ)
+section: Materialtyper
 title: Stillbild
 order: 52
 date: 2019-02-12
