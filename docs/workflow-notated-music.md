@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (efter typ)
+section: Materialtyper
 title: Musiktryck
 order: 49
 date: 2018-12-07
