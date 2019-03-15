@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (efter typ)
+section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
 date: 2019-02-04
