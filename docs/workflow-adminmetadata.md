@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (generella)
 title: Adminmetadata
 order: 20
 date: 2019-02-12
