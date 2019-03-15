@@ -157,7 +157,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  ```Exempel:```
+    ```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
 
