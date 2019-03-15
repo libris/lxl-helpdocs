@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-13
+date: 2019-03-15
 tags:
 - ändringslogg
 - uppdateringar
@@ -13,6 +13,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-03-15
+* Uppdaterad struktur i vänstermeny. Generella hjälpterxter är separerade från hjälptexter för de respektive materialtyperna.
+* Hjälptexter för materialtyperna datorspel, film, ljudbok och musik-CD.
 * Hänvisningar till marckoder tillagda på sidan Tryckt monografi:  
 https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
