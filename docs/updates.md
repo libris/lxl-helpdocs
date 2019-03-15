@@ -12,6 +12,10 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-03-15
+* Hänvisningar till marckoder tillagda på sidan:  
+https://libris.kb.se/katalogisering/help/workflow-print-monograph
+
 2019-03-13
 * Ändrad information om Anmärkning/Anmärkning om språk/Benämning (546) som nu går att lägga till från Berika från mall men fortfarande inte från Lägg till egenskaper:  
 https://libris.kb.se/katalogisering/help/workflow-work
