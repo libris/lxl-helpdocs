@@ -368,12 +368,12 @@ För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/fr
 * Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
 Välj Typ av fil i listan över typer.</br>
 Länka till entiteten:</br>
-```Dataspel, g```
+ ```Exempel: Dataspel, g```
 
 ##### Genre/form - saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br> 
 Länka till entiteten:</br> 
- ```Datorspel```
+ ```Exempel: Datorspel```
     
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
@@ -382,7 +382,6 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https:/
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna under:  
   [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
-  
 
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
