@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-03-15
-* Hänvisningar till marckoder tillagda på sidan:  
+* Hänvisningar till marckoder tillagda på sidan Tryckt monografi:  
 https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-03-13
