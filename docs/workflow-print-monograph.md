@@ -1,7 +1,7 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (efter typ)
 title: Tryckt monografi
-order: 23
+order: 40
 date: 2019-03-15
 tags:
 - under arbete
