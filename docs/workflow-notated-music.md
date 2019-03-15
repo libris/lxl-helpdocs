@@ -1,7 +1,7 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (efter typ)
 title: Musiktryck
-order: 25
+order: 49
 date: 2018-12-07
 tags:
 - under arbete
