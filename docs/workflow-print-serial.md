@@ -1,7 +1,7 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (efter typ)
 title: Tryckt seriell resurs
-order: 24
+order: 41
 date: 2019-02-04
 tags:
 - under arbete
