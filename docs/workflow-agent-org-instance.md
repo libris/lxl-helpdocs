@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (generella)
+section: Generell beskrivning
 title: Relationer till Agent
 order: 23
 date: 2019-02-04
