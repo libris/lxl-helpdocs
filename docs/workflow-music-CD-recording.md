@@ -1,7 +1,7 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (efter typ)
 title: Musik-CD
-order: 26
+order: 48
 date: 2019-03-14
 tags:
 - under arbete
