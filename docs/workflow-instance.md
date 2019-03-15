@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (generella)
 title: Instans
 order: 22
 date: 2019-03-15
