@@ -1,7 +1,7 @@
 ---
-section: Hjälptexter katalogisering
+section: Hjälptexter katalogisering (generella)
 title: Relationer till delar och verk
-order: 51
+order: 24
 date: 2019-02-06
 tags:
 - editor
