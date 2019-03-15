@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering (generella)
+section: Generell beskrivning
 title: Verk
 order: 21
 date: 2019-03-14
