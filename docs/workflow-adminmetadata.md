@@ -1,8 +1,8 @@
 ---
-section: Generell beskrivning
+section: Hjälptexter katalogisering
 title: Adminmetadata
 order: 20
-date: 2019-02-12
+date: 2019-03-18
 tags:
 - under arbete
 - adminmetadata
@@ -25,7 +25,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
 | [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
 | [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
-
+| [Systemnummer](#systemnummer) |  |
 
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
@@ -96,7 +96,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   
 ### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Båda är rätt.  
+  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktion finns".  
   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
   
@@ -106,7 +106,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   ![Katalogiseringsregler](katalogiseringsregler2.png)  
   
  
-#### Beskrivningsniva  
+### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
 **Observera: I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över!**  
