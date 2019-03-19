@@ -192,7 +192,7 @@ Datum får innehålla text och interpunktionstecken.
   * ```1846```
  
 #### Huvudsakligt tillgangliggorande
-*	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
+*	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity)  
   Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
   
