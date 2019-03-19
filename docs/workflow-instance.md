@@ -1,8 +1,8 @@
 ---
-section: Generell beskrivning
+section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-03-15
+date: 2019-03-19
 tags:
 - under arbete
 - instans
@@ -173,7 +173,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 Uppgifter om Produktion anges endast för **opublicerade** resurser. För publicerat material, se [Utgivning.](#utgivning)  
 
 * Produktion (production)  
-  Används för opublicerade resurser. Välj Produktion i listan. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande.
+  Används för opublicerade resurser. Välj Produktion i listan. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Undantaget är samlingsposter. I dessa anges täckningstiden som Primär produktion med egenskaperna Startår och Slutår.  
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
@@ -193,7 +193,7 @@ Datum får innehålla text och interpunktionstecken.
  
 #### Huvudsakligt tillgängliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
-  Ta alltid med Huvudsakligt tillgängliggörande när egenskapen Produktion används. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges.
+  Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
   
 ##### Land
@@ -215,22 +215,22 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 Välj typ Osäkert år från listan.   
 
 ##### Exempel på registrering av produktionsår för opublicerat material
-Huvudsakligt tillgängliggörande
-<br/>```Primär produktion```
+###### Huvudsakligt tillgängliggörande
+```Primär produktion```
 <br/>```Land: Sverige (sw)```
 <br/>```År: 1925```    
 <br/>```Produktion/Produktion```
 <br/>```Datum: 1925```  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
-Huvudsakligt tillgängliggörande
-<br/>```Land: Sverige (sw)```
+###### Huvudsakligt tillgängliggörande
+```Land: Sverige (sw)```
 <br/>```År: 1780``` 
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
 
-Produktion/utgivning
-<br/>```Datum: [mellan 1780 och 1815?]``` 
+###### Produktion/utgivning
+```Datum: [mellan 1780 och 1815?]``` 
 
 #### Utgivning  
 * Utgivning (publication)  
@@ -270,12 +270,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År.  
+  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens 264 -/1 ‡c.    
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 1863 och 1866?]```
+  
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
