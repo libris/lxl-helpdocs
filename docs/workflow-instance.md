@@ -26,17 +26,17 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 | [Instans](#instans) | | |
 | ------ | ------ | ------ |
-| [Utgivningssätt](#utgivningssatt) | | [Omfång](#omfang) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Bärartyp](#barartyp) | | [Mått](#matt) | |
-| [Titel](#titel) | | [Bilagor](#bilagor) | |
-| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |  |
-| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) | |
-| [Produktion](#produktion) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
+| [Utgivningssätt](#utgivningssatt) | | [Identifikator](#identifikator) | 
+| [Medietyp](#medietyp) | | [Omfång](#omfang) | 
+| [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Titel](#titel) | | [Mått](#matt) |
+| [Upphovsuppgift](#upphovsuppgift) | | [Bilagor](#bilagor) | 
+| [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
+| [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsanmärkning](#innehallsanmarkning) |
 | [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Tillverkning](#tillverkning)| | [Annat bärarformat](#annat-bararformat) |
+| [Tillverkning](#tillverkning) | | [Annat bärarformat](#annat-bararformat) |
 | [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Identifikator](#identifikator) | | |
 
 
 ### Instans
@@ -191,7 +191,7 @@ Datum får innehålla text och interpunktionstecken.
   * ```[mellan 1780 och 1815?]```
   * ```1846```
  
-#### Huvudsakligt tillgängliggörande
+#### Huvudsakligt tillgangliggorande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
   Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
