@@ -1,8 +1,8 @@
 ---
-section: Hjälptexter katalogisering
+section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-03-18
+date: 2019-03-19
 tags:
 - under arbete
 - adminmetadata
