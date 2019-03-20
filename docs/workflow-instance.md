@@ -1,8 +1,8 @@
 ---
-section: Generell beskrivning
+section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-03-19
+date: 2019-03-20
 tags:
 - under arbete
 - instans
@@ -219,7 +219,8 @@ Välj typ Osäkert år från listan.
 ```Primär produktion```
 <br/>```Land: Sverige (sw)```
 <br/>```År: 1925```    
-<br/>```Produktion/Produktion```
+###### Produktion
+```Produktion```
 <br/>```Datum: 1925```  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
