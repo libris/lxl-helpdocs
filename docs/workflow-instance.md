@@ -214,8 +214,10 @@ Använd Kompletterande datum för material  med osäkert utgivningsår/produktio
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges.  
 Välj typ Osäkert år från listan.   
 
+
 ##### Exempel på registrering av produktionsår för opublicerat material
 ![Produktion](produktion1.png)  
+
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges
 ![Produktion](produktion2.png)  
