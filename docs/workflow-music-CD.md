@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-03-14
+date: 2019-03-20
 tags:
 - under arbete
 - musik-CD
@@ -34,10 +34,10 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| [Copyright- eller p-år](#år-och-datum ) | [Innehållstyp](#innehallstyp) |
+| [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
 | [Bilagor](#bilagor) | |
 | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Innehållsanmärkning](#innehallsanmarkning) | | 
@@ -421,7 +421,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
 #### Inspelning
   * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
- Här anges uppgift om inspelningens tid, plats och omständigheter.  
+ Ange inspelningens tid, plats och omständigheter om uppgifterna är lätt tillgängliga. 
  Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
  Skriv in uppgiften under Benämning.</br>
   <br/>```Exempel:```  
