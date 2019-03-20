@@ -299,7 +299,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.</br> 
   ```Exempel: relator/author (= författare)```</br>
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
-  `
+
 ##### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se hjälptext [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new)). I undantagsfall, skapa lokal entitet.
@@ -374,7 +374,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
   
 #### Anmarkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
-  ```Exempel: Inläsare: Gunilla Röör```
+   </br>```Exempel: Inläsare: Gunilla Röör```
   
 #### Sammanfattning av innehall    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)</BR>
