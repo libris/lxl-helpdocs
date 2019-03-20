@@ -154,9 +154,9 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-   <br/>```Exempel:```
-  * ```[2017]```
-  * ```[mellan 2003 och 2005?]```
+    <br/>```Exempel:```
+     * ```[2017]```
+     * ```[mellan 2003 och 2005?]```
 
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
@@ -172,8 +172,8 @@ För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
    <br/>```Exempel:```
-  * ```©2017```
-  * ```℗2017```
+    * ```©2017```
+    * ```℗2017```
      
 #### Identifikator 
 Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
