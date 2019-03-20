@@ -300,10 +300,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ##### Tillverkningsplats (Tillverkningsort) 
 * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
+  
 ##### Tillverkningsnamn  
 * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```   
+  
 ##### Tillverkningstid   
 * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
   Skriv in uppgiften. Klamra vid behov.
