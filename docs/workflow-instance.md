@@ -222,7 +222,7 @@ Välj typ Osäkert år från listan.
 
 ###### Produktion
 ```Produktion```
-<br>```Produktion```
+<br>```Datum: 1925```
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
 ###### Huvudsakligt tillgängliggörande
