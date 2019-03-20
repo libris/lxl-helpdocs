@@ -29,7 +29,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Copyright- eller p-år](#år-och-datum) | [Målgrupp](#malgrupp) |
+| [Copyright- eller p-år](#copyright-eller-p-ar) | [Målgrupp](#malgrupp) |
 | [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
 | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
