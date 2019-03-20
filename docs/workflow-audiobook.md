@@ -29,7 +29,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Copyright- eller p-år](#copyright--eller-p-ar) | [Målgrupp](#malgrupp) |
+| [Copyright- eller p-år](#copyright-eller-p-ar) | [Målgrupp](#malgrupp) |
 | [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
 | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
@@ -154,9 +154,9 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-    <br/>```Exempel:```
-     * ```[2017]```
-     * ```[mellan 2003 och 2005?]```
+   <br/>```Exempel:```
+    * ```[2017]```
+    * ```[mellan 2003 och 2005?]```
 
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
