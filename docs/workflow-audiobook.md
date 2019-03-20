@@ -154,7 +154,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  ```Exempel:```
+   ```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]```
 
@@ -171,7 +171,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
-  ```Exempel:``` 
+   ```Exempel:``` 
     * ```©2017```
     * ```℗2017```
      
@@ -292,7 +292,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
   
 ##### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se hjälptext [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new)). I undantagsfall, skapa lokal entitet.
 <br/>```Exempel: Lindgren, Astrid, 1907-2002```
   
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
@@ -302,7 +302,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   `
 ##### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se hjälptext [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new)). I undantagsfall, skapa lokal entitet.
   ```Exempel: Sauk, Stefan, 1955-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.</br>
