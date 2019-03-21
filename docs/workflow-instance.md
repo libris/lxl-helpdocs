@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-03-20
+date: 2019-03-21
 tags:
 - under arbete
 - instans
@@ -453,10 +453,10 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
 **Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
-(marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
+(associatedMedia/Mediaobject/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
 * Del av materialet som avses/Resurs/Benämning  
-(marc:versionOfResource/Electronic/appliesTo = 856 4/0 ‡3)  
+(appliesTo/Resource/label = 856 4/0 ‡3)  
   Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
   
 ##### Annan relaterad resurs
@@ -467,7 +467,7 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)  
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
 * Del av materialet som avses/Resurs/Benämning  
-(marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
+(appliesTo/Resource/label = 856 4/1 ‡3)  
 Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
 
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
@@ -479,6 +479,6 @@ Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resu
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
 (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
-* Del av materialet som avses/Dokument/Benämning  
-(marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
+* Del av materialet som avses/Resurs/Benämning  
+(appliesTo/Resource/label = 856 4/1 ‡3)  
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
