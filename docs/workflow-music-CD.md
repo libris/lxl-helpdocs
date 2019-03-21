@@ -422,8 +422,8 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 #### Inspelning
   * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
  Ange inspelningens tid, plats och omständigheter om uppgifterna är lätt tillgängliga. 
- Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
- Skriv in uppgiften under Benämning.</br>
+ <br/>Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
+ Skriv in uppgiften under Benämning.
   <br/>```Exempel:```  
    * ```Inspelad 2010```
    * ```Inspelad i Konserthuset 9 juni 1967```
