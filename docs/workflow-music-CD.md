@@ -382,9 +382,9 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 ##### Saogf-termer  
   * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
-  </br>```Exempel:``` 
-   * ```Musikinspelningar```
-   * ```Reggae```
+ <br/>```Exempel:```
+    * ```Musikinspelningar```
+    * ```Reggae```
 
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
