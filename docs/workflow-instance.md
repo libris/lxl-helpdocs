@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-03-21
+date: 2019-03-22
 tags:
 - under arbete
 - instans
@@ -219,8 +219,8 @@ Välj typ Osäkert år från listan.
 ![Produktion](produktion1.png)  
 
 
-##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
-![Produktion](produktion2.png)  
+##### Exempel på osäkert utgivningsår där tidigaste och senaste år kan anges:
+![Produktion](osakert_ar.png)  
 
 #### Utgivning  
 * Utgivning (publication)  
