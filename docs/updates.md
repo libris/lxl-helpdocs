@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-15
+date: 2019-03-22
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,9 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-03-22
+* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-03-15
 * Uppdaterad struktur i vänstermeny. Generella hjälpterxter är separerade från hjälptexter för de respektive materialtyperna.
