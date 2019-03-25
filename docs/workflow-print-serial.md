@@ -1,8 +1,8 @@
 ---
-section: Materialtyper
+section: Hjälptexter katalogisering
 title: Tryckt seriell resurs
 order: 55
-date: 2019-02-04
+date: 2019-03-25
 tags:
 - under arbete
 - seriell resurs
@@ -24,103 +24,67 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
-| [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Alfabet](#alfabet) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Medietyp](#medietyp) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bärartyp](#barartyp) | |
-| | [Anmärkning](#anmarkning) | |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| [Uppgraderad av](#uppgraderad-av) | [Medietyp](#medietyp) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Bärartyp](#barartyp) | [Genre](#genre) |
+| [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Titel](#titel) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) |  |
+| [Bibliografikod](#bibliografikod) | [Alfabet](#alfabet) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
+| | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
-### Adminmetadata  
-#### Skapad av, Uppgraderad av
+#### Adminmetadata
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
+* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
+* Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
+* Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
+#### Kontrollnummer  
+* Kontrollnummer (controlNumber = 001)  
+
+#### Skapad av 
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```  
   
-#### Uppgraderad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
-  ```Exempel: S``` 
-  
-#### Katalogiserande instans
+#### Uppgraderad eller importerad av 
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
+   
+#### Entry map 
+* Entry map (marc:entryMap = 000/20-23)
+
+#### Katalogiserande instans 
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-  
-#### Bibliografikod
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
-  För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
-  Skriv in uppgiften under Sigel.  
-  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
-  * ```NB```
-  * ```SAMB```
-  
-#### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-  <br/>```Exempel:```
-  * ```(BOKR)9789188107213```
-  * ```(OCoLC)on1042213159```  
-  
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
-  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 
-För ISBN, se [Identifikator](#identifikator) under Instans.
+#### Bibliografikod 
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)
   
-#### Katalogiseringssprak  
+#### Systemnummer 
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
+
+För ISSN, se [Identifikator](#identifikator) under Instans.
+  
+#### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-
-#### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-
-#### Beskrivningsniva  
-* Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
-I mallar är Miniminivå förvalt. Ändra vid behov.   
-  Välj från lista.    
-  ```Exempel: Biblioteksnivå```
   
-#### Poststatus     
-* Poststatus (000/05)  
-  Uppdateras automatiskt. Ändra inte.
-  <br/>```Exempel:```
-  * ```Ny post```
-  * ```Rättad eller reviderad post```
+#### Katalogiseringsregler
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+
+#### Beskrivningsniva 
+* Beskrivningsnivå (encodingLevel = 000/17)
   
-#### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)``` 
+#### Poststatus 
+* Poststatus (recordStatus = 000/05)
+  
+#### Translitterering 
+* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)
  
-Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
- * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla  
-
+#### Systemteknisk anmarkning 
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)
 
 ### Instans
 
@@ -128,6 +92,16 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
+  
+#### Medietyp
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  Länka till entitet.  
+  ```Exempel:  n (= omedierad)``` 
+  
+#### Barartyp  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+  ```Exempel:  nc (= volym)```
   
 #### Titel 
 
@@ -139,7 +113,7 @@ Skriv in uppgiften.
   
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften under Huvudtitel.      
   ```Exempel: Kammarmusik-nytt```  
@@ -179,17 +153,6 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
-  
-#### Identifikator  
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
-  Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
   
 #### Utgivning
 * Utgivning  
@@ -242,7 +205,18 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
-
+  
+#### Identifikator  
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
+  ```Exempel: ISSN```   
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```   
+  
 #### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
@@ -257,16 +231,16 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)  
   Skriv in uppgiften under Benämning.    
   ```Exempel: 2011: 4-2013: 2```
-
-#### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel:  n (= omedierad)``` 
   
-#### Barartyp  
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+#### Alfabet    
+* Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
-  ```Exempel:  nc (= volym)```
+  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
+  
+#### Behandling vid titelandring 
+* Behandling vid titeländring (marc:typeOfEntry = 008/34)  
+  Länka till entitet.  
+  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
@@ -288,17 +262,6 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-##### Verkets titel
-* Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
-  Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
-Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
-Skriv in uppgiften under Huvudtitel.  
-```Exempel:  Architecture (Paris. 1888)```  
-  
-* Behandling vid titeländring (marc:typeOfEntry = 008/34)  
-  Länka till entitet.  
-  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-  
 #### Medverkan och funktion     
 * Medverkan och funktion  
   Läs mer:  
@@ -313,13 +276,19 @@ Skriv in uppgiften under Huvudtitel.
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
+#### Sprak
+* Språk (language = 008/35-37)  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```  
+   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
+   
 #### Genre 
 ##### Typ av fortlöpande resurs  
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: p (Tidskrift = marc/Periodical)```  
-
+  
 #### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -327,12 +296,15 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod  
+(classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 082 ‡2)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
@@ -354,68 +326,16 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
+* Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Kod  
+(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Version  
+(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
- 
-#### Amne  
- * Ämne  
-  Läs mer:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
-
-##### Allmänt ämnesord  
-* Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
-  Länka till entitet.  
-  ```Exempel: Kammarmusik```  
-   
-##### Allmänt ämnesord med underindelning   
-Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
-  ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
-  ```Exempel: juridik och lagstiftning```   
-  
-##### Geografiskt ämnesord  
-* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Sök fram och länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel: Sverige```
-  
-##### Geografiskt ämnesord med geografisk underindelning  
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
- (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
- Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
-  ```Exempel: Tyskland```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
- (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
-  ```Exempel: Bonn``` 
-   
-##### Ämnesord Organisation  
-* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-```Exempel: Svenska Röda korset```  
-Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
 
 #### Genre 
 ##### Typ av fortlöpande resurs  
@@ -423,29 +343,16 @@ Läs mer:
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: p (Tidskrift = marc/Periodical)```  
-  
- ##### Konferenspublikation  
+    
+##### Konferenspublikation  
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: Ja, resursen härrör från konferens```      
-     
-#### Sprak
-* Språk (language = 008/35-37)  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```  
-   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
-  
-#### Alfabet    
-* Alfabet/skriftart (marc:alphabet = 008/33)   
-  Länka till entitet.  
-  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-  
-#### Innehallstyp
-* Innehållstyp (contentType/ContentType = 336 ‡b)  
-  Länka till entitet.  
-  ```Exempel: text (txt)```
-  
+   
+#### Amne  
+* [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+
 #### Relationer under verk
 * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
@@ -482,3 +389,15 @@ Läs mer:
   Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
   Uppdelat på (splitInto = 785 0/6)  
   Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
+  
+#### Innehallstyp
+* Innehållstyp (contentType/ContentType = 336 ‡b)  
+  Länka till entitet.  
+  ```Exempel: text (txt)```
+  
+#### Verkets titel
+* Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
+  Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
+Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
+Skriv in uppgiften under Huvudtitel.  
+```Exempel:  Architecture (Paris. 1888)```   
