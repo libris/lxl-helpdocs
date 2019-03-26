@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-22
+date: 2019-03-26
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,11 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-03-26
+* Förtydligade instruktioner för egenskaperna *Titel eller övrig beteckning* respektive *Andra attribut för person- och organisationsnamn* i hjälptexterna för Agent - Person:
+https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-03-22
 * Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: https://libris.kb.se/katalogisering/help/use-the-editor
