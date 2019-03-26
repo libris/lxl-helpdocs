@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-02-12
+date: 2019-03-26
 tags:
 - agenter
 - auktoriteter
@@ -247,16 +247,25 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
-#### Titel eller övrig beteckning
-* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c ‡d)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. 
-  <br/>```Exempel: påve```
+#### Titel eller övrig beteckning 
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet).
+  <br/>```Exempel:```
+  <br/>```påve```
+  <br/>```(fiktiv gestalt)```
 
-#### Andra attribut för person- och organisationsnamn
-* Andra attribut för person- och organisationsnamn (hasOtherAttributes = 368 ‡a ‡2)
-  <br/>Används vid behov som särskiljande tillägg för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+#### Andra attribut för person- och organisationsnamn 
+Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+
+* Andra attribut för person- och organisationsnamn/Annan beteckning (hasOtherAttributes = 368 ‡c #2)
+  <br/>Används för att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter.
+  <br/>```Exempel: Fiktiva gestalter sao```
+
+* Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 ‡d #2)
+  <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc.. 
   <br/>```Exempel: Professorer sao```
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
+
+  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskapen Annan beteckning ELLER Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. *OBS! Länkas ej.*
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
