@@ -14,38 +14,37 @@ På denna sida listas ändringar i hjälptexterna.
 
 2019-03-26
 * Förtydligade instruktioner för egenskaperna *Titel eller övrig beteckning* respektive *Andra attribut för person- och organisationsnamn* i hjälptexterna för Agent - Person:
-https://libris.kb.se/katalogisering/help/workflow-agent-person-new
-https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
+<br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+<br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-03-22
-* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: https://libris.kb.se/katalogisering/help/use-the-editor
+* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: <br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-03-15
 * Uppdaterad struktur i vänstermeny. Generella hjälpterxter är separerade från hjälptexter för de respektive materialtyperna.
 * Hjälptexter för materialtyperna datorspel, film, ljudbok och musik-CD.
 * Hänvisningar till marckoder tillagda på sidan Tryckt monografi:  
-https://libris.kb.se/katalogisering/help/workflow-print-monograph
+<br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-03-13
 * Ändrad information om Anmärkning/Anmärkning om språk/Benämning (546) som nu går att lägga till från Berika från mall men fortfarande inte från Lägg till egenskaper:  
-https://libris.kb.se/katalogisering/help/workflow-work
+<br>https://libris.kb.se/katalogisering/help/workflow-work
 * Ändrad information om titel med stavningsvarianter, tidigare under Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel:    
-https://libris.kb.se/katalogisering/help/workflow-instance
+<br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Nu korrekt länk till hjälptext för Ämnesordsförslag till SAO eller indexterm:  
-https://libris.kb.se/katalogisering/help/workflow-general-sh
+<br>https://libris.kb.se/katalogisering/help/workflow-general-sh
 
 2019-03-12
 * Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:  
-https://libris.kb.se/katalogisering/help/workflow-instance
+<br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Förtydligat information om Utgivning/Datum på sidan Tryckt monografi:  
-https://libris.kb.se/katalogisering/help/workflow-print-monograph
+<br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-02-28
 * Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:  
 <br>https://libris.kb.se/katalogisering/help/search-01-queries
 
 2019-02-19
-
 * Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
 
 * Ny information om hantering av ISBN vid postimport:
