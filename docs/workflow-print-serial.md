@@ -114,8 +114,8 @@ Skriv in uppgiften.
  
 * Har titel/Nyckeltitel/Särskiljande tillägg  
 (hasTitle/KeyTitle/qualifier = 222 ‡b)  
-Skriv in uppgiften, inom parentes.
-Exempel:  (Brämhult)
+Skriv in uppgiften, inom parentes.  
+```Exempel: (Brämhult)```
   
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
