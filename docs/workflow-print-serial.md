@@ -106,12 +106,14 @@ För ISSN, se [Identifikator](#identifikator) under Instans.
 #### Titel 
 
 ##### Nyckeltitel
-* Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
+* Har titel/Nyckeltitel/Huvudtitel    
+(hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
  ```Exempel:  Kammarmusik-nytt ```
  
-* Har titel/Nyckeltitel/Särskiljande tillägg (hasTitle/KeyTitle/qualifier = 222 ‡b)
+* Har titel/Nyckeltitel/Särskiljande tillägg  
+(hasTitle/KeyTitle/qualifier = 222 ‡b)  
 Skriv in uppgiften, inom parentes.
 Exempel:  (Brämhult)
   
