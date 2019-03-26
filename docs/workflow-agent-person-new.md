@@ -265,7 +265,7 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
   <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc.. 
   <br/>```Exempel: Professorer sao```
 
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskapen Annan beteckning ELLER Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. *OBS! Länkas ej.*
+  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskapen Annan beteckning eller Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. *OBS! Länkas ej.*
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
