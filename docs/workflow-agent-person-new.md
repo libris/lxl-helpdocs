@@ -255,17 +255,21 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>```(fiktiv gestalt)```
 
 #### Andra attribut för person- och organisationsnamn 
-Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
+Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). 
 
-* Andra attribut för person- och organisationsnamn/Annan beteckning (hasOtherAttributes = 368 ‡c #2)
-  <br/>Används för att ange andra beteckningar för t.ex. andar, gudinnor, fiktiva gestalter.
-  <br/>```Exempel: Fiktiva gestalter sao```
+* Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 ‡c #2)
+  <br/>För att ange Titel eller övrig beteckning (368 ‡c #2) används den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
+  <br/>```Exempel:```
+  <br/>```Fiktiva gestalter sao```
+  <br/>```Professorer sao```
 
 * Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 ‡d #2)
-  <br/>Används för att ange akademiska titlar, kyrkliga ämbeten, militära tjänstegrader (till exempel kapten), hederstitlar etc.. 
-  <br/>```Exempel: Professorer sao```
+  <br/>För att ange Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d) används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
+  <br/>```Exempel:```
+  <br/>```Påve```
+  <br/>```Kung av Sverige```
 
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskapen Annan beteckning eller Titel/officiell rang för kunglig, adlig eller religiös person samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. *OBS! Länkas ej.*
+<br/>Termen går inte att lägga till som länkad entitet i nuvarande version av katalogiseringsklienten utan läggs till som en lokal entitet.
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 ‡b)
