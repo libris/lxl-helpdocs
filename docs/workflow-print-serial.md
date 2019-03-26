@@ -30,8 +30,8 @@ Innehåll:
 | [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Titel](#titel) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) |  |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
 | [Bibliografikod](#bibliografikod) | [Alfabet](#alfabet) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
@@ -110,6 +110,10 @@ För ISSN, se [Identifikator](#identifikator) under Instans.
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
  ```Exempel:  Kammarmusik-nytt ```
+ 
+* Har titel/Nyckeltitel/Särskiljande tillägg (hasTitle/KeyTitle/qualifier = 222 ‡b)
+Skriv in uppgiften, inom parentes.
+Exempel:  (Brämhult)
   
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
