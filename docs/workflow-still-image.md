@@ -15,6 +15,7 @@ Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalo
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
+(*) Länk till respektive hjälptext: Adminmetadata, Instans, Verk
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
@@ -45,7 +46,6 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Innehållsanmärkning*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 | | [Annat bärarformat*](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 
-(*) Länkas till aktuell hjälptext. 
 
 ### Adminmetadata
 
@@ -116,7 +116,6 @@ I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälpt
 *	Genre/form(genreForm (marc) = 007/00:k/00)
   </br>Länka till enitet. För stillbilder välj: Bild (marc/picture). 
   </br>I stillbildsmallen finns redan entiteten Bild (marc/picture) inlagd.
-
 
 *	Genre/form – TGM-termer (genreForm = 655 -/7 ‡a, ‡2 TGM)
   </br>Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. 
