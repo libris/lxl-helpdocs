@@ -15,7 +15,7 @@ Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalo
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
-(*) Länk till respektive hjälptext: Adminmetadata, Instans, Verk
+(*) Länk till respektive generell hjälptext: Adminmetadata, Instans, Verk
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
