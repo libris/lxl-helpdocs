@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Äldre tryck
 order: 58
-date: 2018-11-16
+date: 2019-03-27
 tags:
 - under arbete
 - äldre tryck
@@ -120,6 +120,7 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Startår: 1732```
   * ```Slutår: 1745```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  
   <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
   
 * Datum (264 -/1 ‡c)    
@@ -186,8 +187,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   <br/>```Exempel:```
   * ```Fraktur```
   * ```Boktryckarmärke på sista sidan```
-  
-  Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
+  <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
   * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 #### Citering i referatorgan    
@@ -253,11 +253,9 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
-  * Skriv in uppgifterna.<br/>
-  
+  * Skriv in uppgifterna.<br/><br/>
   Igenkänningstecken (562 ‡a) 
-  <br/>```Exempel: Med handkolorerade illustrationer```<br/>
-
+  <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
   Identifiering av exemplar (562 ‡b)
   <br/>```Exempel: Ex. B```
   
