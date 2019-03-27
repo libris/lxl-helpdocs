@@ -489,4 +489,5 @@ Innehåll (008/24-27): Avhandling
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning  
+(dissertation/Dissertation/label = 502 #a)  
