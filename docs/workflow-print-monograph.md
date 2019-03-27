@@ -300,7 +300,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)
+* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan 
@@ -308,11 +308,11 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)
+  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
-   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Medverkan och funktion
