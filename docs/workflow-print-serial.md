@@ -49,10 +49,10 @@ Innehåll:
 * Kontrollnummer (controlNumber = 001)  
 
 #### Skapad av 
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
   
 #### Uppgraderad eller importerad av 
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)
    
 #### Entry map 
 * Entry map (marc:entryMap = 000/20-23)
@@ -61,18 +61,18 @@ Innehåll:
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
 
 #### Bibliografikod 
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
   
 #### Systemnummer 
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a)
 
 För ISSN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringssprak
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)  
   
 #### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+* Katalogiseringsregler (descriptionConventions = 040 #e)
 
 #### Beskrivningsniva 
 * Beskrivningsnivå (encodingLevel = 000/17)
@@ -81,10 +81,10 @@ För ISSN, se [Identifikator](#identifikator) under Instans.
 * Poststatus (recordStatus = 000/05)
   
 #### Translitterering 
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)
+* Institution som gjort translitterering (marc:transcribingAgency = 040 #c)
  
 #### Systemteknisk anmarkning 
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
 
 ### Instans
 
@@ -94,12 +94,12 @@ För ISSN, se [Identifikator](#identifikator) under Instans.
   ```Exempel: Seriell resurs```
   
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)``` 
   
 #### Barartyp  
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel:  nc (= volym)```
   
@@ -107,18 +107,18 @@ För ISSN, se [Identifikator](#identifikator) under Instans.
 
 ##### Nyckeltitel
 * Har titel/Nyckeltitel/Huvudtitel    
-(hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
+(hasTitle/KeyTitle/mainTitle = 222 -/0 #a)  
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
  ```Exempel:  Kammarmusik-nytt ```
  
 * Har titel/Nyckeltitel/Särskiljande tillägg  
-(hasTitle/KeyTitle/qualifier = 222 ‡b)  
+(hasTitle/KeyTitle/qualifier = 222 #b)  
 Skriv in uppgiften, inom parentes.  
 ```Exempel: (Brämhult)```
   
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften under Huvudtitel.      
@@ -129,30 +129,30 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
   
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
   ```Exempel: Kammarmusikförbundets tidskrift```
   
 ##### Varianttitel   
 Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.   
   ```Exempel: Titel felstavad i nummer 1 (2006):```  
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ ‡a)  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Housing sarts```    
  
 ##### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
-* Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
+* Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
   
  ##### Tidsbestämd titelvariant   
   Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
-* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
+* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: Hushållningssällskapets magasin```  
   
@@ -167,7 +167,7 @@ Används för akronymer som är en del av huvudtiteln.
   För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
   
 ##### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.    
   ```Exempel: [Göteborg]```
@@ -178,7 +178,7 @@ Används för akronymer som är en del av huvudtiteln.
   ```Exempel: Sverige (sw)```
   
 ##### Utgivarnamn
-* Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+* Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```  
@@ -190,22 +190,22 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ##### År och datum    
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
-  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
+  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
   För att lägga till Startår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
   Skriv in uppgiften.  
    ```Exempel: 2011```  
 * Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
-  För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
+  För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
    För att lägga till Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår.  
   Skriv in uppgiften.  
   ```Exempel: 2013```     
-  För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
-* Datum (date = 264 -/1 ‡c)  
+  För att ange slutår för senaste utgivningsperiod (264 -/3 #c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
+* Datum (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
+  För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 #c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   Skriv in uppgiften.
   <br/>```Exempel:```
@@ -216,10 +216,10 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
   Skriv in uppgiften.  
   ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```   
   
@@ -234,7 +234,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     
 #### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)  
+  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
   Skriv in uppgiften under Benämning.    
   ```Exempel: 2011: 4-2013: 2```
   
@@ -249,15 +249,15 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   Skriv in uppgiften under Benämning.  
  
 #### Annat bararformat  
 För seriella resurser, skapa Instans som lokal entitet under Annat bärarformat i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
-* Annat bärarformat/Instans/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/hasTitle/Title/mainTitle = 776 ‡t)  
+* Annat bärarformat/Instans/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/hasTitle/Title/mainTitle = 776 #t)  
 Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
-* Annat bärarformat/Instans/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/identifiedBy/ISSN/value = 776 ‡x)  
+* Annat bärarformat/Instans/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/identifiedBy/ISSN/value = 776 #x)  
 Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
@@ -274,10 +274,10 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
   [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
-* Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
-* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 ‡4)   
+* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
@@ -303,27 +303,27 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 ‡a)  
+(classification/ClassificationDdc/code = 082 0/4 #a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-(classification/ClassificationDdc/edition = 082 ‡2)  
+(classification/ClassificationDdc/edition = 082 #2)  
   ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+(classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 ‡2)  
+  (classification/ClassificationDdc/edition = 083 #2)  
   ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
- (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
+ (classification/ClassificationDdc/editionEnumeration = 083 #2)  
   ```Exempel: 23/swe``` 
    
 ##### SAB-klassifikation  
@@ -333,14 +333,14 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
 * Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 ‡a)  
+(classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
 * Klassifikation/Termlista/Termlista/Kod  
-(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+(classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
 * Klassifikation/Termlista/Termlista/Version  
-(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
 
 #### Genre 
@@ -364,16 +364,16 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
   
-* Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
+* Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
   Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
 ```Exempel: Aktuellt magazin```  
   
-* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 ‡x)  
+* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
  För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till egenskaoer under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
 ```Exempel: 1402-1250```
 
-* Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
+* Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
 
   Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
@@ -397,12 +397,12 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
   
 #### Innehallstyp
-* Innehållstyp (contentType/ContentType = 336 ‡b)  
+* Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
   
 #### Verkets titel
-* Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
+* Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- #a)  
   Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
