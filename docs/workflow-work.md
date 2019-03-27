@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-03-14
+date: 2019-03-20
 tags:
 - under arbete
 - verk
@@ -54,33 +54,33 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 ##### Verkets titel
 ###### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
   "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
 ###### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 ‡a)  
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
 Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln``` 
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
-(expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
+(expressionOf/Work/hasTitle/Title/partName = 130 #p)  
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk  
-* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
+* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
-* Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång)  
+* Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, ǂl, analytisk sökingång)  
   Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
  
 ##### Relationer till andra verk  
-* Relationer till andra verk med Primär medverkan (700 1/- ‡a, ǂd, ǂt)  
+* Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
    Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
    Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
@@ -91,19 +91,19 @@ Skriv in uppgiften.
   Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
     
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
  
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
   
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
   
-* Medverkan och funktion/Medverkan/Agent/Organisation (contribution/agent/Organisation = 710 2/- ‡a, ‡4 pbl)  
+* Medverkan och funktion/Medverkan/Agent/Organisation (contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
   
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- ‡a, ‡4 pbl)  
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
 #### Sprak 
@@ -114,40 +114,40 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning  
-För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält ‡l, som ett tillägg till verkets titel.   
+För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält #l, som ett tillägg till verkets titel.   
 Om översättningen är ett verk som har Primär medverkan, ange språket i klartext här:  
-* Språk/Språk/Benämning (Language/label = 240 ‡l)  
+* Språk/Språk/Benämning (Language/label = 240 #l)  
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.    
   ![Språk](sprak.png)  
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
-Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 ‡l)  
+Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 #l)  
 Om översättningen är ett ingående verk, ange språket i klartext här:  
-Har del/Verk/Språk/Språk/Benämning (Language/label = 730 ‡l)  
+Har del/Verk/Språk/Språk/Benämning (Language/label = 730 #l)  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ![Originalversion sprak](originalversionsprak.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
 ###### Parallelltext  
-(008/35-37 + 041 ‡a + ‡a)  
+(008/35-37 + 041 #a + #a)  
 * Språk (language = 008/35-37) +
-   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- ‡a)  
+   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)  
    Ange det första språket genom att länka till språket, under Språk. Länka till ytterligare ett språk för parallelltexten. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
    
 ###### Parallelltext och texten delvis översatt 
-(008/35-37 + 041 0/- ‡a + 041 1/- #a ‡h)  
+(008/35-37 + 041 0/- #a + 041 1/- #a #h)  
 * Språk (language = 008/35-37) +
-   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- ‡a)   
-* Har del/Verk/Språk (hasPart/Work/language = 041 ‡a) +  
+   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
+* Har del/Verk/Språk (hasPart/Work/language = 041 #a) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h) 
+  Originalversion/Verk/Språk (originalVersion/Work/language = 041 #h) 
   
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: Lägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
  Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
@@ -157,7 +157,7 @@ Se Sammanfattning av innehåll
   
 ##### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
-(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Parallelltext på svenska och engelska```  
 Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.  
   
@@ -171,7 +171,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 ![Genre exempel](genre_exempel.png)  
 
 ##### Saogf-termer  
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
  ```Exempel: Självbiografier```  
@@ -211,28 +211,28 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 ‡a)  
+(classification/ClassificationDdc/code = 082 0/4 #a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 082 i1)  
   ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+(classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet. Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod  
-(additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+(additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 083 i1)  
   ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift   
- (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
+ (classification/ClassificationDdc/editionEnumeration = 083 #2)  
   ```Exempel: 23/swe``` 
    
 ##### SAB-klassifikation  
@@ -242,14 +242,14 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
 * Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 ‡a)  
+(classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
 * Klassifikation/Termlista/Termlista/Kod  
-(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+(classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
 * Klassifikation/Termlista/Termlista/Version  
-(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
  
 #### Amne  
@@ -268,7 +268,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entitet.
   <br/>```Exempel:```
   * ```kartografisk bild (cri)```
@@ -280,7 +280,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
   
 #### Sammanfattning av innehall    
- * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
+ * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
@@ -290,12 +290,12 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  ```Exempel: Ej preciserad``` 
  
 ##### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 ‡b)  
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```
   
 #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
   Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
 Skriv in anmärkningen under Benämning.    
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
