@@ -1,5 +1,5 @@
 ---
-section: Materialtyper
+section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 54
 date: 2019-03-15
@@ -64,10 +64,10 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 * Kontrollnummer (controlNumber = 001)  
 
 #### Skapad av 
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
   
 #### Uppgraderad eller importerad av 
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)
    
 #### Entry map 
 * Entry map (marc:entryMap = 000/20-23)
@@ -76,18 +76,18 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
 
 #### Bibliografikod 
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
   
 #### Systemnummer 
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a)
 
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringssprak
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)  
   
 #### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+* Katalogiseringsregler (descriptionConventions = 040 #e)
 
 #### Beskrivningsniva 
 * Beskrivningsnivå (encodingLevel = 000/17)
@@ -96,10 +96,10 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 * Poststatus (recordStatus = 000/05)
   
 #### Translitterering 
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)
+* Institution som gjort translitterering (marc:transcribingAgency = 040 #c)
  
 #### Systemteknisk anmarkning 
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
 
 #### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
@@ -116,35 +116,35 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   ```Exempel: Monografisk resurs```
   
 ##### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
 ##### Barartyp 
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
 ##### Titel
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)
-* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
 ##### Varianttitel
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
 
 ##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)
-* Har titel/Omslagstitel/Övrig titelinformation (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 #a)
+* Har titel/Omslagstitel/Övrig titelinformation (hasTitle/CoverTitle/subtitle = 246 1/4 #b)
 
  ##### Ryggtitel   
-* Har titel/Ryggtitel/Huvudtitel (hasTitle/SpineTitle/mainTitle = 246 1/8 ‡a)
-* Har titel/Ryggtitel/Övrig titelinformation (hasTitle/SpineTitle/subtitle = 246 1/8 ‡b)
+* Har titel/Ryggtitel/Huvudtitel (hasTitle/SpineTitle/mainTitle = 246 1/8 #a)
+* Har titel/Ryggtitel/Övrig titelinformation (hasTitle/SpineTitle/subtitle = 246 1/8 #b)
 
 ##### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
 
 ##### Deltitel  
-* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)
+* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel  
@@ -152,102 +152,102 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 Används inte. Se Varianttitel (246).  
 
 ##### Parallelltitel
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
 
 #### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)
+* Upphovsuppgift (responsibilityStatement = 245 #c)
 
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)
+* Upplageuppgift (editionStatement = 250 #a)
 
 #### Utgivning  
 * Primär utgivning/Utgivning (publication/PrimaryPublication)  
 
 ##### Utgivningsplats
-* Primär utgivning/Utgivning/Plats/Plats/Benämning (place/label = 264 -/1 ‡a)
+* Primär utgivning/Utgivning/Plats/Plats/Benämning (place/label = 264 -/1 #a)
 
 ##### Utgivningsland  
 * Primär utgivning/Utgivning/Land (country = 008/15-17)
 
 ##### Utgivarnamn
-* Primär utgivning/Utgivning/Agent/Agent/Benämning (agent/label = 264 -/1 ‡b)
+* Primär utgivning/Utgivning/Agent/Agent/Benämning (agent/label = 264 -/1 #b)
 
 ##### År och datum 
 **År**
-* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 ‡c)  
+* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)  
  År får endast innehålla siffror (0-9) och bokstaven u.  
  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
 
 **Datum**
-* Primär utgivning/Utgivning/Datum (date = 264 -/1 ‡c)  
+* Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.  
   
 **Flera år (flerbandsverk):**  
 Använd Startår och Slutår (inte År).
-* Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 ‡c)  
-* Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 ‡c) 
+* Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
+* Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 #c) 
   
 #### Tillverkning 
 
 ##### Tillverkningsplats (Tillverkningsort) 
-* Tillverkning/Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
+* Tillverkning/Plats/Plats/Benämning (place/label = 264 -/3 #a)  
 
 ##### Tillverkningsnamn  
-* Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
+* Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
 
 #### Copyrightar   
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
+* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 #### Identifikator 
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 ‡q)  
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
+* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
 
 #### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
 
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡z)
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
 #### Omfang   
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
 
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 ‡b)
+* Övriga fysiska detaljer (other physical details = 300 #b)
 
 #### Matt 
-* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)
+* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
 #### Bilagor
-* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 ‡e)
+* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
 
 ##### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
-(seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)
+(seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)
 
 ##### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
-(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 ‡x, 830 ‡x) 
+(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x) 
 
 ##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)
+* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
 
 ##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 #v, 830 #v)
 
 ##### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)
 
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
-(seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
+(seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 #t)  
   ```Exempel: Millenium```   
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
 Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
@@ -255,15 +255,15 @@ Följ dessa instruktioner:
   Vid behov, skapa ny agent, se [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
   
 ##### Numrering inom serie   
-* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
 #### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 #### Annat bararformat
@@ -290,25 +290,25 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 ###### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
 
 ###### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 ‡a)
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
  
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)
+* Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan 
-  Har del/Verk/Har titel/Titel (730 0/2 ‡a)
+  Har del/Verk/Har titel/Titel (730 0/2 #a)
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan (700 1/- ‡a, ǂd, ǂt)
+  * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
@@ -318,11 +318,11 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 ##### Medverkan och funktion
 Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
 
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)
 
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)
 
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
 
@@ -335,7 +335,7 @@ För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Sp
 
 ##### Översättning  
 För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 240 ‡l)
+* Språk/Språk/Benämning (Language/label = 240 #l)
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -345,11 +345,11 @@ Se Sammanfattning av innehåll
 
 ##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
-(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
 Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ##### Genre
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer.  
  
 * Genre/form – termer som motsvarar marc-koder i 008  
@@ -432,33 +432,33 @@ Innehåll (008/24-27): Avhandling
 
 #### Klassifikation  
 * Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 ‡a)
+(classification/ClassificationDdc/code = 082 0/4 #a)
 
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 082 i1)
 
 * Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 ‡2)
+(classification/ClassificationDdc/editionEnumeration = 082 #2)
 
 ##### Sekundär DDK-klassifikation 
 * DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod   
-(additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)
+(additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)
 
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 083 i1)
 
 * Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 083 ‡2)
+(classification/ClassificationDdc/editionEnumeration = 083 #2)
 
 ##### SAB-klassifikation  
 * Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 ‡a)
+(classification/Classification/code = 084 0/4 #a)
 
 * Klassifikation/Termlista/Termlista/Kod  
-(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)
+(classification/Classification/inScheme/ConceptScheme/code = 084 #2)
 
 * Klassifikation/Termlista/Termlista/Version  
-(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
 #### Amne  
 * [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
@@ -475,7 +475,7 @@ Innehåll (008/24-27): Avhandling
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
 ##### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
@@ -486,4 +486,4 @@ Innehåll (008/24-27): Avhandling
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
