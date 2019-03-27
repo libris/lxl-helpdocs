@@ -39,13 +39,13 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)  
 
 ### Skapad av  
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```  
   Vid postimport: för närvarande hamnar det importerande bibliotekets sigel här. Detta kommer att ses över.  
   
 ### Uppgraderad eller importerad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
   Lägg till Uppgraderad eller importerad av. Välj Lägg till entitet och välj Skapa lokal entitet. Välj Bibliotek.  
  Skriv in uppgiften under Sigel.       
@@ -66,7 +66,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   ```Exempel: Annan verksamhet```  
 
 ### Bibliografikod
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
   Lägg till Bibliografi. Välj Lägg till bibliotek och välj Skapa lokal entitet.   
   Skriv in uppgiften under Sigel.  
@@ -76,7 +76,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   * ```SAMB```
   
 ### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
 <br/>```Exempel:```
   * ```(BOKR)9789188107213```
@@ -90,12 +90,12 @@ Vid kopiering av post, ta bort den kopierade postens systemnummer.
 För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering/help/instans).
   
 ### Katalogiseringssprak  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
 ### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)   
+* Katalogiseringsregler (descriptionConventions = 040 #e)   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktion finns".  
   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
@@ -123,11 +123,11 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
   * ```Rättad eller reviderad post```
   
 ### Translitterering
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
+* Institution som gjort translitterering (marc:transcribingAgency = 040 #c)  
    Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
  
 ### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)  
 Låt anmärkning om postimport ligga kvar.  
 ```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
 
