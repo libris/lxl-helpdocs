@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-03-22
+date: 2019-03-28
 tags:
 - under arbete
 - instans
@@ -98,7 +98,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. 
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
- I äldre poster kan titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord ligga i Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel.  
+ I äldre poster kan titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord ligga i [Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel](#titel-alternativ-stavning) (= 740). Använd i stället Varianttitel.  
   
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
@@ -158,6 +158,20 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
   ```Exempel: Charles XII and the ideological address```  
   
+#### Titel alternativ stavning
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
+(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
+Här angavs tidigare alternativ stavning av titlar, för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. **Använd i stället [Varianttitel](#varianttitel).** Bibliotek som önskar dubblera varianttitlar här kan göra det men det är inte nödvändigt.  
+
+  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
+Skriv in uppgiften under Huvudtitel.  
+```Exempel: Commentarii fratrum arvalium qui supersunt```  
+
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+ Se exempel i formathandboken för Libris/Voyager: 
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
   Skriv in uppgiften.  
@@ -429,7 +443,7 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del och välj Skapa lokal entitet. Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
  Se [exempel](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
-  
+   
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
   Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
