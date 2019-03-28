@@ -15,6 +15,12 @@ På denna sida listas ändringar i hjälptexterna.
 2019-03-28
 * Ny hjälptext för funktionen Katalogvård som tillkommit i version 1.7 
 <br>https://libris.kb.se/katalogisering/help/catalogue-maintenance
+<br>Information om Språk/Språk/Benämning uppdaterad på sidan Verk:
+<br>https://libris.kb.se/katalogisering/help/workflow-work
+<br>Information om Relation/Relation/Entitet/Verk/Har titel/Titel (740) uppdaterad på sidan:
+<br>https://libris.kb.se/katalogisering/help/workflow-instance
+<br>Information om frekvens uppdaterad på sidan Tryckt seriell resurs:
+https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 * Uppdateringar i hjälptexterna för ämnesord med anledning av att fler listkoder nu finns som länkbara entiteter.
 <br>https://libris.kb.se/katalogisering/help/workflow-general-sh
@@ -29,7 +35,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: <br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-03-15
-* Uppdaterad struktur i vänstermeny. Generella hjälpterxter är separerade från hjälptexter för de respektive materialtyperna.
+* Uppdaterad struktur i vänstermeny. Generella hjälptexter är separerade från hjälptexter för de respektive materialtyperna.
 * Hjälptexter för materialtyperna datorspel, film, ljudbok och musik-CD.
 * Hänvisningar till marckoder tillagda på sidan Tryckt monografi:
 <br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
