@@ -12,6 +12,7 @@ order: 15
 ## Katalogvård
 
 ![Katalogvård](Katalogvard.png)
+
 Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler som inloggad användare har behörighet för. På sikt ska även dubbletthantering och sammanslagning av poster ingå i Katalogvård.
 
 Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ kb.se
@@ -20,6 +21,7 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
   * Flagga post för katalogvård
     </br>För att kunna flytta bestånd från en post till en annan måste posterna först flaggas. Flaggfunktionen finns i gränssnittet för instanserna, i anslutning till beståndsinformationen.
     </br>![Flagga för katalogvård](Flaggakatalogvard.png)
+    
     </br>Antalet flaggade poster visas intill rubriken Katalogvård.
     </br>![Flaggade för katalogvård](Flaggadeforkatalogvard.png)
 
