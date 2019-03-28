@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-03-20
+date: 2019-03-28
 tags:
 - under arbete
 - verk
@@ -113,16 +113,18 @@ Skriv in uppgiften.
   ```Exempel: svenska (swe)```   
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
-##### Översättning  
-För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält #l, som ett tillägg till verkets titel.   
-Om översättningen är ett verk som har Primär medverkan, ange språket i klartext här:  
-* Språk/Språk/Benämning (Language/label = 240 #l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.    
-  ![Språk](sprak.png)  
+##### Översättning   
+För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
+
+Om översättningen är ett verk som har Primär medverkan, ska språket läggas till här:  
+* Språk/Språk/Benämning (Language/label = 240 #l)   
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
+  
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
 Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 #l)  
 Om översättningen är ett ingående verk, ange språket i klartext här:  
 Har del/Verk/Språk/Språk/Benämning (Language/label = 730 #l)  
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas inte automatiskt för 130 #l eller 730 #l.**
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
