@@ -35,21 +35,21 @@ På denna sida listas ändringar i hjälptexterna.
 <br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-03-13
-* Ändrad information om Anmärkning/Anmärkning om språk/Benämning (546) som nu går att lägga till från Berika från mall men fortfarande inte från Lägg till egenskaper:  
+* Ändrad information om Anmärkning/Anmärkning om språk/Benämning (546) som nu går att lägga till från Berika från mall men fortfarande inte från Lägg till egenskaper:
 <br>https://libris.kb.se/katalogisering/help/workflow-work
-* Ändrad information om titel med stavningsvarianter, tidigare under Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel:    
+* Ändrad information om titel med stavningsvarianter, tidigare under Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Nu korrekt länk till hjälptext för Ämnesordsförslag till SAO eller indexterm:  
 <br>https://libris.kb.se/katalogisering/help/workflow-general-sh
 
 2019-03-12
-* Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:  
+* Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
-* Förtydligat information om Utgivning/Datum på sidan Tryckt monografi:  
+* Förtydligat information om Utgivning/Datum på sidan Tryckt monografi:
 <br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-02-28
-* Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:  
+* Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:
 <br>https://libris.kb.se/katalogisering/help/search-01-queries
 
 2019-02-19
