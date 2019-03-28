@@ -20,7 +20,7 @@ På denna sida listas ändringar i hjälptexterna.
 <br>Information om Relation/Relation/Entitet/Verk/Har titel/Titel (740) uppdaterad på sidan:
 <br>https://libris.kb.se/katalogisering/help/workflow-instance
 <br>Information om frekvens uppdaterad på sidan Tryckt seriell resurs:
-https://libris.kb.se/katalogisering/help/workflow-print-serial
+<br>https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 * Uppdateringar i hjälptexterna för ämnesord med anledning av att fler listkoder nu finns som länkbara entiteter.
 <br>https://libris.kb.se/katalogisering/help/workflow-general-sh
