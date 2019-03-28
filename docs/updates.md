@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-26
+date: 2019-03-28
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,14 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-03-28
+* Ny hjälptext för funktionen Katalogvård som tillkommit i version 1.7 
+<br>https://libris.kb.se/katalogisering/help/catalogue-maintenance
+
+* Uppdateringar i hjälptexterna för ämnesord med anledning av att fler listkoder nu finns som länkbara entiteter.
+<br>https://libris.kb.se/katalogisering/help/workflow-general-sh
+<br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
 2019-03-26
 * Förtydligade instruktioner för egenskaperna *Titel eller övrig beteckning* respektive *Andra attribut för person- och organisationsnamn* i hjälptexterna för Agent - Person:
