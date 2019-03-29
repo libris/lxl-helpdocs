@@ -167,7 +167,7 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
  3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
  4. Berika därefter posten från kartmall (klicka på verktygsknappen, välj Berika från mall - karta).
- 5. Lägg till följande egenskaper i instansen:
+ 5. Lägg till följande egenskaper inom Instans:
   * Produktion (production = 264 -/0)
    <br/>Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
   * Bärande material/Benämning (baseMaterial/label = 340 #a)
@@ -175,6 +175,6 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
   * Applicerat material/Benämning (appliedMaterial/label = 340 #c
    <br/>Läs mer under [Applicerat material](#applicerat-material).
 
- 6. Lägg till följande egenskap i verket:
+ 6. Lägg till följande egenskap inom Instans av Verk:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
    <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
