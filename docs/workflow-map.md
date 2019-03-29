@@ -23,12 +23,12 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Relationer till ingående verk och andra verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#genre/form) |
+| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#genre-form) |
 | [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
 | [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehåll) |
+| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehåll-index) |
 | | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |     
@@ -38,7 +38,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Bärande material](#barande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
 | | [Färginnehåll](#farginnehåll) | | 
-| | [Genre/form](#genre/form) | | 
+| | [Genre/form](#genre-form) | | 
 | | [Anmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 | | [Innehållsanmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 | | [Bilagor](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
@@ -87,14 +87,14 @@ Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade 
 
 I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
-#### Genre/form
+#### Genre form
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
 
-#### Genre/form
+#### Genre form
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
