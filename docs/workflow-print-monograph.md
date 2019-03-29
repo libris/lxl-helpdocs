@@ -337,7 +337,7 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
 
 ##### Översättning  
-För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.
+För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 **Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
