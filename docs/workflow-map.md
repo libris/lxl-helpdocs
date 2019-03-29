@@ -127,7 +127,7 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
 
 ##### Skala i kodform
 I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontell eller vertikal. I kartmallen finns Linjär horisontell skala medtagen. Lägg till eller ändra skaltyp genom att skapa lokal entitet. Ange skalan med enbart siffror.
- </br>```Exempel: 20000```
+	</br>```Exempel: 20000```
   
  * Linjär horisontell skala:
  Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale  = 034 #a a #b)
