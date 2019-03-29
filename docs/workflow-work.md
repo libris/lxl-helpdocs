@@ -114,8 +114,17 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning   
-För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
+För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
+
+Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**   
+
+Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
+Uttryck av/Verk/Språk (Language/label = 130 #l)  
+Länka till entitet.  
+Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
+Har del/Verk/Språk (Language/label = 730 #l)  
+Länka till entitet.  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
