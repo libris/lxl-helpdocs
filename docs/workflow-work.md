@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-03-28
+date: 2019-03-29
 tags:
 - under arbete
 - verk
@@ -115,16 +115,7 @@ Skriv in uppgiften.
   
 ##### Översättning   
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-
-Om översättningen är ett verk som har Primär medverkan, ska språket läggas till här:  
-* Språk/Språk/Benämning (Language/label = 240 #l)   
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
-  
-Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
-Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 #l)  
-Om översättningen är ett ingående verk, ange språket i klartext här:  
-Har del/Verk/Språk/Språk/Benämning (Language/label = 730 #l)  
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas inte automatiskt för 130 #l eller 730 #l.**
+**Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
