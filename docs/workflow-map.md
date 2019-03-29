@@ -103,7 +103,7 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
 
 #### Kartografisk data
 
-I nuläget måste vi lägga in koordinater och skala både i kodform och i klartext. Lägg in uppgifterna inom egenskapen Kartografisk data,  i en Kartografisk information för kodad data och i en annan sådan för data i klartext. Det ska även vara ytterligare en Kartografisk information som specificerar vilken typ av måttenhet för koordinaterna som används. I kartmallen finns samtliga tre Kartografisk information inlagda. 
+I nuläget måste koordinater och skala anges i både kodform och klartext. Ange uppgifterna inom egenskapen Kartografisk data, i en Kartografisk information för kodad data och i en annan sådan för data i klartext. Det ska även vara ytterligare en Kartografisk information som specificerar vilken typ av måttenhet för koordinaterna som används. I kartmallen finns samtliga tre Kartografisk information inlagda. 
 
 ##### Koordinater i kodform
 
@@ -127,7 +127,7 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
 
 ##### Skala i kodform
 I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontell eller vertikal. I kartmallen finns Linjär horisontell skala medtagen. Lägg till eller ändra skaltyp genom att skapa lokal entitet. Ange skalan med enbart siffror.
-  	</br>```Exempel: 20000```
+ </br>```Exempel: 20000```
   
  * Linjär horisontell skala:
  Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale  = 034 #a a #b)
