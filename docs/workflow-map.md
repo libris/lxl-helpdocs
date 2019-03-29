@@ -150,7 +150,7 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
 ##### Skala i klartext
  * Kartografisk data/Kartografisk information/Skala/Skala/Benämning (CartographicAttributes/Cartographic/scale/scale/label =255 #a)
 Ange skala i klartext i en Kartografisk information som inte innehåller kodad kartografisk data. Använd samma Kartografisk information som du använder till koordinater i klartext. Medta eventuell uppgift om skalstock i de fall exakt skalangivelse saknas. Lägg i dessa fall till semikolon mellan den uträknade skalangivelsen och uppgift om skalstock. Skalstocken anges enligt följande formel: Skalstock: x måttenheter = y cm.
- <br/> ```Exempel:```
+ <br/>```Exempel:```
   * ```Skala 1:200 000```
   * ```Skala cirka 1:141 000 ; Skalstock: 1 svensk mil = 7,6 cm```
 
@@ -169,11 +169,11 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  4. Berika därefter posten från kartmall (klicka på verktygsknappen, välj Berika från mall - karta).
  5. Lägg till följande egenskaper i instansen:
   * Produktion (production = 264 -/0)
-    Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) 
+    <br/>Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
   * Bärande material/Benämning (baseMaterial/label = 340 #a)
-   Läs mer under [Bärande material](#barande-material)
+   <br/>Läs mer under [Bärande material](#barande-material).
   * Applicerat material/Benämning (appliedMaterial/label = 340 #c
-    Läs mer under [Applicerat material](#applicerat-material)
+   <br/>Läs mer under [Applicerat material](#applicerat-material).
 
  6. Lägg till följande egenskap i verket:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
