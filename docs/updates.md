@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-28
+date: 2019-03-29
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,90 +12,94 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-03-29
+* Ny hjälptext för katalogisering av tryckta kartor
+</br>https://libris.kb.se/katalogisering/help/workflow-map
+
 2019-03-28
 * Ny hjälptext för funktionen Katalogvård som tillkommit i version 1.7 
-<br>https://libris.kb.se/katalogisering/help/catalogue-maintenance
-<br>Information om Språk/Språk/Benämning uppdaterad på sidan Verk:
-<br>https://libris.kb.se/katalogisering/help/workflow-work
-<br>Information om Relation/Relation/Entitet/Verk/Har titel/Titel (740) uppdaterad på sidan:
-<br>https://libris.kb.se/katalogisering/help/workflow-instance
-<br>Information om frekvens uppdaterad på sidan Tryckt seriell resurs:
-<br>https://libris.kb.se/katalogisering/help/workflow-print-serial
+</br>https://libris.kb.se/katalogisering/help/catalogue-maintenance
+</br>Information om Språk/Språk/Benämning uppdaterad på sidan Verk:
+</br>https://libris.kb.se/katalogisering/help/workflow-work
+</br>Information om Relation/Relation/Entitet/Verk/Har titel/Titel (740) uppdaterad på sidan:
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>Information om frekvens uppdaterad på sidan Tryckt seriell resurs:
+</br>https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 * Uppdateringar i hjälptexterna för ämnesord med anledning av att fler listkoder nu finns som länkbara entiteter.
-<br>https://libris.kb.se/katalogisering/help/workflow-general-sh
-<br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-general-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
 2019-03-26
 * Förtydligade instruktioner för egenskaperna *Titel eller övrig beteckning* respektive *Andra attribut för person- och organisationsnamn* i hjälptexterna för Agent - Person:
-<br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
-<br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-03-22
-* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: <br>https://libris.kb.se/katalogisering/help/use-the-editor
+* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: </br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-03-15
 * Uppdaterad struktur i vänstermeny. Generella hjälptexter är separerade från hjälptexter för de respektive materialtyperna.
 * Hjälptexter för materialtyperna datorspel, film, ljudbok och musik-CD.
 * Hänvisningar till marckoder tillagda på sidan Tryckt monografi:
-<br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-03-13
 * Ändrad information om Anmärkning/Anmärkning om språk/Benämning (546) som nu går att lägga till från Berika från mall men fortfarande inte från Lägg till egenskaper:
-<br>https://libris.kb.se/katalogisering/help/workflow-work
+</br>https://libris.kb.se/katalogisering/help/workflow-work
 * Ändrad information om titel med stavningsvarianter, tidigare under Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (= 740). Använd i stället Varianttitel:
-<br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Nu korrekt länk till hjälptext för Ämnesordsförslag till SAO eller indexterm:  
-<br>https://libris.kb.se/katalogisering/help/workflow-general-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-general-sh
 
 2019-03-12
 * Förtydligat information om Elektronisk adress, Tillhörande media, Relaterad beskrivning eller innehåll, Annan relaterad resurs på sidan Instans:
-<br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Förtydligat information om Utgivning/Datum på sidan Tryckt monografi:
-<br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-02-28
 * Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:
-<br>https://libris.kb.se/katalogisering/help/search-01-queries
+</br>https://libris.kb.se/katalogisering/help/search-01-queries
 
 2019-02-19
 * Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
 
 * Ny information om hantering av ISBN vid postimport:
-<br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
+</br>https://libris.kb.se/katalogisering/help/workflow-instance#identifikator
 
 2019-02-18
 * Förtydligad information om Seriemedlemskap/Indikator för seriebiuppslag:
-<br>https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap
+</br>https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap
 
 2019-02-12
 * Ny struktur på Hjälptexter Katalogisering. Egenskaper som är gemensamma för flera materialtyper och mallar beskrivs på sidorna:
-<br>[Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
-<br>[Verk](https://libris.kb.se/katalogisering/help/workflow-work)
-<br>[Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
-<br>Sidan [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph) listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans. Övriga hjälptexter för olika materialtyper kommer framöver också att hänvisa till dessa sidor.
+</br>[Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
+</br>[Verk](https://libris.kb.se/katalogisering/help/workflow-work)
+</br>[Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+</br>Sidan [Tryckt monografi](https://libris.kb.se/katalogisering/help/workflow-print-monograph) listar egenskaperna mera kortfattat och hänvisar till sidorna Adminmetadata, Verk och Instans. Övriga hjälptexter för olika materialtyper kommer framöver också att hänvisa till dessa sidor.
 
 * Ny hjälptext för katalogisering av stillbilder:
-<br>https://libris.kb.se/katalogisering/help/workflow-still-image
+</br>https://libris.kb.se/katalogisering/help/workflow-still-image
 
 2019-02-08
 * Information om Nyckeltitel tillagd på sidan Tryckt seriell resurs:
-<br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
+</br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
 
 2019-02-04
 * Ändrat instruktionen för Annat bärarformat (776) för Tryckt seriell resurs.
-<br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
+</br>https://libris.kb.se/katalogisering/help/workflow-print-serial 
 
 2019-02-01
 * Tillägg av instruktion och exempel för Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter. Uppdaterad sida:
-<br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
 2019-01-31
 * Redigera-sidorna har uppdaterats för att spegla förändringar i gränssnittet samt kompletterats med illustrerande skärmdumpar. Sidan Interaktionselement har bytt namn till Att använda verktyget. Sidan Mallar har tillkommit.
-<br>https://libris.kb.se/katalogisering/help/editor-01-overview
-<br>https://libris.kb.se/katalogisering/help/editor-03-interaktionselement
-<br>https://libris.kb.se/katalogisering/help/entity-search
-<br>https://libris.kb.se/katalogisering/help/editor-templates
+</br>https://libris.kb.se/katalogisering/help/editor-01-overview
+</br>https://libris.kb.se/katalogisering/help/editor-03-interaktionselement
+</br>https://libris.kb.se/katalogisering/help/entity-search
+</br>https://libris.kb.se/katalogisering/help/editor-templates
 
 2019-01-29
 * Uppdaterade instruktioner för Identifikator för Agent. Uppdaterade sidor:
