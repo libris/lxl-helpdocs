@@ -171,7 +171,7 @@ Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker 
   * Produktion (production = 264 -/0)
     Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) 
   * Bärande material/Benämning (baseMaterial/label = 340 #a)
-   Läs mer under [Bärande material](#bärande-material)
+   Läs mer under [Bärande material](#barande-material)
   * Applicerat material/Benämning (appliedMaterial/label = 340 #c
     Läs mer under [Applicerat material](#applicerat-material)
 
