@@ -71,12 +71,12 @@ Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”
 
  * Bärande material/Benämning (baseMaterial/label = 340 #a)
  Ange vid behov bärande material även som lokal entitet. Denna egenskap används framför allt vid katalogisering av handritade kartor. Lista över termer att använda för kartor och stillbilder finns i RDA-anvisningarna. I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta. 
- ```Exempel: papper och textil```
+ </br/>```Exempel: papper och textil```
 
 #### Applicerat material
  * Applicerat material/Benämning (appliedMaterial/label = 340 #c)
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
- ```Exempel: akvarell och penna```
+ </br/>```Exempel: akvarell och penna```
 
 #### Färginnehåll
  * Färginnehåll (colorContent = 007/00: a/03)
@@ -89,14 +89,14 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
 
 #### Genre/form
  * Genre/form (genreForm = 007/00: a/01)
- Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
- I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
+ Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
+ </br/>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
 
 #### Genre/form
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
- Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas ändrar du  till ”Atlas/Kartbok, e”.
+ Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
  * Genre/form – TGM-termer (genreForm = 655 -/7 #a #2 TGM)
  Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. I kartmallen finns redan TGM-termen Kartor inlagd. Lägg till fler vid behov. I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i Auktoritetsdatabasen (välj Genre i index, sök efter aktuell term).
@@ -127,7 +127,7 @@ Ange koordinater så exakt som möjligt, men om viss osäkerhet finns avrundas k
 
 ##### Skala i kodform
 I de flesta fall är skalan linjär. Den linjära skalan är antingen horisontell eller vertikal. I kartmallen finns Linjär horisontell skala medtagen. Lägg till eller ändra skaltyp genom att skapa lokal entitet. Ange skalan med enbart siffror.
-  </br>```Exempel: 20000```
+  	</br>```Exempel: 20000```
   
  * Linjär horisontell skala:
  Kartografisk data /Kartografisk information/Skala/Linjär skala/Linjär horisontell skala med konstant proportion (CartographicAttributes/Cartographic/marc/constantRatioLinearHorizontalScale  = 034 #a a #b)
