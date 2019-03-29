@@ -160,7 +160,7 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
 
 #### Kompletterande innehall index
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
-Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
+ <br/>Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
 #### Att andra i kartmallen sa att den kan anvandas för handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
