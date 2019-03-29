@@ -28,7 +28,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
 | [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehåll-index) |
+| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehall-index) |
 | | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
 | | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |     
@@ -158,7 +158,7 @@ Ange skala i klartext i en Kartografisk information som inte innehåller kodad k
  * Kartografisk data/Kartografisk information/koordinater (CartographicAttributes/Cartographic/coordinates =255 #c)
 Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I regel används måttenheten grader minuter och sekunder. I kartmallen finns därför texten ” Måttenhet för koordinaterna: grader, minuter och sekunder (0-360°)” inlagd. Om måttenheten är SWEREF 99 TM ska texten ändras till: Måttenhet för koordinaterna: meter (SWEREF 99 TM)
 
-#### Kompletterande innehåll index
+#### Kompletterande innehall index
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
 Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
