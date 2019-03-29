@@ -35,7 +35,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance) | |   
 | | [Relief](#relief) | |                                                       
 | | [Produktionsmetod](#produktionsmetod) | |  
-| | [Bärande material](#bärande-material) | | 
+| | [Bärande material](#barande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
 | | [Färginnehåll](#färginnehåll) | | 
 | | [Genre/form](#genre/form) | | 
@@ -65,18 +65,18 @@ Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunk
  * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
 
-#### Bärande material
+#### Barande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
 
  * Bärande material/Benämning (baseMaterial/label = 340 #a)
  Ange vid behov bärande material även som lokal entitet. Denna egenskap används framför allt vid katalogisering av handritade kartor. Lista över termer att använda för kartor och stillbilder finns i RDA-anvisningarna. I de fall flera entiteter behövs för korrekt beskrivning redovisas samtliga i en och samma ruta. 
- </br/>```Exempel: papper och textil```
+ </br>```Exempel: papper och textil```
 
 #### Applicerat material
  * Applicerat material/Benämning (appliedMaterial/label = 340 #c)
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
- </br/>```Exempel: akvarell och penna```
+ </br>```Exempel: akvarell och penna```
 
 #### Färginnehåll
  * Färginnehåll (colorContent = 007/00: a/03)
@@ -90,7 +90,7 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
 #### Genre/form
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
- </br/>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
+ </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
 
