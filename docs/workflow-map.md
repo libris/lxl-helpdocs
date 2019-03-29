@@ -37,7 +37,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Produktionsmetod](#produktionsmetod) | |  
 | | [Bärande material](#barande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
-| | [Färginnehåll](#färginnehåll) | | 
+| | [Färginnehåll](#farginnehåll) | | 
 | | [Genre/form](#genre/form) | | 
 | | [Anmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
 | | [Innehållsanmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
@@ -78,7 +78,7 @@ Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
  </br>```Exempel: akvarell och penna```
 
-#### Färginnehåll
+#### Farginnehåll
  * Färginnehåll (colorContent = 007/00: a/03)
  Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
