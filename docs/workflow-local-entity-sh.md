@@ -86,7 +86,7 @@ Exempel:
 
 ![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.PNG) 
 
-### Ämnesord från system med listkod utan listkod som länkad entitet
+### Ämnesord från system med listkod där listkoden inte finns som länkad entitet
 
 #### Enkelt amnesord som lokal entitet utan lankbar listkod
 
