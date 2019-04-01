@@ -88,7 +88,7 @@ Ange endast en titel som övrig titelinformation om det klart framgår att den �
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till entitet) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
-<br/>Skriv in uppgiften i Huvudtitel.    
+<br/>Skriv in uppgiften i Huvudtitel.
 </br>```Exempel: Pro evolution soccer 2014```
 
 För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
@@ -157,9 +157,9 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
   Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens 264 -/1 #c.
-    ```Exempel:```
-    * ```[2017]```
-    * ```[mellan 2003 och 2005?]```
+<br/>```Exempel:```
+   * ```[2017]``` 
+   * ```[mellan 2003 och 2005?]```
 
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
