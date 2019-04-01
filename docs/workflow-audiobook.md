@@ -92,29 +92,29 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en va
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varanttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning.
 
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
   ```Exempel: Titeln felstavad, korrekt titel:```   
     
 ##### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
   
 ##### Parallelltitel  
-Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
+Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
 Välj först Har titel, välj sedan typ Parallelltitel.      
 Skriv in uppgiften i Huvudtitel.     
   ```Exempel: The Great Northern War explained```</br>
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
   
 #### Upphovsuppgift
-* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
+* Upphovsuppgift (responsibilityStatement = 245 #c)  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
   
 #### Upplageuppgift
-* Upplageuppgift (editionStatement = 250 ‡a)</BR>
+* Upplageuppgift (editionStatement = 250 #a)</BR>
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
@@ -124,10 +124,10 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.
+Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.
  
 ##### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
   ```Exempel: [Malmö]```  
   
@@ -137,24 +137,24 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   ```Exempel: Sverige (sw)``` 
   
 ##### Utgivarnamn
-* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
   ```Exempel: Bokfabriken```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 ##### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
+  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c.</br>
+  Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c.</br>
   ```Exempel: 2017```</br>
  
  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
   
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
-  * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
+  * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
-  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.
+  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 #c.
    <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 2003 och 2005?]``` 
@@ -170,7 +170,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
   
 #### Copyright- eller p-ar
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
-* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
+* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
    <br/>```Exempel:```
     * ```©2017```
@@ -182,50 +182,50 @@ Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivnin
 * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
-* Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 ‡a)<br/>
+* Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 #a)<br/>
   Ange utgivningsnumret som det förekommer i resursen.
   <br/>```Exempel: NA242512```
 * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
   Ange utgivarens namn.
   <br/>```Exempel: Naxos AudioBooks```<br/>
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.    
   
 ##### ISBN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
   Ange identifikator.  
   ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
+* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 #z)  
   Välj typ från lista.  
   ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #a)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.  
     
 #### Omfang
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 11 CD (13 tim., 30 min.) ```  
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 ‡b)     
+* Övriga fysiska detaljer (other physical details = 300 #b)     
   ```Exempel: stereo```
   
 #### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
+* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
 Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften. 
 <br/>```Exempel: 1 bildhäfte (20 sidor)```<br/> 
 Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäljning av CD-ljudböcker.
@@ -238,7 +238,7 @@ För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](htt
 För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
 
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.</BR> 
   ```Exempel: Inläst ur: Stockholm : Bonnier, 2012. ISBN 978-91-0-012761-9```
@@ -257,31 +257,31 @@ Ange vid behov den föredragna titeln för verket här. Följ anvisningarna unde
 
 ##### Verkets titel - verk med primär medverkan
 Föredragen titel för ett verk med primär medverkan ska anges i Har titel/Titel/Huvudtitel .</BR>
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</br>
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</br>
 Ange den föredragna titeln i Huvudtitel.</br>
   ```Exempel: Iliaden```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-* Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 ‡p)</BR> 
+* Har titel/Titel/Deltitel (hasTitle/Title/partName = 240 1/0 #p)</BR> 
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</BR>
-* Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
+* Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 #n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
   ```Exempel: Bok 1-6```<br/>
-* Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
+* Språk/Språk/Benämning (language/Language/label = 240 #l)</BR>
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
  
 ##### Verkets titel - verk utan primär medverkan
 Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av verk/Verk/Har titel/Huvudtitel .</BR>
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
 Under Instans av Verk, lägg till egenskapen Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), välj Verk. Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel. Ange den föredragna titeln i Huvudtitel.</br>
   ```Exempel: Bibeln```</br>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-*	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
+*	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 #p)  
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).</br>
 ```Exempel: Nya testamentet```</br>
-*	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
+*	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 #n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	•	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)
-Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l.
+*	•	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l)
+Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 #l.
 
 #### Medverkan och funktion  
 * Medverkan och funktion</br>
@@ -290,20 +290,20 @@ Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plusteckn
   Se även: [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/). 
   
 ##### Primär medverkan
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se hjälptext [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new)). I undantagsfall, skapa lokal entitet.
 <br/>```Exempel: Lindgren, Astrid, 1907-2002```
   
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.</br> 
   ```Exempel: relator/author (= författare)```</br>
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
 
 ##### Medverkan
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se hjälptext [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new)). I undantagsfall, skapa lokal entitet.
   ```Exempel: Sauk, Stefan, 1955-```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
+* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.</br>
   ```Exempel: relator/nrt (= berättare, inläsare)```</br> 
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)     
@@ -321,7 +321,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista</BR>
   ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange det språk som texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
@@ -329,16 +329,16 @@ För översättningar i flera led, länka först till det mellanliggande språke
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket 
-För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 #a, #d, #t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 #a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br> 
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)</br> 
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan) i marc: 
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- #a, #d, #t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ #a (icke-analytisk sökingång för verk utan primär medverkan) i marc: 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br>
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)</br>
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
@@ -346,7 +346,7 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 För utförliga anvisningar om hur man anger genre, se hjälptexten [Tryckt monongrafi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#genre): Genre.
 
 ##### Genre/form - saogf-termer
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br>
+* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
 Länka till entitet.</br>
 ```Exempel: Ljudböcker```
 
@@ -367,16 +367,16 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https:
 För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
 
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteteten: 
   </br>```SpokenWord, spw (= tal)```  
   
 #### Anmarkning om medverkande
- * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
+ * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
    </br>```Exempel: Inläsare: Gunilla Röör```
   
 #### Sammanfattning av innehall    
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)</BR>
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
