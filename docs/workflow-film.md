@@ -59,6 +59,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Välj Bärartyp i listan över typer.
   Länka till entiteten:  
   ```Videodisc, vd (= videoskiva)```  
   
@@ -113,9 +114,9 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)</BR>
-  ```Exempel:```
-  * ```written, produced and directed by Hilary Ng'weno```
-  * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
+  <br/>```Exempel:```
+     * ```written, produced and directed by Hilary Ng'weno```
+     * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
@@ -160,10 +161,10 @@ Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivning
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
-  ```Exempel:```
-    * ```[2017]```
-    * ```[mellan 2003 och 2005?]```
+  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.
+  <br/>```Exempel:```
+     * ```[2017]```
+     * ```[mellan 2003 och 2005?]```
 
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
@@ -228,10 +229,10 @@ Lägg till Benämning. Skriv in uppgiften.
 #### Videokarakteristika
 * Videokarakteristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
-  Här anges format, antingen DVD eller Blu-ray Disc.</br>
-  ```Exempel:```
-  * ```DVD, v```
-  * ```Blu-ray Disc, s```
+  Här anges format, antingen DVD eller Blu-ray Disc.
+   <br/>```Exempel:```
+      * ```DVD, v```
+      * ```Blu-ray Disc, s```
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
@@ -287,10 +288,8 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR> 
-
-För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
+*	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)
+Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l. För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här.
 
 ##### Verkets titel - verk med primär medverkan
 Det är ovanligt att film har primär medverkan. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av filmen. Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel.
@@ -302,10 +301,8 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 * Har titel/Titel/Delbeteckning (hasTitle/Title/partNumber = 240 1/0 ‡n)</BR>
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.
-Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
-
 För en resurs som innehåller endast en dubbning men inte originalversionen ska dubbningens språk anges här. 
+Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning. Det kommer att korrigeras i en kommande release av Libris katalogisering.
 
 #### Medverkan och funktion
 * Medverkan och funktion  
@@ -359,14 +356,14 @@ För en film som är dubbad, lägg till:
 ##### Verk som ingår i det beskrivna verket
 För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
-Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
-För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)
+</br>För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan): 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br>
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
