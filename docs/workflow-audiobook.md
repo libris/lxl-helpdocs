@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2019-03-20
+date: 2019-04-01
 tags:
 - under arbete
 - ljudbok
@@ -47,13 +47,14 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Audio, s (= audio)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entiteten:</br> 
+* Bärartyp (carrierType/CarrierType = 338 #b)  
+  Välj Bärartyp i listan över typer.
+  Länka till entiteten:</br>
   ```Audio disc, sd (= ljudskiva)```</BR>
   
   Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten: </BR>
@@ -63,7 +64,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).</BR> 
  ```Exempel: Den frusna elden```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
@@ -74,14 +75,14 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
  ```Exempel: C-byråns kvinnliga agenter under andra världskriget : en dokumentär spionberättelse```
 
 ##### Varianttitel   
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.</BR>
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varanttitel.
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)   
   Skriv in uppgiften i Huvudtitel.    
  ```Exempel: Hierarchy in organizations```  
 
@@ -153,10 +154,10 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.   
+  Utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, anges här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.
    <br/>```Exempel:```
     * ```[2017]```
-    * ```[mellan 2003 och 2005?]```
+    * ```[mellan 2003 och 2005?]``` 
 
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
@@ -170,7 +171,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 #### Copyright- eller p-ar
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
    <br/>```Exempel:```
     * ```©2017```
     * ```℗2017```
@@ -266,8 +267,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).</BR> 
   ```Exempel: Bok 1-6```<br/>
 * Språk/Språk/Benämning (language/Language/label = 240 ‡l)</BR>
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.</BR>
-  ```Exempel: Svenska```
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning. Det kommer att korrigeras i en kommande release av Libris katalogisering.**
  
 ##### Verkets titel - verk utan primär medverkan
 Föredragen titel för ett verk utan primär medverkan ska anges i Uttryck av verk/Verk/Har titel/Huvudtitel .</BR>
@@ -280,9 +280,8 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 ```Exempel: Nya testamentet```</br>
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 ‡n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-*	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR>
-```Exempel: Svenska```
+*	•	Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l)
+Lägg till eventuellt språk som ska ingå i sökingången. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 130 ‡l.
 
 #### Medverkan och funktion  
 * Medverkan och funktion</br>
@@ -332,14 +331,14 @@ För översättningar i flera led, länka först till det mellanliggande språke
 ##### Verk som ingår i det beskrivna verket 
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br> 
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br> 
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan) i marc: 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och benämning på språk. (Lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket).</br>
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br>
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
