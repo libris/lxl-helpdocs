@@ -12,7 +12,7 @@ tags:
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
 
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-ändra-i-kartmallen-så-att-den-kan-användas-för-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-andra-i-kartmallen-sa-att-den-kan-anvandas-for-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
 
 För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i hjälpsektionens vänstermeny. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
 
@@ -20,12 +20,12 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-verk) |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-verk) |
 | | [Relief](#relief) | [Kartografisk data](#kartografisk-data) |
 | | [Produktionsmetod](#produktionsmetod) | [Kompletterande innehåll index](#kompletterande-innehall-index) |                                                  
-| | [Bärande material](#bärande-material) | | 
+| | [Bärande material](#barande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
-| | [Färginnehåll](#färginnehåll) | | 
+| | [Färginnehåll](#farginnehall) | | 
 | | [Genre/form (instans)](#genre-form-instans) | | 		
 	
 			
@@ -35,7 +35,7 @@ Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogise
 ### Instans
 Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
 
-#### Övriga fysiska detaljer
+#### Ovriga fysiska detaljer
  * Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
 Skriv in uppgiften om färginnehåll i klartext (färg, svartvit eller kolorerad). Här anges även layout såsom *motstående sidor* och *rygg mot rygg*.
 
@@ -47,7 +47,7 @@ Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunk
  * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
 
-#### Bärande material
+#### Barande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
 
@@ -60,7 +60,7 @@ Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
  </br>```Exempel: akvarell och penna```
 
-#### Färginnehåll
+#### Farginnehall
  * Färginnehåll (colorContent = 007/00: a/03)
  Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
@@ -145,7 +145,7 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
  <br/>Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
-#### Att ändra i kartmallen så att den kan användas för handritad kartresurs
+#### Att andra i kartmallen sa att den kan anvandas for handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
  2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
  3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
@@ -157,7 +157,6 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
    <br/>Läs mer under [Bärande material](#barande-material).
   * Applicerat material/Benämning (appliedMaterial/label = 340 #c
    <br/>Läs mer under [Applicerat material](#applicerat-material).
-
  6. Lägg till följande egenskap inom Instans av Verk:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
    <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
