@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2019-03-15
+date: 2019-04-02
 tags:
 - under arbete
 - film
@@ -53,12 +53,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: Monografisk resurs```
 
 #### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Video, v (= video)```
   
 #### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer.
   Länka till entiteten:  
   ```Videodisc, vd (= videoskiva)```  
@@ -67,7 +67,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 
 ##### Huvudtitel    
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). 
   <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: The beguiled```  
@@ -79,14 +79,14 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Övrig titelinformation (undertitel)
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
   <br/>```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```
 
 ##### Varianttitel
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-  * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)<br/> 
+  * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)<br/> 
  Skriv in uppgiften i Huvudtitel.    
   ```Exempel: Cool girls```<br/>
 
@@ -347,23 +347,23 @@ För en film som är dubbad, lägg till:
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
-För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 ‡a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
+För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 a, ‡d, ‡t (analytisk sökingingång för verk med primär medverkan) eller 730 0/2 ‡a (analytisk sökingång för verk utan primär medverkan):  
 Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)
 </br>För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 ##### Relationer till andra verk  
-För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- ‡a, ‡d, ‡t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan): 
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- #a, #d, #t (icke-analytisk sökingingång för verk med primär medverkan) eller 730 0/_ ‡a (icke-analytisk sökingång för verk utan primär medverkan): 
 Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 ‡l.)</br>
+Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i sökingången. (För att lägga till språk, klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och sök fram språkentiteten och länka. Språket visas då som ett tillägg till verkets titel i marcpostens 700 eller 730 #l.)</br>
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
@@ -371,7 +371,7 @@ För utförligare instruktioner, se även hjälptexten [Relationer till delar oc
 För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
 
 ##### Genre/form - saogf-termer
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)</br>
+* Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
  Länka till entitet.</br>
  ```Exempel:```
    * ```Spelfilmer```
@@ -394,7 +394,7 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https:/
 För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
 
 #### Bild- och filmtexter 
- * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 ‡j)</BR>
+ * Bild- och filmtexter (marc:subtitlesOrCaptions/marc:SubtitlesOrCaptions/language = 041 #j)</BR>
  Ange språk i eventuella bild- och filmtexter.</BR>
  Länka till entitet.
    ```Exempel: svenska (swe)```</BR> 
@@ -403,22 +403,22 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
    ```Exempel: engelska (eng)``` 
  
 #### Innehallstyp
- * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+ * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till någon av entiteterna:</BR>
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
    * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
   
 #### Anmarkningar
 ##### Anmärkning om språk
- * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+ * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska.```  
 
 ##### Anmärkning om medverkande
- * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 ‡a)
+ * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
 #### Sammanfattning av innehall
-* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)</BR>
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
 </br>```Exempel: Historien utspelar sig under amerikanska inbördeskriget på en internatskola för flickor i södern. När de avskärmade unga kvinnorna tar in en skadad fiendesoldat och ger honom skydd och vård stiger den sexuella spänningen, farliga rivaliteter bildas och tabun bryts i en oväntad vändning.```
      
