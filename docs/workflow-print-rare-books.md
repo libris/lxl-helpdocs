@@ -66,9 +66,9 @@ Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgif
 
 #### Identifikator
 Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
-* Identifikator/Värde (024 ‡a)<br/>
+* Identifikator/Värde (024 #a)<br/>
 ```Exempel: 840111g31```<br/><br/>
-* Identifikator/Typanmärkning (024 ‡2)<br/>
+* Identifikator/Typanmärkning (024 #2)<br/>
 ```Exempel: SB17```
 
 ##### Fingerprint
@@ -83,7 +83,7 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här. Det gå
   * Skriv in uppgiften i Värde.  
   
 #### Upplageuppgift
-* Upplageuppgift (250 ‡a)  
+* Upplageuppgift (250 #a)  
   Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.  
   ```Exempel: [Ny udgave]```  
   
@@ -95,7 +95,7 @@ Impressum anges enbart i Plats om det finns någon tryck- eller utgivningsuppgif
 Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- eller utgivningsuppgifter i trycket.
  
 ##### Utgivningsplats
-* Plats/Plats/Benämning (264 -/1 ‡a)  
+* Plats/Plats/Benämning (264 -/1 #a)  
   Här anges vanligtvis tryckort, tryckare etc. och tryckår. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
@@ -103,15 +103,15 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
   * ```Tryckuppgifter saknas: [Jönköping?]``` 
   
 ##### Utgivarnamn
-* Agent/Agent/Benämning (264 -/1 ‡b)  
+* Agent/Agent/Benämning (264 -/1 #b)  
   Här anges vanligtvis sannolika uppgifter om tryckare etc. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```Tryckuppgifter saknas: [Curt?]```
   * ```Tryckuppgifter saknas: [utgivare okänd]```  
   
 ##### Ar och datum 
-* År (008/07-10, 264 -/1 ‡c)  
-  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 ‡c. 
+* År (008/07-10, 264 -/1 #c)  
+  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c. 
   <br/>```Exempel: 1652```    
   
 * Start- och slutår (flerbandsverk)  
@@ -158,7 +158,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
   
 #### Numrering i seriell resurs   
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- ‡a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
   ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
   
 #### Seriemedlemskap
@@ -166,12 +166,12 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.  
 
 ##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (490 ‡a)  
+* Seriemedlemskap/Serieuppgift (490 #a)  
   Skriv in uppgiften.  
    ```Exempel: Smärre skrifter hopsamlade```   
 
 ##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (490 ‡v, 830 ‡v)  
+* Seriemedlemskap/Numrering inom serie (490 #v, 830 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1:1```  
 
@@ -182,7 +182,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   ```Exempel: 0```   
  
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (500 ‡a)   
+* Anmärkning/Anmärkning/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
   <br/>```Exempel:```
   * ```Fraktur```
@@ -192,14 +192,14 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 
 #### Citering i referatorgan    
   Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
-* Indexerad i/Instans/Har titel/Titel (510 ‡a)
-* Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
+* Indexerad i/Instans/Har titel/Titel (510 #a)
+* Indexerad i/Instans/Anmärkning/Benämning (510 #c)
 
 #### Namn på orter och territorier
   Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search).  
 
 ##### Land  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 ‡a)  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a)  
   * Klicka på det stora plustecknet i högermarginalen.
   * Sök efter och välj Har biuppslag - Namn på orter och territorier i sidorutan.
   * Klicka på plustecknet intill rubriken.
@@ -208,7 +208,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
    ```Exempel: Sverige```   
 
 ##### Stad  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 ‡d)  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 #d)  
   * Sök efter och välj Stad, kommun i sidorutan. 
   * Skriv in uppgiften.  
   ```Exempel: Stockholm```
@@ -219,7 +219,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
 ### Verk   
 
 #### Medverkan och funktion  
-* Medverkan och funktion/Medverkan/Agent/Organisation (710 ‡a)  
+* Medverkan och funktion/Medverkan/Agent/Organisation (710 #a)  
   Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
 #### Klassifikation  
@@ -230,13 +230,13 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * SB17 = Svensk bibliografi 1700-1829  
   
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (336 ‡b)   
+* Innehållstyp/Innehållstyp (336 #b)   
   Anges vid katalogisering enligt RDA. Låt uppgiften stå men lägg inte till den eftersom äldre tryck katalogiseras enligt ISBD.
   
 ### Bestand
 
 #### Agarhistorik
-* Ägarhistorik (561 ‡a)   
+* Ägarhistorik (561 #a)   
   Man kan för närvarande inte upprepa egenskapen Ägarhistorik. Alla proveniensuppgifter läggs därför in på ett ställe.
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
@@ -246,7 +246,7 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   ```Ulrik von Döbeln (exlibris ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
   
 #### Exemplarinformation
-* Igenkänningstecken (562 ‡a) och Identifiering av exemplar (562 ‡b)  
+* Igenkänningstecken (562 #a) och Identifiering av exemplar (562 #b)  
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: identifiering av exemplar, kopia eller version i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Identifiering …
@@ -254,15 +254,15 @@ I Voyager lade man vid behov till fält 751 eftersom man i fält 752 skulle ange
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
   * Skriv in uppgifterna.<br/><br/>
-  Igenkänningstecken (562 ‡a) 
-  <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
-  Identifiering av exemplar (562 ‡b)
+  Igenkänningstecken (562 #a) 
+  <br/>```Exempel: Med handkolorerade illustrationer```<br/>
+  Identifiering av exemplar (562 #b)
   <br/>```Exempel: Ex. B```
   
   Klicka på plustecknet intill Har lokal anmärkning: Identifiering ... för fler anmärkningar.
   
 #### Bokband
-* Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 ‡a)   
+* Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 #a)   
   I de flesta fall räcker det att ange en bokbandsuppgift. Vid behov kan man upprepa Benämning. I MARC21 hamnar då anmärkningarna i varsitt delfält. Det går för närvarande inte att upprepa Har lokal anmärkning: Bokband.       
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
