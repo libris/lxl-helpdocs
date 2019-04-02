@@ -22,6 +22,12 @@ På denna sida listas ändringar i hjälptexterna.
 * Uppdaterade uppgifter i hjälptexten för ljudbok. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
 </br>https://libris.kb.se/katalogisering/help/workflow-audiobook
 
+* Uppdaterad innehållsförteckning och länkning till de generella hjälptexterna i hjälptexten för Stillbild.
+</br>https://libris.kb.se/katalogisering/help/workflow-still-image
+
+* Uppdaterad innehållsförteckning och länkning till de generella hjälptexterna i hjälptexten för Karta.
+</br>https://libris.kb.se/katalogisering/help/workflow-map
+
 2019-03-29
 * Ny hjälptext för katalogisering av tryckta kartor.
 </br>https://libris.kb.se/katalogisering/help/workflow-map
