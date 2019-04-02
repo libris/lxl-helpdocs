@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Karta
 order: 45
-date: 2019-03-29
+date: 2019-04-02
 tags:
 - under arbete
 - karta
@@ -12,46 +12,28 @@ tags:
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
 
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En kort beskrivning hur man gör detta finns i slutet av denna hjälptext.
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-ändra-i-kartmallen-så-att-den-kan-användas-för-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
 
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
+För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i hjälpsektionens vänstermeny. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
 
 ### Innehåll
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Kontrollnummer](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivningssätt](https://libris.kb.se/katalogisering/help/workflow-instance) | [Verkets titel](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Bibliografikod](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Medietyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Relationer till ingående verk och andra verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Bärartyp](https://libris.kb.se/katalogisering/help/workflow-instance) | [Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Poststatus](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Titel](https://libris.kb.se/katalogisering/help/workflow-instance) | [Språk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Skapad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Genre/form](#genre-form) |
-| [Katalogiseringsregler](https://libris-dev.kb.se/katalogisering/help/workflow-adminmetadata) | [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Katalogiseringsspråk](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kartografisk data](#kartografisk-data) |
-| [Katalogiserande instans](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Huvudsakligt tillgängliggörande](https://libris.kb.se/katalogisering/help/workflow-instance) | [Innehållstyp](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Uppgraderad eller importerad av](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance) | [Sammanfattning av innehåll](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Systemteknisk anmärkning](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance) | [Kompletterande innehåll index](#kompletterande-innehall-index) |
-| | [Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance) | |
-| | [Omfång](https://libris.kb.se/katalogisering/help/workflow-instance) | |
-| | [Mått](https://libris.kb.se/katalogisering/help/workflow-instance) | |     
-| | [Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance) | |   
-| | [Relief](#relief) | |                                                       
-| | [Produktionsmetod](#produktionsmetod) | |  
-| | [Bärande material](#barande-material) | | 
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Genre/form (verk)](#genre-form-verk) |
+| | [Relief](#relief) | [Kartografisk data](#kartografisk-data) |
+| | [Produktionsmetod](#produktionsmetod) | [Kompletterande innehåll index](#kompletterande-innehall-index) |                                                  
+| | [Bärande material](#bärande-material) | | 
 | | [Applicerat material](#applicerat-material) | | 
-| | [Färginnehåll](#farginnehåll) | | 
-| | [Genre/form](#genre-form) | | 
-| | [Anmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Innehållsanmärkning](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Bilagor](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance) | | 
-| | [Annat bärarformat](https://libris.kb.se/katalogisering/help/workflow-instance) | |  	
-| | [Elektronisk adress](https://libris.kb.se/katalogisering/help/workflow-instance) | | 		
+| | [Färginnehåll](#färginnehåll) | | 
+| | [Genre/form (instans)](#genre-form-instans) | | 		
 	
 			
 ### Adminmetadata
-Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
 
 ### Instans
-I de fall egenskaperna relevanta för Instans finns beskrivna i generell hjälptext upprepas inte informationen här. Följ länkar i innehållsförteckningen till hjälptext för Instans. Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
+Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan.
 
 #### Övriga fysiska detaljer
  * Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
@@ -65,7 +47,7 @@ Ange hur höjdskillnader är återgivna på resursen. Länka till entitet. Trunk
  * Produktionsmetod/Benämning (productionMethod/label = 340 #d)
 Ange produktionsmetod som lokal entitet. Lista över termer att använda vid beskrivning av produktionsmetod gällande kartor och stillbilder finns i RDA-anvisningarna.
 
-#### Barande material
+#### Bärande material
  * Bärande material (baseMaterial = 007/00: a/01)
 Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”. Trunkera för att få upp en lista över samtliga entiteter. I mallen finns entiteten Papper/papp (marc/Paper) inlagd. Ändra vid behov.
 
@@ -78,7 +60,7 @@ Länka till enitet. Välj bland entiteterna som benämns ”Material (kartor)”
 Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade kartor. Om flera entiteter behövs redovisas samtliga i en och samma ruta. Lista över termer att använda vid beskrivning av applicerat material gällande kartor och stillbilder finns i RDA-anvisningarna.
  </br>```Exempel: akvarell och penna```
 
-#### Farginnehåll
+#### Färginnehåll
  * Färginnehåll (colorContent = 007/00: a/03)
  Länka till enitet. Välj bland följande entiteter:
    * En färg (används för svartvita kartor)
@@ -87,14 +69,15 @@ Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade 
 
 I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
-#### Genre form
+#### Genre form instans
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
 
 ### Verk
+Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av kartor redovisas nedan.
 
-#### Genre form
+#### Genre form verk
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
@@ -162,7 +145,7 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  * Kompletterande innehåll (supplementaryContent/MARC = 008/31)
  <br/>Ange om resursen innehåller index eller ej.  Gäller framför allt kartböcker och atlaser. Länka till entitet.
 
-#### Att andra i kartmallen sa att den kan anvandas för handritad kartresurs
+#### Att ändra i kartmallen så att den kan användas för handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
  2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
  3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
@@ -178,3 +161,4 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  6. Lägg till följande egenskap inom Instans av Verk:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
    <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
+
