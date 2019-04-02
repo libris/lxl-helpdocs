@@ -13,13 +13,13 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-04-02
-* Uppdaterade uppgifter i hjälptexten för film. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+* Uppdaterade uppgifter i hjälptexten för film. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
 </br>https://libris.kb.se/katalogisering/help/workflow-film
 
-* Uppdaterade uppgifter i hjälptexten för datorspel. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+* Uppdaterade uppgifter i hjälptexten för datorspel. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
 </br>https://libris.kb.se/katalogisering/help/workflow-video-game
 
-* Uppdaterade uppgifter i hjälptexten för ljudbok. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+* Uppdaterade uppgifter i hjälptexten för ljudbok. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
 </br>https://libris.kb.se/katalogisering/help/workflow-audiobook
 
 2019-03-29
