@@ -46,7 +46,7 @@ På denna sida listas ändringar i hjälptexterna.
 </br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-03-22
-* Ny instruktion i hjälptexten Att arbeta i verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: </br>https://libris.kb.se/katalogisering/help/use-the-editor
+* Ny instruktion i hjälptexten Att använda verktyget för funktionerna Berika från post - Berika från fil respektive Berika från ID: </br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-03-15
 * Uppdaterad struktur i vänstermeny. Generella hjälptexter är separerade från hjälptexter för de respektive materialtyperna.
