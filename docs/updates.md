@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-03-29
+date: 2019-04-02
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,12 +12,22 @@ tags:
 
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-04-02
+* Uppdaterade uppgifter i hjälptexten för film. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+</br>https://libris.kb.se/katalogisering/help/workflow-film
+
+* Uppdaterade uppgifter i hjälptexten för datorspel. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+</br>https://libris.kb.se/katalogisering/help/workflow-video-game
+
+* Uppdaterade uppgifter i hjälptexten för ljudbok. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 ‡l), Språk/Språk/Benämning (language/Language/label = 240 ‡l) samt gällande Relationer till ingående verk och andra verk.
+</br>https://libris.kb.se/katalogisering/help/workflow-audiobook
+
 2019-03-29
-* Ny hjälptext för katalogisering av tryckta kartor
+* Ny hjälptext för katalogisering av tryckta kartor.
 </br>https://libris.kb.se/katalogisering/help/workflow-map
 
 2019-03-28
-* Ny hjälptext för funktionen Katalogvård som tillkommit i version 1.7 
+* Ny hjälptext för funktionen Katalogvård som tillkommit i version 1.7 .
 </br>https://libris.kb.se/katalogisering/help/catalogue-maintenance
 </br>Information om Språk/Språk/Benämning uppdaterad på sidan Verk:
 </br>https://libris.kb.se/katalogisering/help/workflow-work
