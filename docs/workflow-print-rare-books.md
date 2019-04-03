@@ -198,13 +198,13 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
 #### Citering i referatorgan    
   Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 #a)
-* Indexerad i/Instans/Anmärkning/Benämning (510 ‡c)
+* Indexerad i/Instans/Anmärkning/Benämning (510 #c)
 
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Huvudsyftet är att samla upp namnformer som förekom under handpresstiden under en namnform. Använd i först hand Nationalencyklopedin vid fastställande av svenska ortnamn. För utländska ortnamn används de standardiserade namnformer för äldre tryckorter som finns i [CERL Thesaurus](https://data.cerl.org/thesaurus/_search).  
 
 ##### Land  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 ‡a)  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Land / Överordnat territorium (752 #a)  
   * Klicka på det stora plustecknet i högermarginalen.
   * Sök efter och välj Har biuppslag - Namn på orter och territorier i sidorutan.
   * Klicka på plustecknet intill rubriken.
@@ -213,7 +213,7 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
    ```Exempel: Sverige```   
 
 ##### Stad  
-* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 ‡d)  
+* Har biuppslag - Namn på orter och territorier/Biuppslag - Namn på orter och territorier/Stad, kommun (752 #d)  
   * Sök efter och välj Stad, kommun i sidorutan. 
   * Skriv in uppgiften.  
   ```Exempel: Stockholm```
