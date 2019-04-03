@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-03-28
+date: 2019-04-03
 tags:
 - under arbete
 - seriell resurs
@@ -292,8 +292,10 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: p (Tidskrift = marc/Periodical)```  
-  
+  <br/>```Exempel:```
+  * ```p (Tidskrift = marc/Periodical)```
+  * ```m (Monografiserie = marc/MonographicSeries```
+         
 #### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -342,13 +344,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
 
-#### Genre 
-##### Typ av fortlöpande resurs  
-* Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: p (Tidskrift = marc/Periodical)```  
-    
 ##### Konferenspublikation  
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
@@ -365,8 +360,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
-```Exempel: Aktuellt magazin```  
+  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.
+<br/>```Exempel:```
+  * ```Aktuellt magazin```
+  * ```Medlemstidning (Svenska Schweisshundklubben)```
   
 * Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
  För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till egenskaoer under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
