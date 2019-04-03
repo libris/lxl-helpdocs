@@ -360,8 +360,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig   titelinformation.  
-  Skriv in uppgiften under Huvudtitel.
+  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig   titelinformation. Skriv in uppgiften under Huvudtitel.
  <br/>```Exempel:```
   * ```Aktuellt magazin```
   * ```Medlemstidning (Svenska Schweisshundklubben)```
