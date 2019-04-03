@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Stillbild
 order: 52
-date: 2019-04-02
+date: 2019-04-03
 tags:
 - under arbete
 - stillbild
@@ -19,11 +19,12 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Produktionsmetod](#produktionsmetod) | [Språk](#verk) |
-| |  [Applicerat material](#applicerat-material)  | [Genre/form (verk)](#verk) |
-| | [Bärande material](#applicerat-material) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |                                                                
-| | [Färginnehåll](#färginnehåll) | |
-| | [Genre/form (instans)](#polaritet) | |
+| | [Övriga fysiska detaljer](#instans) | [Språk](#verk) |
+| | [Produktionsmetod](#produktionsmetod) | [Genre/form (verk)](#verk) |
+| |  [Applicerat material](#applicerat-material)  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  |
+| | [Bärande material](#applicerat-material) | |                                                                
+| | [Färginnehåll](#farginnehåll) | |
+| | [Genre/form (instans)](#farginnehall) | |
 | | [Polaritet](#polaritet) | |
 
 
@@ -34,6 +35,10 @@ Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogise
 
 ### Instans
 Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan. 
+
+#### Övriga fysiska detaljer
+* Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
+Skriv in uppgiften om färginnehåll i klartext (färg, svartvit eller kolorerad). Här anges även layout, t.ex. ”båda sidorna” om bilder finns på bägge sidor av arket/arken.
 
 #### Produktionsmetod
 *	Produktionsmetod/Benämning (productionMethod/label = 340 #d)
@@ -49,7 +54,7 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
 #### Bärande material 
 *	Bärande material (baseMaterial (marc) = 007/00: k/01)
   </br>Länka till enitet. Välj bland entiteterna som benämns ”Bildens bärande material”. 
-  </br>Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
+  </br>Trunkera för att få upp en lista över samtliga entiteter. 
   </br>I stillbildsmallen finns entiteten Papp och kartong inlagd. Ändra vid behov.
 
 *	Bärande material/Benämning ((baseMaterial/label = 340 #a)
@@ -59,7 +64,7 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
   </br>I stillbildsmallen finns entiteten Papper inlagd. Ändra vid behov. 
   </br>Lista över termer att använda vid beskrivning av bärande material gällande kartor och stillbilder finns i [RDA-anvisningarna](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/#B%C3%A4rande%20material).
 
-#### Färginnehåll
+#### Farginnehall
 * Färginnehåll (colorContent (marc) = 007/00: k/03)
   </br>Länka till enitet. Välj bland följande entiteter: 
     * En färg
@@ -81,9 +86,10 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
   </br>Använd Polaritet vid katalogisering av fotografier. Ange polaritet som lokal entitet. Välj bland följande två entiteter:
     * positiv
     * negativ
-
+  </br>I stillbildsmallen är entiteten positiv inlagd. Radera uppgiften om det är annat än fotografier som katalogiseras.
 
 ### Verk
+Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av stillbild redovisas nedan.
 
 #### Språk
 *	Språk (language (marc) = 008/35-37)
@@ -92,11 +98,11 @@ Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/h
   </br>Se även: [Allmän hjälptext om verk](https://libris.kb.se/katalogisering/help/workflow-work) under rubriken Språk.
 
 #### Genre/form (verk)
-*	Genre/form(genreForm (marc) = 007/00:k/00)
-  </br>Länka till enitet. För stillbilder välj: Bild (marc/picture). 
-  </br>I stillbildsmallen finns redan entiteten Bild (marc/picture) inlagd.
+*	Genre/form(genreForm (marc) = 008/33)
+  </br>Länka till enitet. Välj bland entiteterna med rubriken ”Typ av visuell resurs.” Trunkera för att få upp en lista över samtliga entiteter. 
+  </br>I stillbildsmallen finns entiteten bilder (marc/Picture) inlagd. Ändra vid behov till mer specifik entitet.
 
 *	Genre/form – TGM-termer (genreForm = 655 -/7 #a, #2 TGM)
   </br>Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. 
   </br>I stillbildsmallen finns redan TGM-termen Bilder inlagd. Lägg till fler vid behov.
-  </br>I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i [Auktoritetsdatabasen](https://regina.kb.se/F/AS1L6KJ9E7IQ1UC49TJN4AUNLR3D8GIXUCSA2HRMJ8F8N5NQ4P-33491?func=file&file_name=scan&local_base=kbs10) (välj Genre i index, sök efter aktuell term).  
+  </br>I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i [Auktoritetsdatabasen](https://regina.kb.se/F/7VGI9HCC7P3Y15JJFPNIGGGLLKTN7V64EAXH7BUV3PGV9HMKNV-10490?func=file&file_name=scan&local_base=kbs10) (välj Genre i index, sök efter aktuell term).  
