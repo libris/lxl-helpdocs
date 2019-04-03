@@ -14,7 +14,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 2019-04-03
 * Uppdaterade uppgifter i hjälptexten för Äldre tryck. Uppdateringarna gäller egenskaperna: Katalogiseringsspråk, Medietyp, Bärartyp och Innehållstyp.
-</brhttps://libris.kb.se/katalogisering/help/workflow-print-rare-books
+</br>https://libris.kb.se/katalogisering/help/workflow-print-rare-books
 
 2019-04-02
 * Uppdaterade uppgifter i hjälptexten för film. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
