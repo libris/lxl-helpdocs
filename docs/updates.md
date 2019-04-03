@@ -15,6 +15,8 @@ På denna sida listas ändringar i hjälptexterna.
 2019-04-03
 * Uppdaterade uppgifter i hjälptexten för Äldre tryck. Uppdateringarna gäller egenskaperna: Katalogiseringsspråk, Medietyp, Bärartyp och Innehållstyp.
 </br>https://libris.kb.se/katalogisering/help/workflow-print-rare-books
+* Kompletterat med ytterligare exempel i hjälptexten för Tryckt seriell resurs. Gäller: Genre/Typ av fortlöpande resurs och Länkfält/Relationer under verk, Fortsätter/Verk/Har instans/Instans/Har titel/Titel:
+https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 2019-04-02
 * Uppdaterade uppgifter i hjälptexten för film. Uppdateringar gäller egenskaperna: Bärartyp, Uttryck av/Verk/Språk (expressionOf/Work/language = 130 #l), Språk/Språk/Benämning (language/Language/label = 240 #l) samt gällande Relationer till ingående verk och andra verk.
