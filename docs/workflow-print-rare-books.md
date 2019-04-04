@@ -10,7 +10,11 @@ tags:
 
 ## Äldre tryck
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av äldre tryck. Med äldre tryck avses skrifter som har framställts i handpress. Det omfattar nästan allt material som är tryckt före 1830. Nya Libris är anpassat efter katalogisering enligt RDA men äldre tryck katalogiseras enligt ISBD. Många anvisningar rör därför skillnader mellan RDA och ISBD. För instruktioner angående övriga egenskaper, se respektive hjälptext. För katalogiseringsanvisningar, se [Anvisningar för äldre tryck](http://www.kb.se/katalogisering/Katalogisering/aldre-tryck/ "Anvisningar för äldre tryck").
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av äldre tryck. Med äldre tryck avses skrifter som har framställts i handpress. Det omfattar nästan allt material som är tryckt före 1830. Nya Libris är anpassat efter katalogisering enligt RDA men äldre tryck katalogiseras enligt ISBD. Många anvisningar rör därför skillnader mellan RDA och ISBD.
+
+* För generella instruktioner om hur man lägger in nedanstående egenskaper, se hjälptexterna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) respektive [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+* För katalogiseringsanvisningar, se [Anvisningar för äldre tryck](http://www.kb.se/katalogisering/Katalogisering/aldre-tryck/ "Anvisningar för äldre tryck").
+* [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates) är ofta användbart när man vill lägga till egenskaper i en befintlig post. Mallarna Äldre tryck, Bok eller Tryckt seriell resurs kan exempelvis vara användbara.
 
 I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med att förbättra gränssnittet. För att anmäla fel, använd detta formulär för [felrapportering](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta formulär för  [ändringsförslag](https://docs.google.com/forms/d/e/1FAIpQLScgz_0enebhBn6uB8xvowkDBB4ax_dbvaobLSFfqFMoty6eQg/viewform).  
 
@@ -19,9 +23,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
+| [Generell hjälptext Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Hjälptext Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
-| | [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
+|[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
 | | [Upplageuppgift](#upplageuppgift) | [Innehållstyp](#innehallstyp) | |
 | | [Utgivning](#utgivning) | | |   
 | | [Tillverkning](#tillverkning) | | | 
@@ -33,7 +38,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Numrering i seriell resurs](#numrering-i-seriell-resurs)
 | | [Seriemedlemskap](#seriemedlemskap) | | |
 | | [Anmärkning](#anmarkning) | | |
-| | [Anmärkning](#anmarkning) | | |
 | | [Citering i referatorgan](#citering-i-referatorgan) | | |
 | | [Namn på orter och territorier](#namn-pa-orter-och-territorier) | | |
 
@@ -44,7 +48,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
-  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.  
+  Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
+  
+#### Anmarkning om katalogiseringskalla  
+* Anmärkning om katalogiseringskälla (588 #a)  
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates).  
+  ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
 
 ### Instans
   
@@ -187,13 +196,11 @@ Används inte vid katalogisering av äldre tryck. I SB17-poster har tryckuppgift
   ```Exempel: 0```   
  
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (500 #a)   
+* Anmärkning (hasNote)/Anmärkning (Note)/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
   <br/>```Exempel:```
   * ```Fraktur```
-  * ```Boktryckarmärke på sista sidan```
-  <br/><br/>Egenskapen Anmärkning om katalogiseringskälla (588 #a) är inte tillgänglig för närvarande. Ange den typen av anmärkningar här så länge. 
-  * ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
+  * ```Boktryckarmärke på sista sidan```  
 
 #### Citering i referatorgan    
   Det går inte att lägga in Citering i referatorgan (510) för närvarande. Alternativ lösning så länge är att kopiera en post som har följande egenskaper med:
