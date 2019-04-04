@@ -58,9 +58,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
   
 #### Barartyp
   * Bärartyp (carrierType/CarrierType = 338 #b)
-  <br/>Välj Bärartyp i listan över typer.
-  <br/>Länka till entitet.  
-  <br/>```Exempel: audio disc, sd```</BR>
+  <br/>Välj Bärartyp i listan över typer. Länka till entitet.
+  ```Exempel: audio disc, sd```</BR>
   Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten marc/SoundDisc.</BR>
   ```Exempel: marc/SoundDisc```
   
