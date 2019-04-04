@@ -23,7 +23,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Produktionsmetod](#produktionsmetod) | [Genre/form (verk)](#verk) |
 | |  [Applicerat material](#applicerat-material)  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  |
 | | [Bärande material](#applicerat-material) | |                                                                
-| | [Färginnehåll](#farginnehåll) | |
+| | [Färginnehåll](#farginnehall) | |
 | | [Genre/form (instans)](#farginnehall) | |
 | | [Polaritet](#polaritet) | |
 
@@ -78,8 +78,8 @@ Skriv in uppgiften om färginnehåll i klartext (färg, svartvit eller kolorerad
 
 #### Genre/form (instans)
 *	Genre/form (genreForm (marc) = 007/00: k/01)
-  </br>Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning för bilder”. Trunkera (sök på * ) för att få upp en lista över samtliga entiteter. 
-  </br>I stillbildsmallen finns entiteten bilder (marc/Picture)  inlagd. Ändra vid behov till mer specifik entitet.
+  </br>Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning för bilder”. Trunkera för att få upp en lista över samtliga entiteter. 
+  </br>I stillbildsmallen finns entiteten bilder (marc/Picture) inlagd. Ändra vid behov till mer specifik entitet.
  	
 #### Polaritet
 *	Polaritet/Benämning (polarity/label= 340 #o)
