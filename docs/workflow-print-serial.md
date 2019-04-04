@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-04-03
+date: 2019-04-04
 tags:
 - under arbete
 - seriell resurs
@@ -296,6 +296,7 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
 <br/>```Exempel:```
   * ```p (Tidskrift = marc/Periodical)```
   * ```m (Monografiserie = marc/MonographicSeries```
+  * ```n (Dagstidning = marc/Newspaper```
          
 #### Klassifikation  
 * DDK-klassifikation  
