@@ -13,7 +13,7 @@ tags:
 
 ## Import av poster från andra källor
 
-XL erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor i sökrutan kan användare söka direkt i nationalbiblioteksskataloger, specialinriktade databaser, eller olika samlingar av databaser. 
+XL erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor i sökrutan kan användare söka direkt i nationalbiblioteksskataloger, specialinriktade databaser eller olika samlingar av databaser. 
 
 Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metasök Latin, Metasök Mellaneuropa och Metasök Norden. 
 
@@ -32,4 +32,4 @@ Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metas�
 * Metasök Mellaneuropa
 
 ## Allmänt
-Importen rensar och rättar posten men kräver en noggran kontroll innan beståndsregistrering.
+Importen rensar och rättar posten men kräver en noggrann kontroll före beståndsregistrering.
