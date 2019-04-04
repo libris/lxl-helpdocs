@@ -343,12 +343,15 @@ För ingående verk med primär medverkan, lägg till Medverkan och funktion/Pri
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
 #### Genre  
-För utförliga anvisningar om hur man anger genre, se hjälptexten [Tryckt monongrafi](https://libris.kb.se/katalogisering/help/workflow-print-monograph#genre): Genre.
-
-##### Genre/form - saogf-termer
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
+Välj Genre/form i listan över typer.</br>
 Länka till entitet.</br>
 ```Exempel: Ljudböcker```
+
+* Genre/form – termer som motsvarar marc-koder i 008</br>
+Välj Typ av genre för text till ljudupptagning (ej musik).</br>
+Länka till entitet.</br>
+```Exempel: Skönlitterär prosa, f```
 
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
