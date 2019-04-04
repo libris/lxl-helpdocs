@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-04-03
+date: 2019-04-04
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-04-04
+* Uppdaterade uppgifter i hjälptexten för Musik-CD. Uppdateringar gäller egenskapen Bärartyp samt gällande Relationer till ingående verk och andra verk.
+</br>https://libris.kb.se/katalogisering/help/workflow-music-CD
 
 2019-04-03
 * Uppdaterade uppgifter i hjälptexten för Äldre tryck. Uppdateringarna gäller egenskaperna: Katalogiseringsspråk, Medietyp, Bärartyp och Innehållstyp.
