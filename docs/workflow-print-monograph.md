@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-03-29
+date: 2019-04-08
 tags:
 - under arbete
 - monografi
@@ -10,21 +10,16 @@ tags:
 
 ## Tryckt monografi - bok
 
-**Nytt 2019-02-12:** Denna sida listar egenskaperna översiktligt och hänvisar till **de nya sidorna**:
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work)
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Beskrivningen av en tryckt monografi innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Beskrivningen av en tryckt monografi innehåller:  
-* adminmetadata (administrativ data) om instansbeskrivningen  
-* en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
-* en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk. Vi har ännu inte börjat bryta ut verksbeskrivningarna till egna länkade entiteter.  
-Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok.  
 
-Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -32,19 +27,20 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
-| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Entry map](#entry-map) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
-|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
+|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Titel](#titel) | [Språk](#sprak) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
+| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | | 
@@ -54,52 +50,12 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 
 #### Adminmetadata
+
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
-* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
-* Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
-* Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
-#### Kontrollnummer  
-* Kontrollnummer (controlNumber = 001)  
-
-#### Skapad av 
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
-  
-#### Uppgraderad eller importerad av 
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)
-   
-#### Entry map 
-* Entry map (marc:entryMap = 000/20-23)
-
-#### Katalogiserande instans 
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-
-#### Bibliografikod 
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
-  
-#### Systemnummer 
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a)
-
-För ISBN, se [Identifikator](#identifikator) under Instans.
-  
-#### Katalogiseringssprak
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)  
-  
-#### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 #e)
-
-#### Beskrivningsniva 
-* Beskrivningsnivå (encodingLevel = 000/17)
-  
-#### Poststatus 
-* Poststatus (recordStatus = 000/05)
-  
-#### Translitterering 
-* Institution som gjort translitterering (marc:transcribingAgency = 040 #c)
- 
-#### Systemteknisk anmarkning 
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
 
 #### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
