@@ -15,6 +15,9 @@ På denna sida listas ändringar i hjälptexterna.
 2019-04-08
 * Uppdaterade uppgifter i hjälptexten för Musik-CD. Uppdateringar gäller egenskapen Bärartyp samt gällande Relationer till ingående verk och andra verk.
 </br>https://libris.kb.se/katalogisering/help/workflow-music-CD
+* Inledande text samt sidans Innehållsförteckning omredigerad i hjälptexterna för Tryckt monografi och Tryckt seriell resurs:
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
+</br>https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 2019-04-03
 * Uppdaterade uppgifter i hjälptexten för Äldre tryck. Uppdateringarna gäller egenskaperna: Katalogiseringsspråk, Medietyp, Bärartyp och Innehållstyp.
