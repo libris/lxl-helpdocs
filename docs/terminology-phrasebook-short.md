@@ -10,8 +10,6 @@ tags:
 # Terminologi
 ## Kort parlör
 
-*Parlören är under arbete och uppdateras kontinuerligt.*
-
 [Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
 
 Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
