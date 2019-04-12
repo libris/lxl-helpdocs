@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Äldre tryck
 order: 58
-date: 2019-04-03
+date: 2019-04-12
 tags:
 - under arbete
 - äldre tryck
@@ -23,7 +23,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand) |  
 | ------ | ----------- |  ----------- | ------------ |
-| [Generell hjälptext Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Hjälptext Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) | 
+| [Generell hjälptext: Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext: Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext: Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext: Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Titel och upphov](#titel-och-upphov) | [Medverkan och funktion](#medverkan-och-funktion) | [Ägarhistorik](#agarhistorik) | 
 | [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) | [Exemplarinformation](#exemplarinformation) |
 |[Anmärkning om katalogiseringskälla](#anmarkning-om-katalogiseringskalla)| [Fingerprint](#fingerprint) | [Ämne](#amne) | [Bokband](#bokband) | 
@@ -44,7 +44,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Började anges vid övergången till RDA. Är dock inte en RDA-specifik uppgift så den används även för äldre tryck.
+  Egenskapen började anges vid övergången till RDA men inte för äldre tryck eftersom man då använder ISBD-regler. Är dock inte en RDA-specifik uppgift så den används numera även för äldre tryck.
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
