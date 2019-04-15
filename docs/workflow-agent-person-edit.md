@@ -53,17 +53,17 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>LibrisID. Ändras ej.
 
 #### Skapad av
-* Skapad av (descriptionCreator = 040 ‡a)
+* Skapad av (descriptionCreator = 040 #a)
   <br/>Förval: Sigel för skapare av agenten. Ändras ej.
   <br/>```Exempel: Organisation: S```
 
 #### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+* Katalogiseringsregler (descriptionConventions = 040 #e)
   <br/>Förval: rda. Ändra vid behov. 
   <br/>```Exempel: Kod: rda```
   
 #### Katalogiseringsspråk  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
  <br/>```Exempel: Svenska```
  <br/>Ändras ej. Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
@@ -110,7 +110,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ändras ej.
  
 #### Konsulterad källa
-* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
   <br/>```Exempel på obligatorisk källa:``` 
   <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
@@ -128,7 +128,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Egenskaper att lagga till i Adminmetadata
 
 #### Katalogisatörens anmärkning
-* Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
+* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
   <br/>```Exempel:``` 
   * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
@@ -139,20 +139,20 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 Beskrivning av den auktoriserade agenten. 
 
 #### Efternamn
-* Efternamn (FamilyName = 100 i1=1 ‡a)
+* Efternamn (FamilyName = 100 i1=1 #a)
   <br/>```Exempel: Jansson```
 
 #### Förnamn
-* Förnamn (GivenName = = 100 ‡a)
+* Förnamn (GivenName = = 100 #a)
   <br/>```Exempel: Erik```
 
 #### Födelse- och/eller dödstid
-* Födelse- och/eller dödstid (lifeSpan = 100 ‡d)
+* Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
 
 #### Nationalitet
-* Nationalitet/verksamhetsland (Nationality = 043 ‡a)
+* Nationalitet/verksamhetsland (Nationality = 043 #a)
   <br/>Nationalitet/verksamhetsland förknippat med personen. Vid behov kan denna ändras eller raderas.
   <br/>För att lägga till: Klicka på plustecknet under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
@@ -163,17 +163,17 @@ Beskrivning av den auktoriserade agenten.
 ### Egenskaper att lägga till i beskrivningen
 
 #### Födelsedatum
-* Födelsedatum (birthDate = 046 ‡f)
+* Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/>```Exempel: 18480219```
 
 #### Dödsdatum  
-* Dödsdatum (deathDate = 046 ‡g)
+* Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/>```Exempel: 19201209```
 
 #### Variant
-* Variant (hasVariant = 400 ‡a ‡d)
+* Variant (hasVariant = 400 #a #d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
   <br/>```Exempel:```
   * ```Enkelt efternamn: Lagerlöf```
@@ -192,7 +192,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
   
 #### Identifikator
-* Identifikator (identifiedBy = 024 ‡a)
+* Identifikator (identifiedBy = 024 #a)
   <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
@@ -218,14 +218,14 @@ Beskrivning av den auktoriserade agenten.
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Namn
-* Namn (name = 100 0/- ‡a)
+* Namn (name = 100 0/- #a)
   <br/>Används för namn i rak följd istället för Förnamn och Efternamn. **Kan användas i kombination med Förnamn och Efternamn endast för att ange variantnamn.**
   <br/>```Exempel: Namn: Bang``` 
   <br/>Som variantnamn till den auktoriserade namnformen Alving, Barbro, 1909-1987
   <br/>För att lägga till: Klicka på plustecknet under egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Fullständigare namnform
-* Fullständigare namnform (fullerFormOfName = 100 ‡q och 378)
+* Fullständigare namnform (fullerFormOfName = 100 #q och 378)
   <br/>Används för att ange fullständig namnform i de fall då fortkortning används i den auktoriserade namnformen.
   <br/>```Exempel:```
   * ```Efternamn: Smith```
@@ -239,7 +239,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
    <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
   
 #### Titel eller övrig beteckning 
-* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 ‡c)
+* Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
   <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet).
   <br/>```Exempel:```
   <br/>```påve```
@@ -248,13 +248,13 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 #### Andra attribut för person- och organisationsnamn 
 Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). 
 
-* Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 ‡c #2)
+* Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 #c #2)
   <br/>För att ange: Lägg till egenskapen Titel eller övrig beteckning som lokal entitet, lägg till den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
 
-* Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 ‡d #2)
+* Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 #d #2)
   <br/>För att ange: Lägg till egenskapen Titel/officiell rang för kunglig, adlig eller religiös person som lokal entitet, lägg till den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
   <br/>```Exempel:```
   <br/>```Påve```
@@ -263,20 +263,20 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
 <br/>Termen går inte att lägga till som länkad entitet i nuvarande version av katalogiseringsklienten utan läggs till som en lokal entitet.
 
 #### Ordningstal
-* Ordningstal (marc:numeration = 100 ‡b)
+* Ordningstal (marc:numeration = 100 #b)
   <br/>Används som särskiljande tillägg till den auktoriserade namnformen för kungligheter samt för påvar, biskopar och andra personer med religiösa yrken.
   <br/>```Exempel:```
   * ```XXII```
   * ```2```  
 
 #### Språk
-* Språk (associatedLanguage = 377 ‡a)
+* Språk (associatedLanguage = 377 #a)
   <br/>Det språk som personen använder, anges vid behov.
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och lägg till. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Organisatorisk tillhörighet
- * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+ * Organisatorisk tillhörighet (hasAffiliation = 373 #a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t.ex. organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länkas.
