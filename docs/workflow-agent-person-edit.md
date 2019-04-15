@@ -249,13 +249,13 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). 
 
 * Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 ‡c #2)
-  <br/>För att ange Titel eller övrig beteckning (368 ‡c #2) används den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
+  <br/>För att ange: Lägg till egenskapen Titel eller övrig beteckning som lokal entitet, lägg till den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
 
 * Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 ‡d #2)
-  <br/>För att ange Titel/officiell rang för kunglig, adlig eller religiös person (368 ‡d) används den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
+  <br/>För att ange: Lägg till egenskapen Titel/officiell rang för kunglig, adlig eller religiös person som lokal entitet, lägg till den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
   <br/>```Exempel:```
   <br/>```Påve```
   <br/>```Kung av Sverige```
