@@ -57,7 +57,7 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   
 ##### Funktion 
 
-* Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4, 110 ‡4, 700 ‡4, 710 ‡4)
+* Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4, 110 #4, 700 #4, 710 #4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka genom att klicka på plustecknet vid koden eller på koden. Vid behov länkas Funktion även när lokal entitet skapas.
 <br/>För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
 <br/>```Exempel:```
@@ -166,4 +166,3 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 * Möte som Ämne (Subject/agent/Meeting = 611 2/ )
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
-
