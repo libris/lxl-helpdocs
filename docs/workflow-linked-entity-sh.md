@@ -22,7 +22,7 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, se 
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Filtrera på den typ av ämnesord som ska länkas (Allmänt ämnesord / Kronologiskt ämnesord / Geografiskt ämnesord). 
-* Sök efter och lägg till aktuell term (kontrollera termlista, sao eller barn). Termen länkas då till verksbeskrivningen i Instans av Verk. 
+* Sök efter och lägg till aktuell term (kontrollera ämnesordssystem, sao eller barn). Termen länkas då till verksbeskrivningen i Instans av Verk. 
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
