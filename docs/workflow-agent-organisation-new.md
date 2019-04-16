@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 75
-date: 2019-02-07
+date: 2019-04-16
 tags:
 - under arbete
 - agenter
@@ -35,7 +35,7 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Konsulterad källa](#poststatus) | [Se även](#variant) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
 | [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Valbara egenskaper att lägga till i Agent**](#nationalitet) |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
 | [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
@@ -61,7 +61,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>```Exempel: Svenska```Ändras ej.
+ <br/>Förval: language/swe. Ändras ej
 
 #### Translitterering
 * Translitterering (marc:romanization = 008/07)
@@ -108,7 +108,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  
 #### Beskrivningsnivå 
  * Beskrivningsnivå (encodingLevel)
-  <br/>Ändras ej.
+  <br/>Förval: Fullständig. Ändras ej.
    
 
 ### Agent
@@ -151,35 +151,37 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
    * ```ALC```
    * ```Swedish Centre for Working Life```
-   <br/>För att lägga till namn: Klicka på plustecknet vid egenskapen Variant, och välj typ t ex Organisation.
+    <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
    
   ```Exempel på namnform i två led:```
   * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
   * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
-  <br/>För att ange namnform i två led: klicka på plustecknet vid egenskapen Variant, och välj typ t ex Organisation. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Organisation i rullmenyn för Skapa lokal entitet.
+  <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
+  <br/>För att lägga till Jurisdiktion i två led: klicka på plustecknet vid egenskapen Variant, och välj Jurisdiktion. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Jurisdiktion i rullmenyn för Skapa lokal entitet.
+
 
 #### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
-
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
+  
 #### Identifikator
 * Identifikator (identifiedBy = 024 #a #2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
- <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas med papperskorgen.
+ <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas.
   
 
 #### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-uk---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
   
-### Valbara egenskaper att lägga till i Agent
- <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av det runda plustecknet i verktygsmenyn.
+### Ytterligare egenskaper att lägga till vid behov
+ <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 #### Tid for grundande
 * Tid för grundande/Startdatum (establishDate = 046 #q)
@@ -194,22 +196,24 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Design```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
-För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Språk
 * Språk (associatedLanguage = 377 #a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
-  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ, sök efter och välj önskat språk. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Andra attribut for person- och organisationsnamn
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 #a #2)
   <br/> Används vid behov som särskiljande tillägg för att beskriva typ av organisation. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
   <br/>```Exempel: Herrgårdar sao```
-  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Typ av organisation etc. samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
+  <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Typ av organisation etc. samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod.
+  
+ <br/>Termen går inte att lägga till som länkad entitet i nuvarande version av katalogiseringsklienten utan läggs till som en lokal entitet.
 
 #### Organisatorisk tillhörighet
  * Organisatorisk tillhörighet (hasAffiliation = 373 #a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex Organisation. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länks.
