@@ -54,17 +54,17 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>LibrisID. Ändras ej.
 
 #### Skapad av
-* Skapad av (descriptionCreator = 040 ‡a)
+* Skapad av (descriptionCreator = 040 #a)
  <br/>Förval: Sigel för skapare av agenten. Ändras ej.
  <br/>```Exempel: library/S```
 
 #### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+* Katalogiseringsregler (descriptionConventions = 040 #e)
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
 #### Katalogiseringsspråk  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
  <br/>```Exempel: Svenska```Ändras ej.
  <br/>Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
@@ -143,7 +143,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 
 #### Konsulterad källa
-* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 ‡a) samt Uppgift från källa (citationNote = 670 ‡b)
+* Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
   <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel på obligatorisk källa:```
@@ -158,7 +158,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
 
 #### Katalogisatorens anmärkning
- * Katalogisatörens anmärkning (cataloguersNote = 667 ‡a)
+ * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
@@ -166,16 +166,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Agent
 
 #### Namn
-* Namn (name) (110 ‡a)
+* Namn (name) (110 #a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Sveriges släktforskarförbund```
 
 #### Tid för grundande  
-* Tid för grundande/Startdatum (establishDate = 046 ‡q)
+* Tid för grundande/Startdatum (establishDate = 046 #q)
   <br/>```Exempel: 1886```
 
 #### Variant
-* Variant (hasVariant = 410 ‡a ‡b)
+* Variant (hasVariant = 410 #a #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
 <br/>OBS! Det fungerar inte att göra Variant med namnformer i fler än två led i nuläget.
   <br/>```Exempel:```
@@ -197,25 +197,25 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 
   #### Administrativ historik
-* Administativ historik (has Historical Data = 678 ‡a)
+* Administativ historik (has Historical Data = 678 #a)
   <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
 #### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 ‡a)
+* Nationalitet/verksamhetsland (nationality = 043 #a)
   <br/>Nationalitet/verksamhetsland för organisationen. Vid behov kan denna ändras eller flera nationaliteter läggas till.
   <br/>```Exempel: e-sw---```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ vid sökning. Välj önskad nationalitet och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
  #### Verksamhetsområde
-* Verksamhetsområde (fieldOfActivity = 372 ‡a ‡2)
+* Verksamhetsområde (fieldOfActivity = 372 #a #2)
   <br/>Ange verksamhetsområde för en organisation vid behov.
   <br/>```Exempel: Släktforskning```
   <br/>Länka i första hand termen från en kontrollerad vokabulär som Svenska ämnesord. 
 För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ vid sökning. Välj önskad term och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Identifikator
-* Identifikator (identifiedBy = 024 ‡a ‡2)
+* Identifikator (identifiedBy = 024 #a #2)
   <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF.
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
 
@@ -223,15 +223,15 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
 ### Ytterligare egenskaper att lägga till vid behov
 
 #### Tid för upphörande
-* Tid för upphörande/Slutdatum (terminateDate = 046 ‡r)
+* Tid för upphörande/Slutdatum (terminateDate = 046 #r)
   <br/>```Exempel: 2003```
 
 #### Verksamhetens starttid
-* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 ‡s)
+* Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate, 046 #s)
   <br/>```Exempel: 1886```
 
 #### Verksamhetens sluttid    
-* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 ‡t)
+* Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate, 046 #t)
   <br/>```Exempel: 1999``` 
 
 #### Se även
@@ -241,20 +241,19 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och klicka på plustecknet. (Om organisationen inte finns behöver en ny post skapas som kan länkas). Spara och avsluta innan ny organisation skapas. Använd befintlig mall för Skapa ny: Agent - Organisation).
 
 #### Språk
-* Språk (associatedLanguage = 377 ‡a)
+* Språk (associatedLanguage = 377 #a)
   <br/>Ange språk som organisation använder vid behov.
   <br/>```Exempel: Engelska```
   <br/>Klicka på plustecknet vid egenskapen Språk. Välj Språk som typ vid sökning. Välj önskat språk och klicka på plustecknet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 #### Andra attribut for person- och organisationsnamn
-* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 ‡a ‡2)
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAttributes = 368 #a #2)
   <br/> Används vid behov som särskiljande tillägg för att beskriva typ av organisation. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord.
   <br/>```Exempel: Herrgårdar sao```
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Andra attribut för person- och organisationsnamn, klicka på Skapa lokal entitet. Klicka på plustecknet inom den tillagda lokala entiteten. Välj egenskaperna Typ av organisation etc. samt Kod för kontrollerad vokabulär i de fall termen hämtas från en kontrollerad vokabulär. Skriv in aktuell term och listkod. Länkas ej.
 
 #### Organisatorisk tillhörighet
- * Organisatorisk tillhörighet (hasAffiliation = 373 ‡a)
+ * Organisatorisk tillhörighet (hasAffiliation = 373 #a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte göras till sökbar länk.
-
