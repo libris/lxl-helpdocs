@@ -340,7 +340,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   Musik- och teaterbiblioteket rekommenderar enkel innehållsanmärkning för musiktryck.  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.
+  För en enkel innehållsanmärkning (505 #a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
@@ -540,37 +540,37 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
 * Huvudtitel (hasTitle/Title/mainTitle = 700 2/_ #a)  
    Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
    <br/>```Exempel:```
-      * ```La traviata```
-      * ```Symfoni```
+    * ```La traviata```
+    * ```Symfoni```
          
 * Delbeteckning (hasTitle/Title/mainTitle = 700 2/_ #n)  
     Ange numreringar för verket här, vid behov. Skriv in uppgiften.
     <br/>```Exempel:```
-      * ```nr 96, Hob. I:96```
-      * ```nr 3, op. 90```
+     * ```nr 96, Hob. I:96```
+     * ```nr 3, op. 90```
          
 * Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 700 2/_ #p)  
     Ange eventuell deltitel. Skriv in uppgiften.
     <br/>```Exempel:```
-      * ```Di Provenza il mar```
-      * ```Allegro```  
+     * ```Di Provenza il mar```
+     * ```Allegro```  
 
 * Använd Huvudtitel för hela den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version, Besättning och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
     <br/>```Exempel:```
-      * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
-      * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```  
+     * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
+     * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```  
 
 * Verk/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 700 2/_ #a)
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-    ```Exempel: Maier-Röntgen, Amanda, 1853-1894```  
+   ```Exempel: Maier-Röntgen, Amanda, 1853-1894```  
     
 * Verk/Tonart (700 2/_ #r) 
   Ange tonart. Skriv in uppgiften.  
    ```Exempel: fiss-moll```  
 
 * Verk/Version (700 2/_ #o)  
-    Ange eventuellt arrangemang. Skriv in uppgiften.  
-    ```Exempel: arr. röst, piano```  
+  Ange eventuellt arrangemang. Skriv in uppgiften.  
+  ```Exempel: arr. röst, piano```  
 
 * Verk/Besättning för framförande (700 2/_ #m)  
   Ange besättning. Skriv in uppgiften.
