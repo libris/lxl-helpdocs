@@ -123,25 +123,25 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   ```Exempel: prepared by Imogen Holst & Colin Matthews```  
 
 #### Utgivning  
- * Utgivning (publication)  
+* Utgivning (publication)  
    Välj typ från lista. För monografisk resurs, använd Primär utgivning.     
    I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
    En maskinell ändring av dessa poster kommer att ske på sikt.  
    Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.  
  
- ##### Utgivningsplats  
-  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
+##### Utgivningsplats  
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
     Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
     Skriv in uppgiften under Benämning. Klamra vid behov.  
     ```Exempel: [Wiesbaden]```  
     
 ##### Utgivningsland  
-  * Land (country = 008/15-17)  
+* Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
   
- ##### Utgivarnamn  
-  * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
+##### Utgivarnamn  
+* Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
     Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.       
     Skriv in uppgiften under Benämning.  
     ```Exempel: Breitkopf & Härtel```   
@@ -151,7 +151,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
     Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 ##### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
+* År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
     Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c (till 264 förutsatt att inte Datum är angivet). 
   ```Exempel: 2017```  
@@ -179,20 +179,20 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
 
 #### Tillverkning 
-   * Tillverkning (manufacture)  
+  * Tillverkning (manufacture)  
 
-  ##### Tillverkningsplats (Tillverkningsort) 
-   * Plats/Plats/Benämning (place/label = 264 -/3 #a)  
+##### Tillverkningsplats (Tillverkningsort) 
+  * Plats/Plats/Benämning (place/label = 264 -/3 #a)  
      Skriv in uppgiften.  
      ```Exempel: Falun```  
 
-  ##### Tillverkningsnamn  
-   * Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
+##### Tillverkningsnamn  
+  * Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
      Skriv in uppgiften.  
      ```Exempel: Scandbook```   
 
-  ##### Tillverkningstid   
-   * Datum (= Tillverkningstid) (date = 264 -/3 #c)  
+##### Tillverkningstid   
+  * Datum (= Tillverkningstid) (date = 264 -/3 #c)  
      Skriv in uppgiften. Klamra vid behov.
      <br/>```Exempel:```
      * ```2017```
