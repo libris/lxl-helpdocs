@@ -16,7 +16,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Med anledning av formatändring i version 1.8: Etitett för egenskapen ”Termlista” (inScheme) ändrad till ”Ingår i system”, etikett för typen "Termlista" (ConceptScheme) ändrad till "Konceptsystem", nya typen TopicScheme har etiketten "Ämnesordssystem". Ändringar påverkar hjälptexten Ämnesord som lokal entitet.
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
-* Uppdaterade uppgifter i hjälptext för Musiktryck:
+* Uppdaterade uppgifter i hjälptext för Musiktryck med anledning av att Ingående verk nu ska anges i Har del. Även tillagd information om byte av verkstyp:
 </br>https://libris.kb.se/katalogisering/help/workflow-notated-music
 
 2019-04-08
