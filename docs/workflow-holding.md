@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2019-02-14
+date: 2019-04-17
 tags:
 - under arbete
 - bestånd
@@ -57,41 +57,41 @@ Välj önskad nivå:
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
 I Bestånd finns följande fält färdiga:
-* Hyllplacering (Avdelning,samling) (852 ‡c)
+* Hyllplacering (Avdelning,samling) (852 #c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
   ```Exempel: Institution 140```
   
-* Hyllkod (852 ‡h)
+* Hyllkod (852 #h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
   ```Exempel: 158.1```
 
-* Hyllsignum: Uppställningsord (852 ‡l)  ```Exempel: AND```
+* Hyllsignum: Uppställningsord (852 #l)  ```Exempel: AND```
 
-* Hyllsignum: Löpnummer (852 ‡j)  ```Exempel: 2694```
+* Hyllsignum: Löpnummer (852 #j)  ```Exempel: 2694```
 
-* Katalogisatörens anmärkning (852 ‡x)
+* Katalogisatörens anmärkning (852 #x)
  
 Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till egenskaper under Bestånd vid Har Komponent. Där kan du söka upp följande:
-* Tidigare hylluppställning (852 ‡d)
+* Tidigare hylluppställning (852 #d)
 
-* Precisering av hyllplacering (852 ‡g)
+* Precisering av hyllplacering (852 #g)
 
-* Exemplarstatus (852 ‡i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+* Exemplarstatus (852 ‡#) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
 <br/>
 
 ![Exemplarstatus](exemplarstatus.png)
 
 
-* Prefix för lokalsignum (852 ‡k)
-* Suffix för lokalsignum (852 ‡m)
-* Unik exemplarbeteckning (streckkod) (852 ‡p)
-* Exemplarets fysiska tillstånd (852 ‡q)
-* Exemplarnummer (852 ‡t)
-* URI (852 ‡u)
-* Anmärkning (hasNote) (852 ‡z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
+* Prefix för lokalsignum (852 #k)
+* Suffix för lokalsignum (852 #m)
+* Unik exemplarbeteckning (streckkod) (852 #p)
+* Exemplarets fysiska tillstånd (852 #q)
+* Exemplarnummer (852 #t)
+* URI (852 #u)
+* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
 
-* Del av materialet som avses (852 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+* Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -99,14 +99,14 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 
 <br/>
 
-* Underordnad institution/enhet (852 ‡9)
+* Underordnad institution/enhet (852 #9)
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
  
 
 
 ### Anmarkningar
-* Anmärkning/hasNote (500 ‡a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
+* Anmärkning/hasNote (500 #a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
 
 * Villkor för användning och åtkomst (506)
 
@@ -115,36 +115,36 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 * Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
 
 
-  * Benämning (506 ‡a)
-  * Tillståndsgivare (506 ‡b)
-  * Fysiska omständigheter (506 ‡c)
-  * Godkända användare (506 ‡d)
-  * Laglig grund för restriktion (506 ‡e)
-  * Standardiserad terminologi för åtkomstbegränsning (506 ‡f)
-  * URI (506 ‡u)
-  *  Del av materialet som avses (506 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Benämning (506 #a)
+  * Tillståndsgivare (506 #b)
+  * Fysiska omständigheter (506 #c)
+  * Godkända användare (506 #d)
+  * Laglig grund för restriktion (506 #e)
+  * Standardiserad terminologi för åtkomstbegränsning (506 #f)
+  * URI (506 #u)
+  *  Del av materialet som avses (506 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
  <br/>
 
 * Sammanfattning av innehåll (520)
 * Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
-  * Benämning (520 ‡a)
+  * Benämning (520 #a)
 * Lägg till egenskaper under Sammanfattning
-  * Utförligare anmärkningstext (520 ‡b)
-  * Instans som åsatt anmärkning/etikett (520 ‡c)
-  * URI (520 ‡u)
+  * Utförligare anmärkningstext (520 #b)
+  * Instans som åsatt anmärkning/etikett (520 #c)
+  * URI (520 #u)
 <br/>
 
 * Förvärvsuppgifter (541)
 * Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. 
-  * Förvärvskälla (541 ‡a)
-  * Adress (541 ‡b)
-  * Förvärvssättt (541 ‡c)
-  * Förvärvsdataum (541 ‡d)
-  * Accessionsnummer (541 ‡e)
-  * Ägare (541 ‡f)
-  * Anskaffningspris (541 ‡h)
-  * Del av materialet som avses (541 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Förvärvskälla (541 #a)
+  * Adress (541 #b)
+  * Förvärvssättt (541 #c)
+  * Förvärvsdataum (541 #d)
+  * Accessionsnummer (541 #e)
+  * Ägare (541 #f)
+  * Anskaffningspris (541 #h)
+  * Del av materialet som avses (541 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
@@ -152,25 +152,25 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 * Ägarhistorik (561 ‡a)
 
 * Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
-  * Igenkänningstecken (562 ‡a) 
-  * Identifiering av exemplar (562 ‡b)
-  * Identifiering av version (562 ‡c)
-  * Presentationsformat (562 ‡d)
-  * Antal exemplar (562 ‡e)
-  * Del av materialet som avses (562 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Igenkänningstecken (562 #a) 
+  * Identifiering av exemplar (562 #b)
+  * Identifiering av version (562 #c)
+  * Presentationsformat (562 #d)
+  * Antal exemplar (562 #e)
+  * Del av materialet som avses (562 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 <br/>
 
 * Har lokal anmärkning: Bokband (563)
-  * Benämning (563 ‡a)
+  * Benämning (563 #a)
   
 <br/>
 
 * Har lokal anmärkning: Åtgärd (583)
 * Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
-  * Benämning (583 ‡a)
-  * Del av materialet som avses (563 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Benämning (583 #a)
+  * Del av materialet som avses (563 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
     
 
 
@@ -182,8 +182,8 @@ se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workf
 
 
 * Lokala ämnesord/rubriker (övriga) (698)
-  * Kod (698 ‡a)
-  * Benämning (698 ‡b)
+  * Kod (698 #a)
+  * Benämning (698 #b)
   
  
   
@@ -209,56 +209,56 @@ Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
 
 * Relaterad beskrivning eller innehåll /Lägg till entitet/Skapa lokal entitet/Dokument (856 4/2)
-Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Egenskapen Del av materialet som beskrivs ($3) kan användas för att beskriva relationen.
+Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Egenskapen Del av materialet som beskrivs (#3) kan användas för att beskriva relationen.
 
 Egenskaper att lägga till:
-  * URI (856 ‡u)
-  * Katalogisatörens anmärkning (856 ‡x)
-  * Länktext (856 ‡y)
-  * Offentlig anmärkning (856 ‡z)
-  * Del av materialet som avses (856 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * URI (856 #u)
+  * Katalogisatörens anmärkning (856 #x)
+  * Länktext (856 #y)
+  * Offentlig anmärkning (856 #z)
+  * Del av materialet som avses (856 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
 
 
 ### Oformaterad bestandsuppgift
-* Beståndsuppgift (866 ‡a)
-* Katalogisatörens anmärkning (866 ‡x)
-* Offentlig anmärkning (866 ‡z)
-* Underordnad institution/enhet (866 ‡9)
+* Beståndsuppgift (866 #a)
+* Katalogisatörens anmärkning (866 #x)
+* Offentlig anmärkning (866 #z)
+* Underordnad institution/enhet (866 #9)
 
 ### Exemplarinformation 
 (876-877)
 * Har exemplarinformation - huvudpublikation etc. (876)
-  * Internt exemplarnummer (876 ‡a)
-  * Ogiltigt/makulerat intern exemplarnummer (876 ‡b)
-  * Förvärvspris (876 ‡c)
-  * Förvärvsdatum (876 ‡d)
-  * Förvärvskälla (876 ‡e)
-  * Begränsningar för användning (876 ‡h)
-  * Tillfällig placering (876 ‡l)
-  * Unik exemplarbeteckning (streckkod) (876 ‡p)
-  * Ogiltig/makulerad intern exemplarbeteckning (876 ‡r)
-  * Exemplarnummer (876 ‡t)
-  * Katalogisatörens anmärkning (876 ‡x)
-  * Offentlig anmärkning (876 ‡z)
-  * Del av materialet som avses (876 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-  * Underordnad institution/enhet (876 ‡9)
+  * Internt exemplarnummer (876 #a)
+  * Ogiltigt/makulerat intern exemplarnummer (876 #b)
+  * Förvärvspris (876 #c)
+  * Förvärvsdatum (876 #d)
+  * Förvärvskälla (876 #e)
+  * Begränsningar för användning (876 #h)
+  * Tillfällig placering (876 #l)
+  * Unik exemplarbeteckning (streckkod) (876 #p)
+  * Ogiltig/makulerad intern exemplarbeteckning (876 #r)
+  * Exemplarnummer (876 #t)
+  * Katalogisatörens anmärkning (876 #x)
+  * Offentlig anmärkning (876 #z)
+  * Del av materialet som avses (876 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Underordnad institution/enhet (876 #9)
 
 * Har exemplarinformation - bihang etc. (877)
-  * Internt exemplarnummer (877 ‡a)
-  * Ogiltigt/makulerat intern exemplarnummer (877 ‡b)
-  * Förvärvspris (877 ‡c)
-  * Förvärvsdatum (877 ‡d)
-  * Förvärvskälla (877 ‡e)
-  * Begränsningar för användning (use) (877 ‡h)
-  * Tillfällig placering (877 ‡l)
-  * Unik exemplarbeteckning (streckkod) (877 ‡p)
-  * Ogiltig/makulerad intern exemplarbeteckning (877 ‡r)
-  * Exemplarnummer (876 ‡t)
-  * Katalogisatörens anmärkning (876 ‡x)
-  * Offentlig anmärkning (877 ‡z)
-  * Del av materialet som avses (877 ‡3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-  * Underordnad institution/enhet (877 ‡9)
+  * Internt exemplarnummer (877 #a)
+  * Ogiltigt/makulerat intern exemplarnummer (877 #b)
+  * Förvärvspris (877 #c)
+  * Förvärvsdatum (877 #d)
+  * Förvärvskälla (877 #e)
+  * Begränsningar för användning (use) (877 #h)
+  * Tillfällig placering (877 #l)
+  * Unik exemplarbeteckning (streckkod) (877 #p)
+  * Ogiltig/makulerad intern exemplarbeteckning (877 #r)
+  * Exemplarnummer (876 #t)
+  * Katalogisatörens anmärkning (876 #x)
+  * Offentlig anmärkning (877 #z)
+  * Del av materialet som avses (877 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Underordnad institution/enhet (877 #9)
 
 
 ### Lokalt definierade bestandsfalt
