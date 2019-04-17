@@ -153,7 +153,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 ##### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c (till 264 förutsatt att inte Datum är angivet). 
+    Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet). 
   ```Exempel: 2017```  
 
   Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
@@ -170,7 +170,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   För att ange ett år utan klamrar eller andra tecken, använd År.  
   
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
+  Använd Startår och Slutår (inte År). För att lägga till Startår och Slutår, klicka på plustecknet vid Primär utgivning (Lägg till egenskaper under: Primär utgivning) och välj Startår respektive Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
     <br/>```Exempel:```
     * ```Startår: 1753```
     * ```Slutår: 1756```
@@ -345,7 +345,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
 
-  * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
+  * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
   För en utökad innehållsanmärkning med titlar och upphovsuppgifter.  
   Klicka på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
   För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
@@ -362,7 +362,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
   
   Om andra delfält i 776 önskas, skapa istället Instans som lokal entitet och lägg till önskade egenskaper.  
-  Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", skapa Instans som lokal entitet och lägg till Typanmärkning (= (776 ‡i) samt Har titel/Titel och Identifikator/ISBN/Värde. Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera det i befintliga beskrivningar.  
+  Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", skapa Instans som lokal entitet och lägg till Typanmärkning (= (776 #i) samt Har titel/Titel och Identifikator/ISBN/Värde. Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera det i befintliga beskrivningar.  
 
 ### Verk   
 
@@ -441,7 +441,7 @@ Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper und
 *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 #n)  
 Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).
 *	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 #l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR>
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 #l.</BR>
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
@@ -464,7 +464,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
   ```Exempel: Boye, Karin, 1900-1941```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
+* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.  
   För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
   <br/>```Exempel:```
