@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-04-08
+date: 2019-04-17
 tags:
 - under arbete
 - monografi
@@ -420,10 +420,10 @@ Innehåll (008/24-27): Avhandling
 * Klassifikation/Klassifikation/Kod  
 (classification/Classification/code = 084 0/4 #a)
 
-* Klassifikation/Termlista/Termlista/Kod  
+* Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)
 
-* Klassifikation/Termlista/Termlista/Version  
+* Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
 #### Amne  
