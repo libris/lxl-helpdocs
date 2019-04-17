@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-04-08
+date: 2019-04-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-04-17
+* Med anledning av formatändring i version 1.8: Etitett för egenskapen ”Termlista” (inScheme) ändrad till ”Ingår i system”, etikett för typen "Termlista" (ConceptScheme) ändrad till "Konceptsystem", nya typen TopicScheme har etiketten "Ämnesordssystem". Ändringar påverkar hjälptexten Ämnesord som lokal entitet.
+</br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh
 
 2019-04-08
 * Uppdaterade uppgifter i hjälptexten för Musik-CD. Uppdateringar gäller egenskapen Bärartyp samt gällande Relationer till ingående verk och andra verk.
