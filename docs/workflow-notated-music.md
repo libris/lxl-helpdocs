@@ -367,7 +367,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 ### Verk   
 
 #### Instans av Verk
-  * Instans av Verk/Noterad musik (instanceOf/Work/NotatedMusic)  
+* Instans av Verk/Noterad musik (instanceOf/Work/NotatedMusic)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Noterad musik.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
@@ -477,7 +477,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Länka till entitet.
   <br/>```Exempel:```
   * ```language/zxx```
-  * ```svenska (swe)```  
+  * ```svenska (swe)```
 För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
 ##### Översättning  
@@ -495,7 +495,7 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
   <br/>```Exempel:```
    * ```Piano```
    * ```Blandad kör```
-   * ```Menuetter```  
+   * ```Menuetter```
       
 Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
