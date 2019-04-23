@@ -478,7 +478,8 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   <br/>```Exempel:```
   * ```language/zxx```
   * ```svenska (swe)```
-För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
+
+<br/>För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
 ##### Översättning  
 För en översättning, se [Generell beskrivning - Verk](https://libris.kb.se/katalogisering/help/workflow-work#sprak): Språk/Översättning.
