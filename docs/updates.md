@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-04-25
-* Uppdaterad instruktion under Katalogregle, hjälptexten för Adminmetadata:
+* Uppdaterad instruktion under Katalogregler, hjälptexten för Adminmetadata:
 </br>https://libris.kb.se/katalogisering/help/workflow-adminmetadata
 
 2019-04-17
