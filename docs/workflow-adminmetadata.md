@@ -100,10 +100,10 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Skapa lokal entitet. Välj Katalogiseringsregler.  
   
-  ![Katalogiseringsregler](katregler.png)  
+![Katalogiseringsregler](katregler.png)  
   
- Skriv in "rda".  
-  ![Katalogiseringsregler](katregler2.png)  
+Skriv in "rda".  
+![Katalogiseringsregler](katregler2.png)  
   
  
 ### Beskrivningsniva  
