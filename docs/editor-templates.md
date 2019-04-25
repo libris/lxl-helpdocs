@@ -6,7 +6,7 @@ tags:
 - redigering
 - editor
 - mallar
-order: 14
+order: 16
 ---
 
 ## Skapa ny från mall
