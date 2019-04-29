@@ -14,8 +14,8 @@ Mallen är under utveckling och uppdateras vid behov.
 
 ## Innehållsförteckning:
 
-[Rubriker och textformatering](#rubriker-och-textformatering)  
-<br/>[Exempel](#exempel)  
+[Rubriker och textformatering](#rubriker-och-textformatering)
+<br/>[Exempel](#exempel)
 <br/>[Terminologi](#terminologi)
 <br/>[Länkar](#länkar)   
 
