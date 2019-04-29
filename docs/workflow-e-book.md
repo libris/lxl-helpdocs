@@ -1,3 +1,15 @@
+---
+section: Materialtyper
+title: E-bok
+order: 42
+date: 2019-04-29
+tags:
+- under arbete
+- e-bok
+- e-bokskatalogisering
+---
+
+
 ## E-bok
 
 Beskrivningen av en e-bok innehåller följande tre delar:  
