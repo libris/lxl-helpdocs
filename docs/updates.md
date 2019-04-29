@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-04-25
+date: 2019-04-29
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-04-29
+* Ny hjälptext för katalogisering av e-böcker.
+</br>https://libris.kb.se/katalogisering/help/workflow-e-book
 
 2019-04-25
 * Uppdaterad instruktion under Katalogregler, hjälptexten för Adminmetadata:
