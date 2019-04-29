@@ -15,9 +15,9 @@ Mallen är under utveckling och uppdateras vid behov.
 ## Innehållsförteckning:
 
 [Rubriker och textformatering](#rubriker-och-textformatering)  
-[Exempel](#exempel)  
-[Terminologi](#terminologi)
-[Länkar](#länkar)   
+<br/>[Exempel](#exempel)  
+<br/>[Terminologi](#terminologi)
+<br/>[Länkar](#länkar)   
 
 
 ### Innehållsförteckning tabell (Carins exempel):
