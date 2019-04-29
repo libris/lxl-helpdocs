@@ -453,4 +453,4 @@ Innehåll (008/24-27): Avhandling
 
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
-(dissertation/Dissertation/label = 502 #a)  
+(dissertation/Dissertation/label = 502 #a).  
