@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 24
-date: 2019-02-06
+date: 2019-04-29
 tags:
 - editor
 - under arbete
@@ -19,21 +19,18 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 
 
-
 [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
 
 [Obestämd relation till verk](#obestamd-relation-till-verk)
 
 [Ingående verk](#ingaende-verk)
 
-[Relation till ett verk av en författare som ämnesord](#relation-till-ett-verk-av-en-forfattare-som-amnesord)
+[Verk som ämne](#verk-som-amne)
 
-[Fler delfält](#fler-delfalt)
-
-    
+   
 
 ### Relation till verk uttryckt genom text 
-Relation till ett verk av en författare (700 1/_ ‡i a  ‡d ǂt)
+Relation till ett verk av en författare (700 1/_ #i #a #d #t)
 <br/>
 Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet, men det är ännu inte möjligt att länka till dessa i nya Libris. De kontrollerade relationsbeteckningarna tillämpas tills vidare restriktivt, eftersom det för närvarande saknas officiella svenska översättningar av RDA-termerna.
 
@@ -57,7 +54,7 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
  <br/>
 
 ### Obestamd relation till verk 
-Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 ‡a)
+Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 #a)
 
 
 ![Obestämd relation till ett verk](Obestrelationverk.png) 
@@ -76,7 +73,7 @@ Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, g�
  <br/>
  
 ### Ingaende verk
-För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 ‡a ǂd ǂt)
+För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 #a #d #t)
 
 
 ![Ingaende verk](Ingaendeverk.png) 
@@ -89,30 +86,29 @@ För att skapa analytiska biuppslag på verk som ingår i den katalogiserade ins
  
 
 <br/> 
+## Verk som amne
+I de fall det finns en auktoriserad beskrivning av ett verk går den att länka till. De auktoriserade beskrivningar för verk som finns i Libris är i många fall ganska tunna men bör trots det användas för länkning till för att undvika att skapa lokala entiteter i onödan.
 
-### Relation till ett verk av en forfattare som amnesord
-För att lägga till en författares verk som ämne (600 1/_ ǂa ǂd ǂt)
+Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast då det inte finns auktoriserad beskrivning att länka till. Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [information i Librisbloggen](http://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).
 
-![Relation till verk av en författare som ämnesord](Relationverkauthsubj.png)
+### Länka till verk
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
+* Filtrera på typen Verk.
+* Sök efter och lägg till aktuellt verk. Det auktoriserade verket länkas då till verksbeskrivningen i Instans av Verk.
 
-* Öppna sidorutan Lägg till entitet inom egenskapen Ämne
-* Välj Skapa lokalt entitet/Verk
-  * Lägg till egenskaper under Verk/Har titel/Huvudtitel
-  * Skriv in den föredragna titeln
-  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
-  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, Välj Person och fyll i uppgifterna
-    
-###  Fler delfalt
-För att lägga till fler delfält under Verk/Har titel/Titel/Lägg till egenskaper under: Titel/:
-  * Specificering i form av grupptitel (700 ‡k)
-  * Delbeteckning (700 ‡n)
-  * Deltitel (700 ‡p)
-  
-För att lägga till språk för det relaterade verket (700 ‡l):
-* Lägg till egenskaper under Verk/Språk
-  * Lägg till Språk/Skapa lokal entitet
-  * Lägg till egenskaper under: Språk/Benämning
-  * Skriv in språket i klartext 
+Exempel:
+![Länkat verk som ämne](LankatVerkAmne.png)
 
-  
- 
+Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/- #a #d #t) och anonyma verk (630 -/4 #a).
+</br>Flera verk kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
+
+### Verk som lokal entitet
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
+* Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet.
+* Öppna sidorutan Lägg till egenskaper inom den tillagda typen Verk. Sök efter och lägg till egenskaperna Har titel och Medverkan och funktion.
+* Välj Titel i rullgardinsmenyn och skriv in den föredragna titeln i rutan för Huvudtitel (Övrig titelinformation raderas).
+* Välj Primär medverkan i rullgardinsmenyn och sök efter och länka till auktoriserad namnform. (Om auktoriserad namnform saknas: Välj typen Person under Skapa lokal entitet och fyll i uppgifterna).
+* Öppna sidorutan Lägg till funktion och länka till aktuell funktion.
+
+Exempel:
+![Verk som lokal entitet som ämne](VerkLokalEntitetAmne.png)
