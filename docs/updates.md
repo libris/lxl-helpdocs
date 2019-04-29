@@ -13,6 +13,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-04-29
+* Ny hjälptext: Checklista för postimport från Andra källor:
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 * Ny hjälptext för katalogisering av e-böcker.
 </br>https://libris.kb.se/katalogisering/help/workflow-e-book
 
