@@ -31,7 +31,7 @@ Förstasidan redigeras i filen `index.md`.
     ---
     section: Sök
     title: Träfflista
-    order: 1
+    order: 1 
     date: 2018-01-01
     tags:
     - search
