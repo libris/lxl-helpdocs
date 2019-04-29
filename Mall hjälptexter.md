@@ -84,7 +84,7 @@ Teckenuppsättningen < br / > (ihopskrivet) används för radbrytning, vid behov
 ## Exempel
 
 * Namnform
-  Enkelt eller sammansatt släktnamn/efternamn. Föredragen namnform som tillsammans med förnamn utgör den auktoriserade namnformen (förklarande brödtext innan exemplet).
+  Förklarande brödtext innan exemplet. Förklarande brödtext innan exemplet. Förklarande brödtext innan exemplet. Förklarande brödtext innan exemplet.
   <br/>Ett exempel skrivs på samma rad:
   <br/>```Exempel: Lagerlöf```
   
@@ -101,6 +101,8 @@ Teckenuppsättningen < br / > (ihopskrivet) används för radbrytning, vid behov
 * **Sidorutan** (i version 1.1.0 en pop up) ska benämnas så - sidorutan. Använd föredragsvis sidorutans rubrik (Länka entitet ; Lägg till entitet ; Lägg till egenskap under) eller beskrivning för att förtydliga vilken sidoruta som avses.
 
 * **Egenskaper, klasser** Sträva efter att använda BIBFRAME-terminologin egenskaper och klasser i stället för fält etc. Se [BIBFRAME svensk terminologi](https://libris.kb.se/katalogisering/help/terminology-bibframe-swedish) för definitioner.
+
+* Använd tecknet # för delfält i MARC21.
 
 ## Länkar
 
