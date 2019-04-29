@@ -1,118 +1,269 @@
 ---
-section: Hjälptexter katalogisering
-title: Relationer till agenter, delar och verk
-order: 34
-date: 2019-04-25
+section: Hjälptexter bestånd
+title: Beståndsregistrering
+order: 136
+date: 2019-04-17
 tags:
-- editor
 - under arbete
----
+- bestånd
+- beståndsregistrering
+--- 
 
-## Relationer till delar och verk 
-(7XX)
+# Beståndsregistrering
 
-700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
+Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 ‡b)
 
-Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter. [För personer](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) Se även [hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
 
-*I de första versionerna av nya Libris bör man inte länka till eller skapa nya verk, det är under utveckling.*
+De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
+
+Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad som motsvarande fält i marc. 
+
+Plustecken intill det som valts väljer man det som motsvarar delfält.
+
+### Innehåll   
+
+| [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
+| -----------  |  ----------- |
+| [Adminmetadata](#adminmetadata) | [Har komponent](#har-komponent) |
+| | [Anmärkningar](#anmarkningar) |
+| | [Lokala ämnesord och klassifikation](#lokala-amnesord-och-klassifikation) |
+| | [Agenter](#agenter)  |
+| | [Elektronisk adress](#elektronisk-adress) |
+| | [Oformaterad beståndsuppgift](#oformaterad-bestandsuppgift) |
+| | [Exemplarinformation](#exemplarinformation) |
+| | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
 
+### Adminmetadata
+För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
+* Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
+  * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
+  * Monografisk resurs (000 [6] x)
+  * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
+  
+* Beskrivningsnivå (000 [17])
+Välj önskad nivå:
+  * Grundnivå (endast 852). Normalnivå för monografier
+  * 3	Nivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
+  * 4	Nivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
+  * 5	Nivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
+  * z	Annan nivå
 
+* Katalogisatörens anmärkning (599 ‡a)
 
-[Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
+### Har komponent
+(852)
+OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
-[Obestämd relation till verk](#obestämd-relation-till-verk)
+I Bestånd finns följande fält färdiga:
+* Hyllplacering (Avdelning,samling) (852 #c)
+Om ytterligare information om placering utöver Hyllkod behöver läggas till.
+  ```Exempel: Institution 140```
+  
+* Hyllkod (852 #h)
+Här lägger du uppställning efter klassifikation eller annan hyllkod
+  ```Exempel: 158.1```
 
-[Ingående verk](#Ingående-verk)
+* Hyllsignum: Uppställningsord (852 #l)  ```Exempel: AND```
 
-[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
+* Hyllsignum: Löpnummer (852 #j)  ```Exempel: 2694```
 
-[Fler delfält](#Fler-delfält)
+* Katalogisatörens anmärkning (852 #x)
+ 
+Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till egenskaper under Bestånd vid Har Komponent. Där kan du söka upp följande:
+* Tidigare hylluppställning (852 #d)
 
-    
+* Precisering av hyllplacering (852 #g)
 
-### Relation till verk uttryckt genom text 
-Relation till ett verk av en författare (700 1/_ #i a  #d #t)
+* Exemplarstatus (852 ‡#) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+
 <br/>
-Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet, men det är ännu inte möjligt att länka till dessa i nya Libris. De kontrollerade relationsbeteckningarna tillämpas tills vidare restriktivt, eftersom det för närvarande saknas officiella svenska översättningar av RDA-termerna.
 
-För att uttrycka relationen till ett verk som har ett samband med (men inte ingår i) den katalogiserade instansen:
-
-![Relation till ett verk av en författare](Relationverkauth.png) 
-
-* Öppna sidorutan Lägg till egenskaper under: Text
-* Välj egenskapen Relation (Relationship)
-* Välj typ Relation från rullgardinsmenyn
-* Öppna sidorutan Lägg till egenskaper under: Relation och välj Entitet
-  * Lägg till Entitet/Skapa lokal entitet/Verk
-  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titeln
-  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
-  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns Skapa lokal entitet, välj Person och fyll i uppgifterna
-* Öppna sidorutan Lägg till egenskaper under: Relation och välj Relation
-  * Lägg till Relation/Skapa lokal entitet
-  * Lägg till egenskaper under: Relation och välj Benämning
-  * Skriv in uppgiften. ```Exempel: Parafraserar```
-
- <br/>
-
-### Obestämd relation till verk 
-Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 #a)
+![Exemplarstatus](exemplarstatus.png)
 
 
-![Obestämd relation till ett verk](Obestrelationverk.png) 
+* Prefix för lokalsignum (852 #k)
+* Suffix för lokalsignum (852 #m)
+* Unik exemplarbeteckning (streckkod) (852 #p)
+* Exemplarets fysiska tillstånd (852 #q)
+* Exemplarnummer (852 #t)
+* URI (852 #u)
+* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
 
-* Öppna sidorutan Lägg till egenskaper under: Text
-* Välj egenskapen Relation (relationship)
-* Välj typ Relation från rullgardinsmenyn
-* Öppna sidorutan Lägg till egenskaper under: Relation och välj Entitet
-* Lägg till Entitet/Skapa lokal entitet/Verk
-  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titeln
-  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
-  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns Skapa lokal entitet, välj Person och fyll i uppgifterna
-* Lägg till en anmärkning (Lägg till egenskaper under: Instans/Anmärkning (hasNote)/Anmärkning/Benämning) och skriv in uppgiften
-<br/>```Exempel:Bygger på förf:s diss. med titeln: En sund själ i en sund kropp : hälsopolitik i Stockholms folkskolor 1880-1930```
+* Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
- <br/>
- 
-### Ingående verk
-För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 #a #d #t)
+<br/>
 
+![Del av materialet som avses](delavmaterial.png)
 
-![Ingaende verk](Ingaendeverk.png) 
-* Öppna sidorutan Lägg till egenskaper under Text:
-* Välj egenskapen Har del (hasPart)
-* Lägg till entitet/Skapa Lokal entitet/Verk
-  * Lägg till egenskaper under Verk/Har titel/Titel/Huvudtitel och skriv in titlen
-  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
-  * Lägg till entitet och länka till autkoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, välj Person och fyll i uppgifterna
+<br/>
+
+* Underordnad institution/enhet (852 #9)
+
+Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
  
 
-<br/> 
 
-### Relation till ett verk av en författare som ämnesord
-För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
+### Anmarkningar
+* Anmärkning/hasNote (500 #a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
 
-![Relation till verk av en författare som ämnesord](Relationverkauthsubj.png)
+* Villkor för användning och åtkomst (506)
 
-* Öppna sidorutan Lägg till entitet inom egenskapen Ämne
-* Välj Skapa lokalt entitet/Verk
-  * Lägg till egenskaper under Verk/Har titel/Huvudtitel
-  * Skriv in den föredragna titeln
-  * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
-  * Lägg till entitet och länka till auktoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, Välj Person och fyll i uppgifterna
+![Villkor för anvandning](Villkoranvbenamn.png)
+
+* Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
+
+
+  * Benämning (506 #a)
+  * Tillståndsgivare (506 #b)
+  * Fysiska omständigheter (506 #c)
+  * Godkända användare (506 #d)
+  * Laglig grund för restriktion (506 #e)
+  * Standardiserad terminologi för åtkomstbegränsning (506 #f)
+  * URI (506 #u)
+  *  Del av materialet som avses (506 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+ <br/>
+
+* Sammanfattning av innehåll (520)
+* Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
+  * Benämning (520 #a)
+* Lägg till egenskaper under Sammanfattning
+  * Utförligare anmärkningstext (520 #b)
+  * Instans som åsatt anmärkning/etikett (520 #c)
+  * URI (520 #u)
+<br/>
+
+* Förvärvsuppgifter (541)
+* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
+  * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. 
+  * Förvärvskälla (541 #a)
+  * Adress (541 #b)
+  * Förvärvssättt (541 #c)
+  * Förvärvsdataum (541 #d)
+  * Accessionsnummer (541 #e)
+  * Ägare (541 #f)
+  * Anskaffningspris (541 #h)
+  * Del av materialet som avses (541 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+
+<br/>
+
+
+* Ägarhistorik (561 ‡a)
+
+* Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
+  * Igenkänningstecken (562 #a) 
+  * Identifiering av exemplar (562 #b)
+  * Identifiering av version (562 #c)
+  * Presentationsformat (562 #d)
+  * Antal exemplar (562 #e)
+  * Del av materialet som avses (562 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+
+<br/>
+
+* Har lokal anmärkning: Bokband (563)
+  * Benämning (563 #a)
+  
+<br/>
+
+* Har lokal anmärkning: Åtgärd (583)
+* Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
+  * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
+  * Benämning (583 #a)
+  * Del av materialet som avses (563 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
     
-###  Fler delfält
-För att lägga till fler delfält under Verk/Har titel/Titel/Lägg till egenskaper under: Titel/:
-  * Specificering i form av grupptitel (700 #k)
-  * Delbeteckning (700 #n)
-  * Deltitel (700 #p)
-  
-För att lägga till språk för det relaterade verket (700 #l):
-* Lägg till egenskaper under Verk/Språk
-  * Lägg till Språk/Skapa lokal entitet
-  * Lägg till egenskaper under: Språk/Benämning
-  * Skriv in språket i klartext 
 
+
+
+### Lokala amnesord och klassifikation
+Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
+* För Ämnesord
+se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+
+
+* Lokala ämnesord/rubriker (övriga) (698)
+  * Kod (698 #a)
+  * Benämning (698 #b)
   
  
+  
+
+* För Klassifikation
+se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
+
+
+  
+
+### Agenter
+Här anges agenter som hör till bestånd eller exemplarbeteckning.
+Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+
+<br/>
+
+### Elektronisk adress
+* Tillhörande media /Lägg tillMediaobjekt/Skapa lokal entitet/URI (856 4/0)
+Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
+
+* Annan relaterad resurs /Lägg till Elektronisk/Skapa lokal entitet (856 4/1)
+Länk till elektronisk resurs av en icke elektronisk bibliografisk resurs som beskrivits
+
+* Relaterad beskrivning eller innehåll /Lägg till entitet/Skapa lokal entitet/Dokument (856 4/2)
+Länk till relaterad resurs till den bibliografiska resursen, men som inte är en annan resurs. Egenskapen Del av materialet som beskrivs (#3) kan användas för att beskriva relationen.
+
+Egenskaper att lägga till:
+  * URI (856 #u)
+  * Katalogisatörens anmärkning (856 #x)
+  * Länktext (856 #y)
+  * Offentlig anmärkning (856 #z)
+  * Del av materialet som avses (856 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+
+
+
+### Oformaterad bestandsuppgift
+* Beståndsuppgift (866 #a)
+* Katalogisatörens anmärkning (866 #x)
+* Offentlig anmärkning (866 #z)
+* Underordnad institution/enhet (866 #9)
+
+### Exemplarinformation 
+(876-877)
+* Har exemplarinformation - huvudpublikation etc. (876)
+  * Internt exemplarnummer (876 #a)
+  * Ogiltigt/makulerat intern exemplarnummer (876 #b)
+  * Förvärvspris (876 #c)
+  * Förvärvsdatum (876 #d)
+  * Förvärvskälla (876 #e)
+  * Begränsningar för användning (876 #h)
+  * Tillfällig placering (876 #l)
+  * Unik exemplarbeteckning (streckkod) (876 #p)
+  * Ogiltig/makulerad intern exemplarbeteckning (876 #r)
+  * Exemplarnummer (876 #t)
+  * Katalogisatörens anmärkning (876 #x)
+  * Offentlig anmärkning (876 #z)
+  * Del av materialet som avses (876 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Underordnad institution/enhet (876 #9)
+
+* Har exemplarinformation - bihang etc. (877)
+  * Internt exemplarnummer (877 #a)
+  * Ogiltigt/makulerat intern exemplarnummer (877 #b)
+  * Förvärvspris (877 #c)
+  * Förvärvsdatum (877 #d)
+  * Förvärvskälla (877 #e)
+  * Begränsningar för användning (use) (877 #h)
+  * Tillfällig placering (877 #l)
+  * Unik exemplarbeteckning (streckkod) (877 #p)
+  * Ogiltig/makulerad intern exemplarbeteckning (877 #r)
+  * Exemplarnummer (876 #t)
+  * Katalogisatörens anmärkning (876 #x)
+  * Offentlig anmärkning (877 #z)
+  * Del av materialet som avses (877 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
+  * Underordnad institution/enhet (877 #9)
+
+
+### Lokalt definierade bestandsfalt
+*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
+* Lokalt definierat beståndsfält (beståndsfält 948)
+* Lokalt definierat beståndsfält (beståndsfält 949)
+Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
+Sök upp det fält som önskas, t.ex. Beståndsfält 948, delfält a
