@@ -16,7 +16,7 @@ Mallen är under utveckling och uppdateras vid behov.
 
 [Rubriker och textformatering](#rubriker-och-textformatering)  
 [Exempel](#exempel)  
-[Terminologi](#terminologi) 
+[Terminologi](#terminologi)
 [Länkar](#länkar)   
 
 
