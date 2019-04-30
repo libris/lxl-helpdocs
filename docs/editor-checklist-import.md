@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-04-29
+date: 2019-04-30
 tags:
 - redigering
 - postimport
@@ -30,19 +30,20 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Språk och litterär genre](#sprak-och-litterar-genre) |
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#titel) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Klassifikation](#klassifikation)  | 
-| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) |  |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | |
-| [Entry map](#entry-map) | | | 
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#foredragen-titel) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#forvantad-utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Klassifikation](#klassifikation) | 
+| [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | |
+| [Entry map](#entry-map) | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Systemnummer](#systemnummer) | | | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | |
 
 
 ## Adminmetadata 
 Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
-### Beskrivningsnivå 
+
+### Beskrivningsniva
 Beskrivningsnivå (encodingLevel = 000/17) 
 
 Vid postimport händer det att egenskapen saknar värde eller saknas helt. 
@@ -147,6 +148,11 @@ Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivn
 
 OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funktionen Berika från mall, länkas utgivningslandet automatiskt till Sverige. Ändra vid behov. 
 
+### Forvantad utgivningstid  
+Förväntad utgivningstid (projectedProvisionDate = 263)  
+
+Kan förekomma i preliminära poster. Radera egenskapen.  
+
 ### Omfang
 **Omfång, övriga fysiska detaljer, mått**  
 Kontrollera att beskrivningen är korrekt. 
@@ -197,7 +203,7 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
 - Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf)  
 - Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns. Funktionstermerna kan ligga kvar oförändrade. 
  
-### Titel
+### Foredragen titel
 **Föredragen titel**  
 Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
 
