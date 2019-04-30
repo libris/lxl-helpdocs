@@ -70,11 +70,8 @@ Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, g�
 * Lägg till en anmärkning (Lägg till egenskaper under: Instans/Anmärkning (hasNote)/Anmärkning/Benämning) och skriv in uppgiften
 <br/>```Exempel:Bygger på förf:s diss. med titeln: En sund själ i en sund kropp : hälsopolitik i Stockholms folkskolor 1880-1930```
 
- <br/>
- 
 ### Ingaende verk
 För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 #a #d #t)
-
 
 ![Ingaende verk](Ingaendeverk.png) 
 * Öppna sidorutan Lägg till egenskaper under Text:
@@ -84,8 +81,6 @@ För att skapa analytiska biuppslag på verk som ingår i den katalogiserade ins
   * Lägg till egenskaper under Verk/Medverkan och funktion/Primär medverkan/Agent
   * Lägg till entitet och länka till autkoriserad namnform. Om en sådan inte finns, Skapa lokal entitet, välj Person och fyll i uppgifterna
  
-
-<br/> 
 ## Verk som amne
 I de fall det finns en auktoriserad beskrivning av ett verk går den att länka till. De auktoriserade beskrivningar för verk som finns i Libris är i många fall ganska tunna men bör trots det användas för länkning till för att undvika att skapa lokala entiteter i onödan.
 
@@ -97,7 +92,7 @@ Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast 
 * Sök efter och lägg till aktuellt verk. Det auktoriserade verket länkas då till verksbeskrivningen i Instans av Verk.
 
 Exempel:
-![Länkat verk som ämne](LankatVerkAmne.png)
+</br>![Länkat verk som ämne](LankatVerkAmne.png)
 
 Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/- #a #d #t) och anonyma verk (630 -/4 #a).
 </br>Flera verk kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
@@ -111,4 +106,4 @@ Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/- #a #d
 * Öppna sidorutan Lägg till funktion och länka till aktuell funktion.
 
 Exempel:
-![Verk som lokal entitet som ämne](VerkLokalEntitetAmne.png)
+</br>![Verk som lokal entitet som ämne](VerkLokalEntitetAmne.png)
