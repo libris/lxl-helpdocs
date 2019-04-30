@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-04-25
+date: 2019-04-30
 tags:
 - under arbete
 - adminmetadata
@@ -22,7 +22,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
 | [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
+| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
 | [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
 | [Systemnummer](#systemnummer) |  |
@@ -42,8 +42,7 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```  
-  Vid postimport: för närvarande hamnar det importerande bibliotekets sigel här. Detta kommer att ses över.  
-  
+   
 ### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
@@ -100,18 +99,17 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Skapa lokal entitet. Välj Katalogiseringsregler.  
   
-![Katalogiseringsregler](katregler.png)  
+  ![Katalogiseringsregler](katregler.png)  
   
-Skriv in "rda".  
-![Katalogiseringsregler](katregler2.png)  
+ Skriv in "rda".  
+  ![Katalogiseringsregler](katregler2.png)  
   
  
 ### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
 **Observera: I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över!**  
-I mallar är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.  
-Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
+I mallar är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.    
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
