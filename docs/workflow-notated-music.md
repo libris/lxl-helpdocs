@@ -31,18 +31,19 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Genre](#genre) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| | [Utgivning](#utgivning) | [Besättning](#besattning-for-framforande) |
-| | [Tillverkning](#tillverkning) | [Notationssystem och språk](#notationssystem-och-sprak) |
-| | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
-| | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |   
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Har del](#har-del) | 
+| | [Identifikator](#identifikator)  | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Medietyp](#medietyp) | [Språk](#sprak) |
+| | [Bärartyp](#barartyp) | [Genre](#genre) |
+| | [Titel](#titel) | [Klassifikation](#klassifikation) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
+| | [Upplageuppgift](#upplageuppgift) | [Besättning](#besattning-for-framforande)  |
+| | [Utgivning](#utgivning) | [Notationssystem och språk](#notationssystem-och-sprak)  |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) |
+| | [Copyrightår](#copyrightar) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| | [Omfång](#omfang) | [Har del](#har-del) |   
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
 | | [Bilagor](#bilagor) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
@@ -54,6 +55,48 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Instans  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
+
+#### Identifikator 
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: ISBN```
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: 9789188107213```
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```  
+
+För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+  
+* Identifikator/ISMN/Värde (identifiedBy/ISMN/value = 024 2 _ #a)  
+  Skriv in uppgiften.  
+  ```Exempel: 9790006466641```  
+* Identifikator/Plåtnummer/Värde (identifiedBy/MusicPlate/value = 028 2 1 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: N.M.S. 1090```
+* Identifikator/Editionsnummer  
+* Värde (identifiedBy/MusicPublisherNumber/value = 028 3 1 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: HN 6027```  
+* Agent/organisation/namn (identifiedBy/MusicPublisherNumber/agent/Organization/name = 028 3 1 #b)  
+  Skriv in förlagets namn, om det anges i omedelbar anslutning till editionsnumret.  
+  ```Exempel: Henle```
+
+#### Indirekt identifierad av  
+Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.  
+Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "Indirekt identifierad av" och klicka på termen.
+
+* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 #z)  
+  Välj typ från lista.  
+  ```Exempel: ISBN```  
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #a)    
+  Skriv in uppgiften.  
+  ```Exempel: 97891881072```  
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)   
+  Skriv in uppgiften.  
+  ```Exempel: inbunden``` 
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
@@ -204,48 +247,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
   För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
   För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184. Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
     Skriv in uppgiften.  
-    ```Exempel: ©2017```  
-
-#### Identifikator 
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
-
-För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
-  
-* Identifikator/ISMN/Värde (identifiedBy/ISMN/value = 024 2 _ #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 9790006466641```  
-* Identifikator/Plåtnummer/Värde (identifiedBy/MusicPlate/value = 028 2 1 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: N.M.S. 1090```
-* Identifikator/Editionsnummer  
-* Värde (identifiedBy/MusicPublisherNumber/value = 028 3 1 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: HN 6027```  
-* Agent/organisation/namn (identifiedBy/MusicPublisherNumber/agent/Organization/name = 028 3 1 #b)  
-  Skriv in förlagets namn, om det anges i omedelbar anslutning till editionsnumret.  
-  ```Exempel: Henle```
-
-#### Indirekt identifierad av  
-Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.  
-Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "Indirekt identifierad av" och klicka på termen.
-
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 #z)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```  
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #a)    
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```  
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)   
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+    ```Exempel: ©2017```   
 
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)  
