@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-04-30
+date: 2019-05-03
 tags:
 - redigering
 - postimport
@@ -81,9 +81,9 @@ OBS! Läggs Katalogiseringsregler/RDA till för hand måste även egenskapen ”
 ### Katalogiseringssprak 
 Katalogiseringsspråk (descriptionLanguage = 040 #b) 
 
-Anges vid katalogisering enligt RDA. Låt uppgiften stå. 
+Anges vid katalogisering enligt RDA. Kontrollera och rätta vid behov felaktiga värden.   
 
-OBS! Om egenskapen läggs till med funktionen Berika från mall blir katalogiseringsspråket automatiskt angivet som svenska. Radera eller ändra vid behov. 
+OBS! Om egenskapen läggs till med funktionen Berika från mall blir katalogiseringsspråket automatiskt angivet som svenska.   
 
 ### Katalogiserande instans 
 Katalogiserande instans (marc:catalogingSource = 008/39) 
