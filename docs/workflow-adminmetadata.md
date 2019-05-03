@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-04-30
+date: 2019-05-03
 tags:
 - under arbete
 - adminmetadata
@@ -22,10 +22,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
 | [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
-| [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
-| [Systemnummer](#systemnummer) |  |
+| [Katalogiserande instans](#katalogiserande-instans) | [Beskrivningsnivå](#beskrivningsniva) |
+| [Poststatus](#poststatus) | [Bibliografikod](#bibliografikod) |
+| [Systemnummer](#systemnummer) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
 
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
@@ -50,10 +49,6 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
  Skriv in uppgiften under Sigel.       
   ```Exempel: S```   
    
-### Entry map  
-* Entry map (marc:entryMap = 000/20-23)  
-I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.  
-
 ### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
   Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
