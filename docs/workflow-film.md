@@ -11,38 +11,50 @@ tags:
 ---
 
 ## Film - videoinspelning
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av film på DVD eller Blu-ray, med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information. 
+Beskrivningen av en film innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisningar om Adminmetadata, se Adminmetadata. 
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för film på DVD eller Blu-Ray. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
+
+Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Film.  
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
-
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
-| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Utgivning](#utgivning) |  [Ämne](#amne)  |
-| [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
-| [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
-| [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
-| [Bilagor](#bilagor) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Videokarakteristika](#videokarakteristika) | [Inspelning](#inspelning) |
-| [Seriemedlemskap](#seriemedlemskap) | |
-| [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| [Innehållsanmärkning](#innehallsanmarkning) | |
-| [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
-| [Anmärkning](#anmarkning) | |
-| [Elektronisk adress](#elektronisk-adress) | |
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- | ----------- |  ----------- |
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) |  [Ämne](#amne)  |
+| | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
+| | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
+| | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
+| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
+| | [Bilagor](#bilagor) | [Anmärkningar](#anmarkningar) |
+| | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
+| | [Anmärkning](#anmarkning) | |
+| | [Elektronisk adress](#elektronisk-adress) | |
+
+### Adminmetadata
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
+
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -90,7 +102,7 @@ En varianttitel är en titel förknippad med resursen som skiljer sig från den 
  Skriv in uppgiften i Huvudtitel.    
   ```Exempel: Cool girls```<br/>
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
+För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
 
 Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varianttitel. Notera dock att för utgivna rörliga bilder är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis för RDA 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.<br/>
 
@@ -407,6 +419,13 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
   Länka till någon av entiteterna:</BR>
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
    * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
+   
+ #### Inspelning
+ * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
+ Här kan uppgift om inspelningstid anges.
+ Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Benämning.
+ Skriv in uppgiften under Benämning.</br>
+ ```Exempel: Inspelad 2010``` 
   
 #### Anmarkningar
 ##### Anmärkning om språk
@@ -426,9 +445,4 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
  
- #### Inspelning
- * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
- Här kan uppgift om inspelningstid anges.
- Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Benämning.
- Skriv in uppgiften under Benämning.</br>
- ```Exempel: Inspelad 2010``` 
+
