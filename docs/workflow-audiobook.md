@@ -9,10 +9,14 @@ tags:
 --- 
 
 ## Ljudbok - ljudinspelning 
+Beskrivningen av en ljudbok innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid beskrivning av ljudböcker (tillgängliga på CD eller MP3-CD), med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Ljudbok - ljudinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information. 
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en ljudbok (tillgänglig på CD eller MP3-CD). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För anvisningar om Adminmetadata, se Adminmetadata,
+Många av egenskaperna finns redan i mallen Ljudbok, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Ljudbok.  
 
 För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna fonogram är hela resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-2904.html). 
 
@@ -20,23 +24,29 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
-| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Copyright- eller p-år](#copyright-eller-p-ar) | [Målgrupp](#malgrupp) |
-| [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
-| [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| [Bilagor](#bilagor) | |
-| [Seriemedlemskap](#seriemedlemskap) | | 
-| [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmarkning](#anmarkning) | | 
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- | ----------- |  ----------- |
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Ämne](#amne) |
+| | [Copyright- eller p-år](#copyright--eller-p-ar) | [Målgrupp](#malgrupp) |
+| | [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
+| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Bilagor](#bilagor) | |
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Anmarkning](#anmarkning) | | 
+
+### Adminmetadata
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Ljudinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -86,7 +96,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   Skriv in uppgiften i Huvudtitel.    
  ```Exempel: Hierarchy in organizations```  
 
-För en huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
+För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).
 
 Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 
