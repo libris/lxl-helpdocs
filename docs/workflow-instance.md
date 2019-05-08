@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-04-30
+date: 2019-05-08
 tags:
 - under arbete
 - instans
@@ -100,7 +100,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   ```Exempel: Hierarchy in organizations```   
  I äldre poster kan titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord ligga i [Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel](#titel-alternativ-stavning) (= 740). Använd i stället Varianttitel.  
   
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
