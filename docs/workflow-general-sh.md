@@ -44,9 +44,9 @@ Hjälptexterna för ämnesord innehåller instruktioner för följande typer av 
 | | [Sammansatt ämnesord från system utan länkbar listkod (t.ex. RAMEAU)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Cheval--Histoire rameau* |
 
 
-För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
+* För agenter (personer och organisationer) som ämne, se hjälptext för [Relation till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
 
-För relationer till delar och verk, se hjälptext för [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation)
+* För verk som ämne, se hjälptext för [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation)
 
 
 
