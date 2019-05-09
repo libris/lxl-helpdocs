@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-05-03
+date: 2019-05-09
 tags:
 - redigering
 - postimport
@@ -11,15 +11,13 @@ order: 12
 
 # Checklista vid redigering av importerade poster
 
-Denna checklista kan användas vid redigering av importerade poster från Andra källor.  
-
-Beroende på vilka katalogiseringsregler som har använts i den post man importerat bör olika anvisningar följas: 
-- För poster gjorda enligt AACR2, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
+Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
+- För poster gjorda enligt AACR2 eller annat regelverk än RDA, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
 - För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
 
 Ytterligare anvisningar hittas även i Katalogisatörens verktygslåda under de enskilda MARC21-fälten inom [Katalogisering](http://www.kb.se/katalogisering/Katalogisering/) och [Bibliografiska formatet](http://www.kb.se/katalogisering/Formathandboken/Bibliografiska-formatet/).  
 
-Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet följer här en lista på de viktigaste sakerna att tänka på. 
+Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet kan denna checklista användas som stöd vid redigering.  
 
 OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
 
@@ -28,51 +26,68 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Språk och litterär genre](#sprak-och-litterar-genre) |
-| [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#foredragen-titel) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#forvantad-utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Klassifikation](#klassifikation) | 
-| [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | |
-| [Entry map](#entry-map) | [Seriemedlemskap](#seriemedlemskap) | | 
-| [Systemnummer](#systemnummer) | | | 
-| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | |
+| [Identifikator](#identifikator) | [Utgivningssätt](#utgivningssatt) | [Föredragen titel](#foredragen-titel) |
+| [Beskrivningsnivå](#beskrivningsniva)| [Medietyp och bärartyp](#medietyp-och-barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Titel](#titel) | [Språk](#sprak) |
+| [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| [Entry map](#entry-map) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Forväntad utgivningstid](#forvantad-utgivningstid) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Innehållstyp](#innehallstyp) | 
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
+| [Katalogiserande instans](#katalogiserande-instans) | [Seriemedlemskap](#seriemedlemskap) |  |
+| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
 
 
 ## Adminmetadata 
 Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
 
+### Identifikator 
+Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a) 
+
+Systemnummer från andra bibliotek eller bibliotekskonsortier kan förekomma. Låt uppgiften stå 
+
 ### Beskrivningsniva
 Beskrivningsnivå (encodingLevel = 000/17) 
 
 Vid postimport händer det att egenskapen saknar värde eller saknas helt. 
-Om egenskapen finns men saknar värde: 
-- Välj värde från listan 
-Om egenskapen saknas: 
-- Klicka på plustecknet Lägg till egenskaper under: Post 
-- Välj typ Beskrivningsnivå och välj värde från lista  
+- Om egenskapen finns men saknar värde: 
+  - Välj värde från listan 
+- Om egenskapen saknas: 
+  - Klicka på plustecknet Lägg till egenskaper under: Post 
+  - Välj typ Beskrivningsnivå och välj värde från lista  
+
+### Systemteknisk anmarkning 
+Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a) 
+
+- Låt anmärkningen om vilken källa posten importerats från ligga kvar 
+- Vid uppgradering av förhandsposter och preliminära poster (då Beskrivningsnivån uppgraderas), ta bort anmärkningen om att posten är maskinellt skapad 
 
 ### Skapad av 
 Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a) 
  
-Förval vid postimport: den sigel som importerat posten.   
+För närvarande är förval vid postimport den sigel som importerat posten.  
+
+### Entry map 
+Entry map (marc:entryMap = 000/20-23) 
+
+Kan förekomma i vissa importerade poster. 
+- Radera egenskapen. 
 
 ### Uppgraderad eller importerad av 
 Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d) 
 
-Lägg alltid till uppgiften vid postimport. För att lägga till egenskapen: 
-- Klicka på plustecknet Lägg till egenskaper under: Post och välj Uppgraderad eller importerad av 
-- Klicka på plustecknet Lägg till entitet och välj Skapa lokal entitet 
-- Välj Bibliotek och skriv in uppgiften under Sigel 
-Lägg även till sigel om ett annat bibliotek har importerat posten men du uppgraderar beskrivningsnivån. 
+- Lägg alltid till uppgiften vid postimport. Om egenskapen saknas: 
+  - Klicka på plustecknet Lägg till egenskaper under: Post och välj Uppgraderad eller importerad av 
+  - Klicka på plustecknet Lägg till entitet och välj Skapa lokal entitet 
+  - Välj Bibliotek och skriv in uppgiften under Sigel 
+- Lägg även till sigel om ett annat bibliotek har importerat posten men du uppgraderar beskrivningsnivån. 
 
 OBS! Egenskapen kan inte läggas till via funktionen Berika från mall.  
 
 ### Katalogiseringsregler 
 Katalogiseringsregler (040 #e) 
 
-Vid postimport behöver katalogiseringsreglerna inte ändras till RDA men väljer man att göra det måste hela beskrivningen anpassas till RDA. 
+- Vid postimport behöver katalogiseringsreglerna inte ändras till RDA men väljer man att göra det måste hela beskrivningen anpassas till RDA. 
 
 OBS! Om egenskapen Katalogiseringsregler saknas och läggs till via funktionen Berika från mall, blir katalogiseringsreglerna automatiskt RDA. 
 
@@ -81,107 +96,102 @@ OBS! Läggs Katalogiseringsregler/RDA till för hand måste även egenskapen ”
 ### Katalogiseringssprak 
 Katalogiseringsspråk (descriptionLanguage = 040 #b) 
 
-Anges vid katalogisering enligt RDA. Kontrollera och rätta vid behov felaktiga värden.   
+- Anges vid katalogisering enligt RDA. Kontrollera och rätta vid behov felaktiga värden.   
 
 OBS! Om egenskapen läggs till med funktionen Berika från mall blir katalogiseringsspråket automatiskt angivet som svenska.   
 
 ### Katalogiserande instans 
 Katalogiserande instans (marc:catalogingSource = 008/39) 
 
-Ändra inte postens ursprungliga kod. Saknas egenskapen:  
-- Klicka på plustecknet Lägg till egenskaper under: Post 
-- Välj Katalogiserande instans 
-- Klicka på plustecknet Lägg till entitet, sök fram och välj Annan verksamhet.
-
-### Systemteknisk anmarkning 
-Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a) 
-
-- Låt anmärkningen om vilken källa posten importerats från ligga kvar 
-- Vid uppgradering av förhandsposter och preliminära poster (då Beskrivningsnivån uppgraderas), ta bort anmärkningen om att posten är maskinellt skapad 
-
-### Entry map 
-Entry map (marc:entryMap = 000/20-23) 
-
-Kan förekomma i vissa importerade poster. Radera egenskapen. 
-
-### Systemnummer 
-Identifikator/Lokal identifikator/Värde (035 #a) 
-
-Systemnummer från andra bibliotek eller bibliotekskonsortier kan förekomma. Låt uppgiften stå. 
+- Ändra inte postens ursprungliga kod. Saknas egenskapen:  
+  - Klicka på plustecknet Lägg till egenskaper under: Post 
+  - Välj Katalogiserande instans 
+  - Klicka på plustecknet Lägg till entitet, sök fram och välj Annan verksamhet.
 
 ### marcuncompleted och marcfailedfixedfields 
-Data som inte hanteras av systemet visas i MARC21-format som marcuncompleted eller marcfailedfixedfields. Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.
+Data som inte hanteras av systemet visas i MARC21-format som marcuncompleted eller marcfailedfixedfields. 
+- Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.
 
 ## Instans 
 Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). 
 
+### Utgivningssatt
+Utgivningssätt (issuanceType) 
+
+- Kontrollera att beskrivningen är korrekt. 
+
+### Medietyp och barartyp 
+Medietyp (mediaType/Mediatype = 337 #b) 
+
+Bärartyp (carrierType/CarrierType = 338 #b) 
+
+- Kontrollera att beskrivningen är korrekt. 
+
+OBS! Entiteterna behöver inte länkas. Länk skapas automatiskt då instansen sparas.  
+
 ### Titel 
 Har titel/… (hasTitle/… = 24X) 
 
-Kontrollera att beskrivningen är korrekt. 
+- Kontrollera att beskrivningen är korrekt. 
 
 OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder. 
-För att kontrollera om det är korrekt ställ markören på Övrig titelinformation och om titleRemainder blir synligt istället för subtitle, ändra uppgiften: 
-- Klicka på Lägg till egenskaper under: Titel 
-- Välj Övrig titelinformation/subtitle och skriv in undertiteln 
-- Radera Övrig titelinformation/titleRemainder 
+- För att kontrollera om det är korrekt ställ markören på Övrig titelinformation och om titleRemainder blir synligt istället för subtitle, ändra uppgiften: 
+  - Klicka på Lägg till egenskaper under: Titel 
+  - Välj Övrig titelinformation/subtitle och skriv in undertiteln 
+  - Radera Övrig titelinformation/titleRemainder 
 
 ### Upphovsuppgift 
 Upphovsuppgift (responsibilityStatement = 245 #c) 
 
-Vid postimport saknas ibland upphovsuppgiften. Om egenskapen saknas: 
-- Klicka på Lägg till egenskaper under: Instans 
-- Välj Upphovsuppgift och fyll i uppgiften 
+Vid postimport saknas ibland upphovsuppgiften. 
+- Om egenskapen saknas: 
+  - Klicka på Lägg till egenskaper under: Instans 
+  - Välj Upphovsuppgift och fyll i uppgiften 
 
 ### Utgivning 
 Utgivning (publication = 008/07-10, 008/15-17, 260, 264 -/1) 
 
-Vid postimport medföljer ibland två avsnitt: Primär utgivning med År och Land, och Utgivning med Plats, Agent och Datum. Vid redigering: 
-- Flytta, om det bedöms nödvändigt, uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning.  
+- Vid postimport medföljer ibland två avsnitt: Primär utgivning med År och Land, och Utgivning med Plats, Agent och Datum. Vid redigering: 
+  - Flytta, om det bedöms nödvändigt, uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning.  
 
-I andra fall finns endast avsnittet Utgivning med. Vid redigering: 
-- Klicka på plustecknet Lägg till entitet vid Utgivning 
-- Välj typ Primär utgivning 
-- Fyll i uppgifterna i Primär utgivning och ta sedan bort Utgivning  
+- I andra fall finns endast avsnittet Utgivning med. Vid redigering: 
+  - Klicka på plustecknet Lägg till entitet vid Utgivning 
+  - Välj typ Primär utgivning 
+  - Fyll i uppgifterna i Primär utgivning och, om det bedöms nödvändigt, ta bort Utgivning  
 
-Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Ej att förväxla med egenskapen Copyright/Copyright/Datum (= 264 -/4 #c). 
+- Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivning (= 008/06: t, 008/07-10, 008/11-14). Uppgiften läggs inte till vid primärkatalogisering men kan ligga kvar om den är korrekt. Vid RDA-katalogisering jämför med egenskapen Copyright/Copyright/Datum (= 264 -/4 #c). 
 
 OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funktionen Berika från mall, länkas utgivningslandet automatiskt till Sverige. Ändra vid behov. 
 
 ### Forvantad utgivningstid  
 Förväntad utgivningstid (projectedProvisionDate = 263)  
 
-Kan förekomma i preliminära poster. Radera egenskapen.  
+Kan förekomma i preliminära poster. 
+- Radera egenskapen.  
+
+### Identifikator och Indirekt identifierad av 
+Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a) 
+
+Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z) 
+
+OBS! Kommer att ses över. Anvisningarna nedan är upprättade med tanke på matchningsproblematik vid automatiska flöden. 
+
+Vid import från Andra källor innehåller posterna ofta flera olika ISBN, både för tryckt och elektronisk utgåva. För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande: 
+-	För en tryckt version får det inte finnas ISBN för en annan tryckt version i _Indirekt identifierad av_, utan enbart i _Identifikator_. Flytta ISBN för tryckta versioner till _Identifikator_ och låt ISBN för elektroniska versioner ligga kvar under _Indirekt identifierad av_. 
+- För elektroniska resurser gäller samma sak, fast tvärtom. Det får inte ligga ISBN för en annan elektronisk version under _Indirekt identifierad av_, utan där får endast ISBN för olika tryckta versioner ligga. 
+- Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både _Identifikator_ och _Indirekt identifierad av_. Ta bort ISBN från _Indirekt identifierad av_ och låt det ligga kvar under _Identifikator_. 
+- Om det ligger ISBN till andra utgåvor i _Indirekt identifierad av_, kan det särskiljande tillägget (020 #q) ibland hamna fel, under _Identifikator/Nothing/Särskiljande tillägg_. Lägg till det särskiljande tillägget under _Indirekt identifierad av/ISBN_, kopplat till det värde det gäller, och radera _Nothing/Särskiljande tillägg_ under _Identifikator_. 
+
+OBS! Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast det som hör till resursen som ska katalogiseras vara kvar. 
 
 ### Omfang
 **Omfång, övriga fysiska detaljer, mått**  
-Kontrollera att beskrivningen är korrekt. 
-
-### Andra databaser
-**Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**  
-Låt uppgifterna stå:  
-- Tillhörande media/Mediaobjekt (associatedMedia/Mediaobject = 856 4/0) 
-- Annan relaterad resurs/Elektronisk (marc:versionOfResource/Electronic = 856 4/1) 
-- Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2)  
-Radera uppgifterna: 
-- Beskriven av/Post/Kontrollnummer (= #w).Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
-
-### Identifikator och Indirekt identifierad av 
-Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a) och Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z) 
-
-OBS! Måste ses över! Anvisningarna nedan är upprättade med tanke på matchningsproblematik vid automatiska flöden. Behov av att kunna lägga felaktiga ISBN i Indirekt identifierad av finns. 
-
-Vid import från Andra källor kan posterna ibland innehålla flera olika ISBN, både för tryckt och elektronisk utgåva. För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande: 
-- Endast ISBN för den beskrivna utgåvan ska ligga i Identifikator/ISBN/Värde (020 #a). Låt endast värden för två utgåvor ligga kvar om det ena syftar på inbunden och det andra på häftad utgåva. 
--	För en tryckt bok får det inte finnas ISBN för en annan tryckt version i Indirekt identifierad av/ISBN/Värde (020 #z), utan enbart i Identifierad av/ISBN/Värde (020 #a). Flytta ISBN för tryckta versioner till Identifierad av och låt ISBN för elektroniska versioner ligga kvar under Indirekt identifierad av. 
-- För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga. 
-- Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 #a) och Indirekt identifierad av/ISBN/Värde (020 #z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde. 
-- Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/Nothing/Särskiljande tillägg. Lägg till det särskiljande tillägget under Indirekt identifierad av/ISBN, kopplat till det värde det gäller, och radera Nothing/Särskiljande tillägg under Identifikator. 
-
-OBS! Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast de som hör till resursen som ska katalogiseras vara kvar. 
+- Kontrollera att beskrivningen är korrekt. 
 
 ### Seriemedlemskap 
-Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a) och Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a) 
+Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
+
+Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a) 
 - Om motsvarande fält 490 #a och 830 #a matchar, läggs de vid import i samma Seriemedlemskap. 
 - Om de inte matchar, skapas två Seriemedlemskap: ett med enbart Seriemedlemskap/Serieuppgift (490 #a) och ett med enbart Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 #a). 
 
@@ -189,42 +199,80 @@ När man redigerar importerade poster med två Seriemedlemskap kan man, om man b
 
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
+### Andra databaser
+**Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**  
+- Låt uppgifterna stå:  
+  - Tillhörande media/Mediaobjekt (associatedMedia/Mediaobject = 856 4/0) 
+  - Annan relaterad resurs/Elektronisk (marc:versionOfResource/Electronic = 856 4/1) 
+  - Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2)  
+- Radera uppgifterna: 
+  - Beskriven av/Post/Kontrollnummer (= #w).Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
+
 ## Instans av verk  
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
-### Sprak och litterar genre
-**Språk, litterär genre m.m.**   
-Kontrollera att beskrivningen är korrekt. 
-
-OBS! Om egenskapen Språk (language = 008/35-37) saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
+### Foredragen titel
+**Föredragen titel**  
+- Kontrollera att titelformen för föredragen titel stämmer med svensk praxis.
 
 ### Medverkan och funktion 
 Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-- Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf)  
+- Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf).  
 - Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns. Funktionstermerna kan ligga kvar oförändrade. 
  
-### Foredragen titel
-**Föredragen titel**  
-Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
+### Sprak
+#### Språk
 
-### Svenska amnesord och genre
-**Svenska ämnesord och Genre/formtermer**  
-Lägg till Svenska ämnesord och Genre/formtermer enligt
-[Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/) 
+Språk (language = 008/35-37 och 040 #a) 
+
+- Kontrollera att beskrivningen är korrekt. 
+
+OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
+
+#### Originalversion 
+
+Originalversion/Verk/Språk (originalversion/Work/language = 041 #h) 
+
+- Kontrollera att beskrivningen är korrekt.  
+
+### Genre 
+#### Termer som motsvarar MARC21-koder i 008 
+
+- Kontrollera att de länkade entiteterna är korrekta (Litterär genre, Festskrift m.m.) 
+
+#### Genre/formtermer enligt Svenska ämnesord 
+
+- Komplettera med tillämpliga termer för genre/form enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
+
+### Amne 
+Läs mer om [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+
+#### Svenska ämnesord 
+- Komplettera med tillämpliga ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]). 
+
+#### Agenter som ämne
+Läs mer om agenter som ämne i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+
+- Validera namnformer. 
 
 ### Klassifikation 
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 #### DDK-klassifikation 
-Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”. 
+- Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”. 
 
-OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. Om den saknas måste en ny DDK-kod läggas till: 
-- Klicka på plustecknet Lägg till entitet vid Klassifikation 
-- Välj Skapa lokal entitet och välj DDK-klassifikation 
-- Fyll i uppgifterna och radera den ofullständiga DDK-klassifikationen 
+OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. 
+- Om Parallell upplagebeteckning/Upplagespecifik upphovsuppgift saknas måste en en ny DDK-kod läggas till: 
+  - Klicka på plustecknet Lägg till entitet vid Klassifikation 
+  - Välj Skapa lokal entitet och välj DDK-klassifikation 
+  - Fyll i uppgifterna och radera den ofullständiga DDK-klassifikationen 
 
 #### SAB-klassifikation 
-För att lägga till klassifikationskod: 
-- Klicka på Lägg till entitet (plustecknet vid Klassifikation) 
-- Välj Skapa lokal entitet och välj Klassifikation 
-- Fyll i uppgifterna 
+- Lägg till klassifikationskod.
+
+### Innehallstyp 
+Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b) 
+
+- Kontrollera att beskrivningen är korrekt. 
+
+OBS! Entiteterna behöver inte länkas. Länk skapas automatiskt då instansen sparas.
