@@ -2,7 +2,7 @@
 section: Redigering
 title: Att använda verktyget
 order: 11
-date: 2019-03-21
+date: 2019-05-10
 tags:
 - redigering
 - editor
@@ -60,8 +60,10 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
    * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
    * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
-   * Öppna redigeringsläge och välj "Berika från post" --> "från fil" i verktygsmenyn.
+   * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
    * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
+ 
+   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
  
  * Berika från ID
    </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
