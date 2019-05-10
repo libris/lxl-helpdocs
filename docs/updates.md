@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-04-29
+date: 2019-05-10
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-05-10
+* Att använda verktyget har kompletterats med information om Berika från post - Från fil, för beståndsposter.
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-04-29
 * Ny hjälptext: Checklista för postimport från Andra källor:
