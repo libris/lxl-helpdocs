@@ -252,9 +252,9 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 ##### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)</br>
 Använd Tillhörande media för att lägga in en elektronisk adress till den besrivna resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)</br>
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
-* Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)
+* Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)</br>
 Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.
 
 #### Malgruppsanmarkning  
