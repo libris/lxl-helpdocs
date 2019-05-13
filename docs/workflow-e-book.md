@@ -77,6 +77,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
+  
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
   
