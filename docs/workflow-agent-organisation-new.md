@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 75
-date: 2019-04-16
+date: 2019-05-15
 tags:
 - under arbete
 - agenter
@@ -26,17 +26,17 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Namn](#namn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namnform i två led](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Translitterering](#translitterering) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Poststatus](#poststatus) | [Administrativ historik](#administrativ-historik) |
-| [Katalogisatörens anmärkning](#poststatus) | [Variant](#variant) |
-| [Konsulterad källa](#poststatus) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Identifikator](#identifikator) |
-| [Differentiering av person](#differentiering-av-person) | [Nationalitet](#nationalitet) | |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#nationalitet) |
-| [Beskrivningsnivå](#differentiering-av-person) | [Tid för grundande](#tid-for-grundande) | |
+| [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
+| [Skapad av](#skapad-av) | [Namnform i flera led](#namnform-i-flera-led) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
+| [Konsulterad källa](#katalogiseringsregler) | [Nationalitet](#nationalitet) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| | [Administrativ historik](#administrativ-historik) | |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
+| | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
 | | [Språk](#tid-for-grundande) | |
@@ -48,7 +48,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 ### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
-
+ 
+#### Beskrivningsnivå 
+ * Beskrivningsnivå (encodingLevel)
+  <br/>Förval: Fullständig. Ändras ej.
+   
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
  <br/>Förval: inloggad sigel. Ändras ej.
@@ -59,24 +63,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>Förval: rda. Ändra vid behov.
  <br/>```Exempel: Kod: rda```
 
-#### Katalogiseringsspråk
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>Förval: language/swe. Ändras ej
-
-#### Translitterering
-* Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej.
-
-#### Poststatus
-* Poststatus (recordStatus = 000)
-  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
-
 #### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
   <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+
+#### Katalogiseringsspråk
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+ <br/>Förval: language/swe. Ändras ej
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -92,24 +88,15 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
   OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
   <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
-   
- 
+
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-
-#### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
 
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
- 
-#### Beskrivningsnivå 
- * Beskrivningsnivå (encodingLevel)
-  <br/>Förval: Fullständig. Ändras ej.
-   
+
 
 ### Agent
 
@@ -118,19 +105,53 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>(name) (110 #a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
   <br/>```Exempel: Arbetslivscentrum```
-  <br/>För namnformer som består av överordnad och underordnad enhet används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
+  <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
-#### Namnform i två led 
-* Är del av/Namn
-  <br/>(isPartOf/name = 110 2/- #a)
+#### Namnform i flera led
+<br/>Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
+* Är del av/Namn (isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Stockholms universitet```
-  
-* Namn på underordnad enhet (marc/subordinateUnit =110 2/- #b)
+
+* Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
   <br/>Underordnade och relaterade organisationer som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
   <br/>```Exempel: Centrum för medeltidsstudier```
-<br/>OBS! Det fungerar inte att göra Organisation med namnform i fler än två led i nuläget.
+<br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+  <br/>```Exempel: Biblioteket```
+ 
+#### Identifikator
+* Identifikator (identifiedBy = 024 #a #2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+ <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
+
+#### Variant
+* Variant (hasVariant = 410 #a #b och 410 #a #b #b)
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. 
+  <br/>OBS! Varianter ska inte göras till sökbara länkar.
+  <br/>```Exempel:```
+   * ```ALC```
+   * ```Swedish Centre for Working Life```
+   
+  ```Exempel på namnform i flera led:```
+  * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
+<br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+  <br/>```Exempel: Biblioteket```
+
+<br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
+
+#### Se även
+* Se även (seeAlso = 510)
+  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
+  <br/>```Exempel: Institutet för arbetslivsforskning```
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
+#### Nationalitet
+* Nationalitet/verksamhetsland (nationality = 043 #a)
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
+  <br/>```Exempel: e-uk---```
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+
 #### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
   <br/>```Exempel: 1977```
@@ -143,41 +164,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Administativ historik (hasHistoricalData = 678 #a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Statligt forskningsinstitut inom arbetslivsområdet. 1994 ändrades namnet till Institutet för arbetslivsforskning```
-
-#### Variant
-* Variant (hasVariant = 410 #a #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
-<br/>OBS! Det fungerar inte att göra Variant med namn i fler än två led i nuläget.
-  <br/>```Exempel:```
-   * ```ALC```
-   * ```Swedish Centre for Working Life```
-    <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
-   
-  ```Exempel på namnform i två led:```
-  * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
-  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Smittskyddsinstitutet```
-  <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna.
-  <br/>För att lägga till Jurisdiktion i två led: klicka på plustecknet vid egenskapen Variant, och välj Jurisdiktion. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj Jurisdiktion i rullmenyn för Skapa lokal entitet.
-
-
-#### Se även
-* Se även (seeAlso = 510)
-  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
-  <br/>```Exempel: Institutet för arbetslivsforskning```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
-  
-#### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
- <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas.
-  
-
-#### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 #a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-uk---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
   
 ### Ytterligare egenskaper att lägga till vid behov
@@ -216,4 +202,4 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
  * Organisatorisk tillhörighet (hasAffiliation = 373 #a)
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex Organisation. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länks.
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länkas.
