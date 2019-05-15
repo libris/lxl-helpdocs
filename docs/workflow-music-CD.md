@@ -416,14 +416,24 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 
   * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
- ```Exempel: Ej preciserad```  
-
+ ```Exempel: Ej preciserad```
+ 
 #### Inspelning
-  * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 #a)</br>
- Ange inspelningens tid, plats och omständigheter om uppgifterna är lätt tillgängliga. 
- <br/>Skapa lokal entitet, välj Inspelning och lägg till egenskapen Benämning.
- Skriv in uppgiften under Benämning.
-  <br/>```Exempel:```  
-   * ```Inspelad 2010```
-   * ```Inspelad i Konserthuset 9 juni 1967```
+Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
 
+##### Anmärkning om inspelningens tid, plats och omständigheter.
+* Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</BR>
+ Skriv in uppgiften under Benämning.</BR>
+   ```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
+
+##### Kodade uppgifter om inspelningstid och inspelningsplats.
+* Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</BR>
+  Under Inspelning, lägg till Inspelning som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Lägg till Datum genom att klicka på plustecknet, Lägg till egenskaper under: Inspelning. Skriv in uppgiften.</BR>
+    ```Exempel: 2010```
+
+* Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</BR>
+  Klicka igen på plustecknet, Lägg till egenskaper under: Inspelning. Lägg till Plats.
+  Under Plats, lägg till Plats som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.</BR>
+   ```Exempel: Stockholm```
