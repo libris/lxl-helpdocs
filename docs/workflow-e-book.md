@@ -475,9 +475,8 @@ Innehåll (008/24-27): Avhandling
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
-* Har del/Verk/Innehållstyp  
-```Exempel: still image (sti)```
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.
+  I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
 #### Sammanfattning av innehall
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</br>
