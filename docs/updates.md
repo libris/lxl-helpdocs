@@ -11,7 +11,7 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
-2019-05-15
+2019-05-16
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Film:
 </br>https://libris.kb.se/katalogisering/help/workflow-film
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Musik-CD:
