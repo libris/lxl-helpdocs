@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-05-10
+date: 2019-05-15
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,7 +11,10 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
-2019-05-16
+2019-05-15
+* Ändrad instruktion om upprepad innehållstyp i hjälptexten för Verk och Tryckt monografi:
+</br>https://libris.kb.se/katalogisering/help/workflow-work
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Film:
 </br>https://libris.kb.se/katalogisering/help/workflow-film
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Musik-CD:
