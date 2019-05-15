@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-04-17
+date: 2019-05-15
 tags:
 - under arbete
 - verk
@@ -284,7 +284,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * ```text (txt)```
  <br>Läs mer om [innehållstyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/innehall/).
   
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
+ För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.   
+I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
