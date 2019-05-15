@@ -12,9 +12,11 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-05-15
-* Ändrad instruktion om upprepad innehållstyp i hjälptexterna för Verk och Tryckt monografi:
+* Ändrad instruktion om upprepad innehållstyp i hjälptexterna för Verk, Tryckt monografi, E-bok samt Musiktryck:
 </br>https://libris.kb.se/katalogisering/help/workflow-work
 </br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
+</br>https://libris.kb.se/katalogisering/help/workflow-e-book
+</br>https://libris.kb.se/katalogisering/help/workflow-notated-music
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Film:
 </br>https://libris.kb.se/katalogisering/help/workflow-film
 * Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Musik-CD:
