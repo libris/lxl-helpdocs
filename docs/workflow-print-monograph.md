@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-04-17
+date: 2019-05-15
 tags:
 - under arbete
 - monografi
@@ -444,13 +444,12 @@ Innehåll (008/24-27): Avhandling
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
-* Har del/Verk/Innehållstyp  
-```Exempel: still image (sti)```
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.   
+I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
 ##### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
-(dissertation/Dissertation/label = 502 #a)
+(dissertation/Dissertation/label = 502 #a)  
