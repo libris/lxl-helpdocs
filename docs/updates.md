@@ -17,9 +17,9 @@ På denna sida listas ändringar i hjälptexterna.
 </br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 </br>https://libris.kb.se/katalogisering/help/workflow-e-book
 </br>https://libris.kb.se/katalogisering/help/workflow-notated-music
-* Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Film:
+* Ändrad instruktion för egenskapen Inspelning i hjälptexten för Film:
 </br>https://libris.kb.se/katalogisering/help/workflow-film
-* Uppdaterad och utökad instruktion under egenskapen Inspelning i hjälptexten för Musik-CD:
+* Ändrad instruktion för egenskapen Inspelning i hjälptexten för Musik-CD:
 </br>https://libris.kb.se/katalogisering/help/workflow-music-CD
 
 
