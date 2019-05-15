@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-05-15
-* Uppdaterad och utökad  instruktion under Inspelning i hjälptext för film:
+* Uppdaterad och utökad  instruktion under egenskapen Inspelning i hjälptext för film:
 </br>https://libris.kb.se/katalogisering/help/workflow-film
 
 2019-05-10
