@@ -9,8 +9,12 @@ tags:
 ---
 
 ## Ändringslogg
-
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-05-15
+* Uppdaterad och utökad  instruktion under Inspelning i hjälptext för film:
+
+
 
 2019-05-10
 * Att använda verktyget har kompletterats med information om Berika från post - Från fil, för beståndsposter:
