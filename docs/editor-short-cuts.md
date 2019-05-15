@@ -34,6 +34,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Förhandsgranska MARC21 | Alt+P |
 | Öppna hjälpen | Alt+H |
 | Visa instanser | Alt+I |
+| Lägga bestånd | Alt+B |
 
 # MAC 
     
@@ -56,3 +57,4 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Förhandsgranska MARC21 | Alt+P |
 | Öppna hjälpen | Alt+H |
 | Visa instanser | Alt+I |
+| Lägga bestånd | Alt+B |
