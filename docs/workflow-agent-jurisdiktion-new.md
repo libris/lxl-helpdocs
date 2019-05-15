@@ -159,7 +159,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Administrativ historik
 * Administativ historik (hasHistoricalData = 678 #a)
   <br/>Anmärkning om administrativ historik.
-  <br/>```Exempel: Inrättat 1909. Bytte namn från jordbruksutskottet till miljö- och jordbruksutskottet från och med riksmötet 1989/99```
+  <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
 
   
 ### Ytterligare egenskaper att lägga till vid behov
