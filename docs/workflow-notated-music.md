@@ -531,9 +531,10 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
-  ```Exempel: term/rda/NotatedMusic```  
-  För att lägga till ytterligare innehållstyp, lägg till Har del under Instans av Verk, från plustecknet vid Noterad musik (Lägg till egenskaper under: Noterad musik). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
-
+  ```Exempel: term/rda/NotatedMusic```
+  
+  För att lägga till ytterligare innehållstyp, länka till ytterligare en entitet. I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
+  
 #### Har del
 * Har del (hasPart = 700 2/_ )  
   Här anges ingående verk om instansen manifesterar fler än ett verk, med föredragna titlar och medverkande.  
