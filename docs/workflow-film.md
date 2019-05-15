@@ -418,15 +418,28 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till någon av entiteterna:</BR>
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
-   * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)```  
-   
- #### Inspelning
- * Inspelning/Inspelning/Benämning (capture/Capture/label = 518 ‡a)</br>
- Här kan uppgift om inspelningstid anges.
- Lägg till Inspelning. Skapa lokal entitet, välj Inspelning och lägg till Benämning.
- Skriv in uppgiften under Benämning.</br>
- ```Exempel: Inspelad 2010``` 
-  
+   * ```Three-dimensional moving image, tdm (= tredimensionell rörlig bild)``` 
+
+#### Inspelning
+Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
+
+##### Anmärkning om inspelningens tid, plats och omständigheter.
+* Inspelning/Inspelning/Benämning (capture/Inspelning/label = 518 #a)</BR>
+ Skriv in uppgiften under Benämning.</BR>
+   ```Exempel: Inspelad 2010 i Konserthuset, Stockholm```
+
+##### Kodade uppgifter om inspelningstid och inspelningsplats.
+* Inspelning/Inspelning/Datum (capture/Inspelning/date = 033 #a)</BR>
+  Under Inspelning, lägg till Inspelning som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Lägg till Datum genom att klicka på plustecknet, Lägg till egenskaper under: Inspelning. Skriv in uppgiften.</BR>
+    ```Exempel: 2010```
+
+* Inspelning/Inspelning/Plats/Plats/Benämning (capture/Inspelning/place/Plats = 033 #p)</BR>
+  Klicka igen på plustecknet, Lägg till egenskaper under: Inspelning. Lägg till Plats.
+  Under Plats, lägg till Plats som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
+  Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.</BR>
+   ```Exempel: Stockholm```
+
 #### Anmarkningar
 ##### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
