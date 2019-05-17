@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-05-17
-* Ändrad instruktion om innehållstyp i Checklistan för postimport:
+* Ändrad instruktion om bärartyp, medietyp, innehållstyp, funktion och andra databaser; instruktioner kompletterade gällande ISBN och MARC-fält i Checklistan för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-05-15
