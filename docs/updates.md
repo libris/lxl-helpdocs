@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-05-15
+date: 2019-05-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-05-17
+* Ändrad instruktion om innehållstyp i Checklistan för postimport:
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-05-15
 * Ändrad instruktion om upprepad innehållstyp i hjälptexterna för Verk, Tryckt monografi, E-bok samt Musiktryck:
