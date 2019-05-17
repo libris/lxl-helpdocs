@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-05-09
+date: 2019-05-17
 tags:
 - redigering
 - postimport
@@ -270,9 +270,9 @@ OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt.
 #### SAB-klassifikation 
 - Lägg till klassifikationskod.
 
-### Innehallstyp 
-Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b) 
+#### Innehallstyp
+Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)  
 
-- Kontrollera att beskrivningen är korrekt. 
-
-OBS! Entiteterna behöver inte länkas. Länk skapas automatiskt då instansen sparas.
+* Kontrollera att beskrivningen är korrekt och länka vid behov:  
+   * Om beskrivningen innehåller koder och/eller termer på engelska behöver entiteterna inte länkas. Länk skapas automatiskt då instansen sparas.  
+   * Om beskrivningen innehåller termer på annat språk än engelska måste entiteterna länkas.
