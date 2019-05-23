@@ -11,7 +11,7 @@ tags:
 
 ## Enkel beståndsregistrering
 
-Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till.
+Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när ett bestånd läggs till. Kortkommando för att lägga bestånd är alt+b.
 
 Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du se om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.
 
