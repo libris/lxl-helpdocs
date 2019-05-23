@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2019-05-15
+date: 2019-05-23
 tags:
 - under arbete
 - agenter
@@ -113,6 +113,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Är del av/Namn (isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Sverige```
+  <br/>OBS! Egenskapen Är del av ska inte länkas.
 
 * Namn på underordnad enhet (marc/subordinateUnit = 110 2/- #b och 110 2/- #b #b)
   <br/>Underordnade och relaterade jurisdiktioner som ska anges som underavdelning. Namn på underordnad enhet ingår i den auktoriserade namnformen. Egenskapen används endast tillsammans med Är del av.
@@ -128,16 +129,17 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar.
-  <br/>```Exempel:```
-   * ```Borås kommun (Sverige)``` 
-   
-  ```Exempel på namnform i flera led:```
-  * ```Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Riksdagen ```
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. 
+  <br/>OBS! Varianter ska inte göras till sökbara länkar. 
+  <br/>```Namnform i ett led:```
+  <br/>```Exempel: Borås kommun (Sverige)```
+  
+  ```Namnform i flera led:```
+  <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Sverige samt Jurisdiktion/Namn på underordnad enhet: Riksdagen ```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Jordbruksutskottet```
-
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av agent som behöver läggas till i rullmenyn.
+
 
 #### Se även
 * Se även (seeAlso = 510)
