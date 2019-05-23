@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 76
-date: 2019-04-16
+date: 2019-05-23
 tags:
 - under arbete
 - agenter
@@ -176,18 +176,16 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Variant
 * Variant (hasVariant = 410 #a #b)
-  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc. Varianter ska inte göras till sökbara länkar. 
-  <br/>```Exempel:```
-   * ```Släktforskarförbundet```
-   * ```Federation of Swedish Genealogical Societies```
-  
-  ```Exempel på namnform i flera led:```
-  * ```Organisation/Är del av/Organisation/Namn: Stockholm University samt Organisation/Namn på underordnad enhet: Centre for Medieval Studies ```
+  <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
+  <br/> OBS! Varianter ska inte göras till sökbara länkar.
+  <br/>```Namnform i ett led```
+  <br/>```Exempel: Släktforskarförbundet```
+    
+  ```Namnform i flera led:```
+  <br/>```Exempel: Organisation/Är del av/Organisation/Namn: Uppsala universitet samt Organisation/Namn på underordnad enhet: Institutionen för informationsteknologi```
 <br/>Om namnformen består av fler än två led används plutecknet vid Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
-  <br/>```Exempel: Biblioteket```
-
+  <br/>```Exempel: Avdelningen för systemteknik```
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av Agent som behöver läggas till i rullmenyn.
-
 
 #### Samma sak som
 * Samma sak som (sameAs)
@@ -260,4 +258,3 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet. Lägg sedan till Benämning och skriv in uppgiften. OBS! Organisatorisk tillhörighet ska inte länkas.
-
