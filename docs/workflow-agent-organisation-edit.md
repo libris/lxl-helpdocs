@@ -175,7 +175,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: 1886```
 
 #### Variant
-* Variant (hasVariant = 410 #a #b)
+* Variant (hasVariant = 410 #a #b #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
   <br/> OBS! Varianter ska inte göras till sökbara länkar.
   <br/>```Namnform i ett led```
