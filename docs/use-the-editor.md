@@ -24,7 +24,7 @@ tags:
 | [- Berika från post](#verktyg)
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
-| [- Förhandsgranska MARC21](#forhandsgranska-MARC21) |
+| [- Förhandsgranska MARC21](#forhandsgranska-marc21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
