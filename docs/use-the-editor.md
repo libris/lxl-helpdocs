@@ -17,14 +17,14 @@ tags:
 | [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy)
 | -------- | ----------- | ----------- |
 | [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | 
-| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
-| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) | 
+| [Visa som](#visa-som) | [Lägg till egenskap](#visa-som) | [Lägg till förekomst av egenskap](#entitetsfunktioner) | 
+| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#entitetsfunktioner) | 
+| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#entitetsfunktioner) | 
 | [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
 | [- Berika från post](#verktyg)
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
-| [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
-| [- Förhandsgranska MARC21](#forhandsgranska-marc21) |
+| [- Ladda ner sammanslagen MARC21](#ta-bort) |
+| [- Ladda ner JSON-LD](#ta-bort) |
+| [- Förhandsgranska MARC21](#ta-bort) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
