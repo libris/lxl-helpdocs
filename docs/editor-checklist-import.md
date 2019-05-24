@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-05-17
+date: 2019-05-24
 tags:
 - redigering
 - postimport
@@ -126,11 +126,11 @@ Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z
 OBS! Anvisningarna som följer är upprättade med tanke på matchningsproblematik vid automatiska flöden och skiljer sig därför från RDA-anvisningarna. Arbete pågår med att se över egenskaperna och hitta lösningar på problemen.
 
 Vid import från Andra källor innehåller posterna ofta flera olika ISBN, både för tryckt och elektronisk utgåva. För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande: 
--	För en tryckt version får det inte finnas ISBN för en annan tryckt version i *Indirekt identifierad av*, utan enbart i *Identifikator*. Flytta ISBN för tryckta versioner till *Identifikator* och låt ISBN för elektroniska versioner ligga kvar under *Indirekt identifierad av*. 
-- För elektroniska resurser gäller samma sak, fast tvärtom. Det får inte ligga ISBN för en annan elektronisk version under *Indirekt identifierad av*, utan där får endast ISBN för olika tryckta versioner ligga. 
-- Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både *Identifikator* och *Indirekt identifierad av*. Låt ISBN endast ligga kvar i en av egenskaperna. 
-- Om det ligger ISBN till andra utgåvor i *Indirekt identifierad av*, kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/Nothing/Särskiljande tillägg. Lägg till det särskiljande tillägget under *Indirekt identifierad av*, kopplat till det värde det gäller, och radera *Nothing* under *Identifikator*. 
-- Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast det som hör till resursen som ska katalogiseras vara kvar. 
+- Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast det som hör till resursen som ska katalogiseras ligga kvar. 
+-	För en tryckt version får det inte finnas giltiga ISBN för en annan tryckt version i *Indirekt identifierad av*, utan enbart i *Identifikator*. Flytta ISBN för tryckta versioner till *Identifikator* och låt ISBN för elektroniska versioner ligga kvar under *Indirekt identifierad av*. 
+- För elektroniska resurser gäller samma sak, fast tvärtom. Det får inte ligga giltiga ISBN för en annan elektronisk version under *Indirekt identifierad av*, utan där får endast ISBN för olika tryckta versioner ligga. 
+- Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både *Identifikator* och *Indirekt identifierad av*. Ta bort det/de ISBN som ligger fel. 
+- Vid import kan det särskiljande tillägget (020 #q) som hör till det ISBN som matchas till *Indirekt identifierad av*, ibland hamna fel och lägga sig som Nothing/Särskiljande tillägg under *Identifikator*. Lägg till och fyll i Särskiljande tillägg under *Indirekt identifierad av*, kopplat till det ISBN det tillhör, och radera Nothing under *Identifikator*. 
 
 ### Utgivningssatt
 Utgivningssätt (issuanceType) 
