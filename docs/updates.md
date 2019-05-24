@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-05-17
+date: 2019-05-24
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+
+2019-05-24
+* Ändrad instruktion om ISBN i Checklistan för postimport:
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-05-17
 * Ändrad instruktion om bärartyp, medietyp, innehållstyp, funktion och andra databaser; instruktioner kompletterade gällande ISBN och MARC-fält i Checklistan för postimport:
