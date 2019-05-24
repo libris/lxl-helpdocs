@@ -24,7 +24,7 @@ tags:
 | [- Berika från post](#verktyg)
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
-| [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
+| [- Förhandsgranska MARC21](#forhandsgranska-MARC21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
@@ -82,8 +82,14 @@ Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importera
 #### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
 
-#### Förhandsgranska MARC21
+#### Forhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
+
+Observera att förhandsgranskningen kan skilja sig åt mellan osparad kontra sparat läge. Följande egenskaper visas exempelvis inte i osparat läge:
+ * bärartyp med flera värden
+ * kodade genre/form-värden som exporteras till fasta fält
+ * länkade ämnesord
+ * indikatorer till klassifikations- och ämnesordsfält
 
 #### Ta bort 
 Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort Instans / Ta bort Bestånd / Ta bort Agent. En post går endast att radera om den inte har obrytbra relationer. 
