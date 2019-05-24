@@ -16,6 +16,9 @@ På denna sida listas ändringar i hjälptexterna.
 * Ändrad instruktion om ISBN i Checklistan för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
+* Förtydligande avseende Förhandsgranska MARC21:
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
+
 2019-05-17
 * Ändrad instruktion om bärartyp, medietyp, innehållstyp, funktion och andra databaser; instruktioner kompletterade gällande ISBN och MARC-fält i Checklistan för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
