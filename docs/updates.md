@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-05-24
+date: 2019-05-27
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,10 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+
+2019-05-27
+* Förtydligad instruktion för funktionen Skapa ny - Från fil:
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-05-24
 * Ändrad instruktion om ISBN i Checklistan för postimport:
