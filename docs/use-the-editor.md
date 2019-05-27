@@ -145,7 +145,7 @@ och välj ok för att spara filen/mallen.
 
 2. Skapa ny från fil
  * Välj Skapa ny - Från fil. 
- * Klicka på Välj fil och leta fram den förberedda mallposten i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
+ * Klicka på Välj fil och leta fram den förberedda filen/mallen i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
  * Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
 
 3. Redigera posten efter behov och spara.
