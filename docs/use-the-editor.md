@@ -2,46 +2,47 @@
 section: Redigering
 title: Att använda verktyget
 order: 11
-date: 2019-05-24
+date: 2019-05-27
 tags:
 - redigering
 - editor
 - att använda verktyget
 ---
 
-# Att använda verktyget
+## Att använda verktyget
 
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy)
-| -------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#visa-som) | [Lägg till förekomst av egenskap](#entitetsfunktioner) | 
-| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#entitetsfunktioner) | 
-| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#entitetsfunktioner) | 
-| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) | 
-| [- Berika från post](#verktyg)
-| [- Ladda ner sammanslagen MARC21](#ta-bort) |
-| [- Ladda ner JSON-LD](#ta-bort) |
-| [- Förhandsgranska MARC21](#ta-bort) |
+| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](ovrigt) |
+| -------- | ----------- | ----------- | ----------- |
+| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](skapa-ny-från-fil) |
+| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) |
+| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
+| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) |
+| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [- Berika från post](#verktyg) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
+| [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
+| [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
 
-## Visningsvy
 
-### Lägg bestånd (endast från typen instans)
+### Visningsvy
+
+#### Lägg bestånd (endast från typen instans)
 Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där man når beståndsposten via beståndsknappen högst upp i posten. På beståndsknappen syns vilket sigel beståndet läggs på. Från instansposten kan man även se hur många andra bibliotek som har bestånd på instansen.
 
-### Visa som
+#### Visa som
 Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska informationen i olika RDF format:
   * Formell resurs (resursens id samt länkar till olika visningsvyer)  
   * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF anpassad för webbapplikationer) 
   * [Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
   * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML format)
 
-### Verktyg
+#### Verktyg
 
 ![Verktygsalternativ](verktygsalternativ.png)  
 
@@ -50,12 +51,12 @@ För att skapa en bättre översikt över posten samt för att lättare se vad p
 Expandera: Alt + Plus
 Minimera: Alt + Minus
 
-#### Berika från mall
+##### Berika från mall
 Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
 
-#### Berika från post
+##### Berika från post
  * Berika från fil
-  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. 
+  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
    * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
    * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
    * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
@@ -76,63 +77,78 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
-#### Ladda ner sammanslagen MARC21
+##### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
 
-#### Ladda ner JSON-LD
+##### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
 
-#### Forhandsgranska MARC21
+##### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
-Observera att förhandsgranskningen kan skilja sig åt mellan osparad kontra sparat läge. Följande egenskaper visas exempelvis inte i osparat läge:
- * bärartyp med flera värden
- * kodade genre/form-värden som exporteras till fasta fält
- * länkade ämnesord
- * indikatorer till klassifikations- och ämnesordsfält
-
-#### Ta bort 
+##### Ta bort 
 Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort Instans / Ta bort Bestånd / Ta bort Agent. En post går endast att radera om den inte har obrytbra relationer. 
 
-### Redigera
+#### Redigera
 Klicka på Redigera för att göra ändringar i posten. 
 
 
-
-## Verktygsmeny i redigeringsvy
+### Verktygsmeny i redigeringsvy
 
 ![Redigering](redigering.png)  
 
-### Verktyg
+#### Verktyg
 (se beskrivning av Verktyg ovan)
 
-### Lägg till egenskap
+#### Lägg till egenskap
 Knappen Lägg till egenskap lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
 
-### Ångra
+#### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
 
-### Spara
+#### Spara
 Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. När du sparar uppdateras uppgifter för tidpunkt och användare som sparat posten.
 
-### Spara och sluta redigera
+#### Spara och sluta redigera
 Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar. 
 
-## Funktioner i redigeringsvy
+### Funktioner i redigeringsvy
 
 ![Redigeringsfunktioner](redigeringsfunktioner.png)  
 
-### Ta bort egenskap
+#### Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
 
-### Lägg till förekomst av egenskap
+#### Lägg till förekomst av egenskap
 Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten.  
 
-### Hjälp i formuläret
+#### Hjälp i formuläret
 Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp ](https://libris.kb.se/katalogisering/help) (överst i formuläret).  
 
-### Lägg till och ta bort underliggande egenskap
+#### Lägg till och ta bort underliggande egenskap
 Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
-### Entitetsfunktioner
+#### Entitetsfunktioner
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).    
+
+### Ovrigt
+
+#### Skapa ny - Från fil
+Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
+
+1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
+</br>Börja med att kopiera posten (Verktyg -> Kopiera). 
+</br>Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
+</br>När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
+och välj ok för att spara filen/mallen.
+</br>Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
+
+2. Skapa ny från fil
+</br>Välj Skapa ny - Från fil. 
+</br>Klicka på Välj fil och leta fram den förberedda mallposten i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
+</br>Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
+
+3. Redigera posten efter behov och spara.
+
+Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
+
