@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-05-27
+date: 2019-06-05
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,9 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-06-05
+* Hjälptexten för Person - skapa ny är uppdaterad med anledning av att egenskapen Translitterering inte längre ingår i mallen:
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
 
 2019-05-27
 * Förtydligad instruktion för funktionen Skapa ny - Från fil:
