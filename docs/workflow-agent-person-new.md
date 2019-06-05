@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-03-26
+date: 2019-06-05
 tags:
 - agenter
 - auktoriteter
@@ -53,6 +53,14 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Kontrollnummer (controlNumber = 001)
   <br/>Libris-ID. Genereras automatiskt vid sparande. Ändras ej.
 
+#### Beskrivningsnivå 
+ * Beskrivningsnivå (encodingLevel)
+  <br/>Förval: Fullständig. Ändras ej.
+
+#### Poststatus
+* Poststatus (recordStatus = 000/Leader/)
+  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
+  
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
   <br/>Förval: Inloggad sigel. Ändras ej.
@@ -64,10 +72,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:```
   * ```Kod: rda```
 
-#### Translitterering
-* Translitterering (marc:romanization = 008/07)
-  <br/>Ändras ej.
-
+#### Katalogisatörens anmärkning
+* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. I övrigt kan det t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
+  <br/>```Exempel:``` 
+  * ```2018-08-27 S/MSS/evaann```
+  * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
+  
 #### Typ av auktoritetspost
 * Typ av auktoritetspost (marc:kindOfRecord = 008/09)
   <br/>Ändras ej.
@@ -75,13 +86,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Marc:headingMain
 * Marc:headingMain (008/14)
   <br/>Ändras ej.
-
-#### Katalogisatörens anmärkning
-* Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. I övrigt kan det t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. 
-  <br/>```Exempel:``` 
-  * ```2018-08-27 S/MSS/evaann```
-  * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -100,10 +104,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
 
-#### Poststatus
-* Poststatus (recordStatus = 000/Leader/)
-  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
-
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
@@ -111,7 +111,7 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
   <br/>Ändras ej.
-
+  
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
   <br/>Ändras ej.
@@ -119,10 +119,6 @@ Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämn
 #### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
-
-#### Beskrivningsniva
-* Beskrivningsnivå
-  <br/>Förval: Fullständig. Ändras ej.
 
 
 ### Agent
@@ -289,6 +285,10 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
   <br/>Här är det möjligt att ange en samhörande organisation.
   <br/>```Exempel: Uppsala universitet``` 
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Organisatorisk tillhörighet, och skapa lokal entitet t ex organisation. Lägg sedan till benämning och skriv in uppgiften. *OBS! Organisatorisk tillhörighet ska inte länkas.*
+
+#### Translitterering
+* Translitterering (marc:romanization = 008/07)
+  <br/>Läggs till vid behov (i adminmetadata).
 
 
 #### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
