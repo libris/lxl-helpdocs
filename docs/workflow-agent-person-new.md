@@ -24,19 +24,19 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
-| [Translitterering](#translitterering) | [Födelse- och/eller dödstid](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
-| [Marc:headingMain](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Variant](#variant) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
+| [Skapad av](#skapad-av)  | [Förnamn](#efternamn) |
+| [Katalogiseringsregler](#katalogiseringsregler) [Födelse- och/eller dödstid](#efternamn) |
+| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
+| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
+| [Marc:headingMain](#typ-av-auktoritetspost) | [Variant](#variant) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
 | [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#beskrivningsniva) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Namn](#namn) | 
+| | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
@@ -44,6 +44,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
+| | [Translitterering](#translitterering) | | 
 
 
 ### Adminmetadata
