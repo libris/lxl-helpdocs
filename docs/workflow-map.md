@@ -69,7 +69,7 @@ Skapa lokal entitet . Ange applicerat material vid katalogisering av handritade 
 
 I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vid behov. Observera att uppgift om färginnehåll (färg, svartvit eller kolorerad) även anges i klartext i egenskapen Övriga fysiska detaljer.
 
-#### Genre form (instans)
+#### Genre/form (instans)
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
@@ -77,7 +77,7 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
 ### Verk
 Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av kartor redovisas nedan.
 
-#### Genre form (verk)
+#### Genre/form (verk)
  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
