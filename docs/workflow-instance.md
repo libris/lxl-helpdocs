@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-05-08
+date: 2019-06-11
 tags:
 - under arbete
 - instans
@@ -110,7 +110,9 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```     
-     
+  
+ Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.   
+    
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
