@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2019-04-17
+date: 2019-06-11
 tags:
 - under arbete
 - bestånd
@@ -42,13 +42,15 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Monografisk resurs (000 [6] x)
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
   
-* Beskrivningsnivå (000 [17])
+* Beskrivningsnivå (000 [17]) *OBS! Beskrivningsnivåer för bestånd är under utredning. Hör av dig till Katalogsupporten ifall ditt bibliotek har behov av särskilda beskrivningsnivåer.* 
 Välj önskad nivå:
-  * Grundnivå (endast 852). Normalnivå för monografier
-  * 3	Nivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
-  * 4	Nivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
-  * 5	Nivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
-  * z	Annan nivå
+  * Beståndsnivå 1 (grundnivå, endast 852). Normalnivå för monografier
+  * Beståndsnivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
+  * Beståndsnivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
+  * Beståndsnivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
+  Om ingen beskrivningsnivå anges exporteras 000 [17] som z
+
+* Katalogisatörens anmärkning (599 ‡a)
 
 * Katalogisatörens anmärkning (599 ‡a)
 
