@@ -48,7 +48,7 @@ Välj önskad nivå:
   * Beståndsnivå 3 (summariskt bestånd i 853-855 och/eller 86X) (Beståndpost med nivå 3 måste innehålla minst ett fält 866)
   * Beståndsnivå 4 (detaljerat bestånd i 853-855 och/eller 86X)	
   * Beståndsnivå 5 (detaljerat bestånd, inkl. exemplarinformation, i 853-855 och/eller 86X)
-  * Om ingen beskrivningsnivå anges exporteras 000 [17] som z
+  * Om ingen beskrivningsnivå anges exporteras z i 000 [17]
 
 * Katalogisatörens anmärkning (599 ‡a)
 
