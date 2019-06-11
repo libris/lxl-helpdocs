@@ -109,9 +109,8 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
-  ```Exempel: Titeln felstavad, korrekt titel:```     
-
-
+  ```Exempel: Titeln felstavad, korrekt titel:```       
+</br>
 Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.   
     
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
