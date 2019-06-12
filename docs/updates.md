@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-05
+date: 2019-06-12
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+
+2019-06-12
+* Information om att varianttitel för närvarande också används för att ange titlar i icke-latinsk skrift, i hjälptexten för Instans:
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
 
 2019-06-05
 * Hjälptexten för Person - skapa ny är uppdaterad med anledning av att egenskapen Translitterering inte längre ingår i mallen:
