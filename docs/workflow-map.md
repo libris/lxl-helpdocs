@@ -74,7 +74,7 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
  
-  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
+ * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
  Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
 ### Verk
