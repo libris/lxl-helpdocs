@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Karta
 order: 45
-date: 2019-04-02
+date: 2019-06-12
 tags:
 - under arbete
 - karta
@@ -73,14 +73,14 @@ I kartmallen finns entiteten Flera färger (marc/Multicolored) inlagd. Ändra vi
  * Genre/form (genreForm = 007/00: a/01)
  Länka till entitet. Välj bland entiteterna med rubriken ”Särskild bärarbeteckning kartmaterial”. Trunkera för att få upp en lista över samtliga entiteter. 
  </br>I kartmallen finns entiteten Karta (marc/MapATwoDimensionalMap) inlagd. Ändra vid behov.
+ 
+  * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
+ Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
 
 ### Verk
 Använd generell hjälptext för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). Egenskaper som är specifika för Verk vid katalogisering av kartor redovisas nedan.
 
 #### Genre/form (verk)
- * Genre/form/Typ av kartografiskt material(genreForm(marc) = 008/25)
- Länka till entitet. Välj bland entiteterna med rubriken ”Typ av kartografiskt material” Trunkera för att få upp en lista över samtliga entiteter. I kartmallen finns  entiteten ”Monografisk karta, utgiven ensam”(marc/SingleMap) inlagd. Ändra vid behov. Vid katalogisering av t.ex. atlas, ändra till ”Atlas/Kartbok, e”.
-
  * Genre/form – TGM-termer (genreForm = 655 -/7 #a #2 TGM)
  Länka till entitet. Välj Genre/form i listan över typer. Sök på önskad term. I kartmallen finns redan TGM-termen Kartor inlagd. Lägg till fler vid behov. I nuläget går det inte att filtrera på enbart TGM-termer. Vid många sökträffar kan det därför vara bra att söka på termens id-nummer, som i nuläget enklast söks fram i Auktoritetsdatabasen (välj Genre i index, sök efter aktuell term).
 
@@ -160,4 +160,3 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
  6. Lägg till följande egenskap inom Instans av Verk:
   * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
    <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
-
