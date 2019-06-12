@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-05-15
+date: 2019-06-12
 tags:
 - under arbete
 - verk
@@ -32,7 +32,7 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Genre](#genre) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Genre/form](#genre-form) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Klassifikation](#klassifikation) |  |  | 
 
 ### Verk   
@@ -168,7 +168,7 @@ Se Sammanfattning av innehåll
   ```Exempel: Parallelltext på svenska och engelska```  
 Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.  
   
-#### Genre 
+#### Genre form
 Länka till entiteter.  
  För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
  
