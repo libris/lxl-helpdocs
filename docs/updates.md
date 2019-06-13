@@ -11,6 +11,9 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-06-13
+* Anvisning om att byta verkstyp finns nu i hjälptexten för Verk:
+</br>https://libris.kb.se/katalogisering/help/workflow-work
 
 2019-06-12
 * Information om att varianttitel för närvarande också används för att ange titlar i icke-latinsk skrift, i hjälptexten för Instans:
