@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-12
+date: 2019-06-13
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,6 +12,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-06-13
+* Instruktion om sökning på ord med bindestreck borttagen. Det går nu att söka på ord med bindestreck utan citattecken.
+</br>https://libris.kb.se/katalogisering/help/search-01-queries
 * Anvisning om att byta verkstyp finns nu i hjälptexten för Verk:
 </br>https://libris.kb.se/katalogisering/help/workflow-work
 
