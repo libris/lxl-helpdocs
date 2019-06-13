@@ -2,7 +2,7 @@
 section: Sök
 title: Utforma sökfrågor
 order: 1
-date: 2019-02-28
+date: 2019-06-13
 tags:
 - search
 ---
@@ -29,7 +29,6 @@ En standardsökning ger träff på sammanslagen sökterm. En sökning på Astrid
 ### Exakt sökning
 
 Om du vill söka på en exakt fras, använd `"`. En sökning på `"Emil i Lönneberga"` ger träff på fras i angiven ordning. Sökningen kommer alltså inte matcha till exempel `Emil som bor i Lönneberga`.
-Denna sökning kan även användas för att söka på ämnesord eller andra begrepp med bindestreck, till exempel `"Människa-dator-interaktion"` eller `"Marie-Louise"`.  
 
 ### Eller
 
