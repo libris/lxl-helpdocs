@@ -82,13 +82,13 @@ Skriv in uppgiften, inom parentes.
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/#huvudtitel_seriell  "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften under Huvudtitel.      
   ```Exempel: Kammarmusik-nytt```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
   
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -227,7 +227,7 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
 ### Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
-Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
+Läs mer om [Verk och Instans](https://web.archive.org/web/20190419172232/https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 #### Medverkan och funktion     
 * Medverkan och funktion  
@@ -301,10 +301,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod  
+* Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version  
+* Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
 
