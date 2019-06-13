@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-05-03
+date: 2019-06-13
 tags:
 - under arbete
 - adminmetadata
@@ -11,7 +11,7 @@ tags:
 ## Adminmetadata
 
 Varje beskrivning i Libris katalogisering innehåller ett avsnitt med Adminmetadata, det vill säga administrativ metadata om beskrivningen, som till exempel beskrivningens ID, när och av vem den är skapad och dess status. Denna hjälptext beskriver de vanligaste egenskaperna under Adminmetadata i en instansbeskrivning. För Adminmetadata i agentbeskrivning, se Hjälptexter Agenter. För Adminmetadata i beståndspost, se Hjälptexter Bestånd. 
-För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
