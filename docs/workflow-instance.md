@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-06-11
+date: 2019-06-13
 tags:
 - under arbete
 - instans
@@ -16,7 +16,7 @@ En instans är av en viss typ. Exempel på instanstyper är: instans, elektronis
 
 Till verket knyts information som ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger för närvarande lokalt inom varje instansbeskrivning, under Instans av verk. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-Denna hjälptext beskriver de vanligaste egenskaperna under Instans. För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver de vanligaste egenskaperna under Instans. För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
