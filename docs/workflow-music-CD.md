@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-04-08
+date: 2019-06-17
 tags:
 - under arbete
 - musik-CD
@@ -10,12 +10,16 @@ tags:
 --- 
 
 ## Musik-CD - ljudinspelning 
+Beskrivningen av en musik-CD innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Denna hjälptext tar upp ett antal vanligt förekommande egenskaper vid beskrivning av musik-CD med utgångspunkt från exempel. Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. Använd gärna Berika från mall för att få med de viktigaste egenskaperna. För en del egenskaper hänvisas till andra hjälptexter för mer detaljerad information.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för musik-CD. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.
 
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn under Hjälp. För instruktioner om adminmetadata, se generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Musik-CD.
 
-För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA"). samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom egenskap, enligt Anvisningar för katalogisering - RDA.
 
@@ -25,23 +29,24 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Titel](#titel) | [Språk](#sprak)  |
-| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
-| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
-| [Identifikator](#identifikator) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
-| [Bilagor](#bilagor) | |
-| [Seriemedlemskap](#seriemedlemskap) | | 
-| [Innehållsanmärkning](#innehallsanmarkning) | | 
-| [Anmärkning](#anmarkning) | | 
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- |  ----------- | ----------- | 
+|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Titel](#titel) | [Språk](#sprak)  |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
+| | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
+| | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
+| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Bilagor](#bilagor) | |
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Anmärkning](#anmarkning) | | 
 
 ### Instans
   För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -160,7 +165,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
     Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c.  
   ```Exempel: 2017```  
   
-  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
+  Observera att År måste finnas med i beskrivningen, även om Datum finns med.</br>
   
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
@@ -239,7 +244,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
-    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
+    * ```Symfoni, nr 1, op. 45, d-moll ; Serenad, op. 36, d-moll```
     * ```Don't Deceive Me (Fats Domino) -- Cheatin' Woman (Frankie Ford) -- Honey Hush (Joe Turner) -- Diddy-Y-Diddy-O (Roy Brown) -- Whirlaway (Allen Toussaint) -- Cha Dooky Doo (Art Neville) -- Real Gone Party (Ruth & Al) -- Chickee Wah Wah (Bobby Marchan) --There'll Be No Backin' Out (Mickey & Sylvia) -- That's All I Need To Know (Sam Cooke) -- Carry On (Jerry Byrne)```
 
   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
@@ -265,7 +270,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Musik.  
   Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-  För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+  För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Musik - Lägg till egenskaper under: Musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
   Ange vid behov den föredragna titeln för verket här. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
@@ -277,12 +282,7 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   <br/>```Exempel:```
     * ```La traviata```
     * ```Symfoni```
-    * ```Pianomusik```
- 
-   Ange besättning i Huvudtitel efter form/genre/pregnant titel.
-  <br/>```Exempel:```
-    * ```Kvartett, stråkar```
-    * ```Fosterlandspsalm, röst, orkester```  
+    * ```Pianomusik```  
   
   Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
   <br/>```Exempel:```
@@ -306,9 +306,18 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
     Grupptitlar, exempelvis ”Pianomusik. Urval”, används då Instansen innehåller flera verk av samma tonsättare. Grupptiteln kompletteras med individuella sökingångar för dessa verk (i Relation/Verk).  
     Lägg till eventuell grupptitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Specificering i form av grupptitel. Skriv in uppgiften.  
      ```Exempel: Urval```  
+
+  * Besättning för framförande (musicMedium = 240 ‡m)  
+  Ange besättning. Skriv in uppgiften.
+  <br/>```Exempel:```
+    * ```orkester```
+    * ```klarinett, piano```
+    * ```blandad kör```
+      
   * Tonart (240 1/0 ‡r)       
     Ange tonart. Skriv in uppgiften.  
     ```Exempel: fiss-moll```  
+    
   * Version (240 1/0 ‡o)        
     Ange eventuellt arrangemang. Skriv in uppgiften.  
      ```Exempel: arr. röst, piano```  
@@ -401,22 +410,6 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entitet.  
   ```Exempel: term/rda/PerformedMusic```  
-  
-#### Anmarkning om medverkande
-  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)  
- Ange namn på medverkande följt av instrumentnamn och/eller röstläge.  
-  ```Exempel: Mats Gustafsson, flutephone, tenorsaxofon ; David Grubbs, harmonium```
-  
-#### Sammanfattning av innehall    
-  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
-  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
-  <br/>```Exempel:```
-    * ```60 trallar från Dalarna```
-    * ```Musik från filmen The star```
-
-  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
-  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
- ```Exempel: Ej preciserad```
  
 #### Inspelning
 Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats och omständigheter som ange kodade uppgifter om inspelningstid och inspelningsplats.
@@ -437,3 +430,20 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   Under Plats, lägg till Plats som lokal entitet genom att klicka på plustecknet, Lägg till entitet.
   Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.</BR>
    ```Exempel: Stockholm```
+  
+#### Anmarkning om medverkande
+  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)  
+ Ange namn på medverkande följt av instrumentnamn och/eller röstläge.  
+  ```Exempel: Mats Gustafsson, flutephone, tenorsaxofon ; David Grubbs, harmonium```
+  
+#### Sammanfattning av innehall    
+  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
+  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
+  <br/>```Exempel:```
+    * ```60 trallar från Dalarna```
+    * ```Musik från filmen The star```
+
+  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
+  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
+ ```Exempel: Ej preciserad```
+
