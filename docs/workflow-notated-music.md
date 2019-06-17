@@ -2,12 +2,11 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2019-04-17
+date: 2019-06-17
 tags:
 - under arbete
 - musiktryck
 --- 
-
 
 ## Musiktryck
 
@@ -31,18 +30,18 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Identifikator](#identifikator)  | [Verkets titel](#verkets-titel) |
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre](#genre) |
-| | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
-| | [Upplageuppgift](#upplageuppgift) | [Besättning](#besattning-for-framforande)  |
-| | [Utgivning](#utgivning) | [Notationssystem och språk](#notationssystem-och-sprak)  |
+| | [Identifikator](#identifikator)  | [Byta verkstyp](#byta-verkstyp) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| | [Titel](#titel) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-sprak) |
 | | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) |
-| | [Copyrightår](#copyrightar) | [Sekundär DDK-klassifikation](#sekundar-ddk-klassifikation) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| | [Omfång](#omfang) | [Har del](#har-del) |   
+| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+| | [Identifikator](#identifikator) | [Har del](#har-del) |  
+| | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
 | | [Mått](#matt) | |                                                                  
 | | [Bilagor](#bilagor) | |  
@@ -375,12 +374,22 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 
   För att lägga till egenskaper under Instans av Verk/Noterad musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
   
-  *Byte av verkstyp:*  
-  Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
-  Rekommendation: Ta fram posten i ytterligare ett webbläsarfönster innan verkstypen raderas om du vill kunna kopiera uppgifter från den gamla verkstypen till den nya, eller jämföra posten före och efter.  
-  För att ändra verkstyp, radera den befintliga verkstypen och lägg till en ny. Börja med att ta bort verkstypen Text genom att klicka på papperskorgen till höger om Text (eller annan verkstyp som du vill ändra). Lägg till en ny verkstyp genom att klicka på plustecknet till vänster om Instans av verk. Välj Skapa lokal entitet - Noterad musik.  
-  Välj sedan om du vill berika posten med metadata som fanns i den gamla verkstypen (klicka på Verktyg och välj Berika från post - Från ID och kopiera in det kontrollnummer som återfinns under Adminmetadata i samma post) ELLER om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall - Noterad musik). (OBS! Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan ändra Innehållstyp under Noterad musik till ”notated music · ntm”.)
+  #### Byta verkstyp
 
+Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
+
+**Observera:** Ta fram posten i ett nytt fönster i webbläsaren, innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
+
+* Steg 1: Kopiera postens ID som finns längst uppe till höger i postens sammanfattning (förutsatt att du senare vill berika posten med metadata från den gamla posten – annars hoppar du över detta steg).  
+
+* Steg 2: För att ändra verkstyp måste du radera den befintliga verkstypen och lägga till en ny. Börja med att ta bort verkstypen, till exempel Text, genom att klicka på papperskorgen till höger om Text (eller annan verkstyp som du vill ändra). Lägg till en ny verkstyp genom att klicka på plustecknet till vänster om Instans av verk. Välj Skapa lokal entitet och välj verkstyp Noterad musik.  
+
+* Steg 3: Välj sedan om du vill berika posten med metadata som fanns i den gamla posten (klicka på Verktyg och välj Berika från post - Från ID och klistra in det ID som du kopierade i Steg 1)  
+ELLER  
+om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall och välj typ Noterad musik).  
+
+**Observera:** Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.  
+ 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
 
