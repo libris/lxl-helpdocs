@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-13
+date: 2019-06-18
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-06-18
+* Hjälptexten för Person - skapa ny är uppdaterad med anledning av att mallen är uppstramad och vissa egenskaper (i adminmetadata) finns inte längre med:
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
 
 2019-06-13
 * Instruktion om sökning på ord med bindestreck borttagen. Det går nu att söka på ord med bindestreck utan citattecken:
