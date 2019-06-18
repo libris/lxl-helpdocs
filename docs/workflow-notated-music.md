@@ -196,7 +196,7 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
     Utgivningsår anges här, utan klamrar eller andra tecken - endast fyra positioner. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c (till 264 förutsatt att inte Datum är angivet). 
-  ```Exempel: 2017```  
+<br/>```Exempel: 2017```  
 
   Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
   
