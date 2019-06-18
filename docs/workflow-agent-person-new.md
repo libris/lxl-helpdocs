@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-06-05
+date: 2019-06-18
 tags:
 - agenter
 - auktoriteter
@@ -28,15 +28,15 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Skapad av](#skapad-av)  | [Förnamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
-| [Typ av auktoritetspost](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
-| [Marc:headingMain](#typ-av-auktoritetspost) | [Variant](#variant) |
-| [Konsulterad källa](#typ-av-auktoritetspost) | [Se även](#variant) |
-| [Poststatus](#poststatus) |[Verksamhetsområde](#verksamhetsomrade) |
+| [Konsulterad källa](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
+| [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
+| [Auktoritetskontrollnivå](#differentiering-av-person) | [Se även](#variant) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [Verksamhetsområde](#verksamhetsomrade) |
 | [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
-| [Differentiering av person](#differentiering-av-person) | [Identifikator](#identifikator) |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [Nationalitet](#nationalitet) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [**Ytterligare egenskaper att lägga till vid behov**](#beskrivningsniva) |
-| | [Namn](#namn) | 
+| | [Identifikator](#identifikator) |
+| | [Nationalitet](#nationalitet) |
+| [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
+| [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Biografiska uppgifter](#biografiska-uppgifter) |
 | | [Titel eller övrig beteckning](#biografiska-uppgifter) |
@@ -44,23 +44,15 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
-| | [Translitterering](#translitterering) | | 
+
 
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
 
-#### Kontrollnummer
-* Kontrollnummer (controlNumber = 001)
-  <br/>Libris-ID. Genereras automatiskt vid sparande. Ändras ej.
-
 #### Beskrivningsnivå 
  * Beskrivningsnivå (encodingLevel)
   <br/>Förval: Fullständig. Ändras ej.
-
-#### Poststatus
-* Poststatus (recordStatus = 000/Leader/)
-  <br/>Val i meny. Välj Ny post vid skapande av ny auktoriserad agent. Vid uppdatering ändras status automatiskt.
   
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
@@ -79,14 +71,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel:``` 
   * ```2018-08-27 S/MSS/evaann```
   * ```Författaren vill inte ha sitt födelseår kopplat till den auktoriserade namnformen. Enligt e-post 2017-05-12, S/NB/annbjo```
-  
-#### Typ av auktoritetspost
-* Typ av auktoritetspost (marc:kindOfRecord = 008/09)
-  <br/>Ändras ej.
-
-#### Marc:headingMain
-* Marc:headingMain (008/14)
-  <br/>Ändras ej.
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -104,10 +88,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
 Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
-
-#### Uppdatering av posten
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
 
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
