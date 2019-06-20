@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-18
+date: 2019-06-20
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-06-20
+* I hjälptexterna för Agent - person är strukturen på exemplen inom egenskapen Konsulterad källa uppdaterad:
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-06-18
 * Hjälptexten för Person - skapa ny är uppdaterad med anledning av att mallen är uppstramad och vissa egenskaper (i adminmetadata) finns inte längre med:
