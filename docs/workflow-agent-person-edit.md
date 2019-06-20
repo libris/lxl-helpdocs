@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2019-03-26
+date: 2019-06-20
 tags:
 - redigera agent
 - redigera auktoritet
@@ -111,19 +111,32 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
+  <br/>Ange källa som Benämning och vid behov vilken uppgift som hämtats från källan som Uppgift från källa. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
   <br/>```Exempel på obligatorisk källa:``` 
-  <br/>```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Selma Lagerlöf```
-  <br/>```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
+  * ```Benämning: Jerusalem / Selma Lagerlöf, 1901``` 
+    <br/>```Uppgift från källa: Lagerlöf, Selma```
   
+  * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000``` 
+    <br/>```Uppgift från källa: Rowling, J. K.```
+
   <br/>```Exempel på kompletterande källa:``` 
-  * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
-  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
-  * ```Benämning: Birthday. Uppgift från källa: Född: 1988```
-  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Proclus, approximately 410-485```
+  * ```Benämning: NE 2018-04-12.``` 
+    <br/>```Uppgift från källa: Levnadstid 1848-1920```
+  
+  * ```Benämning: NE 2016-10-01```
+    <br/>```Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
+  
+  * ```Benämning: Wikipedia (svenska) 2018-04-12``` 
+    <br/>```Uppgift från källa: Dödstid 1867```
+  
+  * ```Benämning: Birthday``` 
+    <br/>```Uppgift från källa: Född: 1988```
+  
+  * ```Benämning: LC i VIAF 2017-11-21``` 
+    <br/>```Uppgift från källa: Proclus, approximately 410-485```
+  
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
-  <br/>För att lägga till: Klicka på plustecknet under Konsulterad källa. Välj typ av konsulterad källa i rullgardinsmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
   
 ### Egenskaper att lagga till i Adminmetadata
 
