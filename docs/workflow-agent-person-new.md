@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-06-18
+date: 2019-06-20
 tags:
 - agenter
 - auktoriteter
@@ -25,7 +25,7 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
-| [Skapad av](#skapad-av)  | [Förnamn](#efternamn) |
+| [Skapad av](#skapad-av) | [Förnamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
 | [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
 | [Konsulterad källa](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
@@ -74,20 +74,32 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
+  <br/>Ange källa som Benämning och vid behov vilken uppgift som hämtats från källan som Uppgift från källa. Den resurs som föranleder auktoriseringen är obligatorisk källa. 
   <br/>```Exempel på obligatorisk källa:``` 
-  * ```Benämning: Jerusalem / Selma Lagerlöf, 1901 Uppgift från källa: Lagerlöf, Selma```
-  * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000 Uppgift från källa: Rowling, J. K.```
+  * ```Benämning: Jerusalem / Selma Lagerlöf, 1901``` 
+    <br/>```Uppgift från källa: Lagerlöf, Selma```
+  
+  * ```Benämning: Harry Potter och hemligheternas kammare / J. K. Rowling, 2000``` 
+    <br/>```Uppgift från källa: Rowling, J. K.```
 
   <br/>```Exempel på kompletterande källa:``` 
-  * ```Benämning: NE 2018-04-12. Uppgift från källa: Levnadstid 1848-1920```
-  * ```Benämning: NE 2016-10-01 Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
-  * ```Benämning: Wikipedia (svenska) 2018-04-12 Uppgift från källa: Dödstid 1867```
-  * ```Benämning: Birthday. Uppgift från källa: Född: 1988```
-  * ```Benämning: LC i VIAF 2017-11-21 Uppgift från källa: Proclus, approximately 410-485```
+  * ```Benämning: NE 2018-04-12.``` 
+    <br/>```Uppgift från källa: Levnadstid 1848-1920```
+  
+  * ```Benämning: NE 2016-10-01```
+    <br/>```Uppgift från källa: Fullständigare namnform: Joanne Kathleen```
+  
+  * ```Benämning: Wikipedia (svenska) 2018-04-12``` 
+    <br/>```Uppgift från källa: Dödstid 1867```
+  
+  * ```Benämning: Birthday``` 
+    <br/>```Uppgift från källa: Född: 1988```
+  
+  * ```Benämning: LC i VIAF 2017-11-21``` 
+    <br/>```Uppgift från källa: Proclus, approximately 410-485```
+  
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
-  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. 
-Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
