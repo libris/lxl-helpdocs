@@ -27,8 +27,8 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 | [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
 | [Skapad av](#skapad-av) | [Förnamn](#efternamn) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogisatörens anmärkning](#typ-av-auktoritetspost) | [Födelsedatum](#efternamn) |
-| [Konsulterad källa](#typ-av-auktoritetspost) | [Dödsdatum](#efternamn) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Dödsdatum](#efternamn) |
 | [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
 | [Auktoritetskontrollnivå](#differentiering-av-person) | [Se även](#variant) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [Verksamhetsområde](#verksamhetsomrade) |
