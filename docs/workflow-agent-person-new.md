@@ -284,5 +284,5 @@ Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http:/
   <br/>Läggs till vid behov (i adminmetadata).
 
 
-#### Glöm inte att redigera Adminmetadata och spara entiteten innan vidare navigation i verktyget!
+#### OBS! I de fall namnformen ligger som en lokal entitet, dvs. olänkad, i en instans sker inte länkning automatiskt utan man behöver aktivt utföra länkningen i berörda instanser.
 
