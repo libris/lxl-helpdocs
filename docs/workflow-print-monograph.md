@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-05-15
+date: 2019-06-27
 tags:
 - under arbete
 - monografi
@@ -32,7 +32,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
 | | [Titel](#titel) | [Språk](#sprak) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
@@ -314,7 +314,7 @@ Se Sammanfattning av innehåll
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
 Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
-##### Genre
+##### Genre form
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer.  
  
@@ -334,7 +334,7 @@ Välj någon av övriga rubriker i listan.
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
+  ```Exempel: f ( = roman)```
    
 ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
