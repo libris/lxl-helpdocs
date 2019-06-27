@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-06-13
+date: 2019-06-27
 tags:
 - under arbete
 - verk
@@ -212,7 +212,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
+  ```Exempel: f ( = roman)```
    
 ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
