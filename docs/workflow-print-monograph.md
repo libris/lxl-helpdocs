@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-06-27
+date: 2019-06-28
 tags:
 - under arbete
 - monografi
@@ -188,7 +188,8 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 
 ##### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
-(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x) 
+(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)  
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
 
 ##### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
