@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2019-04-29
+date: 2019-06-28
 tags:
 - under arbete
 - e-bok
@@ -201,7 +201,8 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 
 ##### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
-(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x) 
+(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)</br>
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anvisningar för Katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn). 
 
 ##### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
