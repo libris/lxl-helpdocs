@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-20
+date: 2019-06-28
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-06-28
+* I hjälptexten för Instans och Tryckt monografi - kompletterad med information om felaktigt ISSN i instans, under Seriemedlemskap.
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
 2019-06-20
 * I hjälptexterna för Agent - person är strukturen på exemplen inom egenskapen Konsulterad källa uppdaterad:
