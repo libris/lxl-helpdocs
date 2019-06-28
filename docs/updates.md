@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-06-28
-* I hjälptexten för Instans och Tryckt monografi - kompletterad med information om felaktigt ISSN i instans, under Seriemedlemskap.
+*  Hjälptexter för Instans och Tryckt monografi kompletterade med information om felaktigt ISSN, under Seriemedlemskap:
 </br>https://libris.kb.se/katalogisering/help/workflow-instance
 </br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
 
