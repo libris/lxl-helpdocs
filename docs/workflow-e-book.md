@@ -366,7 +366,7 @@ Välj någon av övriga rubriker i listan.
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
+  ```Exempel: f (= roman)```
    
 ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
