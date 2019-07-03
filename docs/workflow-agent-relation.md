@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 24
-date: 2019-04-29
+date: 2019-07-03
 tags:
 - editor
 - under arbete
@@ -15,7 +15,7 @@ tags:
 
 Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter. Se även Hjälptexten Relationer till Agent i verksbeskrivningen.
 
-*I de första versionerna av nya Libris bör man inte länka till eller skapa nya verk, det är under utveckling.*
+Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [information i Librisbloggen](http://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).
 
 
 
@@ -84,9 +84,7 @@ För att skapa analytiska biuppslag på verk som ingår i den katalogiserade ins
 ## Verk som amne
 I de fall det finns en auktoriserad beskrivning av ett verk går den att länka till. De auktoriserade beskrivningar för verk som finns i Libris är i många fall ganska tunna men bör trots det användas för länkning till för att undvika att skapa lokala entiteter i onödan.
 
-Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast då det inte finns auktoriserad beskrivning att länka till. Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [information i Librisbloggen](http://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).
-
-
+Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast då det inte finns auktoriserad beskrivning att länka till. 
 
 ### Länka till verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
@@ -96,7 +94,8 @@ Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast 
 Exempel:
 </br>![Länkat verk som ämne](LankatVerkAmne.png)
 
-Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/0 #a #d #t) och anonyma verk (630 -/4 #a). 
+Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/0 #a #d #t) och anonyma verk (630 -/4 #a).
+
 </br>*Observera att för verk med primärt upphov genereras för tillfället andraindikator 0 i exportformatet.*
 
 </br>Flera verk kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
