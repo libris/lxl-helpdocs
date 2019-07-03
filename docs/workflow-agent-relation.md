@@ -86,6 +86,8 @@ I de fall det finns en auktoriserad beskrivning av ett verk går den att länka 
 
 Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast då det inte finns auktoriserad beskrivning att länka till. Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [information i Librisbloggen](http://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).
 
+
+
 ### Länka till verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
 * Filtrera på typen Verk.
@@ -94,7 +96,9 @@ Börja alltid med att söka efter länkbar entitet. Lokal entitet skapas endast 
 Exempel:
 </br>![Länkat verk som ämne](LankatVerkAmne.png)
 
-Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/- #a #d #t) och anonyma verk (630 -/4 #a).
+Tillvägagångssättet är detsamma för verk med primärt upphov (600 1/0 #a #d #t) och anonyma verk (630 -/4 #a). 
+</br>*Observera att för verk med primärt upphov genereras för tillfället andraindikator 0 i exportformatet.*
+
 </br>Flera verk kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
 ### Verk som lokal entitet
