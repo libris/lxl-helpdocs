@@ -46,7 +46,8 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
 * Öppna sidorutan Lägg till egenskaper under: Relation och välj Relation
   * Lägg till Relation/Skapa lokal entitet
   * Lägg till egenskaper under: Relation och välj Benämning
-  * Skriv in uppgiften. ```Exempel: Parafraserar```
+  * Skriv in uppgiften. 
+  <br/>```Exempel: Parafraserar```
 
  <br/>
 
