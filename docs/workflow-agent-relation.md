@@ -9,13 +9,12 @@ tags:
 ---
 
 ## Relationer till delar och verk 
-(7XX)
 
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
 
 Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter. Se även Hjälptexten Relationer till Agent i verksbeskrivningen.
 
-Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [information i Librisbloggen](http://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).
+Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [Librisinformation](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).
 
 
 
