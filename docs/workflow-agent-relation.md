@@ -14,8 +14,7 @@ tags:
 
 Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter. Se även Hjälptexten Relationer till Agent i verksbeskrivningen.
 
-Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande, se [Librisinformation](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).
-
+*Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande*, se [Librisinformation](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).
 
 
 [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
@@ -26,7 +25,6 @@ Rekommendationen att inte bryta ut verk som länkbar entitet gäller fortfarande
 
 [Verk som ämne](#verk-som-amne)
 
-   
 
 ### Relation till verk uttryckt genom text 
 Relation till ett verk av en författare (700 1/_ #i #a #d #t)
@@ -54,7 +52,6 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
 
 ### Obestamd relation till verk 
 Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 #a)
-
 
 ![Obestämd relation till ett verk](Obestrelationverk.png) 
 
