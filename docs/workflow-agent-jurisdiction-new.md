@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2019-05-23
+date: 2019-07-24
 tags:
 - under arbete
 - agenter
@@ -74,18 +74,21 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
+  <br/>Ange källa som Benämning och vid behov uppgift som hämtats från källan som Uppgift från källa. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel på obligatorisk källa:```
-  * ```Benämning: Översyn av utredningsförfarandet i brottmål, 1979 Uppgift från källa: Sverige. Justitiedepartementet```
-  
-  <br/>```Exempel på kompletterande källa:```
-  * ```Benämning: Wikipedia (Svenska) 2017-10-20. Uppgift från källa: Namnformen: Åmåls kommun```
-  * ```Benämning: Sveriges statskalender. Årg. 2003. Uppgift från källa: Startår: 1840```
-  
-  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  * ```Benämning: Översyn av utredningsförfarandet i brottmål, 1979``` 
+    <br/>```Uppgift från källa: Sverige. Justitiedepartementet```
  
+  <br/>```Exempel på kompletterande källa:```
+  * ```Benämning: Wikipedia (Svenska) 2017-10-20```
+    <br/>```Uppgift från källa: Namnformen: Åmåls kommun```
+  * ```Benämning: Sveriges statskalender. Årg. 2003``` 
+    <br/>```Uppgift från källa: Startår: 1840```
+   
+  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
+
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
@@ -140,7 +143,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Jordbruksutskottet```
 <br/> För att lägga till ytterligare Variant: Duplicera entiteten och redigera uppgifterna. Alternativt klicka på plustecknet vid egenskapen Variant och välj den typ av agent som behöver läggas till i rullmenyn.
 
-
 #### Se även
 * Se även (seeAlso = 510)
   <br/>Här länkas mot annan agent som hör ihop med jurisdiktionen. Det kan t ex vara föregångare eller efterföljare.
@@ -165,7 +167,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Administativ historik (hasHistoricalData = 678 #a)
   <br/>Anmärkning om administrativ historik.
   <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
-
   
 ### Ytterligare egenskaper att lägga till vid behov
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
