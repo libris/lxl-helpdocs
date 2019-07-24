@@ -149,12 +149,14 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel på obligatorisk källa:```
   * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016``` 
     <br/>```Uppgift från källa: Sveriges släktforskarförbund```
+    
   * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling```
     <br/>```Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
   <br/>```Exempel på kompletterande källa:```
   * ```Benämning: Wikipedia (Svenska) 2018-04-24```
     <br/>```Uppgift från källa: Startår 1886```
+    
   * ```Benämning: Landstingsförbundets webbplats 2018-08-17``` 
     <br/>```Uppgift från källa: Datum för namnbyte: 1984```
    
