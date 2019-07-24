@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 75
-date: 2019-05-23
+date: 2019-07-24
 tags:
 - under arbete
 - agenter
@@ -76,18 +76,22 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
-  <br/>Ange källa och vid behov vilken uppgift som hämtats från källan. 
+  <br/>Ange källa som Benämning och vid behov uppgift som hämtats från källan som Uppgift från källa. 
   <br/>Den resurs som föranleder auktoriseringen är en obligatorisk källa.
   <br/>```Exempel på obligatorisk källa:```
-  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016. Uppgift från källa: Sveriges släktforskarförbund```
-  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling. Uppgift från källa: Namnformen: Stockholm vatten och avfall```
+  * ```Benämning: Fader okänd / Sveriges släktforskarförbund, 2016``` 
+    <br/>```Uppgift från källa: Sveriges släktforskarförbund```
+  * ```Benämning: Material i Kungliga bibliotekets vardagstryckssamling```
+    <br/>```Uppgift från källa: Namnformen: Stockholm vatten och avfall```
   
   <br/>```Exempel på kompletterande källa:```
-  * ```Benämning: Wikipedia (Svenska) 2018-04-24. Uppgift från källa: Startår 1886```
-  * ```Benämning: Landstingsförbundets webbplats 2018-08-17. Uppgift från källa: Datum för namnbyte: 1984```
-  
-  OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.
-  <br/>För att lägga till ytterligare källa: Klicka på plustecknet inom Konsulterad källa. Välj typ av konsulterad källa i rullmenyn. Vid val av "Källa vid belagd uppgift" finns möjlighet att ange såväl Benämning (källa) som Uppgift hämtad från källa.
+  * ```Benämning: Wikipedia (Svenska) 2018-04-24```
+    <br/>```Uppgift från källa: Startår 1886```
+  * ```Benämning: Landstingsförbundets webbplats 2018-08-17``` 
+    <br/>```Uppgift från källa: Datum för namnbyte: 1984```
+   
+  <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
+  <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
 #### Uppdatering av posten
 * Uppdatering av posten (marc:recordUpdate = 008/31)
