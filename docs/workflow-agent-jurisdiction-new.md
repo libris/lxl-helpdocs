@@ -83,6 +83,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel på kompletterande källa:```
   * ```Benämning: Wikipedia (Svenska) 2017-10-20```
     <br/>```Uppgift från källa: Namnformen: Åmåls kommun```
+    
   * ```Benämning: Sveriges statskalender. Årg. 2003``` 
     <br/>```Uppgift från källa: Startår: 1840```
    
