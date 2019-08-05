@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-06-27
+date: 2019-08-05
 tags:
 - under arbete
 - verk
@@ -197,7 +197,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
  Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
  ```Exempel: Självbiografier```  
-  Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+  Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)  
   
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
