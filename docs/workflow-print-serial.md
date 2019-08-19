@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-08-05
+date: 2019-08-19
 tags:
 - under arbete
 - seriell resurs
@@ -112,8 +112,8 @@ Används för akronymer som är en del av huvudtiteln.
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
   
- ##### Tidsbestämd titelvariant   
-  Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+##### Tidsbestämd titelvariant   
+Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: Hushållningssällskapets magasin```  
