@@ -222,7 +222,7 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person i sökrutan till vänster. Sök efter och lägg till auktoriserad namnform. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
 #### Fullständigare namnform
-<br/>Används för att ange fullständig namnform i de fall då förkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
+Används för att ange fullständig namnform i de fall då förkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
 * Fullständigare namnform (fullerFormOfName = 100 #q)
   <br/>```Exempel:```
   <br/>```Fullständigare namnform: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
