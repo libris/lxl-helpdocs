@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-06-28
+date: 2019-08-20
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-08-20
+* Hjälptexterna för Person - Skapa ny samt Person - Redigera befintlig är förtydligade avseende egenskapen Fullständigare namnform:
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
 2019-06-28
 *  Hjälptexter för Instans och Tryckt monografi kompletterade med information om felaktigt ISSN, under Seriemedlemskap:
