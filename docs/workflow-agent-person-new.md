@@ -225,11 +225,11 @@ Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. 
 <br/>Används för att ange fullständig namnform i de fall då förkortning används i den auktoriserade namnformen. Anges i båda egenskaperna listade nedan.
 * Fullständigare namnform (fullerFormOfName = 100 #q)
   <br/>```Exempel:```
-  <br/>```Fullständigare namnform: Adam David``` (I egenskapen förnamn är A. D. angivet.)
+  <br/>```Fullständigare namnform: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
   
 * Fullständigare namnform - Personnamn (marc:fullerFormOfPersonalName = 378 #q)
   <br/>```Exempel:```
-  <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen förnamn är A. D. angivet.)
+  <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
 
 #### Biografiska uppgifter
 * Biografiska uppgifter (hasBiographicalInformation = 678)
