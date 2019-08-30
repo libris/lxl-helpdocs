@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-06-28
+date: 2019-08-30
 tags:
 - under arbete
 - monografi
@@ -44,7 +44,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Innehållsförteckning](#innehallsforteckning) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | |
 
@@ -218,6 +218,12 @@ Följ dessa instruktioner:
   
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
+
+#### Innehallsforteckning
+* Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
+ 
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
+(tableofContents = 505 8/0 #t, #r)  
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
@@ -448,8 +454,11 @@ Innehåll (008/24-27): Avhandling
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.   
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
+##### Sammanfattning av innehall  
+* Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
+
 ##### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)    
 
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
