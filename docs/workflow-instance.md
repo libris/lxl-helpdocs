@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-06-28
+date: 2019-08-30
 tags:
 - under arbete
 - instans
@@ -33,7 +33,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Upphovsuppgift](#upphovsuppgift) | | [Bilagor](#bilagor) | 
 | [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
 | [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsanmärkning](#innehallsanmarkning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsförteckning](#innehallsforteckning) |
 | [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Tillverkning](#tillverkning) | | [Annat bärarformat](#annat-bararformat) |
 | [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
@@ -414,9 +414,9 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
      
-#### Innehallsanmarkning  
+#### Innehallsforteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
+  För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
