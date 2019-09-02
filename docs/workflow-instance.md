@@ -30,7 +30,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Medietyp](#medietyp) | | [Omfång](#omfang) | 
 | [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
 | [Titel](#titel) | | [Mått](#matt) |
-| [Upphovsuppgift](#upphovsuppgift) | | [Bilagor](#bilagor) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medfoljande-material) | 
 | [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
 | [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsförteckning](#innehallsforteckning) |
@@ -366,9 +366,9 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
    
-#### Bilagor
+#### Medfoljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning.     
+Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning.     
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
