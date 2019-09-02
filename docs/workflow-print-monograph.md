@@ -41,7 +41,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
+| | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | |
