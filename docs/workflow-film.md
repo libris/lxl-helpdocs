@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2019-04-02
+date: 2019-09-04
 tags:
 - under arbete
 - film
@@ -40,11 +40,11 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
 | | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
 | | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
-| | [Bilagor](#bilagor) | [Anmärkningar](#anmarkningar) |
+| | [Medföljande material](#medfoljande-material) | [Anmärkningar](#anmarkningar) |
 | | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Innehållsförteckning](#innehallsforteckning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
@@ -232,19 +232,19 @@ Skriv in uppgiften under Benämning.
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   ```Exempel: stum, svartvit```
   
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans).</br> 
+#### Medfoljande material
+* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
+Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans).</br> 
 Lägg till Benämning. Skriv in uppgiften.
 <br/>```Exempel: 1 häfte (10 sidor)``` 
 
 #### Videokarakteristika
 * Videokarakteristika (videoCharacteristics = 007/04)
   <BR/>Länka till entitet. 
-  Här anges format, antingen DVD eller Blu-ray Disc.
-   <br/>```Exempel:```
-      * ```DVD, v```
-      * ```Blu-ray Disc, s```
+Här anges format, antingen DVD eller Blu-ray Disc.
+  <br/>```Exempel:```<br/>
+     * ```DVD, v```<br/>
+     * ```Blu-ray Disc, s```
 
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
@@ -256,8 +256,8 @@ Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan
 
 Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#malgrupp) under Instans av Verk. 
 
-#### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
+#### Innehallsforteckning  
+För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
   
 #### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen.
@@ -458,4 +458,3 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
  
-
