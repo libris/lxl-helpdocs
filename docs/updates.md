@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-09-04
-* "Tillsammans med" ändrat till "Medföljs av" (300 #e). Rubriken "Bilagor" ändrad till "Medföljande material", i hjälptexterna för Instans, Datorspel, Film, Ljudbok, Musik-CD, Musiktryck och Tryckt monografi.  
+* "Tillsammans med" ändrat till "Medföljs av" (300 #e). Rubriken "Bilagor" ändrad till "Medföljande material", i hjälptexterna för Instans, Datorspel, Film, Ljudbok, Musik-CD, Musiktryck och Tryckt monografi.
 </br>https://libris.kb.se/katalogisering/help/workflow-instance
 </br>https://libris.kb.se/katalogisering/help/workflow-video-game
 </br>https://libris.kb.se/katalogisering/help/workflow-film
