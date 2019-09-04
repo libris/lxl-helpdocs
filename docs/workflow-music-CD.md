@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-06-17
+date: 2019-09-04
 tags:
 - under arbete
 - musik-CD
@@ -43,9 +43,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Bilagor](#bilagor) | |
+| | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
 
 ### Instans
@@ -230,9 +230,9 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   Skriv in uppgiften.  
   ```Exempel: mono```
   
-#### Bilagor
-  * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-  Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
+#### Medfoljande material
+  * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
+  Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
   Lägg till Benämning. Skriv in uppgiften.  
    ```Exempel: Sångtexter och kommentarer i bilaga```  
     
@@ -240,17 +240,16 @@ Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för mu
   * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap) under rubriken Seriemedlemskap. 
    
-#### Innehallsanmarkning  
+#### Innehallsforteckning  
   * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.
+  För en enkel innehållsförteckning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
     * ```Symfoni, nr 1, op. 45, d-moll ; Serenad, op. 36, d-moll```
     * ```Don't Deceive Me (Fats Domino) -- Cheatin' Woman (Frankie Ford) -- Honey Hush (Joe Turner) -- Diddy-Y-Diddy-O (Roy Brown) -- Whirlaway (Allen Toussaint) -- Cha Dooky Doo (Art Neville) -- Real Gone Party (Ruth & Al) -- Chickee Wah Wah (Bobby Marchan) --There'll Be No Backin' Out (Mickey & Sylvia) -- That's All I Need To Know (Sam Cooke) -- Carry On (Jerry Byrne)```
 
-  * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 #t, #r)  
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter.  
-  Klicka på på pilen vid Innehållsförteckning: {Namnlös} för att fälla ut Utökad innehållsanmärkning med Benämning och Upphovsuppgift. Lägg in titel under Benämning och upphov under Upphovsuppgift. Vid behov, lägg in Kommentar.  
-  För att lägga till ytterligare en Utökad innehållsanmärkning med titel (Benämning) och Upphovsuppgift som lokal entitet, klicka på Duplicera entitet.
+   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
+  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se Hjälptexten för Instans:
+  https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning
   
 #### Anmarkning
   * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
