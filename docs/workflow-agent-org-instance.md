@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till Agent
 order: 23
-date: 2019-05-15
+date: 2019-09-04
 tags:
 - editor
 - under arbete
@@ -160,9 +160,9 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 #### Mote
 
 * Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
-<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
-  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Datum: 2006 samt Ordningstal: 21```
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
+  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Ordningstal: 21 samt Datum: 2006```
 
 * Möte som Ämne (Subject/agent/Meeting = 611 2/ )
-<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
- <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Datum: 1999 samt Ordningstal: 2```
+<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999```
