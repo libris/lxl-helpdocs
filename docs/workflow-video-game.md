@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Datorspel
 order: 40
-date: 2019-04-01
+date: 2019-09-04
 tags:
 - under arbete
 - datorspel
@@ -39,7 +39,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
 | | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Bilagor](#bilagor) | |
+| | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Systemkrav](#systemkrav) | |
@@ -235,9 +235,9 @@ Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#syst
 * Övriga fysiska detaljer (other physical details = 300 #b)  
   ```Exempel: ljud, svartvit```
   
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften.
+#### Medfoljande material
+* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
+Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften.
  <br/>```Exempel:```
    * ```1 handledning (36 sidor)``` 
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
