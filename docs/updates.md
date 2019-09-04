@@ -11,6 +11,16 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-09-04
+* "Tillsammans med" ändrat till "Medföljs av" (300 #e). Rubriken "Bilagor" ändrad till "Medföljande material", i hjälptexterna för Instans, Datorspel, Film, Ljudbok, Musik-CD, Musiktryck och Tryckt monografi.  
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>https://libris.kb.se/katalogisering/help/workflow-video-game
+</br>https://libris.kb.se/katalogisering/help/workflow-film
+</br>https://libris.kb.se/katalogisering/help/workflow-audiobook
+</br>https://libris.kb.se/katalogisering/help/workflow-music-CD
+</br>https://libris.kb.se/katalogisering/help/workflow-print-monograph
+* ”Innehållsanmärkning” (505) ändrat till ”Innehållsförteckning" i texterna för Instans, Film, Ljudbok, Musik-CD, Musiktryck och Tryckt monografi.  
+
 2019-08-20
 * Hjälptexterna för Person - Skapa ny samt Person - Redigera befintlig är förtydligade avseende egenskapen Fullständigare namnform:
 </br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
