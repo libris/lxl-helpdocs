@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2019-04-01
+date: 2019-09-04
 tags:
 - under arbete
 - ljudbok
@@ -38,9 +38,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Bilagor](#bilagor) | |
+| | [Medföljande material](#medfoljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | | 
+| | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmarkning](#anmarkning) | | 
 
 ### Adminmetadata
@@ -234,9 +234,9 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 * Övriga fysiska detaljer (other physical details = 300 #b)     
   ```Exempel: stereo```
   
-#### Bilagor
-* Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften. 
+#### Medfoljande material
+* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
+Här anges medföljande material, t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften. 
 <br/>```Exempel: 1 bildhäfte (20 sidor)```<br/> 
 Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäljning av CD-ljudböcker.
 <br/>```Exempel: 1 MP3-CD```
@@ -244,8 +244,8 @@ Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäl
 #### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
    
-#### Innehallsanmarkning  
-För anvisningar om hur man lägger till olika typer av innehållsanmärkningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsanmarkning): Innehållsanmärkning.
+#### Innehallsforteckning  
+För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
@@ -395,3 +395,4 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
+
