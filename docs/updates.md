@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-09-05
-* -	Ändrad instruktion för övrig titelinformation i Checklistan för postimport:
+* Ändrad instruktion för övrig titelinformation i Checklistan för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-09-04
