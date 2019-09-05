@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-08-20
+date: 2019-09-05
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-09-05
+* -	Ändrad instruktion för övrig titelinformation i Checklistan för postimport:
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-09-04
 * "Tillsammans med" ändrat till "Medföljs av" (300 #e). Rubriken "Bilagor" ändrad till "Medföljande material", i hjälptexterna för Instans, Datorspel, Film, Ljudbok, Musik-CD, Musiktryck och Tryckt monografi.
