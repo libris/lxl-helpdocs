@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-05-24
+date: 2019-09-05
 tags:
 - redigering
 - postimport
@@ -67,7 +67,7 @@ Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
 ### Skapad av 
 Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a) 
  
-För närvarande är förval vid postimport den sigel som importerat posten.  
+Vid postimport är för närvarande den sigel som importerat posten förvald.  
 
 ### Entry map 
 Entry map (marc:entryMap = 000/20-23) 
@@ -152,10 +152,7 @@ Har titel/… (hasTitle/… = 24X)
 
 - Kontrollera att beskrivningen är korrekt. 
 
-- OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder. För att kontrollera om det är korrekt ställ markören på Övrig titelinformation och om _titleRemainder_ blir synligt istället för _subtitle_, ändra uppgiften: 
-  - Klicka på Lägg till egenskaper under: Titel 
-  - Välj Övrig titelinformation/subtitle och skriv in undertiteln 
-  - Radera Övrig titelinformation/titleRemainder 
+- OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder. Uppgiften behöver inte ändras. 
  
 - Om Egenskapen _Titeln är sökelement_ finns med radera den. 
 
@@ -198,7 +195,7 @@ Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (
 
 - Ibland skapas det vid import två Seriemedlemskap, ett med _Serieuppgift_ och ett med _Ingår i serie_. Vid redigering kan man, om man bedömer det nödvändigt, slå ihop dem till ett. 
 
-- Om ISSN är angivet i både 490 och 830 och/eller om volymbeteckningen är angiven på olika sätt i 490 och 830 i ursprungsposten, dubbleras dessa inom Seriemedlemskapet. Radera de dubblerade fälten.  
+- Om ISSN är angivet i både 490 och 830 och/eller om volymbeteckningen är angiven på olika sätt i 490 och 830 i ursprungsposten, dubbleras dessa inom Seriemedlemskapet. Radera ett av de dubblerade fälten.  
 
 ### Andra databaser
 **Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**  
@@ -223,7 +220,7 @@ Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/w
 
 ### Medverkan och funktion 
 Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-- Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf).  
+- Kontrollera alltid om en auktoriserad namnform finns och länka i sådana fall till den. Vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf).  
 - Länka till korrekt funktion. Om beskrivningen endast innehåller koder behöver entiteterna inte länkas, länk skapas automatiskt då instansen sparas. Om egenskapen saknas: 
   - Klicka på plustecknet Lägg till egenskaper under: Primär medverkan (eller Medverkan) 
   - Välj Funktion och länka 
@@ -261,7 +258,7 @@ Läs mer om [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workfl
 #### Agenter som ämne
 Läs mer om agenter som ämne i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
-- Validera namnformer. 
+- Kontrollera om auktoriserad namnform finns och länka i sådana fall till den. 
 
 ### Klassifikation 
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
