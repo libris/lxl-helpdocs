@@ -87,7 +87,7 @@ Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
 Exempel:
 
-![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponeneter](LokaltSammansattSao.PNG) 
+![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter](LokaltSammansattSao.png) 
 
 ### Ämnesord från system med listkod där listkoden inte finns som länkad entitet
 
@@ -103,7 +103,7 @@ Exempel:
 
 Exempel:
 
-![Lokalt enkelt ämnesord med listkod fast](Lokaltenkeltfast.png)
+![Lokalt enkelt ämnesord med listkod fast](LokaltEnkeltfast.png)
 
 #### Sammansatt amnesord som lokal entitet utan lankbar listkod 
 
@@ -124,7 +124,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 Exempel:
 
-![Lokalt sammansatt ämnesord med listkod ram](Lokaltsammansattram.png)
+![Lokalt sammansatt ämnesord med listkod ram](LokaltSammansattram.png)
 
 #### Amnesord utan listkod
 
