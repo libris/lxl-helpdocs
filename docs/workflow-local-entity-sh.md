@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord som lokal entitet
 order: 115
-date: 2019-05-16
+date: 2019-09-09
 tags:
 - under arbete
 - ämnesord
