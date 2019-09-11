@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-09-04
+date: 2019-09-11
 tags:
 - under arbete
 - musik-CD
@@ -199,14 +199,15 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 Flera typer av identifikatorer kan finnas på ljudinspelningar. I mallen för musik-CD är Utgivningsnummer (ljudinspelning) och EAN förvalda.
 
 ##### Utgivningsnummer (ljudinspelning)
+Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivnummer kallas också fonogramnummer.  
   * Identifikator (identifiedBy)<br/>
   Välj typ från lista.
   <br/>```Exempel: Utgivningsnummer (ljudinspelning)```
   * Identifikator/Utgivningsnummer (ljudinspelning)/Värde (identifiedBy/AudioIssueNumber/value = 028 #a)<br/>
-  Ange identifikator som det förekommer i resursen.
+  Ange utgivningsnummer (= skivnummer) som det förekommer i resursen.
   <br/>```Exempel: DEERCD016```
-  * Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 #b)<br/>
-  Ange utgivarens namn.
+  * Identifikator/Agent/Organisation/Namn (= skivmärke) (identifiedBy/agent/Organization/name = 028 #b)<br/>
+  Ange skivmärkets namn.
   <br/>```Exempel: Dead End Exit Records```<br/>
   * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.    
@@ -445,4 +446,5 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
  ```Exempel: Ej preciserad```
+
 
