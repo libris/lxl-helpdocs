@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-09-05
+date: 2019-09-17
 tags:
 - redigering
 - postimport
@@ -154,7 +154,7 @@ Har titel/… (hasTitle/… = 24X)
 
 - OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder. Uppgiften behöver inte ändras. 
  
-- Om Egenskapen _Titeln är sökelement_ finns med radera den. 
+- Vid postimport medföljer ibland egenskapen _Titeln är sökelement_ med en liten ruta som kan kryssas i. Egenskapen kan raderas (genererar då fält 245 med ind. 1 = "1", normalvärde i Libris) eller ligga kvar oförändrad (genererar då fält 245 med ind. 1 = "0"). 
 
 ### Upphovsuppgift 
 Upphovsuppgift (responsibilityStatement = 245 #c) 
