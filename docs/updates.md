@@ -11,7 +11,7 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
-2019-09-17
+2019-09-17  
 Ändrad instruktion för Titel i Checklista för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
