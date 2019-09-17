@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-09-05
+date: 2019-09-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,8 +11,12 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-09-17
+Ändrad instruktion för Titel i Checklista för postimport:
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
+
 2019-09-05
-* Ändrad instruktion för övrig titelinformation i Checklistan för postimport:
+* Ändrad instruktion för övrig titelinformation i Checklista för postimport:
 </br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2019-09-04
