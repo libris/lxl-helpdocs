@@ -2,7 +2,7 @@
 section: Redigering
 title: Kortkommandon
 order: 14
-date: 2019-05-15
+date: 2019-10-07
 tags:
 - under arbete
 ---
@@ -17,6 +17,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
     
 |               Åtgärd 				 		    	| 		 									Kortkommando 																	|
 |						 ------------------------- 						     | 					------------------------- 																|
+| Sök				|Alt+S  								    |
 | Avbryt 				|Alt+Q  								    |
 | Växla mellan flikar 				|Ctrl+Tab  								    |
 | Kopiera, skapa identisk kopia av post 				|Ctrl+Shift+ C  								    |
@@ -40,6 +41,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
     
 |               Åtgärd 		 				    	| 						 					Kortkommando 																	|
 |						 ------------------------- 						    | 										------------------------- 																|
+| Sök				| ⌘+S  								    |
 | Avbryt 				|Alt+Q  								    |
 | Växla mellan flikar 				|Ctrl+Tab  								    |
 | Kopiera, skapa identisk kopia av post  				| ⌘+Shift+C  								|
