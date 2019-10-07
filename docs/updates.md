@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-09-17
+date: 2019-10-07
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,11 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+
+2019-10-07:
+* Kortkommando för Sök tillagt på sidan Kortkommandon:
+</br>https://libris.kb.se/katalogisering/help/editor-short-cuts
 
 2019-09-17  
 * Ändrad instruktion för Titel i Checklista för postimport:
