@@ -41,7 +41,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
     
 |               Åtgärd 		 				    	| 						 					Kortkommando 																	|
 |						 ------------------------- 						    | 										------------------------- 																|
-| Sök				| ⌘+S  								    |
+| Sök				| Alt+S  								    |
 | Avbryt 				|Alt+Q  								    |
 | Växla mellan flikar 				|Ctrl+Tab  								    |
 | Kopiera, skapa identisk kopia av post  				| ⌘+Shift+C  								|
