@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-09-03
+date: 2019-10-08
 tags:
 - under arbete
 - instans
@@ -278,8 +278,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[2017]```
     * ```[mellan 1863 och 1866?]```
   
-  
-* Flera år (flerbandsverk)  
+ * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
   * ```Startår: 1999```
@@ -291,7 +290,15 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Slutår: 1756```
   * ```Datum: [1753?]-1756```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  
+* Flera år (faksimil)  
+  Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. Lägg till Plats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
+  
+![Faksimil](faksimil.png)   
 
+* Flera år (osäkra år)  
+  Se [Huvudsakligt tillgänggliggörande/Kompletterande datum](#huvudsakligt-tillgangliggorande) .   
+  
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
 #### Tillverkning 
@@ -419,7 +426,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)    
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del och välj Skapa lokal entitet. Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
  Se [exempel](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
