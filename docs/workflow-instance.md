@@ -285,11 +285,11 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
       * ```Slutår: 2017```
       * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-      <br/>```Exempel:```
-      * ```Startår: 1753```
-      * ```Slutår: 1756```
-      * ```Datum: [1753?]-1756```
-      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+        <br/>```Exempel:```
+        * ```Startår: 1753```
+        * ```Slutår: 1756```
+        * ```Datum: [1753?]-1756```
+        * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
   
 * Flera år (faksimil)  
   Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. Lägg till Plats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
