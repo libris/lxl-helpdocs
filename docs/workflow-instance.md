@@ -281,15 +281,15 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
-    * ```Startår: 1999```
-    * ```Slutår: 2017```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+      * ```Startår: 1999```
+      * ```Slutår: 2017```
+      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-    <br/>```Exempel:```
-    * ```Startår: 1753```
-    * ```Slutår: 1756```
-    * ```Datum: [1753?]-1756```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+      <br/>```Exempel:```
+      * ```Startår: 1753```
+      * ```Slutår: 1756```
+      * ```Datum: [1753?]-1756```
+      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
   
 * Flera år (faksimil)  
   Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. Lägg till Plats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
