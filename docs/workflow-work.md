@@ -12,7 +12,7 @@ tags:
 
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För att byta verkstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
+Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk.  
 Läs mer om [Verk och Instans](https://web.archive.org/web/20190419172232/https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
