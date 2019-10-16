@@ -178,7 +178,6 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 
 <br/>*OBS!* Listan innehåller alla verkstyper.
 <br/>*OBS!* Byte av verkstyp kan innebära att länkade entiteter i verksbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika verkstyperna eller RDA-entiteter.
-
   <br/>```Exempel:```
   <br/>```Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
 För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp ändras till Text – txt.```
@@ -191,7 +190,6 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
 
 <br/>*OBS!* Listan innehåller alla instanstyper.
 <br/>*OBS!* Byte av instanstyp kan innebära att länkade entiteter i instansbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika instanstyperna eller RDA-entiteter.
-
    <br/>```Exempel:```
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
 
