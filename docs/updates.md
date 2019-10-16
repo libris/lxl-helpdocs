@@ -11,6 +11,12 @@ tags:
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
+2019-10-16:
+* Utökad innehållsanmärkning heter nu Utökad innehållsförteckning, se sidan Instans.
+</br>
+* Information om faksimil uppdaterad under Utgivning, på sidan Instans:
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
+
 2019-10-08:
 * Information om faksimil tillagd under Utgivning, på sidan Instans:
 </br>https://libris.kb.se/katalogisering/help/workflow-instance
