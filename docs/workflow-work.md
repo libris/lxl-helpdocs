@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-09-06
+date: 2019-10-16
 tags:
 - under arbete
 - verk
@@ -12,7 +12,7 @@ tags:
 
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För att byta verkstyp, se nedan under [Byta verkstyp](#byta-verkstyp).  
+Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För att byta verkstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk.  
 Läs mer om [Verk och Instans](https://web.archive.org/web/20190419172232/https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
@@ -28,12 +28,12 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 
 | [Verk](#verk) |  |  | 
 | ----------- |  ----------- |  ----------- |
-| [Byta verkstyp](#byta-verkstyp) |  | [Klassifikation](#klassifikation) | 
-| [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
+|  [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Genre/form](#genre-form) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Klassifikation](#klassifikation) |  | | 
 
 ### Verk   
    
@@ -47,22 +47,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
-#### Byta verkstyp
-
-Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
-
-**Observera:** Ta fram posten i ett nytt fönster i webbläsaren, innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
-
-* Steg 1: Kopiera postens ID som finns längst uppe till höger i postens sammanfattning (förutsatt att du senare vill berika posten med metadata från den gamla posten – annars hoppar du över detta steg).  
-
-* Steg 2: För att ändra verkstyp måste du radera den befintliga verkstypen och lägga till en ny. Börja med att ta bort verkstypen, till exempel Text, genom att klicka på papperskorgen till höger om Text (eller annan verkstyp som du vill ändra). Lägg till en ny verkstyp genom att klicka på plustecknet till vänster om Instans av verk. Välj Skapa lokal entitet och välj verkstyp, till exempel Noterad musik.  
-
-* Steg 3: Välj sedan om du vill berika posten med metadata som fanns i den gamla posten (klicka på Verktyg och välj Berika från post - Från ID och klistra in det ID som du kopierade i Steg 1)  
-ELLER  
-om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall och välj typ, till exempel Noterad musik).  
-
-**Observera:** Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.  
-
+ 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
