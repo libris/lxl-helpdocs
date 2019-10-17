@@ -16,14 +16,14 @@ tags:
 
 | [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
 | -------- | ----------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#ta-bort-egenskap) | [Skapa ny - Från fil](#ovrigt) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lägg-till-egenskap) | [Lägg till förekomst av egenskap](#lägg-till-förekomst-av-egenskap) | [Byta verks- och instanstyp](#ovrigt) |
-| [Verktyg](#verktyg) | [Ångra](#ångra) | [Hjälp i formuläret](#hjälp-i-formuläret) | 
-| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#lägg-till-och-ta-bort-underliggande-egenskap) |
-| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
+| [Visa som](#visa-som) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
+| [Verktyg](#verktyg) | [Ångra](#lagg-till-egenskap) | [Hjälp i formuläret](#funktioner-i-redigeringsvy) | 
+| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#funktioner-i-redigeringsvy) |
+| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara) | [Entitetsfunktioner](#entitetsfunktioner) |
 | [- Berika från post](#verktyg) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
-| [- Ladda ner JSON-LD](#ladda-ner-JSON-LD) |
+| [- Ladda ner JSON-LD](#ladda-ner-JSON--LD) |
 | [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
@@ -100,7 +100,7 @@ Klicka på Redigera för att göra ändringar i posten.
 #### Verktyg
 (se beskrivning av Verktyg ovan)
 
-#### Lägg till egenskap
+#### Lagg till egenskap
 Knappen Lägg till egenskap lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
 
 #### Ångra
