@@ -16,15 +16,15 @@ tags:
 
 | [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
 | -------- | ----------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#verktyg) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
-| [Visa som](#visa-som) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
+| [Lägg bestånd](#visningsvy) | [Verktyg](#visa-som) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
+| [Visa som](#visningsvy) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
 | [Verktyg](#verktyg) | [Ångra](#lagg-till-egenskap) | [Hjälp i formuläret](#funktioner-i-redigeringsvy) | 
 | [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#funktioner-i-redigeringsvy) |
 | [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara) | [Entitetsfunktioner](#entitetsfunktioner) |
 | [- Berika från post](#verktyg) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-MARC21) |
 | [- Ladda ner JSON-LD](#ladda-ner-JSON--LD) |
-| [- Förhandsgranska MARC21](#förhandsgranska-MARC21) |
+| [- Förhandsgranska MARC21](#forhandsgranska-MARC21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
@@ -83,7 +83,7 @@ Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importera
 ##### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
 
-##### Förhandsgranska MARC21
+##### Forhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
 ##### Ta bort 
