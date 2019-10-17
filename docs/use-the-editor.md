@@ -2,7 +2,7 @@
 section: Redigering
 title: Att använda verktyget
 order: 11
-date: 2019-10-16
+date: 2019-10-17
 tags:
 - redigering
 - editor
