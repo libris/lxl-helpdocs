@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-10-07
+date: 2019-10-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-10-17:
+* Ny funktionalitet för byte av verks- och instanstyp som beskrivs i hjälptext Att använda verktyget:
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-10-16:
 * Utökad innehållsanmärkning heter nu Utökad innehållsförteckning, se sidan Instans.
