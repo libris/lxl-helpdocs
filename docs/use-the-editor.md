@@ -23,8 +23,8 @@ tags:
 | [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara) | [Entitetsfunktioner](#entitetsfunktioner) |
 | [- Berika från post](#verktyg) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) |
-| [- Ladda ner JSON-LD](#ladda-ner-json--ld) |
-| [- Förhandsgranska MARC21](#forhandsgranska-marc21) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) |
 | [- Ta bort](#ta-bort) |
 | [- Redigera](#redigera) |
 
