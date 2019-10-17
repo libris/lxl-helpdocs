@@ -43,11 +43,10 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
   * Monografisk resurs (1 bibliografisk post med flera delar) (000 [6] v)
   
 * Beskrivningsnivå (000 [17])
+  * Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar informationen i 841 #e.
 
-Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar informationen i 841 #e.
 
-
-* Katalogisatörens anmärkning (599 ‡a)
+* Katalogisatörens anmärkning (599 #a)
 
 ### Har komponent
 (852)
