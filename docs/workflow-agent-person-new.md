@@ -24,15 +24,15 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Beskrivningsnivå](#beskrivningsniva) | [Efternamn](#efternamn) |
-| [Skapad av](#skapad-av) | [Förnamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
-| [Konsulterad källa](#katalogiseringsregler) | [Dödsdatum](#efternamn) |
+| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [Dödsdatum](#efternamn) |
 | [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
-| [Auktoritetskontrollnivå](#differentiering-av-person) | [Se även](#variant) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [Verksamhetsområde](#verksamhetsomrade) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Har yrke eller sysselsättning](#verksamhetsomrade) |
+| | [Se även](#variant) |
+| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Har yrke eller sysselsättning](#verksamhetsomrade) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
 | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
@@ -49,10 +49,6 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
-
-#### Beskrivningsnivå 
- * Beskrivningsnivå (encodingLevel)
-  <br/>Förval: Fullständig. Ändras ej.
   
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
@@ -101,17 +97,13 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-#### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-  
-#### Auktoritetskontrollnivå
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-
 #### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
+  
+#### Differentiering av person
+* Differentiering av person (marc:personalName = 008/32)
+  <br/>Ändras ej.
 
 
 ### Agent
