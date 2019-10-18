@@ -2,7 +2,7 @@
 section: Redigering
 title: Att använda verktyget
 order: 11
-date: 2019-10-17
+date: 2019-10-18
 tags:
 - redigering
 - editor
@@ -71,7 +71,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
 
    * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
-    </br>![Kopiera id](KopieraID.PNG)
+    </br>![Kopiera ID](KopieraID.PNG)
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
     </br>[Berika från ID](BerikafranID.png)
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
@@ -154,11 +154,11 @@ Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 
 #### Byta verks- och instanstyp
-Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Använd tabellen nedan för guidning gällande de vanligaste kombinationerna.
+Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
 
-##### Lista över de vanligaste kombinationerna av verks- och instanstyp
+##### Lista över de rekommenderade kombinationerna av verks- och instanstyp
 
 | **Verkstyp**  |  **Instanstyp** |   
 | :----------- | :----------- |
@@ -170,7 +170,14 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik) |
 | Projicerad bild (000/06=g i MARC21) | Videoinspelning (007v i MARC21) (mall: Film)<br>Elektronisk (007c i MARC21) |
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
-| Paket (000/06=o i MARC21) | Instans<br>Instans av paket (007o i MARC21) |
+| Paket (000/06=o i MARC21) | Instans |
+
+**Följande instanstyper bör ej användas:** 
+ * Instans av paket
+ * Instans av text
+ * Instans av musiknoter
+ * Instans av projicerad bild
+
 
 ##### Byta verkstyp  
 *	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
