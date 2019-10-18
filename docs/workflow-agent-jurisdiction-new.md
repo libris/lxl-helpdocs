@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2019-07-24
+date: 2019-10-18
 tags:
 - under arbete
 - agenter
@@ -26,15 +26,15 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Beskrivningsnivå](#adminmetadata) | [Namn](#namn) |
-| [Skapad av](#skapad-av) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Variant](#variant) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
-| [Konsulterad källa](#katalogiseringsregler) | [Nationalitet](#nationalitet) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| [Marc:headingMain](#uppdatering-av-posten) | [Administrativ historik](#administrativ-historik) |
+| [Skapad av](#skapad-av) | [Namn](#namn) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Identifikator](#identifikator) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant) |
+| [Konsulterad källa](#katalogiseringsregler) | [Se även](#variant) |
+| [Uppdatering av posten](#uppdatering-av-posten) | [Nationalitet](#nationalitet) |
+| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
+| [Marc:headingMain](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| | [Administrativ historik](#administrativ-historik) |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
@@ -46,10 +46,6 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 ### Adminmetadata
 
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
- 
-#### Beskrivningsnivå 
- * Beskrivningsnivå (encodingLevel)
-  <br/>Förval: Fullständig. Ändras ej.
    
 #### Skapad av
 * Skapad av (descriptionCreator = 040 #a)
