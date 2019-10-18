@@ -68,11 +68,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  <br/>```Exempel: Svenska```
  <br/>Ändras ej. Om egenskapen Katalogiseringsspråk saknas läggs denna till. Länka till entitet.
 
-#### Beskrivningsnivå
-* Beskrivningsnivå (encodingLevel = 000)
- <br/>Ska vara Fullständig. Ändras vid behov.
- <br/>```Exempel: Fullständig```
-
 #### Senast ändrad av
 * Senast ändrad av (descriptionLastModifier)
  <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.
@@ -83,10 +78,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Beskrivningsprocess 
  * Beskrivningsprocess (generationProcess = 000)
- <br/>Ändras ej.
-
-#### Marc:headingMain 
-* Marc:headingMain (marc:headingMain = 008/14)
  <br/>Ändras ej.
 
 #### Typ av auktoritetspost
