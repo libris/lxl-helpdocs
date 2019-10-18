@@ -190,7 +190,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 #### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
