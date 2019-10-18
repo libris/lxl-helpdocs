@@ -31,9 +31,9 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Identifikator](#identifikator) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant) |
 | [Konsulterad källa](#katalogiseringsregler) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Nationalitet](#nationalitet) |
-| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Marc:headingMain](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| | [Nationalitet](#nationalitet) |
+| | [Verksamhtens starttid](#verksamhetens-starttid) |
+| | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | | [Administrativ historik](#administrativ-historik) | |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
@@ -90,18 +90,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
    
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
-
-#### Uppdatering av posten
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-
-#### Auktoritetskontrollnivå
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-
-#### Marc:headingMain 
-* Marc:headingMain (marc:headingMain = 008/14)
- <br/>Ändras ej.
 
 
 ### Agent
