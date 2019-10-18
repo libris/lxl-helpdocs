@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-10-17
+date: 2019-10-18
 tags:
 - under arbete
 - instans
@@ -293,7 +293,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
         * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
   
 * Flera år (faksimil)  
-  Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning. Lägg till Årtal för ursprunglig utgivning och Årtal för ny utgivning. Lägg sedan till Plats, Land, Agent och År samt vid behov Datum.  
+  Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning (= 008/06: r). Lägg till Årtal för ursprunglig utgivning (= 008/07-10) och Årtal för ny utgivning (= 008/11-14). Lägg sedan till Plats, Land, Agent och Datum (= 264 #c).     
   
 ![Faksimil](faksimil.png)   
 
