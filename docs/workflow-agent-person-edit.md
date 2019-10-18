@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2019-08-20
+date: 2019-10-18
 tags:
 - redigera agent
 - redigera auktoritet
@@ -10,14 +10,14 @@ tags:
 --- 
 
 ## Redigera befintlig Agent - Person
-Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
+Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan ännu fler förekomma) i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
 
 Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
 För information om katalogiseringsregler som gäller vid auktorisering, se 
 [Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t.ex. avseende ordning på egenskaper kan förekomma.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 ### Innehåll
 
@@ -71,17 +71,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Senast ändrad av (descriptionLastModifier)
   <br/>Förval: Sigel som gjort senaste ändring. Ändras automatiskt vid sparande.  
 
-#### Beskrivningsnivå
-* Beskrivningsnivå (encodingLevel = 000)
-  <br/>Ska vara Fullständig. Ändras vid behov. 
-  <br/>```Exempel: Fullständig```
-
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)
-  <br/>Ändras ej.
-
-#### Marc:headingMain
-* Marc:headingMain (marc:headingMain = 008/14)
   <br/>Ändras ej.
  
 #### Typ av auktoritetspost 
@@ -95,10 +86,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 #### Differentiering av person
 * Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-
-#### Uppdatering av posten
-* Uppdatering av posten (marc:recordUpdate = 008/31)
   <br/>Ändras ej.
 
 #### Poststatus
@@ -206,7 +193,7 @@ Beskrivning av den auktoriserade agenten.
   
 #### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från VIAF). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)). 
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
