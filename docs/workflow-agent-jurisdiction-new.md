@@ -29,11 +29,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | [Skapad av](#adminmetadata) | [Namn](#namn) |
 | [Katalogiseringsregler](#adminmetadata) | [Namnform i flera led](#namnform-i-flera-led) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant) |
-| [Konsulterad källa](#katalogiseringsregler) | [Se även](#variant) |
-| [Uppdatering av posten](#uppdatering-av-posten) | [Nationalitet](#nationalitet) |
-| [Auktoritetskontrollnivå](#uppdatering-av-posten) | [Verksamhtens starttid](#verksamhetens-starttid) |
-| [Marc:headingMain](#uppdatering-av-posten) | [Verksamhetens sluttid](#verksamhetens-sluttid) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
+| | [Nationalitet](#nationalitet) |
+| | [Verksamhtens starttid](#verksamhetens-starttid) |
+| | [Verksamhetens sluttid](#verksamhetens-sluttid) |
 | | [Administrativ historik](#administrativ-historik) |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
@@ -41,7 +41,6 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Verksamhetsområde](#tid-for-grundande) | |
 | | [Språk](#tid-for-grundande) | |
  
-
   
 ### Adminmetadata
 
@@ -64,10 +63,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
-#### Katalogiseringsspråk
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)
- <br/>Förval: language/swe. Ändras ej
-
 #### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
   <br/>Ange källa som Benämning och vid behov uppgift som hämtats från källan som Uppgift från källa. 
@@ -86,17 +81,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-#### Uppdatering av posten
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-
-#### Auktoritetskontrollnivå
-* Auktoritetskontrollnivå (marc:level = 008/33)
-  <br/>Ändras ej.
-
-#### Marc:headingMain 
-* Marc:headingMain (marc:headingMain = 008/14)
- <br/>Ändras ej.
+#### Katalogiseringsspråk
+* Katalogiseringsspråk (descriptionLanguage = 040 #b)
+ <br/>Förval: language/swe. Ändras ej
 
 
 ### Agent
