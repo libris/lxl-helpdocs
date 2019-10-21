@@ -163,6 +163,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Agent
 
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
+
 #### Namn
 * Namn (name) (110 #a)
   <br/>Föredragen namnform som utgör den auktoriserade namnformen.
