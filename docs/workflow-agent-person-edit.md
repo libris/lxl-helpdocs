@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2019-10-18
+date: 2019-10-21
 tags:
 - redigera agent
 - redigera auktoritet
@@ -23,10 +23,11 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#efternamn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Förnamn](#efternamn) |
-| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Födelse- och/eller dödstid](#efternamn) |
-| [Konsulterad källa](#poststatus) | [Nationalitet](#nationalitet) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Efternamn](#agenttyp) |
+| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Förnamn](#efternamn) |
+| [Konsulterad källa](#poststatus) | [Födelse- och/eller dödstid](#efternamn) |
+| | [Nationalitet](#nationalitet) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
@@ -137,6 +138,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   
 ### Agent
 Beskrivning av den auktoriserade agenten. 
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Efternamn
 * Efternamn (FamilyName = 100 i1=1 #a)
