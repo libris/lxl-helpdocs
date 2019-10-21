@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2019-10-18
+date: 2019-10-21
 tags:
 - under arbete
 - agenter
@@ -26,11 +26,12 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#adminmetadata) | [Namn](#namn) |
-| [Katalogiseringsregler](#adminmetadata) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Se även](#variant) |
+| [Skapad av](#adminmetadata) | [Agenttyp](#agenttyp) |
+| [Katalogiseringsregler](#adminmetadata) | [Namn](#namn) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
+| [Konsulterad källa](#katalogiseringsregler) | [Identifikator](#identifikator) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant)) |
+| |[Se även](#variant) |
 | | [Nationalitet](#nationalitet) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) |
@@ -87,6 +88,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 
 ### Agent
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Namn   
 * Namn 
