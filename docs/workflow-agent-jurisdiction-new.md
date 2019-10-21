@@ -26,8 +26,8 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#adminmetadata) | [Agenttyp](#agenttyp) |
-| [Katalogiseringsregler](#adminmetadata) | [Namn](#namn) |
+| [Skapad av](#adminmetadata) | [Agenttyp](#agent) |
+| [Katalogiseringsregler](#adminmetadata) | [Namn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
 | [Konsulterad källa](#katalogiseringsregler) | [Identifikator](#identifikator) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant)) |
