@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 76
-date: 2019-10-18
+date: 2019-10-21
 tags:
 - under arbete
 - agenter
@@ -26,9 +26,10 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Namn](#namn) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Tid för grundande](#namn) |
-| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Variant](#variant) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Namn](#agenttyp) |
+| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Tid för grundande](#namn) |
+| | [Variant](#variant) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
 | [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
