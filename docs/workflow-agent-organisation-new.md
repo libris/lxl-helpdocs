@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 75
-date: 2019-10-18
+date: 2019-10-22
 tags:
 - under arbete
 - agenter
@@ -26,11 +26,12 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#adminmetadata) | [Namn](#namn) |
-| [Katalogiseringsregler](#adminmetadata) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant) |
-| [Konsulterad källa](#katalogiseringsregler) | [Se även](#variant) |
+| [Skapad av](#adminmetadata) | [Agenttyp](#agent) |
+| [Katalogiseringsregler](#adminmetadata) | [Namn](#agenttyp) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | [Identifikator](#identifikator) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
+| | [Se även](#variant) |
 | | [Nationalitet](#nationalitet) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) |
@@ -46,7 +47,6 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 
   
 ### Adminmetadata
-
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
    
 #### Skapad av
@@ -93,6 +93,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 
 ### Agent
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Namn   
 * Namn 
