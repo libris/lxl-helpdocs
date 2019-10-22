@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-10-18
+date: 2019-10-22
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,14 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-10-22:
+* Hjälptexterna för Agent är uppdaterade med information om egenskapen Agenttyp.
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-jurisdiction-new
 
 2019-10-18:
 * Förtydligande avseende byte av verks- och instanstyp. Tabellen innehåller nu *rekommenderade* kombinationer av typer samt ytterligare information.
