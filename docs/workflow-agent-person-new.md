@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-08-20
+date: 2019-08-22
 tags:
 - agenter
 - auktoriteter
@@ -24,12 +24,13 @@ Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1
 
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
-| [Skapad av](#skapad-av) | [Efternamn](#efternamn) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Förnamn](#efternamn) |
-| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Konsulterad källa](#katalogiseringsregler) | [Födelsedatum](#efternamn) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [Dödsdatum](#efternamn) |
-| [Differentiering av person](#differentiering-av-person) | [Variant](#variant) |
+| [Skapad av](#skapad-av) | [Agenttyp](#agent) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
+| [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
+| [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
+| [Katalogiseringsspråk](#differentiering-av-person) | [Födelsedatum](#efternamn) |
+| [Differentiering av person](#differentiering-av-person) | [Dödsdatum](#efternamn) |
+| | [Variant](#variant) |
 | | [Se även](#variant) |
 | | [Verksamhetsområde](#verksamhetsomrade) |
 | | [Har yrke eller sysselsättning](#verksamhetsomrade) |
@@ -108,6 +109,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Agent
 Beskrivning av agenten som ska auktoriseras. 
+
+#### Agenttyp
+Ändras normalt sett ej. Upptäckta felaktigheter och/eller problem rapporteras till Auktoritetsgruppen.
 
 #### Efternamn
 * Efternamn (FamilyName = 100 1/- #a)
