@@ -51,10 +51,10 @@ För att skapa en bättre översikt över posten samt för att lättare se vad p
 Expandera: Alt + Plus
 Minimera: Alt + Minus
 
-##### Berika från mall
+#### Berika från mall
 Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
 
-##### Berika från post
+#### Berika från post
  * Berika från fil
   </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
    * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
@@ -77,16 +77,16 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
-##### Ladda ner sammanslagen MARC21
+#### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
 
-##### Ladda ner JSON-LD
+#### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
 
-##### Forhandsgranska MARC21
+#### Forhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
-##### Ta bort 
+#### Ta bort 
 Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort Instans / Ta bort Bestånd / Ta bort Agent. En post går endast att radera om den inte har obrytbra relationer. 
 
 #### Redigera
@@ -153,12 +153,12 @@ och välj ok för att spara filen/mallen.
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 
-#### Byta verks- och instanstyp
+### Byta verks- och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
 
-##### Lista över de rekommenderade kombinationerna av verks- och instanstyp
+##### **Lista över de rekommenderade kombinationerna av verks- och instanstyp**
 
 | **Verkstyp**  |  **Instanstyp** |   
 | :----------- | :----------- |
@@ -172,14 +172,14 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans |
 
-**Följande instanstyper bör ej användas:** 
+*Följande instanstyper bör ej användas:*
  * Instans av paket
  * Instans av text
  * Instans av musiknoter
  * Instans av projicerad bild
 
 
-##### Byta verkstyp  
+#### Byta verkstyp  
 *	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 * Välj typ i rullgardinslistan
 
@@ -191,7 +191,7 @@ För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp �
 
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
-##### Byta instanstyp 
+#### Byta instanstyp 
 *	Gå till Instanstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 *	Välj typ i rullgardinslistan
 
