@@ -172,7 +172,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans |
 
-*Följande instanstyper bör ej användas:*
+##### **Följande instanstyper bör ej användas:**
  * Instans av paket
  * Instans av text
  * Instans av musiknoter
