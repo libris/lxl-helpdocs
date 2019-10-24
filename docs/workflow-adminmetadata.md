@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-08-02
+date: 2019-10-24
 tags:
 - under arbete
 - adminmetadata
@@ -10,21 +10,23 @@ tags:
 
 ## Adminmetadata
 
+| Innehåll | |
+| ------ | ------ |
+| [Inledning](#inledning) | [Translitterering](#translitterering) |
+| [Kontrollnummer](#kontrollnummer) | [Katalogiseringsspråk](#katalogiseringssprak) |
+| [Skapad av](#skapad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Beskrivningsnivå](#beskrivningsniva) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
+| [Poststatus](#poststatus) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
+| [Systemnummer](#systemnummer) |  |
+
+
+### Inledning
+
 Varje beskrivning i Libris katalogisering innehåller ett avsnitt med Adminmetadata, det vill säga administrativ metadata om beskrivningen, som till exempel beskrivningens ID, när och av vem den är skapad och dess status. Denna hjälptext beskriver de vanligaste egenskaperna under Adminmetadata i en instansbeskrivning. För Adminmetadata i agentbeskrivning, se Hjälptexter Agenter. För Adminmetadata i beståndspost, se Hjälptexter Bestånd. 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
-Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
-
-### Innehåll  
-
-| [Adminmetadata](#adminmetadata) | |
-| ------ | ------ |
-| [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
-| [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Beskrivningsnivå](#beskrivningsniva) |
-| [Poststatus](#poststatus) | [Bibliografikod](#bibliografikod) |
-| [Systemnummer](#systemnummer) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
+Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
