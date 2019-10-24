@@ -2,13 +2,28 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-10-16
+date: 2019-10-24
 tags:
 - under arbete
 - verk
 --- 
 
 ## Verk
+
+
+| Innehåll  |  |  | 
+| ----------- |  ----------- |  ----------- |
+| [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
+| [Verkets titel](#verkets-titel)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
+| [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
+| [Genre/form](#genre-form) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+
+
+### Inledning
+
+[Verk](#verk)
 
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
@@ -23,21 +38,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
  
-
-### Innehåll  
-
-| [Verk](#verk) |  |  | 
-| ----------- |  ----------- |  ----------- |
-|  [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
-| [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Genre/form](#genre-form) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
-| [Klassifikation](#klassifikation) |  | | 
-
-### Verk   
    
-#### Instans av verk
+### Instans av verk
 * Instans av verk (instanceOf/Work)  
   
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
