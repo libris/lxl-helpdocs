@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-10-18
+date: 2019-10-24
 tags:
 - under arbete
 - instans
@@ -10,37 +10,35 @@ tags:
 
 ## Instans
 
+| Innehåll  | | |
+| ------ | ------ | ------ |
+| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
+| [Utgivningssätt](#utgivningssatt) | | [Omfång](#omfang) | 
+| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Bärartyp](#barartyp) | | [Mått](#matt) |
+| [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
+| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
+| [Produktion](#produktion) | | [Innehållsförteckning](#innehallsforteckning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Utgivning](#utgivning)  | | [Annat bärarformat](#annat-bararformat) |
+| [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Copyrightår](#copyrightar)  | | |
+
+## Inledning
+
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivningsplats, utgivare och utgivningsår, bärartyp och omfång.  
 
-En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser anger vi för närvarande inte instanstyp. För dessa visas bara "Instans" i sammanfattningsrutan överst i beskrivningen.  
-För instruktioner om att byta instanstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
+En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser anger vi för närvarande inte instanstyp. För dessa visas bara "Instans" i sammanfattningsrutan överst i beskrivningen. För instruktioner om att byta instanstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 Till verket knyts information som ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger för närvarande lokalt inom varje instansbeskrivning, under Instans av verk. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-Denna hjälptext beskriver de vanligaste egenskaperna under Instans. För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver de vanligaste egenskaperna under Instans. För utförligare instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)    
 
-### Innehåll  
-
-| [Instans](#instans) | | |
-| ------ | ------ | ------ |
-| [Utgivningssätt](#utgivningssatt) | | [Identifikator](#identifikator) | 
-| [Medietyp](#medietyp) | | [Omfång](#omfang) | 
-| [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Titel](#titel) | | [Mått](#matt) |
-| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medfoljande-material) | 
-| [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
-| [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsförteckning](#innehallsforteckning) |
-| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Tillverkning](#tillverkning) | | [Annat bärarformat](#annat-bararformat) |
-| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
-
-
-### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
