@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-10-24
+date: 2019-10-25
 tags:
 - under arbete
 - verk
@@ -22,7 +22,7 @@ tags:
 
 
 ### Inledning
-Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivningsplats, utgivare och utgivningsår, bärartyp och omfång, beskrivs under instans. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
