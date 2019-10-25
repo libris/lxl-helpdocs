@@ -26,7 +26,7 @@ tags:
 | [Copyrightår](#copyrightar)  | | |
 
 ## Inledning
-En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivningsplats, utgivare och utgivningsår, bärartyp och omfång. Vissa egenskaper knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
+En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
 
 En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser anger vi för närvarande inte instanstyp. För dessa visas bara "Instans" i sammanfattningsrutan överst i beskrivningen. För instruktioner om att byta instanstyp, se [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
