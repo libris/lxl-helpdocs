@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-10-24
+date: 2019-10-25
 tags:
 - under arbete
 - instans
