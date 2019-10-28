@@ -26,3 +26,4 @@ Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverk
 * [Supportforum för nya Libris](https://kundo.se/org/librisxl/) 
 * [Felrapportering](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
 * [Ändringsförslag](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
