@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-09-17
+date: 2019-10-28
 tags:
 - redigering
 - postimport
@@ -199,13 +199,13 @@ Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (
 
 ### Andra databaser
 **Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**  
-Uppgifterna kan stå kvar:  
+Exempel på uppgifter som kan stå kvar:  
 - Tillhörande media/Mediaobjekt (associatedMedia/Mediaobject = 856 4/0) 
 - Annan relaterad resurs/Elektronisk (marc:versionOfResource/Electronic = 856 4/1) 
 - Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2)  
   
-Radera uppgifterna: 
-- Beskriven av/Post/Kontrollnummer (= #w).Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
+Uppgifter som ska raderas: 
+- Beskriven av/Post/Kontrollnummer (= #w). Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
 
 ### MARC-egenskaper 
 Data från MARC21-fält som inte har en motsvarighet i Libris visas som MARC:... (t.ex. MARC:HASTRANSLATEDTITLE).
