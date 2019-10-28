@@ -271,9 +271,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
    <br/>```Exempel:```<br/> 
    * ```Produktion: Förenta staterna, 1972```<br/>
    * ```Produktion: Storbritannien, 2018```
-     
-   
-
+        
 #### Elektronisk adress
 ##### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
