@@ -268,7 +268,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges tills vidare produktionsland och produktionsår. 
   </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning. Använd föredragen namnform för produktionsland, se Librispraxis, 16.2.2.3. 
-   <br/>```Exempel:<br/> 
+   <br/>```Exempel:```<br/> 
    * ```Produktion: Förenta staterna, 1972```<br/>
    * ```Produktion: Storbritannien, 2018```
      
