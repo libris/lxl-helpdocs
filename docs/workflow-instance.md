@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-10-25
+date: 2019-11-12
 tags:
 - under arbete
 - instans
@@ -98,7 +98,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
 
   Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.    
   
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Varianttitel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
