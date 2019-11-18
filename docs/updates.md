@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-10-22
+date: 2019-11-18
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-11-18:
+* Hjälptexten för Äldre tryck är uppdaterad med egenskapen Huvudsakligt tillgängliggörande.
+</br>https://libris.kb.se/katalogisering/help/workflow-print-rare-books
 
 2019-10-22:
 * Hjälptexterna för Agent är uppdaterade med information om egenskapen Agenttyp.
