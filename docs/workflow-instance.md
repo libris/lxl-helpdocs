@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-11-12
+date: 2019-11-19
 tags:
 - under arbete
 - instans
@@ -213,7 +213,7 @@ Datum får innehålla text och interpunktionstecken.
   
 ##### År
 *	År (year = 008/07-10).  
-  År får endast innehålla siffror (0-9). Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
+  År får endast innehålla siffror (0-9) och bokstaven u. Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
 
 ##### Kompletterande datum
 *	Kompletterande datum (other year = 008/07-10).  
