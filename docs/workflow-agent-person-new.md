@@ -80,7 +80,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
     <br/>```Uppgift från källa: Rowling, J. K.```
     
   <br/>```Exempel på obligatorisk källa där Medverkan föranleder auktoriseringen:``` 
-  * ```Benämning: Den gamle och havet / Ernest Hemingway ; Mårten Edlund, 2005``` 
+  * ```Benämning: Den gamle och havet / Ernest Hemingway ; översättning av Mårten Edlund, 2005``` 
     <br/>```Uppgift från källa: Edlund, Mårten```
 
   <br/>```Exempel på kompletterande källa:``` 
