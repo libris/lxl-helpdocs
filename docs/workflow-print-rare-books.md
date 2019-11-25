@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Äldre tryck
 order: 58
-date: 2019-11-18
+date: 2019-11-25
 tags:
 - under arbete
 - äldre tryck
@@ -45,19 +45,27 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Adminmetadata 
 #### Katalogiseringssprak  
 * Katalogiseringsspråk (040 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.     
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+  ![Katalogiseringsspråk](adminkatsprak.png)
   
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (040 #e)  
   Äldre tryck katalogiseras enligt ISBD. Ta bort Katalogiseringsregler: rda genom att klicka på papperskorgen till höger om egenskapen.
   
-  Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd". 
+  ![Katalogiseringsregler rda](adminkatreglerrda.png)
+  
+  Sök fram och länka till "ISBD-interpunktion finns - i" om det saknas. Klicka på plustecknet till vänster om "Katalogiseringsregler" för att få fram sökrutan. När man sparar ändras frasen till "marc/Isbd".
+  
+  ![Katalogiseringsregler isbd](adminkatreglerisbd.png)
   
 #### Anmarkning om katalogiseringskalla  
 * Anmärkning om katalogiseringskälla (588 #a)  
-  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.  
-  ```Exempel: S: Beskrivningen osäker, bygger på Kungliga bibliotekets exemplar som saknar titelblad och sannolikt [1] planschblad i början.```
+  Här kan man för äldre tryck bland annat ange att beskrivningen är osäker på grund av att titelblad saknas. Egenskapen finns med i mallen för äldre tryck men den kan för närvarande inte läggas till i befintliga poster. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen.
+  
+  ![Katalogiseringskälla](adminkatkalla.png)
+ 
 
 ### Instans
   
@@ -66,25 +74,30 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ##### Hela referenstiteln i Huvudtitel    
 * Har titel/Titel/Huvudtitel (245 #a)  
 Till referenstiteln räknas all text före impressum, inklusive upphovsuppgifter och oftast även upplageuppgifter. Hela referenstiteln bör anges i Huvudtitel om syntaxen bryts eller om man skulle behöva ändra ordningsföjden på titel-, upphovs- och upplageuppgifterna.
-<br/>```Exempel:```
-  * ```Monografi: Tankar, om husbönders och tjänstefolks skyldigheter emot hwarannan inbördes, i anledning af Johan Christopher Schinmejers twänne predikningar, på tyska, öfwer desza ämnen, wälment meddelade af Olof Rönigk. Andra uplagan.```
-  * ```Flerbandsverk: Abregé chronologique de l'histoire de France, par le sr. de Mezeray ... Premiere partie, tome III.```
+
+Monografi:
+
+![Referenstitel i Huvudtitel - monografi](insttitelmon.png) 
+
+
+Flerbandsverk:
+
+![Referenstitel i Huvudtitel - flerbandsverk](insttitelfv.png)
 
 ##### Referenstiteln i Huvudtitel, Övrig titelinformation och Upphovsuppgift
 Referenstiteln kan anges i Huvudtitel, Övrig titelinformation och Upphovsuppgift om syntaxen inte bryts eller om ordningsföljden inte behöver ändras.
-* Har titel/Titel/Huvudtitel (245 #a)<br/>
-```Exempel: Napoleon, såsom menniska, hjelte och eröfrare.```<br/><br/>  
-* Har titel/Titel/Övrig titelinformation (245 #b)<br/>
-```Exempel: Ett utkast till hans charakteristik (inledande versal eftersom huvudtiteln avslutas med punkt)```<br/><br/>  
-* Upphovsuppgift (245 #c)<br/>
-```Exempel: af E. M Arndt.```
+
+Monografi:
+
+![Referenstitel i Har titel och Upphov](insttitelupphov.png)
+
+
 
 #### Identifikator
 Arbetsnoteringar i SB17- och COL-poster har placerats här (024).
-* Identifikator/Värde (024 #a)<br/>
-```Exempel: 840111g31```<br/><br/>
-* Identifikator/Typanmärkning (024 #2)<br/>
-```Exempel: SB17```
+ 
+![Identifikator](instidentifikator.png)
+
 
 ##### Fingerprint
 Fingerprint rekommenderas inte men möjligheten finns att ange det här.
@@ -94,12 +107,20 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här.
   * Välj Fingerprint i rullgardinsmenyn Välj typ.
   * Klicka på plustecknet till höger om Fingerprint.
   * Sök efter och välj Värde i sidorutan. Skriv in uppgiften i Värde.
-  * Sök efter och välj Källa. Skriv in koden i Källa. 
+  * Sök efter och välj Källa.
+  * Välj Källa i Skapa lokal entitet.
+  * Klicka på plustecknet till höger om Källa.
+  * Sök efter och välj Kod. Skriv in koden i Källa.
+  
+ ![Fingerprint](instfingerprint)  
+  
   
 #### Upplageuppgift
 * Upplageuppgift (250 #a)  
-  Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.  
-  ```Exempel: [Ny udgave]```  
+  Upplageuppgifter i äldre tryck anges sällan här utan i sitt sammanhang, som del av titel- eller utgivningscitatet. Kan exempelvis användas när upplageuppgift saknas i trycket.
+  
+  ![Upplageuppgift](instuppl.png)
+ 
   
 #### Utgivning  
 * Utgivning  
@@ -111,38 +132,61 @@ Impressum anges i Plats, Agent och Datum/År om det inte finns några tryck- ell
 ##### Utgivningsplats
 * Plats/Plats/Benämning (264 -/1 #a)  
   Här anges vanligtvis tryckort, tryckare etc. och tryckår.
-  <br/>```Exempel:```
-  * ```Fullständiga tryckuppgifter i trycket: Götheborg, tryckt hos Sam. Norberg, 1825.```
-  * ```Ofullständiga tryckuppgifter i trycket: [Stockholm] Tryckt hos Kongl. tryckeriet.```
-  * ```Tryckuppgifter saknas: [Jönköping?]``` 
+  
+  Fullständiga tryckuppgifter i trycket:
+  
+  ![Fullständiga tryckuppgifter](insttryckfull.png)
+  
+  Ofullständiga tryckuppgifter i trycket:
+  
+  ![Ofullständiga tryckuppgifter](insttryckofull.png)
+  
+  Tryckuppgifter saknas:
+  
+  ![Tryckuppgifter saknas](insttrycksaknas.png) 
+ 
   
 ##### Utgivarnamn
 * Agent/Agent/Benämning (264 -/1 #b)  
   Här anges vanligtvis sannolika uppgifter om tryckare etc.
-  <br/>```Exempel:```
-  * ```Tryckuppgifter saknas: [Curt?]```
-  * ```Tryckuppgifter saknas: [utgivare okänd]```  
+  
+  Tryckeriuppgift saknas i trycket:
+  
+  ![Tryckeriuppgift saknas](insttryckagent1.png)
+  
+  Okänd tryckare, utgivare:
+  
+  ![Okänd tryckare](insttryckagent2.png)
   
 ##### Ar och datum 
 * År (008/07-10, 264 -/1 #c)  
-  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c. 
-  <br/>```Exempel: 1652```    
+  Här anges vanligtvis tryckår. Egenskapen År ska alltid anges och får endast förekomma inom Primär utgivning. Året anges med fyra tecken, siffror (0-9) och/eller bokstaven u. Om fullständigt tryckår står i trycket räcker det med att ange År. Uppgiften motsvarar tryckåret i 008 och 264 #c.
+  
+  ![Tryckår](insttryckar.png)    
   
 * Start- och slutår (flerbandsverk)  
   Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här.
-  <br/>```Exempel:```
-  * ```Startår: 1732```
-  * ```Slutår: 1745```
-  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+  
+  ![Start- och slutår](insttryckstartar.png)
+  
   
   <br/>Om tryckår saknas eller är ofullständigt använder man även Datum.
   
 * Datum (264 -/1 #c)    
   Här anges tryckår som måste anges med fler än fyra tecken.
-  <br/>```Exempel:```
-  * ```Tryckår saknas i trycket: [17--?]```
-  * ```Sannolikt tryckår: [1738?]```
-  * ```Flerbandsverk: [1746?]-1752```
+  
+  Tryckår saknas i trycket:
+  
+  ![Tryckår saknas](insttryckdatum1.png)
+  
+  Sannolikt tryckår:
+  
+  ![Sannolikt tryckår](insttryckdatum2.png)
+  
+  Flerbandsverk:
+  
+  ![Tryckår för flerbandsverk](insttryckdatum3.png) 
+  
   
 #### Huvudsakligt tillgangliggorande
 Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret är osäkert men ett intervall kan anges. I Utgivning anges de uppgifter som står i trycket, som vanligt. Landkoden tas bort eftersom den ska anges i Huvudsakligt tillgängliggörande.
@@ -157,6 +201,8 @@ Egenskapen används för äldre tryck tillsammans med Utgivning när tryckåret 
   * Skriv in troligt startår i År.
   * Skriv in troligt slutår i Kompletterande datum.
   * Välj Osäkert årtal i Typ av utgivningsdatum.
+  
+  ![Huvudsakligt tillgängliggörande](insthuvudsakligt.png)
    
 #### Tillverkning 
 * Tillverkning (264 -/3)  
@@ -165,70 +211,81 @@ Egenskapen används vanligtvis inte vid katalogisering av äldre tryck. I SB17-p
   * tryckorter i Har biuppslag - Namn på orter och territorier (752 #a och #d)
   * tryckare i Medverkan och funktion/Agent/Organisation (710 #a).
   
-För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.  
+För orter som har bytt namn och ibland även landtillhörighet kan man tills vidare ange det dåtida ortnamnet i standardiserad form här. I nya Libris finns nämligen ingen motsvarighet till fält 751.
+
+![Tillverkning](insttillverkning.png)
    
 #### Omfang   
 * Omfång/Omfång/Benämning (300 #a)  
   Enligt RDA ska man inte förkorta sidor, planschblad etc. Vi förkortar så länge vi katalogiserar enligt ISBD.
-  <br/>```Exempel:```
-  * ```x, 692 s. (s. 687-692 opag., 687-688 annonser)```
-  * ```5 vol. ([4], 412; [4] 448; 392; 408; 368 (s. 368 opag.) s., frontespis```    
+  
+  Monografi:
+  
+  ![Omfång för monografi](instomfang1)
+  
+  Flerbandsverk:
+  
+  ![Omfång för flerbandsverk](instomfang2)
+    
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (300 #b)  
-  ```Exempel: 20 ill. (träsnitt)```
+* Övriga fysiska detaljer (300 #b)
+
+![Övriga fysiska detaljer](instovrigafysiska.png) 
+  
 
 #### Matt 
-* Mått/Mått/Benämning (300 #c)  
-  ```Exempel: 8:o``` 
+* Mått/Mått/Benämning (300 #c)
+
+![Mått](instmatt.png) 
   
 #### Medietyp
 * Medietyp (337 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  ```Exempel: n (= omedierad)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+ Omedierad:
+ 
+ ![Medietyp](instmedietyp.png)
+ 
   
 #### Barartyp
 * Bärartyp (338 #b)  
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  * ```Exempel: nb (= ark)```
-  * ```Exempel: nc (= volym)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+ Volym:
+ 
+ ![Bärartyp volym](instbarartyp1.png)
+ 
+ Ark:
+ 
+ ![Bärartyp ark](instbarartyp2.png)
+  
   
 #### Numrering i seriell resurs   
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- #a)<br/> 
-  Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.<br/>
-  ```Exempel: Första bandet; första skriften-Andra bandet; nionde skriften```
+  Används i poster för seriella resurser. Uppgiften normaliseras vanligtvis inte när man katalogiserar äldre tryck.
+  
+  ![Numrering](instnumrering.png)
   
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
-  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.  
+  Inte så ofta man behöver ange att en skrift ingår i en serie. Ofta räcker det då att ange Serieuppgift, Numrering inom serie och Indikator för seriebiuppslag.
+  
+  ![Seriemedlemskap](instserie.png)
 
-##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift (490 #a)  
-  Skriv in uppgiften.  
-   ```Exempel: Smärre skrifter hopsamlade```   
-
-##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie (490 #v, 830 #v)  
-  Skriv in uppgiften.  
-  ```Exempel: 1:1```  
-
-##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag (490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift och eventuell numrering inom serie ska anges.  
-  Skriv in uppgiften.  
-  ```Exempel: 0```   
  
 #### Anmarkning
 * Anmärkning (hasNote)/Anmärkning (Note)/Benämning (500 #a)   
   Skriv in allmänna anmärkningar i Benämning.
-  <br/>```Exempel:```
-  * ```Fraktur```
-  * ```Boktryckarmärke på sista sidan```  
+  
+  ![Anmärkning](instanmarkning.png)
 
 #### Citering i referatorgan    
-  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Alternativ lösning är att kopiera en post som har följande egenskaper med:
+  Egenskapen finns med i mallen för äldre tryck. Den går att lägga till i befintliga poster men det är mycket krångligt. Använd i stället [Berika från mall](https://libris.kb.se/katalogisering/help/editor-templates). Välj äldretrycksmallen. Välj Duplicera entitet om om fler entiteter ska läggas in. Alternativ lösning är att kopiera en post som har följande egenskaper med:
 * Indexerad i/Instans/Har titel/Titel (510 #a)
 * Indexerad i/Instans/Anmärkning/Benämning (510 #c)
+
+![Citering](instcitering.png)
 
 #### Namn pa orter och territorier
   Här anges tryckorter i standardiserad form. Det går numera att ange flera tryckorter via plustecknet till vänster om Har biuppslag - Namn på orter och territorier.
@@ -241,6 +298,8 @@ Lägga in manuellt:
 * Sök efter och välj Land / Överordnat territorium i sidorutan.
 * Sök efter och välj Stad, kommun i sidorutan.
 * Skriv in land och stad i respektive ruta.
+
+![Namn på orter](instorter.png)
   
 ##### Orter som har bytt namn och landtillhörighet    
 I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där inte behövde ange landtillhörighet, till skillnad från i fält 752. Det finns ingen motsvarighet till 751 i nya Libris. Jag föreslår därför att vi tills vidare anger orter som heter något annat nu i Tillverkning.    
@@ -249,20 +308,31 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
 
 #### Medverkan och funktion  
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 #a)  
-  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+  Tryckare, utgivare etc. borde anges i Instans eftersom de har en relation till instansen, inte verket. Det fungerar dock inte för närvarande. Vi anger dem därför i Instans av Verk i stället. Se exempel i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
+  
+  Tryckare:
+  
+  ![Tryckare](verktryckare.png) 
 
 #### Klassifikation  
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   
+  ![SAB](verksab)
+  
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
-  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).  
+  SOT-projektet skapade ämnesord av rubrikerna i Nils Herman Quidings "Svenskt allmänt författningsregister för tiden från år 1522 till och med år 1862". Library of Congress godkände 2008 Quiding som ett godkänt ämnesordssystem. SOT-poster innehåller därför listkoden "quiding". Man kan använda dessa ämnesord och listkoden "quiding" vid katalogisering av en saknad förordning som ingår i Quiding författningsregister. Se anvisningar i hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh).
+  
+  ![Quiding](verkquiding.png)
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (336 #b)   
-  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.<br/>
-  ```Exempel: txt (= text)```
+  Används numera även för äldre tryck. Egenskapen började anges vid övergången till RDA men är inte en RDA-specifik uppgift. Ta alltså inte bort uppgiften när du katalogiserar med hjälp av äldretrycksmallen eller poster som andra Libris-bibliotek har skapat. Vid postimport låter man uppgiften ligga kvar men man behöver inte lägga till om det saknas.
+  
+  Text:
+  
+  ![Innehållstyp](verkinnehallstyp.png) 
   
 ### Bestand
 
@@ -272,9 +342,14 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Klicka på plustecknet i högermarginalen.
   * Sök efter och välj Ägarhistorik i sidorutan.
   * Skriv in uppgiften.
-  <br/>```Exempel:```<br/>
-  ```Christian Hammer (exlibris) (ex. B)```<br/>
-  ```Ulrik von Döbeln (exlibris) ; Vegeholm (lös kataloglapp från Vegeholms bibliotek)```
+  
+  En proveniensuppgift:
+  
+  ![En proveniensuppgift](bestprov1.png)
+  
+  Två proveniensuppgifter:
+  
+  ![Två proveniensuppgifter](bestprov2) 
   
 #### Exemplarinformation
 * Igenkänningstecken (562 #a) och Identifiering av exemplar (562 #b)  
@@ -284,13 +359,10 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Klicka på plustecknet till höger om Lokal anmärkning: Identifiering …
   * Sök efter och välj Igenkänningstecken i sidorutan.
   * Sök efter och välj Identifiering av exemplar i sidorutan.
-  * Skriv in uppgifterna.<br/><br/>
-  Igenkänningstecken (562 #a) 
-  <br/>```Exempel: Med handkolorerade illustrationer```<br/><br/>
-  Identifiering av exemplar (562 #b)
-  <br/>```Exempel: Ex. B```
-  
+  * Skriv in uppgifterna.<br/><br/>  
   Klicka på plustecknet till vänster om Har lokal anmärkning: Identifiering ... för fler anmärkningar.
+  
+ ![Exemplarinformation](bestexemplar.png)
   
 #### Bokband
 * Har lokal anmärkning: Bokband/Lokal anmärkning: Bokband/Benämning (563 #a)   
@@ -299,10 +371,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   * Sök efter och välj Har lokal anmärkning: Bokband i sidorutan.
   * Klicka på plustecknet intill Har lokal anmärkning: Bokband.
   * Klicka på > intill Lokal anmärkning: Bokband.
-  * Skriv in uppgiften i Benämning. 
-  <br/>```Exempel: Rött sammetsband```
-  
+  * Skriv in uppgiften i Benämning.  
   Klicka på plustecknet intill Benämning för fler anmärkningar.
-
   
-  
+  ![Bokband](bestbokband.png)
