@@ -112,7 +112,7 @@ Fingerprint rekommenderas inte men möjligheten finns att ange det här.
   * Klicka på plustecknet till höger om Källa.
   * Sök efter och välj Kod. Skriv in koden i Källa.
   
- ![Fingerprint](instfingerprint)  
+ ![Fingerprint](instfingerprint.png)  
   
   
 #### Upplageuppgift
@@ -221,11 +221,11 @@ För orter som har bytt namn och ibland även landtillhörighet kan man tills vi
   
   Monografi:
   
-  ![Omfång för monografi](instomfang1)
+  ![Omfång för monografi](instomfang1.png)
   
   Flerbandsverk:
   
-  ![Omfång för flerbandsverk](instomfang2)
+  ![Omfång för flerbandsverk](instomfang2.png)
     
   
 #### Ovriga fysiska detaljer   
@@ -318,7 +318,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
 * SAB-klassifikation  
   SOT,- SB17- och COL-poster innehåller förkortade SAB-koder. Ange gärna dessa förkortade SAB-koder vid primär- eller sekundärkatalogisering. Ta då bort Version: 8.
   
-  ![SAB](verksab)
+  ![SAB](verksab.png)
   
 #### Amne  
 * Kontrollerat, ej auktoriserat ämnesord (650 #2)   
@@ -349,7 +349,7 @@ I Voyager lade man vid behov till dåtida ortnamn i fält 751 eftersom man där 
   
   Två proveniensuppgifter:
   
-  ![Två proveniensuppgifter](bestprov2) 
+  ![Två proveniensuppgifter](bestprov2.png) 
   
 #### Exemplarinformation
 * Igenkänningstecken (562 #a) och Identifiering av exemplar (562 #b)  
