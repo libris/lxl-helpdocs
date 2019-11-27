@@ -28,7 +28,7 @@ OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i v
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
 | [Katalogiseringsspråk](#katalogiseringsregler) | [Namn](#agenttyp) |
-| [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Tid för grundande](#namn) |
+| | [Tid för grundande](#namn) |
 | | [Variant](#variant) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
 | [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
@@ -80,11 +80,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 #### Beskrivningsprocess 
  * Beskrivningsprocess (generationProcess = 000)
  <br/>Ändras ej.
-
-#### Auktoritetskontrollnivå
-* Auktoritetskontrollnivå (marc:level = 008/33)
- <br/>```Exempel: Kontrollerad/godkänd```
- <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
 
 #### Poststatus
 * Poststatus (recordStatus = 000)
