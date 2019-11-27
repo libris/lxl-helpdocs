@@ -81,46 +81,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
  * Beskrivningsprocess (generationProcess = 000)
  <br/>Ändras ej.
 
-#### Typ av auktoritetspost
-* Typ av auktoritetspost (marc:kindOfRecord = 008/9)
- <br/>Ändras ej.
-
 #### Auktoritetskontrollnivå
 * Auktoritetskontrollnivå (marc:level = 008/33)
  <br/>```Exempel: Kontrollerad/godkänd```
  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
-
-#### Numrering i serie
-* Numrering i serie (marc:numberedSeries = 008/13)
- <br/>Ändras ej.
-
-#### Differentiering av person     
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
-
-#### Uppdatering av posten  
-* Uppdatering av posten (marc:recordUpdate = 008/31)
-  <br/>Ändras ej.
-
-#### Formatering av icke auktoriserade sökelement  
-* Formatering av icke auktoriserade sökelement (marc:reference = 008/29)
- <br/>Ändras ej. 
-
-#### Translitterering
-* Translitterering (marc:romanization = 008/07)
- <br/>Ändras ej
-
-#### Geografisk precisering 
-* Geografisk precisering (marc:subdivision = 008/6)
- <br/>Ändras ej.  
-
-#### Typ av underindelning
-* Typ av underindelning (marc:subjectSubdivision = 008/7)
- <br/>Ändras ej.  
-
-#### Typ av serie
-* Typ av serie (marc:typeOfSeries = 008/12)
- <br/>Ändras ej.  
 
 #### Poststatus
 * Poststatus (recordStatus = 000)
