@@ -248,7 +248,6 @@ Används för att ange fullständig namnform i de fall då förkortning används
 #### Andra attribut för person- och organisationsnamn 
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAtrributes = 368)
   <br/>Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
-
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
