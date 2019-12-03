@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2019-11-21
+date: 2019-12-03
 tags:
 - agenter
 - auktoriteter
@@ -246,21 +246,14 @@ Används för att ange fullständig namnform i de fall då förkortning används
   <br/>```(fiktiv gestalt)```
 
 #### Andra attribut för person- och organisationsnamn 
-Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). 
+* Andra attribut för person- och organisationsnamn (marc:hasOtherAtrributes = 368)
+  <br/>Formuleras enligt instruktioner i [Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
-* Andra attribut för person- och organisationsnamn/Annan beteckning/Kod för kontrollerad vokabulär (hasOtherAttributes = 368 #c #2)
-  <br/>För att ange: Lägg till egenskapen Titel eller övrig beteckning som lokal entitet, lägg till den underordnade egenskapen Annan beteckning och Kod för kontrollerad vokabulär. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord till Annan beteckning och ange aktuell listkod i Kod för kontrollerad beteckning.
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
-
-* Andra attribut för person- och organisationsnamn/Titel/officiell rang för kunglig, adlig eller religiös person (hasOtherAttributes = 368 #d #2)
-  <br/>För att ange: Lägg till egenskapen Titel/officiell rang för kunglig, adlig eller religiös person som lokal entitet, lägg till den underordnade egenskapen Titel/officiell rang för kunglig, adlig eller religiös person.
-  <br/>```Exempel:```
-  <br/>```Påve```
   <br/>```Kung av Sverige```
-
-<br/>Termen går inte att lägga till som länkad entitet i nuvarande version av katalogiseringsklienten utan läggs till som en lokal entitet.
+  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. 
 
 #### Ordningstal
 * Ordningstal (marc:numeration = 100 #b)
