@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-11-18
+date: 2019-12-03
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,13 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-12-03:
+* Hjälptexterna för agenttyperna Organisation och Person är uppdaterade med anledning av att egenskapen Andra attribut för person- och organisationsnamn nu går att länka.
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new
+</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit
 
 2019-11-18:
 * Hjälptexten för Äldre tryck är uppdaterad med egenskapen Huvudsakligt tillgängliggörande.
