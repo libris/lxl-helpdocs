@@ -61,10 +61,10 @@ Om ytterligare information om placering utöver Hyllkod behöver läggas till.
 Här lägger du uppställning efter klassifikation eller annan hyllkod
 <br/>```Exempel: 158.1```
 
-* Hyllsignum: Uppställningsord (852 #l)  
+* Hyllsignum: Uppställningsord (852 #l)
 <br/>```Exempel: AND```
 
-* Hyllsignum: Löpnummer (852 #j)  
+* Hyllsignum: Löpnummer (852 #j)
 <br/>```Exempel: 2694```
 
 * Katalogisatörens anmärkning (852 #x)
@@ -90,7 +90,7 @@ Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under 
 * Exemplarets fysiska tillstånd (852 #q)
 * Exemplarnummer (852 #t)
 * URI (852 #u)
-* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     
+* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning
 <br/>```Exempel: S. [7]-[8] saknas```
 
 * Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
