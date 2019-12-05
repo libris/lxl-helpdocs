@@ -72,9 +72,12 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 
 * Precisering av hyllplacering (852 #g)
 
-* Exemplarstatus (852 #i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+* Exemplarstatus (852 #i) 
+Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus. Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. 
 
-<br/>
+![Länkad exemplarstatus](lankadexemplarstatus.png)
+
+Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
 ![Exemplarstatus](exemplarstatus.png)
 
@@ -85,7 +88,8 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 * Exemplarets fysiska tillstånd (852 #q)
 * Exemplarnummer (852 #t)
 * URI (852 #u)
-* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     ```Exempel: S. [7]-[8] saknas```
+* Anmärkning (hasNote) (852 #z) /Lägg till anmärkning/Benämning     
+<br/>```Exempel: S. [7]-[8] saknas```
 
 * Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
@@ -168,8 +172,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-* För Ämnesord
-se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+* För Ämnesord, se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 
 * Lokala ämnesord/rubriker (övriga) (698)
