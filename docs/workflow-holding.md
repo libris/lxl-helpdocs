@@ -72,7 +72,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 
 * Precisering av hyllplacering (852 #g)
 
-* Exemplarstatus (852 ‡#) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+* Exemplarstatus (852 #) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
 <br/>
 
@@ -145,7 +145,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 <br/>
 
 
-* Ägarhistorik (561 ‡a)
+* Ägarhistorik (561 #a)
 
 * Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
   * Igenkänningstecken (562 #a) 
