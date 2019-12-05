@@ -2,14 +2,14 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2019-10-17
+date: 2019-12-05
 tags:
 - under arbete
 - bestånd
 - beståndsregistrering
 --- 
 
-# Beståndsregistrering
+## Beståndsregistrering
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 #b)
 
@@ -72,7 +72,7 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 
 * Precisering av hyllplacering (852 #g)
 
-* Exemplarstatus (852 #) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+* Exemplarstatus (852 #i) / Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus / Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
 
 <br/>
 
@@ -98,8 +98,6 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 * Underordnad institution/enhet (852 #9)
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
- 
-
 
 ### Anmarkningar
 * Anmärkning/hasNote (500 #a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
@@ -167,9 +165,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Sekretessbelagd information / Klicka i boxen (583 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Benämning (583 #a)
   * Del av materialet som avses (563 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-    
-
-
 
 ### Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
@@ -180,22 +175,14 @@ se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workf
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 #a)
   * Benämning (698 #b)
-  
- 
-  
 
 * För Klassifikation
-se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)
-
-
-  
+se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)  
 
 ### Agenter
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
 Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
-
-<br/>
 
 ### Elektronisk adress
 * Tillhörande media /Lägg tillMediaobjekt/Skapa lokal entitet/URI (856 4/0)
@@ -213,8 +200,6 @@ Egenskaper att lägga till:
   * Länktext (856 #y)
   * Offentlig anmärkning (856 #z)
   * Del av materialet som avses (856 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
-
-
 
 ### Oformaterad bestandsuppgift
 * Beståndsuppgift (866 #a)
