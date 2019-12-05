@@ -55,15 +55,17 @@ OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har kompo
 I Bestånd finns följande fält färdiga:
 * Hyllplacering (Avdelning,samling) (852 #c)
 Om ytterligare information om placering utöver Hyllkod behöver läggas till.
-  ```Exempel: Institution 140```
+<br/>```Exempel: Institution 140```
   
 * Hyllkod (852 #h)
 Här lägger du uppställning efter klassifikation eller annan hyllkod
-  ```Exempel: 158.1```
+<br/>```Exempel: 158.1```
 
-* Hyllsignum: Uppställningsord (852 #l)  ```Exempel: AND```
+* Hyllsignum: Uppställningsord (852 #l)  
+<br/>```Exempel: AND```
 
-* Hyllsignum: Löpnummer (852 #j)  ```Exempel: 2694```
+* Hyllsignum: Löpnummer (852 #j)  
+<br/>```Exempel: 2694```
 
 * Katalogisatörens anmärkning (852 #x)
  
@@ -93,11 +95,7 @@ Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under 
 
 * Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
 ![Del av materialet som avses](delavmaterial.png)
-
-<br/>
 
 * Underordnad institution/enhet (852 #9)
 
@@ -121,7 +119,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Standardiserad terminologi för åtkomstbegränsning (506 #f)
   * URI (506 #u)
   *  Del av materialet som avses (506 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
- <br/>
 
 * Sammanfattning av innehåll (520)
 * Lägg till egenskaper under Bestånd/Sammanfattning av innehåll/Lägg till sammanfattning
@@ -130,7 +127,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Utförligare anmärkningstext (520 #b)
   * Instans som åsatt anmärkning/etikett (520 #c)
   * URI (520 #u)
-<br/>
 
 * Förvärvsuppgifter (541)
 * Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
@@ -144,9 +140,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Anskaffningspris (541 #h)
   * Del av materialet som avses (541 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
-
 * Ägarhistorik (561 #a)
 
 * Har lokal anmärkning: Identifiering av exemplar, kopia eller version (562)
@@ -157,12 +150,8 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Antal exemplar (562 #e)
   * Del av materialet som avses (562 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-<br/>
-
 * Har lokal anmärkning: Bokband (563)
   * Benämning (563 #a)
-  
-<br/>
 
 * Har lokal anmärkning: Åtgärd (583)
 * Lägg till egenskaper under Lokal anmärkning Åtgärd/ Klicka därefter på plustecknet till höger om Lokal anmärkning: Åtgärd för att lägga till delfält och indikator
@@ -174,7 +163,6 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
 * För Ämnesord, se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
-
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 #a)
   * Benämning (698 #b)
@@ -185,7 +173,7 @@ se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workf
 ### Agenter
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
 Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  * För relationer till agenters verk se  [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+  * För relationer till agenters verk se [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
 
 ### Elektronisk adress
 * Tillhörande media /Lägg tillMediaobjekt/Skapa lokal entitet/URI (856 4/0)
@@ -243,7 +231,6 @@ Egenskaper att lägga till:
   * Offentlig anmärkning (877 #z)
   * Del av materialet som avses (877 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
   * Underordnad institution/enhet (877 #9)
-
 
 ### Lokalt definierade bestandsfalt
 *OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
