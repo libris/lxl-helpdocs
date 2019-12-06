@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-12-03
+date: 2019-12-06
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-12-06:
+* Tabellen med de rekommenderade kombinationerna av verks- och instanstyp är uppdaterad med anledning av att den svenska benämningen av verkstypen Projicerad bild ändrats till Rörlig bild.
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2019-12-03:
 * Hjälptexterna för agenttyperna Organisation och Person är uppdaterade med anledning av att egenskapen Andra attribut för person- och organisationsnamn nu går att länka.
