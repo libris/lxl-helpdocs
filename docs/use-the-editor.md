@@ -168,7 +168,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
 | Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik) |
-| Projicerad bild (000/06=g i MARC21) | Videoinspelning (007v i MARC21) (mall: Film)<br>Elektronisk (007c i MARC21) |
+| Rörlig bild (000/06=g i MARC21) | Videoinspelning (007v i MARC21) (mall: Film)<br>Elektronisk (007c i MARC21) |
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans |
 
