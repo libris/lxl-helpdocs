@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-09-11
+date: 2019-12-09
 tags:
 - under arbete
 - musik-CD
@@ -246,7 +246,8 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För en enkel innehållsförteckning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
     * ```Symfoni, nr 1, op. 45, d-moll ; Serenad, op. 36, d-moll```
-    * ```Don't Deceive Me (Fats Domino) -- Cheatin' Woman (Frankie Ford) -- Honey Hush (Joe Turner) -- Diddy-Y-Diddy-O (Roy Brown) -- Whirlaway (Allen Toussaint) -- Cha Dooky Doo (Art Neville) -- Real Gone Party (Ruth & Al) -- Chickee Wah Wah (Bobby Marchan) --There'll Be No Backin' Out (Mickey & Sylvia) -- That's All I Need To Know (Sam Cooke) -- Carry On (Jerry Byrne)```
+    * ```Ge mej din hand -- Våld -- Varför e Sverige så kallt? -- Rockin' chair -- Dig it -- En del och andra -- Enighet -- Håll ut```
+    * ```Don't Deceive Me / Fats Domino -- Cheatin' Woman / Frankie Ford -- Honey Hush / Joe Turner -- Diddy-Y-Diddy-O / Roy Brown -- Whirlaway / Allen Toussaint -- Cha Dooky Doo / Art Neville -- Real Gone Party / Ruth & Al -- Chickee Wah Wah / Bobby Marchan -- There'll Be No Backin' Out / Mickey & Sylvia -- That's All I Need To Know / Sam Cooke -- Carry On / Jerry Byrne```
 
    * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
   För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se Hjälptexten för Instans:
@@ -446,5 +447,4 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
  ```Exempel: Ej preciserad```
-
 
