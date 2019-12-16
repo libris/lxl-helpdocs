@@ -263,7 +263,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. För fiktiva eller felaktiga årtal, ange rätt årtal under År och återge det fiktiva eller felaktiga under Datum.  
+  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. För fiktiva eller felaktiga årtal, ange korrekt årtal under År och återge det fiktiva eller felaktiga under Datum.  
   Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
