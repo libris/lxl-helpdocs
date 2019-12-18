@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-12-06
+date: 2019-12-18
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2019-12-18:
+ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
 
 2019-12-06:
 * Tabellen med de rekommenderade kombinationerna av verks- och instanstyp är uppdaterad med anledning av att den svenska benämningen av verkstypen Projicerad bild ändrats till Rörlig bild.
