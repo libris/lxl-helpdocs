@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-12-06
+date: 2019-12-18
 tags:
 - under arbete
 - instans
@@ -263,7 +263,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
   Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
@@ -275,18 +275,24 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 1863 och 1866?]```
   
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".
- <br/>```Exempel:```
+  Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".  
+ För ett pågående flerbandsverk, ange Slutår: 9999.  
+   <br/>```Exempel pågående flerbandsverk:```
+     * ```Startår: 2019```
+     * ```Slutår: 9999```
+     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+     
+     <br/>```Exempel avslutat flerbandsverk:```
      * ```Startår: 1999```
      * ```Slutår: 2017```
      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-     <br/>```Exempel:```
+     <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
      * ```Startår: 1753```
      * ```Slutår: 1756```
      * ```Datum: [1753?]-1756```
      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
-  
+    
 * Flera år (faksimil)  
   Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning (= 008/06: r). Lägg till Årtal för ursprunglig utgivning (= 008/07-10) och Årtal för ny utgivning (= 008/11-14). Lägg sedan till Plats, Land, Agent och Datum (= 264 #c).     
   
