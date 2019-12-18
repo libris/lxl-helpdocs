@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-10-03
+date: 2019-12-18
 tags:
 - under arbete
 - seriell resurs
@@ -12,6 +12,26 @@ tags:
 
 ## Tryckt seriell resurs
 
+Innehåll:  
+
+| [Inledning](#inledning) | | |
+| ----------- |  ----------- | ----------- | 
+| **[Adminmetadata](#adminmetadata)** | **[Instans](#instans)** | **[Verk](#verk)** | 
+[Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Medietyp](#medietyp) | [Språk](#sprak) |
+| | [Bärartyp](#barartyp) | [Genre](#genre) |
+| | [Titel](#titel) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Identifikator](#identifikator) | [Relationer under verk (Fortsätter, Ersätter etc)](#relationer-under-verk) |
+| | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
+| | [Alfabet](#alfabet) | |
+| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
+| | [Anmärkning](#anmarkning)| |
+| | [Annat bärarformat](#annat-bararformat) | |
+
+## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
@@ -24,25 +44,6 @@ Många av egenskaperna finns redan i mallen Tryckt seriell resurs, andra kan beh
 För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
-
-Innehåll:  
-
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ------ | ----------- |  ----------- |
-[Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre](#genre) |
-| | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
-| | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| | [Anmärkning](#anmarkning)| |
-| | [Annat bärarformat](#annat-bararformat) | |
-
 
 #### Adminmetadata
 
@@ -315,7 +316,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 #### Relationer under verk
-* Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
+* Relationer under verk (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
   Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). Ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
