@@ -277,22 +277,22 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. För ett avslutat flerbandsverk, där årtal inte behöver anges med klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".  
  För ett pågående flerbandsverk, ange Slutår: 9999 samt Datum och bindestreck.    
-   <br/>```Exempel pågående flerbandsverk:```
-     * ```Startår: 2019```
-     * ```Slutår: 9999```
-     * ```Datum: 2019-```
-     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+ <br/>```Exempel pågående flerbandsverk:```
+ * ```Startår: 2019```
+ * ```Slutår: 9999```
+ * ```Datum: 2019-```
+ * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
      
-    <br/>```Exempel avslutat flerbandsverk:```
-    * ```Startår: 1999```
-    * ```Slutår: 2017```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+ <br/>```Exempel avslutat flerbandsverk:```
+ * ```Startår: 1999```
+ * ```Slutår: 2017```
+ * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-    <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
-    * ```Startår: 1753```
-    * ```Slutår: 1756```
-    * ```Datum: [1753?]-1756```
-    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+ <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
+ * ```Startår: 1753```
+ * ```Slutår: 1756```
+ * ```Datum: [1753?]-1756```
+ * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
     
 * Flera år (faksimil)  
   Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning (= 008/06: r). Lägg till Årtal för ursprunglig utgivning (= 008/07-10) och Årtal för ny utgivning (= 008/11-14). Lägg sedan till Plats, Land, Agent och Datum (= 264 #c).     
