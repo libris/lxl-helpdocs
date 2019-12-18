@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna. 
 
 2019-12-18:
-ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
+* Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
 </br>https://libris.kb.se/katalogisering/help/workflow-instance
 
 2019-12-06:
