@@ -280,6 +280,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
    <br/>```Exempel pågående flerbandsverk:```
      * ```Startår: 2019```
      * ```Slutår: 9999```
+     * ```Datum: 2019-```
      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
      
      <br/>```Exempel avslutat flerbandsverk:```
