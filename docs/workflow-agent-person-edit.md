@@ -12,8 +12,7 @@ tags:
 ## Redigera befintlig Agent - Person
 
 ### Innehåll
-| [Inledning](#inledning) | 
-
+[Inledning](#inledning) 
 
 | [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
