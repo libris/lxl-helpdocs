@@ -12,11 +12,11 @@ tags:
 
 ## Tryckt seriell resurs
 
-Innehåll:  
+[Inledning](#inledning) 
 
-| [Inledning](#inledning) | | |
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
-| **[Adminmetadata](#adminmetadata)** | **[Instans](#instans)** | **[Verk](#verk)** | 
 [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
