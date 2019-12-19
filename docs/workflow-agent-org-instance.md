@@ -10,23 +10,10 @@ tags:
 
 ## Relationer till Agent
 
-Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
-
-Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid verkstypen.
-
-Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
-
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter. OBS! I nuläget finns endast mallar för att skapa ny Person, skapa ny Organisation och för att skapa ny Jurisdiktion.
-
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
-
-För information om katalogiseringsregler som gäller vid auktoritetsarbete, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
-
-
 ### Innehåll
+[Inledning](#inledning)
 
-| [Agent som Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan)  | [Agent som Ämne](#agent-som-amne)
+| [Agent som Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Agent som Ämne](#agent-som-amne)
 | ------ | ------- |
 | [**Länka till entitet**](#agent-som-primar-medverkan-eller-medverkan) | [**Länka till entitet**](#agent-som-amne) |
 | [Agent](#agent-som-primar-medverkan-eller-medverkan) | [Agent](#agent-som-amne)
@@ -39,6 +26,19 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 | [Möte](#mote) | [Släkt](#jurisdiktion)
 | | [Möte](#mote) |
 
+### Inledning
+Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
+
+Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid verkstypen.
+
+Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
+
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter. OBS! I nuläget finns endast mallar för att skapa ny Person, skapa ny Organisation och för att skapa ny Jurisdiktion.
+
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
+
+För information om katalogiseringsregler som gäller vid auktoritetsarbete, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
 ### Agent som Primar medverkan eller Medverkan
 
@@ -129,11 +129,11 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Jurisdiktion
 
-* Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+* Jurisdiktion med namnform i ett led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/, 710 1/)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Region Hovedstaden (Danmark)```
 
-* Jurisdiktion med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/ , 710 1/ )
+* Jurisdiktion med namnformen i flera led som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/, 710 1/)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
 <br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Danmark samt Jurisdiktion/Namn på underordnad enhet: Folketinget```
 <br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
@@ -149,20 +149,20 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
 
 #### Släkt
 
-* Släkt som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Family = 100 3/ , 700 3/ )
+* Släkt som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Family = 100 3/, 700 3/)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Ibsen (släkt)```
   
-* Släkt som Ämne (Subject/agent/Family = 600 3/ )
+* Släkt som Ämne (Subject/agent/Family = 600 3/)
 <br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
   <br/>```Exempel: Namn: Hilton (släkt) samt Födelsetid och/eller dödstid: 1900-talet-```
 
 #### Mote
 
-* Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/ , 711 2/ )
+* Möte som Primär medverkan/Medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/, 711 2/ )
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Ordningstal: 21 samt Datum: 2006```
 
-* Möte som Ämne (Subject/agent/Meeting = 611 2/ )
+* Möte som Ämne (Subject/agent/Meeting = 611 2/)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
  <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999```
