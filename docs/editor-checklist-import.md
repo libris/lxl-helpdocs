@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-10-28
+date: 2019-05-17
 tags:
 - redigering
 - postimport
@@ -11,21 +11,14 @@ order: 12
 
 # Checklista vid redigering av importerade poster
 
-Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
-- För poster gjorda enligt AACR2 eller annat regelverk än RDA, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
-- För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
-
-Ytterligare anvisningar hittas även i Katalogisatörens verktygslåda under de enskilda MARC21-fälten inom [Katalogisering](http://www.kb.se/katalogisering/Katalogisering/) och [Bibliografiska formatet](http://www.kb.se/katalogisering/Formathandboken/Bibliografiska-formatet/).  
-
-Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet kan denna checklista användas som stöd vid redigering.  
-
-OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
-
 ### Innehåll 
+
+[Inledning](#inledning) 
+
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
-|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Identifikator](#identifikator) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Föredragen titel](#foredragen-titel) |
 | [Beskrivningsnivå](#beskrivningsniva)| [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp och bärartyp](#medietyp-och-barartyp) | [Språk](#sprak) |
@@ -38,6 +31,16 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
 |  | [MARC-egenskaper](#MARC-egenskaper) |  |
 
+## Inledning
+Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
+- För poster gjorda enligt AACR2 eller annat regelverk än RDA, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
+- För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
+
+Ytterligare anvisningar hittas även i Katalogisatörens verktygslåda under de enskilda MARC21-fälten inom [Katalogisering](http://www.kb.se/katalogisering/Katalogisering/) och [Bibliografiska formatet](http://www.kb.se/katalogisering/Formathandboken/Bibliografiska-formatet/).  
+
+Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet kan denna checklista användas som stöd vid redigering.  
+
+OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
 
 ## Adminmetadata 
 Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
@@ -49,6 +52,10 @@ Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 
 
 ### Beskrivningsniva
 Beskrivningsnivå (encodingLevel = 000/17) 
+
+Vid postimport matchas alla okända värden till Miniminivå. Det kan därför hända att beskrivningar på mer fullständig nivå ändå hamnar på Miniminivå.
+
+- Kontrollera värdet och ändra till passande fullständighetsnivå. Preliminära och förhandsposter uppgraderas till Minimi- eller Biblioteksnivå för att undvika att de skrivs över  vid maskinella uppdateringar. Nationalbibliografisk nivå ändras inte.
 
 Vid postimport händer det att egenskapen saknar värde eller saknas helt. 
 - Om egenskapen finns men saknar värde: 
@@ -264,7 +271,7 @@ Läs mer om agenter som ämne i hjälptexten [Relationer till Agent](https://lib
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 #### DDK-klassifikation 
-- Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Om kod läggs till eller ändras bör Parallell upplagebeteckning/Upplagespecifik upphovsuppgift vara ”23/swe”. 
+- Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll lägg till/ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”. 
 
   OBS! Egenskapen _Parallell upplagebeteckning_ går inte att lägga till manuellt. Om den saknas måste en en ny DDK-kod läggas till: 
   - Klicka på plustecknet Lägg till entitet vid Klassifikation 
