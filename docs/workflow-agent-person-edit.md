@@ -10,16 +10,10 @@ tags:
 --- 
 
 ## Redigera befintlig Agent - Person
-Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan ännu fler förekomma) i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
-
-Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
-
-För information om katalogiseringsregler som gäller vid auktorisering, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
-
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 ### Innehåll
+| [Inledning](#inledning) | 
+| ------ | 
 
 | [**Adminmetadata**](#befintliga-egenskaper-i-adminmetadata) | [**Agent**](#befintliga-egenskaper-i-beskrivningen) | 
 | ------ | ----------- |
@@ -45,6 +39,16 @@ OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoris
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) |
 
+
+### Inledning
+Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan ännu fler förekomma) i en befintlig auktoriserad agent och vilka egenskaper som bör läggas till. Under rubriken Innehåll finns de egenskaper klickbara som kan behöva redigeras eller läggas till i agenten. Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs till med hjälp av den runda plustecknet i verktygsmenyn. Exemplen som finns i hjälptexten är fiktiva.
+
+Det är möjligt att berika en befintlig agent från en mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
+
+För information om katalogiseringsregler som gäller vid auktorisering, se 
+[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 ### Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig och inte är direkt förknippad med den auktoriserade namnformen.
