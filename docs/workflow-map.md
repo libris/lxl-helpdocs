@@ -10,13 +10,10 @@ tags:
 
 ## Karta
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
-
-I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-andra-i-kartmallen-sa-att-den-kan-anvandas-for-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
-
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i hjälpsektionens vänstermeny. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
-
 ### Innehåll
+
+[Inledning](#inledning)
+
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
@@ -29,6 +26,13 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Genre/form (instans)](#farginnehall) | | 		
 	
 			
+### Inledning
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av kartor. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för kartor redovisas däremot enbart här.
+
+I nuläget finns endast en kartmall för tryckta kartor, men det är relativt enkelt att justera mallen så att den kan användas för katalogisering av en handritad kartresurs. En [kort beskrivning](#att-andra-i-kartmallen-sa-att-den-kan-anvandas-for-handritad-kartresurs) av hur man gör detta finns i slutet av denna hjälptext.
+
+För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i hjälpsektionens vänstermeny. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/) samt [RDA Toolkit](http://access.rdatoolkit.org/).
+
 ### Adminmetadata
 Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
 
