@@ -23,7 +23,7 @@ tags:
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| | [Copyright- eller p-år](#copyright--eller-p--ar) | [Innehållstyp](#innehallstyp) |
+| | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
