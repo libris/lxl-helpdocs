@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-12-18
+date: 2019-01-09
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,12 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-01-09:
+* Instruktion för egenskapen Speltid tillagd på sidorna för Film, Musik-CD och Musiktryck.
+</br>https://libris-dev.kb.se/katalogisering/help/workflow-film
+</br>https://libris-dev.kb.se/katalogisering/help/workflow-music-CD
+</br>https://libris-dev.kb.se/katalogisering/help/workflow-notated-music
 
 2019-12-18:
 * Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
