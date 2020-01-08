@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2019-09-04
+date: 2020-01-07
 tags:
 - under arbete
 - film
@@ -11,18 +11,6 @@ tags:
 ---
 
 ## Film - videoinspelning
-Beskrivningen av en film innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
-
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för film på DVD eller Blu-Ray. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
-
-Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Film.  
-
-För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
-
-Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
 ### Innehåll  
 
@@ -37,11 +25,12 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) |  [Ämne](#amne)  |
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) | [Bild- och filmtexter](#bild--och-filmtexter) |
-| | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Inspelning](#inspelning) |
-| | [Medföljande material](#medfoljande-material) | [Anmärkningar](#anmarkningar) |
-| | [Videokarakteristika](#videokarakteristika) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| | [Omfång](#omfang) | [Bild- och filmtexter](#bild--och-filmtexter)|
+| | [Speltid](#speltid) | [Inspelning](#inspelning) |
+| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
+| | [Medföljande material](#medfoljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Innehållsförteckning](#innehallsforteckning) | |
@@ -49,12 +38,25 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Anmärkning](#anmarkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
 
+## Inledning
+Beskrivningen av en film innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
+
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för film på DVD eller Blu-Ray. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
+
+Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Film.  
+
+För information om katalogregler och Librispraxis, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
+
+Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
+
 ### Adminmetadata
 Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
-
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -227,6 +229,13 @@ Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
      * ```1 DVD-video (2 tim., 7 min.)```
      * ```1 Blu-ray Disc (1 tim., 40 min.)```
+     
+#### Speltid
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
+  ```Exempel: 011200```
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
@@ -271,7 +280,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
    <br/>```Exempel:```<br/> 
    * ```Produktion: Förenta staterna, 1972```<br/>
    * ```Produktion: Storbritannien, 2018```
-        
+       
 #### Elektronisk adress
 ##### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
