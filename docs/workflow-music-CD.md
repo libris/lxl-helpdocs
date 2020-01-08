@@ -11,7 +11,9 @@ tags:
 
 ## Musik-CD - ljudinspelning 
 
-### Innehåll  
+### Innehåll
+
+[Inledning](#inledning)
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
