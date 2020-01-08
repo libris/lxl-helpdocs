@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2019-12-09
+date: 2020-01-07
 tags:
 - under arbete
 - musik-CD
@@ -10,6 +10,30 @@ tags:
 --- 
 
 ## Musik-CD - ljudinspelning 
+
+### Innehåll  
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ----------- |  ----------- | ----------- | 
+|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Titel](#titel) | [Språk](#sprak)  |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
+| | [Copyright- eller p-år](#copyright--eller-p--ar) | [Innehållstyp](#innehallstyp) |
+| | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
+| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
+| | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| | [Medföljande material](#medfoljande-material) | |
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Innehållsförteckning](#innehallsforteckning) | | 
+| | [Anmärkning](#anmarkning) | | 
+
+### Inledning 
 Beskrivningen av en musik-CD innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
@@ -26,27 +50,6 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. Denna Librispraxis, [KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
-
-### Innehåll  
-
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- | ----------- | 
-|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Titel](#titel) | [Språk](#sprak)  |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
-| | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
-| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |  
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Medföljande material](#medfoljande-material) | |
-| | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsförteckning](#innehallsforteckning) | | 
-| | [Anmärkning](#anmarkning) | | 
 
 ### Instans
   För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -225,6 +228,13 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```  
+
+#### Speltid
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
+  ```Exempel: 011200```
   
 #### Ovriga fysiska detaljer   
   * Övriga fysiska detaljer (other physical details = 300 #b)     
@@ -447,4 +457,5 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
   Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning). Välj typ från lista.  
  ```Exempel: Ej preciserad```
+
 
