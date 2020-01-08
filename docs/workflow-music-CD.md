@@ -23,7 +23,7 @@ tags:
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
-| | [Copyright- eller p-år](#copyright-eller-p-ar) | [Innehållstyp](#innehallstyp) |
+| | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Innehållstyp](#innehallstyp) |
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
 | | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
 | | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
@@ -187,7 +187,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
   
-#### Copyright- eller p-ar
+#### Copyrightar eller p-ar
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Det går bara att ange ett år här, så om både copyright- och p-år förekommer på resursen ange det senaste p-året.
