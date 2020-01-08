@@ -2,28 +2,13 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2019-09-04
+date: 2020-01-07
 tags:
 - under arbete
 - musiktryck
 --- 
 
 ## Musiktryck
-
-Beskrivningen av ett musiktryck innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
-
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för musiktryck. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
-
-Många av egenskaperna finns redan i mallen Noterad musik, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Noterad musik.  
-
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
-
-I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
-
-Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
 ### Innehåll   
 
@@ -43,7 +28,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Identifikator](#identifikator) | [Har del](#har-del) |  
 | | [Omfång](#omfang) | |
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
-| | [Mått](#matt) | |                                                                  
+| | [Mått](#matt) | |
+| | [Speltid](#speltid) | |
 | | [Medföljande material](#medfoljande-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
@@ -51,6 +37,23 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Innehållsförteckning](#innehallsforteckning) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
+
+## Inledning
+
+Beskrivningen av ett musiktryck innehåller följande tre delar:  
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
+
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för musiktryck. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
+
+Många av egenskaperna finns redan i mallen Noterad musik, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Noterad musik.  
+
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
+
+I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
+
+Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
 ### Instans  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -264,7 +267,14 @@ För Varianttitel och andra titelvarianter, se hjälptexten för [Instans](https
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)  
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 24 cm```  
+  ```Exempel: 24 cm``` 
+
+#### Speltid
+* Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
+  Vid behov anges speltid här i kodad form.
+  Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
+  Om sekunder inte är kända ange 00.</br>
+  ```Exempel: 011200```
   
 #### Medfoljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
