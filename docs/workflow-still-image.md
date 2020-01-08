@@ -11,11 +11,10 @@ tags:
 
 ## Stillbild
 
-Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av stillbilder. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för stillbilder redovisas däremot enbart här. 
-
-För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
-
 ### Innehåll
+
+[Inledning](#inledning)
+
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
@@ -27,11 +26,13 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 | | [Genre/form (instans)](#farginnehall) | |
 | | [Polaritet](#polaritet) | |
 
+### Inledning
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper vid katalogisering av stillbilder. I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte informationen här utan istället finns en länk till relevant hjälptext. Egenskaper som är specifika för stillbilder redovisas däremot enbart här. 
 
+För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Bilder/) samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 ### Adminmetadata
 Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
-
 
 ### Instans
 Använd generell hjälptext för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan. 
