@@ -10,7 +10,9 @@ tags:
 
 ## Musiktryck
 
-### Innehåll   
+### Innehåll
+
+[Inledning](#inledning)
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
@@ -38,7 +40,7 @@ tags:
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
-## Inledning
+### Inledning
 
 Beskrivningen av ett musiktryck innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
