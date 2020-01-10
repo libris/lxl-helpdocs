@@ -9,7 +9,6 @@ tags:
 ---
 
 ## Relationer till delar och verk 
-(7XX)
 
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
 
