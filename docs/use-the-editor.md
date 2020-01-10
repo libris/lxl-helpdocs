@@ -14,7 +14,7 @@ tags:
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
+| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](#funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
 | -------- | ----------- | ----------- | ----------- |
 | [Lägg bestånd](#visningsvy) | [Verktyg](#visa-som) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
 | [Visa som](#visningsvy) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
