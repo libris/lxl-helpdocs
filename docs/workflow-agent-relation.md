@@ -1,14 +1,15 @@
 ---
 section: Hjälptexter katalogisering
-title: Relationer till delar och verk
+title: Relationer till agenter, delar och verk
 order: 34
-date: 2020-01-09
+date: 2019-02-06
 tags:
 - editor
 - under arbete
 ---
 
 ## Relationer till delar och verk 
+(7XX)
 
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
 
@@ -18,13 +19,13 @@ Länka i första hand till befintliga auktioriteter för personer, organisatione
 
 [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
 
-[Obestämd relation till verk](#obestämd-relation-till-verk)
+[Obestämd relation till verk](#Obestamd-relation-till-verk)
 
-[Ingående verk](#Ingående-verk)
+[Ingående verk](#Ingaende-verk)
 
-[Relation till ett verk av en författare som ämnesord](#Relation-till-ett-verk-av-en-författare-som-ämnesord)
+[Verk som ämne](#Verk-som-amne)
 
-[Fler delfält](#Fler-delfält)
+[Fler delfält](#Fler-delfalt)
 
 ### Relation till verk uttryckt genom text 
 Relation till ett verk av en författare (700 1/_ #i #a #d #t)
@@ -35,7 +36,7 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
 
 ![Relation till ett verk av en författare](Relationverkauth.png) 
 
-* Klicka på plustecknet vid Text
+* Öppna sidorutan Lägg till egenskaper under Text 
 * Välj egenskapen Relation (Relationship)
 * Välj typ Relation från rullgardinsmenyn
 * Klicka på plustecknet vid Relation och välj Entitet
@@ -50,13 +51,13 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
   * Skriv in uppgiften. 
   <br/>```Exempel: Parafraserar``` 
 
-### Obestämd relation till verk 
+### Obestamd relation till verk 
 Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 #a)
 
 
 ![Obestämd relation till ett verk](Obestrelationverk.png) 
 
-* Klicka på plustecknet vid Text
+* Öppna sidorutan Lägg till egenskaper under Text 
 * Välj egenskapen Relation (relationship)
 * Välj typ Relation från rullgardinsmenyn
 * Klicka på plustecknet vid Relation och välj Entitet
@@ -70,17 +71,17 @@ Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, g�
 
  <br/>
  
-### Ingående verk
+### Ingaende verk
 För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 #a #d #t) 
 
 ![Ingaende verk](Ingaendeverk_sprak.png) 
-* Klicka på plustecknet vid Text:
+* Öppna sidorutan Lägg till egenskaper under Text:
 * Välj egenskapen Har del (hasPart)
 * Klicka på plustecknet vid Har del, välj Skapa Lokal entitet och välj Verk  (----Verk)
   * Klicka på plustecknet vid Verk, lägg till Har titel, välj Titel och skriv in den föredragna titeln under Huvudtitel
   * Klicka på plustecknet vid Verk, lägg till Medverkan och funktion och välj Primär medverkan
   * Klicka på plustecknet vid Agent och länka till auktoriserad namnform. Om en sådan inte finns välj Skapa lokal entitet, välj Person och fyll i uppgifterna
-  * Klicka på plustecknet vid Funktion och välj Författare (aut)
+  * Klicka på plustecknet vid Funktion och länka till aktuell funktion
   * Klicka på plustecknet vid Agent och länka till auktoriserad namnform. Om en sådan inte finns välj Skapa lokal entitet, välj Person och fyll i uppgifterna 
 
 Om det ingående verket är en översättning:
@@ -88,19 +89,24 @@ Om det ingående verket är en översättning:
 
 OBS! I exporten till MARC21 kommer det skapas ett fält 041 för varje språklänk. I de fall flera översatta verk ingår kan detta resultera i många dubbleringar. Ignorera de dubblerade 041-fälten. 
 
-### Relation till ett verk av en författare som ämnesord
+## Verk som amne 
+
+I nuvarande version av Libris katalogiseringsklient är det svårt att länka till Verk som ämne även i de fall det finns en auktoritetspost för verket. Den länkbara entiteten för verket är i dagsläget svår att urskilja från entiteter som representerar uttryck av verket och vi rekommenderar därför att man alltid beskriver verk som lokala entiteter tills vidare. 
+
+### Verk som lokal entitet 
+
 För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
 
-![Relation till verk av en författare som ämnesord](Relationverkauthsubj.png)
+![Relation till verk av en författare som ämnesord](Relationverkauthsubj_NY.png)
 
-* Klicka på plustecknet vid Ämne
-* Välj Skapa lokalt entitet och välj Verk
-  * Klicka på plustecknet vid Verk, lägg till Har titel, välj Titel och skriv in den föredragna titeln under Huvudtitel
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
+* Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet.
+  * Klicka på plustecknet vid Verk, lägg till Har titel, välj Titel och skriv in den föredragna titeln under Huvudtitel (Övrig titelinformation raderas)
   * Klicka på plustecknet vid Verk, lägg till Medverkan och funktion och välj Primär medverkan
   * Klicka på plustecknet vid Agent och länka till auktoriserad namnform. Om en sådan inte finns välj Skapa lokal entitet, välj Person och fyll i uppgifterna
-  * Klicka på plustecknet vid Funktion och välj Författare (aut)
+  * Klicka på plustecknet vid Funktion och länka till aktuell funktion
     
-###  Fler delfält
+###  Fler delfalt
 För att lägga till fler engenskaper under Verk/Har titel/Titel/Huvudtitel:
 * Klicka på plustecknet vid Titel och välj
   * Specificering i form av grupptitel (700 #k)
