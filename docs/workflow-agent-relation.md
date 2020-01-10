@@ -1,8 +1,8 @@
 ---
 section: Hjälptexter katalogisering
-title: Relationer till agenter, delar och verk
-order: 34
-date: 2019-02-06
+title: Relationer till delar och verk
+order: 24
+date: 2020-01-10
 tags:
 - editor
 - under arbete
