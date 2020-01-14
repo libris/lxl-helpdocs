@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Karta
 order: 45
-date: 2019-06-12
+date: 2020-01-14
 tags:
 - under arbete
 - karta
@@ -151,16 +151,17 @@ Lägg in  uppgift om typ av koordinater i en separat Kartografisk information. I
 
 #### Att andra i kartmallen sa att den kan anvandas for handritad kartresurs
  1. Hämta mallen för Karta (tryckt kartmaterial)
- 2. Radera instanstypen Kartmaterial genom att klicka på soptunnan högst upp till höger i Instans av verk.
- 3. Klicka på plustecknet till vänster i Instans av verk, lägg till lokal entitet, välj Skapa karthandskrift.
- 4. Berika därefter posten från kartmall (klicka på verktygsknappen, välj Berika från mall - karta).
- 5. Lägg till följande egenskaper inom Instans:
-  * Produktion (production = 264 -/0)
-   <br/>Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
-  * Bärande material/Benämning (baseMaterial/label = 340 #a)
-   <br/>Läs mer under [Bärande material](#barande-material).
-  * Applicerat material/Benämning (appliedMaterial/label = 340 #c
-   <br/>Läs mer under [Applicerat material](#applicerat-material).
- 6. Lägg till följande egenskap inom Instans av Verk:
-  * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
-   <br/>Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper” 
+ 2. Ändra Verkstyp i rullgardinsmenyn till Karthandskrift
+ 3. Lägg till följande egenskaper inom Instans:
+    * Produktion (production = 264 -/0)
+      Används för opublicerade resurser. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Använd inte egenskapen utgivning. Läs 	 mer om egenskaperna Produktion och Huvudsakligt tillgängliggörande i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
+    * Bärande material/Benämning (baseMaterial/label = 340 #a)
+      Läs mer under [Bärande material](#barande-material).
+    * Applicerat material/Benämning (appliedMaterial/label = 340 #c
+      Läs mer under [Applicerat material](#applicerat-material).
+ 4. Lägg till följande egenskap inom Instans av Verk:
+    * Genre/form/Typ av kartografiskt material (genreForm(marc) = 008/33-34 e)
+      Länka till entitet. Välj ”Handritad, e” med rubriken ”Särskilda formella egenskaper”
+    * Genre/form – TGM-termer (genreForm = 655 -/7 #a #2 TGM)
+      Länka till entitet. Välj Genre/form i listan över typer. Sök och lägg till termen ”Handritade kartor”.
+
