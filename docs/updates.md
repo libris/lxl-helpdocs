@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-01-09
+date: 2019-01-14
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-01-14:
+* Uppdaterad information om hur man ändrar i kartmallen så att den kan användas for handritad kartresurs. Gäller hjälptext för Karta:
+</br>https://libris.kb.se/katalogisering/help/workflow-map
 
 2020-01-09:
 * Instruktion för egenskapen Speltid tillagd på sidorna för Film, Musik-CD och Musiktryck.
