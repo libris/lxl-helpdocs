@@ -1,5 +1,5 @@
 ---
-section: Hjälptexter katalogisering
+section: Generell beskrivning
 title: Relationer till delar och verk
 order: 24
 date: 2020-01-10
