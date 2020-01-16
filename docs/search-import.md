@@ -2,34 +2,39 @@
 section: Sök
 title: Andra källor
 order: 3
-date: 2018-06-01
+date: 2020-01-16
 tags:
 - search
 - import
 - under arbete
 ---
 
-[Extern länk till Libris undersidor](http://www.kb.se/libris/katalogisering/Metaproxy/)
-
 ## Import av poster från andra källor
 
-XL erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor i sökrutan kan användare söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller olika samlingar av databaser. 
+Libris katalogisering erbjuder sök i andra källor än Libris. Via Andra källor under Sök kan du söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller samlingar av databaser. 
 
-Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metasök Latin, Metasök Mellaneuropa och Metasök Norden. 
+Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Det går bra att välja flera databaser.  
 
-**Allsök innehåller databaser från anglosaxiska områden:**
+För att importera en post, klicka på posten i träfflistan. Följ [Checklista för postimport](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara och lägg på bestånd.
+ 
+### Innehåll
+Andra källor innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i databaslistan finns specifik information om databasen eller samlingen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
 
-* Allsök 1: Anglosaxiska databaser från USA
-* Allsök 2: Anglosaxiska databaser från USA
-* Allsök 3: Anglosaxiska databaser från Kanada
-* Allsök 4: Anglosaxiska databaser från övriga världen
+Samlingarna av databaser är grupperade:
 
-**Metasök erbjuder databaser utanför de engelskspråkiga områdena**
+**Databaser från anglosaxiska områden:**
 
-* Metasök Asien
-* Metasök Latin
-* Metasök Norden
-* Metasök Mellaneuropa
+* Anglosax1: Anglosaxiska databaser från USA
+* Anglosax2: Anglosaxiska databaser från USA
+* Anglosax3: Anglosaxiska databaser från Kanada
+* Anglosax4: Anglosaxiska databaser från övriga världen
 
-## Allmänt
-Importen rensar och rättar posten men kräver en noggrann kontroll före beståndsregistrering.
+**Databaser utanför de engelskspråkiga områdena**
+
+* Asien
+* Latin
+* Mellaneuropa
+* Norden
+
+### Söktips
+Se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
