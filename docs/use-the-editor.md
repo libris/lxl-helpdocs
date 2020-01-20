@@ -73,7 +73,7 @@ Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogiser
    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
     </br>![Kopiera ID](KopieraID.PNG)
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-    </br>[Berika från ID](BerikafranID.png)
+    </br>![Berika från ID](BerikafranID.png)
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
