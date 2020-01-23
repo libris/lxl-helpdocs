@@ -1,7 +1,7 @@
 ---
 section: Redigering
-title: Checklista postimport
-date: 2019-12-19
+title: Checklista import Andra källor
+date: 2020-01-23
 tags:
 - redigering
 - postimport
@@ -9,7 +9,7 @@ order: 12
 ---
 
 
-# Checklista vid redigering av importerade poster
+# Checklista vid postimport från Andra källor
 
 ### Innehåll 
 
@@ -212,7 +212,7 @@ Exempel på uppgifter som kan stå kvar:
 - Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2)  
   
 Uppgifter som ska raderas: 
-- Beskriven av/Post/Kontrollnummer (= #w). Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
+- Beskriven av/Post/Kontrollnummer (describedBy/Record/controlNumber = #w). Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
 
 ### MARC-egenskaper 
 Data från MARC21-fält som inte har en motsvarighet i Libris visas som MARC:... (t.ex. MARC:HASTRANSLATEDTITLE).
@@ -254,13 +254,13 @@ Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)
 
 #### Genre/formtermer enligt Svenska ämnesord 
 
-- Komplettera med tillämpliga termer för genre/form enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
+- Komplettera med tillämpliga termer för genre/form enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/) 
 
 ### Amne 
 Läs mer om [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 #### Svenska ämnesord 
-- Komplettera med tillämpliga ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]). 
+- Komplettera med tillämpliga ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/). 
 
 #### Agenter som ämne
 Läs mer om agenter som ämne i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
