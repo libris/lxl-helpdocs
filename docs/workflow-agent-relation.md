@@ -1,7 +1,7 @@
 ---
 section: Generell beskrivning
 title: Relationer till delar och verk
-order: 24
+order: 29
 date: 2020-01-10
 tags:
 - editor
