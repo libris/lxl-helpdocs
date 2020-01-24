@@ -1,10 +1,11 @@
 ---
-section: Sök
+section: Katalogiseringsverktyget
 title: Specialtecken
-order: 5
+order: 21
 date: 2019-03-13
 tags:
 - special characters
+- specialtecken
 ---
 
 # Specialtecken
