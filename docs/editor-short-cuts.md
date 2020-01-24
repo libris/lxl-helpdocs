@@ -1,7 +1,7 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Kortkommandon
-order: 14
+order: 20
 date: 2019-10-07
 tags:
 - under arbete
