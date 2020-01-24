@@ -33,10 +33,10 @@ tags:
 ### Inledning
 Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
 
-I varje instans finns en sammanfattande ruta högst upp - **sammanfattningsrutan**. 
+I varje instans finns en sammanfattande ruta högst upp.
 ![Sammanfattningsruta](sammanfattningsrutan.png)
 
-Den innehåller:
+Sammanfattningsrutan innehåller:
  1. Titel och sammanfattande bibliografisk information
  2. Beskrivningsnivå 
  3. Instanstyp 
@@ -93,7 +93,7 @@ Kortkommando: Ctrl + E
 
 ### Verktygsmeny i redigeringsläge
 
-![Verktygsmeny i redigeringsläge](redigering.png) 
+![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
@@ -213,5 +213,3 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
-
-
