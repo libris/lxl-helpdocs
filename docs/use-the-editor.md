@@ -38,7 +38,7 @@ I varje instans finns en sammanfattande ruta högst upp.
 ![Sammanfattningsruta](sammanfattningsrutan.png)
 
 Sammanfattningsrutan innehåller:
- 1. Titel och sammanfattande bibliografisk information. Välj Visa fler för att visa mer information i sammanfattningsrutan.
+ 1. Titel och sammanfattande bibliografisk information. Välj Visa fler för att visa mer information i sammanfattningsrutan
  2. Beskrivningsnivå 
  3. Instanstyp 
  4. Utgivningssätt 
