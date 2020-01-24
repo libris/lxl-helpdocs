@@ -1,12 +1,12 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Katalogvård
 date: 2019-03-28
+order: 22
 tags:
 - redigering
 - katalogvård
 - flytta bestånd
-order: 15
 ---
 
 ## Katalogvård
