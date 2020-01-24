@@ -34,6 +34,7 @@ tags:
 Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
 
 I varje instans finns en sammanfattande ruta högst upp.
+
 ![Sammanfattningsruta](sammanfattningsrutan.png)
 
 Sammanfattningsrutan innehåller:
