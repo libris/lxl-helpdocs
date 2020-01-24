@@ -1,11 +1,11 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Entiteter
 date: 2019-01-31
+order: 19
 tags:
 - redigering
 - entiteter
-order: 13
 ---
 
 ## Söka fram entiteter
