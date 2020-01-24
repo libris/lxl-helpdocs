@@ -1,7 +1,7 @@
 ---
 section: Generell beskrivning
 title: Instans
-order: 22
+order: 27
 date: 2019-12-18
 tags:
 - under arbete
