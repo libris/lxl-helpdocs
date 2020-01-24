@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2019-01-14
+date: 2020-01-24
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,16 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-01-24:
+* Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
+</br>https://libris.kb.se/katalogisering/help/create-new
+</br>https://libris.kb.se/katalogisering/help/edit-upgrade
+Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgradera.
+</br>Checklista postimport har bytt namn till Checklista import Andra källor.
+</br>Sidan Översikt utgår och informationen har delvis flyttats till Att använda verktyget.
+</br>Sidan Att använda verktyget är omstrukturerad:
+https://libris.kb.se/katalogisering/help/use-the-editor
 
 2020-01-14:
 * Uppdaterad information om hur man ändrar i kartmallen så att den kan användas for handritad kartresurs. Gäller hjälptext för Karta:
