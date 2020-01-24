@@ -19,7 +19,7 @@ Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgr
 </br>Checklista postimport har bytt namn till Checklista import Andra källor.
 </br>Sidan Översikt utgår och informationen har delvis flyttats till Att använda verktyget.
 </br>Sidan Att använda verktyget är omstrukturerad:
-https://libris.kb.se/katalogisering/help/use-the-editor
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
 
 2020-01-14:
 * Uppdaterad information om hur man ändrar i kartmallen så att den kan användas for handritad kartresurs. Gäller hjälptext för Karta:
