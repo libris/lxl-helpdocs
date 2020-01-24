@@ -15,7 +15,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
 </br>https://libris.kb.se/katalogisering/help/create-new
 </br>https://libris.kb.se/katalogisering/help/edit-upgrade
-Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgradera.
+</br>Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgradera.
 </br>Checklista postimport har bytt namn till Checklista import Andra källor.
 </br>Sidan Översikt utgår och informationen har delvis flyttats till Att använda verktyget.
 </br>Sidan Att använda verktyget är omstrukturerad:
