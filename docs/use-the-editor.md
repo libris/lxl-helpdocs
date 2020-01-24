@@ -19,8 +19,8 @@ tags:
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
-| [Verktyg](#verktyg) | [- Berika från mall*](#LÄNK ANNAN SIDA) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
-| [- Expandera alla](#verktyg) | [- Berika från post*](#LÄNK ANNAN SIDA) | [Hjälp i formuläret](#ovriga-funktioner) | 
+| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
@@ -30,13 +30,13 @@ tags:
 | [Redigera](#redigera) |  |  | 
 
 
-
-
-
 ### Inledning
-Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering.
+Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering. 
 
-I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. Den innehåller:
+I varje instans finns en sammanfattande ruta högst upp - **sammanfattningsrutan**. 
+![Sammanfattningsruta](sammanfattningsrutan.png)
+
+Den innehåller:
  1. Titel och sammanfattande bibliografisk information
  2. Beskrivningsnivå 
  3. Instanstyp 
@@ -47,8 +47,6 @@ I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. 
  8. Flagga för Katalogvård
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
-
-![Sammanfattningsruta](sammanfattningsrutan.png)  
 
 ### Verktygsmeny i visningsläge
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
