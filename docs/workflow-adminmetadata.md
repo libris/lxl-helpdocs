@@ -1,7 +1,7 @@
 ---
 section: Generell beskrivning
 title: Adminmetadata
-order: 20
+order: 25
 date: 2019-10-24
 tags:
 - under arbete
