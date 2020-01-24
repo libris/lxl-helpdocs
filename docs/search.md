@@ -1,6 +1,6 @@
 ---
-section: Sök
-title: Katalogiseringsverktyget
+section: Katalogiseringsverktyget
+title: Söka
 order: 10
 date: 2019-06-13
 tags:
