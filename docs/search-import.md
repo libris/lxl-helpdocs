@@ -1,7 +1,7 @@
 ---
-section: Sök
-title: Andra källor
-order: 3
+section: Katalogiseringsverktyget
+title: Söka i Andra källor
+order: 11
 date: 2020-01-16
 tags:
 - search
