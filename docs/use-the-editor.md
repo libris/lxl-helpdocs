@@ -1,8 +1,8 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Att använda verktyget
-order: 11
-date: 2019-10-18
+order: 12
+date: 2020-01-24
 tags:
 - redigering
 - editor
@@ -14,124 +14,172 @@ tags:
 ### Innehåll
  ( * )Länk till annan relevant hjälptext
 
-| [**Visningsvy**](#visningsvy) | [**Verktygsmeny i redigeringsvy**](#redigeringsvy) | [**Funktioner i redigeringsvy**](#funktioner-i-redigeringsvy) | [**Övrigt**](#ovrigt) |
-| -------- | ----------- | ----------- | ----------- |
-| [Lägg bestånd](#visningsvy) | [Verktyg](#visa-som) | [Ta bort egenskap](#funktioner-i-redigeringsvy) | [Skapa ny - Från fil](#ovrigt) |
-| [Visa som](#visningsvy) | [Lägg till egenskap](#lagg-till-egenskap) | [Lägg till förekomst av egenskap](#funktioner-i-redigeringsvy) | [Byta verks- och instanstyp](#ovrigt) |
-| [Verktyg](#verktyg) | [Ångra](#lagg-till-egenskap) | [Hjälp i formuläret](#funktioner-i-redigeringsvy) | 
-| [- Expandera/minimera alla](#verktyg) | [Spara](#spara) | [Lägg till/ta bort underliggande egenskap](#funktioner-i-redigeringsvy) |
-| [- Berika från mall* ](https://libris.kb.se/katalogisering/help/editor-templates) | [Spara och sluta redigera](#spara) | [Entitetsfunktioner](#entitetsfunktioner) |
-| [- Berika från post](#verktyg) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) |
-| [- Ta bort](#ta-bort) |
-| [- Redigera](#redigera) |
+[Inledning](#inledning)
+
+| [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
+| -------- | ----------- | ----------- |
+| [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
+| [Verktyg](#verktyg) | [- Berika från mall*](#LÄNK ANNAN SIDA) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](#LÄNK ANNAN SIDA) | [Hjälp i formuläret](#ovriga-funktioner) | 
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#entitetsfunktioner) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
+| [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
+| [Redigera](#redigera) |  |  | 
 
 
 
-### Visningsvy
 
-#### Lägg bestånd (endast från typen instans)
-Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där man når beståndsposten via beståndsknappen högst upp i posten. På beståndsknappen syns vilket sigel beståndet läggs på. Från instansposten kan man även se hur många andra bibliotek som har bestånd på instansen.
+
+### Inledning
+Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Instans (inklusive Instans av Verk). Viss funktionalitet och vissa verktyg är genomgående i hela Libris katalogisering.
+
+I varje instans finns en sammanfattande ruta högst upp - sammanfattningsrutan. Den innehåller:
+ 1. Titel och sammanfattande bibliografisk information
+ 2. Beskrivningsnivå 
+ 3. Instanstyp 
+ 4. Utgivningssätt 
+ 5. Medietyp
+ 6. Bärartyp
+ 7. Postens ID
+ 8. Flagga för Katalogvård
+ 9. Information om bestånd: Lägg bestånd/Visa bestånd
+ 10. Antal bestånd (visa alla beståndsposter)
+
+![Sammanfattningsruta](sammanfattningsrutan.png)  
+
+### Verktygsmeny i visningsläge
+En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
 
 #### Visa som
-Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska informationen i olika RDF format:
+Under rubriken “Visa som” kan man välja att granska informationen i olika RDF-format:
   * Formell resurs (resursens id samt länkar till olika visningsvyer)  
-  * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF anpassad för webbapplikationer) 
+  * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF-anpassad för webbapplikationer) 
   * [Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
-  * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML format)
+  * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML-format)
 
 #### Verktyg
 
 ![Verktygsalternativ](verktygsalternativ.png)  
 
-#### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
-Expandera: Alt + Plus
-Minimera: Alt + Minus
+##### Expandera alla
+För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
+<br/>Expandera: Alt + Plus
 
-#### Berika från mall
-Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates)
+##### Minimera alla
+För att minimera postens alla egenskaper till en mer kompakt vy med ett klick eller kortkommando.  
+<br/>Kortkommando: Alt + Minus
 
-#### Berika från post
- * Berika från fil
-  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
-   * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
-   * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
-   * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
-   * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
-   * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
-   * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
- 
-   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
- 
- * Berika från ID
-   </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
+##### Kopiera
+För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna med funktionerna Berika från mall och Berika från post för att använda den funktionalitet som är lämplgast för ändamålet.
+<br/>Kortkommando: Ctrl + (pil upp) + C
 
-   * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
-   * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
-    </br>![Kopiera ID](KopieraID.PNG)
-   * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-    </br>![Berika från ID](BerikafranID.png)
-   * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
-   * Redigera och spara.
-
-#### Ladda ner sammanslagen MARC21
+##### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
 
-#### Ladda ner JSON-LD
-Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
+##### Ladda ner JSON-LD
+Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
 
-#### Forhandsgranska MARC21
+##### Forhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
-#### Ta bort 
-Rubriken skiljer sig åt beroende på var i verktyget man befinner sig: Ta bort Instans / Ta bort Bestånd / Ta bort Agent. En post går endast att radera om den inte har obrytbra relationer. 
+##### Ta bort Instans
+För att radera en post välj Ta bort Instans. Åtgärden går inte att utföra om det finns bestånd länkade till instansen och det går inte att ångra, så kontrollera noga innan radering görs. Glöm inte att kontrollera Adminmetadata för att notera eventuella anmärkningar eller om posten ingår i en bibliografi - då ska den inte raderas.
 
 #### Redigera
-Klicka på Redigera för att göra ändringar i posten. 
+Välj Redigera för att aktivera redigeringsläget och för att kunna göra ändringar i posten.
+Kortkommando: Ctrl + E
 
 
-### Verktygsmeny i redigeringsvy
+### Verktygsmeny i redigeringsläge
 
-![Redigering](redigering.png)  
+![Verktygsmeny i redigeringsläge](redigering.png) 
+
+Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 #### Verktyg
-(se beskrivning av Verktyg ovan)
+Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post.
 
-#### Lagg till egenskap
-Knappen Lägg till egenskap lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
+#### Berika från mall* (FLYTTA UT DENNA TEXT TILL ANNAN SIDA)
+Se separat instruktion för arbete med [mallar](https://libris.kb.se/katalogisering/help/editor-templates) Ev. lägga den beskrivningen här!
+
+##### Berika från post*
+   * Berika från fil*
+     </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det 
+     gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det
+     kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har 
+     gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
+     * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att
+       få med.
+     * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
+     * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
+     * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
+     * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
+     * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
+ 
+   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent
+   i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
+ 
+  * Berika från ID*
+    Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en  
+    mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen 
+    är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
+    * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
+    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
+     </br>![Kopiera ID](KopieraID.PNG)
+    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
+     </br>[Berika från ID](BerikafranID.png)
+    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har
+     sparat. 
+    * Redigera och spara.
+
+#### Lägg till egenskaper
+Knappen Lägg till egenskaper under: Instans lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.
+<br/> Kortkommando: Alt + F 
+
+OBS! För att lägga till egenskaper inom Instans av Verk används inte plustecknet i verktygsmenyn utan det lilla plustecknet uppe till höger inom rutan för Instans av Verk.
+
+BILD
 
 #### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
+<br/> Kortkommando: Alt + Z
+
+#### Avbryt
+Avbryter pågående redigering och tar bort eventuella ändringar.
+<br/> Kortkommando: Alt + Q
 
 #### Spara
 Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. När du sparar uppdateras uppgifter för tidpunkt och användare som sparat posten.
+<br/> Kortkommando: Ctrl + S
 
 #### Spara och sluta redigera
 Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar. 
+<br/> Kortkommando: Ctrl + D
 
-### Funktioner i redigeringsvy
 
-![Redigeringsfunktioner](redigeringsfunktioner.png)  
+### Övriga funktioner
 
-#### Ta bort egenskap
-För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
+Redigeringsfunktioner:
 
-#### Lägg till förekomst av egenskap
-Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten.  
+![Redigeringsfunktioner](redigeringsfunktioner.png)
 
-#### Hjälp i formuläret
-Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp ](https://libris.kb.se/katalogisering/help) (överst i formuläret).  
+#### 1 Ta bort egenskap
+För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Färgmarkeringen visar vilka data som då raderas.   
 
-#### Lägg till och ta bort underliggande egenskap
-Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
+#### 2 Lägg till förekomst av egenskap
+Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten. Observera att alla egenskaper inte är upprepningsbara.
 
-#### Entitetsfunktioner
-Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).    
+#### 3 Hjälp i formuläret
+Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp](https://libris.kb.se/katalogisering/help) (överst i formuläret).
 
-### Ovrigt
+#### 4, 5 Lägg till/ta bort underliggande egenskap
+Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera.
+
+#### 6 Entitetsfunktioner
+Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 #### Skapa ny - Från fil
 Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
@@ -153,7 +201,7 @@ och välj ok för att spara filen/mallen.
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 
-### Byta verks- och instanstyp
+#### Byta verks- och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
@@ -178,13 +226,12 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
  * Instans av musiknoter
  * Instans av projicerad bild
 
-
 #### Byta verkstyp  
 *	Gå till Instans av verk/Verkstyp. Klicka på hänglåset längst till höger och ta del av informationen i dialogrutan
 * Välj typ i rullgardinslistan
 
 <br/>*OBS!* Listan innehåller alla verkstyper.
-<br/>*OBS!* Byte av verkstyp kan innebära att länkade entiteter i verksbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika verkstyperna eller RDA-entiteter.
+<br/>*OBS!* Byte av verkstyp kan innebära att länkade entiteter i verksbeskrivningen behöver ändras, t.ex. MARC21-koder specifika för de olika verkstyperna eller RDA-entiteter.
   <br/>```Exempel:```
   <br/>```Koden för Genre/form/Litterär genre: Roman – f hör till verkstypen Text och ska inte användas med verkstypen Ljudmaterial.
 För en ljudbok som ändras till verkstypen Text behöver också Innehållstyp ändras till Text – txt.```
@@ -196,9 +243,10 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
 *	Välj typ i rullgardinslistan
 
 <br/>*OBS!* Listan innehåller alla instanstyper.
-<br/>*OBS!* Byte av instanstyp kan innebära att länkade entiteter i instansbeskrivningen behöver ändras, t.ex. MARC-koder specifika för de olika instanstyperna eller RDA-entiteter.
+<br/>*OBS!* Byte av instanstyp kan innebära att länkade entiteter i instansbeskrivningen behöver ändras, t.ex. MARC21-koder specifika för de olika instanstyperna eller RDA-entiteter.
    <br/>```Exempel:```
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
-
+   
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
+
 
