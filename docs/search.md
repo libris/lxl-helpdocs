@@ -1,7 +1,7 @@
 ---
 section: Sök
-title: Utforma sökfrågor
-order: 1
+title: Katalogiseringsverktyget
+order: 10
 date: 2019-06-13
 tags:
 - search
