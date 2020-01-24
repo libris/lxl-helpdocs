@@ -1,11 +1,11 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Checklista import Andra källor
 date: 2020-01-23
+order: 16
 tags:
 - redigering
 - postimport
-order: 12
 ---
 
 
