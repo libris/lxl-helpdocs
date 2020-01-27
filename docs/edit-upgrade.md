@@ -24,7 +24,7 @@ Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
 ### Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se ovan under Anvisningar och praxis) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ### Berika fran mall
