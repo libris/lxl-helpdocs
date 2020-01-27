@@ -65,5 +65,5 @@ Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. O
 För att importera en post, klicka på posten i träfflistan. Följ [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ### Kopiera
-Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, se ovan under [Checklista Librispraxis](#checklista-librispraxis). Spara sedan posten till Libris databas genom att klicka på Spara.  
+Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, se ovan under [Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara.  
 Jämför gärna med funktionerna Berika från mall och Berika från post.
