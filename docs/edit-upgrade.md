@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-01-24
+date: 2020-01-27
 tags:
 - redigering
 - uppgradering
@@ -12,15 +12,14 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Checklista Librispraxis](#checklista-librispraxis) | | [Berika från mall](#berika-fran-mall) | 
+| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-fran-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
 | [Uppgradera](#uppgradera) | | |
 
 
-### Checklista Librispraxis
-Följ Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE - när du redigerar och/eller uppgraderar en post. Följ också [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) samt anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+### Anvisningar och praxis
+Följ [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) när du skapar en ny post. Se översikten över [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/). Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
-
 ### Redigera
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
