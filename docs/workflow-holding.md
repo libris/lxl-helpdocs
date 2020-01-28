@@ -176,7 +176,7 @@ Länka till auktoriteter i första hand, men det går att skapa en lokal entitet
   * För relationer till agenters verk se [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
 
 ### Elektronisk adress
-* Tillhörande media /Lägg tillMediaobjekt/Skapa lokal entitet/URI (856 4/0)
+* Tillhörande media /Lägg till Mediaobjekt/Skapa lokal entitet/URI (856 4/0)
 Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
 * Annan relaterad resurs /Lägg till Elektronisk/Skapa lokal entitet (856 4/1)
