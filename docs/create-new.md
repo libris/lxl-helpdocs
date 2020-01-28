@@ -1,27 +1,26 @@
 ---
 section: Katalogiseringsverktyget
-title: Skapa ny
-order: 15
+title: Redigera och uppgradera
+order: 17
 date: 2020-01-28
 tags:
-- create new
-- skapa ny
+- redigering
+- uppgradering
 ---
 
-## Skapa ny
+## Redigera och uppgradera
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
-| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-andra-kallor) | 
-| [Skapa ny från mall](#skapa-ny-fran-mall) | | [Kopiera](#kopiera) |
+| [Checklista Librispraxis](#checklista-librispraxis) | | [Berika från mall](#berika-fran-mall) | 
+| [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
+| [Uppgradera](#uppgradera) | | |
 
 
 ### Anvisningar och praxis
-Följ gällande anvisningar när du skapar en ny post.
+Följ gällande anvisningar när du redigerar och uppgraderar en post. Exemplen i anvisningarna nedan är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
 
 * [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
-  Exemplen är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
 * [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
   Innehåller information om:  
@@ -29,49 +28,44 @@ Följ gällande anvisningar när du skapar en ny post.
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
 * [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
 
-### Soka
-Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
-Undvik att skapa dubbletter. Läs mer under Sök i vänstermenyn.
+### Redigera
+Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
-### Skapa ny fran mall
-Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från mall.
+### Uppgradera
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
-För att skapa en ny post, klicka på Skapa ny. En meny med mallar visas. Mallen innehåller de vanligaste egenskaperna för respektive typ. Fler egenskaper kan läggas till via knappen Lägg till egenskaper (eller kortkommando Alt + F).
-Välj typ av post:
--	Instans  
-Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper. Läs mer under Materialtyper i vänstermenyn.
--	Verk  
-(Används ej)
--	Koncept  
-(Används endast av redaktionen för Svenska ämnesord och redaktionen för barnämnesord)
--	Agent  
-Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälptexter Agenter i vänstermenyn.
--	Från fil
+### Berika fran mall
+Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. 
+Berika från mall hämtar dock inte underliggande egenskaper, till exempel Plats under Utgivning.  
+Det går inte heller att ändra instanstyp med hjälp av Berika från mall.  
+Om det i posten som ska berikas finns uppenbara felaktigheter, är det bättre att först radera dessa egenskaper innan man använder funktionen Berika från mall. Detta gör det möjligt att få med korrekta uppgifter från mallen.  
 
-#### Skapa ny fran fil
-Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från fil.
-Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
+Berika från mall:   
 
-1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
- * Börja med att kopiera posten (Verktyg -> Kopiera). 
- * Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
- * När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
-och välj ok för att spara filen/mallen.
- * Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
+![Berika från mall](berika.png)  
 
-2. Skapa ny från fil
- * Välj Skapa ny - Från fil. 
- * Klicka på Välj fil och leta fram den förberedda filen/mallen i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
- * Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
+När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexterna och spara posten.  
 
-3. Redigera posten efter behov och spara.
+### Berika fran post
+ * Berika från fil
+  </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
+   * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
+   * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
+   * Avbryt redigeringen av posten (A) ifall en ny tillfällig skapats, d.v.s. radera den. 
+   * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
+   * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
+   * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
+ 
+   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
+ 
+ * Berika från ID
+   </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
 
-Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
-
-#### Importera fran Andra kallor
-Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
-För att importera en post, klicka på posten i träfflistan. Följ [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
-
-### Kopiera
-Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, se ovan under [Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara.  
-Jämför gärna med funktionerna Berika från mall och Berika från post.
+   * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
+   * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
+    </br>![Kopiera ID](KopieraID.PNG)
+   * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
+    </br>![Berika från ID](BerikafranID.png)
+   * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
+   * Redigera och spara.
