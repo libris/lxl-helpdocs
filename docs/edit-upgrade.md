@@ -18,7 +18,7 @@ tags:
 
 
 ### Anvisningar och praxis
-Följ gällande anvisningar när du redigerar och uppgraderar en post. Exemplen i anvisningarna nedan är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+Följ gällande anvisningar när du redigerar och uppgraderar en post. 
 
 * [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
@@ -27,6 +27,8 @@ Följ gällande anvisningar när du redigerar och uppgraderar en post. Exemplen 
 * [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
 * [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
+
+Exemplen i anvisningarna ovan är i MARC21. För exempel i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
 
 ### Redigera
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
