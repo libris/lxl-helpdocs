@@ -18,7 +18,7 @@ tags:
 
 
 ### Anvisningar och praxis
-Följ gällande anvisningar när du skapar en ny post. Exemplen i anvisningarna nedan är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+Följ gällande anvisningar när du skapar en ny post. 
 
 * [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
@@ -27,6 +27,8 @@ Följ gällande anvisningar när du skapar en ny post. Exemplen i anvisningarna 
 * [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
 * [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
+
+Exemplen i anvisningarna ovan är i MARC21. För exempel i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
 
 ### Soka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
