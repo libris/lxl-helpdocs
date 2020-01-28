@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-01-27
+date: 2020-01-28
 tags:
 - redigering
 - uppgradering
@@ -12,19 +12,27 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-fran-mall) | 
+| [Checklista Librispraxis](#checklista-librispraxis) | | [Berika från mall](#berika-fran-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
 | [Uppgradera](#uppgradera) | | |
 
 
 ### Anvisningar och praxis
-Följ [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) när du skapar en ny post. Se översikten över [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/). Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
-Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
+Följ gällande anvisningar när du redigerar och uppgraderar en post. Exemplen i anvisningarna nedan är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
+* [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
+* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
+  Innehåller information om:  
+* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
+* [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
+* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
+
 ### Redigera
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
 ### Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se ovan under Anvisningar och praxis) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ### Berika fran mall
