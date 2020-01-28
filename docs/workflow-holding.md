@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2019-12-05
+date: 2020-01-28
 tags:
 - under arbete
 - bestånd
@@ -79,7 +79,7 @@ Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus. Ett a
 
 ![Länkad exemplarstatus](lankadexemplarstatus.png)
 
-Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan påplusikonen och välj Benämning.
+Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan på plusikonen och välj Benämning.
 
 ![Exemplarstatus](exemplarstatus.png)
 
@@ -129,7 +129,7 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * URI (520 #u)
 
 * Förvärvsuppgifter (541)
-* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsvärsvuppgifter/ Skapa lokal entitet/Lägg till egenskaper under Förvärsuppgifter
+* Lägg till egenskaper under Bestånd/ Förvärvsuppgifter /Lägg till förvärvsuppgifter /Skapa lokal entitet /Lägg till egenskaper under Förvärsuppgifter
   * Sekretessbelagd information / Klicka i boxen (541 indikator 1) 0 = ifylld, 1 = ej ifylld. 
   * Förvärvskälla (541 #a)
   * Adress (541 #b)
@@ -233,8 +233,13 @@ Egenskaper att lägga till:
   * Underordnad institution/enhet (877 #9)
 
 ### Lokalt definierade bestandsfalt
-*OBS! Tillsvidare måste indikator 1 och 2 läggas till för att fälten ska kunna exporteras*
 * Lokalt definierat beståndsfält (beståndsfält 948)
+  * Beståndsfält 948, a-z, A-Z samt 0-9 kan läggas till.
+  * Beståndsfält 948, indikator 1
+  * Beståndsfält 948, indikator 2
+Sök upp de fält som önskas, t.ex.: Beståndsfält 948, delfält a
+
 * Lokalt definierat beståndsfält (beståndsfält 949)
-Beståndsfält a-z, A-Z samt 0-9 kan läggas till.
-Sök upp det fält som önskas, t.ex. Beståndsfält 948, delfält a
+  * Beståndsfält 949, a-z, A-Z samt 0-9 kan läggas till.
+  * Beståndsfält 949, indikator 1
+  * Beståndsfält 949, indikator 2
