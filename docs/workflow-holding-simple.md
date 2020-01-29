@@ -40,7 +40,7 @@ Här läggs uppställning efter klassifikation eller annan hyllkod.
 
 För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Lägg till bestånd genom att klicka på plustecknet vid Har komponent, ett ytterligare bestånd läggs då till.
 
-### Tillhörande media
+### Tillhörande media (856)
 * Tillhörande media /Lägg till Mediaobjekt/Skapa lokal entitet/URI (856 4/0)
 Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
