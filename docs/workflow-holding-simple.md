@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Enkel beståndsregistrering
 order: 135
-date: 2019-04-16
+date: 2020-01-29
 tags:
 - under arbete
 - bestånd
@@ -39,6 +39,10 @@ Här läggs uppställning efter klassifikation eller annan hyllkod.
 
 
 För att lägga till ytterligare ett Bestånd (motsvarande flera 852): Lägg till bestånd genom att klicka på plustecknet vid Har komponent, ett ytterligare bestånd läggs då till.
+
+### Tillhörande media
+* Tillhörande media /Lägg till Mediaobjekt/Skapa lokal entitet/URI (856 4/0)
+Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
 ### Oformaterad beståndsuppgift - huvudpublikation (866)
 
