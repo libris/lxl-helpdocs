@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-12-18
+date: 2020-01-30
 tags:
 - under arbete
 - seriell resurs
@@ -106,7 +106,13 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Housing sarts```    
+
+##### Delbeteckning
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
  
+##### Deltitel  
+* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
+
 ##### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
