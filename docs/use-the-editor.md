@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 12
-date: 2020-01-24
+date: 2020-02-05
 tags:
 - redigering
 - editor
@@ -181,7 +181,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | Ljudmaterial (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) |   
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
-| Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik) |
+| Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik)<br>Elektronisk (007c i MARC21)<br>Tryck<br>Handskrift<br>Taktil resurs |
 | Rörlig bild (000/06=g i MARC21) | Videoinspelning (007v i MARC21) (mall: Film)<br>Elektronisk (007c i MARC21) |
 | Stillbild (000/06=k i MARC21) | Instans (mall: Stillbild)<br>Elektronisk (007c i MARC21)<br>Instans av stillbild (007k i MARC21) |
 | Paket (000/06=o i MARC21) | Instans |
@@ -214,3 +214,4 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    <br/>```Bärartypen Ljudskiva - d under Instans hör till instanstypen Ljudinspelning och ska inte användas med andra instanstyper.```
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
+
