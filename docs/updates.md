@@ -15,7 +15,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Uppdaterad instruktion om genre/form. Man behöver inte längre välja genre/form en gång till för att söka efter saogf-termer. Omstrukturerad text om genre/form för bättre läsbarhet.
 </br>https://libris.kb.se/katalogisering/help/workflow-work
 * Annat bärarformat - länkning till entitet ger nu även 776 #w (Kontrollnummer) i marcexport.
-</br></br>https://libris.kb.se/katalogisering/help/workflow-instance
+</br>https://libris.kb.se/katalogisering/help/workflow-instance
 * Ytterligare rekommenderade kombinationer av verk- och instanstyp tillagda för Noterad musik. Ändring gäller hjälptext Att använda verktyget:
 </br>https://libris.kb.se/katalogisering/help/use-the-editor
 
