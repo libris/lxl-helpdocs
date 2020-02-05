@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-01-24
+date: 2020-02-05
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,14 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-02-05:
+* Ytterligare rekommenderade kombinationer av verk- och instanstyp tillagda för Noterad musik. Ändring gäller hjälptext Att använda verktyget:
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
+
+* Verkstypen Ljudmaterial ändrad till Ljud. Följande hjälptexter påverkas:
+</br>https://libris.kb.se/katalogisering/help/use-the-editor
+</br>https://libris-stg.kb.se/katalogisering/help/workflow-audiobook
 
 2020-01-24:
 * Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
