@@ -443,6 +443,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel), #z (Identifikator) samt 776 #w (Kontrollnummer). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
+![776](776.png)   
+  
 * Annat bärarformat/Typanmärkning (776 #i)   
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
