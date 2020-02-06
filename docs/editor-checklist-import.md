@@ -1,11 +1,11 @@
 ---
-section: Katalogiseringsverktyget
+section: Redigering
 title: Checklista import Andra källor
-date: 2020-01-23
-order: 16
+date: 2019-05-17
 tags:
 - redigering
 - postimport
+order: 12
 ---
 
 
@@ -23,12 +23,12 @@ tags:
 | [Beskrivningsnivå](#beskrivningsniva)| [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp och bärartyp](#medietyp-och-barartyp) | [Språk](#sprak) |
 | [Skapad av](#skapad-av) | [Titel](#titel) | [Genre](#genre) |
-| [Entry map](#entry-map) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#forvantad-utgivningstid) | [Innehållstyp](#innehallstyp) | 
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
-| [Katalogiserande instans](#katalogiserande-instans) | [Seriemedlemskap](#seriemedlemskap) |  |
-| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Forväntad utgivningstid](#forvantad-utgivningstid) | [Innehållstyp](#innehallstyp) | 
+| [Katalogiserande instans](#katalogiserande-instans) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
+| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Seriemedlemskap](#seriemedlemskap) |  |
+|  | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
 |  | [MARC-egenskaper](#MARC-egenskaper) |  |
 
 ## Inledning
@@ -53,9 +53,9 @@ Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 
 ### Beskrivningsniva
 Beskrivningsnivå (encodingLevel = 000/17) 
 
-Vid postimport matchas alla okända värden till Miniminivå. Det kan därför hända att beskrivningar på mer fullständig nivå ändå hamnar på Miniminivå.
+Beskrivningsnivåer från andra system som inte har motsvarighet i Libris matchas automatiskt till Miniminivå, detta har som följd att poster kan ha beskrivningsnivå Miniminivå även om de egentligen är beskrivna på en mer fullständig nivå.
 
-- Kontrollera värdet och ändra till passande fullständighetsnivå. Preliminära och förhandsposter uppgraderas till Minimi- eller Biblioteksnivå för att undvika att de skrivs över  vid maskinella uppdateringar. Nationalbibliografisk nivå ändras inte.
+- Kontrollera värdet och ändra till passande fullständighetsnivå. Preliminära och förhandsposter uppgraderas till Minimi- eller Biblioteksnivå för att undvika att de skrivs över vid maskinella uppdateringar. Nationalbibliografisk nivå ändras inte.
 
 Vid postimport händer det att egenskapen saknar värde eller saknas helt. 
 - Om egenskapen finns men saknar värde: 
@@ -75,12 +75,6 @@ Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
 Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a) 
  
 Vid postimport är för närvarande den sigel som importerat posten förvald.  
-
-### Entry map 
-Entry map (marc:entryMap = 000/20-23) 
-
-Kan förekomma i vissa importerade poster. 
-- Radera egenskapen. 
 
 ### Uppgraderad eller importerad av 
 Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d) 
