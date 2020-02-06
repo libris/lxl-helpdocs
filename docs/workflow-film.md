@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2020-01-07
+date: 2020-02-06
 tags:
 - under arbete
 - film
@@ -14,8 +14,6 @@ tags:
 
 ### Innehåll  
 
-[Inledning](#inledning)
-
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
@@ -23,7 +21,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) |  [Ämne](#amne)  |
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
@@ -392,14 +390,14 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan. 
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
-#### Genre  
-För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
+#### Genre form 
+För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 
 ##### Genre/form - saogf-termer
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
- Länka till entitet.</br>
- ```Exempel:```
-   * ```Spelfilmer```
+ Länka till entitet.
+  <br/>```Exempel:```<br/> 
+   * ```Spelfilmer```<br/> 
    * ```Dokumentärfilmer```
   
 #### Klassifikation
@@ -470,4 +468,3 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
- 
