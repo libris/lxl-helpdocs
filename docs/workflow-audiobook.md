@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-02-05
+date: 2020-02-06
 tags:
 - under arbete
 - ljudbok
@@ -21,7 +21,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](#amne) |
 | | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Målgrupp](#malgrupp) |
@@ -260,7 +260,7 @@ För anvisningar om hur man lägger till olika typer av innehållsförteckningar
 ### Verk   
 
 #### Instans av Verk (instanceOf/Work)  
- Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entiet) vid Instans av Verk.</br>
+ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.</br>
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk - Lägg till egenskaper under: Ljud. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -356,11 +356,12 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion) : Primär medverkan.
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
-#### Genre  
+#### Genre form 
+För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#genre-form) Genre form.
+
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
-Välj Genre/form i listan över typer.</br>
-Länka till entitet.</br>
-```Exempel: Ljudböcker```
+Länka till entiteten:</br>
+```Ljudböcker```
 
 * Genre/form – termer som motsvarar marc-koder i 008</br>
 Välj Typ av genre för text till ljudupptagning (ej musik).</br>
@@ -399,4 +400,3 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
-
