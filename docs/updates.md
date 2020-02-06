@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-02-05
+date: 2020-02-06
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 ## Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-02-06:
+* Information om egenskapen Entrymap (= 000/20-23) i Checklista vid import från Andra källor är borttagen då den inte längre förekommer.
+</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
 
 2020-02-05:
 * Uppdaterad instruktion om genre/form. Man behöver inte längre välja genre/form en gång till för att söka efter saogf-termer. Omstrukturerad text om genre/form för bättre läsbarhet.
