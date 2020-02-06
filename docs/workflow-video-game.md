@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Datorspel
 order: 40
-date: 2019-09-04
+date: 2020-02-06
 tags:
 - under arbete
 - datorspel
@@ -22,7 +22,7 @@ tags:
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) |  [Genre](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) |  [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
 | | [Utgivning](#utgivning) | [Ämne](#amne) |
 | | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
@@ -375,21 +375,19 @@ Lägg till eventuell deltitel, delbeteckning och språk som ska ingå i söking�
 För ingående verk med primär medverkan, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna under [Medverkan och funktion](#medverkan-och-funktion): Primär medverkan.</br>
 För utförligare instruktioner, se även hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
    
-#### Genre 
-För utförliga anvisningar om hur man anger genre, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre.
-
-För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/from.
-
-##### Genre/form - termer som motsvar marc-koder i 008
-* Genre/form - typ av fil (ComputerTypeOfFile = 008/26)</br> 
-Välj Typ av fil i listan över typer.</br>
-Länka till entiteten:</br>
- ```Exempel: Dataspel, g```
-
-##### Genre/form - saogf-termer  
+#### Genre form 
+För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
+ 
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br> 
 Länka till entiteten:</br> 
- ```Exempel: Datorspel```
+ ```Datorspel```
+
+För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/form.
+
+* Genre/form - termer som motsvarar marc-koder i 008</br> 
+Välj Typ av fil.
+Länka till entiteten:</br>
+ ```Dataspel, g```
     
 #### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
@@ -410,7 +408,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
 #### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
-  ```Exempel: Computer program, cop (= datorprogram)```
+  ```Computer program, cop (= datorprogram)```
   
 #### Anmarkningar
 ##### Anmärkning om språk
