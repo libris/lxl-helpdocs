@@ -22,7 +22,7 @@ tags:
 | [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#entitetsfunktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) |  [- Byta verkstyp](#byta-verkstyp) |
 | [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instastyp) |
