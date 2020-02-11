@@ -3,7 +3,7 @@ section: Redigering
 title: Checklista import Andra källor
 date: 2020-02-06
 tags:
-- redigering
+- katalogiseringsverktyget
 - postimport
 order: 12
 ---
