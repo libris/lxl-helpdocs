@@ -23,10 +23,10 @@ tags:
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#ovriga-funktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#6-entitetsfunktioner) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#byta-verks--och-instanstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
-| [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verks- och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) |  [- Byta verkstyp](#byta-verkstyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instastyp) |
+| [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
 
@@ -147,27 +147,7 @@ Klicka på plustecknet som finns till höger om den egenskap där du vill lägga
 #### 6 Entitetsfunktioner
 Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
-#### Skapa ny - Från fil
-Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
-
-1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
- * Börja med att kopiera posten (Verktyg -> Kopiera). 
- * Fyll i den information som är gemensam för alla poster som sedan ska skapas. Lägg till egenskaper eller töm informationen i de egenskaper som ska vara med, men där informationen skiljer sig åt mellan posterna.
- * När mallposten är färdigredigerad: Välj Ladda ner JSON-LD (Inkl. osparade ändringar) i verktygsmenyn. Namnge filen 
-och välj ok för att spara filen/mallen.
- * Avbryt sedan redigeringen av posten i katalogiseringsverktyget (utan att spara).
-
-2. Skapa ny från fil
- * Välj Skapa ny - Från fil. 
- * Klicka på Välj fil och leta fram den förberedda filen/mallen i utforskaren. Klicka på öppna (alternativt dra in filen till ytan markerad "Släpp din fil här").
- * Den nya posten öppnas med ifyllda och tomma inmatningsfält (länkade entiteter visas som URI:er men dessa ändras till korrekt etikett vid sparande).
-
-3. Redigera posten efter behov och spara.
-
-Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
-
-
-#### Byta verks- och instanstyp
+#### Byta verkstyp och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
 
 Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet låst, men det går att låsa upp om man klickar på hänglåset längst till höger.
