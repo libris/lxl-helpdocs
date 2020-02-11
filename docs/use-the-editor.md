@@ -25,7 +25,7 @@ tags:
 | [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) |  [- Byta verkstyp](#byta-verkstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instastyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instanstyp) |
 | [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
