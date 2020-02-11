@@ -1,7 +1,7 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Checklista import Andra källor
-date: 2020-02-06
+date: 2020-06
 tags:
 - katalogiseringsverktyget
 - postimport
