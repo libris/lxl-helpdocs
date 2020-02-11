@@ -18,13 +18,13 @@ tags:
 
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
-| [Visa som](#visningsvy) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
+| [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#lagg-till-egenskaper) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Ångra](#lagg-till-egenskaper) | [Entitetsfunktioner](#ovriga-funktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#entitetsfunktioner) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#entitetsfunktioner) |
+| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#ovriga-funktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Skapa ny - från fil](#6-entitetsfunktioner) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Byta verks- och instanstyp](#6-entitetsfunktioner) |
 | [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ta bort Instans](#ta-bort-instans) | | [- Byta instanstyp](#byta-instastyp) |
 | [Redigera](#redigera) |  |  | 
@@ -49,7 +49,7 @@ Sammanfattningsrutan innehåller:
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
 
-### Verktygsmeny i visningsläge
+### Verktygsmeny i visningslage
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
 
 #### Visa som
@@ -92,7 +92,7 @@ Välj Redigera för att aktivera redigeringsläget och för att kunna göra änd
 Kortkommando: Ctrl + E
 
 
-### Verktygsmeny i redigeringsläge
+### Verktygsmeny i redigeringslage
 
 ![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
@@ -126,7 +126,7 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 <br/> Kortkommando: Ctrl + D
 
 
-### Övriga funktioner
+### Ovriga funktioner
 
 Redigeringsfunktioner:
 
