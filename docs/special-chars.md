@@ -48,4 +48,4 @@ Infogar tecken för tecken.
 * [Testa och installera Chrometillägget](https://www.google.com/inputtools/try/)
 
 ## Sökning på specialtecken
-Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
+Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search)
