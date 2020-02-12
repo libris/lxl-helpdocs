@@ -141,7 +141,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 2019-06-13
 * Instruktion om sökning på ord med bindestreck borttagen. Det går nu att söka på ord med bindestreck utan citattecken:
-</br>https://libris.kb.se/katalogisering/help/search-01-queries
+</br>https://libris.kb.se/katalogisering/help/search
 * Anvisning om att byta verkstyp finns nu i hjälptexten för Verk:
 </br>https://libris.kb.se/katalogisering/help/workflow-work
 
@@ -277,7 +277,7 @@ https://libris.kb.se/katalogisering/help/workflow-print-serial
 
 2019-02-28
 * Sidan Utforma sökfrågor uppdaterad för att spegla ny sökfunktionalitet. Nytt avsnitt om sökning på specialtecken:
-</br>https://libris.kb.se/katalogisering/help/search-01-queries
+</br>https://libris.kb.se/katalogisering/help/search
 
 2019-02-19
 * Information om bugg i Seriemedlemskap borttagen. Buggen är rättad.
