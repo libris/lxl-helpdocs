@@ -10,7 +10,7 @@ tags:
 
 # Specialtecken
 
-[Sökning på specialtecken](https://libris.kb.se/katalogisering/help/search-01-queries#specialtecken)
+[Sökning på specialtecken](https://libris.kb.se/katalogisering/help/search#specialtecken)
 
 För att komma åt specialtecken, samt tecken på olika språk rekommenderar vi att arbeta med de verktyg som finns i operativsystemet för PC och MAC. Instruktioner följer nedan.
 
