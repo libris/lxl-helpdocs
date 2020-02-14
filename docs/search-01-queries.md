@@ -1,12 +1,3 @@
----
-section: Katalogiseringsverktyget
-title: Söka
-order: 10
-date: 2019-06-13
-tags:
-- search
----
-
 # Sök
 
 [Sökning på specialtecken](#specialtecken)
