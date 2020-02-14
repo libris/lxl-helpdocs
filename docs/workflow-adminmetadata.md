@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 25
-date: 2019-10-24
+date: 2020-02-14
 tags:
 - under arbete
 - adminmetadata
@@ -104,7 +104,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
 ### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-**Observera: I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över!**  
+**Observera: I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: Förhandsinformation (CIP-post)  (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över!**  
 I mallar är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.    
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
