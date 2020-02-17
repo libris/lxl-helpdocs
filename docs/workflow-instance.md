@@ -1,5 +1,5 @@
 ---
-section: Generell beskrivning/Test
+section: Generell beskrivning
 title: Instans
 order: 27
 date: 2020-02-11
