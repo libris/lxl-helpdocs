@@ -35,7 +35,7 @@ Hjälptexten beskriver funktionalitet och verktyg med utgångspunkt från en Ins
 
 I varje instans finns en sammanfattande ruta högst upp.
 
-![Sammanfattningsruta](sammanfattningsrutan.png)
+![Visualisering av sammanfattningsrutan i en instansbeskrivning](sammanfattningsrutan.png)
 
 Sammanfattningsrutan innehåller:
  1. Titel och sammanfattande bibliografisk information. Välj Visa fler för att visa mer information i sammanfattningsrutan
@@ -55,13 +55,13 @@ En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att an
 #### Visa som
 Under rubriken “Visa som” kan man välja att granska informationen i olika RDF-format:
   * Formell resurs (resursens id samt länkar till olika visningsvyer)  
-  * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF-anpassad för webbapplikationer) 
-  * [Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
-  * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML-format)
+  * [Information om Json-LD](https://www.w3.org/TR/json-ld/) (RDF-anpassad för webbapplikationer) 
+  * [Information om Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
+  * [Information om RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML-format)
 
 #### Verktyg
 
-![Verktygsalternativ](verktygsalternativ.png)  
+![Alternativ i verktygsmeny i visningsläge](verktygsalternativ.png)  
 
 ##### Expandera alla
 För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
@@ -94,7 +94,7 @@ Kortkommando: Ctrl + E
 
 ### Verktygsmeny i redigeringslage
 
-![Verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
+![Alternativ i verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
@@ -103,7 +103,7 @@ Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, 
 
 #### Lägg till egenskaper
 
-![Lägg till egenskaper](laggtillegenskap.png)
+![Visualisering av hur egenskaper läggs till](laggtillegenskap.png)
 
  1. Lägg till egenskaper under: Instans. Används för att lägga till en eller flera nya egenskaper under instans. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen.
 <br/> Kortkommando: Alt + F 
@@ -128,9 +128,9 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 
 ### Ovriga funktioner
 
-Redigeringsfunktioner:
+Redigeringsfunktioner inom en egenskap:
 
-![Redigeringsfunktioner](redigeringsfunktioner.png)
+![Redigeringsfunktioner inom en egenskap](redigeringsfunktioner.png)
 
 #### 1 Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Färgmarkeringen visar vilka data som då raderas.   
@@ -139,13 +139,13 @@ För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskap
 Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten. Observera att alla egenskaper inte är upprepningsbara.
 
 #### 3 Hjälp i formuläret
-Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp](https://libris.kb.se/katalogisering/help) (överst i formuläret).
+Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, [se Hjälp](https://libris.kb.se/katalogisering/help) (överst i formuläret).
 
 #### 4, 5 Lägg till/ta bort underliggande egenskap
 Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera.
 
 #### 6 Entitetsfunktioner
-Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
+Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. [Se hjälptexten Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 #### Byta verkstyp och instanstyp
 Från och med version 1.12 går det att byta verks- och instanstyp i katalogiseringsgränssnittet. Det finns inga restriktioner kring vilka instanstyper som går att kombinera med vilka verkstyper utan alla kombinationer är tekniskt möjliga. Observera att arbetet med verk i Libris kommer att leda till en uppstädning för mer renodlade verks- och instanstyper. Använd tabellen nedan för guidning gällande de nuvarande rekommenderade kombinationerna.
