@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Äldre tryck
 order: 58
-date: 2019-11-25
+date: 2019-12-10
 tags:
 - under arbete
 - äldre tryck
@@ -233,7 +233,7 @@ För orter som har bytt namn och ibland även landtillhörighet kan man tills vi
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (300 #b)
 
-![Övriga fysiska detaljer](instovrigafysiska.png) 
+![Övriga fysiska detaljer](instovrigafysiska1.png) 
   
 
 #### Matt 
