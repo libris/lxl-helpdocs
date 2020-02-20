@@ -91,11 +91,11 @@ OBS! I exporten till MARC21 kommer det skapas ett fält 041 för varje språklä
 
 I nuvarande version av Libris katalogiseringsklient är det svårt att länka till Verk som ämne även i de fall det finns en auktoritetspost för verket. Den länkbara entiteten för verket är i dagsläget svår att urskilja från entiteter som representerar uttryck av verket och vi rekommenderar därför att man alltid beskriver verk som lokala entiteter tills vidare. 
 
-## Verk som lokal entitet 
+### Verk som ämne - lokal entitet 
 
 För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
 
-![Relation till verk av en författare som ämnesord](Relationverkauthsubj_NY.png)
+![Relation till verk av en författare som ämne](Relationverkauthsubj_NY.png)
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
 * Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet.
