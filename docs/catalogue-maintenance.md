@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Katalogvård
-date: 2019-03-28
+date: 2020-02-20
 order: 22
 tags:
 - redigering
@@ -9,9 +9,9 @@ tags:
 - flytta bestånd
 ---
 
-## Katalogvård
+# Katalogvård
 
-![Katalogvård](Katalogvard.png)
+![Knappen Katalogvård i Libris katalogisering](Katalogvard.png)
 
 Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler som inloggad användare har behörighet för. På sikt ska även dubbletthantering och sammanslagning av poster ingå i Katalogvård.
 
@@ -20,10 +20,10 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
 
   * Flagga post för katalogvård
     </br>För att kunna flytta bestånd från en post till en annan måste posterna först flaggas. Flaggfunktionen finns vid sammanfattningen för en instans, i anslutning till beståndsinformationen.
-    </br>![Flagga för katalogvård](Flaggakatalogvard.png)
+    </br>![Funktionen flagga för katalogvård](Flaggakatalogvard.png)
     
     </br>Antalet flaggade poster visas intill rubriken Katalogvård.
-    </br>![Flaggade för katalogvård](Flaggadeforkatalogvard.png)
+    </br>![Antalet poster flaggade för katalogvård](Flaggadeforkatalogvard.png)
 
   * Gå till funktionen katalogvård genom att klicka på fliken
   
@@ -38,4 +38,4 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
     </br>Beståndet är flyttat. 
     
   * Flaggan är kvar i mottagarposten ifall att den behöver redigeras ytterligare. Den kan tas bort när beståndsflytten är gjord. Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
-  </br>![Rensa flaggade poster](Rensaflaggadeposter.png)
+  </br>![Funktionen Rensa flaggade poster](Rensaflaggadeposter.png)
