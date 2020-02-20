@@ -8,25 +8,24 @@ tags:
 - under arbete
 ---
 
-## Relationer till delar och verk 
+# Relationer till delar och verk 
 
+| Innehåll  | |
+| ------ | ------ | ------ |
+| [Inledning](#inledning) | [Verk som ämne](#Verk-som-amne) |
+| [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text) | [Fler delfält](#Fler-delfalt) | 
+| [Obestämd relation till verk](#Obestamd-relation-till-verk) | | 
+| [Ingående verk](#Ingaende-verk) | |
+
+## Inledning
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
 
-Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter. [För personer](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) Se även [hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter i vänstermenyn. [Se även hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
 
 *I de första versionerna av nya Libris bör man inte länka till eller skapa nya verk, det är under utveckling.*
 
-[Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text)
 
-[Obestämd relation till verk](#Obestamd-relation-till-verk)
-
-[Ingående verk](#Ingaende-verk)
-
-[Verk som ämne](#Verk-som-amne)
-
-[Fler delfält](#Fler-delfalt)
-
-### Relation till verk uttryckt genom text 
+## Relation till verk uttryckt genom text 
 Relation till ett verk av en författare (700 1/_ #i #a #d #t)
 <br/>
 Det finns fasta termer i RDA för att uttrycka en relation till ett verk och som motsvarar delfält i i Exportformatet, men det är ännu inte möjligt att länka till dessa i nya Libris. De kontrollerade relationsbeteckningarna tillämpas tills vidare restriktivt, eftersom det för närvarande saknas officiella svenska översättningar av RDA-termerna.
@@ -50,7 +49,7 @@ För att uttrycka relationen till ett verk som har ett samband med (men inte ing
   * Skriv in uppgiften. 
   <br/>```Exempel: Parafraserar``` 
 
-### Obestamd relation till verk 
+## Obestamd relation till verk 
 Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, gör en allmän anmärkning (500 #a)
 
 
@@ -70,7 +69,7 @@ Om relationen är viktig att beskriva och inte kan beskrivas på annat sätt, g�
 
  <br/>
  
-### Ingaende verk
+## Ingaende verk
 För att skapa analytiska biuppslag på verk som ingår i den katalogiserade instansen (700 1/2 #a #d #t) 
 
 ![Ingaende verk](Ingaendeverk_sprak.png) 
@@ -92,7 +91,7 @@ OBS! I exporten till MARC21 kommer det skapas ett fält 041 för varje språklä
 
 I nuvarande version av Libris katalogiseringsklient är det svårt att länka till Verk som ämne även i de fall det finns en auktoritetspost för verket. Den länkbara entiteten för verket är i dagsläget svår att urskilja från entiteter som representerar uttryck av verket och vi rekommenderar därför att man alltid beskriver verk som lokala entiteter tills vidare. 
 
-### Verk som lokal entitet 
+## Verk som lokal entitet 
 
 För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
 
@@ -105,7 +104,7 @@ För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
   * Klicka på plustecknet vid Agent och länka till auktoriserad namnform. Om en sådan inte finns välj Skapa lokal entitet, välj Person och fyll i uppgifterna
   * Klicka på plustecknet vid Funktion och länka till aktuell funktion
     
-###  Fler delfalt
+##  Fler delfalt
 För att lägga till fler engenskaper under Verk/Har titel/Titel/Huvudtitel:
 * Klicka på plustecknet vid Titel och välj
   * Specificering i form av grupptitel (700 #k)
