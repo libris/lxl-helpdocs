@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Specialtecken
 order: 21
-date: 2019-03-13
+date: 2020-02-20
 tags:
 - special characters
 - specialtecken
