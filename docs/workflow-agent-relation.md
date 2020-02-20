@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2020-01-10
+date: 2020-02-20
 tags:
 - editor
 - under arbete
@@ -10,12 +10,12 @@ tags:
 
 # Relationer till delar och verk 
 
-| Innehåll  | |
-| ------ | ------ | ------ |
-| [Inledning](#inledning) | [Verk som ämne](#Verk-som-amne) |
-| [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text) | [Fler delfält](#Fler-delfalt) | 
-| [Obestämd relation till verk](#Obestamd-relation-till-verk) | | 
-| [Ingående verk](#Ingaende-verk) | |
+| Innehåll | |
+| ------ | ------ |
+| [Inledning](#inledning) | [Verk som ämne](#verk-som-amne) |
+| [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text) | [Fler delfält](#fler-delfalt) | 
+| [Obestämd relation till verk](#obestamd-relation-till-verk) | | 
+| [Ingående verk](#ingaende-verk) | |
 
 ## Inledning
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
