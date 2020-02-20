@@ -36,5 +36,5 @@ Samlingarna av databaser är grupperade:
 * Mellaneuropa
 * Norden
 
-### Söktips
-[Se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
+### Ytterligare information och söktips
+[Se Libris informationssidor om Andra källor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
