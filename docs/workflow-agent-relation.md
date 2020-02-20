@@ -12,9 +12,9 @@ tags:
 
 | Innehåll | |
 | ------ | ------ |
-| [Inledning](#inledning) | [Verk som ämne](#verk-som-amne) |
-| [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text) | [Fler delfält](#fler-delfalt) | 
-| [Obestämd relation till verk](#obestamd-relation-till-verk) | | 
+| [Inledning](#inledning) |  |
+| [Relation till verk uttryckt genom text](#relation-till-verk-uttryckt-genom-text) | [Verk som ämne](#verk-som-amne) | 
+| [Obestämd relation till verk](#obestamd-relation-till-verk) | [Fler delfält](#fler-delfalt) | 
 | [Ingående verk](#ingaende-verk) | |
 
 ## Inledning
