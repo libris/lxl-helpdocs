@@ -1,12 +1,14 @@
 ---
 section: Katalogiseringsverktyget
 title: Entiteter
-date: 2019-01-31
+date: 2020-02-20
 order: 19
 tags:
 - redigering
 - entiteter
 ---
+
+# Entiteter
 
 ## Söka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
@@ -23,7 +25,7 @@ För att se alla entiteter av en viss typ, tryck Enter när markören står i s�
 
 
 
-### Lägg till entitet eller skapa lokal entitet
+## Lägg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
 
 **Lägga till entitet:**
