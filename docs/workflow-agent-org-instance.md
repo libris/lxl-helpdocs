@@ -2,15 +2,15 @@
 section: Generell beskrivning
 title: Relationer till Agent
 order: 28
-date: 2019-09-04
+date: 2020-02-20
 tags:
 - editor
 - under arbete
 --- 
 
-## Relationer till Agent
+# Relationer till Agent
 
-### Innehåll
+## Innehåll
 [Inledning](#inledning)
 
 | [Agent som Primär medverkan eller Medverkan](#agent-som-primar-medverkan-eller-medverkan) | [Agent som Ämne](#agent-som-amne)
@@ -26,25 +26,25 @@ tags:
 | [Möte](#mote) | [Släkt](#jurisdiktion)
 | | [Möte](#mote) |
 
-### Inledning
-Hjälptexten innehåller instruktioner för hur man beskriver någon eller något som en typ Agent kopplad till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
+## Inledning
+Hjälptexten innehåller instruktioner för hur man beskriver en agent (vanligast en person eller en organisation) kopplas till egenskaperna Medverkan och funktion och/eller Ämne i resursens verksbeskrivning.
 
 Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk. Saknas egenskaperna Medverkan och funktion eller Ämne läggs dessa till genom att klicka på plustecknet vid verkstypen.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, se [Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter. OBS! I nuläget finns endast mallar för att skapa ny Person, skapa ny Organisation och för att skapa ny Jurisdiktion.
+I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, [se Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter.
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
 
-För information om katalogiseringsregler som gäller vid auktoritetsarbete, se 
-[Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+För information om katalogiseringsregler som gäller vid auktoritetsarbete, [se 
+Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
-### Agent som Primar medverkan eller Medverkan
+## Agent som Primar medverkan eller Medverkan
 
-#### Länka till entitet
+### Länka till entitet
 
-##### Agent
+#### Agent
 
 * Primär medverkan/Medverkan/Agent (contribution/PrimaryContribution/agent = 100, 110, 111, 700, 710, 711)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
@@ -55,22 +55,21 @@ För information om katalogiseringsregler som gäller vid auktoritetsarbete, se
   * ```Sverige. Landsbygdsdepartementet```
   * ```Kommunikationer i gränsland (konferens)```
   
-##### Funktion 
+#### Funktion 
 
 * Primär medverkan/Medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4, 110 #4, 700 #4, 710 #4)
 <br/>Lägg till en funktionskod genom att klicka på plustecknet vid Funktion och sök fram en funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod och länka genom att klicka på plustecknet vid koden eller på koden. Vid behov länkas Funktion även när lokal entitet skapas.
-<br/>För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
+<br/>För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
 <br/>```Exempel:```
   * ```Författare, aut```
   * ```Illustratör, ill```
   * ```Utgivare, pbl```
   
 
-### Agent som Amne
+## Agent som Amne
 
-#### Länka till entitet
-
-##### Agent
+### Länka till entitet
+I de fall det finns en auktoriserad form ska man alltid välja att länkat till den entiteten. Börja därför alltid med en sökning bland befintliga agenter.
 
 * Ämne/Agent (subject/agent = 600, 610, 611)
 <br/>Klicka på plustecknet vid Ämne. Sök efter namnformen som ska länkas. Begränsa sökningen genom att välja typ av Agent. Välj namnform och länka genom att klicka på plustecknet vid namnformen eller på namnformen.
