@@ -68,7 +68,7 @@ För att skapa en bättre översikt över posten samt för att lättare se vad p
 <br/>Expandera: Alt + Plus
 
 #### Minimera alla
-För att minimera postens alla egenskaper till en mer kompakt vy med ett klick eller kortkommando.  
+För att minimera postens alla egenskaper till en mer kompakt vy med ett klick eller kortkommando.
 <br/>Kortkommando: Alt + Minus
 
 #### Kopiera
@@ -76,7 +76,7 @@ För att kopiera en helt post kan kopierafunktionen användas. Jämför gärna m
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Ladda ner sammanslagen MARC21
-Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
+Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem.
 
 #### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
@@ -89,7 +89,7 @@ För att radera en post välj Ta bort Instans. Åtgärden går inte att utföra 
 
 ### Redigera
 Välj Redigera för att aktivera redigeringsläget och för att kunna göra ändringar i posten.
-Kortkommando: Ctrl + E
+<br/>Kortkommando: Ctrl + E
 
 
 ## Verktygsmeny i redigeringslage
@@ -99,7 +99,7 @@ Kortkommando: Ctrl + E
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 ### Verktyg
-Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post. Dessa funktioner beskrivs utförligt i hjälptexten [Redigera och uppgradera](https://libris-dev.kb.se/katalogisering/help/edit-upgrade).
+Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post. [Dessa funktioner beskrivs utförligt i hjälptexten Redigera och uppgradera](https://libris-dev.kb.se/katalogisering/help/edit-upgrade).
 
 ### Lägg till egenskaper
 
