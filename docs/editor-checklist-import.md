@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Checklista import Andra källor
-date: 2020-06
+date: 2020-02-10
 tags:
 - katalogiseringsverktyget
 - postimport
@@ -11,7 +11,7 @@ order: 16
 
 # Checklista vid postimport från Andra källor
 
-### Innehåll 
+## Innehåll 
 
 [Inledning](#inledning) 
 
@@ -33,8 +33,8 @@ order: 16
 
 ## Inledning
 Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
-- För poster gjorda enligt AACR2 eller annat regelverk än RDA, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
-- För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
+- För poster gjorda enligt AACR2 eller annat regelverk än RDA, [följ riktlinjerna för Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
+- För poster gjorda enligt RDA, [följ riktlinjerna för Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
 
 Ytterligare anvisningar hittas även i Katalogisatörens verktygslåda under de enskilda MARC21-fälten inom [Katalogisering](http://www.kb.se/katalogisering/Katalogisering/) och [Bibliografiska formatet](http://www.kb.se/katalogisering/Formathandboken/Bibliografiska-formatet/).  
 
@@ -43,7 +43,7 @@ Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget 
 OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
 
 ## Adminmetadata 
-Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
+[Läs mer om egenskaperna under Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
 
 ### Identifikator 
 Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a) 
@@ -117,7 +117,7 @@ Data som inte hanteras av systemet visas i MARC21-format som _marcuncompleted_ e
 - Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.
 
 ## Instans 
-Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). 
+[Läs mer om egenskaperna under Instans](https://libris.kb.se/katalogisering/help/workflow-instance). 
 
 ### Identifikator och Indirekt identifierad av 
 Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a) 
@@ -213,7 +213,7 @@ Data från MARC21-fält som inte har en motsvarighet i Libris visas som MARC:...
 - Låt egenskaperna ligga kvar.
 
 ## Instans av verk  
-Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
+[Läs mer om egenskaperna under Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 ### Foredragen titel
 **Föredragen titel**  
@@ -227,8 +227,8 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
   - Välj Funktion och länka 
  
 ### Sprak
-#### Språk
 
+#### Språk
 Språk (language = 008/35-37 och 040 #a) 
 
 - Kontrollera att beskrivningen är korrekt. 
@@ -236,33 +236,31 @@ Språk (language = 008/35-37 och 040 #a)
 OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
 
 #### Originalversion 
-
 Originalversion/Verk/Språk (originalversion/Work/language = 041 #h) 
 
 - Kontrollera att beskrivningen är korrekt.  
 
-### Genre 
-#### Termer som motsvarar MARC21-koder i 008 
+### Genre/form 
 
+#### Termer som motsvarar MARC21-koder i 008 
 - Kontrollera att de länkade entiteterna är korrekta (Litterär genre, Festskrift m.m.) 
 
-#### Genre/formtermer enligt Svenska ämnesord 
-
+#### Genre/formtermer
 - Komplettera med tillämpliga termer för genre/form enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/) 
 
 ### Amne 
-Läs mer om [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+[Läs mer om Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 #### Svenska ämnesord 
 - Komplettera med tillämpliga ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/). 
 
 #### Agenter som ämne
-Läs mer om agenter som ämne i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+[Läs mer om agenter som ämne i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
 - Kontrollera om auktoriserad namnform finns och länka i sådana fall till den. 
 
 ### Klassifikation 
-Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
+[Läs mer om Klassifikation i hjälptexten för Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 #### DDK-klassifikation 
 - Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll lägg till/ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”. 
