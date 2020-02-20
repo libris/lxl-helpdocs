@@ -50,4 +50,4 @@ Infogar tecken för tecken.
 * [Testa och installera Chrometillägget](https://www.google.com/inputtools/try/)
 
 ## Sökning på specialtecken
-[Se hjälptexten Sök för utformning av sökfrågor](https://libris.kb.se/katalogisering/help/search)
+[För sökning på specialtecken, se hjälptexten Sök](https://libris.kb.se/katalogisering/help/search#specialtecken)
