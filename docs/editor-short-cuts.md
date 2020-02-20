@@ -2,18 +2,16 @@
 section: Katalogiseringsverktyget
 title: Kortkommandon
 order: 20
-date: 2019-10-07
+date: 2020-02-20
 tags:
 - under arbete
 ---
 
-# Kortkommandon för PC och MAC
-För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC respektive MAC. 
+# Kortkommandon
+
+För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC respektive MAC.
  
- 
- 
- 
-# PC 
+## PC 
     
 |               Åtgärd 				 		    	| 		 									Kortkommando 																	|
 |						 ------------------------- 						     | 					------------------------- 																|
@@ -37,7 +35,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Visa instanser | Alt+I |
 | Lägga bestånd | Alt+B |
 
-# MAC 
+## MAC 
     
 |               Åtgärd 		 				    	| 						 					Kortkommando 																	|
 |						 ------------------------- 						    | 										------------------------- 																|
