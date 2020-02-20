@@ -9,7 +9,7 @@ tags:
 - under arbete
 ---
 
-## Sök i Andra källor
+# Sök i Andra källor
 
 Libris katalogisering erbjuder sök i andra källor än Libris. Via Andra källor under Sök kan du söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller samlingar av databaser. 
 
@@ -17,7 +17,7 @@ Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort 
 
 För att importera en post, klicka på posten i träfflistan. [Följ instruktionerna i Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara och lägg på bestånd.
  
-### Innehåll
+## Innehåll
 Andra källor innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i databaslistan finns specifik information om databasen eller samlingen. För mer fullständig information om databaserna, [se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
 
 Samlingarna av databaser är grupperade:
@@ -36,5 +36,5 @@ Samlingarna av databaser är grupperade:
 * Mellaneuropa
 * Norden
 
-### Ytterligare information och söktips
+## Ytterligare information och söktips
 [Se Libris informationssidor om Andra källor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
