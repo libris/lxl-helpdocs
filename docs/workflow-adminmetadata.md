@@ -27,7 +27,7 @@ Varje beskrivning i Libris katalogisering innehåller ett avsnitt med Adminmetad
   * För Adminmetadata i agentbeskrivning, se Hjälptexter Agenter. För Adminmetadata i beståndspost, se Hjälptexter Bestånd. 
   * För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
-  * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
+  * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
