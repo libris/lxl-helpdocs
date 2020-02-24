@@ -23,7 +23,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
 | | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Titel](#titel) | [Språk](#sprak)  |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre-form](#genre) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Målgrupp](#malgrupp)  |
 | | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Innehållstyp](#innehallstyp) |
