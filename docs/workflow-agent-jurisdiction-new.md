@@ -99,7 +99,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>För namnform som består av flera led används istället egenskaperna Är del av tillsammans med Namn på underordnad enhet.
   
 ### Namnform i flera led
-<br/>Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet
+Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på underordnad enhet.
 * Är del av/Namn (isPartOf/name = 110 2/- #a)
   <br/>Överordnat namn i en auktoriserad namnform som består av flera led. Egenskapen används endast tillsammans med Namn på underordnad enhet.
   <br/>```Exempel: Sverige```
@@ -156,7 +156,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
   
 ## Ytterligare egenskaper att lägga till vid behov
- <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
+Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 ### Tid for grundande
 * Tid för grundande/Startdatum (establishDate = 046 #q)
