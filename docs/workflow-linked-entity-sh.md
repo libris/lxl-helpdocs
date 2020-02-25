@@ -38,5 +38,5 @@ OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka t
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
-**Exempel på att länka till ett sammansatt ämnesord:
+**Exempel på att länka till ett sammansatt ämnesord:**
 ![Länka sammansatt ämnesord](LänkaSammansatt.png)
