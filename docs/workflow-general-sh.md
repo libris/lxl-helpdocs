@@ -14,9 +14,7 @@ tags:
 
 Ämnesord i Libris hanteras olika beroende på ämnesordstyp samt om ämnesordet finns auktoriserat eller inte. Auktoriserade ämnesord beskrivs med länkade entiteter och ämnesord som inte är auktoriserade beskrivs med lokala entiteter. Tabellen nedan redovisar hur de olika ämnesordstyperna anges i katalogiseringsverktyget, både som länkade entiteter och som lokala entiteter. Klicka på länken för den typ av ämnesord som ska anges för att komma till motsvarande instruktion i hjälptexterna.
 
-I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn) samt auktoriserade genre/formtermer från listorna saogf, barngf och tgm. Ämnesord och genre/formtermer söks direkt i konceptsök i [Libris katalogisering](https://libris.kb.se/katalogisering/search/libris). 
-
-![Sök ämnesord och genre/formtermer i Libris](sokkonceptilibris.png)
+I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (sao) och Barnämnesord (barn) samt auktoriserade genre/formtermer från listorna saogf, barngf och tgm. Ämnesord och genre/formtermer söks direkt i konceptsök i [Libris katalogisering](https://libris.kb.se/katalogisering/search/libris).
 
 Termer från listorna sao, barn, saogf, barngf och tgm är även sökbara via [id.kb.se, KB:s tjänst för publicering av länkade data](https://id.kb.se/). 
 
