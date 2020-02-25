@@ -2,18 +2,18 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2020-01-28
+date: 2020-02-25
 tags:
 - under arbete
 - bestånd
 - beståndsregistrering
 --- 
 
-## Beståndsregistrering
+# Beståndsregistrering
 
 Det är endast bibliotekskod/sigel som är obligatorisk och den sätts automatiskt när du väljer att lägga bestånd. (852 #b)
 
-Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd.  Kortkommando för att lägga bestånd är alt+b.
+Bestånd kan läggas direkt ifrån träfflistan. Från träfflistan ser du om ditt bibliotek har bestånd och hur många andra bibliotek som har bestånd. Kortkommando för att lägga bestånd är alt+b.
 
 De mest använda fälten finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga fält läggs till via plustecknet för bestånd. Det är viktigt använda rätt plustecken. 
 
@@ -21,7 +21,7 @@ Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad so
 
 Plustecken intill det som valts väljer man det som motsvarar delfält.
 
-### Innehåll   
+## Innehåll   
 
 | [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
 | -----------  |  ----------- |
@@ -35,7 +35,7 @@ Plustecken intill det som valts väljer man det som motsvarar delfält.
 | | [Lokalt definierade beståndsfält](#lokalt-definierade-bestandsfalt) |
 
 
-### Adminmetadata
+## Adminmetadata
 För enkla monografier behöver vanligen inte Adminmetadata läggas till eller ändras. *Hör av dig till Supportforumet om du saknar möjlighet att lägga till Adminmetadata som ditt bibliotek behöver.*
 * Posttyp. Om inget val görs blir värdet (000 [6] u). För att ändra värde lägg till Posttyp och välj i lista (000 [6])
   * Fortlöpande (seriell eller integrerande) resurs) (000 [6] y)
@@ -45,10 +45,9 @@ För enkla monografier behöver vanligen inte Adminmetadata läggas till eller �
 * Beskrivningsnivå (000 [17])
   * Beskrivningsnivå anges inte för bestånd. Defalultvärde är u. Vid export till lokalt system hamnar informationen i 841 #e.
 
-
 * Katalogisatörens anmärkning (599 #a)
 
-### Har komponent
+## Har komponent
 (852)
 OBS! I konverterade data med bara ett 852 ligger delfälten inte under Har komponent. Vid skapande av nytt bestånd måste de delfält som  motsvarar delfält i 852 läggas under Har komponent för det ska bli korrekt. För att uppdatera en konverterad post som inte har Har komponent behöver du ta bort de konverterade fälten som ligger fel och lägga dem under Har komponent. 
 
@@ -77,11 +76,14 @@ Många ytterligare egenskaper kan läggas till för Har komponent - Lägg till e
 * Exemplarstatus (852 #i) 
 Klicka på plustecknet vid Exemplarstatus - Lägg till exemplarplarstatus. Ett antal vanliga beskrivningar finns att länka till. Sök fram dessa med en asterisk. 
 
-![Länkad exemplarstatus](lankadexemplarstatus.png)
+**Exempel länkad exemplarstatus:**
+<br/>![Exempel länkad exemplarstatus](lankadexemplarstatus.png)
 
 Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under Exemplarstatus och klicka sedan på plusikonen och välj Benämning.
 
-![Exemplarstatus](exemplarstatus.png)
+
+**Exempel på exemplarstatus som lokal entitet:**
+<br/>![Exempel på exemplarstatus som lokal entitet](exemplarstatus.png)
 
 
 * Prefix för lokalsignum (852 #k)
@@ -95,18 +97,20 @@ Skapa andra beskrivningar som lokal entitet / Lägg åter till egenskaper under 
 
 * Del av materialet som avses (852 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-![Del av materialet som avses](delavmaterial.png)
+**Exempel på Del av materialet som avses:**
+<br/>![Exempel på Del av materialet som avses](delavmaterial.png)
 
 * Underordnad institution/enhet (852 #9)
 
 Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett bestånd (motsvarande flera 852)
 
-### Anmarkningar
+## Anmarkningar
 * Anmärkning/hasNote (500 #a). Lägg till anmärkning vid plustecknet vid Anmärkning. 
 
 * Villkor för användning och åtkomst (506)
 
-![Villkor för anvandning](Villkoranvbenamn.png)
+**Exempel på Villkor för användning:**
+<br/>![Exempel på Villkor för användning](Villkoranvbenamn.png)
 
 * Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
 
@@ -159,23 +163,23 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
   * Benämning (583 #a)
   * Del av materialet som avses (563 #3) /Lägg till entitet/Skapa lokal entitet/Resurs/Lägg till egenskaper under Resurs/Benämning 
 
-### Lokala amnesord och klassifikation
+## Lokala amnesord och klassifikation
 Lägg i första hand ämnesord och klassifikation till det beskrivna verket.
-* För Ämnesord, se [hjälp om ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+* För ämnesord, [se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
 
 * Lokala ämnesord/rubriker (övriga) (698)
   * Kod (698 #a)
   * Benämning (698 #b)
 
 * För Klassifikation
-se [hjälp om klassifikation](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph#klassifikation)  
+[Se generell hjälptext om Verk](https://libris.kb.se/katalogisering/help/workflow-work) under rubriken Klassifikation.
 
-### Agenter
+## Agenter
 Här anges agenter som hör till bestånd eller exemplarbeteckning.
-Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. Se hjälpen [Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  * För relationer till agenters verk se [Relation till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation)
+Länka till auktoriteter i första hand, men det går att skapa en lokal entitet för en agent. [Se hjälptexten Relationer till Agent]( https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+  * För relationer till agenters verk, [se hjälptexten Relation till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
-### Elektronisk adress
+## Elektronisk adress
 * Tillhörande media /Lägg till Mediaobjekt/Skapa lokal entitet/URI (856 4/0)
 Länk till den elektroniska resurs som är den bibliografisk resurs som beskrivs
 
