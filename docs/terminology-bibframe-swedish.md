@@ -7,10 +7,9 @@ tags:
 - rda
 ---
 
-# Terminologi
-## BIBFRAME svensk terminologi
+# BIBFRAME svensk terminologi
 
-[Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
+[Information om BIBFRAME - Introduktion till Libris på kb.se](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL2/BIBFRAME-svensk-terminologi/)
 
 BIBFRAME (Bibliographic Framework) är ett initiativ från Library of Congress som anpassar bibliografiska beskrivningsstandarder till en modell för länkade data. Syftet med övergången till länkade data är att göra den bibliografiska informationen mer användbar och synlig. Det gynnar inte bara biblioteken och dess användare, utan även samhället i stort.
 
@@ -42,10 +41,8 @@ Vokabulären i BIBFRAME 2.0 består av klasser och egenskaper (properties) hämt
 
 * **Egenskaper** beskriver såväl resursens karaktäristika som relationer mellan resurser. Till exempel: ett Verk kan vara en “översättning av” ett annat Verk, och en Instans kan vara en “instans av” ett specifikt Verk i BIBFRAME. Andra egenskaper utgör attribut till Verk och Instanser. Till exempel: egenskapen “ämne” i BIBFRAME utgör ett viktigt attribut till Verket (vad Verket handlar om), och egenskapen “omfång” (t.ex. 77 sidor, 2 CD) utgör ett attribut till en Instans.
 
-![BIBFRAME Svensk terminologi](Bibframe_modell.png)
+![BIBFRAME modell svensk terminologi](Bibframe_modell.png)
 
 Texten är en bearbetad översättning av Library of Congress text [Overview of the BIBFRAME 2.0 Model](https://www.loc.gov/bibframe/docs/bibframe2-model.html)
 
-Informationen finns  även filmatiserad:
-
-[BIBFRAME Svensk terminologi](https://youtu.be/LmhsXICZ0MQ)
+[Se även instruktionsfilmen BIBFRAME Svensk terminologi på KB:s Youtubekanal](https://youtu.be/LmhsXICZ0MQ)
