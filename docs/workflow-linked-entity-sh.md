@@ -24,7 +24,7 @@ För att ange ämnesord från andra system eller ej auktoriserade ämnesord, [se
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
-Exempel:
+**Exempel på att länka till ett enkelt ämnesord:**
 ![Länka enkelt ämnesord](LänkaEnkelt.png) 
 
 
@@ -38,6 +38,5 @@ OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka t
 
 Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är öppen.
 
-Exempel:
-![Länka sammansatt ämnesord](LänkaSammansatt.png) 
-
+**Exempel på att länka till ett sammansatt ämnesord:
+![Länka sammansatt ämnesord](LänkaSammansatt.png)
