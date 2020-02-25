@@ -38,10 +38,11 @@ Instruktionen används i de fall man vill ange ämnesord som en lokal entitet fr
 
 För att lägga till flera termer av samma typ kan den lokala entiteten kopieras.
 
-Exempel:
-![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
+Exempel på enkelt ämnesord som lokal entitet med länkbar listkod - kao:
+</br>!![Enkelt ämnesord som lokal entitet](LokaltEnkeltKao.png) 
 
-![Enkelt ämnesord som lokal entitet](LokaltilitteraturenSao.png) 
+Exempel på enkelt ämnesord som lokal entitet med länkbar listkod - sao:
+</br>!![Enkelt ämnesord som lokal entitet](LokaltilitteraturenSao.png) 
 
 
 ### Sammansatt amnesord som lokal entitet med lankbar listkod
@@ -59,11 +60,11 @@ Exempel:
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
-Exempel:
-![Lokalt sammansatt ämnesord med listkod kao](LokaltSammansattKao.png) 
+Exempel på sammansatt ämnesord som lokal entitet med länkbar listkod - kao:
+</br>![Exempel på sammansatt ämnesord som lokal entitet med länkbar listkod - kao](LokaltSammansattKao.png) 
 
-Exempel:
-</br>![Lokalt sammansatt geografiskt ämnesord med listkod sao](LokaltGeoSammansattSao.png)
+Exempel på sammansatt ämnesord som lokal entitet med länkbar listkod - sao
+</br>![Exempel på sammansatt ämnesord som lokal entitet med länkbar listkod - sao](LokaltGeoSammansattSao.png)
 
 
 ### Sammansatt amnesord som lokal entitet med listkod sao och lankbara komponenter
@@ -81,9 +82,8 @@ Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord m
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer.
 
-Exempel:
-
-![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter](LokaltSammansattSao.png) 
+Exempel på sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter:
+</br>![Sammansatt ämnesord som lokal entitet med listkod sao och länkbara komponenter](LokaltSammansattSao.png) 
 
 ## Ämnesord från system med listkod där listkoden inte finns som länkad entitet
 
@@ -97,8 +97,8 @@ Exempel:
 * Öppna sidorutan Lägg till egenskaper under inom typen Ämnesordssystem. Sök efter och lägg till egenskapen Kod.
 * Skriv in kod för aktuellt ämnesordssystem i rutan, t.ex. ”fast”.
 
-Exempel:
-![Lokalt enkelt ämnesord med listkod fast](LokaltEnkeltfast.png)
+Exempel på enkelt amnesord som lokal entitet utan länkbar listkod:
+</br>![Lokalt enkelt ämnesord med listkod fast](LokaltEnkeltfast.png)
 
 ### Sammansatt amnesord som lokal entitet utan lankbar listkod 
 
@@ -117,8 +117,8 @@ Exempel:
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
-Exempel:
-![Lokalt sammansatt ämnesord med listkod ram](LokaltSammansattram.png)
+Exempel på sammansatt amnesord som lokal entitet utan länkbar listkod:
+</br>![Lokalt sammansatt ämnesord med listkod ram](LokaltSammansattram.png)
 
 ### Amnesord utan listkod
 
