@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-02-24
+date: 2020-02-25
 tags:
 - under arbete
 - musik-CD
@@ -404,7 +404,7 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
     * ```Musikinspelningar```
     * ```Reggae```
 
-  Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+  [Se instruktionsfilm Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ### Klassifikation  
   För anvisningar om hur man anger Klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) under rubriken Klassifikation.
