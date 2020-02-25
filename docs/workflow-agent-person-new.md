@@ -277,4 +277,4 @@ Används för att ange fullständig namnform i de fall då förkortning används
   <br/>Läggs till vid behov (i adminmetadata).
 
 
-### OBS! I de fall namnformen ligger som en lokal entitet, dvs. olänkad, i en instans sker inte länkning automatiskt utan man behöver aktivt utföra länkningen i berörda instanser.
+#### OBS! I de fall namnformen ligger som en lokal entitet, dvs. olänkad, i en instans sker inte länkning automatiskt utan man behöver aktivt utföra länkningen i berörda instanser.
