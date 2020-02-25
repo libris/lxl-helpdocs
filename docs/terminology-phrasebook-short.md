@@ -10,7 +10,7 @@ tags:
 # Terminologi
 ## Kort parlör
 
-[Extern länk till Libris undersidor](http://www.kb.se/libris/Om-LIBRIS/Introduktion-till-nya-Libris-och-XL/BIBFRAME-svensk-terminologi/)
+[Introduktion till Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)
 
 Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
 
