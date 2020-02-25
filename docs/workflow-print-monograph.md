@@ -2,13 +2,14 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-12-17
+date: 2020-02-25
 tags:
 - under arbete
 - monografi
 --- 
 
-## Tryckt monografi - bok
+# Tryckt monografi
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt monografi - bok. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.  
 
 [Inledning](#inledning) 
 
@@ -42,65 +43,62 @@ Beskrivningen av en tryckt monografi innehåller följande tre delar:
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se ovan.  
-
 Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok.  
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
 
-Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
-#### Adminmetadata
-
-Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+## Adminmetadata
+[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
 
-#### Instans
+## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 ![Välj egenskap](plusegenskapinstans2.png)  
 
-Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+[Läs mer om egenskaperna i den generella hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-##### Utgivningssatt 
+### Utgivningssatt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-##### Medietyp
+### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
-##### Barartyp 
+### Barartyp 
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-##### Titel
+### Titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
-##### Varianttitel
+#### Varianttitel
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
 
-##### Omslagstitel   
+#### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 #a)
 * Har titel/Omslagstitel/Övrig titelinformation (hasTitle/CoverTitle/subtitle = 246 1/4 #b)
 
- ##### Ryggtitel   
+#### Ryggtitel   
 * Har titel/Ryggtitel/Huvudtitel (hasTitle/SpineTitle/mainTitle = 246 1/8 #a)
 * Har titel/Ryggtitel/Övrig titelinformation (hasTitle/SpineTitle/subtitle = 246 1/8 #b)
 
-##### Delbeteckning
+#### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
 
-##### Deltitel  
+#### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
 #### Titel - alternativ stavning
@@ -108,29 +106,29 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Används inte. Se Varianttitel (246).  
 
-##### Parallelltitel
+#### Parallelltitel
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
 
-#### Upphovsuppgift
+### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
-#### Upplageuppgift
+### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
 
-#### Utgivning  
+### Utgivning  
 * Primär utgivning/Utgivning (publication/PrimaryPublication)  
 
-##### Utgivningsplats
+#### Utgivningsplats
 * Primär utgivning/Utgivning/Plats/Plats/Benämning (place/label = 264 -/1 #a)
 
-##### Utgivningsland  
+#### Utgivningsland  
 * Primär utgivning/Utgivning/Land (country = 008/15-17)
 
-##### Utgivarnamn
+#### Utgivarnamn
 * Primär utgivning/Utgivning/Agent/Agent/Benämning (agent/label = 264 -/1 #b)
 
-##### År och datum 
+#### År och datum 
 **År**
 * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)  
  År får endast innehålla siffror (0-9) och bokstaven u.  
@@ -146,97 +144,96 @@ Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
 * Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 #c) 
   
-#### Tillverkning 
+### Tillverkning 
 
-##### Tillverkningsplats (Tillverkningsort) 
+#### Tillverkningsplats (Tillverkningsort) 
 * Tillverkning/Plats/Plats/Benämning (place/label = 264 -/3 #a)  
 
-##### Tillverkningsnamn  
+#### Tillverkningsnamn  
 * Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
 
-#### Copyrightar   
+### Copyrightar   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
-#### Identifikator 
+### Identifikator 
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
 * Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
 
-#### Indirekt identifierad av  
+### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
 
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
-#### Omfang   
+### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
 
-#### Ovriga fysiska detaljer   
+### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)
  
-#### Matt 
+### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
-#### Medfoljande material
+### Medfoljande material
 * Medföljs av/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)  
 Här anges medföljande material, som t ex bilagor.  
 
-#### Seriemedlemskap
+### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
 
-##### Seriens titel (auktoriserad sökingång för serie)  
+#### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)
 
-##### ISSN  
+#### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
 (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)  
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
 
-##### Serieuppgift  
+#### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
 
-##### Numrering inom serie  
+#### Numrering inom serie  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 #v, 830 #v)
 
-##### Indikator för seriebiuppslag   
+#### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)
 
-##### Författarserie
+#### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 #t)  
   ```Exempel: Millenium```   
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
-Följ dessa instruktioner:  
-  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny agent, se [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
+  Vid behov, skapa ny agent, [se hjälptexten Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
   
-##### Numrering inom serie   
+#### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
-#### Anmarkning
+### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
-#### Innehallsforteckning
+### Innehallsforteckning
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
  
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
 (tableofContents = 505 8/0 #t, #r)  
 
-#### Malgruppsanmarkning  
+### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
-#### Annat bararformat
+### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
 Länka till instans.
 
 
-#### Verk
+## Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
 ![Instans av verk](instansavverk.png)  
 
@@ -246,25 +243,25 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-##### Instans av verk
+## Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
-##### Verkets titel
+### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
-###### Verk med Primär medverkan
+#### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
 
-###### Verk utan Primär medverkan
+#### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
  
-#### Relationer till ingaende verk och andra verk
+### Relationer till ingaende verk och andra verk
 
-##### Relationer till ingående verk 
+#### Relationer till ingående verk 
 * Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
@@ -272,7 +269,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   Har del/Verk/Har titel/Titel (730 0/2 #a)  
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
-##### Relationer till andra verk  
+#### Relationer till andra verk  
   * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
@@ -280,7 +277,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
-##### Medverkan och funktion
+### Medverkan och funktion
 Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person  
@@ -296,12 +293,12 @@ Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogi
 
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 
-#### Sprak 
+### Sprak 
 * Språk (language = 008/35-37)
 
 För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
 
-##### Översättning  
+#### Översättning  
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 **Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
 
@@ -315,48 +312,48 @@ Länka till entitet.
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   
-##### Sammanfattningsspråk  
+#### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
 
-##### Språkanmärkning     
+#### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
 Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
-##### Genre form
+### Genre form
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer.  
  
 * Genre/form – termer som motsvarar marc-koder i 008  
 Välj någon av övriga rubriker i listan.
 
-##### Biografiskt material  
+#### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
   
-##### Festskrift     
+#### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Välj Festskrift i listan över typer. Länka till entitet.    
   ```Exempel: Ja, resursen är en festskrift```    
   
-##### Litterär genre  
+#### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
   ```Exempel: f ( = roman)```
    
-##### Konferenspublikation       
+#### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Välj Konferenspublikation i listan över typer. Länka till entitet.         
   ```Exempel: Ja, resursen härrör från konferens```   
      
-##### Akademisk avhandling      
+#### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
   Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
 
-###### Exempel på användning av Genre/form
+#### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
@@ -405,7 +402,7 @@ Litterär genre (008/33): Ej skönlitterärt verk
 Genre/form (saogf-term, 655): Avhandlingar  
 Innehåll (008/24-27): Avhandling
 
-#### Klassifikation  
+### Klassifikation  
 * Klassifikation/DDK-klassifikation/Kod  
 (classification/ClassificationDdc/code = 082 0/4 #a)
 
@@ -415,7 +412,7 @@ Innehåll (008/24-27): Avhandling
 * Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 082 #2)
 
-##### Sekundär DDK-klassifikation 
+#### Sekundär DDK-klassifikation 
 * DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod   
 (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)
 
@@ -425,7 +422,7 @@ Innehåll (008/24-27): Avhandling
 * Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 083 #2)
 
-##### SAB-klassifikation  
+#### SAB-klassifikation  
 * Klassifikation/Klassifikation/Kod  
 (classification/Classification/code = 084 0/4 #a)
 
@@ -435,10 +432,10 @@ Innehåll (008/24-27): Avhandling
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
-#### Amne  
+### Amne  
 * [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
 
-#### Malgrupp     
+### Malgrupp     
 * Målgrupp (008/22)
 <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
@@ -449,19 +446,19 @@ Innehåll (008/24-27): Avhandling
 
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
-##### Innehallstyp
+### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.   
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
-##### Sammanfattning av innehall  
+### Sammanfattning av innehall  
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
 
-##### Sammanfattningsspråk  
+#### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)    
 
-#### Anmarkning om akademisk avhandling    
+### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
 (dissertation/Dissertation/label = 502 #a)  
