@@ -109,8 +109,8 @@ Klicka på plustecknet vid Har komponent för att lägga till ytterligare ett be
 
 * Villkor för användning och åtkomst (506)
 
-**Exempel på Villkor för användning:**
-<br/>![Exempel på Villkor för användning](Villkoranvbenamn.png)
+**Exempel på Villkor för användning och åtkomst:**
+<br/>![Exempel på Villkor för användning och åtkomst](Villkoranvbenamn.png)
 
 * Lägg till egenskaper under Bestånd/Villkor som användning och åtkomst/Lägg till entitet/Skapa Lokal entitet/ Villkor som användning och åtkomst/Lägg till egenskaper under: Villkor för användning och åtkomst
 
