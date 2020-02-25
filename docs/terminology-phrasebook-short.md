@@ -7,8 +7,7 @@ tags:
 - rda
 ---
 
-# Terminologi
-## Kort parlör
+# BIBFRAME kort parlör
 
 [Information om BIBFRAME - Introduktion till Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)
 
