@@ -241,14 +241,14 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
-Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+[Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
 ## Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
+Ange den föredragna titeln för verket här, vid behov. [Följ Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 #### Verk med Primär medverkan
@@ -263,7 +263,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 #### Relationer till ingående verk 
 * Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan 
   Har del/Verk/Har titel/Titel (730 0/2 #a)  
@@ -271,14 +271,14 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 #### Relationer till andra verk  
   * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ### Medverkan och funktion
-Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
@@ -351,13 +351,13 @@ Välj någon av övriga rubriker i listan.
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
-  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+  [Se även Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
 
 #### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
-![Genre exempel](genre_exempel.png)  
+![Exempel lägg till genre/form](genre_exempel.png)  
 
 **Roman**  
 Exempel: Haag, Martina: Det är något som inte stämmer  
@@ -390,7 +390,7 @@ Litterär genre (008/33): Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
 Genre/form (saogf-term, 655): Lämpliga saogf-termer.  
-Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
+[Se även Svenska ämnesords översikt över Allmänna genre/formtermer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
 Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Festskrift**  
@@ -433,7 +433,7 @@ Innehåll (008/24-27): Avhandling
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
 ### Amne  
-* [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+* [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 
 ### Malgrupp     
 * Målgrupp (008/22)
