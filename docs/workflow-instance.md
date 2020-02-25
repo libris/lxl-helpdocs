@@ -145,7 +145,7 @@ Exempel:
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.   
   
 #### Parallelltitel  
-Ange parallelltitel endast här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel.   
+Ange parallelltitel endast här. Upprepa inte parallelltiteln efter Har titel/Titel/Huvudtitel.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
 Välj först Har titel, välj sedan typ Parallelltitel.    
 Skriv in uppgiften under Huvudtitel.    
