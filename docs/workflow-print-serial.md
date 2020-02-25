@@ -315,7 +315,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Ja, resursen härrör från konferens```      
    
 ### Amne  
-* [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+[Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 ### Relationer under verk
 * Relationer under verk (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
