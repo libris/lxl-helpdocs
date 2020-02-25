@@ -12,6 +12,7 @@ tags:
 
 
 # Organisation - Skapa ny
+Hjälptexten beskriver de egenskaper som finns representerade i mallen för att skapa en ny agent av typen organisation. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten.
 
 ## Innehåll
 [Inledning](#inledning)
@@ -38,11 +39,11 @@ tags:
  
 
 ## Inledning
-Hjälptexten beskriver de egenskaper som finns representerade i mallen. Egenskaper relevanta för organisation som är möjliga att lägga till men som inte finns i mallen beskrivs i slutet av hjälptexten. Exemplen är fiktiva.
-
 För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t ex avseende ordning på egenskaper kan förekomma.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
+
+Exemplen i hjälptexten är fiktiva.
 
 ## Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
