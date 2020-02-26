@@ -27,11 +27,9 @@ På denna sida listas ändringar i hjälptexterna.
 </br>Ändringen påverkar hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) och hjälptexten [Ljudbok](https://libris.kb.se/katalogisering/help/workflow-audiobook)
 
 2020-01-24:
-* Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
-</br>[Skapa ny](https://libris.kb.se/katalogisering/help/create-new)
-</br>[Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade)
+* Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna [Skapa ny](https://libris.kb.se/katalogisering/help/create-new) och [Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade) har tillkommit.
 </br>Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgradera.
-</br>Checklista postimport har bytt namn till Checklista import Andra källor.
+</br>Checklista postimport har bytt namn till [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import).
 </br>Sidan Översikt utgår och informationen har delvis flyttats till Att använda verktyget.
 </br>Sidan [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) är omstrukturerad.
 
