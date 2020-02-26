@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Checklista import Andra källor
-date: 2020-02-10
+date: 2020-02-26
 tags:
 - katalogiseringsverktyget
 - postimport
@@ -9,7 +9,8 @@ order: 16
 ---
 
 
-# Checklista vid postimport från Andra källor
+# Checklista import Andra källor
+Denna hjälptext beskriver vad som behöver kontrolleras och ändras vid postimport från Andra källor.
 
 ## Innehåll 
 
