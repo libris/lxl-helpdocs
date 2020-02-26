@@ -323,9 +323,9 @@ https://libris.kb.se/katalogisering/help/workflow-print-serial
 </br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
 </br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
 
-2019-01-18
+<!--2019-01-18
 * Ny struktur för hjälptexterna avseende ämnesord. Uppdaterade sidor: 
 </br>https://libris.kb.se/katalogisering/help/workflow-general-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
-</br>https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh
+</br>https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh-->
