@@ -2,13 +2,13 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-02-06
+date: 2020-02-26
 tags:
 - ändringslogg
 - uppdateringar
 ---
 
-## Ändringslogg
+# Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
 
 2020-02-06:
@@ -25,7 +25,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 * Verkstypen Ljudmaterial ändrad till Ljud. Följande hjälptexter påverkas:
 </br>https://libris.kb.se/katalogisering/help/use-the-editor
-</br>https://libris-stg.kb.se/katalogisering/help/workflow-audiobook
+</br>https://libris.kb.se/katalogisering/help/workflow-audiobook
 
 2020-01-24:
 * Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
@@ -43,9 +43,9 @@ På denna sida listas ändringar i hjälptexterna.
 
 2020-01-09:
 * Instruktion för egenskapen Speltid tillagd på sidorna för Film, Musik-CD och Musiktryck.
-</br>https://libris-dev.kb.se/katalogisering/help/workflow-film
-</br>https://libris-dev.kb.se/katalogisering/help/workflow-music-CD
-</br>https://libris-dev.kb.se/katalogisering/help/workflow-notated-music
+</br>https://libris.kb.se/katalogisering/help/workflow-film
+</br>https://libris.kb.se/katalogisering/help/workflow-music-CD
+</br>https://libris.kb.se/katalogisering/help/workflow-notated-music
 
 2019-12-18:
 * Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
@@ -329,4 +329,3 @@ https://libris.kb.se/katalogisering/help/workflow-print-serial
 </br>https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-local-entity-sh 
 </br>https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh
-
