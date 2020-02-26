@@ -13,54 +13,46 @@ På denna sida listas ändringar i hjälptexterna.
 
 2020-02-06:
 * Information om egenskapen Entrymap (= 000/20-23) i Checklista vid import från Andra källor är borttagen då den inte längre förekommer.
-</br>https://libris.kb.se/katalogisering/help/editor-checklist-import
+</br>Ändringen påverkar hjälptexten [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import)
 
 2020-02-05:
 * Uppdaterad instruktion om genre/form. Man behöver inte längre välja genre/form en gång till för att söka efter saogf-termer. Omstrukturerad text om genre/form för bättre läsbarhet.
-</br>https://libris.kb.se/katalogisering/help/workflow-work
+</br>Ändringen påverkar hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 * Annat bärarformat - länkning till entitet ger nu även 776 #w (Kontrollnummer) i marcexport.
-</br>https://libris.kb.se/katalogisering/help/workflow-instance
-* Ytterligare rekommenderade kombinationer av verk- och instanstyp tillagda för Noterad musik. Ändring gäller hjälptext Att använda verktyget:
-</br>https://libris.kb.se/katalogisering/help/use-the-editor
+</br>Ändringen påverkar hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+* Ytterligare rekommenderade kombinationer av verk- och instanstyp tillagda för Noterad musik.
+</br>Ändring gäller hjälptext [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor)
 
 * Verkstypen Ljudmaterial ändrad till Ljud. Följande hjälptexter påverkas:
-</br>https://libris.kb.se/katalogisering/help/use-the-editor
-</br>https://libris.kb.se/katalogisering/help/workflow-audiobook
+</br>Ändringen påverkar hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) och hjälptexten [Ljudbok](https://libris.kb.se/katalogisering/help/workflow-audiobook)
 
 2020-01-24:
 * Ändrad struktur och rubriker i vänstermenyn. Rubrikerna Sök och Redigering har ersatts av Katalogiseringsverktyget. Sidorna Skapa ny och Redigera och uppgradera har tillkommit:
-</br>https://libris.kb.se/katalogisering/help/create-new
-</br>https://libris.kb.se/katalogisering/help/edit-upgrade
+</br>[Skapa ny](https://libris.kb.se/katalogisering/help/create-new)
+</br>[Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade)
 </br>Informationen om mallar har flyttats till Skapa ny respektive Redigera och uppgradera.
 </br>Checklista postimport har bytt namn till Checklista import Andra källor.
 </br>Sidan Översikt utgår och informationen har delvis flyttats till Att använda verktyget.
-</br>Sidan Att använda verktyget är omstrukturerad:
-</br>https://libris.kb.se/katalogisering/help/use-the-editor
+</br>Sidan [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) är omstrukturerad.
 
 2020-01-14:
-* Uppdaterad information om hur man ändrar i kartmallen så att den kan användas for handritad kartresurs. Gäller hjälptext för Karta:
-</br>https://libris.kb.se/katalogisering/help/workflow-map
+* Uppdaterad information om hur man ändrar i kartmallen så att den kan användas for handritad kartresurs.
+</br>Uppdateringen gäller hjälptexten [Karta](https://libris.kb.se/katalogisering/help/workflow-map)
 
 2020-01-09:
 * Instruktion för egenskapen Speltid tillagd på sidorna för Film, Musik-CD och Musiktryck.
-</br>https://libris.kb.se/katalogisering/help/workflow-film
-</br>https://libris.kb.se/katalogisering/help/workflow-music-CD
-</br>https://libris.kb.se/katalogisering/help/workflow-notated-music
+</br>Uppdateringen gäller hjälptexterna [Film](https://libris.kb.se/katalogisering/help/workflow-film), [Musik-CD](https://libris.kb.se/katalogisering/help/workflow-music-CD) och [Musiktryck](https://libris.kb.se/katalogisering/help/workflow-notated-music)
 
 2019-12-18:
-* Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning på sidan Instans:
-</br>https://libris.kb.se/katalogisering/help/workflow-instance
+* Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 2019-12-06:
 * Tabellen med de rekommenderade kombinationerna av verks- och instanstyp är uppdaterad med anledning av att den svenska benämningen av verkstypen Projicerad bild ändrats till Rörlig bild.
-</br>https://libris.kb.se/katalogisering/help/use-the-editor
+</br>Uppdateringen gäller hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor)
 
 2019-12-03:
 * Hjälptexterna för agenttyperna Organisation och Person är uppdaterade med anledning av att egenskapen Andra attribut för person- och organisationsnamn nu går att länka.
-</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-new
-</br>https://libris.kb.se/katalogisering/help/workflow-agent-person-edit
-</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new
-</br>https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit
+</br>Uppdateringen gäller hjälptexterna [Person - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-person-new), [Person - Redigera befintlig](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit), [Organisation - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new) och [Organisation - Redigera befintlig](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit)
 
 <!--2019-11-18:
 * Hjälptexten för Äldre tryck är uppdaterad med egenskapen Huvudsakligt tillgängliggörande.
