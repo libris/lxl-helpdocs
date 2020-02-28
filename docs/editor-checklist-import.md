@@ -30,7 +30,7 @@ Denna hjälptext beskriver vad som behöver kontrolleras och ändras vid postimp
 | [Katalogiserande instans](#katalogiserande-instans) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Seriemedlemskap](#seriemedlemskap) |  |
 |  | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
-|  | [MARC-egenskaper](#MARC--egenskaper) |  |
+|  | [MARC-egenskaper](#MARCegenskaper) |  |
 
 ## Inledning
 Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
@@ -209,7 +209,7 @@ Exempel på uppgifter som kan stå kvar:
 Uppgifter som ska raderas: 
 - Beskriven av/Post/Kontrollnummer (describedBy/Record/controlNumber = #w). Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
 
-### MARC-egenskaper 
+### MARCegenskaper 
 Data från MARC21-fält som inte har en motsvarighet i Libris visas som MARC:... (t.ex. MARC:HASTRANSLATEDTITLE).
 - Låt egenskaperna ligga kvar.
 
