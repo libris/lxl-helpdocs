@@ -30,7 +30,7 @@ Denna hjälptext beskriver vad som behöver kontrolleras och ändras vid postimp
 | [Katalogiserande instans](#katalogiserande-instans) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Seriemedlemskap](#seriemedlemskap) |  |
 |  | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
-|  | [MARC-egenskaper](#MARCegenskaper) |  |
+|  | [MARC-egenskaper](#marcegenskaper) |  |
 
 ## Inledning
 Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
