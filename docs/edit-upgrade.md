@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-01-28
+date: 2020-02-28
 tags:
 - redigering
 - uppgradering
@@ -12,7 +12,7 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Checklista Librispraxis](#checklista-librispraxis) | | [Berika från mall](#berika-fran-mall) | 
+| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-fran-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
 | [Uppgradera](#uppgradera) | | |
 
