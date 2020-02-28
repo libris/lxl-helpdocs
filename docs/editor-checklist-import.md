@@ -12,7 +12,7 @@ order: 16
 # Checklista import Andra källor
 Denna hjälptext beskriver vad som behöver kontrolleras och ändras vid postimport från Andra källor.
 
-## Innehåll 
+## Innehåll
 
 [Inledning](#inledning) 
 
