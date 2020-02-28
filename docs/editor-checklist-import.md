@@ -23,14 +23,14 @@ Denna hjälptext beskriver vad som behöver kontrolleras och ändras vid postimp
 | [Identifikator](#identifikator) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Föredragen titel](#foredragen-titel) |
 | [Beskrivningsnivå](#beskrivningsniva)| [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp och bärartyp](#medietyp-och-barartyp) | [Språk](#sprak) |
-| [Skapad av](#skapad-av) | [Titel](#titel) | [Genre](#genre) |
+| [Skapad av](#skapad-av) | [Titel](#titel) | [Genre/form](#genre-form) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Upphovsuppgift](#upphovsuppgift) | [Ämne](#amne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Forväntad utgivningstid](#forvantad-utgivningstid) | [Innehållstyp](#innehallstyp) | 
 | [Katalogiserande instans](#katalogiserande-instans) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Seriemedlemskap](#seriemedlemskap) |  |
 |  | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  | 
-|  | [MARC-egenskaper](#MARC-egenskaper) |  |
+|  | [MARC-egenskaper](#MARC--egenskaper) |  |
 
 ## Inledning
 Poster som importeras till Libris från andra källor ska kontrolleras och vid behov rättas. Vid redigeringen bör olika anvisningar följas: 
@@ -241,7 +241,7 @@ Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)
 
 - Kontrollera att beskrivningen är korrekt.  
 
-### Genre/form 
+### Genre form 
 
 #### Termer som motsvarar MARC21-koder i 008 
 - Kontrollera att de länkade entiteterna är korrekta (Litterär genre, Festskrift m.m.) 
