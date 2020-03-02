@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Beståndsregistrering
 order: 136
-date: 2020-02-25
+date: 2020-03-02
 tags:
 - under arbete
 - bestånd
