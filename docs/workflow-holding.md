@@ -21,6 +21,8 @@ Plustecken i sidorutan Lägg till egenskaper under bestånd används för vad so
 
 Plustecken intill det som valts väljer man det som motsvarar delfält.
 
+Du behöver inte ta bort tomma egenskaper när du sparar. Systemet tar bort dem automatiskt.
+
 ## Innehåll   
 
 | [Adminmetadata](#adminmetadata)  | [Bestånd](#bestånd) | 
