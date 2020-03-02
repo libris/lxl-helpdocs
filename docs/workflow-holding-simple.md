@@ -17,6 +17,8 @@ Du kan lägga på bestånd direkt ifrån träfflistan. Från träfflistan kan du
 
 De mest vanliga egenskaperna finns färdiga att fylla i. Det motsvarar vad som kunde göras i Libris webbregistrering. Övriga egenskaper läggs till via plustecken. För vidare instruktioner och mer information, [se hjälptexten Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding).
 
+Du behöver inte ta bort tomma egenskaper när du sparar. Systemet tar bort dem automatiskt.
+
 ## Har komponent (852)
 Klicka på pilen intill Bestånd för att expandera. Där kan följande läggas till:
 
