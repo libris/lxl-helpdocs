@@ -34,7 +34,7 @@ För instruktioner om att länka till entitet, skapa lokal entitet och om hur fo
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ## Instans
-[Använd generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av kartor redovisas nedan. 
+[Använd generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Egenskaper som är specifika för Instans vid katalogisering av stillbilder redovisas nedan. 
 
 ### Övriga fysiska detaljer
 * Övriga fysiska detaljer (marc:otherPhysicalDetails = 300 #b)
