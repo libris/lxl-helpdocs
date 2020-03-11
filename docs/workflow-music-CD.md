@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-02-25
+date: 2020-03-11
 tags:
 - under arbete
 - musik-CD
@@ -190,8 +190,8 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 ### Copyrightar eller p-ar
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, [se Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
-  Det går bara att ange ett år här, så om både copyright- och p-år förekommer på resursen ange det senaste p-året.
-  För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan eller skriv Alt + 184.  
+  Ange senaste copyrightår. Om både copyright- och p-år förekommer på resursen, ange p-året.  
+  För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan. 
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Skriv in uppgiften.
   <br/>```Exempel:```
@@ -267,7 +267,9 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Gör allmänna anmärkningar här.  
   För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen i verktygsmenyn - Lägg till egenskaper under: Ljudinspelning) och välj Anmärkning (hasNote). Lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.</BR> 
-  ```Tidigare utgiven 1997```  
+  <br/>```Exempel:```
+    * ```Först utgiven 1997```
+    * ```Titel från omslag```
   
 ### Relaterad beskrivning eller innehall
   * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)</BR>
@@ -373,8 +375,12 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
 <br/>```Exempel: Persson, Peps, 1946-```  
   * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
-  ```Exempel: Framförande, prf (=Exekutör)```
+  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
+<br/>```Exempel:```
+    * ```Sångare, sng```
+    * ```Musiker, mus```<br/>
+  Om funktion inte kan specificeras, välj funktionen "Framförande": 
+   <br/>```Exempel: Framförande, prf```  
 
 #### Medverkan
   * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
