@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-02-26
+date: 2020-03-20
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna. 
+
+2020-03-20:
+* Ny sida [Utbildningsmaterial](https://libris.kb.se/katalogisering/help/educational) med länkar till befintligt utbildningsmaterial. 
+Arbete pågår med att förnya utbildningsmaterialet.
 
 2020-02-06:
 * Information om egenskapen Entrymap (= 000/20-23) i Checklista vid import från Andra källor är borttagen då den inte längre förekommer.
