@@ -8,6 +8,7 @@ tags:
 --- 
 
 # Utbildningsmaterial
+Här samlar vi utbildningsmaterial till hjälp för Libriskatalogisatörer. En del av utbildningarna har kommit till för några år sedan och är inte uppdaterat enligt Libris nuvarande format. 
 
 ## Dewey
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
