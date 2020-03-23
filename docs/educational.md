@@ -53,6 +53,6 @@ Här samlar vi utbildningsmaterial till hjälp för Libriskatalogisatörer. En d
 ## Ämnesord
 [Riktlinjer för Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf)  
 [Presentation av riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
-(exemplen i filmen är inte anpassade till Libris nuvarande format)  
+(exemplen i riktlinjerna är inte anpassade till Libris nuvarande format)  
   
 Ämnesord i Libris, se rubriken Libris, ovan
