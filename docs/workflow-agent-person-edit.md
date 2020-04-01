@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2020-02-25
+date: 2020-04-01
 tags:
 - redigera agent
 - redigera auktoritet
@@ -87,10 +87,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 * Auktoritetskontrollnivå (marc:level = 008/33)
  <br/>```Exempel: Kontrollerad/godkänd```
  <br/>Om "Preliminär (ej kontrollerad)" ändra till Kontrollerad/godkänd.
-
-### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
 
 ### Poststatus
 * Poststatus (recordStatus = 000)
