@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 12
-date: 2020-02-05
+date: 2020-04-01
 tags:
 - redigering
 - editor
@@ -21,12 +21,12 @@ tags:
 | [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Ångra](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
-| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
-| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) |  [- Byta verkstyp](#byta-verkstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Ta bort Instans](#ta-bort-instans) |  |  |
+| [- Minimera alla](#verktyg) | [Detaljerad berikning](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
+| [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  [- Byta verkstyp](#byta-verkstyp) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
+| [- Ta bort Instans](#ta-bort-instans) | [Spara och sluta redigera](#spara-och-sluta-redigera)  |  |
 | [Redigera](#redigera) |  |  | 
 
 
@@ -157,7 +157,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | **Verkstyp**  |  **Instanstyp** |   
 | :----------- | :----------- |
 | Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)<br>Elektronisk (007c i MARC21) (mall: E-bok)<br>Tryck<br>Handskrift<br>Taktil resurs |   
-| Kartmaterial (000/06=e i MARC21) | Karta (007a i MARC21) (mall: Karta)<br>Kartglob (007d i MARC21)<br>Elektronisk (007c i MARC21)<br>Handskrift |   
+| Karta (000/06=e i MARC21) | Karta (007a i MARC21) (mall: Karta)<br>Kartglob (007d i MARC21)<br>Elektronisk (007c i MARC21)<br>Handskrift |   
 | Ljud (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) |   
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
