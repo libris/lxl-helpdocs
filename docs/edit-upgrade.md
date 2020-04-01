@@ -44,7 +44,6 @@ Det går inte heller att ändra instanstyp med hjälp av Berika från mall.
 Om det i posten som ska berikas finns uppenbara felaktigheter, är det bättre att först radera dessa egenskaper innan man använder funktionen Berika från mall. Detta gör det möjligt att få med korrekta uppgifter från mallen.  
 
 Berika från mall:   
-
 ![Berika från mall](berikafranmall.png)  
 
 När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexterna och spara posten.  
@@ -81,6 +80,5 @@ Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap.
 
 Observera att du inte kan använda detaljerad berikning inom Instans av verk. För vissa egenskaper inom Instans av verk kan du i stället använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
 
-Detaljerad berikning:   
-
-![Detaljerad berikning](detaljerad.png)  
+Detaljerad berikning:    
+![Detaljerad berikning](detaljeradberikning.png)
