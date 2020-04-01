@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-02-28
+date: 2020-04-01
 tags:
 - redigering
 - uppgradering
@@ -14,7 +14,7 @@ tags:
 | ------ | ------ | ------ |
 | [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-fran-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
-| [Uppgradera](#uppgradera) | | |
+| [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
 
 
 ## Anvisningar och praxis
@@ -45,12 +45,12 @@ Om det i posten som ska berikas finns uppenbara felaktigheter, är det bättre a
 
 Berika från mall:   
 
-![Berika från mall](berika.png)  
+![Berika från mall](berikafranmall.png)  
 
 När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexterna och spara posten.  
 
 ## Berika fran post
- * Berika från fil
+ * **Berika från fil**
   </br>Det går att berika från en sparad fil som då fungerar som en slags mall. Då behöver man först skapa en fil att berika från och det gör man lättast i gränssnittet, antingen genom att redigera en befintlig post eller skapa en ny tillfälligt. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
    * Sök fram eller skapa en post (A) med de egenskaper som ska finnas i mallen. Både tomma egenskaper och egenskaper med innehåll går att få med.
    * Gå till verktygsmenyn och välj "Ladda ner JSON-LD inklusive osparade ändringar". Namnge filen och spara. 
@@ -61,13 +61,26 @@ När Berika från mall har använts visas en text som beskriver hur många egens
  
    Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
  
- * Berika från ID
-   </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. metadata från en första utgåva kan berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintlig data.
+ * **Berika från ID**
+   </br>Funktionen är lämplig att använda för att berika en preliminär beskrivning (förhandspost, prelpost, CIP-post) (B) med metadata från en mer utförlig beskrivning (A), t.ex. kan metadata från en första utgåva berika en tunn förhandspost för en andra utgåva. Med funktionen är det också möjligt att få med egenskaper som inte går att lägga till manuellt i verktyget men som finns i befintliga data.
 
    * Sök fram en post (A) med de egenskaper du vill föra över till den post du vill berika (B). 
    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
     </br>![Kopiera ID](KopieraID.PNG)
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-    </br>![Berika från ID](BerikafranID.png)
+    </br>![Berika från ID](berikafranid.png)
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
+
+## Detaljerad berikning
+Med funktionen _Detaljerad berikning_ kan du handplocka egenskaper från en post till en annan.
+
+För att göra detta behöver du tillgång till den berikande postens ID (URI), vilken du hittar i postens sammanfattning. Du kan också länka till posten genom att kopiera adressfältet i din webbläsare.
+
+Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap. Att  **utöka**  innebär att information läggs till i den berikade posten.  **Ersätta**  resulterar i att den berikande posten skriver över egenskaper.
+
+Observera att du inte kan använda detaljerad berikning inom Instans av verk. För vissa egenskaper inom Instans av verk kan du i stället använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
+
+Detaljerad berikning:   
+
+![Detaljerad berikning](detaljerad.png)  
