@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2020-02-21
+date: 2020-04-01
 tags:
 - agenter
 - auktoriteter
@@ -103,10 +103,6 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
-  
-### Differentiering av person
-* Differentiering av person (marc:personalName = 008/32)
-  <br/>Ändras ej.
 
 
 ## Agent
