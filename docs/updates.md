@@ -2,14 +2,17 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-03-20
+date: 2020-04-01
 tags:
 - ändringslogg
 - uppdateringar
 ---
 
 # Ändringslogg
-På denna sida listas ändringar i hjälptexterna. 
+På denna sida listas ändringar i hjälptexterna.
+
+2020-04-01:
+* Egenskapen Differentiering av person är borttagen från mallarna för Agent - Person. Ändringen påverkar hjälptexterna [Person - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) och [Person - Redigera befintlig](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit)
 
 2020-03-20:
 * Ny sida [Utbildningsmaterial](https://libris.kb.se/katalogisering/help/educational) med länkar till befintligt utbildningsmaterial. 
@@ -46,7 +49,7 @@ Arbete pågår med att förnya utbildningsmaterialet.
 </br>Uppdateringen gäller hjälptexterna [Film](https://libris.kb.se/katalogisering/help/workflow-film), [Musik-CD](https://libris.kb.se/katalogisering/help/workflow-music-CD) och [Musiktryck](https://libris.kb.se/katalogisering/help/workflow-notated-music)
 
 2019-12-18:
-* Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning i hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+* Ny instruktion för flerbandsverk med pågående utgivning, se Utgivning [i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 2019-12-06:
 * Tabellen med de rekommenderade kombinationerna av verks- och instanstyp är uppdaterad med anledning av att den svenska benämningen av verkstypen Projicerad bild ändrats till Rörlig bild.
