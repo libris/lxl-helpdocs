@@ -21,7 +21,7 @@ tags:
 | [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
 | [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [Detaljerad berikning](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
+| [- Minimera alla](#verktyg) | [Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
 | [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt)  |  [- Byta verkstyp](#byta-verkstyp) |
@@ -99,7 +99,7 @@ Välj Redigera för att aktivera redigeringsläget och för att kunna göra änd
 Nedan beskrivs de funktioner som är tillgängliga i verktygsmenyn när man har aktiverat redigeringsläget.
 
 ### Verktyg
-Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare två. Berika från mall och Berika från post. [Dessa funktioner beskrivs utförligt i hjälptexten Redigera och uppgradera](https://libris-dev.kb.se/katalogisering/help/edit-upgrade).
+Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, tillkommer här ytterligare tre. Berika från mall, Berika från post och Detaljerad berikning. [Dessa funktioner beskrivs utförligt i hjälptexten Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade).
 
 ### Lägg till egenskaper
 
