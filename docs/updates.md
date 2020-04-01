@@ -12,7 +12,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2020-04-01:
-* Ny funktion i verktyget: Detaljerad berikning. Funktionen nämns i hjälptexten [Att använda verktyget]( och beskrivs i hjälptexten
+* Ny funktion i verktyget: Detaljerad berikning. Funktionen nämns i hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) och beskrivs i hjälptexten [Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade).
+* Verkstypen Kartmaterial har ändrats till Karta.  Tabellen över rekommenderade verks- och instanstyper i hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) är uppdaterad.
 * Egenskapen Differentiering av person är borttagen från mallarna för Agent - Person. Ändringen påverkar hjälptexterna [Person - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) och [Person - Redigera befintlig](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit)
 
 2020-03-20:
