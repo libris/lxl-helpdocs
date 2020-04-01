@@ -22,7 +22,7 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
 | [Katalogiseringsspråk](#differentiering-av-person) | [Födelsedatum](#efternamn) |
-| [Differentiering av person](#differentiering-av-person) | [Dödsdatum](#efternamn) |
+| | [Dödsdatum](#efternamn) |
 | | [Variant](#variant) |
 | | [Se även](#variant) |
 | | [Verksamhetsområde](#verksamhetsomrade) |
