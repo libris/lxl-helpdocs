@@ -40,7 +40,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ## Kontrollnummer
 * Kontrollnummer (controlNumber = 001)  
-Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. [Läs mer om Nya ID i Libris](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata/libris-uri.html)  
+Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. [Om Libris-URI](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata/libris-uri.html)  
 
 ## Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
