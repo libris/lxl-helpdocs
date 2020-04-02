@@ -74,7 +74,7 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 **Sökning på specialtecken:**  
 I Libris lagras all text i [UTF-8]( https://sv.wikipedia.org/wiki/UTF-8), den teckenkod som tillåter hantering av världens alla språk. Det finns trots det vissa problem med hantering av diakriter och andra specialtecken. Medan arbetet med normalisering av tecken pågår,  följ denna instruktion för att ändå få träff vid sökning där diakriter och specialtecken ingår.  
 
-Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller dekomponerade. Prekomponerade tecken innebär att grundbokstav och sammanhörande diakrit uppträder som ett sammanhållet tecken. Dekomponerade innebär att grundbokstav och sammanhörande diakrit uppträder som separata tecken. Prekomponerade tecken går att söka men kan vara svåra att skriva in manuellt (se [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars)). Dekomponerade tecken går däremot varken att söka fram med eller utan diakriter (i Andra källor fungerar det dock).  
+Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller dekomponerade. Prekomponerade tecken innebär att grundbokstav och sammanhörande diakrit uppträder som ett sammanhållet tecken. Dekomponerade innebär att grundbokstav och sammanhörande diakrit uppträder som separata tecken. Prekomponerade tecken går att söka men kan vara svåra att skriva in manuellt (se [Specialtecken](https://libris.kb.se/katalogisering/help/special-chars)). Dekomponerade tecken går däremot varken att söka fram med eller utan diakriter (i Andra källor fungerar det dock).  
 
 Om sökningen med diakriter inte ger träff, fortsätt med denna sökning:  
 
