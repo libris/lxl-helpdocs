@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-02-05
+date: 2020-04-03
 tags:
 - under arbete
 - verk
@@ -121,7 +121,7 @@ Skriv in uppgiften.
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
 Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**   
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
