@@ -72,28 +72,29 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 ### Specialtecken
 
 **Sökning på specialtecken:**  
-Från och med version 1.15 av Libris katalogisering normaliseras diakriter vid import till Libris. Tecken bestående av två tecken (s.k. dekomponerade) rättas till sammansatta tecken (s.k. prekomponerade). Sökningen fungerar med både prekomponerade och dekomponerade tecken.
+* Från och med version 1.15 av Libris katalogisering normaliseras diakriter vid import till Libris. Tecken bestående av två tecken (s.k. dekomponerade) rättas till sammansatta tecken (s.k. prekomponerade). Sökningen fungerar med både prekomponerade och dekomponerade tecken.
 Det fungerar att söka med eller utan diakriter i egenskaperna Har titel\Titel samt Medverkan.
 
-Exempel på polska: 
-Sökningen på titel med diakriter Przejdź przez wodę, krocz przez ogień respektive utan diakriter Przejdz przez wode, krocz przez ogien ger samma träffresultat.
+<br/>`Exempel på polska:`
+`Sökningen på titel med diakriter Przejdź przez wodę, krocz przez ogień respektive utan diakriter Przejdz przez wode, krocz przez ogien ger samma träffresultat.`
 
-Exempel på telugu:
-Sökningen på titel med diakriter Runam Svati varapatrikalo dharavahikang respektive utan diakriter Ruṇaṃ Svāti vārapatrikalō dhārāvāhikaṅgā ger samma träffresultat.
+<br/>`Exempel på telugu:`
+`Sökningen på titel med diakriter Runam Svati varapatrikalo dharavahikang respektive utan diakriter Ruṇaṃ Svāti vārapatrikalō dhārāvāhikaṅgā ger samma träffresultat.`
 
-Det fungerar också att söka med eller utan apostrofer och accenttecken i egenskaperna Har titel\Titel samt Medverkan.
+* Det fungerar också att söka med eller utan apostrofer och accenttecken i egenskaperna Har titel\Titel samt Medverkan.
 
-Exempel på arabiska:
-al-Mujtamaʻ al-miṣrī fī al-ʻaṣr al-ʻuthmānī kan sökas som al-Mujtama al-misri fi al-asr al-uthmani alternativt al Mujtama al misri fi al asr al uthmani
+<br/>`Exempel på arabiska:`
+`al-Mujtamaʻ al-miṣrī fī al-ʻaṣr al-ʻuthmānī kan sökas som al-Mujtama al-misri fi al-asr al-uthmani alternativt al Mujtama al misri fi al asr al uthmani`
 
-Observera att apostrofen ʹ som används i translitterering av kyrilliska för närvarande inte fungerar på samma sätt som ovan.
+* Observera att apostrofen ʹ som används i translitterering av kyrilliska för närvarande inte fungerar på samma sätt som ovan.
 
-Exempel på ryska:
-Sökningen på malenʹkij respektive malenkij kommer att ge olika träffresultat. 
-Egenskapen Upphovsuppgiften kräver fortfarande exakt match vad gäller diakriter, apostrofer och accenttecken. 
+<br/>`Exempel på ryska:`
+`Sökningen på malenʹkij respektive malenkij kommer att ge olika träffresultat.`
 
-Poster lagras på normaliseringsformen NFC och sökning inom de flesta egenskaper görs med normaliseringsformen NFKC. NFC och NFKC är en del av unicodestandarden.
+* Egenskapen Upphovsuppgiften kräver fortfarande exakt match vad gäller diakriter, apostrofer och accenttecken.
 
-Exempel på normaliserade sökningar:
-y²-k=x³ ger även träff vid sökning på y2-k=x3
-H₂O ger även träff vid sökning på h2o
+* Poster lagras på normaliseringsformen NFC och sökning inom de flesta egenskaper görs med normaliseringsformen NFKC. NFC och NFKC är en del av unicodestandarden.
+
+<br/>`Exempel på normaliserade sökningar:`
+  * y²-k=x³ ger även träff vid sökning på y2-k=x3
+  * H₂O ger även träff vid sökning på h2o
