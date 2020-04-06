@@ -91,5 +91,5 @@ Observera att apostrofen ʹ som används i translitterering av kyrilliska för n
 
 Poster lagras på normaliseringsformen NFC och sökning inom de flesta egenskaper görs med normaliseringsformen NFKC. NFC och NFKC är en del av unicodestandarden.
 <br/>`Exempel på normaliserade sökningar:`
-  <br/>* y²-k=x³ ger även träff vid sökning på y2-k=x3
-  <br/>* H₂O ger även träff vid sökning på h2o
+  * y²-k=x³ ger även träff vid sökning på y2-k=x3
+  * H₂O ger även träff vid sökning på h2o
