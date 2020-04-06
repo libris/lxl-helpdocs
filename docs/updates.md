@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-04-01
+date: 2020-04-06
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2020-04-06
+* [Hjälptexten Sök](https://libris.kb.se/katalogisering/help/search) är uppdaterad med anledning av förbättringar av seende sökning på specialtecken. 
 
 2020-04-01:
 * Ny funktion i verktyget: Detaljerad berikning. Funktionen nämns i hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) och beskrivs i hjälptexten [Redigera och uppgradera](https://libris.kb.se/katalogisering/help/edit-upgrade).
