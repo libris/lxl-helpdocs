@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Sök
 order: 10
-date: 2019-06-13
+date: 2020-04-06
 tags:
 - search
 ---
@@ -72,24 +72,28 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 ### Specialtecken
 
 **Sökning på specialtecken:**  
-I Libris lagras all text i [UTF-8]( https://sv.wikipedia.org/wiki/UTF-8), den teckenkod som tillåter hantering av världens alla språk. Det finns trots det vissa problem med hantering av diakriter och andra specialtecken. Medan arbetet med normalisering av tecken pågår,  följ denna instruktion för att ändå få träff vid sökning där diakriter och specialtecken ingår.  
+Från och med version 1.15 av Libris katalogisering normaliseras diakriter vid import till Libris. Tecken bestående av två tecken (s.k. dekomponerade) rättas till sammansatta tecken (s.k. prekomponerade). Sökningen fungerar med både prekomponerade och dekomponerade tecken.
+Det fungerar att söka med eller utan diakriter i egenskaperna Har titel\Titel samt Medverkan.
 
-Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller dekomponerade. Prekomponerade tecken innebär att grundbokstav och sammanhörande diakrit uppträder som ett sammanhållet tecken. Dekomponerade innebär att grundbokstav och sammanhörande diakrit uppträder som separata tecken. Prekomponerade tecken går att söka men kan vara svåra att skriva in manuellt (se [Specialtecken](https://libris.kb.se/katalogisering/help/special-chars)). Dekomponerade tecken går däremot varken att söka fram med eller utan diakriter (i Andra källor fungerar det dock).  
+Exempel på polska: 
+Sökningen på titel med diakriter Przejdź przez wodę, krocz przez ogień respektive utan diakriter Przejdz przez wode, krocz przez ogien ger samma träffresultat.
 
-Om sökningen med diakriter inte ger träff, fortsätt med denna sökning:  
+Exempel på telugu:
+Sökningen på titel med diakriter Runam Svati varapatrikalo dharavahikang respektive utan diakriter Ruṇaṃ Svāti vārapatrikalō dhārāvāhikaṅgā ger samma träffresultat.
 
-1. Kopiera strängen från källan du använt dig av och klistra in den.
-2. Om det finns dekomponerade tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "bokstav + diakrit" ändras till "bokstav". Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
-3. Skriv in en tilde, "~", efter varje ord där ersättning har gjorts.
-4. Sök.  
+Det fungerar också att söka med eller utan apostrofer och accenttecken i egenskaperna Har titel\Titel samt Medverkan.
 
-Inklistrad sträng med dekomponerade tecken:  
-![Inklistrad sträng med dekomponerade tecken](tecken1.png)  
-Inklistrad sträng efter backsteg och med tilde:  
-![Inklistrad sträng efter backsteg och med tilde](tecken2.png) 
+Exempel på arabiska:
+al-Mujtamaʻ al-miṣrī fī al-ʻaṣr al-ʻuthmānī kan sökas som al-Mujtama al-misri fi al-asr al-uthmani alternativt al Mujtama al misri fi al asr al uthmani
 
-eller
+Observera att apostrofen ʹ som används i translitterering av kyrilliska för närvarande inte fungerar på samma sätt som ovan.
 
-1. Skriv in sträng utan diakriter.  
-2. Skriv in en tilde, "~", efter varje ord som borde innehålla diakriter eller specialtecken.  
-3. Sök.
+Exempel på ryska:
+Sökningen på malenʹkij respektive malenkij kommer att ge olika träffresultat. 
+Egenskapen Upphovsuppgiften kräver fortfarande exakt match vad gäller diakriter, apostrofer och accenttecken. 
+
+Poster lagras på normaliseringsformen NFC och sökning inom de flesta egenskaper görs med normaliseringsformen NFKC. NFC och NFKC är en del av unicodestandarden.
+
+Exempel på normaliserade sökningar:
+y²-k=x³ ger även träff vid sökning på y2-k=x3
+H₂O ger även träff vid sökning på h2o
