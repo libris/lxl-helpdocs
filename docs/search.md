@@ -76,20 +76,20 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 Det fungerar att söka med eller utan diakriter i egenskaperna Har titel\Titel samt Medverkan. Egenskapen Upphovsuppgift kräver fortfarande exakt match vad gäller diakriter, apostrofer och accenttecken.
 
 <br/>`Exempel på polska:`
-<br/>`Sökningen på titel med diakriter Przejdź przez wodę, krocz przez ogień respektive utan diakriter Przejdz przez wode, krocz przez ogien ger samma träffresultat.`
+<br/>Sökningen på titel med diakriter `Przejdź przez wodę, krocz przez ogień` respektive utan diakriter `Przejdz przez wode, krocz przez ogien` ger samma träffresultat.
 
 <br/>`Exempel på telugu:`
-<br/>`Sökningen på titel med diakriter Runam Svati varapatrikalo dharavahikang respektive utan diakriter Ruṇaṃ Svāti vārapatrikalō dhārāvāhikaṅgā ger samma träffresultat.`
+<br/>Sökningen på titel med diakriter `Runam Svati varapatrikalo dharavahikang` respektive utan diakriter `Ruṇaṃ Svāti vārapatrikalō dhārāvāhikaṅgā` ger samma träffresultat.
 
 Det fungerar också att söka med eller utan apostrofer och accenttecken i egenskaperna Har titel\Titel samt Medverkan.
 <br/>`Exempel på arabiska:`
-<br/>`al-Mujtamaʻ al-miṣrī fī al-ʻaṣr al-ʻuthmānī kan sökas som al-Mujtama al-misri fi al-asr al-uthmani alternativt al Mujtama al misri fi al asr al uthmani`
+<br/>`al-Mujtamaʻ al-miṣrī fī al-ʻaṣr al-ʻuthmānī` kan sökas som `al-Mujtama al-misri fi al-asr al-uthmani` alternativt `al Mujtama al misri fi al asr al uthmani.`
 
 Observera att apostrofen ʹ som används i translitterering av kyrilliska för närvarande inte fungerar på samma sätt som ovan.
 <br/>`Exempel på ryska:`
-<br/>`Sökningen på malenʹkij respektive malenkij kommer att ge olika träffresultat.`
+<br/>Sökningen på `malenʹkij` respektive `malenkij` kommer att ge olika träffresultat.
 
 Poster lagras på normaliseringsformen NFC och sökning inom de flesta egenskaper görs med normaliseringsformen NFKC. NFC och NFKC är en del av unicodestandarden.
 <br/>`Exempel på normaliserade sökningar:`
-  * `y²-k=x³ ger även träff vid sökning på y2-k=x3`
-  * `H₂O ger även träff vid sökning på h2o`
+  * `y²-k=x³` ger även träff vid sökning på `y2-k=x3`
+  * `h₂o` ger även träff vid sökning på `h2o`
