@@ -2,13 +2,10 @@
 section: Utbildningsmaterial
 title: Utbildningsmaterial
 order: 145
-date: 2020-03-23
-tags:
-- kurser
+date: 2020-04-08
 --- 
 
 # Utbildningsmaterial
-Här samlar vi utbildningsmaterial till hjälp för Libriskatalogisatörer. En del av materialet har kommit till för några år sedan och är inte uppdaterat enligt Libris nuvarande format. Arbete pågår med att förnya utbildningsmaterialet.  
 
 ## Dewey
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
@@ -20,7 +17,18 @@ Här samlar vi utbildningsmaterial till hjälp för Libriskatalogisatörer. En d
 
 ### Introduktion
 [Kort om sammanlänkad information (5:49 min)](https://youtu.be/oSFWIAwu3bs)  
-[Bibframe svensk terminologi (5:48 min)](https://youtu.be/LmhsXICZ0MQ)
+[Bibframe svensk terminologi (5:49 min)](https://youtu.be/LmhsXICZ0MQ)
+
+### Grundkurs i Libriskatalogisering
+
+####  1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
+#### 2. [Libris format (8:09min)](https://youtu.be/5U2BM4LRtyo)
+Under arbete:
+#### 3. Introduktion till Libris katalogisering
+#### 4. Sökning
+#### 5. Egenskaper och entiteter
+#### 6. Redigera, uppgradera och berika
+#### 7. Skapa ny och radera
 
 ### Beståndsregistrering
 [Beståndsregistrering med begränsad behörighet (10:48 min)](https://youtu.be/LVzikX3q2y8)
@@ -39,20 +47,20 @@ Här samlar vi utbildningsmaterial till hjälp för Libriskatalogisatörer. En d
 ### Materialtyper
 
 [Tryckt monografi - primärkatalogisering av originalverk (42:03 min)](https://youtu.be/K_sYU0aMuc8)  
-[Tryckt monografi - uppgradering av förhandspost - översättning (48:47 min)](https://youtu.be/_Xnwcz6DT6U)  
+[Tryckt monografi - uppgradering av förhandspost (48:47 min)](https://youtu.be/_Xnwcz6DT6U)  
 [Tryckt seriell resurs (13:08 min)](https://youtu.be/nqgPwM7kuSk)  
 [Musiktryck (15:39 min)](https://youtu.be/BYWaD1E00O4)
 
 ### Andra källor
 [Söka i Andra källor (5:56 min)](https://youtu.be/WGUBhzN3K_k)  
 [Redigera en importerad post (17:18 min)](https://youtu.be/JyxIXBdUNy0)
+
 ## RDA
 [Grundutbildning i RDA - sammanställning](http://www.kb.se/rdakatalogisering/RDA-redaktionen/Presentationer-och-informationsmaterial/)  
 (exemplen i utbildningen är inte anpassade till Libris nuvarande format)
 
 ## Ämnesord
-[Riktlinjer för Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf)  
-[Presentation av riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
-(exemplen i riktlinjerna är inte anpassade till Libris nuvarande format)  
+[Riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
+(exemplen i filmen är inte anpassade till Libris nuvarande format)  
   
 Ämnesord i Libris, se rubriken Libris, ovan
