@@ -3,11 +3,16 @@ section: Utbildningsmaterial
 title: Utbildningsmaterial
 order: 145
 date: 2020-04-08
-tags:
-- utbildningsmaterial
 --- 
 
 # Utbildningsmaterial
+
+| Innehåll | 
+| ------ | 
+| [Dewey](#dewey) | 
+| [Libris](#libris)|
+| [RDA (Resursbeskrivning och åtkomst)](#rda)|
+| [Ämnesord](#amnesord) |
 
 ## Dewey
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
@@ -23,14 +28,14 @@ tags:
 
 ### Grundkurs i Libriskatalogisering
 
-####  1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
-#### 2. [Libris format (8:09min)](https://youtu.be/5U2BM4LRtyo)
+1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
+2. [Libris format (8:09min)](https://youtu.be/5U2BM4LRtyo)
 Under arbete:
-#### 3. Introduktion till Libris katalogisering
-#### 4. Sökning
-#### 5. Egenskaper och entiteter
-#### 6. Redigera, uppgradera och berika
-#### 7. Skapa ny och radera
+3. Introduktion till Libris katalogisering
+4. Sökning
+5. Egenskaper och entiteter
+6. Redigera, uppgradera och berika
+7. Skapa ny och radera
 
 ### Beståndsregistrering
 [Beståndsregistrering med begränsad behörighet (10:48 min)](https://youtu.be/LVzikX3q2y8)
@@ -61,7 +66,7 @@ Under arbete:
 [Grundutbildning i RDA - sammanställning](http://www.kb.se/rdakatalogisering/RDA-redaktionen/Presentationer-och-informationsmaterial/)  
 (exemplen i utbildningen är inte anpassade till Libris nuvarande format)
 
-## Ämnesord
+## Amnesord
 [Riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
 (exemplen i filmen är inte anpassade till Libris nuvarande format)  
   
