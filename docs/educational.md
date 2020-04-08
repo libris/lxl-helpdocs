@@ -3,6 +3,8 @@ section: Utbildningsmaterial
 title: Utbildningsmaterial
 order: 145
 date: 2020-04-08
+tags:
+- utbildningsmaterial
 --- 
 
 # Utbildningsmaterial
