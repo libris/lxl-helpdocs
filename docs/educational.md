@@ -31,9 +31,10 @@ tags:
 ### Grundkurs i Libriskatalogisering
 
 1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
-2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)<br>
-Under arbete:)
+2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)
 3. Introduktion till Libris katalogisering (11:42) (https://youtu.be/2Fn9CwXJcy4)
+<br>
+Under arbete:
 4. Sökning
 5. Egenskaper och entiteter
 6. Redigera, uppgradera och berika
