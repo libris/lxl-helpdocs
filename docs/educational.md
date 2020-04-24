@@ -34,7 +34,7 @@ tags:
 2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)
 3. [Introduktion till Libris katalogisering (11:42 min)](https://youtu.be/2Fn9CwXJcy4)
 <br>
-Under arbete:
+Under arbete:<br>
 4. Sökning<br> 
 5. Egenskaper och entiteter<br>
 6. Redigera, uppgradera och berika<br>
