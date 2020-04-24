@@ -32,12 +32,12 @@ tags:
 
 1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
 2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)
-3. Introduktion till Libris katalogisering (11:42 min) (https://youtu.be/2Fn9CwXJcy4)
+3. [Introduktion till Libris katalogisering (11:42 min)](https://youtu.be/2Fn9CwXJcy4)
 <br>
 Under arbete:
-4. Sökning
-5. Egenskaper och entiteter
-6. Redigera, uppgradera och berika
+4. Sökning<br> 
+5. Egenskaper och entiteter<br>
+6. Redigera, uppgradera och berika<br>
 7. Skapa ny och radera
 
 ### Beståndsregistrering
