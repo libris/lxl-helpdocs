@@ -131,7 +131,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Se även
 * Se även (seeAlso = 510)
-  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare.
+  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t.ex. vara föregångare eller efterföljare.
   <br/>```Exempel: Institutet för arbetslivsforskning```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
