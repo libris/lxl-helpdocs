@@ -136,7 +136,7 @@ Lägg till Instans som lokal entitet. Lägg sedan till egenskaper för värdpubl
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
 Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten Relationer till Agent, Skapa lokal entitet](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance#skapa-lokal-entitet)<br/>
-    ```Exempel:```
+    </br>```Exempel:```
     * ```Carlsson, Magnus```
     * ```Sverige. Socialtjänskommittén```
     * ```International Congress on Military History (26 : Stockholm : 2000)```
@@ -147,7 +147,7 @@ Länka till entitet:<br/>
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/> 
-    ```Exempel:``` 
+    </br>```Exempel:``` 
     * ```9789186949372```
     * ```0008-011X```
 
@@ -156,7 +156,7 @@ Lägg till egenskapen Har titel. Välj typ Titel.<br/>
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
-    ```Exempel:``` 
+    </br>```Exempel:``` 
     * ```Karolinska förbundets årsbok```
     * ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
@@ -172,7 +172,7 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 #### Bidrag i årsbok, tidskrift eller dagstidning
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
-    ```Exempel:```
+    </br>```Exempel:```
     * ```2018, sidorna 215-217```
     * ```2019(87):2, sidorna 145-172```
     * ```2020-02-23```
