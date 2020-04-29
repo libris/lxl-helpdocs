@@ -60,7 +60,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
@@ -119,7 +119,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
-  <br/> OBS! Varianter ska inte göras till sökbara länkar.
+  <br/> OBS! Varianter ska inte länkas.
   <br/>```Namnform i ett led:```
   <br/>```Exempel: Swedish Centre for Working Life```
    
