@@ -136,20 +136,21 @@ Lägg till Instans som lokal entitet. Lägg sedan till egenskaper för värdpubl
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
 Skriv in uppgiften under Benämning. Använd korrekt namnform, [se hjälptexten Relationer till Agent, Skapa lokal entitet](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance#skapa-lokal-entitet)<br/>
-  ```Exempel:```
-  * ```Carlsson, Magnus```
-  * ```Sverige. Socialtjänskommittén```
-  * ```International Congress on Military History (26 : Stockholm : 2000)```
+```Exempel:```
+* ```Carlsson, Magnus```
+* ```Sverige. Socialtjänskommittén```
+* ```International Congress on Military History (26 : Stockholm : 2000)```
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
 Länka till entitet:<br/>
 ```Exempel: Författare, aut```
 
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
-Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
-  ```Exempel:``` 
-  * ```9789186949372```
-  * ```0008-011X```
+Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/> 
+```Exempel:``` 
+* ```9789186949372```
+* ```0008-011X```
+
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
