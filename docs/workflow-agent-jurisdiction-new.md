@@ -145,7 +145,7 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a #2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
  <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
 
