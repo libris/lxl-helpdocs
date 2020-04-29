@@ -171,10 +171,10 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 #### Bidrag i årsbok, tidskrift eller dagstidning
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
-  ```Exempel:```
-  * ```2018, sidorna 215-217```
-  * ```2019(87):2, sidorna 145-172```
-  * ```2020-02-23```
+```Exempel:```
+* ```2018, sidorna 215-217```
+* ```2019(87):2, sidorna 145-172```
+* ```2020-02-23```
 
 När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
@@ -226,7 +226,7 @@ För en artikel som är/innehåller en översättning, lägg till:
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```  
+```Exempel: engelska (eng)```  
 
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
