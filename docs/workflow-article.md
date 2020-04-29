@@ -155,9 +155,9 @@ Lägg till egenskapen Har titel. Välj typ Titel.<br/>
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
-```Exempel:``` 
-* ```Karolinska förbundets årsbok```
-* ```Barnboken (Online)```
+  ```Exempel:``` 
+  * ```Karolinska förbundets årsbok```
+  * ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
 Om värdpublikationen är en monografi, lägg till egenskapen Uppgift om produktion, utgivning, distribution och/eller tillverkning.<br/>
 Ange utgivningstiden för monografin.<br/>
@@ -171,10 +171,10 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 #### Bidrag i årsbok, tidskrift eller dagstidning
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
-```Exempel:```
-   * ```2018, sidorna 215-217```
-   * ```2019(87):2, sidorna 145-172```
-   * ```2020-02-23```
+  ```Exempel:```
+  * ```2018, sidorna 215-217```
+  * ```2019(87):2, sidorna 145-172```
+  * ```2020-02-23```
 
 När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
