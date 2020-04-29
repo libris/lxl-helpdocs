@@ -147,17 +147,17 @@ Länka till entitet:<br/>
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/>
-```Exempel:``` 
-   * ```9789186949372```
-   * ```0008-011X```
+  ```Exempel:``` 
+  * ```9789186949372```
+  * ```0008-011X```
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 773 #t)<br/>
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
 ```Exempel:``` 
-   * ```Karolinska förbundets årsbok```
-   * ```Barnboken (Online)```
+* ```Karolinska förbundets årsbok```
+* ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
 Om värdpublikationen är en monografi, lägg till egenskapen Uppgift om produktion, utgivning, distribution och/eller tillverkning.<br/>
 Ange utgivningstiden för monografin.<br/>
@@ -172,9 +172,9 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
 ```Exempel:```
-   * ```2018, sidorna 215-217```
-   * ```2019(87):2, sidorna 145-172```
-   * ```2020-02-23```
+* ```2018, sidorna 215-217```
+* ```2019(87):2, sidorna 145-172```
+* ```2020-02-23```
 
 När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
@@ -216,7 +216,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 ### Sprak 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
-```Exempel: svenska (swe)```</BR> 
+  ```Exempel: svenska (swe)```</BR> 
   För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk under [Översättning](#oversattning).
   
 #### Översättning  
@@ -226,7 +226,7 @@ För en artikel som är/innehåller en översättning, lägg till:
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-```Exempel: engelska (eng)```  
+  ```Exempel: engelska (eng)```  
 
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
@@ -241,7 +241,7 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
-```Exempel: Text, txt```
+  ```Text, txt```
   
 ### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
