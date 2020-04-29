@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2020-04-01
+date: 2020-04-29
 tags:
 - redigera agent
 - redigera auktoritet
@@ -28,8 +28,8 @@ Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan än
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
-| | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [**Ytterligare egenskaper att lägga till vid behov**](#biografiska-uppgifter) |
+| | [Beskrivning](#beskrivning) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#bbeskrivning) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Verksamhetsområde](#verksamhetsomrade) |
@@ -214,11 +214,11 @@ Beskrivning av den auktoriserade agenten.
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
 
-### Biografiska uppgifter
-* Biografiska uppgifter (hasBiographicalInformation = 678)
-  <br/>Används för att ange biografisk information är om personens liv eller historia.
+### Beskrivning
+* Beskrivning (description = 678)
+  <br/>Används för att ange kortfattad biografisk information är om personens liv eller historia.
   <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sök efter och lägg till Beskrivning. Ange uppgifterna i rutan.
 
 
 ## Ytterligare egenskaper att lagga till vid behov
