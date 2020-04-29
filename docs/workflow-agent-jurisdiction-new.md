@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2020-02-25
+date: 2020-04-29
 tags:
 - under arbete
 - agenter
@@ -22,13 +22,14 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 | [Skapad av](#adminmetadata) | [Agenttyp](#agent) |
 | [Katalogiseringsregler](#adminmetadata) | [Namn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Namnform i flera led](#namnform-i-flera-led) |
-| [Konsulterad källa](#katalogiseringsregler) | [Identifikator](#identifikator) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Variant](#variant)) |
+| [Konsulterad källa](#katalogiseringsregler) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsregler) | |
 | |[Se även](#variant) |
-| | [Nationalitet](#nationalitet) |
+| | [Beskrivning](#beskrivning) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) |
-| | [Administrativ historik](#administrativ-historik) |
+| | [Identifikator](#identifikator) |
+| | [Nationalitet](#nationalitet) |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
 | | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
@@ -39,9 +40,9 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 ## Inledning
 För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t ex avseende ordning på egenskaper kan förekomma.
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
-Exemplen i hjälptexten är fiktiva.
+Exempel i hjälptexten är fiktiva.
 
 ## Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
@@ -110,12 +111,6 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
   <br/>```Exempel: Riksdagen```
 <br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
   <br/>```Exempel: Miljö- och jordbruksutskottet```
- 
-### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
-  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
- <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
 
 ### Variant
 * Variant (hasVariant = 410 #a #b och 410 #a #b #b)
@@ -136,11 +131,10 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
   <br/>```Exempel: Göteborgs kommun (Sverige)```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Jurisdiktion i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
-### Nationalitet
-* Nationalitet/verksamhetsland (nationality = 043 #a)
-  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
-  <br/>```Exempel: e-no---```
-  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+### Beskrivning
+* Beskrivning (description = 678)
+  <br/>Används för att ange kortfattad historisk eller sammanfattande information om jurisdiktionen. Obligatorisk uppgift.
+  <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
 
 ### Verksamhetens starttid  
 * Verksamhetens starttid/Startdatum för aktivitetsperiod (activityStartDate = 046 #s)
@@ -149,11 +143,18 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
 ### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 #t)
   <br/>```Exempel: 1994```
-  
-### Administrativ historik
-* Administativ historik (hasHistoricalData = 678 #a)
-  <br/>Anmärkning om administrativ historik.
-  <br/>```Exempel: Inrättat 1909. Namnbyte från Jordbruksutskottet till Miljö- och jordbruksutskottet från och med riksmötet 1989/99```
+
+### Identifikator
+* Identifikator (identifiedBy = 024 #a #2)
+  <br/>Identifikator t ex ISNI kan läggas till om tillgänglig. ISNI kan hämtas från t ex VIAF. 
+  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+ <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
+
+### Nationalitet
+* Nationalitet/verksamhetsland (nationality = 043 #a)
+  <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna ändras eller flera nationaliteter läggas till.
+  <br/>```Exempel: e-no---```
+  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   
 ## Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
