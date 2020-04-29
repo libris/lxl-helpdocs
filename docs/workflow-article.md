@@ -172,9 +172,9 @@ Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är
 * Del (part = 773 #g)<br/>
 Ange årgång och/eller nummer samt paginering.<br/>
 ```Exempel:```
-* ```2018, sidorna 215-217```
-* ```2019(87):2, sidorna 145-172```
-* ```2020-02-23```
+   * ```2018, sidorna 215-217```
+   * ```2019(87):2, sidorna 145-172```
+   * ```2020-02-23```
 
 När en årgång består av flera nummer anges också numret enligt exemplet: "2002(87):2" även om årgången har genomgående paginering.
 
