@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2020-04-01
+date: 2020-04-29
 tags:
 - agenter
 - auktoriteter
@@ -21,20 +21,20 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogiseringsspråk](#differentiering-av-person) | [Födelsedatum](#efternamn) |
-| | [Dödsdatum](#efternamn) |
-| | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Variant](#variant) |
 | | [Se även](#variant) |
-| | [Verksamhetsområde](#verksamhetsomrade) |
 | | [Har yrke eller sysselsättning](#verksamhetsomrade) |
+| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Beskrivning](#beskrivning) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
+| | [Födelsedatum](#efternamn) |
+| | [Dödsdatum](#efternamn) |
 | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
 | [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
-| | [Biografiska uppgifter](#biografiska-uppgifter) |
-| | [Titel eller övrig beteckning](#biografiska-uppgifter) |
-| | [Andra attribut för person- och organisationsnamn](#biografiska-uppgifter) |
+| | [Titel eller övrig beteckning](#namn) |
+| | [Andra attribut för person- och organisationsnamn](#namn) |
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) | |
@@ -42,7 +42,7 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 ## Inledning
 För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
 
-OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, t.ex. avseende ordning på egenskaper kan förekomma. 
+OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 Exemplet nedan baseras på den auktoriserade namnformen Lagerlöf, Selma, 1858-1940 (i de fall det är möjligt och relevant). Tillägg är fiktiva, enbart för att exemplifiera.
 
@@ -100,7 +100,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-### Katalogiseringsspråk
+### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
 
@@ -134,20 +134,6 @@ Beskrivning av agenten som ska auktoriseras.
   * ```1858-1940```
   * ```1968-```
 
-### Födelsedatum
-* Födelsedatum (birthDate = 046 #f)
-  <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/> ```Exempel:```
-  * ```18581120```
-  * ```1902```
-
-### Dödsdatum
-* Dödsdatum (deathDate = 046 #g)
-  <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/>```Exempel:```
-  * ```19400316```
-  * ```1977```
-
 ### Variant
 * Variant (hasVariant = 400 #a #d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
@@ -176,12 +162,6 @@ Beskrivning av agenten som ska auktoriseras.
   <br/>```Födelse- och/eller dödstid: 1938-``` 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Se även, välj typen Person. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
 
-### Verksamhetsomrade
-* Verksamhetsområde (fieldOfActivity = 372)
-  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
-   <br/>```Exempel: Fågelskådning```
-   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
-
 ### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
    <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
@@ -189,6 +169,18 @@ Beskrivning av agenten som ska auktoriseras.
    * ```Romanförfattare```
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+   
+### Verksamhetsomrade
+* Verksamhetsområde (fieldOfActivity = 372)
+  <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
+   <br/>```Exempel: Fågelskådning```
+   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+   
+### Beskrivning
+* Beskrivning (description = 678)
+  <br/>Används för att ange kortfattad biografisk information om personens liv eller historia.
+  <br/>```Exempel:```
+  * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
@@ -202,6 +194,20 @@ Beskrivning av agenten som ska auktoriseras.
 * Nationalitet/verksamhetsland (nationality = 043)
   <br/>I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas. 
   <br/>För att lägga till: Klicka på plustecknet inom egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ, sök efter och välj önskad nationalitet. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
+  
+### Födelsedatum
+* Födelsedatum (birthDate = 046 #f)
+  <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
+  <br/> ```Exempel:```
+  * ```18581120```
+  * ```1902```
+
+### Dödsdatum
+* Dödsdatum (deathDate = 046 #g)
+  <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
+  <br/>```Exempel:```
+  * ```19400316```
+  * ```1977```
 
 
 ## Ytterligare egenskaper att lägga till vid behov
@@ -224,13 +230,6 @@ Används för att ange fullständig namnform i de fall då förkortning används
 * Fullständigare namnform - Personnamn (marc:fullerFormOfPersonalName = 378 #q)
   <br/>```Exempel:```
   <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
-
-### Biografiska uppgifter
-* Biografiska uppgifter (hasBiographicalInformation = 678)
-  <br/>Används för att ange biografisk information är information om personens liv eller historia.
-  <br/>```Exempel:```
-  * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
-  <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. Klicka på plustecknet inom den tillagda egenskapen och välj Benämning där uppgifterna anges.
 
 ### Titel eller övrig beteckning 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
