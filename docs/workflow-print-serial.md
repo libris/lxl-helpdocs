@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-02-25
+date: 2020-04-29
 tags:
 - under arbete
 - seriell resurs
@@ -93,7 +93,7 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
   ```Exempel: Kammarmusikförbundets tidskrift```
   
 #### Varianttitel   
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+Används till exempel för felaktigheter och tillfälliga variationer/mindre förändringar i huvudtiteln. Felaktigheter kan specificeras med Typanmärkning och tillfälliga variationer/mindre förändringar i huvudtiteln kan preciseras med Täckning och tillkomst. 
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
@@ -103,6 +103,16 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Housing sarts```    
 
+#### Tidsbestämd titelvariant   
+Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)    
+  Skriv in uppgiften under Huvudtitel.  
+  ```Exempel: Hushållningssällskapets magasin```  
+  
+* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
+  Skriv in uppgiften.  
+  ```Exempel: 2011, nr 4-2012, nr 4``` 
+  
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
  
@@ -114,17 +124,7 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
-  
-#### Tidsbestämd titelvariant   
-Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
-* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 #a)  
-  Skriv in uppgiften under Huvudtitel.  
-  ```Exempel: Hushållningssällskapets magasin```  
-  
-* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
-  Skriv in uppgiften.  
-  ```Exempel: 2011, nr 4-2012, nr 4``` 
-  
+    
 ### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
@@ -369,4 +369,4 @@ Exempel:
   Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
-```Exempel:  Architecture (Paris. 1888)```   
+```Exempel:  Architecture (Paris. 1888)```
