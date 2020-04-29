@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 76
-date: 2020-02-25
+date: 2020-04-29
 tags:
 - under arbete
 - agenter
@@ -23,7 +23,7 @@ Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktor
 | | [Tid för grundande](#namn) |
 | | [Variant](#variant) |
 | [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
-| [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Administrativ historik](#administrativ-historik) |
+| [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Beskrivning](#beskrivning) |
 | [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
@@ -43,7 +43,6 @@ Det är möjligt att berika en befintlig agentpost från mall. Klicka på det ru
 
 För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
 
-OBS! Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget. Verktyget är fortfarande under utveckling och viss åtskillnad från hjälptexten, tex avseende ordning på egenskaper kan förekomma.
   
 ## Adminmetadata
 Information av administrativ karaktär som är väsentlig för auktoriseringen i sig men inte är direkt förknippad med den auktoriserade namnformen.
@@ -114,7 +113,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
   <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
 
 
@@ -135,7 +134,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Variant
 * Variant (hasVariant = 410 #a #b #b)
   <br/>Här anges variantnamn och alternativa namnformer som stavningsvarianter, förkortningar etc.
-  <br/> OBS! Varianter ska inte göras till sökbara länkar.
+  <br/> OBS! Varianter ska inte länkas.
   <br/>```Namnform i ett led```
   <br/>```Exempel: Släktforskarförbundet```
     
@@ -153,9 +152,9 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ## Egenskaper att lagga till i Agent
 
 
-### Administrativ historik
-* Administativ historik (has Historical Data = 678 #a)
-  <br/>Anmärkning om administrativ historik är obligatorisk uppgift för Organisationer.
+### Beskrivning
+* Beskrivning (description = 678)
+  <br/>Används för att ange kortfattad historisk eller sammanfattande information om organisationen. Obligatorisk uppgift.
   <br/>```Exempel: Riksförbund för svenska släktforskare. Grundat 1886```
 
 ### Nationalitet
@@ -193,7 +192,7 @@ För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, 
 
 ### Se även
 * Se även (seeAlso = 510)
-  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t ex vara föregångare eller efterföljare. 
+  <br/>Här länkas mot annan agent som hör ihop med organisationen. Det kan t.ex. vara föregångare eller efterföljare. 
   <br/>```Exempel: Föreningen Emigrantinstitutets vänner```
  <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Organisation i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
  
