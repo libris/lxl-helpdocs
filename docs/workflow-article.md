@@ -110,7 +110,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Sverige (sw)``` 
+  ```Exempel: Sverige (sw)```
     
 #### År
   * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
@@ -147,7 +147,7 @@ Länka till entitet:<br/>
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
 Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/> 
-    </br>```Exempel:``` 
+    </br>```Exempel:```
     * ```9789186949372```
     * ```0008-011X```
 
@@ -156,7 +156,7 @@ Lägg till egenskapen Har titel. Välj typ Titel.<br/>
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
 Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
-    </br>```Exempel:``` 
+    </br>```Exempel:```
     * ```Karolinska förbundets årsbok```
     * ```Barnboken (Online)```
 * Uppgift om produktion, utgivning, distribution och eller tillverkning (provisionActivityStatement = 773 #d)<br/>
