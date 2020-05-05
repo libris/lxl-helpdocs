@@ -35,7 +35,7 @@ tags:
 3. [Introduktion till Libris katalogisering (11:42 min)](https://youtu.be/2Fn9CwXJcy4)  
 4. [Sökning (3:23 min)](https://youtu.be/zqB67F6raIQ)
 5. [Egenskaper och entiteter (8:05 min)](https://youtu.be/HL01AEhkhYo)<br>
-6. [Redigera, uppgradera och berika (6:55 min)](https://youtu.be/YtkSTY4i8po)
+6. [Redigera, uppgradera och berika (6:55 min)](https://youtu.be/YtkSTY4i8po)<br>
 Under arbete:<br>
 7. Skapa ny och radera
 
