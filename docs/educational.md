@@ -12,7 +12,8 @@ tags:
 | Innehåll | 
 | ------ | 
 | [Dewey](#dewey) | 
-| [Libris](#libris)|
+| [Libris och RDA](#libris-och-rda)|
+| [Materialtyper](#materialtyper)
 | [RDA (Resursbeskrivning och åtkomst)](#rda)|
 | [Ämnesord](#amnesord) |
 
@@ -20,7 +21,7 @@ tags:
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
 [Utbildningsmaterial - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Utbildningsmaterial/)
 
-## Libris
+## Libris och RDA
 [Introduktion till Libris - sammanställning](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)  
 [Libris instruktionsfilmer - spellista på Youtube](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
@@ -47,6 +48,11 @@ Under arbete:<br>
 ### Beståndsregistrering
 [Beståndsregistrering (14:22 min)](https://youtu.be/BO1pqLX9IkE)<br>
 [Beståndsregistrering med begränsad behörighet (10:48 min)](https://youtu.be/LVzikX3q2y8)
+
+### Musikinspelningar
+Under arbete:<br>
+Katalogisering av musik-CD<br>
+Katalogisering av musik-CD – några komplicerade fall
 
 ### Ämnesord
 [Länka ämnesord (5:59 min)](https://youtu.be/gh3ummapTe4)  
