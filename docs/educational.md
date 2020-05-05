@@ -2,7 +2,7 @@
 section: Utbildningsmaterial
 title: Utbildningsmaterial
 order: 145
-date: 2020-05-04
+date: 2020-05-05
 tags:
 - utbildningsmaterial
 --- 
@@ -29,7 +29,7 @@ tags:
 [Bibframe svensk terminologi (5:49 min)](https://youtu.be/LmhsXICZ0MQ)
 
 ### Grundkurs i Libriskatalogisering
-
+#### Introduktion till Libris format och katalogiseringsverktyg
 1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
 2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)
 3. [Introduktion till Libris katalogisering (11:42 min)](https://youtu.be/2Fn9CwXJcy4)  
@@ -39,7 +39,13 @@ Under arbete:<br>
 6. Redigera, uppgradera och berika<br>
 7. Skapa ny och radera
 
+#### Regler och praxis
+8. [FRBR – Functional Requirements for Bibliographic Records(15:53 min](https://youtu.be/ECgCXgR_yQk)
+Under arbete:<br>
+9. RDA – Regler, praxis och anvisningar
+
 ### Beståndsregistrering
+[Beståndsregistrering (14:22 min)](https://youtu.be/BO1pqLX9IkE)
 [Beståndsregistrering med begränsad behörighet (10:48 min)](https://youtu.be/LVzikX3q2y8)
 
 ### Ämnesord
