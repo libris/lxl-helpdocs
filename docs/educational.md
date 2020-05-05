@@ -36,7 +36,7 @@ tags:
 4. [Sökning (3:23 min)](https://youtu.be/zqB67F6raIQ)
 5. [Egenskaper och entiteter (8:05 min)](https://youtu.be/HL01AEhkhYo)<br>
 6. [Redigera, uppgradera och berika (6:55 min)](https://youtu.be/YtkSTY4i8po)<br>
-7. [Skapa ny och radera (6:29 min)[https://youtu.be/J8B4Nl4Rg90]
+7. [Skapa ny och radera (6:29 min)](https://youtu.be/J8B4Nl4Rg90)
 
 #### Regler och praxis
 8. [FRBR – Functional Requirements for Bibliographic Records (15:53 min)](https://youtu.be/ECgCXgR_yQk)<br>
