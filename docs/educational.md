@@ -78,5 +78,5 @@ RDA – Regler, praxis och anvisningar - se ovan under Libris, Grundkurs i Libri
 ## Amnesord
 [Riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
 (exemplen i filmen är inte anpassade till Libris nuvarande format)  
-[Riktlinjer för Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
+[Riktlinjer för Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)<br>
 Ämnesord i Libris, se rubriken Libris, ovan
