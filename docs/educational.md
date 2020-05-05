@@ -12,7 +12,7 @@ tags:
 | Innehåll | 
 | ------ | 
 | [Dewey](#dewey) | 
-| [Libris och RDA](#libris-och-rda)|
+| [Libris](#libris)|
 | [RDA (Resursbeskrivning och åtkomst)](#rda)|
 | [Ämnesord](#amnesord) |
 
@@ -72,7 +72,8 @@ Under arbete:<br>
 
 ## RDA
 [Grundutbildning i RDA - sammanställning](http://www.kb.se/rdakatalogisering/RDA-redaktionen/Presentationer-och-informationsmaterial/)  
-(exemplen i utbildningen är inte anpassade till Libris nuvarande format)
+(exemplen i utbildningen är inte anpassade till Libris nuvarande format)br>
+RDA – Regler, praxis och anvisningar - se ovan under Libris, Grundkurs i Libriskatalogisering
 
 ## Amnesord
 [Riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
