@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2020-02-25
+date: 2020-05-05
 tags:
 - under arbete
 - monografi
@@ -300,7 +300,7 @@ För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Sp
 
 #### Översättning  
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt. Språktillägget skapas i 240 #l även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
+**Från och med version 1.7 skapas språktillägget automatiskt. 
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
