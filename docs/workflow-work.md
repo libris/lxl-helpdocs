@@ -296,10 +296,10 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 ### Sprak 
 * Språk (language = 008/35-37)
 
-För att ange originalspråk för ett översatt verk: Originalversion/Verk/Språk.  
-Lägg till Originalversion, skapa Verk som lokal entitet och lägg till Språk. Du behöver inte välja verkstyp här. Sök fram språkentiteten och länka.
-
 #### Översättning  
+För att ange originalspråk för ett översatt verk:
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+Lägg till Originalversion, skapa Verk som lokal entitet och lägg till Språk. Du behöver inte välja verkstyp här. Sök fram språkentiteten och länka.  
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 **Från och med version 1.7 skapas språktillägget automatiskt. 
 
