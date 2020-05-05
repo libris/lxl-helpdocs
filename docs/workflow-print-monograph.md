@@ -294,13 +294,25 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 
 ### Sprak 
-* Språk (language = 008/35-37)
+* Språk (language = 008/35-37)  
+  Ange textens språk. För en text på svenska, länka till svenska.   
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```   
+  För att ange att texten är på flera språk, länka till ytterligare en språkkod.  
+  För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
+  
+#### Översättning   
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
+  Ange om resursen är/innehåller en översättning.  Välj fras från listan.  
+  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  Ange originalspråk för ett översatt verk här.   
+Lägg till Originalversion under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
+ För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
-För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
-#### Översättning  
-För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt. 
+Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Språk (Language/label = 130 #l)  
@@ -308,9 +320,6 @@ Länka till entitet.
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
 Har del/Verk/Språk (Language/label = 730 #l)  
 Länka till entitet.  
-
-* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
   
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
@@ -461,4 +470,4 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
 
 ### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
-(dissertation/Dissertation/label = 502 #a)  
+(dissertation/Dissertation/label = 502 #a)
