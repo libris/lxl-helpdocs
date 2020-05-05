@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-04-03
+date: 2020-05-05
 tags:
 - under arbete
 - verk
@@ -137,7 +137,7 @@ Länka till entitet.
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Du behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ![Uppgift om originalversionens språk](originalversionsprak.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
