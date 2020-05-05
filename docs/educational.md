@@ -49,7 +49,8 @@ Under arbete:<br>
 [Beståndsregistrering (14:22 min)](https://youtu.be/BO1pqLX9IkE)<br>
 [Beståndsregistrering med begränsad behörighet (10:48 min)](https://youtu.be/LVzikX3q2y8)
 
-### Musikinspelningar
+### Materialtyper
+#### Musikinspelningar
 Under arbete:<br>
 Katalogisering av musik-CD<br>
 Katalogisering av musik-CD – några komplicerade fall
