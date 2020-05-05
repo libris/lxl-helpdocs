@@ -40,7 +40,7 @@ Under arbete:<br>
 7. Skapa ny och radera
 
 #### Regler och praxis
-8. [FRBR – Functional Requirements for Bibliographic Records(15:53 min](https://youtu.be/ECgCXgR_yQk)
+8. [FRBR – Functional Requirements for Bibliographic Records(15:53 min](https://youtu.be/ECgCXgR_yQk)<br>
 Under arbete:<br>
 9. RDA – Regler, praxis och anvisningar
 
