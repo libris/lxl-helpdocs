@@ -40,8 +40,7 @@ tags:
 
 #### Regler och praxis
 8. [FRBR – Functional Requirements for Bibliographic Records (15:53 min)](https://youtu.be/ECgCXgR_yQk)<br>
-Under arbete:<br>
-9. RDA – Regler, praxis och anvisningar
+9. [RDA – Regler, praxis och anvisningar](https://youtu.be/3SlfjP8c2-w)
 
 ### Beståndsregistrering
 [Beståndsregistrering (14:22 min)](https://youtu.be/BO1pqLX9IkE)<br>
