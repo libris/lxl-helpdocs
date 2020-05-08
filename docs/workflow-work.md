@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-05-05
+date: 2020-05-08
 tags:
 - under arbete
 - verk
@@ -77,13 +77,13 @@ Skriv in uppgiften.
 * Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)  
   [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
-  Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
+  Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
  
 #### Relationer till andra verk  
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
    [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
-   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
+   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
   
 ### Medverkan och funktion  
 * Medverkan och funktion  
