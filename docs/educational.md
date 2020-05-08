@@ -58,11 +58,11 @@ tags:
 [Skapa ny agent - organisation (9:56 min)](https://youtu.be/9MzVriPQUA8)
 
 ### Materialtyper
-
+[Musik-CD (37:12 min)](https://youtu.be/k7UInrohpGc)  
+[Musiktryck (15:39 min)](https://youtu.be/BYWaD1E00O4)
 [Tryckt monografi - primärkatalogisering av originalverk (42:03 min)](https://youtu.be/K_sYU0aMuc8)  
 [Tryckt monografi - uppgradering av förhandspost (48:47 min)](https://youtu.be/_Xnwcz6DT6U)  
 [Tryckt seriell resurs (13:08 min)](https://youtu.be/nqgPwM7kuSk)  
-[Musiktryck (15:39 min)](https://youtu.be/BYWaD1E00O4)
 
 ### Andra källor
 [Söka i Andra källor (5:56 min)](https://youtu.be/WGUBhzN3K_k)  
