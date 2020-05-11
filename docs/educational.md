@@ -20,7 +20,7 @@ tags:
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
 [Utbildningsmaterial - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Utbildningsmaterial/)
 
-## Libris och RDA
+## Libris
 [Introduktion till Libris - sammanställning](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)  
 [Libris instruktionsfilmer - spellista på Youtube](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
