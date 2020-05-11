@@ -70,7 +70,7 @@ tags:
 
 ## RDA
 [Grundutbildning i RDA - sammanställning](http://www.kb.se/rdakatalogisering/RDA-redaktionen/Presentationer-och-informationsmaterial/)  
-(exemplen i utbildningen är inte anpassade till Libris nuvarande format)<br>
+(exemplen i utbildningen är inte anpassade till Libris nuvarande format)<br>  
 RDA – Regler, praxis och anvisningar - se ovan under Libris, Grundkurs i Libriskatalogisering
 
 ## Amnesord
