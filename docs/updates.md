@@ -11,8 +11,11 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
+2020-05-13
+Hjälptexten för Musik-CD: Instruktionen under Omfång uppdaterad. Instruktion om Kodningsformat tillagd.
+
 2020-04-29
-* Från och med version 1.16 finns mallar för elektroniskt respektive tryck bidrag blamd de övriga mallarna [på sidan Skapa ny](https://libris.kb.se/katalogisering/create). En [hjälptext för Bidrag](https://libris.kb.se/katalogisering/help/workflow-article) finns under Materialtyper.
+* Från och med version 1.16 finns mallar för elektroniskt respektive tryck bidrag bland de övriga mallarna [på sidan Skapa ny](https://libris.kb.se/katalogisering/create). En [hjälptext för Bidrag](https://libris.kb.se/katalogisering/help/workflow-article) finns under Materialtyper.
 * Titelvariant borttaget i texten [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial). Tidsbestämda titelvariationer anges i stället med Varianttitel.
 * Egenskapen Administrativ historik har ändrat svensk benämning till Beskrivning.
 </br>Uppdateringen gäller hjälptexterna [Organisation - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new), [Organisation - Redigera befintlig](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit) och [Jurisdiktion - Skapa ny](https://libris.kb.se/katalogisering/help/workflow-agent-jurisdiction-new)
