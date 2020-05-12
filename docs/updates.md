@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-04-30
+date: 2020-05-13
 tags:
 - ändringslogg
 - uppdateringar
