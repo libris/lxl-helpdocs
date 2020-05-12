@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-03-11
+date: 2020-05-13
 tags:
 - under arbete
 - musik-CD
@@ -35,6 +35,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
+| | [Kodningsformat](#kodningsformat) | |
+| | [Elektronisk adress](#anmarkning) | |
 
 ## Inledning 
 Beskrivningen av en musik-CD innehåller följande tre delar:  
@@ -190,7 +192,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 ### Copyrightar eller p-ar
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, [se Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
-  Ange senaste copyrightår. Om både copyright- och p-år förekommer på resursen, ange p-året.  
+  Ange det senaste året för copyright. Om det senaste året förekommer både som ©- och ℗-år på resursen, ange ℗-året  
   För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan. 
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Skriv in uppgiften.
@@ -227,7 +229,12 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 1 CD (1 tim., 12 min.) ```  
+  ```Exempel: 1 CD (1 tim., 12 min.) ```<br/>
+  
+Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, [se Kodningsformat](#kodningsformat).
+
+För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, [se Anmärkning](#anmarkning).
+ 
 
 ### Speltid
 * Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
@@ -270,11 +277,20 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   <br/>```Exempel:```
     * ```Först utgiven 1997```
     * ```Titel från omslag```
+    * ```MP3```
+    
+### Kodningsformat
+  * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
+Ange filformat här.</BR>
+Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
+  ```Exempel: MP3```
   
-### Relaterad beskrivning eller innehall
-  * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)</BR>
-  Länka till delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs.</BR>
-  Lägg till Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell länk.
+### Elektronisk adress
+#### Elektronisk adress
+* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
+  För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
+* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
   
 ## Verk   
 ### Instans av Verk/Musik
