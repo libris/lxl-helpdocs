@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-05-13
+date: 2020-05-14
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,8 +11,10 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
-2020-05-13
-Hjälptexten för Musik-CD: Instruktionen under Omfång uppdaterad. Instruktion om Kodningsformat tillagd.
+2020-05-14
+* Hjälptexten för Ljudbok: Instruktionen under Omfång uppdaterad. Instruktion om Kodningsformat tillagd.
+* Hjälptexten för Musik-CD: Instruktionen under Copyrightår eller p-år uppdaterad.
+
 
 2020-04-29
 * Från och med version 1.16 finns mallar för elektroniskt respektive tryck bidrag bland de övriga mallarna [på sidan Skapa ny](https://libris.kb.se/katalogisering/create). En [hjälptext för Bidrag](https://libris.kb.se/katalogisering/help/workflow-article) finns under Materialtyper.
