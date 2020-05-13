@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-05-13
+date: 2020-05-14
 tags:
 - under arbete
 - musik-CD
@@ -35,8 +35,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmärkning](#anmarkning) | | 
-| | [Kodningsformat](#kodningsformat) | |
-| | [Elektronisk adress](#anmarkning) | |
+| | [Elektronisk adress](#elektronisk-adress) | |
+
 
 ## Inledning 
 Beskrivningen av en musik-CD innehåller följande tre delar:  
@@ -231,11 +231,6 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```<br/>
   
-Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, [se Kodningsformat](#kodningsformat).
-
-För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, [se Anmärkning](#anmarkning).
- 
-
 ### Speltid
 * Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
@@ -276,17 +271,9 @@ För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lo
   Skriv in uppgiften under Benämning.</BR> 
   <br/>```Exempel:```
     * ```Först utgiven 1997```
-    * ```Titel från omslag```
-    * ```MP3```
-    
-### Kodningsformat
-  * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
-Ange filformat här.</BR>
-Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
-  ```Exempel: MP3```
-  
+    * ```Titel från omslag``` 
+
 ### Elektronisk adress
-#### Elektronisk adress
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
