@@ -29,7 +29,7 @@ tags:
 [Bibframe svensk terminologi (5:49 min)](https://youtu.be/LmhsXICZ0MQ)
 
 ### Grundkurs i Libriskatalogisering
-[Spellista](https://www.youtube.com/playlist?list=PLZVkEICvA5-HJMDbzzUBJFxetWYea3ZLC)  
+[Spellista](https://www.youtube.com/playlist?list=PLZVkEICvA5-HJMDbzzUBJFxetWYea3ZLC), se också de numrerade rubrikerna nedan.  
 #### Introduktion till Libris format och katalogiseringsverktyg
 1. [Från MARC till länkade data (8:10 min)](https://youtu.be/iv-7UAgTQ1s) 
 2. [Libris format (8:09 min)](https://youtu.be/5U2BM4LRtyo)
