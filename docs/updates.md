@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-05-14
+date: 2020-05-15
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2020-05-15
+* Förtydligad informatiom om instanstyper, på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
 
 2020-05-14
 * Hjälptexten för Ljudbok: Instruktionen under Omfång uppdaterad. Instruktion om Kodningsformat tillagd.
