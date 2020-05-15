@@ -12,23 +12,21 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Utgivningssätt](#utgivningssatt) | | [Omfång](#omfang) | 
+| [Inledning](#inledning) | | [Copyrightår](#copyrightar)  | 
+| [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
+| [Utgivningssätt](#utgivningssatt)| | [Omfång](#omfang) | 
 | [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
 | [Bärartyp](#barartyp) | | [Mått](#matt) |
 | [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
-| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
+| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehallsforteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Utgivning](#utgivning)  | | [Annat bärarformat](#annat-bararformat) |
+| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Copyrightår](#copyrightar)  | | |
 
 ## Inledning
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
-
-En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser är  instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp  men ingen specifik instanstyp.  I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans.** 
 
@@ -44,6 +42,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 ![Sök fram och välj egenskap att lägga till](plusegenskapinstans2.png)  
 
+### Instanstyp  
+En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser är  instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp  men ingen specifik instanstyp.  I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)   
