@@ -257,8 +257,8 @@ För anvisningar om hur man lägger till olika typer av innehållsförteckningar
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
-  För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.</BR> 
-  ```Exempel:```
+  För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.
+  <br/>```Exempel:```
   * ```Inläst ur: Stockholm : Bonnier, 2012. ISBN 978-91-0-012761-9```
   * ```MP3```
   
