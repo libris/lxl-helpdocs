@@ -251,7 +251,7 @@ följ mönstret för Fortsätter, se nedan.
 
 Exempel:  
 
-![Exempel på relationen Fortsättes av för seriell resurs](fortsatter.png)  
+![Exempel på relationen Fortsättes av för seriell resurs](fortsatter_seriell.png)  
 
 * Fortsätter/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
