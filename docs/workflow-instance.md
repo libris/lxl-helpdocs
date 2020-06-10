@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-05-15
+date: 2020-06-10
 tags:
 - under arbete
 - instans
@@ -364,7 +364,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```1 karta i 4 segment ```
   
 ### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 #b)     
+* Övriga fysiska detaljer (physicalDetailsNote = 300 #b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```  
 
