@@ -12,8 +12,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2020-06-10
-* Relationer (länkfält) har flyttats från Verk till Instans, på sidan [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
-* Exempel på Indexeringslänk för värdpublikation tillagt under Systemteknisk anmärkning: [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
+* Relationer (länkfält) har flyttats från Verk till Instans, för [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
+* Exempel på Indexeringslänk för värdpublikation tillagt under Systemteknisk anmärkning i [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
 
 2020-05-15
 * Förtydligad informatiom om instanstyper, på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
