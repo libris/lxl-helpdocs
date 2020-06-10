@@ -4,7 +4,6 @@ title: Verk
 order: 26
 date: 2020-05-08
 tags:
-- under arbete
 - verk
 --- 
 
