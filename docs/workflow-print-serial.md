@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-04-29
+date: 2020-06-10
 tags:
 - under arbete
 - seriell resurs
@@ -23,13 +23,14 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Relationer under verk (Fortsätter, Ersätter etc)](#relationer-under-verk) |
+| | [Identifikator](#identifikator) | |
 | | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
+| | [Relationer](#relationer) | | 
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
@@ -221,11 +222,60 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ### Annat bararformat  
 För seriella resurser, skapa Instans som lokal entitet under Annat bärarformat i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
 * Annat bärarformat/Instans/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/hasTitle/Title/mainTitle = 776 #t)  
-Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
+Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
 * Annat bärarformat/Instans/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/identifiedBy/ISSN/value = 776 #x)  
 Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
+
+### Relationer
+För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
+sök fram och lägg till relationen genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).   
+
+* Annat bärarformat (776)  
+För Annat bärarformat exporteras för närvarande felaktigt andraindikator 8. Typanmärkning (#i) i samband med Annat bärarformat kan för närvarande inte läggas till.  
+
+* Övriga relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
+följ mönstret för Fortsätter, se nedan.
+ 
+* Fortsätter/Instans/Har titel/Titel (780 0/0 #t)  
+ För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
+ Skapa Instans som lokal entitet. Man behöver inte välj Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
+ <br/>```Exempel:```
+  * ```Aktuellt magazin```
+  * ```Medlemstidning (Svenska Schweisshundklubben)```
+  
+* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
+  Lägg till Identifikator vid Instans. Välj typ ISSN. Skriv in ISSN under Värde.  
+```Exempel: 1402-1250```  
+
+Exempel:  
+
+![Exempel på relationen Fortsättes av för seriell resurs](fortsatter.png)  
+
+* Fortsätter/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+
+  Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan):  
+  
+  Fortsätter (continues = 780 0/0)  
+  Fortsätter delvis (continuesInPartBy = 780 0/1)  
+  Föregående (precededBy = 780 0/2)  
+  Ersätter delvis (precededInPartBy = 780 0/3)  
+  Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
+  Har införlivat (absorbed = 780 0/5)  
+  Har delvis införlivat (absorbedInPart = 780 0/6)  
+  Separerad från (separatedFrom = 780 0/7)  
+  
+  Fortsättes av (continuedBy = 785 0/0)  
+  Fortsättes delvis av (continuedInPartBy = 785 0/1)  
+  Efterföljande (succeededBy = 785 0/2)  
+  Ersättes delvis av (succeededInPartBy = 785 0/3)  
+  Har uppgått i (absorbedBy = 785 0/4)  
+  Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
+  Uppdelat på (splitInto = 785 0/6)  
+  Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
+  
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
@@ -316,48 +366,6 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
    
 ### Amne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
-
-### Relationer under verk
-* Relationer under verk (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
-  Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). Ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
-  
-* Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
- För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig   titelinformation. Skriv in uppgiften under Huvudtitel.
- <br/>```Exempel:```
-  * ```Aktuellt magazin```
-  * ```Medlemstidning (Svenska Schweisshundklubben)```
-  
-* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
- För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till egenskaoer under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
-```Exempel: 1402-1250```  
-
-Exempel:  
-
-![Exempel på relationen Fortsättes av för seriell resurs](fortsatter.png)  
-
-* Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
-
-  Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
-  
-  Fortsätter (continues = 780 0/0)  
-  Fortsätter delvis (continuesInPartBy = 780 0/1)  
-  Föregående (precededBy = 780 0/2)  
-  Ersätter delvis (precededInPartBy = 780 0/3)  
-  Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
-  Har införlivat (absorbed = 780 0/5)  
-  Har delvis införlivat (absorbedInPart = 780 0/6)  
-  Separerad från (separatedFrom = 780 0/7)  
-  
-  Fortsättes av (continuedBy = 785 0/0)  
-  Fortsättes delvis av (continuedInPartBy = 785 0/1)  
-  Efterföljande (succeededBy = 785 0/2)  
-  Ersättes delvis av (succeededInPartBy = 785 0/3)  
-  Har uppgått i (absorbedBy = 785 0/4)  
-  Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
-  Uppdelat på (splitInto = 785 0/6)  
-  Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
   
 ### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
