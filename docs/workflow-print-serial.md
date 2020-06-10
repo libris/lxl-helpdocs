@@ -23,9 +23,9 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | |
-| | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
+| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
@@ -229,7 +229,7 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
 ### Relationer
-För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
+För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
 sök fram och lägg till relationen genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).   
 
 * Annat bärarformat (776)  
