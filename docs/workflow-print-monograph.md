@@ -4,7 +4,6 @@ title: Tryckt monografi
 order: 54
 date: 2020-05-05
 tags:
-- under arbete
 - monografi
 --- 
 
