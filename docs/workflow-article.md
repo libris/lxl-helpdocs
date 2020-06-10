@@ -70,8 +70,6 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årbok e
   * ```omedierad, n``` (bidrag i tryckt publikation)
   * ```dator, c ``` (bidrag i elektronisk publikation)<br/>
   
-Observera att i mallen för elektroniskt bidrag ligger felaktigt medietypen "omedierad, n". Det bör ändras till "dator, c" vid katalogisering. Felet kommer att åtgärdas vid nästa release.
-  
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
