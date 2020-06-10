@@ -4,7 +4,6 @@ title: Instans
 order: 27
 date: 2020-06-10
 tags:
-- under arbete
 - instans
 --- 
 
