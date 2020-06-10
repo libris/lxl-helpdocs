@@ -2,9 +2,8 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 25
-date: 2020-04-01
+date: 2020-06-10
 tags:
-- under arbete
 - adminmetadata
 --- 
 
@@ -126,11 +125,18 @@ I mallar är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteke
  
 ## Systemteknisk anmarkning  
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)  
+
+### Anmärkning om postimport
 Låt anmärkning om postimport ligga kvar.  
 ```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
 
-  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
-```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
+ ### Bokinfopost
+ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
+```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```  
+
+### Värdpublikation
+Märkning av värdpublikation där det finns ingående delar beskrivna som bidrag:  
+```Exempel:  Indexeringslänk```  
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
