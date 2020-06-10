@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord i Libris
 order: 100
-date: 2020-02-25
+date: 2020-06-11
 tags:
 - ämnesord
 - ämnesord i Libris
@@ -34,7 +34,7 @@ Resterande ämnesordssystems termer anges alltid som lokala entiteter.
 | | |
 | **Allmänt ämnesord** | **Allmänt ämnesord** |
 | [Allmänt ämnesord från SAO](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar sao* | [Allmänt ämnesord från system med länkbar listkod (AGROVOC, KAO, LCSH, MeSH, Quiding m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster kao* |
-| [Allmänt ämnesord från Barn](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (FAST, RAMEAU m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exemepl: Horses fast* |
+| [Allmänt ämnesord från Barn](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Mammor barn* | [Allmänt ämnesord från system utan länkbar listkod (RAMEAU m.fl.)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exemepl: Cheval ram* |
 | | [Ämnesordsförslag till SAO eller indexterm](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh) </br>*Exempel: Tunnbröd (prel/S)* |
 | | |
 | **Kronologiskt ämnesord** | **Kronologiskt ämnesord**  |
