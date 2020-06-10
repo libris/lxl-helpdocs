@@ -16,7 +16,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Exempel på Indexeringslänk för värdpublikation tillagt under Systemteknisk anmärkning i [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
 
 2020-05-15
-* Förtydligad informatiom om instanstyper, på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
+* Förtydligad information om instanstyper, på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
 
 2020-05-14
 * Hjälptexten för Ljudbok: Instruktionen under Omfång uppdaterad. Instruktion om Kodningsformat tillagd.
