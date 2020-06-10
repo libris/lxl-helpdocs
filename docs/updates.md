@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-06-10
+date: 2020-06-11
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,7 +11,9 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
-2020-06-10
+2020-06-11
+* Hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) är uppdaterad med information om ny funktionalitet i version 1.17: Skapa digital reproduktion
+* Hjälptexterna för ämnesord är uppdaterade med anledning av nya snippets för lokala eniteter samt att listkoder för fler ämnesordssystem nu finns som länkbara entiteter. Gäller hjälptexterna [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) och [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)
 * Relationer (länkfält) har flyttats från Verk till Instans, för [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
 * Exempel på Indexeringslänk för värdpublikation tillagt under Systemteknisk anmärkning i [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata)
 
