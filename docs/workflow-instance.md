@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-06-10
+date: 2020-06-12
 tags:
 - instans
 --- 
@@ -23,6 +23,8 @@ tags:
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
+
+**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Supplement, Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
