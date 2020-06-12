@@ -16,7 +16,7 @@ Materialtyper, Agenter, Ämnesord och Bestånd.
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
 En del instruktioner och arbetsflöden finns även filmatiserade och publicerade på KB:s Youtubekanal, i 
-spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
+spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). 
 Det finns också en [spellista för Libris utbildning](https://www.youtube.com/playlist?list=PLZVkEICvA5-HJMDbzzUBJFxetWYea3ZLC), med introduktion till Libris format och katalogiseringsverktyget.
 
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten av katalogiseringsverktyget. 
