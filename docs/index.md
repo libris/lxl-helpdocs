@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2020-02-18
+date: 2020-06-12
 tags:
 - start
 ---
@@ -16,8 +16,7 @@ Materialtyper, Agenter, Ämnesord och Bestånd.
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
 En del instruktioner och arbetsflöden finns även filmatiserade och publicerade på KB:s Youtubekanal, i 
-spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). 
-Filmerna visar gränssnittet i rådande läge. 
+spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten av katalogiseringsverktyget. 
 
