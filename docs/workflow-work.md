@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-05-08
+date: 2020-06-12
 tags:
 - verk
 --- 
@@ -19,6 +19,7 @@ tags:
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Genre/form](#genre-form) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 
+**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
