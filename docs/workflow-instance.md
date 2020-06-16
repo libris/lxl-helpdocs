@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-06-12
+date: 2020-06-16
 tags:
 - instans
 --- 
@@ -44,7 +44,8 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 ![Sök fram och välj egenskap att lägga till](plusegenskapinstans2.png)  
 
 ### Instanstyp  
-En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser är  instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp  men ingen specifik instanstyp.  I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
+En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser är  instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp  men ingen specifik instanstyp.  I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+När man skapar Instans eller Verk som lokal entitet under en egenskap (se till exempel Medföljs av och Seriemedlemskap) behöver man inte välja Instans- eller Verkstyp.  
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -378,7 +379,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
    
 ### Medfoljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
-Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning.     
+Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Man behöver inte välja Instanstyp här. Lägg till Benämning.     
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
@@ -392,8 +393,9 @@ Skriv in uppgiften.
 [Läs mer om Seriemedlemskap i inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
      
 #### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)  
-  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
+* Seriemedlemskap/Ingår i serie/Instans: Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/type: Work/hasTitle/Title/mainTitle = 830 #a)  
+  Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans: Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans: Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
+Man behöver inte välja Verkstyp under Ingår i serie/Instans: Instans av verk/Verk:/Verkstyp.  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
 #### ISSN  
