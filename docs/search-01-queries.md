@@ -1,3 +1,12 @@
+---
+section: Sök
+title: Utforma sökfrågor
+order: 1
+date: 2020-06-16
+tags:
+- search
+---
+
 # Sök
 
 [Sökning på specialtecken](#specialtecken)
