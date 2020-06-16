@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-06-12
+date: 2020-06-16
 tags:
 - verk
 --- 
@@ -13,18 +13,17 @@ tags:
 | Innehåll  |  |  | 
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
-| [Verkets titel](#verkets-titel)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
-| [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Genre/form](#genre-form) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Verkstyp](#verkstyp)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
+| [Verkets titel](#verkets-titel) |  | [Målgrupp](#malgrupp) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
+| [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Genre/form](#genre-form) |  |  | 
 
 **NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
-
-Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk. [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
@@ -35,7 +34,11 @@ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). D
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
- 
+
+## Verkstyp
+Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+
+När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
    
 ## Instans av verk
 * Instans av verk (instanceOf/Work)  
@@ -61,13 +64,13 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
 ##### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)  
+*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (expressionOf/Work/type: Work/hasTitle/Title/mainTitle = 130 #a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
-Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
+Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Man behöver inte välja verkstyp här. Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln``` 
-*	Uttryck av/Verk/Har titel/Titel/Deltitel  
-(expressionOf/Work/hasTitle/Title/partName = 130 #p)  
+*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Deltitel  
+(expressionOf/Work/type: Work/hasTitle/Title/partName = 130 #p)  
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 
@@ -77,13 +80,13 @@ Skriv in uppgiften.
 * Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)  
   [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
-  Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
+  Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
  
 #### Relationer till andra verk  
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
    [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
-   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
+   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
   
 ### Medverkan och funktion  
 * Medverkan och funktion  
@@ -124,10 +127,10 @@ Skriv in uppgiften.
   För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+* Originalversion/Verk/Verkstyp/Språk (originalversion/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Du behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ![Uppgift om originalversionens språk](originalversionsprak.png)  
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  ![Uppgift om originalversionens språk](originalversion.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
@@ -136,10 +139,10 @@ Om översättningen är ett verk som har Primär medverkan, ska språket läggas
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Språk (Language/label = 130 #l)  
+Uttryck av/Verk/Verkstyp/Språk (Language/label = 130 #l)  
 Länka till entitet.  
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
-Har del/Verk/Språk (Language/label = 730 #l)  
+Har del/Verk/Verkstyp/Språk (Language/label = 730 #l)  
 Länka till entitet.  
   
 ##### Parallelltext  
@@ -152,12 +155,12 @@ Länka till entitet.
 (008/35-37 + 041 0/- #a + 041 1/- #a #h)  
 * Språk (language = 008/35-37) +
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
-* Har del/Verk/Språk (hasPart/Work/language = 041 #a) +  
+* Har del/Verk/Verkstyp/Språk (hasPart/Work/type: Work/language = 041 #a) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Originalversion/Verk/Språk (originalVersion/Work/language = 041 #h) 
+  Originalversion/Verk/Verkstyp/Språk (originalVersion/Work/type: Work/language = 041 #h) 
   
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: Lägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
+ Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Verkstyp/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
  
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
