@@ -1,5 +1,5 @@
 ---
-section: Sök
+section: Katalogiseringsverktyget
 title: Utforma sökfrågor
 order: 1
 date: 2020-06-16
