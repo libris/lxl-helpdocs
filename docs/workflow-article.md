@@ -25,7 +25,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Upphovsuppgift](#upphovsuppgift) |[Genre/form](#genre-form)|
 | | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | | [Anmärkning](#anmarkning)| [Ämne](#amne) |
-| | [Tillhörande media](#tillhorande-media] | [Innehållstyp](#innehallstyp) |
+| | [Tillhörande media](#tillhorande-media) | [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Placering i värdpublikation](#placering-i-vardpublikation) | |
 
