@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-05-14
+date: 2020-06-17
 tags:
 - under arbete
 - ljudbok
@@ -33,7 +33,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehallsforteckning) | | 
 | | [Anmarkning](#anmarkning) | |
-| | [Kodningsformat](#kodningsformat) | | 
+| | [Digital karakteristika](#digital-karakteristika) | | 
 
 ## Inledning
 Beskrivningen av en ljudbok innehåller följande tre delar:  
@@ -262,7 +262,7 @@ För anvisningar om hur man lägger till olika typer av innehållsförteckningar
   * ```Inläst ur: Stockholm : Bonnier, 2012. ISBN 978-91-0-012761-9```
   * ```MP3```
   
-### Kodningsformat
+### Digital karakteristika
   * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
 Ange filformat här.</BR>
 Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
