@@ -118,6 +118,9 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
+### Elektronisk adress
+## Tillhörande media 
+
 ### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet men i första hand bör man länka till värdpublikationen. Värdpublikationen bör endast beskrivas som lokal entitet i de fall den inte har en post i Libris. 
 
