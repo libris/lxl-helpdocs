@@ -25,7 +25,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Upphovsuppgift](#upphovsuppgift) |[Genre/form](#genre-form)|
 | | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | | [Anmärkning](#anmarkning)| [Ämne](#amne) |
-| | [Elektronisk adress](#elektronisk-adress]| [Innehållstyp](#innehallstyp) |
+| | [Tillhörande media](#tillhorande-media]| [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Placering i värdpublikation](#placering-i-vardpublikation) | |
 
@@ -118,8 +118,7 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
-### Elektronisk adress
-## Tillhörande media 
+### Tillhorande media 
 * Tillhörande media/Mediaobjekt/URI  
 (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
 **Om instansbeskrivningen gäller en elektronisk artikel, använd Tillhörande media** för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
