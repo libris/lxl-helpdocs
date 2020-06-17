@@ -264,7 +264,7 @@ För anvisningar om hur man lägger till olika typer av innehållsförteckningar
   
 ### Digital karakteristika
   * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
-Ange kodningsformat här, se RDA 3.19.3.3 (http://access.rdatoolkit.org/rdachp3_rda3-5189.html).</BR>
+Ange kodningsformat här, se [RDA 3.19.3.3] (http://access.rdatoolkit.org/rdachp3_rda3-5189.html).</BR>
 Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
   ```Exempel: MP3```
   
