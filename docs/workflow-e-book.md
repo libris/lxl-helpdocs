@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-02-21
+date: 2020-06-17
 tags:
 - under arbete
 - e-bok
@@ -33,7 +33,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) |
-| | [Digital karaktäristika](#digital-karaktaristika) | |
+| | [Digital karakteristika](#digital-karakteristika) | |
 | | [Annat bärarformat](#annat-bararformat) | |
 | | [Elektronisk adress](#elektronisk-adress) | | 
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
@@ -233,11 +233,10 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 ### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
-### Digital karaktaristika
-* Digital karaktärisitika/Kodningsformat/Benämning</br> 
-(digitalCharacteristic/EncodingFormat/label = 347 #b)</BR>
-  Ange kodningsformat här, [se RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5264.html). 
-  Skriv in uppgiften under Benämning.</BR>
+### Digital karakteristika
+  * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
+Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5189.html).</BR>
+Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
 
 ### Annat bararformat
