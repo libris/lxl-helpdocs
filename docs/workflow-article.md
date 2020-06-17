@@ -23,7 +23,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | | [Bärartyp](#barartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Titel](#titel) | [Språk](#sprak) |
 | | [Upphovsuppgift](#upphovsuppgift) |[Genre/form](#genre-form)|
-| | [Utgivning](#utgivning) | [Klassifikation](#klassifikation)  |
+| | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | | [Anmärkning](#anmarkning)| [Ämne](#amne) |
 | | [Elektronisk adress](#elektronisk-adress]| [Innehållstyp](#innehallstyp) |
 | | [Är del av](#ar-del-av)| [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
