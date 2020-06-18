@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Okontrollerad term
 order: 125
-date: 2020-02-25
+date: 2020-06-18
 tags:
 - okontrollerat ämnesord
 - okontrollerad term
@@ -21,6 +21,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
+* Ta bort Föredragen benämning (om egenskapen i en snippet) genom att klicka på papperskorgen intill.
 * Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen.
 * Sök efter och lägg till Benämning. Skriv in aktuell term. I de fall termen är ett ämnesordsförslag, lägg till (prel/[sigel]).
 
