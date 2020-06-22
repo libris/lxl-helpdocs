@@ -175,7 +175,7 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
 ### Medfoljande material
-* Medföljs av/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)  
+* Medföljs av/Instans/Instanstyp/Benämning (accompaniedBy/Instance/type/label = 300 #e)  
 Här anges medföljande material, som t ex bilagor.  
 
 ### Seriemedlemskap
