@@ -182,12 +182,12 @@ Här anges medföljande material, som t ex bilagor.
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
 
 #### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel  
- (seriesMembership/inSeries/InstanceofWork/Work/type/hasTitle/Title/mainTitle = 830 #a)  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel  
+ (seriesMembership/inSeries/Instance/type/InstanceofWork/Work/type/hasTitle/Title/mainTitle = 830 #a)  
 
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde  
- (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)
+ (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
 Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
 
 #### Serieuppgift  
