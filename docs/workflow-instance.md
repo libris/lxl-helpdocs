@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-06-16
+date: 2020-06-22
 tags:
 - instans
 --- 
@@ -393,14 +393,15 @@ Skriv in uppgiften.
 [Läs mer om Seriemedlemskap i inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
      
 #### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans: Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/type: Work/hasTitle/Title/mainTitle = 830 #a)  
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/type: Work/hasTitle/Title/mainTitle = 830 #a)  
   Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans: Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans: Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
-Man behöver inte välja Verkstyp under Ingår i serie/Instans: Instans av verk/Verk:/Verkstyp.  
+Man behöver inte välja Verkstyp under Ingår i serie/Instans/Instans av verk/Verk/Verkstyp.  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
 #### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
-  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
+  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.
+  Man behöver inte välja Instanstyp under Ingår i serie/Instans/Instanstyp.   
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
   Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).
