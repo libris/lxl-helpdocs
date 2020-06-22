@@ -378,7 +378,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
    
 ### Medfoljande material
-* Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
+* Medföljs av/Instans/Instanstyp/Benämning (Bilagor) (accompaniedBy/Instance/type/label = 300 #e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Man behöver inte välja Instanstyp här. Lägg till Benämning.     
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
