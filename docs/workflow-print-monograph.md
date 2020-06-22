@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2020-05-05
+date: 2020-06-22
 tags:
 - monografi
 --- 
@@ -182,12 +182,12 @@ Här anges medföljande material, som t ex bilagor.
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
 
 #### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
-(seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel  
+ (seriesMembership/inSeries/InstanceofWork/Work/type: Work/hasTitle/Title/mainTitle = 830 #a)  
 
 #### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
-(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde  
+ (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 #x, 830 #x)
 Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
 
 #### Serieuppgift  
@@ -200,10 +200,11 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se A
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)
 
 #### Författarserie
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
-(seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 #t)  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel  
+(seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/hasTitle/Title/mainTitle = 800 #t)  
   ```Exempel: Millenium```   
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 #a)  
+  Man behöver inte välja verks- och instanstyp här.  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
