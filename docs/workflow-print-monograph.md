@@ -204,7 +204,7 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se A
 (seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/hasTitle/Title/mainTitle = 800 #t)  
   ```Exempel: Millenium```   
   Man behöver inte välja verks- och instanstyp här.  
-* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/contribution/PrimaryContribution/Agent/Person = 800 #a)  
+* Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Medverkan och funktion/Primär medverkan/Agent/Person       (seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
