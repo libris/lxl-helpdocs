@@ -1,7 +1,7 @@
 ---
 section: Materialtyper
 title: Datorspel
-order: 40
+order: 38
 date: 2020-02-21
 tags:
 - under arbete
