@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Bidrag
 order: 35
-date: 2020-06-17
+date: 2020-07-17
 tags:
 - under arbete
 - Bidrag
@@ -120,13 +120,18 @@ För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets ti
 
 ### Tillhorande media 
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
-**Om instansbeskrivningen gäller en elektronisk artikel, använd Tillhörande media** för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk artikel**, använd Tillhörande media för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
 (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)   
-  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
-* Del av materialet som avses/Resurs/Benämning  
-(appliesTo/Resource/label = 856 4/0 #3)  
-  Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
+  Lägg till Offentlig anmärkning. 
+   <br/>```Exempel:```
+  * ```Fritt tillgänglig via tidskriftens webbplats``` 
+  * ```Fritt tillgänglig``` 
+  
+Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i första hand en beständig URI (t.ex. URN eller DOI), i andra hand en övesiktssida från vilken artikeln är enkelt åtkomlig och i sista hand, länka direkt till den fritt tillgänliga resursen.
+
+**För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
+
 
 ### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet men i första hand bör man länka till värdpublikationen. Värdpublikationen bör endast beskrivas som lokal entitet i de fall den inte har en post i Libris. 
@@ -260,4 +265,3 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  <br/>```Exempel: Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
- ```Exempel: Ej preciserad```
