@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-06-30
+date: 2020-07-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2020-07-17
+* Hjälptexten för bidrag: Instruktionen under Tillhörande media uppdaterad.
 
 2020-06-30
 * Ny hjälptext med anledning av funktionen Skapa digital reproduktion som tillkom i release av version 1.17: [Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction)
