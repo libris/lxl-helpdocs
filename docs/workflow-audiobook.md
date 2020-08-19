@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-06-17
+date: 2020-08-19
 tags:
 - under arbete
 - ljudbok
@@ -335,7 +335,7 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
 
 ### Sprak 
 * Språk (language = 008/35-37)  
-  Ange det talade språket här. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange det talade språket här. För att ange originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
   Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
@@ -346,11 +346,12 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista</BR>
   ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Ange det språk som texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
-För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket. 
+  
+För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 ### Relationer till ingaende verk och andra verk
 #### Verk som ingår i det beskrivna verket 
