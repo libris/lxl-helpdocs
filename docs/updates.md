@@ -21,6 +21,9 @@ På denna sida listas ändringar i hjälptexterna.
 [Ljudbok](https://libris-dev.kb.se/katalogisering/help/workflow-audiobook)  
 [Tryckt monografi](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph)
 
+* För Relationer under Seriella resurser blir marcexporten nu rätt vid länkning. Länka därför i stället för att skapa lokal entitet, för att beskriva relationer.  
+[Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial)
+
 2020-07-17
 * Hjälptexten för Bidrag: Instruktionen under Tillhörande media uppdaterad.
 
