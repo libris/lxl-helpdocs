@@ -310,11 +310,14 @@ Ange textens språk här. För en text på svenska, länka till svenska. För at
 #### Översättning 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning. För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.</br> 
-  ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+  ```Exempel: objektet är/innehåller översättning```  
+   
+**Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
+   
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
   Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här. Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
-För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
+För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 **Från och med version 1.7 skapas språktillägget automatiskt i 240 #l.** 
