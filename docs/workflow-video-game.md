@@ -358,7 +358,7 @@ För datorspel som är/innehåller en översättning, lägg till:
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
   
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
-  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: japanska (jpn)```  
 
 ### Relationer till ingaende verk och andra verk
