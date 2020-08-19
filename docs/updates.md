@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-07-17
+date: 2020-08-19
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,17 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+
+2020-08-19
+* Från och med version 1.18 ska originalspråk vid översättning anges under Översättning av i stället för under Originalversion. För översättningar i flera led ska egenskapen Intermediärt språk vid översätttningar användas.  
+Dessa texter har uppdaterats:  
+[Verk](https://libris.kb.se/katalogisering/help/workflow-work)  
+[Datorspel](https://libris.kb.se/katalogisering/help/workflow-video-game)  
+[E-bok](https://libris.kb.se/katalogisering/help/workflow-e-book)  
+[Film](https://libris-dev.kb.se/katalogisering/help/workflow-film)  
+[Ljudbok](https://libris-dev.kb.se/katalogisering/help/workflow-audiobook)  
+[Tryckt monografi](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph)
 
 2020-07-17
 * Hjälptexten för Bidrag: Instruktionen under Tillhörande media uppdaterad.
