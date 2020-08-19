@@ -160,10 +160,10 @@ Länka till entitet.
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
 * Har del/Verk/Verkstyp/Språk (hasPart/Work/type: Work/language = 041 #a) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Originalversion/Verk/Verkstyp/Språk (originalVersion/Work/type: Work/language = 041 #h) 
+  Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h) 
   
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: Lägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Verkstyp/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
+ Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Översättning av/Verk/Verkstyp/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
  
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
