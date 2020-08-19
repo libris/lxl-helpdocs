@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista import Andra källor
-date: 2019-08-19
+date: 2020-08-19
 tags:
 - redigering
 - postimport
