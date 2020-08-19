@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Datorspel
 order: 38
-date: 2020-02-21
+date: 2020-08-19
 tags:
 - under arbete
 - datorspel
@@ -354,8 +354,11 @@ För datorspel som är/innehåller en översättning, lägg till:
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
-  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  
+**Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
+  
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
+  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: japanska (jpn)```  
 
 ### Relationer till ingaende verk och andra verk
