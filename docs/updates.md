@@ -13,13 +13,17 @@ På denna sida listas ändringar i hjälptexterna.
 
 
 2020-08-19
+* Ny hjälptext för Databas/webbplats:  
+[Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
+
 * Från och med version 1.18 ska originalspråk vid översättning anges under Översättning av i stället för under Originalversion. För översättningar i flera led ska egenskapen Intermediärt språk vid översätttningar användas. Ny information om hur man upprepar språk vid översättning från flera språk. Dessa texter har uppdaterats:  
 [Verk](https://libris.kb.se/katalogisering/help/workflow-work)  
 [Datorspel](https://libris.kb.se/katalogisering/help/workflow-video-game)  
 [E-bok](https://libris.kb.se/katalogisering/help/workflow-e-book)  
 [Film](https://libris-dev.kb.se/katalogisering/help/workflow-film)  
 [Ljudbok](https://libris-dev.kb.se/katalogisering/help/workflow-audiobook)  
-[Tryckt monografi](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph)
+[Tryckt monografi](https://libris-dev.kb.se/katalogisering/help/workflow-print-monograph)  
+[Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import)
 
 * För Relationer under Seriella resurser blir marcexporten nu rätt vid länkning. Länka därför i stället för att skapa lokal entitet, för att beskriva relationer.  
 [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial)
