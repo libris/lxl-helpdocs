@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 43
-date: 2020-02-21
+date: 2020-08-19
 tags:
 - under arbete
 - film
@@ -368,9 +368,12 @@ För en film som är dubbad, lägg till:
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+   
+**Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
+  
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
- Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+ Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```</br> 
 
 #### Relationer till ingaende verk och andra verk
