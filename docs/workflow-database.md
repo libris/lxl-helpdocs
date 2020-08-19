@@ -12,7 +12,7 @@ tags:
 # Databas/webbplats
 Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av onlinedatabaser och webbplatser (så kallade integrerande resurser). För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
 
-Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella versionen återspegles. 
+Integrerande resurser kännetecknas av att uppdateringar (nytt och förändrat material) infogas som en integrerad del i helheten. I motsats till seriella resurser saknas därför alfanumeriska och/eller kronologiska beteckningar. Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen ny beskrivning. Istället ersätts huvudtiteln med den nya så att den aktuella versionen återspeglas. 
 
 **Observera dock att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html). 
 
@@ -340,6 +340,6 @@ Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid In
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
 * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)
-Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.
+Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
 ```Exempel: Ej preciserad```
 
