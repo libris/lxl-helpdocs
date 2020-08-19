@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-06-17
+date: 2020-08-19
 tags:
 - under arbete
 - e-bok
@@ -317,6 +317,7 @@ Ange textens språk här. För en text på svenska, länka till svenska. För at
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
   Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här. Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
+  
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
