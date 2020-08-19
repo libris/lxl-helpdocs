@@ -127,11 +127,13 @@ Skriv in uppgiften.
   För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
+  
+**Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ![Uppgift om originalversionens språk](translationof.png)  
- OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.  
+  
  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
