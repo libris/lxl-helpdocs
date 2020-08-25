@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-08-19
+date: 2020-08-25
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,8 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
+2020-08-25  
+* Även [Hjälptexten Bidrag](https://libris.kb.se/katalogisering/help/workflow-article) uppdaterad angående originalspråk vid översättning.
 
 2020-08-19
 * Ny hjälptext för [Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
