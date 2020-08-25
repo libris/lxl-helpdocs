@@ -13,7 +13,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 
 2020-08-19
-* Ny hjälptext för Databas/webbplats: [Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
+* Ny hjälptext för [Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
 
 * Från och med version 1.18 ska originalspråk vid översättning anges under Översättning av i stället för under Originalversion. För översättningar i flera led ska egenskapen Intermediärt språk vid översätttningar användas. Ny information om hur man upprepar språk vid översättning från flera språk. Dessa texter har uppdaterats:  
 [Verk](https://libris.kb.se/katalogisering/help/workflow-work)  
