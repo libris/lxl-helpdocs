@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Bidrag
 order: 35
-date: 2020-07-17
+date: 2020-08-25
 tags:
 - under arbete
 - Bidrag
@@ -232,15 +232,15 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: svenska (swe)```</BR> 
-  För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk under [Översättning](#oversattning).
+  För att ange originalspråk för ett översatt verk, se Översättning av/Verk/Språk under [Översättning](#oversattning).
   
 #### Översättning  
 För en artikel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
-  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+* Översättning av/Verk/Språk (originalversion/Work/language = 041 #h)  
+  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
 
 ### Genre form 
