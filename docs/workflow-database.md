@@ -247,7 +247,7 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
-Föredragen titel för ett verk med primär medverkan med anges här.  
+Föredragen titel för ett verk med Primär medverkan med anges här.  
 
 Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
 
