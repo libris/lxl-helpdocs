@@ -274,6 +274,7 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   ```Exempel: svenska (swe)```  
    
 ### Genre form 
+För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 * Genre/form - saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
   Länka till entitet.
   <br/>```Exempel:```
@@ -289,52 +290,15 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
   * ```Uppdaterande webbplats (= w)```
          
 ### Klassifikation  
-#### DDK-klassifikation  
-
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 #2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 #2)  
-  ```Exempel: 23/swe```  
-  
- För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
-   Skriv in uppgiften under Kod.  
-  
-#### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär). Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 791.430233092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 083 #2)  
-  ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 083 #2)  
-  ```Exempel: 23/swe``` 
-   
-#### SAB-klassifikation  
-* SAB-klassifikation  
-  För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
-   Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 #a)  
-     Skriv in uppgiften.  
-  ```Exempel: Sei-e```   
-* Klassifikation/Ingår i system/Konceptsystem/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
- ```Exempel: kssb```  
-* Klassifikation/Ingår i system/Konceptsystem/Version (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
- ```Exempel: 8``` 
+För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
 
 ### Amne  
-[Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+Länka  i första hand till entiteter för ämnesord. [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
 ### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
-  Länka till entitet.  
-  ```Exempel: text (= txt)```
+  Länka till entiteten:  
+  ```text (= txt)```
 
 ### Sammanfattning av innehall    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
