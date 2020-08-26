@@ -228,8 +228,8 @@ Gör anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare om det bedöm
   
 ### Behandling vid titelandring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
-  Länka till entitet.  
-  ```Exempel: 2 (= Integrating entry = Katalogposten avser integrerande resurs)```
+  Länka till entiteten:  
+  ```2 (= Integrating entry = Katalogposten avser integrerande resurs)```
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
