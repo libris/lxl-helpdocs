@@ -85,8 +85,6 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
    ```Exempel: när, var och av vem?```
 
-För att ange föredragen titel, t.ex. om bidraget är översatt, se [Verkets titel](#verkets-titel).  
-
 #### Varianttitel
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
 
