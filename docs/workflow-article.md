@@ -213,14 +213,11 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 
 ### Medverkan och funktion
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
-* Medverkan och funktion/Primär medverkan/Agent/Person</br>
-(contribution/PrimaryContribution/agent/Person = 100 1/- #a)
-* Medverkan och funktion/Primär medverkan/Funktion</br>
-(contribution/PrimaryContribution/role = 100 #4)
-* Medverkan och funktion/Medverkan/Agent/Person</br>
-(contribution/agent/Person = 700 1/- #a)
-* Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)</br>
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)</br>
+* Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)</br>
+* Medverkan och funktion/Primär medverkan/Funktion (100 #4)</br>
+* Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)</br>
+* Medverkan och funktion/Medverkan/Agent/Funktion (700 #4)
+
  
 ### Sprak 
 * Språk (language = 008/35-37)</BR>
