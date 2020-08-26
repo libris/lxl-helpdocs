@@ -39,7 +39,7 @@ Beskrivningen av ett bidrag innehåller följande tre delar:
 
 Om bidraget är publicerat i flera olika publikationer och man vill beskriva det får man antingen skapa en beskrivning för varje publicering eller också göra en anmärkning som talar om att bidraget är publicerat på flera ställen.
 
-För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posterna för alla värdpublikationer märkas.
+För att länkningen mellan värdpublikation och ingående delar ska fungera i Webbsök behöver posten för värdpublikationen märkas.
 Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för värdpublikationen.</BR>
 
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)</BR>
