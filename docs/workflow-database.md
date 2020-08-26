@@ -147,7 +147,7 @@ Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan precise
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
-Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften, om det är viktigt för identifikation eller åtkomst, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
+Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation eller åtkomst, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
     
 ### Utgivning
 * Utgivning  
