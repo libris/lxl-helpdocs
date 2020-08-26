@@ -130,7 +130,6 @@ Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i för
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
-
 ### Ar del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet men i första hand bör man länka till värdpublikationen. Värdpublikationen bör endast beskrivas som lokal entitet i de fall den inte har en post i Libris. 
 
@@ -206,10 +205,11 @@ Ange vid behov den föredragna titeln för verket här. [För instruktioner om F
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR> 
-"Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.
+Föredragen titel för ett verk med Primär medverkan anges här.
 
 #### Verk utan primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
+Föredragen titel för ett verk utan Primär medverkan anges här.
 
 ### Medverkan och funktion
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
