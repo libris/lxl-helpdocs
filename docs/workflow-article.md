@@ -204,11 +204,11 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 ### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
 
-#### Verkets titel - verk med primär medverkan
+#### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR> 
 "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.
 
-#### Verkets titel - verk utan primär medverkan
+#### Verk utan primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
 
 ### Medverkan och funktion
