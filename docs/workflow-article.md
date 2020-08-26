@@ -234,7 +234,7 @@ För en artikel som är/innehåller en översättning, lägg till:
   ```Exempel: engelska (eng)```  
 
 ### Genre form 
-För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
+För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
     
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
@@ -251,7 +251,8 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
-</BR>Skriv in uppgiften under Benämning.
+<br/>Skriv in uppgiften under Benämning.
  <br/>```Exempel: Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
+ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.
+ ```Exempel: Ej preciserad```
