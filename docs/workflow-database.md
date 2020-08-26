@@ -239,7 +239,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. Normalt är dock den föredragna titeln för en integrerande resurs densamma som huvudtiteln och behöver därför inte anges i verksbeskrivningen. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
+Ange vid behov den föredragna titeln för verket här. Normalt är dock den föredragna titeln för en integrerande resurs densamma som huvudtiteln och behöver därför inte anges i verksbeskrivningen. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
