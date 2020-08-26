@@ -138,7 +138,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   ```Exempel: ART bibliographies modern```   
 
 #### Tidigare titel
-Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan preciseras under Täckning eller tillkomst (se nedan).   
+Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan preciseras under Täckning eller tillkomst.   
 * Har titel/Tidigare titel/Huvudtitel (hasTitle/FormerTitle/mainTitle = 247 1/0 #a)    
 
 * Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)    
