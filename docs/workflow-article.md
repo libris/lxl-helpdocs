@@ -126,7 +126,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk artikel**, a
   * ```Fritt tillgänglig via tidskriftens webbplats``` 
   * ```Fritt tillgänglig``` 
   
-Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i första hand en beständig URI (t.ex. URN eller DOI), i andra hand en övesiktssida från vilken artikeln är enkelt åtkomlig och i sista hand, länka direkt till den fritt tillgänliga resursen.
+Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i första hand en URI (t.ex. URN eller DOI), i andra hand en övesiktssida från vilken artikeln är enkelt åtkomlig och i sista hand, länka direkt till den fritt tillgänliga resursen.
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
