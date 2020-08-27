@@ -205,7 +205,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   Lägg till offentlig anmärkning.
   <br/>```Exempel: Fritt tillgänglig```
 
-För **avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".
+**För avtalsbundna resurser** ange URI för den leverantörsplattform genom vilken biblioteket har tillgång till resursen i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till databasens generella inloggningssida. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".
 
 ### Frekvens   
 * Frekvens (frequency)  
