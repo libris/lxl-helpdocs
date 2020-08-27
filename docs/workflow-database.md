@@ -271,7 +271,16 @@ Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras el
 ### Sprak
 * Språk (language = 008/35-37)  
   Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov.<br/> 
-  ```Exempel: svenska (swe)```  
+  ```Exempel: svenska (swe)``` 
+ För att ange att texten är på flera språk, länka till ytterligare en språkkod.
+
+#### Verk utan Primär medverkan
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+Föredragen titel för ett verk utan Primär medverkan anges här.  
+
+#### Verk med Primär medverkan
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
+Föredragen titel för ett verk med Primär medverkan med anges här.  
    
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
