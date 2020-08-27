@@ -82,7 +82,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
 ### Titel     
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
   ```Exempel: Herrgårdsbyggnader i Mälardalen under 1700- och 1800-talet```
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
    ```Exempel: när, var och av vem?```
 
 #### Varianttitel
