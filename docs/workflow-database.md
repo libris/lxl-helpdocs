@@ -111,7 +111,7 @@ Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [
 
 **Observera att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
 
-#### Övrig titelinformation (undertitel)
+#### Övrig titelinformation
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
 Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
 
