@@ -100,7 +100,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Titel 
 
 #### Huvudtitel 
-Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
+Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i den föredragna källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   ```Exempel: ARTbibliographies modern```  
