@@ -236,7 +236,7 @@ Gör anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare om det bedöm
 ## Verk
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-[Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+[Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel
 Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
