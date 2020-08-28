@@ -69,15 +69,15 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.
   </br>```Exempel:```
-  * ```omedierad, n``` (bidrag i tryckt publikation)
-  * ```dator, c ``` (bidrag i elektronisk publikation)<br/>
+  * ```omedierad, unmediated (kod = n)``` (bidrag i tryckt publikation)
+  * ```dator, computer (kod = c)``` (bidrag i elektronisk publikation)<br/>
   
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
   </br>```Exempel:```
-   * ```volym, nc``` (bidrag i tryckt publikation)
-   * ```onlineresurs, cr``` (bidrag i elektronisk publikation) 
+   * ```volym, volume (kod = nc)``` (bidrag i tryckt publikation)
+   * ```onlineresurs, online recource (kod = cr)``` (bidrag i elektronisk publikation) 
   
 ### Titel     
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
@@ -246,7 +246,7 @@ För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https:/
 ### Innehallstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
-  ```Text, txt```
+  ```text, text (kod = txt)```
   
 ### Sammanfattning av innehall
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
