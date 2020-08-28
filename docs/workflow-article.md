@@ -34,7 +34,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 ## Inledning
 Beskrivningen av ett bidrag innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans för ett bidrag är titel, upphov och utgivning.
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är titel, upphov, utgivning och bärartyp.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Om bidraget är publicerat i flera olika publikationer och man vill beskriva det får man antingen skapa en beskrivning för varje publicering eller också göra en anmärkning som talar om att bidraget är publicerat på flera ställen.
