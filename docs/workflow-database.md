@@ -135,8 +135,7 @@ Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera P
 #### Varianttitel   
 Används för stavningvarianter eller varianter av titeln som förekommer i resursen och som man vill göra sökbara. Vid förändringar i huvudtiteln, se Tidigare titel.
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)  
-  Skriv in uppgiften under Huvudtitel.    
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)     
   ```Exempel: ART bibliographies modern```   
 
 #### Tidigare titel
