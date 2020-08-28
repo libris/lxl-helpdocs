@@ -87,7 +87,7 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
   Återge huvudtiteln som den förekommer i källan, [se Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
   </br>```Exempel: SimCity 4 - Rush hour expansion```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
-  </br>```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
+  ```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/).
 
 #### Övrig titelinformation (undertitel)
