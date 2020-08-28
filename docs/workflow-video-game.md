@@ -19,15 +19,15 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Upphovsuppgift](#upphovsuppgift) |  [Genre/form](#genre-form) |
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation)|
-| | [Utgivning](#utgivning) | [Ämne](#amne) |
-| | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp)  |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp)  |
+| | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel)  |
+| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Medietyp](#medietyp) | [Språk](#sprak) |
+| | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Titel](#titel) | [Genre/form](#genre-form) |
+| | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp)  |
 | | [Omfång](#omfang) | [Anmärkningar](#anmarkningar) |
 | | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Medföljande material](#medfoljande-material) | |
