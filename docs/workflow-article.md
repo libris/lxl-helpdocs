@@ -102,7 +102,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
   ```Exempel: Johan Ahlner, Karin Kjellgren```
   
 ### Utgivning  
-* Utgivning (publication)  
+* Utgivning
   Välj typ från lista. För bidrag, använd Primär utgivning. 
  
 #### Utgivningsland  
