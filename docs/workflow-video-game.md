@@ -59,7 +59,15 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Identifikator
-Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
+Flera typer av identifikatorer kan finnas på datorspel. I mallen är EAN och Utgivningsnummer (annat) förvalda.
+
+#### EAN
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: EAN```
+* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 #a)<br/>
+  Ange identifikator.<br/>
+  ```Exempel: 5705535059701```
 
 #### Utgivningsnummer (annat)
 * Identifikator (identifiedBy)  
@@ -73,14 +81,6 @@ Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivnings
   ```Exempel: Electronic Arts```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)<br/>
   Ange eventuell bestämning.<br/>
-  
-#### EAN
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: EAN```
-* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 #a)<br/>
-  Ange identifikator.<br/>
-  ```Exempel: 5705535059701```
 
 För anvisningar om hur man anger ISBN, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
    
