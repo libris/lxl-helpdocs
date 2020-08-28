@@ -10,7 +10,7 @@ tags:
 --- 
 
 # Datorspel
-Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för ett datorspel - multimedia. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se nedan.
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna vid beskrivning av datorspel - multimedia. För mer utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Instans och Verk, se innehållsförteckningen nedan.
 
 ## Innehåll   
 
