@@ -151,7 +151,6 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
-  <BR/>Skriv in upplagebeteckning här. 
   <br/>```Exempel: Version 1.2```  
   
 ### Utgivning  
