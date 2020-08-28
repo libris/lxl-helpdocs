@@ -77,7 +77,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
   Länka till entitet:
   </br>```Exempel:```
    * ```volym, volume (kod = nc)``` (bidrag i tryckt publikation)
-   * ```onlineresurs, online recource (kod = cr)``` (bidrag i elektronisk publikation) 
+   * ```onlineresurs, online resource (kod = cr)``` (bidrag i elektronisk publikation) 
   
 ### Titel     
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
