@@ -53,7 +53,7 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 ## Adminmetadata
 [Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!**
 
 ### Databaser
 De bibliotek som önskar kan använda databasposterna för att skapa och underhålla egna listor över de (avtalsbundna och fritt tillgängliga) databaser som är tillgängliga för användarna. För att underlätta detta bör databasposten kompletteras med koden DBAS i Bibliografikod och beståndspost upprättas även i de fall posten avser en fritt tillgänglig databas.
