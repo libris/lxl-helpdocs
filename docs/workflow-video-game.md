@@ -173,17 +173,11 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
-  ```Exempel: 2017```</br>
- Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
+  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
   
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
-  Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.  
+  Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
-<br/>```Exempel:```
-   * ```[2017]``` 
-   * ```[mellan 2003 och 2005?]```
-
-För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
   
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
