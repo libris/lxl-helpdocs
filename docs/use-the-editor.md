@@ -62,7 +62,7 @@ Under rubriken “Visa som” kan man välja att granska informationen i olika R
 
 ### Verktyg
 
-![Alternativ i verktygsmeny i visningsläge](verktygsalternativ.png)  
+![Alternativ i verktygsmeny i visningsläge](Verktygsalternativ.png)  
 
 #### Expandera alla
 För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
