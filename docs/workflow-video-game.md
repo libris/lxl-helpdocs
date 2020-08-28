@@ -58,6 +58,32 @@ För information om katalogiseringsregler och Librispraxis, [se Anvisningar för
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
+### Identifikator
+Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
+
+#### Utgivningsnummer (annat)
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: Utgivningsnummer (annat)```
+* Identifikator/Utgivningsnummer (annat)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 #a)<br/>
+  Ange utgivningsnumret som det förekommer i resursen.<br/>
+  ```Exempel: 7303903501```
+* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 #b)<br/> 
+  Ange utgivarens namn.<br/>
+  ```Exempel: Electronic Arts```
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)<br/>
+  Ange eventuell bestämning.<br/>
+  
+#### EAN
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: EAN```
+* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 #a)<br/>
+  Ange identifikator.<br/>
+  ```Exempel: 5705535059701```
+
+För anvisningar om hur man anger ISBN, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
+   
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
@@ -93,7 +119,7 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
 #### Övrig titelinformation
 Ange endast en titel som övrig titelinformation om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn, [se även instruktioner under Titel](#titel).
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
+  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
   
 #### Varianttitel
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, [se RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
@@ -188,32 +214,6 @@ För datorspel anges alltid copyrightår, även om det sammanfaller med utgivnin
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
 <br/>```Exempel: ©2017```
     
-### Identifikator
-Flera typer av identifikatorer kan finnas på datorspel. I mallen är Utgivningsnummer (annat) och EAN förvalda.
-
-#### Utgivningsnummer (annat)
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: Utgivningsnummer (annat)```
-* Identifikator/Utgivningsnummer (annat)/Värde (identifiedBy/VideoRecordingNumber/value = 028 5/1 #a)<br/>
-  Ange utgivningsnumret som det förekommer i resursen.<br/>
-  ```Exempel: 7303903501```
-* Identifikator/Agent/Organisation/Namn (= Utgivare) (identifiedBy/agent/Organization/name = 028 5/1 #b)<br/> 
-  Ange utgivarens namn.<br/>
-  ```Exempel: Electronic Arts```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)<br/>
-  Ange eventuell bestämning.<br/>
-  
-#### EAN
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: EAN```
-* Identifikator/EAN/Värde (identifiedBy/EAN/value = 024 #a)<br/>
-  Ange identifikator.<br/>
-  ```Exempel: 5705535059701```
-
-För anvisningar om hur man anger ISBN, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
-   
 ### Omfang  
 Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [se Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br/>
