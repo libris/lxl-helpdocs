@@ -154,23 +154,19 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   <br/>```Exempel: Version 1.2```  
   
 ### Utgivning  
-* Utgivning (publication)  
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning. 
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.<BR/>
-Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.<BR/>
-Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.
- 
-#### Utgivningsplats
-* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
-  ```Exempel: [Burbank, California]```  
+* Utgivning<br/> 
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Förenta staterna (xxu)``` 
-  
+ 
+#### Utgivningsplats
+* Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
+  Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
+  ```Exempel: [Burbank, California]```  
+
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
