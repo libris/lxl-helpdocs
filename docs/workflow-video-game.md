@@ -179,7 +179,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
   
-* Flera år (flerbandsverk)  
+##### Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
  
  [Läs mer om År och Datum i ett inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
