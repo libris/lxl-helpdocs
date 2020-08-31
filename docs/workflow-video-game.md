@@ -173,7 +173,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
-  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
+  Observera att År **måste** finnas med i beskrivningen, även om datum finns med.</br>
   
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
