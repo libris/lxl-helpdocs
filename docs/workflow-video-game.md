@@ -179,6 +179,8 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
   
+[Läs mer om År och Datum i den Generella hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
+  
 ### Copyrightar
 För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, [se Librispraxis 2.11 i RDA Toolkit](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
