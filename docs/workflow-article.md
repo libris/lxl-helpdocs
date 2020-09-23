@@ -255,5 +255,5 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
 <br/>Skriv in uppgiften under Benämning.
  <br/>```Exempel: Om en planerad fredskonferens som aldrig kom till stånd```<br/> 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.
+ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.<br/>
  ```Exempel: Ej preciserad```
