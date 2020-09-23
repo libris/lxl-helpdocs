@@ -20,8 +20,8 @@ tags:
 | [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
-**VERSION 1.19:** Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
-[Länkning till verk i Libris](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html)!
+**VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
+[Länkning till verk i Libris](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html)! 
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
@@ -38,6 +38,9 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 
 ## Verkstyp
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+
+Från version 1.19 av kataligiseringsverktyget är verksyperna försedda med illustrerande ikoner:
+![Ikoner för de olika verksyperna](verkstypsikoner.png)
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
    
