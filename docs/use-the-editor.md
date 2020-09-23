@@ -111,7 +111,7 @@ Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, 
 
  1. Lägg till egenskaper under: Instans. Används för att lägga till en eller flera nya egenskaper under instans. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen.
 <br/> Kortkommando: Alt + F 
- 2. För att lägga till egenskaper inom Instans av Verk används det lilla plustecknet uppe till höger inom rutan för Instans av Verk.
+ 2. För att lägga till egenskaper inom Instans av Verk används + Egenskap uppe till höger inom rutan för Instans av Verk.
 
 ### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
