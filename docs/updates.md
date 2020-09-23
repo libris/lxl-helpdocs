@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2020-09-23 
-* Texten [Verk](https://libris.kb.se/katalogisering/help/workflow-work) har uppdaterats med en hänvisning till viktig nyhet om arbetet med utbrutna och länkade verk i Libris, version 1.19.
+* Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) har uppdaterats med en hänvisning till viktig nyhet om arbetet med utbrutna och länkade verk i Libris, version 1.19.
 
 2020-08-25  
 * Även [Hjälptexten Bidrag](https://libris.kb.se/katalogisering/help/workflow-article) uppdaterad angående originalspråk vid översättning.
