@@ -239,7 +239,7 @@ Fortsätter (continues = 780 0/0)
 Fortsätter delvis (continuesInPartBy = 780 0/1)  
 Föregående (precededBy = 780 0/2)  
 Ersätter delvis (precededInPartBy = 780 0/3)  
-Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
+Sammanslagen med (mergerOf = 780 0/4) ([Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
 Har införlivat (absorbed = 780 0/5)  
 Har delvis införlivat (absorbedInPart = 780 0/6)  
 Separerad från (separatedFrom = 780 0/7)  
@@ -251,7 +251,7 @@ Ersättes delvis av (succeededInPartBy = 785 0/3)
 Har uppgått i (absorbedBy = 785 0/4)  
 Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
 Uppdelat på (splitInto = 785 0/6)  
-Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))   
+Sammanslagen till (mergedToForm = 785 0/7) ([Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))   
 
 Använd Anmärkning (500) för att vid behov förtydliga typen av relation.
 
