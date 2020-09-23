@@ -31,8 +31,6 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Relationer](#relationer) | | 
 
 
-**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
-
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
