@@ -33,7 +33,6 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Relationer](#relationer) | | 
 
 
-**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av en elektronisk seriell resurs innehåller följande tre delar:  
@@ -229,7 +228,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
   ```Exempel: 2011, 4-2013, 2```
 
 ### Relationer
-För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
+För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), med flera: 
 sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till.  
 
 ![Annat bärarformat 776](776elektroniskseriell.png)
