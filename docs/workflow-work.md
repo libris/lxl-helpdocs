@@ -134,9 +134,8 @@ Skriv in uppgiften.
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Ange originalspråk genom att länka till språk här.  
   ![Uppgift om originalversionens språk](translationof.png)  
-Vid behov av att upprepa Språk, för att beskriva att det är en översättning från flera språk, skapa Skapa lokal entitet och välj Text i stället för Verk. Lägg sedan till Språk. Det går nu att upprepa Språk.  
    
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 ![Intermediärt språk](intermediate_language.png)  
