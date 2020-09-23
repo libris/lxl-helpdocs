@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Entiteter
-date: 2020-02-20
+date: 2020-09-23
 order: 19
 tags:
 - redigering
@@ -10,7 +10,13 @@ tags:
 
 # Entiteter
 
-## Söka fram entiteter
+| Innehåll  | | |
+| ------ | ------ | ------ |
+| [Söka fram entiteter](#soka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
+| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
+| [Länka entitet](#lanka-entitet) | | [Inkommande länkar](#inkommande-lankar) |
+
+## Soka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
 
 Sökningen görs antingen via:
@@ -25,7 +31,7 @@ För att se alla entiteter av en viss typ, tryck Enter när markören står i s�
 
 
 
-## Lägg till entitet eller skapa lokal entitet
+## Lagg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
 
 **Lägga till entitet:**
@@ -43,7 +49,7 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan entiteten.
 ![Lokal entitet steg 2](lokalentitet2.png)
 
-## Länka entitet
+## Lanka entitet
 Om det finns en lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en auktoriserad entitet eller låt den lokala entiteten ligga kvar.) 
 
 ![Lokal entitet steg 3](lokalentitet3.png)
@@ -63,4 +69,7 @@ Klistra in urklipp:
 
 ![Klistra in urklipp](klistraurklipp.png)
 <br>
-Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.  
+Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.
+
+## Inkommande lankar
+Gränssnittet använder en funktion för inkommande länkar som innebär att länkning mellan entiteter endast görs på ett ställe. Funktionen används för ämnesord där termer som ingår i en hierarki, dvs. bredare/smalare endast länkas på ett ställe. I den smalare termen länkas det till den bredare och funktionen för inkommande länkar visar då upp den motsatta relationen, dvs. "smalare" i beskrivningen av den bredare termen.
