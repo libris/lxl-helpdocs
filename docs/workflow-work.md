@@ -20,7 +20,8 @@ tags:
 | [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
-**VERSION 1.19:** Läs viktig information om arbetet med att bryta ut och länka till verk: [Länkning till verk i Libris]  
+**VERSION 1.19:** Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
+[Länkning till verk i Libris]  
 (https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html)!
 
 ## Inledning
