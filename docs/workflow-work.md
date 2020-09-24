@@ -39,7 +39,7 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 ## Verkstyp
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
 
-Från version 1.19 av kataligiseringsverktyget är verksyperna försedda med illustrerande ikoner:
+Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med illustrerande ikoner:
 ![Ikoner för de olika verksyperna](verkstypsikoner.png)
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
