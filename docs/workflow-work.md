@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-09-23
+date: 2020-09-24
 tags:
 - verk
 --- 
@@ -127,9 +127,8 @@ Skriv in uppgiften.
   
 #### Översättning   
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```  
+```Exempel: objektet är/innehåller översättning```  
+**Från och med version 1.18 skapas uppgiften automatiskt.** 
     
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
@@ -220,6 +219,10 @@ Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.
 [Mer information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 
 ### Klassifikation  
+**VERSION 1.19:**  
+Vissa klassifikationssystem har sedan version 1.19 flyttats till [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt SAB.  
+
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
   * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
@@ -252,6 +255,9 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: 23/swe``` 
    
 #### SAB-klassifikation  
+**VERSION 1.19:**  SAB-klassifikation har sedan version 1.19 delvis placerats under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp, t ex Kc/VK. Kvar under Verk finns SAB utan medietillägg.   
+
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
@@ -261,13 +267,15 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
+  För barnlitteratur ska målgrupp läggas till efter SAB-koden.  
+```Exempel: Prab,uf```  
 * Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
- ```Exempel: 8``` 
- 
+ ```Exempel: 8```  
+  
 ### Amne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   
