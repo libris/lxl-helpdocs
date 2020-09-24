@@ -12,7 +12,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2020-09-24 
-* Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har uppdaterats med information om ny hantering av Klassifikation från och med version 1.19.
+* Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har uppdaterats med information om ny hantering av Klassifikation från och med version 1.19.  
+I texten [Verk](https://libris.kb.se/katalogisering/help/workflow-work) har informationen om Anmärkning: Språk (marc:LanguageNote = 041 i1: 1) uppdaterats.
 
 2020-09-23 
 * Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) har uppdaterats med en hänvisning till viktig nyhet om arbetet med utbrutna och länkade verk i Libris, version 1.19.
