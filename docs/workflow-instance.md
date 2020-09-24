@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-06-22
+date: 2020-09-24
 tags:
 - instans
 --- 
@@ -11,11 +11,11 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | | [Copyrightår](#copyrightar)  | 
-| [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
-| [Utgivningssätt](#utgivningssatt)| | [Omfång](#omfang) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Bärartyp](#barartyp) | | [Mått](#matt) |
+| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
+| [Instanstyp](#instanstyp) | | [Omfång](#omfang) | 
+| [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
+| [Medietyp](#medietyp) | | [Mått](#matt) |
+| [Bärartyp](#barartyp) | | [Klassifikation](#klassifikation) |
 | [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
@@ -23,8 +23,8 @@ tags:
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
 
-**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Supplement, Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans. Se [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
 
 ## Inledning
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
@@ -376,7 +376,29 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   <br/>```Exempel:```
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
-   
+ 
+### Klassifikation  
+**VERSION 1.19:**  
+Några klassifikationssystem har flyttats från Verk till Instans i version 1.19. Det gäller:  
+* LC-klassifikation (050)  
+* NAL-klassifikation (060)  
+* NLM –klassifikation (070)  
+
+För SAB-klassifikation ska SAB-kod med medietillägg läggas in under Instans.  
+För övrig klassifikation se [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+
+####	SAB-klassifikation med medietillägg  
+*	Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 #a)  
+Skriv in uppgiften.  
+```Exempel: Kc/VC```
+*	Klassifikation/Ingår i system/Konceptsystem/Kod  
+(classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
+```Exempel: kssb```
+*	Klassifikation/Ingår i system/Konceptsystem/Version
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
+```Exempel: 8```
+
 ### Medfoljande material
 * Medföljs av/Instans/Instanstyp/Benämning (Bilagor) (accompaniedBy/Instance/type/label = 300 #e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Man behöver inte välja Instanstyp här. Lägg till Benämning.     
