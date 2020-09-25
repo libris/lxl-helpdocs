@@ -12,7 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2020-09-25
-* Texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)har uppdaterats med information om ny hantering av Sammanfattning av innehåll vid import samt hänvisning till Libris versionsinformation 1.19.
+* Texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har uppdaterats med information om ny hantering av Sammanfattning av innehåll vid import samt hänvisning till Libris versionsinformation 1.19.
 
 2020-09-24 
 * Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har uppdaterats med information om ny hantering av Klassifikation från och med version 1.19.  
