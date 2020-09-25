@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-09-24
+date: 2020-09-25
 tags:
 - instans
 --- 
