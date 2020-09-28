@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-09-24
+date: 2020-09-28
 tags:
 - verk
 --- 
@@ -221,7 +221,7 @@ Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.
 ### Klassifikation  
 **VERSION 1.19:**  
 Vissa klassifikationssystem har sedan version 1.19 flyttats till [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
-Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt SAB.  
+Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt klassifikation som beskrivs genom Ingår i system/Konceptsystem. Detta gäller bland annat SAB.  
 
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
