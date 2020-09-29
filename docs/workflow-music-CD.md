@@ -341,10 +341,6 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)
 Föredragen titel för ett verk utan primär medverkan anges här.  
 
-#### Verkets titel - verk med primär medverkan
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
-Föredragen titel för ett verk med primär medverkan anges här.  
-
 ### Relationer till ingaende verk och andra verk
 
 #### Relationer till ingående verk
