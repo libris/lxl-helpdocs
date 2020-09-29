@@ -366,15 +366,13 @@ För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen
 För en film som är dubbad, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```   
+</BR>**Från och med version 1.18 skapas uppgiften automatiskt.** 
    
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
   
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
-  Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här.   
- Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```</br> 
+  Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
+</br>```Exempel: engelska (eng)``` 
 
 #### Relationer till ingaende verk och andra verk
 ##### Verk som ingår i det beskrivna verket
