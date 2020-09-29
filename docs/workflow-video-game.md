@@ -281,7 +281,7 @@ Ange den föredragna titeln i Huvudtitel.
 * Medverkan och funktion/Primär medverkan/Agent/Organisation 
 </BR>(contribution/PrimaryContribution/agent/Organisation = 110 2/-)
 * Medverkan och funktion/Primär medverkan/Funktion
-(contribution/PrimaryContribution/role = 100, 110 #4)
+</BR>(contribution/PrimaryContribution/role = 100, 110 #4)
 
 #### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
@@ -289,7 +289,7 @@ Ange den föredragna titeln i Huvudtitel.
 * Medverkan och funktion/Medverkan/Agent/Organisation
 </BR>(contribution/agent/Organisation = 710 2/-)
 * Medverkan och funktion/Medverkan/Funktion  
-</BR>(contribution/role = 700, 710 #4)
+(contribution/role = 700, 710 #4)
  
 #### Funktioner som saknar funktionskod
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
