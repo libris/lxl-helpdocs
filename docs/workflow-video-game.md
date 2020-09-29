@@ -285,7 +285,7 @@ Ange den föredragna titeln i Huvudtitel.
 
 #### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
-</BR>(contribution/agent/Person = 700 1/- #a)
+(contribution/agent/Person = 700 1/- #a)
 * Medverkan och funktion/Medverkan/Agent/Organisation
 </BR>(contribution/agent/Organisation = 710 2/-)
 * Medverkan och funktion/Medverkan/Funktion  
