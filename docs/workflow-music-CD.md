@@ -338,7 +338,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
      ```Exempel: arr. röst, piano```  
 
 #### Verkets titel - verk utan primär medverkan
-  *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)
+  *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)</br>
 Föredragen titel för ett verk utan primär medverkan anges här.  
 
 ### Relationer till ingaende verk och andra verk
