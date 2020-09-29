@@ -250,6 +250,8 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 ## Verk 
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
+[Läs mer om egenskaperna under generell beskrivning av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+
 [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
 
 ### Instans av verk (instanceOf/Work)
