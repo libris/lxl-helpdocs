@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-08-29
+date: 2020-09-29
 tags:
 - under arbete
 - e-bok
@@ -301,7 +301,7 @@ Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna un
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 * Medverkan och funktion/Medverkan/Funktion  
-(contribution/PrimaryContribution/role = 700, 710 #4)
+(contribution/role = 700, 710 #4)
 
 ### Sprak 
 * Språk (language = 008/35-37)</br>
