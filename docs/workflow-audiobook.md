@@ -324,7 +324,7 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Ange det språk som texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
-  ```Exempel: engelska (eng)```  
+ </br>```Exempel: engelska (eng)```  
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
