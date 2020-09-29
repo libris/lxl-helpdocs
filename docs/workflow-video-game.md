@@ -317,20 +317,24 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
   Länka till entitet.  
   ```Exempel: engelska (eng)``` 
   </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram entitet för språket.</BR>
-  Länka till entitet.  
+  Länka till entitet. 
+För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
   
 #### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```   
+  ```Exempel: objektet är/innehåller översättning``` 
+  **Från och med version 1.18 skapas uppgiften automatiskt.**
   
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
   
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
-  Ange originalspråk här. Klicka på plustecknet vid Instans av Verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Ange originalspråk för översatt verk här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
   ```Exempel: japanska (jpn)```  
+  
+För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
 
 ### Relationer till ingaende verk och andra verk
 #### Verk som ingår i det beskrivna verket
