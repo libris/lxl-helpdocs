@@ -337,37 +337,34 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     Ange eventuellt arrangemang. Skriv in uppgiften.  
      ```Exempel: arr. röst, piano```  
 
-#### Verkets titel - verk utan primär medverkan
-  Föredragen titel för ett verk utan primär medverkande ska anges i Uttryck av verk/Verk/Har titel/Huvudtitel.</BR>
-  *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
-  Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal  entitet, längst ner i sidorutan till höger), välj Verk. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
-  *	Uttryck av/Verk/Har titel/Titel/Deltitel (expressionOf/Work/hasTitle/Title/partName = 130 #p)  
-  Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).
-  *	Uttryck av/Verk/Har titel/Titel/Delbeteckning (expressionOf/Work/hasTitle/Title/partName = 130 #n)  
-  Lägg till eventuell delbeteckning (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Delbeteckning).  
-  *	Uttryck av/Verk/Språk/Språk/Benämning (expressionOf/Work/language/Language/label = 130 #l)  
-  Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under:  Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid  Språk - Lägg till egenskaper under: Språk, välj Benämning. Ange språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.</BR>
+#### Verk utan primär medverkan
+  *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)
+Föredragen titel för ett verk utan primär medverkan anges här.  
+
+#### Verk med Primär medverkan
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
+Föredragen titel för ett verk med primär medverkan anges här.  
 
 ### Relationer till ingaende verk och andra verk
 
-#### Verk som ingår i det beskrivna verket
-  För att ange verk som ingår i det beskrivna verket motsvarande fält 700 1/2 #a, #d, #t (analytisk sökingingång för verk med primär medverkande) eller 730 0/2 #a (analytisk sökingång för verk utan primär medverkande) i marc:  
-  Under Instans av Verk/Musik, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br>
-  Lägg till eventuell deltitel och delbeteckning.
-  För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion: Primär medverkan.  
+#### Relationer till ingående verk
+* Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
+  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+
+* Ingående verk utan primär medverkan (730 0/2 #a)</br> 
+  Har del/Verk/Har titel/Titel  
+  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
   
-  För utförligare instruktioner, [se även hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+#### Relationer till andra verk 
+* Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
+  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
-#### Relationer till andra verk  
-  För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 700 1/- #a, #d, #t (icke-analytisk sökingingång för verk med primär medverkande) eller 730 0/_ #a (icke-analytisk sökingång för verk utan primär medverkande) i marc: 
-  Under Instans av Verk/Musik, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Ange föredragen titel i Huvudtitel.</br> 
-  Lägg till eventuell deltitel och delbeteckning. 
-  För ingående verk med primär medverkande, lägg till Medverkan och funktion/Primär medverkan enligt anvisningarna nedan under Medverkan och funktion: Primär medverkan. 
-
-  För utförligare instruktioner, [se även hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-
+* Relationer till andra verk utan primär medverkan  
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
+   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
+  
 ### Medverkan och funktion  
-  * Medverkan och funktion  
+* Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
   För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
   [Se även Auktoritetsgruppens rekommendationer i ett inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).  
