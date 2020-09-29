@@ -308,7 +308,7 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 #### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.</BR>   
+  Ange om resursen är/innehåller en översättning.  
 **Från och med version 1.18 skapas uppgiften automatiskt.**
   
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
