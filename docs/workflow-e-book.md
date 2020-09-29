@@ -276,7 +276,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 För en e-bok är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). Föredragen titel ska anges för översättningar och för verk som har givits ut under olika titlar på samma språk. En föredragen titel ska också anges om olika verk har samma auktoriserade sökingång. 
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
@@ -333,7 +333,6 @@ För översättningar i flera led, använd egenskapen Intermediärt språk till 
 Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ### Relationer till ingaende verk och andra verk
-
 #### Relationer till ingående verk 
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
@@ -397,35 +396,8 @@ Litterär genre (008/33): Ej skönlitterärt verk
 Genre/form (saogf-term, 655): Avhandlingar  
 Innehåll (008/24-27): Avhandling
 
-#### Klassifikation  
-* Klassifikation/DDK-klassifikation/Kod  
-(classification/ClassificationDdc/code = 082 0/4 #a)
-
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-(classification/ClassificationDdc/edition = 082 i1)
-
-* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 082 #2)
-
-##### Sekundär DDK-klassifikation 
-* DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod   
-(additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)
-
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-(classification/ClassificationDdc/edition = 083 i1)
-
-* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
-(classification/ClassificationDdc/editionEnumeration = 083 #2)
-
-##### SAB-klassifikation  
-* Klassifikation/Klassifikation/Kod  
-(classification/Classification/code = 084 0/4 #a)
-
-* Klassifikation/Termlista/Termlista/Kod  
-(classification/Classification/inScheme/ConceptScheme/code = 084 #2)
-
-* Klassifikation/Termlista/Termlista/Version  
-(classification/Classification/inScheme/ConceptScheme/version = 084 #2)
+### Klassifikation  
+För anvisningar om hur man anger klassifikation, [se hjälptexten Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
 
 ### Amne  
 * [Se hjälptext Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
