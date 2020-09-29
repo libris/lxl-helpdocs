@@ -234,22 +234,10 @@ För en artikel som är/innehåller en översättning, lägg till:
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
   
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
-  Ange originalspråk för översatt verk här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
+  Ange originalspråk för översatt verk här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.</BR>
   ```Exempel: engelska (eng)```  
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
-
-För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.
-
-Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**
-
-Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:
-Uttryck av/Verk/Språk (Language/label = 130 #l)
-Länka till entitet.
-Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:
-Har del/Verk/Språk (Language/label = 730 #l)
-Länka till entitet.
 
 ### Genre form 
 För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
