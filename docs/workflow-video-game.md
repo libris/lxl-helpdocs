@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Datorspel
 order: 38
-date: 2020-08-19
+date: 2020-08-29
 tags:
 - under arbete
 - datorspel
@@ -323,8 +323,7 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 #### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Multimedia och välj Anmärkning: Språk. Välj fras från lista.  
+  Ange om resursen är/innehåller en översättning.</BR> 
   ```Exempel: objektet är/innehåller översättning``` 
   **Från och med version 1.18 skapas uppgiften automatiskt.**
   
