@@ -352,7 +352,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
 
 #### Relationer till andra verk
 * Relationer till andra verk utan Medverkan och funktion/Primär medverkan
- Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)
+ Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)</br>
  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
   
 * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
