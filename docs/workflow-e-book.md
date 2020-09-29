@@ -342,10 +342,10 @@ Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning 
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 #### Relationer till andra verk  
-  * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
+* Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
   [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
-*  Relationer till andra verk utan primär medverkan  
+* Relationer till andra verk utan primär medverkan  
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
