@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-08-19
+date: 2020-08-29
 tags:
 - under arbete
 - e-bok
@@ -311,13 +311,13 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 #### Översättning 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning. 
-**Från och med version 1.18 skapas uppgiften automatiskt.**
+</br>**Från och med version 1.18 skapas uppgiften automatiskt.**
   
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
    
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h) 
 Ange originalspråk för ett översatt verk här.
-Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
+Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.</br>
   ```Exempel: engelska (eng)```  
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
