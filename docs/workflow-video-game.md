@@ -252,7 +252,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 
 [Läs mer om egenskaperna under generell beskrivning av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
+[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
 
 ### Instans av verk (instanceOf/Work)
 * Instans av verk/Text (instanceOf/Work/Multimedia)  
