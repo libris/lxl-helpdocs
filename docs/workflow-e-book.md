@@ -305,27 +305,22 @@ Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna un
 
 ### Sprak 
 * Språk (language = 008/35-37)</br>
-Ange textens språk här. För en text på svenska, länka till svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+Ange textens språk här. För en text på svenska, länka till svenska. För att ange att texten är på flera språk, länka till ytterligare en språkkod.
+För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 
 #### Översättning 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning. För att lägga till uppgiften, klicka på plustecknet vid Instans av verk och välj Anmärkning: Språk. Välj fras från lista.</br> 
-  ```Exempel: objektet är/innehåller översättning```  
-   
+  Ange om resursen är/innehåller en översättning. 
+**Från och med version 1.18 skapas uppgiften automatiskt.**
+  
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
    
-* Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
-  Ange det språk som en texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här. Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h) 
+Ange originalspråk för ett översatt verk här.
+Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
   ```Exempel: engelska (eng)```  
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
-
-För en översättning ska språket också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-**Från och med version 1.7 skapas språktillägget automatiskt i 240 #l.** 
-
-Om översättningen saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Språk (Language/label = 130 #l)  
-Länka till entitet. 
 
 #### Sammanfattningsspråk
 [Se Sammanfattning av innehåll](#sammanfattning-av-innehall).
