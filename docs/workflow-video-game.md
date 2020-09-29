@@ -320,21 +320,20 @@ För datorspel som är/innehåller en översättning, lägg till:
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
 
 ### Relationer till ingaende verk och andra verk
-#### Relationer till verk som ingår i det beskrivna verket
+#### Relationer till ingående verk
+* Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
+  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
+  
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
-* Ingående verk utan primär medverkan (730 0/2 #a)</br> 
-  Har del/Verk/Har titel/Titel  
-  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-
-#### Relationer till andra verk  
-  * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
+#### Relationer till andra verk
+* Relationer till andra verk utan Medverkan och funktion/Primär medverkan
+ Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_ #a)</br>
+ Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
+  
+* Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
   [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-
-*  Relationer till andra verk utan primär medverkan  
-   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
-   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
