@@ -1,5 +1,5 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Checklista import Andra källor
 date: 2020-08-19
 tags:
