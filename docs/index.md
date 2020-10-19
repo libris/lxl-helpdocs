@@ -2,15 +2,15 @@
 section: Main
 title: Start
 order: 1
-date: 2020-06-12
+date: 2020-10-19
 tags:
 - start
 ---
 
 # Start
 
-Hjälpsektionen innehåller information om det praktiska arbetet i Libris katalogisering. Förutom övergripande information under rubrikerna 
-Sök respektive Redigering finns här de viktiga generella beskrivningarna för Admindata, Verk och Instans samt hjälptexter för olika 
+Hjälpsektionen innehåller information om det praktiska arbetet i Libris katalogisering. Förutom övergripande information under rubriken 
+Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Admindata, Verk och Instans samt hjälptexter för olika 
 Materialtyper, Agenter, Ämnesord och Bestånd.
 
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
@@ -23,7 +23,5 @@ Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverk
 
 ### Vidare information
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
-* [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/) 
-* [Tjänsten Felrapportering nya Libris och XL](https://goo.gl/forms/3mL7jTlEpbU3BQM13) 
-* [Tjänsten Ändringsförslag nya Libris och XL](https://goo.gl/forms/dPxkhMqE10RvKQFE2) 
+* [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
 * [Webbplatsen Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
