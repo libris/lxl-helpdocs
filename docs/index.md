@@ -10,7 +10,7 @@ tags:
 # Start
 
 Hjälpsektionen innehåller information om det praktiska arbetet i Libris katalogisering. Förutom övergripande information under rubriken 
-Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Admindata, Verk och Instans samt hjälptexter för olika 
+Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Adminmetadata, Verk och Instans samt hjälptexter för olika 
 Materialtyper, Agenter, Ämnesord och Bestånd.
 
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
