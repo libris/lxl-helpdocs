@@ -19,7 +19,7 @@ En del instruktioner och arbetsflöden finns även filmatiserade och publicerade
 spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). 
 Det finns också en [spellista för Librisutbildning](https://www.youtube.com/playlist?list=PLZVkEICvA5-HJMDbzzUBJFxetWYea3ZLC), med introduktion till Libris format och katalogiseringsverktyget.
 
-Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten av katalogiseringsverktyget. 
+Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
 ### Vidare information
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
