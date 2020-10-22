@@ -25,4 +25,4 @@ Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverk
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
 * [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
 * [Webbplatsen Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
-* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/) - ersätter Katalogisatörens verktygslåda och Anvisningar för katalogisering (RDA) från 2020-11-20
+* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/) - ersätter Katalogisatörens verktygslåda och Anvisningar för katalogisering (RDA) från 2020-11-10
