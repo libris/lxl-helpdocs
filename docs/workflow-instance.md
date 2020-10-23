@@ -27,7 +27,8 @@ tags:
 
 
 ## Inledning
-**VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk. [Läs mer i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).
+**VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
+[Till Sammanfattning av inehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).
 
 
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
