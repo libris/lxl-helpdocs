@@ -306,7 +306,7 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
   
 ### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
- **VERSION 1.19:** Sammanfattning av innehåll importeras till Instans istället för till Verk.
+ **VERSION 1.19:** Sammanfattning av innehåll importeras till Instans istället för till Verk.  
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
