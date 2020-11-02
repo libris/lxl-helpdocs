@@ -77,7 +77,7 @@ För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna me
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Skapa digital reproduktion
-Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se hjälptexter för respektive materialtyp. Utförligare hjälptext för Digital reproduktion är under arbete.
+Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se hjälptexter för respektive materialtyp och [hjälptext för Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction).
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem.
