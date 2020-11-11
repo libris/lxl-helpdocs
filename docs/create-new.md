@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Skapa ny
 order: 15
-date: 2020-01-28
+date: 2020-11-11
 tags:
 - create new
 - skapa ny
@@ -20,15 +20,8 @@ tags:
 ## Anvisningar och praxis
 Följ gällande anvisningar när du skapar en ny post. 
 
-* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
-* [Anvisningar för katalogisering (RDA) - Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
-* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
-  Innehåller information om:  
-* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
-* [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
-* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
-
-Exemplen i anvisningarna ovan är i MARC21. För exempel i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+* [Metadatabyrån](https://metadatabyran.kb.se/)  
+* [Kärnelement och obligatoriska element](https://katalogverk.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/index.html)
 
 ## Soka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
@@ -71,7 +64,7 @@ Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 ### Importera fran Andra kallor
 Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. [Läs mer om sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
-För att importera en post, klicka på posten i träfflistan. [Följ Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
+För att importera en post, klicka på posten i träfflistan. [Följ anvisningar i Postimport i Libris i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/postimport-i-libris). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ## Kopiera
 Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, [se ovan under Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara.  
