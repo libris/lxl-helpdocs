@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-04-01
+date: 2020-11-11
 tags:
 - redigering
 - uppgradering
@@ -20,21 +20,14 @@ tags:
 ## Anvisningar och praxis
 Följ gällande anvisningar när du redigerar och uppgraderar en post. 
 
-* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
-* [Anvisningar för katalogisering (RDA) - Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
-* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
-  Innehåller information om:  
-* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
-* [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
-* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
-
-Exemplen i anvisningarna ovan är i MARC21. För exempel i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+* [Metadatabyrån](https://metadatabyran.kb.se/)  
+* [Kärnelement och obligatoriska element](https://katalogverk.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/index.html/)
 
 ## Redigera
 [Läs under Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
 ## Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). [Läs mer om beskrivningsnivå under Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). [Läs mer om beskrivningsnivå under Adminmetadata i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris#Beskrivningsniv%C3%A5).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ## Berika fran mall
