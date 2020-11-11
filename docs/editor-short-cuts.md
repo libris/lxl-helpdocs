@@ -4,7 +4,7 @@ title: Kortkommandon
 order: 20
 date: 2020-02-20
 tags:
-- under arbete
+- shortcuts
 ---
 
 # Kortkommandon
