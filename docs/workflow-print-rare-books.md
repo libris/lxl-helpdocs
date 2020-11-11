@@ -8,5 +8,5 @@ tags:
 --- 
 
 # Äldre tryck
-<br><br>
+<br>
 Se [Äldre tryck i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/aldre-tryck)
