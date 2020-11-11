@@ -9,5 +9,5 @@ tags:
 --- 
 
 # Karta
-<br>
+
 Se [Kartor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/kartor)
