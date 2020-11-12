@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2020-02-25
+date: 2020-11-12
 tags:
 - musiktryck
 --- 
@@ -49,7 +49,7 @@ Beskrivningen av ett musiktryck innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Noterad musik, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Noterad musik.  
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
@@ -400,7 +400,7 @@ om du vill berika från mall för att få fram de vanligaste egenskaperna (Klick
 [Se även hjälptexten Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
  
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
+Ange den föredragna titeln för verket vid behov. [Följ anvisningar för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
 
 #### Verkets titel - verk med primär medverkande
 Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
