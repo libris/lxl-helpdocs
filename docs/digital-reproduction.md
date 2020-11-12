@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Digital reproduktion
 order: 39
-date: 2020-06-30
+date: 2020-11-12
 tags:
 - digital reproduktion
 - digitalisering
@@ -44,7 +44,7 @@ Beskrivningen av en digital reproduktion innehåller följande tre delar:
 
 För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
-För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
+För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
