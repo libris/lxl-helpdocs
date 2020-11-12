@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-09-29
+date: 2020-11-12
 tags:
 - musik-CD
 - ljudinspelning
@@ -45,7 +45,7 @@ Beskrivningen av en musik-CD innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Musik-CD.
 
-För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA"). samt [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/). samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom egenskap, enligt Anvisningar för katalogisering - RDA.
 
@@ -287,7 +287,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Musik - Lägg till egenskaper under: Musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Verkets titel
-  Ange vid behov den föredragna titeln för verket här. [Följ Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA"). 
+  Ange vid behov den föredragna titeln för verket här. [Följ anvisningar för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verkets titel - verk med primär medverkan
   Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
@@ -360,8 +360,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
 ### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
-  För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
-  [Se även Auktoritetsgruppens rekommendationer i ett inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).  
+  För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR> 
   
 #### Primär medverkan
   * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
