@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Elektronisk seriell resurs
 order: 43
-date: 2020-09-23
+date: 2020-11-12
 tags:
 - seriell resurs
 - e-tidskrift
@@ -42,7 +42,7 @@ Beskrivningen av en elektronisk seriell resurs innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Elektronisk seriell resurs, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Elektronisk  seriell resurs.  
 
-För information om katalogiseringsregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/ "Anvisningar för katalogisering - RDA") samt [se RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsregler och Librispraxis, [se Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/seriella-resurser) samt [se RDA Toolkit](https://access.rdatoolkit.org/).
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -263,7 +263,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
+Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verket, se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
