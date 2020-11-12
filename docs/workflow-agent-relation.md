@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2020-02-20
+date: 2020-11-12
 tags:
 - editor
 ---
@@ -19,9 +19,9 @@ tags:
 ## Inledning
 700, 710 och 711 är komplicerade fält i MARC21 som kan uttrycka olika saker om en agent, medverkande, relationer, och att en instans innehåller flera verk. Den här hjälpen visar hur man skapar olika typer av relationer. 
 
-Länka i första hand till befintliga auktioriteter för personer, organisationer och möten. Om det inte finns en auktoritet så kan du skapa en auktoritet. Se hjälptexterna för Agenter i vänstermenyn. [Se även hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
+Länka i första hand till agenter som länkbara entiteter för personer, organisationer och möten. Om det inte finns en agent så kan du skapa en. Se hjälptexterna för Agenter i vänstermenyn. [Se även hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).
 
-*I de första versionerna av nya Libris bör man inte länka till eller skapa nya verk, det är under utveckling.*
+[Information om verk i Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html).
 
 
 ## Relation till verk uttryckt genom text 
