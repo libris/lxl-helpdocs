@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-09-25
+date: 2020-11-12
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2020-11-12
+* Länkar till den tidigare använda tjänsten Anvisningar för katalogisering (RDA) ändrade till [Metadatabyrån](https://metadatabyran.kb.se/). Ändringar gäller hela hjälpsektionen.
 
 2020-09-25
 * Texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har uppdaterats med information om ny hantering av Sammanfattning av innehåll vid import samt hänvisning till Libris versionsinformation 1.19.
