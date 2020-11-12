@@ -172,7 +172,7 @@ Skriv in uppgiften under Huvudtitel.
 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
 
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
@@ -430,7 +430,7 @@ Man behöver inte välja instans- och verkstyp här.
   Man behöver inte välja Instanstyp under Ingår i serie/Instans/Instanstyp.   
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
-  Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).
+ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/anmarkning-om-manifestationen).
   
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
