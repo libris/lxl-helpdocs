@@ -65,7 +65,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```c (= dator)```
   * ```n (= omedierad)```
   * ```s (= audio)```
-  * ```v (= video)```  
+  * ```v (= video)```<br> 
 [Läs mer om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/medietyp).
  
 ### Barartyp
@@ -75,7 +75,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```cr (= onlineresurs)```
   * ```nb (= ark)```
   * ```nc (= volym)```
-  * ```sd (= ljudskiva) + d (= ljudskiva)```  
+  * ```sd (= ljudskiva) + d (= ljudskiva)```<br>  
 [Läs mer om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/barartyp).
  
 ### Titel  
@@ -430,7 +430,7 @@ Man behöver inte välja instans- och verkstyp här.
   Man behöver inte välja Instanstyp under Ingår i serie/Instans/Instanstyp.   
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
- Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/anmarkning-om-manifestationen).
+ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/anmarkning-om-manifestationen).
   
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
