@@ -7,7 +7,6 @@ tags:
 - ämnesord
 - ämnesord i Libris
 - koncept
-- under arbete
 ---
 
 # Ämnesord i Libris
