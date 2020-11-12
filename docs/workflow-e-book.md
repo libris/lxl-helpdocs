@@ -4,7 +4,6 @@ title: E-bok
 order: 42
 date: 2020-09-29
 tags:
-- under arbete
 - e-bok
 - e-bokskatalogisering
 ---
