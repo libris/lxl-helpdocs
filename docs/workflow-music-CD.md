@@ -4,7 +4,6 @@ title: Musik-CD
 order: 48
 date: 2020-09-29
 tags:
-- under arbete
 - musik-CD
 - ljudinspelning
 --- 
