@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-10-23
+date: 2020-11-12
 tags:
 - verk
 --- 
@@ -31,7 +31,7 @@ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). D
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av verk.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA")
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck)
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
@@ -56,7 +56,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
  
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Konstruktion av sökingångar för verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/konstruktion-av-sokingangar-for-verk-och-uttryck).  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 #### Verkets titel
@@ -180,7 +180,7 @@ Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning 
 ### Genre form
 Länka till entiteter.  
  För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.  
- [Se instruktionsfilm Lägga till Genre/form](https://youtu.be/aAMzfkh_ycA)  
+ [Se instruktionsfilm Lägga till Genre/form](https://youtu.be/a6I_6K5STKw)  
  
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).  
 
@@ -216,7 +216,7 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf efter säkordet, t.ex. "bilderböcker barngf".  
-[Mer information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
+[Mer information om listkoder](http://katalogverk.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 
 ### Klassifikation  
 **VERSION 1.19:**  
@@ -299,7 +299,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```framförd musik (prm)```
   * ```stillbild (sti)```
   * ```text (txt)```
- <br>[Läs mer om innehållstyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/innehall/).
+ <br>[Läs mer om innehållstyper](http://katalogverk.kb.se/katalogisering/Formathandboken/innehallstyper/innehall/).
   
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
@@ -307,7 +307,7 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
 ### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
  **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
-[Till Sammanfattning av inehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).  
+[Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).  
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
