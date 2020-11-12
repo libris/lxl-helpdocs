@@ -4,7 +4,6 @@ title: Jurisdiktion - Skapa ny
 order: 77
 date: 2020-04-29
 tags:
-- under arbete
 - agenter
 - auktoriteter
 - jurisdiktioner
