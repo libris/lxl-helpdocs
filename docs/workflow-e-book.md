@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-09-29
+date: 2020-11-12
 tags:
 - e-bok
 - e-bokskatalogisering
@@ -46,7 +46,7 @@ Beskrivningen av en e-bok innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj E-bok.  
 
-För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") och [se RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) och [se RDA Toolkit](https://access.rdatoolkit.org/).
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -275,7 +275,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 För en e-bok är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna för Föredragen titel för verket i Metadatabrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
