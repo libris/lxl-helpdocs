@@ -16,7 +16,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
-[Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
 | | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
@@ -33,7 +33,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
@@ -44,7 +44,7 @@ För information om katalogiseringsanvisningar och Librispraxis [se Seriella res
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris).
 
 ## Instans
 
@@ -80,12 +80,12 @@ Skriv in uppgiften, inom parentes.
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/#huvudtitel_seriell  "Anvisningar för katalogisering - RDA").  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Seriella resurser - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/seriella-resurser).  
   Skriv in uppgiften under Huvudtitel.      
   ```Exempel: Kammarmusik-nytt```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+ [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
   
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -262,7 +262,7 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+För en sorterad lista på koder, [se Libris formathandbok - Funktions- och relationskoder](http://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
 ### Sprak
