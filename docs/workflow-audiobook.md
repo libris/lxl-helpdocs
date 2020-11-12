@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-09-29
+date: 2020-11-12
 tags:
 - ljudbok
 --- 
@@ -42,7 +42,7 @@ Beskrivningen av en ljudbok innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Ljudbok, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Ljudbok.  
 
-För information om katalogregler och Librispraxis, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA") samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna fonogram är hela resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-2904.html). 
+För information om katalogregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) samt [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna fonogram är hela resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-2904.html). 
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
@@ -279,7 +279,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 För en ljudbok är verkstypen Ljud.   
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna under Konstruera sökingångar för verk och uttryck i Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck/). 
+Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
