@@ -4,7 +4,6 @@ title: Enkel beståndsregistrering
 order: 135
 date: 2020-03-02
 tags:
-- under arbete
 - bestånd
 - beståndsregistrering
 --- 
