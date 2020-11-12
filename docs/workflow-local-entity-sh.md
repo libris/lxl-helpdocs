@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord som lokal entitet
 order: 115
-date: 2020-06-11
+date: 2020-11-12
 tags:
 - ämnesord
 - koncept
@@ -24,7 +24,7 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 
 
 ## Ämnesord från system med listkod som länkad entitet
-Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao** och **mesh**. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter, t.ex. sammansatta geografiska ämnesord där den sammansatta konstruktionen inte finns auktoriserad eller konstruktioner av typen *Byggnader i litteraturen* där hela strängen läggs som ett enkelt ämnesord. [Mer information om den senare typen finns i Riktlinjer för Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf).
+Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao** och **mesh**. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter, t.ex. sammansatta geografiska ämnesord där den sammansatta konstruktionen inte finns auktoriserad eller konstruktioner av typen *Byggnader i litteraturen* där hela strängen läggs som ett enkelt ämnesord. [Mer information om den senare typen finns i riktlinjerna för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/sarskilda-amnesomraden/....i-bibeln-i-filmen-i-heraldiken-i-konsten).
 
 **OBS! Från version 1.17 av Libris katalogisering finns många fler listkoder som länkbara entiteter.**
 
@@ -70,7 +70,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning finns inte alltid auktoriserade. De kan dock skapas som lokal entitet endast via kombination av länkbart ämnesord med länkbar underindelning.
 
-[Se Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/) för regler kring hur  sammansatta termer får konstrueras.
+[Se riktlinjer för indexering med Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/typer-av-amnesord/allmanna-amnesord) för regler kring hur sammansatta termer får konstrueras.
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
