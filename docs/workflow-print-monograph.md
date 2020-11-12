@@ -188,7 +188,7 @@ Här anges medföljande material, som t ex bilagor.
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde  
  (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anmärkning, Gemensamma anvisningar enligt RDA - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/anmarkning-om-manifestationen).  
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/anmarkning-om-manifestationen).  
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
