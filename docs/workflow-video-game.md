@@ -4,7 +4,6 @@ title: Datorspel
 order: 38
 date: 2020-09-29
 tags:
-- under arbete
 - datorspel
 - TV-spel
 --- 
