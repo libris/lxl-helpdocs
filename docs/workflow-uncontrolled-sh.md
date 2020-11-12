@@ -2,19 +2,18 @@
 section: Hjälptexter ämnesord
 title: Okontrollerad term
 order: 125
-date: 2020-06-18
+date: 2020-11-12
 tags:
 - okontrollerat ämnesord
 - okontrollerad term
 - prel-termer
 - koncept
-- under arbete
 ---
 
 # Okontrollerad term
 Hjälptexten beskriver hur okontrollerade termer läggs till verksbeskrivningen under Instans av Verk. 
 
-Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. [Se mer information om ämnesordsförslag på Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/nytt_amnesord/).
+Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. [Se mer information om ämnesordsförslag i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-nytt-ord).
 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
