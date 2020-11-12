@@ -44,7 +44,7 @@ Beskrivningen av en tryckt monografi innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok.  
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/tryckta-monografier) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsanvisningar och Librispraxis [se Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/tryckta-monografier) och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
