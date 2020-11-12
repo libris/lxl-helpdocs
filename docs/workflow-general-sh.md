@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord i Libris
 order: 100
-date: 2020-06-11
+date: 2020-11-12
 tags:
 - ämnesord
 - ämnesord i Libris
@@ -17,10 +17,8 @@ I Libris finns auktoriserade ämnesord tillhörande listorna Svenska ämnesord (
 
 Termer från listorna sao, barn, saogf, barngf och tgm är även sökbara via [id.kb.se, KB:s tjänst för publicering av länkade data](https://id.kb.se/). 
 
-Ämnesord är fortfarande sökbara [via Ämnesordsdatabasen](http://www.kb.se/katalogisering/Svenska-amnesord/) och [via Auktoritetsdatabasen](https://ask.kb.se/F/PEEY4PYPU4NKFTAXVJ3IX9UY16DMJHBHJQXPU7GHCXHRLBHY3X-38129?func=file&file_name=scan&local_base=kbs10) men observera att dessa databaser inte är uppdaterade sedan 2018-06-07.
-
-[Information om och riktlinjer för Svenska ämnesord finns på Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/). 
-[Information om Barnämnesorden finns på Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/Indexering-i-LIBRIS/). [Riktlinjer för Barnämnesorden finns på Svenska barnboksinstitutets webbplats](https://www.barnboksinstitutet.se/bibliotek/barnamnesordslistan/).
+[Information om och riktlinjer för Svenska ämnesord finns i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord). 
+[Information om Barnämnesorden finns i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/barnamnesord). [Riktlinjer för Barnämnesorden finns på Svenska barnboksinstitutets webbplats](https://www.barnboksinstitutet.se/bibliotek/barnamnesordslistan/).
 
 [För mer information om genre/formtermer, se generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre-form) under rubriken Genre/form.
 
