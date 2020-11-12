@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till Agent
 order: 28
-date: 2020-02-20
+date: 2020-11-12
 tags:
 - editor
 --- 
@@ -32,12 +32,11 @@ Verksbeskrivningen görs i instansbeskrivningsens översta del, Instans av Verk.
 
 Beskrivning av Agent sker genom att antingen länka till någon eller något som redan finns i Libris som en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). 
 
-I de fall en länkbar entitet saknas kan en ny entitet skapas genom att göra en ny auktoritetsbeskrivning. För riktlinjer när nya auktoritetsbeskrivningar bör skapas, [se Riktlinjer för det löpande auktoritetsarbetet i Libris](http://www.kb.se/dokument/Riktlinjer%20för%20det%20löpande%20auktoritetsarbetet%20i%20Libris.pdf). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter.
+I de fall en länkbar entitet saknas kan en ny entitet skapas, [se Riktlinjer för det löpande auktoritetsarbetet i Libris](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/riktlinjer-for-lopande-auktoritetsarbete-i-libris). Instruktioner för hur man praktiskt går till väga finns under Hjälptexter Agenter.
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/ "Anvisningar för katalogisering - RDA").
+För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/).
 
-För information om katalogiseringsregler som gäller vid auktoritetsarbete, [se 
-Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+För information om katalogiseringsregler som gäller vid auktoritetsarbete, [se Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter)
 
 ## Agent som Primar medverkan eller Medverkan
 
