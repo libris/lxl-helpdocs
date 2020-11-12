@@ -66,6 +66,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```  
+  
 [Läs mer om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/medietyp).
  
 ### Barartyp
@@ -76,6 +77,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```nb (= ark)```
   * ```nc (= volym)```
   * ```sd (= ljudskiva) + d (= ljudskiva)```  
+  
 [Läs mer om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/barartyp).
  
 ### Titel  
