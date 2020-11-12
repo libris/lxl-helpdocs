@@ -201,7 +201,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Konstruera sökingångar för verk och uttryck i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/konstruktion-av-sokingangar-for-verk-och-uttryck). 
+Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket#Text3). 
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR> 
