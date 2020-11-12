@@ -298,9 +298,9 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```kartografisk bild (cri)```
   * ```framförd musik (prm)```
   * ```stillbild (sti)```
-  * ```text (txt)```
+  * ```text (txt)```  
   
-<br>[Läs mer om innehållstyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/innehallstyp).
+[Läs mer om innehållstyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/innehallstyp).
   
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
