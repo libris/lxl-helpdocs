@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-10-23
+date: 2020-11-12
 tags:
 - instans
 --- 
@@ -28,7 +28,7 @@ tags:
 
 ## Inledning
 **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
-[Till Sammanfattning av inehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).
+[Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).
 
 
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
@@ -36,7 +36,7 @@ En instans är en instans av ett verk, till exempel en viss utgåva av ett verk.
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans.** 
 
   * För utförligare instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Anvisningar för katalogisering - RDA](https://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA")
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation/Instans - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans)
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)   
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
@@ -66,7 +66,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```
-<br>[Läs mer om medietyper i formathandboken för Libris/Voyager](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
+<br>[Läs mer om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/medietyp).
  
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
@@ -76,7 +76,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```nb (= ark)```
   * ```nc (= volym)```
   * ```sd (= ljudskiva) + d (= ljudskiva)```
-<br>[Läs mer om bärartyper i formathandboken för Libris/Voyager](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/barar/).
+<br>[Läs mer om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/barartyp).
  
 ### Titel  
 
@@ -86,7 +86,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
  ```Exempel: En arbetsdag i skriftsamhället```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+ [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -107,7 +107,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Varianttitel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
