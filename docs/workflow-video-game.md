@@ -136,7 +136,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
+För anvisningar om hur man anger delbeteckning och deltitel, [se Metadatabyrån, Gemensamma anvisningar anvisningar enligt RDA, Manifestation/Instans, Titel](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel på delar, sektioner eller supplemet . 
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
