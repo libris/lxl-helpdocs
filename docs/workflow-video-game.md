@@ -17,7 +17,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
-| [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel)  |
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
