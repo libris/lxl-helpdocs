@@ -297,11 +297,12 @@ För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](
   * ```Uppdaterande webbplats (= w)```
          
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
+För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
-### Amne  
-Länka  i första hand till entiteter för ämnesord. [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
-  
+### Amne 
+* Ämne  
+  Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
+
 ### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entiteten:  
