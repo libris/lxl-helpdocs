@@ -216,7 +216,7 @@ Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Ska
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
 
 ### Seriemedlemskap
-För anvisningar om hur man anger seriemedlemskap, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap.<br/>
+För anvisningar om hur man anger seriemedlemskap, [se Metadatabyrån under Gemensamma anvisningar enligt RDA, Manifestation/Instans, Serieuppgift](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/serieuppgift).<br/>
 Franchisenamn ska inte anges som serieuppgift, [se Titel](#titel).
 
 ### Malgruppsanmarkning  
