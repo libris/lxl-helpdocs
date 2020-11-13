@@ -105,7 +105,7 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
   Återge huvudtiteln som den förekommer i den föredragna källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
-[Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
 
 Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. 
 
