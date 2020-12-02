@@ -52,8 +52,8 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 * Ingår i system med förval sao och Termkomponenter Allmänt ämnesord och Underindelning för allmänt ämnesord läggs till med hjälp av en snippet.
 * Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord.
 
-Observera!
-* Ändra listkod vid behov. Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
+Observera:
+</br>* Ändra listkod vid behov. Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
 * Ändra termkomponenter vid behov. Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
