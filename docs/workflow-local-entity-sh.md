@@ -53,8 +53,8 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 * Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord.
 
 Observera:
-* Ändra listkod vid behov. Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
-* Ändra termkomponenter vid behov. Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
+* Ändra listkod vid behov! Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
+* Ändra termkomponenter vid behov! Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
@@ -74,7 +74,7 @@ Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord m
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
 * Ingår i system med förval sao och Termkomponenter Allmänt ämnesord och Underindelning för allmänt ämnesord läggs till med hjälp av en snippet.
-* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Klicka på Länka/skapa intill respektive term. Sidorutan öppnas. Länka termerna.
+* Skriv in aktuell term som Föredragen benämning inom typen Allmänt ämnesord respektive Underindelning för allmänt ämnesord. Klicka på Länka/skapa intill respektive term. Sidorutan öppnas. Länka termerna. Var noga med att välja termer från rätt system. Det går även att klicka på Skapa/länka direkt, söka efter termerna i sidorutan och sedan länka.
 
 Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera tillagd snippet *innan* länkning av termer görs.
 
