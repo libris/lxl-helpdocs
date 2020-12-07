@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2020-11-11
+date: 2020-12-07
 tags:
 - start
 ---
@@ -24,4 +24,4 @@ Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverk
 ### Vidare information
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
 * [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
-* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/) - ersätter Katalogisatörens verktygslåda och Anvisningar för katalogisering (RDA) från 2020-11-10
+* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/)
