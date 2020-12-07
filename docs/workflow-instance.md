@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-11-12
+date: 2020-12-07
 tags:
 - instans
 --- 
@@ -39,8 +39,7 @@ En instans är en instans av ett verk, till exempel en viss utgåva av ett verk.
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation/Instans - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans)
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)   
 
-I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
-
+I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation/Instans - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans).  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
@@ -48,8 +47,8 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 ![Sök fram och välj egenskap att lägga till](plusegenskapinstans2.png)  
 
 ### Instanstyp  
-En instans är av en viss typ. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. För tryckta instanser är  instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp  men ingen specifik instanstyp.  I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
-När man skapar Instans eller Verk som lokal entitet under en egenskap (se till exempel Medföljs av och Seriemedlemskap) behöver man inte välja Instans- eller Verkstyp.  
+En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
 ### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -67,7 +66,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```s (= audio)```
   * ```v (= video)```  
   
-[Läs mer om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/medietyp).
+[Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/medietyp).
  
 ### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
@@ -78,7 +77,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap (se till 
   * ```nc (= volym)```
   * ```sd (= ljudskiva) + d (= ljudskiva)```  
   
-[Läs mer om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/barartyp).
+[Om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/barartyp).
  
 ### Titel  
 
@@ -111,7 +110,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
   [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 #b)  
-  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
+  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra inom samma egenskap, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
