@@ -294,7 +294,7 @@ Ange den föredragna titeln i Huvudtitel.
  
 #### Funktioner som saknar funktionskod
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
-```Exempel: Spelutvecklare```
+```Exempel: spelutvecklare```
   
 ### Sprak 
 * Språk (language = 008/35-37)</BR>
