@@ -69,7 +69,7 @@ För att lägga till flera termer av samma typ, eller flera underindelningar ino
 
 Sammansatta ämnesord från Svenska ämnesord bestående av allmänt ämnesord med allmän underindelning finns inte alltid auktoriserade. I de fall en sammansatt term saknas går det bra att skapa lokala sammansatta entiteter med hjälp av en snippet för Sammansatt term. Anvisningar för vilka kombinationer av termer som är godkända enligt Svenska ämnesords riktlinjer finns på sidan [Allmänna ämnesord och underindelningar](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/typer-av-amnesord/allmanna-amnesord-och-underindelningar) respektive [Geografiska ämnesord](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/typer-av-amnesord/geografiska-amnesord).
 
-Se [Format i Libris i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris/format-i-libris) för regler kring hur sammansatta termer får konstrueras.
+Se [Format i Libris för ämnesord och genre/formtermer i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris/format-i-libris) för regler kring hur sammansatta termer får konstrueras.
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj typen Sammansatt term i rullgardinsmenyn Skapa lokal entitet.
