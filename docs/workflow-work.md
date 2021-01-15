@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-11-12
+date: 2021-01-15
 tags:
 - verk
 --- 
@@ -151,22 +151,8 @@ Har del/Verk/Verkstyp/Språk (Language/label = 730 #l)
 Länka till entitet.  
   
 ##### Parallelltext  
-(008/35-37 + 041 #a + #a)  
-* Språk (language = 008/35-37) +
-   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)  
-   Ange det första språket genom att länka till språket, under Språk. Länka till ytterligare ett språk för parallelltexten. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
-   
-##### Parallelltext och texten delvis översatt 
-(008/35-37 + 041 0/- #a + 041 1/- #a #h)  
-* Språk (language = 008/35-37) +
-   Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
-* Har del/Verk/Verkstyp/Språk (hasPart/Work/type: Work/language = 041 #a) +  
-  Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h) 
-  
-  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: Lägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Översättning av/Verk/Verkstyp/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
- 
+Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)  
+
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
   
