@@ -22,6 +22,13 @@ Det finns också en [spellista för Librisutbildning](https://www.youtube.com/pl
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
 ### Vidare information
-* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/) - katalogiseringsanvisningar, regler, praxis, exempel, riktlinjer för ämnesord, klassifikation, auktoritetsarbete
+* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/)  
+Här hittar du  
+    * information om KB:s metadatastandarder
+    * sidor för samarbetsgrupper inom metadata och katalogisering
+    * anvisningar för katalogisering enligt RDA
+    * riktlinjer och praxis för auktoritetsarbete, klassifikation och ämnesord
+    * exempel från Libris katalogisering
+    * länkar till utbildningsmaterial och tjänster  
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
 * [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
