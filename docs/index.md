@@ -23,7 +23,7 @@ Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverk
 
 ### Vidare information
 * [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/)  
-Här hittar du  
+Här hittar du:   
     * information om KB:s metadatastandarder
     * sidor för samarbetsgrupper inom metadata och katalogisering
     * anvisningar för katalogisering enligt RDA
