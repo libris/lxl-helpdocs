@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Jurisdiktion - Skapa ny 
 order: 77
-date: 2020-04-29
+date: 2021-01-14
 tags:
 - agenter
 - auktoriteter
@@ -36,7 +36,7 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
  
 
 ## Inledning
-För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
+För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
@@ -57,7 +57,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/sigel/signatur. 
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/signatur. 
   <br/>```Exempel:```
   * ```2018-08-28/S/NB/carbac```
   * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
