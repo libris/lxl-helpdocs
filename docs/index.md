@@ -22,6 +22,6 @@ Det finns också en [spellista för Librisutbildning](https://www.youtube.com/pl
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
 ### Vidare information
+* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/) - katalogiseringsanvisningar, regler, praxis, exempel, riktlinjer för ämnesord, klassifikation, auktoritetsarbete
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
 * [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
-* [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/)
