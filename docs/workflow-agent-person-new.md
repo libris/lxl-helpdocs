@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2020-04-29
+date: 2021-01-15
 tags:
 - agenter
 - auktoriteter
@@ -39,7 +39,7 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | | [Organisatorisk tillhörighet](#ordningstal) | |
 
 ## Inledning
-För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete.](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete")
+För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
 
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
@@ -232,14 +232,14 @@ Används för att ange fullständig namnform i de fall då förkortning används
 
 ### Titel eller övrig beteckning 
 * Titel eller övrig beteckning (marc:titlesAndOtherWordsAssociatedWithAName = 100 #c)
-  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. [Formuleras enligt instruktioner i Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet).
+  <br/>Används vid behov som särskiljande tillägg till den auktoriserade namnformen. [Formuleras enligt instruktioner i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/sarskiljande-tillagg-for-personer#Titel%20eller%20%C3%B6vrig%20beteckning%20f%C3%B6rknippad%20med%20personen).
   <br/>```Exempel:```
   <br/>```påve```
   <br/>```(fiktiv gestalt)```
 
 ### Andra attribut för person- och organisationsnamn 
 * Andra attribut för person- och organisationsnamn (marc:hasOtherAtrributes = 368)
-  <br/>[Formuleras enligt instruktioner i Anvisningar för katalogsiering (RDA)](http://www.kb.se/rdakatalogisering/Auktoritetsarbete/Personer/#titelovrigbet). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
+  <br/>[Formuleras enligt instruktioner i Metadatabyrån)](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/sarskiljande-tillagg-for-personer). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
   <br/>```Professorer sao```
