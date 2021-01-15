@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 76
-date: 2020-04-29
+date: 2021-01-15
 tags:
 - agenter
 - auktoriteter
@@ -40,7 +40,7 @@ Vissa egenskaper kan vara obligatoriska att lägga till. Nya egenskaper läggs t
 
 Det är möjligt att berika en befintlig agentpost från mall. Klicka på det runda plustecknet i verktygsmenyn och välj: Berika från mall.
 
-För information om katalogiseringsregler som gäller vid auktorisering, [se Anvisningar för katalogisering (RDA) - Auktoritetsarbete](http://www.kb.se/rdakatalogisering/Auktoritetsarbete// "Anvisningar för katalogisering (RDA) - Auktoritetsarbete").
+För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
 
   
 ## Adminmetadata
@@ -112,8 +112,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
  * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur.
-  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum och sigel/signatur.
+  <br/>```Exempel: Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03 S/marjan```
 
 
 ## Agent
