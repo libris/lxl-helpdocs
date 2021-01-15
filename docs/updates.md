@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-11-12
+date: 2021-01-15
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-01-15
+* Uppdatering av länkar till Metadatabyrån. Gäller hjälptexter för agenter.
 
 2020-11-12
 * Länkar till den tidigare använda tjänsten Anvisningar för katalogisering (RDA) ändrade till [Metadatabyrån](https://metadatabyran.kb.se/). Ändringar gäller hela hjälpsektionen.
