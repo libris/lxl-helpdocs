@@ -57,10 +57,10 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
-  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan till exempel vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum/sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/signatur. 
+  <br/>Anmärkningar tänkta för kollegor inom Libriskollektivet. Det kan t.ex. vara uppgifter som rör ändring av den auktoriserade namnformen. Motivera gärna ändringen och komplettera alltid med datum och sigel/signatur. Det är önskvärt att alla nya auktoriserade namnformer kompletteras med datum/signatur. 
   <br/>```Exempel:```
-  * ```2018-08-28/S/NB/carbac```
-  * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03/S/UL/marjan```
+  * ```2018-08-28 S/carbac```
+  * ```Ändrat auktoriserad namnform från Xxx till Yyy 2010-01-03 S/marjan```
 
 ### Konsulterad källa
 * Konsulterad källa (sourceConsulted) innehåller Benämning (label = 670 #a) samt Uppgift från källa (citationNote = 670 #b)
@@ -125,7 +125,7 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
 
 ### Se även
 * Se även (seeAlso = 510)
-  <br/>Här länkas mot annan agent som hör ihop med jurisdiktionen. Det kan t ex vara föregångare eller efterföljare.
+  <br/>Här länkas mot annan agent som hör ihop med jurisdiktionen. Det kan t.ex. vara föregångare eller efterföljare.
   <br/>```Exempel: Göteborgs kommun (Sverige)```
   <br/>För att lägga till: Klicka på plustecknet vid egenskapen Se även, välj typen Jurisdiktion i sökrutan till vänster. Sök efter auktoriserad namnform och lägg till. (Finns ingen länkbar entitet behöver en skapas, dvs. Skapa ny Agent med länkning till den första. Avsluta och spara den ursprungliga först.)
   
