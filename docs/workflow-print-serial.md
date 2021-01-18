@@ -39,7 +39,7 @@ Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Tryckt seriell resurs, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Tryckt seriell resurs.  
 
-För information om katalogiseringsanvisningar och Librispraxis [se Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/seriella-resurser) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsanvisningar och Librispraxis [se Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser) och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
