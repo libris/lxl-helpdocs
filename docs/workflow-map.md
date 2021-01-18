@@ -9,4 +9,4 @@ tags:
 
 # Karta
 
-Se [Kartor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/kartor)
+Se [Kartor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/kartor)
