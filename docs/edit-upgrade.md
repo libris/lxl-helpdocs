@@ -21,7 +21,7 @@ tags:
 Följ gällande anvisningar när du redigerar och uppgraderar en post. 
 
 * [Metadatabyrån](https://metadatabyran.kb.se/)  
-* [Kärnelement och obligatoriska element](https://katalogverk.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/index.html)
+* [Kärnelement och obligatoriska element](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/karnelement-och-obligatoriska-element)
 
 ## Redigera
 [Läs under Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
