@@ -21,7 +21,7 @@ tags:
 Följ gällande anvisningar när du skapar en ny post. 
 
 * [Metadatabyrån](https://metadatabyran.kb.se/)  
-* [Kärnelement och obligatoriska element](https://katalogverk.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/index.html)
+* [Kärnelement och obligatoriska element](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/karnelement-och-obligatoriska-element)
 
 ## Soka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
