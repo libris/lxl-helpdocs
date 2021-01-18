@@ -13,4 +13,6 @@ Katalogiseringsregler och information om hur agenter anges i förhållande till 
 
 Agenter anges genom att antingen länka till en länkbar entitet (en auktoritetsbeskrivning finns) eller genom att beskriva agenten som en lokal entitet (auktoritetsbeskrivning saknas). För utförlig information (format och exempel) om agenter som länkade eller lokala entiteter, se Metadatabyrån under rubriken [Agenter i Libris](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris).
 
+I de fall en agent som länkbar entitet behöver skapas, se hjälptexter för Agenter i vänstermenyn.
+
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
