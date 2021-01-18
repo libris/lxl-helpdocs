@@ -293,7 +293,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
 
 ### Instans av verk
-* Instans av verk/Text (instanceOf/Work/Rörlig bild)  
+* Instans av verk/Rörlig bild (instanceOf/Work/MovingImage)  
 För en film är verkstypen Rörlig bild.  
 
 ### Verkets titel 
