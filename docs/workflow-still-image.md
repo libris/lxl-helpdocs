@@ -10,4 +10,4 @@ tags:
 
 # Stillbild
 
-Se [Bilder i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/bilder)
+Se [Bilder i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bilder)
