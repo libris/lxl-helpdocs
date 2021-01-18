@@ -280,7 +280,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   
 ## Verk   
 ### Instans av Verk/Musik
-  * Instans av Verk/Musik (instanceOf/Work/Audio)  
+  * Instans av Verk/Musik (instanceOf/Work/Music)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Musik.  
   [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
