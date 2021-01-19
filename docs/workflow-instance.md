@@ -108,7 +108,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Varianttitel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
-  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel)
+  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra inom samma egenskap, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
