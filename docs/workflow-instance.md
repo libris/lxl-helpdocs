@@ -483,7 +483,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   ![Exempel på Anmärkning, för seriell resurs](anmarkning.png)  
   
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w,finns i gamla poster men kan inte läggas till i nya.
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, finns i gamla poster men kan inte läggas till i nya.
   
 ### Elektronisk adress
 
