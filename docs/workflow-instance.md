@@ -477,9 +477,13 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 ![776](776.png)  
   
 * Annat bärarformat/Typanmärkning (776 #i)   
-  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
+  Typanmärkning i samband med Annat bärarformat finns i gamla poster men kan inte läggas till i nya.  
+  
+  Använd Anmärkning (500) för att vid behov förtydliga typen av relation. 
+  ![Exempel på Anmärkning, för seriell resurs](anmarkning.png)  
+  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w,finns i gamla poster men kan inte läggas till i nya.
   
 ### Elektronisk adress
 
