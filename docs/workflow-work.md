@@ -31,7 +31,7 @@ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). D
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av verk.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck)
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck)
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
@@ -56,7 +56,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
  
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Konstruktion av sökingångar för verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/konstruktion-av-sokingangar-for-verk-och-uttryck).  
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Konstruktion av sökingångar för verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/konstruktion-av-sokingangar-for-verk-och-uttryck).  
 
 #### Verkets titel
 ##### Verk med Primär medverkan
@@ -285,7 +285,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```stillbild (sti)```
   * ```text (txt)```  
   
-[Läs mer om innehållstyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/innehallstyp).
+[Läs mer om innehållstyp i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/innehallstyp).
   
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
@@ -296,7 +296,7 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
- [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/sammanfattning-av-innehall).  
+ [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
   
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
