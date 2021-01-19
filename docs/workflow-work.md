@@ -26,7 +26,7 @@ tags:
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk. [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk. [Läs mer om Verk och Instans i startversionen på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av verk.** 
 
@@ -194,14 +194,14 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
  Skriv "avhandling" i sökrutan.  
  ```Exempel: Akademisk avhandling```  
-  [Se även Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+  [Se även Anmärkning om akademisk avhandling nedan](#anmarkning-om-akademisk-avhandling).  
     
 #### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf efter sökordet, t.ex. "bilderböcker barngf".  
-[Mer information om listkoder](http://katalogverk.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
+[Mer information om listkoder](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord-genre-form).  
 
 ### Klassifikation  
 **VERSION 1.19:**  
