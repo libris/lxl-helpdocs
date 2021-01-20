@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2020-11-12
+date: 2021-01-20
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-01-20
+* Hjälptexter helt eller delvis ersatta av hänvisningar till uppdaterade anvisningar i Metadatabyrån. Ändringar gäller [Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) och [Relationer till delar och verk](https://libris-dev.kb.se/katalogisering/help/workflow-agent-relation).
 
 2020-11-12
 * Länkar till den tidigare använda tjänsten Anvisningar för katalogisering (RDA) ändrade till [Metadatabyrån](https://metadatabyran.kb.se/). Ändringar gäller hela hjälpsektionen.
