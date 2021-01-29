@@ -308,8 +308,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Flera år (osäkra år)  
   [Se Huvudsakligt tillgänggliggörande/Kompletterande datum](#huvudsakligt-tillgangliggorande) .   
   
- [Läs mer om År och Datum i inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-   
+
 ### Tillverkning 
 * Tillverkning (manufacture)  
 
