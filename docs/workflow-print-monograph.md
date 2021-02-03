@@ -230,7 +230,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 
 ### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
- Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.
+ Länka till utgåvan i annat bärarformat.
 
 
 ## Verk
