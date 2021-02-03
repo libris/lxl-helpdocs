@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2021-02-02
+date: 2021-02-03
 tags:
 - instans
 --- 
@@ -470,16 +470,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
  
 ### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till är en monografi som har identifikator (ISBN), skapas i marcexporten 776 #t (Titel), #z (ISBN) samt 776 #w (Kontrollnummer). Om instansen som länken går till är en seriell resurs som har identifikator (ISSN), skapas i marcexporten 776 #t (Titel), #x (ISSN) samt 776 #w (Kontrollnummer). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-![776](776.png)  
-
-* Annat bärarformat/Typanmärkning (776 #i)   
-  Typanmärkning i samband med Annat bärarformat finns i gamla poster men kan inte läggas till i nya.  
-  Använd Anmärkning (500) för att vid behov förtydliga typen av relation. 
-  ![Exempel på Anmärkning, för seriell resurs](anmarkning.png)  
-  
-* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, finns i gamla poster men kan inte läggas till i nya.
+  Länka till posten för det andra bärarformatet.  
+  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
   
 ### Elektronisk adress
 
