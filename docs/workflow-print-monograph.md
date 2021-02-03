@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2020-11-12
+date: 2021-02-03
 tags:
 - monografi
 --- 
@@ -230,7 +230,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 
 ### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-Länka till instans.
+L Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.
 
 
 ## Verk
