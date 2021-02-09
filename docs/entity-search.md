@@ -30,6 +30,10 @@ Sökningen görs antingen via:
 
 För att se alla entiteter av en viss typ, tryck Enter när markören står i sökfältet eller skriv * i sökfältet.  
 
+## Lanka entitet
+Om det finns en befintlig lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en länkbar entitet eller låt den lokala entiteten ligga kvar.) 
+
+![Lokal entitet steg 3](lokalentitet3.png)
 
 
 ## Lagg till entitet eller skapa lokal entitet
@@ -50,7 +54,7 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan entiteten.
 ![Lokal entitet steg 2](lokalentitet2.png)
 
-## Exempel lokala entiteter
+## Exempel pa lokala entiteter
 Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall det inte finns en länkbar entitet och heller inte behöver upprättas en sådan. Det senare gäller agenter, se [Metadatabyrån - Riktlinjer för löpande auktoritetsarbete i Libris](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/riktlinjer-for-lopande-auktoritetsarbete-i-libris) när det behövs eller inte.
 
 
@@ -134,12 +138,7 @@ Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall
 
 * Möte som Ämne (Subject/agent/Meeting = 611 2/_)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
- <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999```
-
-## Lanka entitet
-Om det finns en befintlig lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en länkbar entitet eller låt den lokala entiteten ligga kvar.) 
-
-![Lokal entitet steg 3](lokalentitet3.png)
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999``
 
 
 ## Duplicera entitet
