@@ -13,9 +13,9 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Söka fram entiteter](#soka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
-| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
-| [Exempel på lokala entiteter](#exempel-pa-lokala-entiteter) | | [Inkommande länkar](#inkommande-lankar) |
-| [Länka entitet](#lanka-entitet) | |  |
+| [Länka entitet](#lanka-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
+| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Inkommande länkar](#inkommande-lankar) |
+| [Exempel på lokala entiteter](#exempel-pa-lokala-entiteter) | | |
 
 ## Soka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
