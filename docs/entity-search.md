@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Entiteter
-date: 2020-09-23
+date: 2021-02-09
 order: 19
 tags:
 - redigering
@@ -14,7 +14,8 @@ tags:
 | ------ | ------ | ------ |
 | [Söka fram entiteter](#soka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
 | [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
-| [Länka entitet](#lanka-entitet) | | [Inkommande länkar](#inkommande-lankar) |
+| [Exempel på lokala entiteter](#exempel-pa-lokala-entiteter) | | [Inkommande länkar](#inkommande-lankar) |
+| [Länka entitet](#lanka-entitet) | |  |
 
 ## Soka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
@@ -49,8 +50,94 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan entiteten.
 ![Lokal entitet steg 2](lokalentitet2.png)
 
+## Exempel lokala entiteter
+Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall det inte finns en länkbar entitet och heller inte behöver upprättas en sådan. Det senare gäller agenter, se [Metadatabyrån - Riktlinjer för löpande auktoritetsarbete i Libris](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/riktlinjer-for-lopande-auktoritetsarbete-i-libris) när det behövs eller inte.
+
+
+### Person
+
+* Person som Primär medverkan (contribution/PrimaryContribution/agent/Person = 100 1/_) eller Medverkan (contribution/Contribution/agent/Person = 700 1/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+ <br/>```Exempel: Efternamn: Wigg samt Förnamn: Susan```
+ <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in uppgiften.
+ <br/>```Exempel: Namn: Sigfús Daðason```
+
+* Person som Ämne (Subject/agent/Person = 600 1/4)
+<br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+ <br/>```Exempel: Efternamn: Goodman samt Förnamn: Amy```
+ <br/>För personnamn i rak följd. Klicka på plustecknet vid Person och välj egenskapen Namn. Skriv in korrekt namnform.
+ <br/>```Exempel: Namn: Madonna samt Födelsetid och/eller dödstid: 1958-```
+
+### Fiktiv gestalt
+
+* Fiktiv gestalt som Ämne (Subject/agent/Person = 600 1/4)
+<br/>Klicka på plustecknet vid Ämne och välj Person i rullmenyn för Skapa lokal entitet. Ange personnamnet enligt samma princip som för en verklig person. Tillägget "(fiktiv gestalt)" läggs till via egenskapen Titel eller övrig beteckning.
+  <br/>```Exempel:```
+  * ```Namn: Bambi samt Titel eller övrig beteckning (fiktiv gestalt)```
+  * ```Efternamn: Granger samt Förnamn: Hermione samt Titel eller övrig beteckning (fiktiv gestalt)```
+
+### Organisation
+
+* Organisation med namnformen i ett led som Primär medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/_) eller Medverkan (contribution/PrimaryContribution/agent/Organization = 710 2/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Vikingeskibsmuseet (Roskilde)```
+
+* Organisation med namnformen i flera led som Primär medverkan (contribution/PrimaryContribution/agent/Organization = 110 2/_) eller Medverkan (contribution/Contribution/agent/Organization = 710 2/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort Namn som följer med i en snippet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Organisation/Är del av/Organisation/Namn: British Library samt Organisation/Namn på underordnad enhet: Department of Oriental Manuscripts and Printed Books```
+<br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+
+* Organisation med namnformen i ett led som Ämne (Subject/agent/Organization = 610 2/4)
+<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Kastelholms slott```
+
+* Organisation med namnformen i flera led som Ämne (Subject/agent/Organization = 610 2/4)
+<br/>Klicka på plustecknet vid Ämne och välj Organisation i rullmenyn för Skapa lokal entitet. Ta bort Namn som följer med i en snippet. Klicka på plustecknet vid Organisation och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Organisation i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Organisation/Är del av/Organisation/Namn: Library of Congress samt Organisation/Namn på underordnad enhet: Federal Research Division```
+<br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+
+### Jurisdiktion
+
+* Jurisdiktion med namnform i ett led som Primär medverkan (contribution/PrimaryContribution/Agent/Jurisdiction = 110 1/_) eller Medverkan (contribution/Contribution = 710 1/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+  <br/>```Exempel: Namn: Region Hovedstaden (Danmark)```
+
+* Jurisdiktion med namnformen i flera led som Primär medverkan (contribution/PrimaryContribution/agent/Jurisdiction = 110 1/_) eller Medverkan (contribution/Contribution/agent/Jurisdiction = 710 1/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Jönköpings kommun (Sverige) samt Jurisdiktion/Namn på underordnad enhet: Kulturnämnden```
+<br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+
+* Jurisdiktion med namnformen i ett led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
+<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+   <br/>```Exempel: Namn: Aalborgs kommun (Danmark)```
+
+* Jurisdiktion med namnformen i flera led som Ämne (Subject/agent/Jurisdiction = 610 1/4)
+<br/>Klicka på plustecknet vid Ämne och välj Jurisdiktion i rullmenyn för Skapa lokal entitet. Klicka på plustecknet vid Jurisdiktion och lägg till egenskaperna Är del av samt Namn på underordnad enhet. Klicka på plustecknet vid egenskapen Är del av och välj återigen Jurisdiktion i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform.
+<br/>```Exempel: Jurisdiktion/Är del av/Jurisdiktion/Namn: Storbritannien samt Jurisdiktion/Namn på underordnad enhet: MI5```
+<br/>Om namnformen består av fler än två led används plustecknet inom Namn på underordnad enhet för att skapa ny rad. Här anges ytterligare led av namnformen.
+
+#### Släkt
+
+* Släkt som Primär medverkan (contribution/PrimaryContribution/agent/Family = 100 3/) eller Medverkan (contribution/Contribution/agent/Family =700 3/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Klicka på plustecknet inom Släkt, sök efter och lägg till Titel eller övrig beteckning. Skriv in korrekt namnform, ange släkt och årtal vid behov.
+  <br/>```Exempel: Namn: Ibsen samt Titel eller övrig beteckning: släkt```
+  
+* Släkt som Ämne (Subject/agent/Family = 600 3/_)
+<br/>Klicka på plustecknet vid Ämne och välj Släkt i rullmenyn för Skapa lokal entitet. Klicka på plustecknet inom Släkt, sök efter och lägg till Titel eller övrig beteckning. Skriv in korrekt namnform, ange släkt och årtal vid behov.
+  <br/>```Exempel: Namn: Hilton samt Titel eller övrig beteckning: släkt samt Födelsetid och/eller dödstid: 1900-talet-```
+
+#### Mote
+
+* Möte som Primär medverkan (contribution/PrimaryContribution/agent/Meeting = 111 2/_) eller Medverkan (contribution/Contribution/agent/Meeting = 711 2/_)
+<br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
+  <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Ordningstal: 21 samt Datum: 2006```
+
+* Möte som Ämne (Subject/agent/Meeting = 611 2/_)
+<br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999```
+
 ## Lanka entitet
-Om det finns en lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en auktoriserad entitet eller låt den lokala entiteten ligga kvar.) 
+Om det finns en befintlig lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en länkbar entitet eller låt den lokala entiteten ligga kvar.) 
 
 ![Lokal entitet steg 3](lokalentitet3.png)
 
