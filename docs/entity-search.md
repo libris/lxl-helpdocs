@@ -139,7 +139,7 @@ Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall
 
 * **Möte som Ämne** (Subject/agent/Meeting = 611 2/_)
 <br/>Klicka på plustecknet vid Ämne och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
- <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999``
+ <br/>```Exempel: Namn: Nationella cykelhjälmskonferensen samt Ordningstal: 2 samt Datum: 1999```
 
 
 ## Duplicera entitet
