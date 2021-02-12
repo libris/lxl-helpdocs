@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2021-02-03
+date: 2021-02-12
 tags:
 - monografi
 --- 
@@ -222,7 +222,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
  
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
-(tableofContents = 505 8/0 #t, #r)  
+(tableofContents = 505 8/_ #t, #r)  
 
 ### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
