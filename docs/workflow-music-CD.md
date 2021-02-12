@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2020-11-12
+date: 2021-02-12
 tags:
 - musik-CD
 - ljudinspelning
@@ -260,7 +260,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     * ```Ge mej din hand -- Våld -- Varför e Sverige så kallt? -- Rockin' chair -- Dig it -- En del och andra -- Enighet -- Håll ut```
     * ```Don't Deceive Me / Fats Domino -- Cheatin' Woman / Frankie Ford -- Honey Hush / Joe Turner -- Diddy-Y-Diddy-O / Roy Brown -- Whirlaway / Allen Toussaint -- Cha Dooky Doo / Art Neville -- Real Gone Party / Ruth & Al -- Chickee Wah Wah / Bobby Marchan -- There'll Be No Backin' Out / Mickey & Sylvia -- That's All I Need To Know / Sam Cooke -- Carry On / Jerry Byrne```
 
-   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)  
+   * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)  
   För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning)
   
 ### Anmarkning
