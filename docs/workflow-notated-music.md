@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2020-11-12
+date: 2021-02-12
 tags:
 - musiktryck
 --- 
@@ -356,7 +356,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
    * ```Concerto nach italienischem Gusto, BWV 971 ; Ouverture nach französischer Art, BWV 831 ; Appendix: Ouverture in c, BWV 831a```
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
 
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/0 #t, #r, #g)    
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)    
   För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, [se hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning).
 
 ### Malgruppsanmarkning
