@@ -110,7 +110,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel.   
+För anvisningar om hur man anger delbeteckning och deltitel, [se Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel): Titlar på delar, sektioner eller supplement
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -184,7 +184,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
  
- [Läs mer om År och Datum i inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+ [Läs mer om Utgivningstid i Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
 ### Copyrightar
 För film anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, [se Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
