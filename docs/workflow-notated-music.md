@@ -49,11 +49,11 @@ Beskrivningen av ett musiktryck innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Noterad musik, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Noterad musik.  
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
 ## Instans  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -120,14 +120,14 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)   
   För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [Metadatabyrån, Grenrella anvisningar - RDA, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Lichtbogen```
   * ```Quartett Nr. 2 op. 92 für 2 Violinen, Viola und Violoncello```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
   ```Exempel: Huvudtitel: The best of Heavy metal, fileringsvärde: 4```  
-  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+  Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -192,7 +192,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
     Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
     Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.  
     Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
-    [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
+    Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 #### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
@@ -221,7 +221,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
     * ```Datum: [1732?]-1756```
     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
- [Läs mer om År och Datum i inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+ Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
 
 ### Tillverkning 
 * Tillverkning (manufacture)  
@@ -287,8 +287,6 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
   * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS! Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
-
-[Läs mer om Seriemedlemskap i inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
      
 #### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)  
@@ -357,7 +355,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
    * ```Chain of fools / Donald Covay -- A deeper love / David Cole, Robert Clivilles -- Do right woman, do right man / Chips Moman, Dan Penn -- I knew you were waiting (for me) / Dennis Morgan, Simon Climie```
 
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)    
-  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, [se hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning).
+  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning).
 
 ### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
@@ -378,7 +376,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 ### Instans av Verk
 * Instans av Verk/Noterad musik (instanceOf/Work/NotatedMusic)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Noterad musik.  
-  [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+  Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
   För att lägga till egenskaper under Instans av Verk/Noterad musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
   
@@ -397,7 +395,7 @@ om du vill berika från mall för att få fram de vanligaste egenskaperna (Klick
 
 **Observera:** Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.
 
-[Se även hjälptexten Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
+Se även hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
  
 ### Verkets titel
 Ange den föredragna titeln för verket vid behov. [Följ anvisningar för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
@@ -466,8 +464,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 ### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.</BR>
-  För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
-  [Se även Auktoritetsgruppens rekommendationer i inlägg på Supportforum för nya Libris](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/).  
+  För ytterligare instruktioner om hur man anger relationer till agenter, se hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
   
 #### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
@@ -477,7 +474,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
   * ```Binchois, Gilles, ca 1400-1460```
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
+För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
   ```Exempel: relator/composer (= Kompositör, tonsättare, cmp)```  
 
 #### Medverkan
@@ -486,7 +483,7 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
   ```Exempel: Boye, Karin, 1900-1941```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.  
-  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
+  För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
   <br/>```Exempel:```
   * ```Sångtext/lyr```
   * ```Redaktör/edt```
@@ -502,7 +499,7 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
 <br/>För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
 
 #### Översättning  
-För en översättning, [se generell beskrivning av Verk](https://libris.kb.se/katalogisering/help/workflow-work#sprak): Språk/Översättning.
+För en översättning, se generell beskrivning av [Verk](https://libris.kb.se/katalogisering/help/workflow-work#sprak): Språk/Översättning.
 
 ### Genre form
 Länka till entitet.  
@@ -512,13 +509,13 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
   Här anges såväl besättning som genre/form.  
   Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
-  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. [Mer information om listkoder på Svenska ämnesords webbplats](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).
+  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer information om listkoder på [Svenska ämnesords sidor i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form).
   <br/>```Exempel:```
    * ```Piano```
    * ```Blandad kör```
    * ```Menuetter```
       
-[Se instruktionsfilm Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ### Klassifikation 
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
@@ -527,7 +524,7 @@ För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https:/
 För samlingar där den geografiska eller kronologiska aspekten är framhävd får genre/form/besättning kompletteras med geografiska eller kronologiska ämnesord (i separata fält). Titel "French piano music" kan alltså indexeras med Piano och Frankrike.  
 Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ämne och klicka på plustecknet vid termen. Klicka sedan på plustecknet vid Ämne och välj typ i listan Alla typer: Geografiskt ämnesord eller Kronologiskt ämnesord. Sök upp ämnesordet, t ex Frankrike, och länka till entitet genom att klicka på plustecknet vid termen.  
    
-För ytterligare instruktioner, [se Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
   
 ### Notationssystem och sprak
 * Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 #b)  
@@ -608,7 +605,7 @@ För ytterligare instruktioner, [se Ämnesord i Libris](https://libris.kb.se/kat
     
 #### Relationer till andra verk
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t) 
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow/-agent-relation)
+  Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow/-agent-relation)
 
 * Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
