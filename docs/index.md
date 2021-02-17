@@ -32,5 +32,6 @@ Här hittar du:
     * länkar till utbildningsmaterial och tjänster  
     
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.
+
 * [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
-* [Webbplatsen Supportforum för nya Libris](https://kundo.se/org/librisxl/)
+
