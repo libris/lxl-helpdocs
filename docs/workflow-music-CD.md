@@ -45,13 +45,13 @@ Beskrivningen av en musik-CD innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Musik-CD - ljudinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Musik-CD.
 
-För information om katalogregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/). samt [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/). samt [RDA Toolkit](https://access.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom egenskap, enligt Anvisningar för katalogisering - RDA.
 
 NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.4.1](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
 ## Instans
   För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -78,11 +78,11 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 
 #### Huvudtitel    
   * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  Återge huvudtiteln som den förekommer i källan, [se Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).</BR> 
+  Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html).</BR> 
   ```Exempel: En schlager i Sverige```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
   ```Exempel: Huvudtitel: En schlager i Sverige, fileringsvärde: 3```  
-  [Se exempel i formathandboken för Libris/Voyager - Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+  Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
 
   För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
@@ -94,7 +94,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
   ```Exempel: fler progglåtar : rariteter för den inbitne samlaren```
 
 #### Varianttitel   
-  En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, [se RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord</BR>
+  En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord</BR>
   För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varanttitel.
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)   
     Skriv in uppgiften under Huvudtitel.    
@@ -102,7 +102,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 
   För en huvudtitel på ett annat språk eller i en annan skriftart, se Parallelltitel nedan.
 
-  Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, [se Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
+  Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som en varianttitel. Notera dock att för utgivna fysiska fonogram är hela resursen godkänd källa, utan prioritetsordning, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). Det innebär att man vanligen kan hitta en korrekt form av titeln och ange den som huvudtitel.
 
   En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varanttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning.
 
@@ -110,7 +110,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
   ```Exempel: Titeln felstavad, korrekt titel:```   
     
 #### Delbeteckning och deltitel
-  För anvisningar om hur man anger delbeteckning och deltitel, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel) under rubriken Titel. 
+  För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel) under rubriken Titel. 
 
 #### Parallelltitel  
   Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
@@ -137,7 +137,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 ### Utgivning  
   * Utgivning (publication)  
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats,        Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning. (NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.)
+  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning. (NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.)
   
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.
  
@@ -161,7 +161,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. 
   Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.  
   Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
-  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
+  Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
@@ -193,7 +193,7 @@ Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, M
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Ange det senaste året för copyright. Om det senaste året förekommer både som ©- och ℗-år på resursen, ange ℗-året  
   För att få fram copyrighttecknet eller tecknet för p-år, kopiera från exemplet nedan. 
-  [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Se också hjälptexten [Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```©2017```
@@ -225,7 +225,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   ```Exempel: 7320470195826```  
    
 ### Omfang
-  Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
+  Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
   * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 1 CD (1 tim., 12 min.) ```<br/>
@@ -250,7 +250,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     
 ### Seriemedlemskap
   * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
-  För anvisningar om hur man anger Seriemedlemskap, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap) under rubriken Seriemedlemskap. 
+  För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap) under rubriken Seriemedlemskap. 
    
 ### Innehallsforteckning  
   * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
@@ -261,7 +261,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     * ```Don't Deceive Me / Fats Domino -- Cheatin' Woman / Frankie Ford -- Honey Hush / Joe Turner -- Diddy-Y-Diddy-O / Roy Brown -- Whirlaway / Allen Toussaint -- Cha Dooky Doo / Art Neville -- Real Gone Party / Ruth & Al -- Chickee Wah Wah / Bobby Marchan -- There'll Be No Backin' Out / Mickey & Sylvia -- That's All I Need To Know / Sam Cooke -- Carry On / Jerry Byrne```
 
    * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)  
-  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning)
+  För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning)
   
 ### Anmarkning
   * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
@@ -282,7 +282,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
 ### Instans av Verk/Musik
   * Instans av Verk/Musik (instanceOf/Work/Music)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Musik.  
-  [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+  Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
   För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Musik - Lägg till egenskaper under: Musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
@@ -347,7 +347,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
   
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+  Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 #### Relationer till andra verk
 * Relationer till andra verk utan Medverkan och funktion/Primär medverkan
@@ -355,12 +355,12 @@ Föredragen titel för ett verk utan primär medverkan anges här.
  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
   
 * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+  Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
   
 ### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent.  Relationer till utgivare (710) anges för närvarande också här.</BR>
-  För ytterligare instruktioner om hur man anger relationer till agenter, [se hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR> 
+  För ytterligare instruktioner om hur man anger relationer till agenter, se hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR> 
   
 #### Primär medverkan
   * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
@@ -368,7 +368,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
 <br/>```Exempel: Persson, Peps, 1946-```  
   * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)
+  För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
 <br/>```Exempel:```
     * ```Sångare, sng```
     * ```Musiker, mus```<br/>
@@ -381,7 +381,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
   ```Exempel: Skoglund, Bosse, 1936-```  
   * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)    
   ```Exempel: Producent, pro```  
 
 ### Sprak 
@@ -403,17 +403,17 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
     * ```Musikinspelningar```
     * ```Reggae```
 
-  [Se instruktionsfilm Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+  Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ### Klassifikation  
-  För anvisningar om hur man anger Klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) under rubriken Klassifikation.
+  För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) under rubriken Klassifikation.
    
 ### Malgrupp     
   * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
 
-  För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning) under rubriken Målgruppsanmärkning.
+  För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning) under rubriken Målgruppsanmärkning.
 
 ### Innehallstyp
   * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
