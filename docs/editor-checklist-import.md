@@ -13,4 +13,4 @@ order: 16
 
 Se [Postimport i Libris i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/postimport-i-libris)  
 samt  
-[Andra källor - översikt över källorna](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html)
+[Andra källor - översikt över källorna och vilka delmängder som ingår](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html)
