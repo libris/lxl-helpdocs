@@ -186,7 +186,7 @@ NOTERA att för utgivna fysiska ljudinspelningar (=fonogram) är hela den utgivn
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), [se hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
 
- [Läs mer om År och Datum i inlägg på Libris supportforum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
 ### Copyrightar eller p-ar
   För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med utgivningsår, [se Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).</BR>
