@@ -17,7 +17,7 @@ tags:
 | [Verkets titel](#verkets-titel) |  | [Målgrupp](#malgrupp) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Språk](<h4 id="Spr-k">Språk</h4>) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| <h4 id="Spr-k">Språk</h4> |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
