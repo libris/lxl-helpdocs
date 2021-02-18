@@ -16,25 +16,25 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Titel](#titel) | [Språk](#sprak) |
+| | [Bärartyp](#b-rartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
+| | [Titel](#titel) | [Språk](#spr-k) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
-| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
-|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Medföljande material](#medfoljande-material) | |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#m-lgrupp) | 
+| | [Copyrightår](#copyright-r) | [Innehållstyp](#inneh-llstyp) | 
+|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) |
+| | [Omfång](#omf-ng) | [Anmärkning om akademisk avhandling](#anm-rkning-om-akademisk-avhandling) |
+| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | |
+| | [Mått](#m-tt) | |
+| | [Medföljande material](#medf-ljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsförteckning](#innehallsforteckning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+| | [Anmärkning](#anm-rkning) | | 
+| | [Innehållsförteckning](#inneh-llsforteckning) | |
+| | [Målgruppsanmärkning](#m-lgruppsanm-rkning) | |
+| | [Annat bärarformat](#annat-b-rarformat) | |
 
 ## Inledning
 Beskrivningen av en tryckt monografi innehåller följande tre delar:  
@@ -74,7 +74,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
-### Barartyp 
+### Bärartyp 
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
@@ -151,7 +151,7 @@ Använd Startår och Slutår (inte År).
 #### Tillverkningsnamn  
 * Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
 
-### Copyrightar   
+### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 ### Identifikator 
@@ -165,16 +165,16 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
-### Omfang   
+### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
 
-### Ovriga fysiska detaljer   
+### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)
  
-### Matt 
+### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
-### Medfoljande material
+### Medföljande material
 * Medföljs av/Instans/Instanstyp/Benämning (accompaniedBy/Instance/type/label = 300 #e)  
 Här anges medföljande material, som t ex bilagor.  
 
@@ -215,20 +215,20 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
-### Innehallsforteckning
+### Innehållsförteckning
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
  
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
 (tableofContents = 505 8/_ #t, #r)  
 
-### Malgruppsanmarkning  
+### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
-### Annat bararformat
+### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
  Länka till utgåvan i annat bärarformat.
 
@@ -293,7 +293,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 
-### Sprak 
+### Språk 
 * Språk (language = 008/35-37)  
   Ange textens språk. För en text på svenska, länka till svenska.   
   Länka till entitet.  
@@ -446,10 +446,10 @@ Innehåll (008/24-27): Avhandling
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
-### Amne  
+### Ämne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 
-### Malgrupp     
+### Målgrupp     
 * Målgrupp (008/22)
 <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
@@ -460,19 +460,19 @@ Innehåll (008/24-27): Avhandling
 
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.   
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
-### Sammanfattning av innehall  
+### Sammanfattning av innehåll  
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
 
 #### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)    
 
-### Anmarkning om akademisk avhandling    
+### Anmärkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
 (dissertation/Dissertation/label = 502 #a)
