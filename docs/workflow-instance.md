@@ -12,7 +12,7 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Instanstyp](#instanstyp) | | [Omf-ng](#omfang) | 
+| [Instanstyp](#instanstyp) | | [Omfång](#omf-ng) | 
 | [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
 | [Medietyp](#medietyp) | | [Mått](#matt) |
 | [Bärartyp](#barartyp) | | [Klassifikation](#klassifikation) |
