@@ -64,7 +64,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 [Läs mer om egenskaperna i den generella hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-### Utgivningssatt 
+### Utgivningssätt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
