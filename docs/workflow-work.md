@@ -17,7 +17,7 @@ tags:
 | [Verkets titel](#verkets-titel) |  | [Målgrupp](#malgrupp) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Språk](#spr-k) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
@@ -116,7 +116,6 @@ Skriv in uppgiften.
 (contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
-<a name="sprak"/>
 ### Språk 
 * Språk (language = 008/35-37)  
   Ange textens språk. För en text på svenska, länka till svenska.   
