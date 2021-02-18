@@ -207,7 +207,7 @@ Datum får innehålla text och interpunktionstecken.
   * ```[mellan 1780 och 1815?]```
   * ```1846```
  
-### Huvudsakligt tillgangliggörande
+### Huvudsakligt tillgängliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity)  
   Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
@@ -452,7 +452,7 @@ Man behöver inte välja instans- och verkstyp här.
   För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
      
-### Innehallsförteckning  
+### Innehållsförteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
