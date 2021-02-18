@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2021-01-20
+date: 2021-02-18
 tags:
 - editor
 ---
@@ -22,11 +22,15 @@ Tills vidare är rekommendationen att verk beskrivs som lokala entiteter.
 
 För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
 
+Svenskt original:
 ![Relation till verk av en författare som ämne](Relationverkauthsubj_NY.png)
 
-* Öppna sidorutan Lägg till entitet inom egenskapen Ämne.
-* Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet.
-  * Klicka på plustecknet vid Verk, lägg till Har titel, välj Titel och skriv in den föredragna titeln under Huvudtitel (Övrig titelinformation raderas)
-  * Klicka på plustecknet vid Verk, lägg till Medverkan och funktion och välj Primär medverkan
-  * Klicka på plustecknet vid Agent och länka till auktoriserad namnform. Om en sådan inte finns välj Skapa lokal entitet, välj Person och fyll i uppgifterna
-  * Klicka på plustecknet vid Funktion och länka till aktuell funktion
+Översättning till svenska:
+![Öveersättning verk av en författare som ämne](.png)
+
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne
+* Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
+* Ändra verkstyp vid behov
+* Ange föredragen titel för verket
+* Välj typ av medverkan och länka till aktuell agent eller ange agenten som en lokal entitet
+* Länka till aktuellt språk
