@@ -14,16 +14,16 @@ tags:
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
 | [Instanstyp](#instanstyp) | | [Omfång](#omf-ng) | 
 | [Utgivningssätt](#utgivningss-tt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
-| [Medietyp](#medietyp) | | [Mått](#matt) |
+| [Medietyp](#medietyp) | | [Mått](#m-tt) |
 | [Bärartyp](#b-rartyp) | | [Klassifikation](#klassifikation) |
-| [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
+| [Titel](#titel)| | [Medföljande material](#medf-ljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
-| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
-| [Produktion](#produktion) | | [Innehållsförteckning](#innehallsforteckning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
+| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anm-rkning) |
+| [Produktion](#produktion) | | [Innehållsförteckning](#innehallsf-rteckning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillg-ngligg-rande) | | [Målgruppsanmärkning](#malgruppsanm-rkning) |
+| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-b-rarformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Copyrightår](#copyrightar) | | |
+| [Copyrightår](#copyright-r) | | |
 
 
 ## Inledning
@@ -207,7 +207,7 @@ Datum får innehålla text och interpunktionstecken.
   * ```[mellan 1780 och 1815?]```
   * ```1846```
  
-### Huvudsakligt tillgangliggorande
+### Huvudsakligt tillgangliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity)  
   Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
@@ -328,7 +328,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```2017```
   * ```[2017]```
   
-### Copyrightar   
+### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
@@ -369,12 +369,12 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```2 teckningar på 1 ark```
   * ```1 karta i 4 segment ```
   
-### Ovriga fysiska detaljer   
+### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (physicalDetailsNote = 300 #b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```  
 
-### Matt 
+### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)  
   Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
@@ -403,7 +403,7 @@ Skriv in uppgiften.
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
 ```Exempel: 8```
 
-### Medfoljande material
+### Medföljande material
 * Medföljs av/Instans/Instanstyp/Benämning (Bilagor) (accompaniedBy/Instance/type/label = 300 #e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Man behöver inte välja Instanstyp här. Lägg till Benämning.     
 Skriv in uppgiften.  
@@ -446,13 +446,13 @@ Man behöver inte välja instans- och verkstyp här.
   Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
   ```Exempel: 1```   
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
      
-### Innehallsforteckning  
+### Innehallsförteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
@@ -462,13 +462,13 @@ För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg til
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
    
-### Malgruppsanmarkning  
+### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
   Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
   ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
  
-### Annat bararformat
+### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.
   [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
