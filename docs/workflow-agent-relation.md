@@ -33,4 +33,4 @@ Svenskt original:
 <br/>![Relation till verk av en författare som ämne](Relationverkauthsubj_NY.png)
 
 Översättning till svenska:
-<br/>![Öveersättning verk av en författare som ämne](Verksomamneoversattning.png.png)
+<br/>![Öveersättning verk av en författare som ämne](Verksomamneoversattning.png)
