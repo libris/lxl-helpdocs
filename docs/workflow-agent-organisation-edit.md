@@ -18,20 +18,20 @@ Hjälptexten beskriver de egenskaper och klasser som finns i en befintlig auktor
 | [Adminmetadata](#adminmetadata) | [Agent](#agent) | 
 | ------ | ----------- |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Agenttyp](#agent) |
-| [Katalogiseringsspråk](#katalogiseringsregler) | [Namn](#agenttyp) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Namn](#agenttyp) |
 | | [Tid för grundande](#namn) |
 | | [Variant](#variant) |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lagga-till-i-agent) | |
-| [Konsulterad källa](#egenskaper-att-lagga-till-i-adminmetadata) | [Beskrivning](#beskrivning) |
-| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#egenskaper-att-lägga-till-i-agent) | |
+| [Konsulterad källa](#egenskaper-att-lägga-till-i-adminmetadata) | [Beskrivning](#beskrivning) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lägga-till-i-adminmetadata) | [Nationalitet](#nationalitet) | |
 | |[Verksamhetsområde](#nationalitet) |
 | | [Identifikator](#identifikator) | |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#identifikator) |
 | | [Tid för upphörande](#identifikator) |
 | | [Verksamhtens starttid](#verksamhetens-starttid) |
 | | [Verksamhetens sluttid](#verksamhetens-sluttid) | |
-| | [Se även](#verksamhetens-sluttid) | |
-| | [Språk](#verksamhetens-sluttid) | |
+| | [Se även](#se-även) | |
+| | [Språk](#språk) | |
 | | [Andra attribut för person- och organisationsnamn](#verksamhetens-sluttid) | |
 | | [Organisatorisk tillhörighet](#verksamhetens-sluttid) | |
  
@@ -86,7 +86,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: auth/394287```.
   
 
-## Egenskaper att lagga till i Adminmetadata
+## Egenskaper att lägga till i Adminmetadata
 
 
 ### Konsulterad källa
@@ -148,8 +148,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>```Exempel: resource/auth/394287```
     
     
-## Egenskaper att lagga till i Agent
-
+## Egenskaper att lägga till i Agent
 
 ### Beskrivning
 * Beskrivning (description = 678)
