@@ -12,7 +12,7 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Instanstyp](#instanstyp) | | [Omfång](#omfang) | 
+| [Instanstyp](#instanstyp) | | [Omf-ng](#omfang) | 
 | [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
 | [Medietyp](#medietyp) | | [Mått](#matt) |
 | [Bärartyp](#barartyp) | | [Klassifikation](#klassifikation) |
@@ -361,7 +361,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
     
-### Omfang   
+### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning. 
   <br/>```Exempel:```
