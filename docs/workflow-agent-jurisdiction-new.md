@@ -32,7 +32,7 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 | | [Tid för grundande](#tid-for-grundande) | |
 | | [Tid för upphörande](#tid-for-grundande) | |
 | | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
+| | [Språk](#språk) | |
  
 
 ## Inledning
