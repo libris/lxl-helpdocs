@@ -22,21 +22,21 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Variant](#variant) |
 | | [Se även](#variant) |
-| | [Har yrke eller sysselsättning](#verksamhetsomrade) |
+| | [Har yrke eller sysselsättning](#verksamhetsområde) |
 | | [Verksamhetsområde](#verksamhetsomrade) |
 | | [Beskrivning](#beskrivning) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
-| | [Födelsedatum](#efternamn) |
-| | [Dödsdatum](#efternamn) |
-| [**Ytterligare egenskaper vid behov**](#beskrivningsniva) | [**Ytterligare egenskaper vid behov**](#beskrivningsniva) |
+| | [Födelsedatum](#födelsedatum) |
+| | [Dödsdatum](#dödsdatum) |
+| [**Ytterligare egenskaper vid behov**](#beskrivningsnivå) | [**Ytterligare egenskaper vid behov**](#beskrivningsnivå) |
 | [Translitterering](#translitterering) | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
 | | [Titel eller övrig beteckning](#namn) |
 | | [Andra attribut för person- och organisationsnamn](#namn) |
 | | [Ordningstal](#ordningstal) | 
-| | [Språk](#ordningstal) | 
-| | [Organisatorisk tillhörighet](#ordningstal) | |
+| | [Språk](#språk) | 
+| | [Organisatorisk tillhörighet](#organisatorisk-tillhörighet) | |
 
 ## Inledning
 För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
@@ -169,7 +169,7 @@ Beskrivning av agenten som ska auktoriseras.
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
    
-### Verksamhetsomrade
+### Verksamhetsområde
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. 
    <br/>```Exempel: Fågelskådning```
