@@ -28,8 +28,8 @@ För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 
 * Välj typ av medverkan och länka till aktuell agent eller ange agenten som en lokal entitet
 * Länka till aktuellt språk
 
-Svenskt original:
+**Svenskt original:**
 <br/>![Verk av en författare som ämne](Verksomamne.png)
 
-Översättning till svenska:
+**Översättning till svenska:**
 <br/>![Översättning verk av en författare som ämne](Verksomamneoversattning.png)
