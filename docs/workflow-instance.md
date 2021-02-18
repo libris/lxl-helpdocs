@@ -13,9 +13,9 @@ tags:
 | ------ | ------ | ------ |
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
 | [Instanstyp](#instanstyp) | | [Omfång](#omf-ng) | 
-| [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
+| [Utgivningssätt](#utgivningss-tt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
 | [Medietyp](#medietyp) | | [Mått](#matt) |
-| [Bärartyp](#barartyp) | | [Klassifikation](#klassifikation) |
+| [Bärartyp](#b-rartyp) | | [Klassifikation](#klassifikation) |
 | [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
@@ -50,7 +50,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)   
   Välj från lista.
  <br/>```Exempel:```
@@ -68,7 +68,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   
 [Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
  
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   <br/>```Exempel:```
