@@ -22,6 +22,7 @@ Tills vidare är rekommendationen att verk beskrivs som lokala entiteter.
 
 För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 #a #d #t):
 
+* Utgå från egenskapen Ämne inom Instans av Verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
 * Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
 * Ange föredragen titel för verket
