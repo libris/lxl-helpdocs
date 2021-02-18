@@ -14,10 +14,10 @@ tags:
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
 | [Verkstyp](#verkstyp)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
-| [Verkets titel](#verkets-titel) |  | [Målgrupp](#malgrupp) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Verkets titel](#verkets-titel) |  | [Målgrupp](#m-lgrupp) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#inneh-llstyp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) | 
+| [Språk](#spr-k) |  |  [Anmärkning om akademisk avhandling](#anm-rkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
@@ -115,8 +115,6 @@ Skriv in uppgiften.
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion  
 (contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-
-<a name="sprak" />
 
 ### Språk 
 * Språk (language = 008/35-37)  
@@ -263,10 +261,10 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8```  
   
-### Amne  
+### Ämne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   
-### Malgrupp     
+### Målgrupp     
 * Målgrupp (intendedAudience = 008/22)  
  Länka till entitet.
  <br/>```Exempel:```
@@ -278,7 +276,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 
   För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), [se generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entitet.
   <br/>```Exempel:```
@@ -292,7 +290,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
   
-### Sammanfattning av innehall    
+### Sammanfattning av innehåll    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
  **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
@@ -309,7 +307,7 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```
   
-### Anmarkning om akademisk avhandling    
+### Anmärkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
   Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
 Skriv in anmärkningen under Benämning.    
