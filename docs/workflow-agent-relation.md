@@ -20,17 +20,16 @@ Tills vidare är rekommendationen att verk beskrivs som lokala entiteter.
 
 ### Verk som ämne - lokal entitet 
 
-För att lägga till en författares verk som ämne (600 1/_ #a #d #t)
+För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 #a #d #t):
 
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
 * Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
-* Ändra verkstyp vid behov
 * Ange föredragen titel för verket
 * Välj typ av medverkan och länka till aktuell agent eller ange agenten som en lokal entitet
 * Länka till aktuellt språk
 
 Svenskt original:
-<br/>![Relation till verk av en författare som ämne](Relationverkauthsubj_NY.png)
+<br/>![Verk av en författare som ämne](Verksomamne.png)
 
 Översättning till svenska:
-<br/>![Öveersättning verk av en författare som ämne](Verksomamneoversattning.png)
+<br/>![Översättning verk av en författare som ämne](Verksomamneoversattning.png)
