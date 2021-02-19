@@ -48,7 +48,7 @@ För information om katalogiseringsanvisningar och Librispraxis [se Seriella res
 
 ## Instans
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
