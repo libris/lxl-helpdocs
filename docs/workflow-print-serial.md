@@ -19,7 +19,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
 | | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
+| | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
@@ -58,7 +58,7 @@ För information om katalogiseringsanvisningar och Librispraxis [se Seriella res
   Länka till entitet.  
   ```Exempel:  n (= omedierad)``` 
   
-### Barartyp  
+### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel:  nc (= volym)```
