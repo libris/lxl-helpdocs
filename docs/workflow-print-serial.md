@@ -17,17 +17,17 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#sprak) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Medietyp](#medietyp) | [Språk](#språk) |
 | | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
 | | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
 | | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| | [Anmärkning](#anmarkning)| |
+| | [Behandling vid titeländring](#behandling-vid-titeländring) |  |
+| | [Anmärkning](#anmärkning)| |
 | | [Relationer](#relationer) | | 
 
 
@@ -208,12 +208,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
   
-### Behandling vid titelandring 
+### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   Skriv in uppgiften under Benämning.  
@@ -265,7 +265,7 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
 För en sorterad lista på koder, [se Libris formathandbok - Funktions- och relationskoder](http://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
-### Sprak
+### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
@@ -336,10 +336,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: Ja, resursen härrör från konferens```      
    
-### Amne  
+### Ämne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
