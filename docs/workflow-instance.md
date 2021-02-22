@@ -281,7 +281,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     * ```[mellan 1863 och 1866?]```
   
 * Flera år (flerbandsverk)  
-  Använd Startår och Slutår (inte År). Egenskaperna ska ligga i avsnittet Primär utgivning. För ett avslutat flerbandsverk, där årtal inte behöver anges med klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".  
+  Använd Startår och Slutår (inte År). Egenskaperna ska ligga i Primär utgivning. För ett avslutat flerbandsverk, där årtal inte behöver anges med klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".  
  För ett pågående flerbandsverk, ange Slutår: 9999 samt Datum och bindestreck.    
  <br/>```Exempel pågående flerbandsverk:```
  * ```Startår: 2019```
