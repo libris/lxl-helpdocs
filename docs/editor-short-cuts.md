@@ -27,9 +27,8 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Expandera alla fält i post 		|						Alt(+)+                 |
 | Kollapsa alla fält i post | Alt(+)-   										  |
 | Gå mellan postens visnings-/adminmetadatavy    |Ctrl+Shift+höger/vänsterpil   	  |
-| Stäng ner pop up-fönster | Escape |
-| Välj ett element i pop up-fönster | Enter |
-| Välj/markera fler element i pop up-fönster | Ctrl+Enter |
+| Stäng ner sidorutan | Escape |
+| Välj ett element i sidorutan | Enter |
 | Förhandsgranska MARC21 | Alt+P |
 | Öppna hjälpen | Alt+H |
 | Visa instanser | Alt+I |
@@ -51,9 +50,9 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Expandera alla fält i post 		|						Alt(+)+                 |
 | Kollapsa alla fält i post | Alt(+)-   										  |
 | Gå mellan postens visnings-/adminmetadatavy       | ⌘+Shift+höger/vänster pil |
-| Stäng ner pop up-fönster | Escape |
-| Välj ett element i pop up-fönster | Enter |
-| Välj/markera fler element i pop up-fönster | ⌘+Enter |
+| Stäng ner sidorutan | Escape |
+| Välj ett element i sidorutan | Enter |
+| Välj/markera fler element i sidorutan | ⌘+Enter |
 | Förhandsgranska MARC21 | Alt+P |
 | Öppna hjälpen | Alt+H |
 | Visa instanser | Alt+I |
