@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Kortkommandon
 order: 20
-date: 2020-02-20
+date: 2021-02-23
 tags:
 - shortcuts
 ---
