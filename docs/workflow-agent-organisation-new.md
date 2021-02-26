@@ -29,12 +29,12 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
 | | [**Ytterligare egenskaper att lägga till vid behov**](#administrativ-historik) |
-| | [Tid för grundande](#tid-for-grundande) | |
-| | [Tid för upphörande](#tid-for-grundande) | |
-| | [Verksamhetsområde](#tid-for-grundande) | |
-| | [Språk](#tid-for-grundande) | |
-| | [Andra attribut för person- och organisationsnamn](#tid-for-grundande) | |
-| | [Organisatorisk tillhörighet](#tid-for-grundande) | |
+| | [Tid för grundande](#tid-för-grundande) | |
+| | [Tid för upphörande](#tid-för-grundande) | |
+| | [Verksamhetsområde](#tid-för-grundande) | |
+| | [Språk](#tid-för-grundande) | |
+| | [Andra attribut för person- och organisationsnamn](#tid-för-grundande) | |
+| | [Organisatorisk tillhörighet](#tid-för-grundande) | |
  
 
 ## Inledning
@@ -163,7 +163,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ## Ytterligare egenskaper att lägga till vid behov
  <br/>Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
-### Tid for grundande
+### Tid för grundande
 * Tid för grundande/Startdatum (establishDate = 046 #q)
   <br/>```Exempel: 1965```
 
