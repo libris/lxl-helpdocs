@@ -381,7 +381,7 @@ Genre/form (saogf-term, 655): Avhandlingar
 Innehåll (008/24-27): Avhandling
 
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, [se hjälptexten Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
+För anvisningar om hur man anger klassifikation, [Klassifikation - Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
 ### Amne  
 * [Se instruktioner för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord)  
