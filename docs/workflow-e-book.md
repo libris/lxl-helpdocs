@@ -331,20 +331,7 @@ För översättningar i flera led, använd egenskapen Intermediärt språk till 
 Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ### Relationer till ingaende verk och andra verk
-#### Relationer till ingående verk
-* Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-  
-* Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
-  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-  
-#### Relationer till andra verk
-* Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-  
-* Relationer till andra verk utan Medverkan och funktion/Primär medverkan
- Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_ #a)</br>
- Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
+För instruktioner, [se Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
 
 ### Genre form
 För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form): Genre form.
@@ -397,7 +384,7 @@ Innehåll (008/24-27): Avhandling
 För anvisningar om hur man anger klassifikation, [se hjälptexten Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
 
 ### Amne  
-* [Se hjälptext Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+* [Se instruktioner för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord)  
 
 ### Malgrupp     
 * Målgrupp (008/22)
