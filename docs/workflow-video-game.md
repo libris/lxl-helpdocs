@@ -113,7 +113,7 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
   </br>```Exempel: SimCity 4 - Rush hour expansion```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
   ```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
- [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel/filering-av-titel).
+ [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel).
 
 #### Övrig titelinformation
 Ange endast en titel som övrig titelinformation om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn, [se även instruktioner under Titel](#titel).
@@ -136,7 +136,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, [se Metadatabyrån under Gemensamma anvisningar anvisningar enligt RDA, Manifestation/Instans, Titel](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/titel): Titel på delar, sektioner eller supplemet . 
+För anvisningar om hur man anger delbeteckning och deltitel, [se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel): Titel på delar, sektioner eller supplemet . 
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
@@ -178,7 +178,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
   
-[Läs mer om Utgivningstid i Metadatabyrån under Gemensamma anvisningar enligt RDA, manifestation/instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/utgivningsuppgift#Utgivningstid%20(RDA%202.8.6)).
+[Läs mer om utgivningstid i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
 ### Copyrightar
 För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, [se Librispraxis 2.11 i RDA Toolkit](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
@@ -216,7 +216,7 @@ Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Ska
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
 
 ### Seriemedlemskap
-För anvisningar om hur man anger seriemedlemskap, [se Metadatabyrån under Gemensamma anvisningar enligt RDA, Manifestation/Instans, Serieuppgift](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/manifestation-instans/serieuppgift).<br/>
+För anvisningar om hur man anger seriemedlemskap, [se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift).<br/>
 Franchisenamn ska inte anges som serieuppgift, [se Titel](#titel).
 
 ### Malgruppsanmarkning  
@@ -258,7 +258,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 För ett datorspel är verkstypen Multimedia.  
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna om Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket).
+Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för föredragen titel i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
 
 #### Verk utan primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
@@ -266,7 +266,7 @@ Datorspel har sällan en primär medverkande. Ofta är det två eller flera agen
 Ange  den föredragna titeln i Huvudtitel.  
 ```Exempel:  Prototype (datorspel)```</BR>
 Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR> 
-[Läs mer om Tillägg till auktoriserade sökingångar för verk i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/konstruktion-av-sokingangar-for-verk-och-uttryck/tillagg-till-auktoriserade-sokingangar-for-verk).</BR>
+[Läs mer om tillägg till föredragna titlar för verk i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket/tillagg-till-foredragna-titlar-for-verk).</BR>
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR>
@@ -274,7 +274,7 @@ Det är ovanligt att datorspel har primär medverkan. Ofta är det två eller fl
 Ange den föredragna titeln i Huvudtitel.
 
 ### Medverkan och funktion
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+[Följ instruktioner i Relationer till agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
  
 #### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person 
@@ -319,20 +319,7 @@ För datorspel som är/innehåller en översättning, lägg till:
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
 
 ### Relationer till ingaende verk och andra verk
-#### Relationer till ingående verk
-* Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
-  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-  
-* Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
-
-#### Relationer till andra verk
-* Relationer till andra verk utan Medverkan och funktion/Primär medverkan
- Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_ #a)</br>
- Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-  
-* Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+För instruktioner, [se Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
 
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
