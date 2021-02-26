@@ -21,19 +21,19 @@ Hjälptexten beskriver de egenskaper och klasser som finns (i vissa fall kan än
 | [Auktoritetskontrollnivå](#typ-av-auktoritetspost) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#poststatus) | [Födelse- och/eller dödstid](#efternamn) |
 | | [Nationalitet](#nationalitet) |
-| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lagga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
-| [Katalogisatörens anmärkning](#egenskaper-att-lagga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
+| [**Egenskaper att lägga till i Adminmetadata**](#egenskaper-att-lägga-till-i-adminmetadata) | [**Egenskaper att lägga till i Agent**](#nationalitet) |
+| [Katalogisatörens anmärkning](#egenskaper-att-lägga-till-i-adminmetadata) | [Födelsedatum](#nationalitet) |
 | | [Dödsdatum](#nationalitet) |
 | | [Variant](#variant) |
 | | [Identifikator](#identifikator) |
 | | [Har yrke eller sysselsättning](#identifikator) |
 | | [Beskrivning](#beskrivning) |
-| | [**Ytterligare egenskaper att lägga till vid behov**](#bbeskrivning) |
+| | [**Ytterligare egenskaper att lägga till vid behov**](#beskrivning) |
 | | [Namn](#namn) | 
 | | [Fullständigare namnform](#namn) | 
-| | [Verksamhetsområde](#verksamhetsomrade) |
-| | [Titel eller övrig beteckning](#verksamhetsomrade) |
-| | [Andra attribut för person- och organisationsnamn](#verksamhetsomrade) |
+| | [Verksamhetsområde](#verksamhetsområde) |
+| | [Titel eller övrig beteckning](#verksamhetsområde) |
+| | [Andra attribut för person- och organisationsnamn](#verksamhetsområde) |
 | | [Ordningstal](#ordningstal) | 
 | | [Språk](#ordningstal) | 
 | | [Organisatorisk tillhörighet](#ordningstal) |
@@ -128,7 +128,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
   
-## Egenskaper att lagga till i Adminmetadata
+## Egenskaper att lägga till i Adminmetadata
 
 ### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
@@ -220,7 +220,7 @@ Beskrivning av den auktoriserade agenten.
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sök efter och lägg till Beskrivning. Ange uppgifterna i rutan.
 
 
-## Ytterligare egenskaper att lagga till vid behov
+## Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
 ### Namn
@@ -240,7 +240,7 @@ Används för att ange fullständig namnform i de fall då förkortning används
   <br/>```Exempel:```
   <br/>```Fullständigare namnform - Personnamn: Adam David``` (I egenskapen Förnamn är A. D. angivet.)
   
-### Verksamhetsomrade 
+### Verksamhetsområde 
 * Verksamhetsområde (fieldOfActivity = 372)
   <br/>Personens verksamhetsområde beskriver vad personen är intresserad av eller ägnar sig åt och det behöver inte ha med yrkesutövning att göra. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
    <br/>```Exempel: Fågelskådning```
