@@ -17,22 +17,22 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 
 [Inledning](#inledning)
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestand)
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestånd)
 | ----------- | ----------- |  ----------- | ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
 | [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | [Innehas av](#innehas-av) |
-| [Beskrivningsnivå](#beskrivningsniva)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmarkning) |
-| [Anmärkning](#anmarkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatorens-anmarkning)|
-| | [Utgivningssätt](#utgivningssatt) | | |
+| [Beskrivningsnivå](#beskrivningsnivå)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmärkning) |
+| [Anmärkning](#anmärkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatorens-anmärkning)|
+| | [Utgivningssätt](#utgivningssätt) | | |
 | | [Medietyp](#medietyp) | | |
-| | [Bärartyp](#barartyp) | | |
+| | [Bärartyp](#bärartyp) | | |
 | | [Produktion](#produktion) | | |
 | | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
-| | [Digital karaktäristika](#digital-karaktaristika) | | |
-| | [Tillhörande media](#tillhorande-media) | | |
-| | [Villkor för användning och åtkomst](#villkor-for-användning-och-atkomst) | | |
-| | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehall) | | |
-| | [Anmärkning](#anmarkning)| |
+| | [Digital karaktäristika](#digital-karaktäristika) | | |
+| | [Tillhörande media](#tillhörande-media) | | |
+| | [Villkor för användning och åtkomst](#villkor-for-användning-och-åtkomst) | | |
+| | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehåll) | | |
+| | [Anmärkning](#anmärkning)| |
 
 
 
@@ -55,11 +55,11 @@ För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
 <br/>I mallen är DIGI ifyllt. Korrigera/komplettera vid behov.
 
-### Beskrivningsniva 
+### Beskrivningsnivå 
 * Beskrivningsnivå (encodingLevel = 000/17)
 <br/>Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning om katalogiseringskälla/Benämning (hasNote/marc:SourceOfDescriptionNote/label = 588 #a)
 <br/>```Exempel: S: Digitaliserat vardagstryck```
 
@@ -85,7 +85,7 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 <br/>```Värde: urn:nbn:se:kb:dig-17390055```
 <br/>```Typanmärkning: uri```
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType = 008/07)  
 <br/>Förval i mallen: Monografisk resurs
 <br/>Ändra vid behov
@@ -94,7 +94,7 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 * Medietyp (mediaType/Mediatype = 337 #b)  
 <br/>Förval i mallen: Computer 
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)
 I mallen är följande entiteter länkade:
 <br/> * onlineresurs, online resource, cr
@@ -113,7 +113,7 @@ I mallen är följande entiteter länkade:
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
 <br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
-### Digital karaktaristika
+### Digital karaktäristika
 * Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics/EncodingFormat/label = 347 #b)
 Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodningsformat anges ska det göras här och inte i en anmärkning.
 <br/>```Exempel:``` 
@@ -121,26 +121,26 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 <br/>```Kodningsformat/Benämning: jpeg```
 <br/>```Kodningsformat/Benämning: tiff```
 
-### Tillhorande media
+### Tillhörande media
 * Tillhörande media/Mediaobjekt/Katalogisatörens anmärkning/Offentlig anmärkning/URI (associatedMedia/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
 <br/>```Exempel:``` 
 <br/>```Katalogisatörens anmärkning: [Anmärkning]``` 
 <br/>```Offentlig anmärkning: Fritt tillgänglig via Kungliga biblioteket```
 <br/>```URI: http://urn.kb.se/resolve?urn=urn:nbn:se:kb:eod-1600793```
 
-### Villkor för anvadning och atkomst
+### Villkor för använding och åtkomst
 * Villkor för anvädning och åtkomst/Användningsvillkor/Benämning (usageAndAccessPolicy/UsePolicy/label = 540 #a)
 <br/>```Exempel:``` 
 <br/>```Benämning: CC0``` 
 
-### Relaterad beskrivning eller innehall
+### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/Katalogisatörens anmärkning/Offentlig anmärkning/URI (isPrimaryTopicOf/Document/cataloguersNote/marc:publicNote/uri = 856 #u #x #z)
 <br/>```Exempel:```
 <br/>```Katalogisatörens anmärkning: digipic``` 
 <br/>```Offentlig anmärkning: tumnagelbild``` 
 <br/>```URI: http://weburn.kb.se/tumnaglar/24/001655024,1,i,1.jpg```
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 <br/>```Exempel:```
 <br/>```Digitaliserat exemplar``` 
@@ -151,19 +151,19 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-## Bestand
+## Bestånd
 För information om egenskaperna, [se den generella hjälptexten för Beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding) eller [Enkel beståndsregistrering](https://libris.kb.se/katalogisering/help/workflow-holding-simple).
 
 ### Innehas av
 * Innehas av (heldBy = 852 #b)
 <br/>Inloggad sigel.
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 852 #z)
 <br/>```Exempel:``` 
 <br/>```Digitaliserat exemplar``` 
 
-### Katalogisatorens anmarkning
+### Katalogisatorens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 852 #x) 
 <br/>```Exempel:``` 
 <br/>```[kbdkart = KB-specifik statistikkod]``` 
