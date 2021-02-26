@@ -18,15 +18,15 @@ tags:
 
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
-| [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringslage) | [Ta bort egenskap](#ovriga-funktioner) |
-| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#ovriga-funktioner) | 
-| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#ovriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#ovriga-funktioner) |
-| [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringslage) | [Entitetsfunktioner](#6-entitetsfunktioner) |
-| [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringslage) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringsläge) | [Ta bort egenskap](#övriga-funktioner) |
+| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#övriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#övriga-funktioner) | 
+| [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#övriga-funktioner) |
+| [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringsläge) | [Entitetsfunktioner](#6-entitetsfunktioner) |
+| [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Skapa och länka verk](#skapa-och-lanka-verk) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Skapa och länka verk](#skapa-och-länka-verk) |
 | [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
@@ -50,7 +50,7 @@ Sammanfattningsrutan innehåller:
  9. Information om bestånd: Lägg bestånd/Visa bestånd
  10. Antal bestånd (visa alla beståndsposter)
 
-## Verktygsmeny i visningslage
+## Verktygsmeny i visningsläge
 En del av funktionerna tillgängliga i verktygsmenyn i visningsläge går att använda även om man inte är inloggad. För att kunna använda alla funktioner som beskrivs nedan krävs det att man loggar in.
 
 ### Visa som
@@ -85,7 +85,7 @@ Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importera
 #### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
 
-#### Forhandsgranska MARC21
+#### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
 #### Ta bort Instans
@@ -96,7 +96,7 @@ Välj Redigera för att aktivera redigeringsläget och för att kunna göra änd
 <br/>Kortkommando: Ctrl + E
 
 
-## Verktygsmeny i redigeringslage
+## Verktygsmeny i redigeringsläge
 
 ![Alternativ i verktygsmeny i redigeringsläge](verktygsmenyredigeringslage.png) 
 
@@ -130,7 +130,7 @@ Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar
 <br/> Kortkommando: Ctrl + D
 
 
-## Ovriga funktioner
+## Övriga funktioner
 
 Redigeringsfunktioner inom en egenskap:
 
@@ -199,5 +199,5 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
    
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
-### Skapa och lanka verk
+### Skapa och länka verk
 Från och med version 1.19 av Libris katalogisering finns ny funktionalitet i gränssnittet för att bryta ut och länka till verk. [För mer information om detta, se artikel på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html).
