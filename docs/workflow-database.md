@@ -253,7 +253,7 @@ Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudti
 
 ### Medverkan och funktion  
 Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Relationer till utgivare (710) anges för närvarande också här.
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+[Följ instruktioner Relationer till agenter - Metabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)
 * Medverkan och funktion/Primär medverkan/Agent/Organisation (110 2/- #a) 
