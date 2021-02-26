@@ -20,10 +20,10 @@ Hjälptexten beskriver de egenskaper och klasser som finns representerade i mall
 | [Katalogiseringsregler](#katalogiseringsregler) | [Efternamn](#agenttyp) |
 | [Katalogisatörens anmärkning](#katalogiseringsregler) | [Förnamn](#efternamn) |
 | [Konsulterad källa](#katalogiseringsregler) | [Födelse- och/eller dödstid](#efternamn) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Variant](#variant) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Variant](#variant) |
 | | [Se även](#variant) |
 | | [Har yrke eller sysselsättning](#verksamhetsområde) |
-| | [Verksamhetsområde](#verksamhetsomrade) |
+| | [Verksamhetsområde](#verksamhetsområde) |
 | | [Beskrivning](#beskrivning) |
 | | [Identifikator](#identifikator) |
 | | [Nationalitet](#nationalitet) |
@@ -99,7 +99,7 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
   <br/>OBS! Förkortningen t.p., isbd-interpunktion och parenteser som inte behövs för förståelse/läsbarhet behöver inte anges.      
   <br/>För att lägga till: Klicka på plustecknet inom Konsulterad källa. Välj typen Källa vid belagd uppgift i rullmenyn.
 
-### Katalogiseringssprak
+### Katalogiseringsspråk
 * Katalogiseringsspråk (descriptionLanguage = 040 #b)
   <br/>Förval: language/swe. Ändras ej.
 
