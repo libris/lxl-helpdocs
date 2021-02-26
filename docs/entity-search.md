@@ -12,12 +12,12 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Söka fram entiteter](#soka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
-| [Länka entitet](#lanka-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
-| [Lägg till entitet eller skapa lokal entitet](#lagg-till-entitet-eller-skapa-lokal-entitet) | | [Inkommande länkar](#inkommande-lankar) |
-| [Exempel på lokala entiteter](#exempel-pa-lokala-entiteter) | | |
+| [Söka fram entiteter](#söka-fram-entiteter) | | [Duplicera entitet](#duplicera-entitet) | 
+| [Länka entitet](#länka-entitet) | | [Kopiera till urklipp](#kopiera-till-urklipp) | 
+| [Lägg till entitet eller skapa lokal entitet](#lägg-till-entitet-eller-skapa-lokal-entitet) | | [Inkommande länkar](#inkommande-länkar) |
+| [Exempel på lokala entiteter](#exempel-på-lokala-entiteter) | | |
 
-## Soka fram entiteter
+## Söka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
 
 Sökningen görs antingen via:
@@ -30,13 +30,13 @@ Sökningen görs antingen via:
 
 För att se alla entiteter av en viss typ, tryck Enter när markören står i sökfältet eller skriv * i sökfältet.  
 
-## Lanka entitet
+## Länka entitet
 Om det finns en befintlig lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en länkbar entitet eller låt den lokala entiteten ligga kvar.) 
 
 ![Lokal entitet steg 3](lokalentitet3.png)
 
 
-## Lagg till entitet eller skapa lokal entitet
+## Lägg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
 
 **Lägga till entitet:**
@@ -54,7 +54,7 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan entiteten.
 ![Lokal entitet steg 2](lokalentitet2.png)
 
-## Exempel pa lokala entiteter
+## Exempel på lokala entiteter
 Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall det inte finns en länkbar entitet och heller inte behöver upprättas en sådan. Det senare gäller agenter, se [Metadatabyrån - Riktlinjer för löpande auktoritetsarbete i Libris](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/riktlinjer-for-lopande-auktoritetsarbete-i-libris) när det behövs eller inte.
 
 
@@ -158,5 +158,5 @@ Klistra in urklipp:
 <br>
 Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.
 
-## Inkommande lankar
+## Inkommande länkar
 Gränssnittet använder en funktion för inkommande länkar som innebär att länkning mellan entiteter endast görs på ett ställe. Funktionen används för ämnesord där termer som ingår i en hierarki, dvs. bredare/smalare endast länkas på ett ställe. I den smalare termen länkas det till den bredare och funktionen för inkommande länkar visar då upp den motsatta relationen, dvs. "smalare" i beskrivningen av den bredare termen.
