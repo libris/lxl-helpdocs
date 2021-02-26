@@ -222,7 +222,6 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: svenska (swe)```</BR> 
-  För att ange originalspråk för ett översatt verk, se Översättning av/Verk/Språk under [Översättning](#oversattning).
   
 #### Översättning  
 För en artikel som är/innehåller en översättning, lägg till:  
