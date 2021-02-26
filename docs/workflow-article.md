@@ -146,7 +146,7 @@ Lägg till Instans som lokal entitet. Lägg sedan till egenskaper för värdpubl
 ##### Värdpublikation med primär medverkan
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
-Skriv in uppgiften under Benämning. Använd korrekt namnform, [se Agenter som lokala entiteter - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris#Agentersomlokalaentiteter)<br/>
+Skriv in uppgiften under Benämning. Använd korrekt namnform, [se Agenter som lokala entiteter - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris#Agentersomlokalaentiteter).<br/>
     </br>```Exempel:```
     * ```Carlsson, Magnus```
     * ```Sverige. Socialtjänskommittén```
@@ -201,7 +201,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verk, se Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket#Text3). 
+Ange vid behov den föredragna titeln för verket. [För instruktioner om föredragen titel för verk, se Föredragen titel för verket - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR> 
@@ -212,7 +212,7 @@ Föredragen titel för ett verk med Primär medverkan anges här.
 Föredragen titel för ett verk utan Primär medverkan anges här.
 
 ### Medverkan och funktion
-Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. [Följ instruktioner i Relationer till agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter). 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)</br>
 * Medverkan och funktion/Primär medverkan/Funktion (100 #4)</br>
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)</br>
