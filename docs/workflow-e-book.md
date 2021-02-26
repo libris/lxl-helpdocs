@@ -88,7 +88,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
 Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.</br> 
-[Se exempel i formathandboken för Libris/Voyager - Fileringsindikator](http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
@@ -203,7 +203,7 @@ Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
 (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)</br>
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Anvisningar för Katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn). 
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Serieuppgift - Metadatbyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift). 
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
@@ -220,9 +220,8 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se A
   ```Exempel: Millenium```   
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny agent, [se hjälptext Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
+  Vid behov, skapa ny agent. I undantagsfall, skapa lokal entitet. [Se Agenter i Libris - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris) 
   
 #### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
@@ -275,7 +274,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 För en e-bok är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna för Föredragen titel för verket i Metadatabrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna för föredragen titel i Metadatabrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
@@ -286,7 +285,7 @@ Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna f�
  Föredragen titel för ett verk utan primär medverkan anges här.
  
 ### Medverkan och funktion
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+[Följ instruktioner i Relationer till Agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
 
 #### Primär medverkan  
 * Medverkan och funktion/Primär medverkan/Agent/Person  
