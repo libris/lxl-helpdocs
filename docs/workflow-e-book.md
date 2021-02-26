@@ -203,7 +203,7 @@ Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
 (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)</br>
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se Serieuppgift - Metadatbyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift). 
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se även Serieuppgift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift). 
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
