@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2021-02-12
+date: 2021-03-03
 tags:
 - instans
 --- 
@@ -51,7 +51,7 @@ En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronis
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
 ### Utgivningssätt
-* Utgivningssätt (issuanceType)   
+* Utgivningssätt (issuanceType = 000/07)   
   Välj från lista.
  <br/>```Exempel:```
   * ```Monografisk resurs```
