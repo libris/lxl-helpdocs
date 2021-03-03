@@ -50,14 +50,14 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
-### Utgivningssätt
+### Utgivningssätt  
 * Utgivningssätt (issuanceType = 000/07)   
   Välj från lista.
  <br/>```Exempel:```
   * ```Monografisk resurs```
   * ```Seriell resurs```
   
-### Medietyp
+### Medietyp  
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.
  <br/>```Exempel:```
@@ -68,7 +68,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   
 [Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
  
-### Bärartyp
+### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   <br/>```Exempel:```
