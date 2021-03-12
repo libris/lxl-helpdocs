@@ -24,16 +24,25 @@ För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 
 
 * Utgå från egenskapen Ämne inom Instans av Verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
-* Välj typen Verk i rullgardinsmenyn för Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
+* Välj typen Verk i rullgardinsmenyn Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk (gäller översättning)
 * Ange föredragen titel för verket
 * Välj typ av medverkan och länka till aktuell agent eller ange agenten som en lokal entitet
-* Länka till aktuellt språk
+* Länka till aktuellt språk (gäller översättning)
 
 **Svenskt original:**
 <br/>![Verk av en författare som ämne](Verksomamne.png)
 
 **Översättning till svenska:**
 <br/>![Översättning verk av en författare som ämne](Verksomamneoversattning.png)
+
+För att lägga till ett verk utan primärt upphov som ämne (motsvarande Marc21 630 0/4 #a #n #p):
+
+* Utgå från egenskapen Ämne inom Instans av Verk
+* Öppna sidorutan Lägg till entitet inom egenskapen Ämne
+* Välj typen Verk i rullgardinsmenyn Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
+* Ta bort egenskaperna Medverkan och funktion och Språk genom att klicka på soptunnan intill dessa
+* Klicka på plustecknet inom egenskapen Titel, sök efter och lägg till Delbeteckning respektive Deltitel
+* Ange föredragen titel för verket inom Huvudtitel, ange Delbeteckning och Deltitel
 
 **Verk innehållande deltitel och delbeteckning:**
 <br/>![Verk innehållande deltitel och delbeteckning](Verksomamnedeltitel.png)
