@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2021-02-18
+date: 2021-03-12
 tags:
 - editor
 ---
@@ -34,3 +34,6 @@ För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 
 
 **Översättning till svenska:**
 <br/>![Översättning verk av en författare som ämne](Verksomamneoversattning.png)
+
+**Verk innehållande deltitel och delbeteckning:**
+<br/>![Verk innehållande deltitel och delbeteckning](Verksomamnedeltitel.png)
