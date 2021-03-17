@@ -46,9 +46,9 @@ Beskrivningen av en elektronisk integrerande resurs, t.ex. en onlinedatabas elle
 
 Många av egenskaperna finns redan i mallen Databas/webbplats, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Databas/webbplats.  
 
-För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) samt [se RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) samt se [RDA Toolkit](https://original.rdatoolkit.org/).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris).
@@ -102,12 +102,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Huvudtitel 
 Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  Återge huvudtiteln som den förekommer i den föredragna källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
+  Återge huvudtiteln som den förekommer i den föredragna källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-9147.html).  
   ```Exempel: ARTbibliographies modern```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
-[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+Se [exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 
-Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [se RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. 
+Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, se [RDA 2.3.2.12.3](http://access.rdatoolkit.org/rdachp2_rda2-3651.html). Ersätt den gamla titeln med den nya och ange den gamla huvudtiteln i Tidigare titel, se nedan. 
 
 **Observera att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
 
@@ -115,7 +115,7 @@ Om en integrerande resurs byter huvudtitel görs normalt ingen ny beskrivning, [
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
 Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
 
-Om övrig titelinformation läggs till, tas bort eller ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, [se RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
+Om övrig titelinformation läggs till, tas bort eller ändras i resursen, uppdatera Övrig titelinformation så att den speglar aktuell version om det bedöms vara viktigt för identifikation eller åtkomst, se [RDA 2.3.4.7.3](http://access.rdatoolkit.org/rdachp2_rda2-3909.html).
 
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
@@ -127,7 +127,7 @@ Används för akronymer som är en del av huvudtiteln.
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)<br/>
 
-Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version, [se RDA 2.3.3.5.3](http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig för identifikation eller åtkomst kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
+Om en parallelltitel läggs till, tas bort eller ändras i resursen, uppdatera Parallelltitel så att den speglar aktuell version, se [RDA 2.3.3.5.3](http://access.rdatoolkit.org/rdachp2_rda2-3773.html). En tidigare parallelltitel som bedöms vara viktig för identifikation eller åtkomst kan ligga kvar och den nya parallelltiteln läggas till. Tidsintervall för den tidigare parallelltiteln kan preciseras under Täckning eller tillkomst.
 * Har titel/Parallelltitel/Täckning eller tillkomst (hasTitle/ParallellTitle/coverage = 246 1/1 #f)<br/>
 ```Exempel: 2003-2008```
 
@@ -147,7 +147,7 @@ Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan precise
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
-Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation eller åtkomst, [se RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
+Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation eller åtkomst, se [RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
     
 ### Utgivning
 * Utgivning  
@@ -164,15 +164,15 @@ Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktue
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)<br/> 
   ```Exempel: Örebro```<br/> 
 
-Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, se [RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
   
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
 
-Om utgivarnamnet ändras i resursen, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, [se RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
+Om utgivarnamnet ändras i resursen, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, se [RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
     
 #### År och datum 
-För instruktioner om hur man anger utgivningstid för integrerande resurser, [se RDA 2.8.6.5](http://access.rdatoolkit.org/rdachp2_rda2-6867.html).
+För instruktioner om hur man anger utgivningstid för integrerande resurser, se [RDA 2.8.6.5](http://access.rdatoolkit.org/rdachp2_rda2-6867.html).
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 #c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. 
@@ -237,7 +237,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 [Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket. [För instruktioner om föredragen titel, se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange vid behov den föredragna titeln för verket. För [instruktioner om föredragen titel, se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -247,13 +247,13 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
 Föredragen titel för ett verk med Primär medverkan med anges här.  
 
-Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version, [se RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
+Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudtiteln i den integrerande resursen ändras, uppdatera den föredragna titeln så att den speglar aktuell version, se [RDA 6.1.3.3.2](http://access.rdatoolkit.org/rdachp6_rda6-1930.html).
 
 **Observera att för integrerande resurser som har ISSN gäller andra regler.** Om huvudtiteln genomgår en större förändring tilldelas resursen ett nytt ISSN och en ny beskrivning görs. Om en integrerande resurs med svenskt ISSN byter huvudtitel, meddela [ISSN Sverige](https://www.kb.se/isbn-och-utgivning/issn-.html).
 
 ### Medverkan och funktion  
 Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Relationer till utgivare (710) anges för närvarande också här.
-[Följ instruktioner i Relationer till agenter - Metabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
+Följ [instruktioner i Relationer till agenter - Metabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)
 * Medverkan och funktion/Primär medverkan/Agent/Organisation (110 2/- #a) 
@@ -262,7 +262,7 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/- #a)
 * Medverkan och funktion/Medverkan/Agent/Funktion (700/710 #4)
 
-Om en agent är angiven i Primär medverkan och det sker en förändring i upphovsansvaret för den integrerande resursen, uppdatera Primär medverkan så att den speglar aktuell version, [se RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html).
+Om en agent är angiven i Primär medverkan och det sker en förändring i upphovsansvaret för den integrerande resursen, uppdatera Primär medverkan så att den speglar aktuell version, se [RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html).
 
 Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras eller om en ny utgivare tillkommer, lägg till utgivaren i en ny Medverkan om det bedöms vara viktigt för identifikation eller åtkomst.
   
@@ -281,7 +281,7 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 Föredragen titel för ett verk med Primär medverkan med anges här.  
    
 ### Genre form 
-För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
+För utförliga anvisningar om hur man anger genre/form, se [hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 * Genre/form - saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
   Länka till entitet.
   <br/>```Exempel:```
@@ -297,7 +297,7 @@ För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](
   * ```Uppdaterande webbplats (= w)```
          
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
+För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
 ### Ämne 
 * Ämne  
