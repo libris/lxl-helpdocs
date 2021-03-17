@@ -143,10 +143,10 @@ För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b<br/>
     
     
-### Upphovsuppgift
+### Upphovsuppgift  
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".  
 * Upphovsuppgift (responsibilityStatement = 245 #c)  
   ```Exempel: developed by Revolution Software```<br/>
@@ -175,15 +175,15 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  ```Exempel: Insomniac Games```  
+  ```Exempel: Insomniac Games```<br/>
   
   
 #### År och datum 
-  * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
+* År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
   Observera att År **måste** finnas med i beskrivningen, även om datum finns med.   
   
-  * Datum (= Utgivningstid) (date = 264 -/1 #c)  
+* Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
   
