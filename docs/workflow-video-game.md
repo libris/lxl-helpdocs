@@ -133,11 +133,11 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varia
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
-   ```Exempel: Titeln felstavad, korrekt titel:```  
- </br> 
+   ```Exempel: Titeln felstavad, korrekt titel:```   
+ </br>
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br> 
+För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br>  
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
@@ -147,15 +147,15 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 ### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
 * Upphovsuppgift (responsibilityStatement = 245 #c)</br> 
-  ```Exempel: developed by Revolution Software```
+  ```Exempel: developed by Revolution Software```</br>  
   
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
-  <br/>```Exempel: Version 1.2```</br> 
+  <br/>```Exempel: Version 1.2```</br>  
   
 ### Utgivning  
 * Utgivning<br/> 
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning.</br> 
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.</br>  
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
@@ -164,7 +164,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
  
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  ```Exempel: Burbank, California```</br> 
+  ```Exempel: Burbank, California```</br>  
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
@@ -173,7 +173,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
-  Observera att År **måste** finnas med i beskrivningen, även om datum finns med.</br>
+  Observera att År **måste** finnas med i beskrivningen, även om datum finns med.</br>  
   
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
@@ -186,7 +186,7 @@ För datorspel anges alltid copyrightår, även om det sammanfaller med utgivnin
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
-<br/>```Exempel: ©2017```
+<br/>```Exempel: ©2017```</br>  
     
 ### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt se [Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
@@ -195,13 +195,13 @@ Skriv in uppgiften under Benämning.
  <br/>```Exempel:```
    * ```1 DVD-ROM``` 
    * ```1 Blu-ray Disc```
-   * ```1 minneskort```
+   * ```1 minneskort```</br>  
 
 * Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel:```
    * ```1 DVD-ROM (Xbox 360)```
    * ```1 Blu-Ray Disc (Playstation 4)```
-   * ```1 minneskort (Nintendo Switch)```
+   * ```1 minneskort (Nintendo Switch)```</br>  
    
 Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
