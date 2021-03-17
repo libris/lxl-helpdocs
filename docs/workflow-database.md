@@ -301,7 +301,7 @@ För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatab
 
 ### Ämne 
 * Ämne  
-  Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
+  Länka  i första hand till entiteter för ämnesord. Följ [instruktionerna för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
 
 ### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
