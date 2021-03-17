@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Databas/Webbplats
 order: 36
-date: 2020-11-12
+date: 2021-03-17
 tags:
 - databas
 - webbplats
@@ -25,17 +25,17 @@ Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen 
 | ----------- |  ----------- | ----------- | 
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Databaser](#databaser) | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) | 
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre form](#genre-form) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Medietyp](#medietyp) | [Språk](#språk) |
+| | [Bärartyp](#bärartyp) | [Genre form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
-| | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| | [Tillhörande media](#tillhörande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 | | [Frekvens](#frekvens) |  |
 | | [Alfabet](#alfabet) |  |
-| | [Anmärkning](#anmarkning)| | 
-| | [Behandling vid titeländring](#behandling-vid-titelandring)| | 
+| | [Anmärkning](#anmärkning)| | 
+| | [Behandling vid titeländring](#behandling-vid-titeländring)| | 
 
 
 ## Inledning
@@ -76,7 +76,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```   
   
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
   ```Integrerande resurs```
@@ -86,7 +86,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```dator, computer (kod = c)``` 
   
-### Barartyp  
+### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:</BR>
   ```onlineresurs, online resource (kod = cr)```
@@ -196,7 +196,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   * ```[2012-2013]```
   * ```[1988-]```
   
-### Tillhorande media
+### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
   Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)<br/>
@@ -219,7 +219,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, [s
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
 För integrerande resurser med fjärråtkomst anges alltid datum för när resursen beskrevs.<br/>
 ```Exempel: Katalogiserad 2020-02-16```<br/>
@@ -266,7 +266,7 @@ Om en agent är angiven i Primär medverkan och det sker en förändring i uppho
 
 Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras eller om en ny utgivare tillkommer, lägg till utgivaren i en ny Medverkan om det bedöms vara viktigt för identifikation eller åtkomst.
   
-### Sprak
+### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov.<br/> 
   ```Exempel: svenska (swe)``` 
@@ -299,16 +299,16 @@ För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
-### Amne 
+### Ämne 
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
 
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entiteten:  
   ```text, text (kod = txt)```
 
-### Sammanfattning av innehall    
+### Sammanfattning av innehåll    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
