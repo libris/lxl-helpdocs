@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Film
 order: 44
-date: 2020-11-12
+date: 2021-03-17
 tags:
 - film
 - filmkatalogisering
@@ -15,43 +15,43 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 ## Innehåll  
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- | ----------- |  ----------- |
-| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| ----------- |  ----------- | ----------- |
+|  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Bärartyp](#bärartyp) | [Språk](#språk) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) |  [Ämne](#amne)  |
-| | [Copyrightår](#copyrightar) |  [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) |
-| | [Omfång](#omfang) | [Bild- och filmtexter](#bild--och-filmtexter)|
+| | [Utgivning](#utgivning) | [Ämne](#ämne)  |
+| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
+| | [Omfång](#omfång) | [Bild- och filmtexter](#bild--och-filmtexter)|
 | | [Speltid](#speltid) | [Inspelning](#inspelning) |
-| | [Övriga fysiska deltajer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmarkningar) |
-| | [Medföljande material](#medfoljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmärkningar) |
+| | [Medföljande material](#medföljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll)  |
 | | [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Innehållsförteckning](#innehallsforteckning) | |
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
+| | [Innehållsförteckning](#innehållsförteckning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
-| | [Anmärkning](#anmarkning) | |
+| | [Anmärkning](#anmärkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
 
 ## Inledning
 Beskrivningen av en film innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå.
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Många av egenskaperna finns redan i mallen Film - videoinspelning, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Film.  
 
-För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) samt se [RDA Toolkit](https://access.rdatoolkit.org/). Notera att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
+För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) samt se [RDA Toolkit](https://original.rdatoolkit.org/). Notera att för utgivna rörliga bilder är hela den utgivna resursen godkänd källa. Uppgifterna får tas utan prioritetsordning från det ställe där de anses vara bäst. [Denna Librispraxis, KB SP 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html), bygger på IASA Cataloguing Rules och är en avvikelse från [RDA 2.2.2.3](http://access.rdatoolkit.org/rdachp2_rda2-2892.html).
 
 Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).  
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
@@ -59,7 +59,7 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Videoinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
@@ -69,7 +69,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```Video, v (= video)```
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer.
   Länka till entiteten:  
@@ -81,21 +81,21 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). 
-  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, [se RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt se [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
+  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, [se RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: The beguiled```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiled, fileringsvärde: 4```  
- Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html).
+Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel).
 
 För att ange föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon,          mellanslag. 
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
   <br/>```Exempel: mer om modelljärnvägar : allt samlaren behöver veta```
 
 #### Varianttitel
-En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, [se RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
+En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)<br/> 
  Skriv in uppgiften i Huvudtitel.    
@@ -110,7 +110,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel): Titlar på delar, sektioner eller supplement
+För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel#h-Titlarpadelarsektionerellersupplement): Titlar på delar, sektioner eller supplement
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -135,7 +135,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
  <br/>```Exempel: Limited edition```  
   
 ### Utgivning  
-[Följ Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-590.html) och ange distributionsuppgifter i avsnittet för utgivning. I filmbranschen är distributör motsvarigheten till utgivare. Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
+Följ [Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-590.html) och ange distributionsuppgifter i avsnittet för utgivning. I filmbranschen är distributör motsvarigheten till utgivare. Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
 * Utgivning (publication)  
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
@@ -186,7 +186,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
  
  Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
-### Copyrightar
+### Copyrightår
 För film anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
@@ -219,7 +219,7 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
 
 För anvisningar om hur man anger ISBN, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
    
-### Omfang  
+### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
 Skriv in uppgiften under Benämning.
@@ -238,7 +238,7 @@ Skriv in uppgiften under Benämning.
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   ```Exempel: stum, svartvit```
   
-### Medfoljande material
+### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans).</br> 
 Lägg till Benämning. Skriv in uppgiften.
@@ -255,14 +255,14 @@ Här anges format, antingen DVD eller Blu-ray Disc.
 ### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
 
-### Malgruppsanmarkning  
+### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.<BR/> 
 ```Exempel: Barntillåten```  
 
 Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#malgrupp) under Instans av Verk. 
 
-### Innehallsforteckning  
+### Innehållsförteckning  
 För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
   
 ### Systemkrav och mediespecifika uppgifter
@@ -270,7 +270,7 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext (marc:hasSystemDetailsNote = 538 #a)
   </BR>```Exempel: Systemkrav: Region 2 ; bildformat: 16:9 (2.35:1 ); ljudformat: Dolby digital 5.1```
   
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges tills vidare produktionsland och produktionsår. 
   </BR>För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning. Använd föredragen namnform för produktionsland, se Librispraxis, 16.2.2.3. 
@@ -327,7 +327,7 @@ Ange den föredragna titeln i Huvudtitel.
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   ```Exempel: relator/drt (= regissör)```</br>
   
-### Sprak 
+### Språk 
 * Språk (language = 008/35-37)</BR>
   Ange det talade eller sjungna språket här.</BR>
   För film som saknar ljudinnehåll (eller med ljud, men utan språkligt innehåll) ange "icke-språkligt medium".</BR>
@@ -380,11 +380,11 @@ För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](
 ### Klassifikation
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
  
-### Amne  
+### Ämne  
 * Ämne  
   Länka i första hand till entiteter för ämnesord. [Följ instruktionerna under Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 
-### Malgrupp     
+### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```</br> 
@@ -401,7 +401,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  Länka till entitet.   
    ```Exempel: engelska (eng)``` 
  
-### Innehallstyp
+### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till någon av entiteterna:</BR>
    * ```Two-dimensional moving image, tdi (= tvådimensionell rörlig bild)```
@@ -427,7 +427,7 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
   Klicka på plustecknet bredvid Plats, Lägg till egenskaper under Plats och lägg till Benämning. Skriv in uppgiften.</BR>
    ```Exempel: Stockholm```
 
-### Anmarkningar
+### Anmärkningar
 #### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Tal på engelska. Dubbad till svenska, finska, norska. Textad på engelska, svenska, finska och norska.```  
@@ -436,7 +436,7 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
   
-### Sammanfattning av innehall
+### Sammanfattning av innehåll
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
 </br>```Exempel: Historien utspelar sig under amerikanska inbördeskriget på en internatskola för flickor i södern. När de avskärmade unga kvinnorna tar in en skadad fiendesoldat och ger honom skydd och vård stiger den sexuella spänningen, farliga rivaliteter bildas och tabun bryts i en oväntad vändning.```
