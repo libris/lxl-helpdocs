@@ -147,41 +147,41 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
     
     
 ### Upphovsuppgift
-Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
-* Upphovsuppgift (responsibilityStatement = 245 #c)</br> 
-  ```Exempel: developed by Revolution Software```</br>  
+Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".  
+* Upphovsuppgift (responsibilityStatement = 245 #c)  
+  ```Exempel: developed by Revolution Software```<br/>
   
   
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
-  <br/>```Exempel: Version 1.2```</br>  
+  <br/>```Exempel: Version 1.2```<br/>
   
   
 ### Utgivning  
 * Utgivning<br/> 
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning.</br>  
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Förenta staterna (xxu)```</br>  
+  ```Exempel: Förenta staterna (xxu)```  
  
  
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  ```Exempel: Burbank, California```</br>  
+  ```Exempel: Burbank, California```  
 
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  ```Exempel: Insomniac Games```</br>  
+  ```Exempel: Insomniac Games```  
   
   
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
-  Observera att År **måste** finnas med i beskrivningen, även om datum finns med.</br>  
+  Observera att År **måste** finnas med i beskrivningen, även om datum finns med.   
   
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
@@ -195,23 +195,23 @@ För datorspel anges alltid copyrightår, även om det sammanfaller med utgivnin
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
-<br/>```Exempel: ©2017```</br>  
+<br/>```Exempel: ©2017```  
     
 
 ### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt se [Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br/>
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)  
 Skriv in uppgiften under Benämning.
  <br/>```Exempel:```
    * ```1 DVD-ROM``` 
    * ```1 Blu-ray Disc```
-   * ```1 minneskort```</br>  
+   * ```1 minneskort```  
 
 * Om så önskas, för att uppgiften ska bli synlig i lokala system, kan konsol anges inom parentes efter omfång.
  <br/>```Exempel:```
    * ```1 DVD-ROM (Xbox 360)```
    * ```1 Blu-Ray Disc (Playstation 4)```
-   * ```1 minneskort (Nintendo Switch)```</br>  
+   * ```1 minneskort (Nintendo Switch)```  
    
 Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
