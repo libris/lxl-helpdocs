@@ -143,7 +143,7 @@ För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b</br>     
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b</br></br>     
      
      
 ### Upphovsuppgift
@@ -175,7 +175,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  ```Exempel: Insomniac Games```</br>     
+  ```Exempel: Insomniac Games```</br>  
   
   
 #### År och datum 
