@@ -133,7 +133,8 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varia
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
-   ```Exempel: Titeln felstavad, korrekt titel:```</br> 
+   ```Exempel: Titeln felstavad, korrekt titel:```  
+ </br> 
    
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br> 
@@ -145,29 +146,29 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
      
 ### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
-* Upphovsuppgift (responsibilityStatement = 245 #c)<BR/>
+* Upphovsuppgift (responsibilityStatement = 245 #c)</br> 
   ```Exempel: developed by Revolution Software```
   
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
-  <br/>```Exempel: Version 1.2```  
+  <br/>```Exempel: Version 1.2```</br> 
   
 ### Utgivning  
 * Utgivning<br/> 
-  Välj typ från lista. För monografisk resurs, använd Primär utgivning.
+  Välj typ från lista. För monografisk resurs, använd Primär utgivning.</br> 
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
-  ```Exempel: Förenta staterna (xxu)``` 
+  ```Exempel: Förenta staterna (xxu)```</br>  
  
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
-  ```Exempel: Burbank, California```  
+  ```Exempel: Burbank, California```</br> 
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  ```Exempel: Insomniac Games```    
+  ```Exempel: Insomniac Games```</br>     
   
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
