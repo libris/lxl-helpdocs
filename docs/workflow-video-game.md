@@ -148,7 +148,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".  
 * Upphovsuppgift (responsibilityStatement = 245 #c)  
   ```Exempel: developed by Revolution Software```
-  
+
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
   <br/>```Exempel: Version 1.2```<br/>
@@ -169,7 +169,6 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   ```Exempel: Insomniac Games```  
-  
  
 #### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
