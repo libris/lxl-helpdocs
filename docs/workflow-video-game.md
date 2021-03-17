@@ -133,15 +133,15 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varia
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
-   ```Exempel: Titeln felstavad, korrekt titel:```   
+   ```Exempel: Titeln felstavad, korrekt titel:```</br> 
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).  
+För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br> 
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)     
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b</br>     
      
 ### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
