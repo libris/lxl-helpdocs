@@ -248,7 +248,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 För en tryckt monografi är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Konstruktion av sökingångar för verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/konstruktion-av-sokingangar-for-verk-och-uttryck).  
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Föredragen titel för verket - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 #### Verk med Primär medverkan
