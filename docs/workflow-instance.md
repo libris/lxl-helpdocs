@@ -21,7 +21,7 @@ tags:
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anm-rkning) |
 | [Produktion](#produktion) | | [Innehållsförteckning](#inneh-llsf-rteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillg-ngligg-rande) | | [Målgruppsanmärkning](#m-lgruppsanm-rkning) |
-| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-b-rarformat) |
+| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
 | [Copyrightår](#copyright-r) | | |
 
