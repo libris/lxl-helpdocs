@@ -133,9 +133,9 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varia
 
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
-   ```Exempel: Titeln felstavad, korrekt titel:```   
- </br>
-   
+   ```Exempel: Titeln felstavad, korrekt titel:```</br>
+
+
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br>  
   
