@@ -92,7 +92,7 @@ För anvisningar om hur man anger ISBN, se [hjälptexten Instans](https://libris
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:
   </br>```dator, computer (kod = c)```  
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   För ett datorspel på DVD-ROM eller Blu-ray Disc, länka till entiteten:
@@ -100,7 +100,7 @@ För anvisningar om hur man anger ISBN, se [hjälptexten Instans](https://libris
   
   För ett datorspel på minneskort, länka till entiteten:
   </br>```datorminnesmodul, computer chip cartridge, cb (kod = cb)```   
-  
+
 ### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, se [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
 <br/>```Exempel: Need for speed - Undercover```
@@ -135,10 +135,9 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)<br/> 
    ```Exempel: Titeln felstavad, korrekt titel:```</br>
 
-
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).<br/>  
-  
+
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 <br/> * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
@@ -152,16 +151,16 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
   <br/>```Exempel: Version 1.2```<br/>
-  
+
 ### Utgivning  
 * Utgivning   
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
-  
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Förenta staterna (xxu)```  
- 
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   ```Exempel: Burbank, California```  
@@ -169,16 +168,16 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   ```Exempel: Insomniac Games```  
- 
+
 #### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
   Observera att År **måste** finnas med i beskrivningen, även om datum finns med.   
-  
+
 * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken, till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
-  
+
 [Läs mer om utgivningstid i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
 
@@ -188,7 +187,6 @@ För datorspel anges alltid copyrightår, även om det sammanfaller med utgivnin
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
 <br/>```Exempel: ©2017```  
-    
 
 ### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt se [Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
@@ -204,9 +202,8 @@ Skriv in uppgiften under Benämning.
    * ```1 DVD-ROM (Xbox 360)```
    * ```1 Blu-Ray Disc (Playstation 4)```
    * ```1 minneskort (Nintendo Switch)```  
-   
+
 Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
-  
 
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)  
