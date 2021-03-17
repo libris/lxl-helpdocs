@@ -224,9 +224,9 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, se
 För integrerande resurser med fjärråtkomst anges alltid datum för när resursen beskrevs.<br/>
 ```Exempel: Katalogiserad 2020-02-16```<br/>
 Gör anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare om det bedöms vara viktigt för identifikation eller åtkomst.<br/> 
-```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```
+```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```  
   
-### Behandling vid titelandring 
+### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entiteten:  
   ```2 (= Integrating entry = Katalogposten avser integrerande resurs)```
