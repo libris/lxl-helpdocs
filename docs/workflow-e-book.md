@@ -46,7 +46,7 @@ Beskrivningen av en e-bok innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj E-bok.  
 
-För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
 Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -86,13 +86,13 @@ Läs mer om [egenskaperna under Instans](https://libris.kb.se/katalogisering/hel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
-Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
+Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2](http://access.rdatoolkit.org/rdachp2_rda2-2904.html).</br>
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.</br> 
-[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
 
-För en parallell huvudtitel på ett annat språk eller i en annan skriftart, [se Parallelltitel](#parallelltitel).<br/>
+För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#parallelltitel).<br/>
 
 För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
@@ -177,7 +177,7 @@ URN, DOI och handle anges i Identifikator/Identifikator/Värde med standardnumme
     * ```urn```
     * ```doi```
     * ```hdl```
-    
+
 ### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
 
@@ -239,9 +239,9 @@ Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. 
 
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.
+  Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
   [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
-  
+
 ### Elektronisk adress
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).
 
@@ -260,16 +260,16 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 ## Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
-[Läs mer om egenskaperna under generell beskrivning av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+Läs mer om [egenskaperna under generell beskrivning av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
+Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).</BR> 
 
 ### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en e-bok är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna för föredragen titel i Metadatabrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange den föredragna titeln för verket här, vid behov. Följ [anvisningarna för föredragen titel i Metadatabrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
