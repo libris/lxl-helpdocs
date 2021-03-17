@@ -30,7 +30,7 @@ Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen 
 | | [Bärartyp](#bärartyp) | [Genre form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
+| | [Utgivning](#utgivning) | [Innehållstyp](#innehållstyp) |
 | | [Tillhörande media](#tillhörande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 | | [Frekvens](#frekvens) |  |
 | | [Alfabet](#alfabet) |  |
