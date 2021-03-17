@@ -110,7 +110,7 @@ Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett fr
 Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.4.1](http://access.rdatoolkit.org/kbspchp2_kbsp2-51.html). 
-  </br>```Exempel: SimCity 4 - Rush hour expansion```  
+  <br/>```Exempel: SimCity 4 - Rush hour expansion```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
   ```Exempel: Huvudtitel: The hip hop dance experience, fileringsvärde: 4```  
  Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel).
@@ -118,14 +118,14 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
 #### Övrig titelinformation
 Ange endast en titel som övrig titelinformation om det klart framgår att den är underordnad huvudtiteln och inte är nödvändig för att särskilja titeln från andra titlar med samma franchisenamn, se även [instruktioner under Titel](#titel).
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
-Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.</br>  
+Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.<br/>  
 
 #### Varianttitel
 En varianttitel är en titel förknippad med resursen som skiljer sig från den titel som angivits som huvudtitel, se [RDA 2.3.6](http://access.rdatoolkit.org/rdachp2_rda2-4004.html). Här anges t.ex. varianter för titlar som innehåller specialtecken, siffror eller oväntade stavningar av ord.
 <br/>För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till entitet) och välj typ Varianttitel.  
   * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 #a)
 <br/>Skriv in uppgiften i Huvudtitel.
-</br>```Exempel: Pro evolution soccer 2014```
+<br/>```Exempel: Pro evolution soccer 2014```
 
 För en parallell huvudtitel på ett annat språk eller i en annan skriftart, se [Parallelltitel](#Parallelltitel).<br/>
 
@@ -137,14 +137,12 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 
 
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br>  
-  
+För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).<br/>  
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
-* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
-    
+<br/>* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
+<br/>* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
     
 ### Upphovsuppgift  
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".  
@@ -158,7 +156,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   
   
 ### Utgivning  
-* Utgivning<br/> 
+* Utgivning   
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
   
   
@@ -175,7 +173,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
-  ```Exempel: Insomniac Games```<br/>
+  ```Exempel: Insomniac Games```  
   
   
 #### År och datum 
