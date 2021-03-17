@@ -99,7 +99,7 @@ För anvisningar om hur man anger ISBN, se [hjälptexten Instans](https://libris
   </br>```datorskiva, computer disc (kod = cd)```
   
   För ett datorspel på minneskort, länka till entiteten:
-  </br>```datorminnesmodul, computer chip cartridge, cb (kod = cb)```  
+  </br>```datorminnesmodul, computer chip cartridge, cb (kod = cb)```   
   
 ### Titel 
 Titlar för datorspel kan vara svåra att bestämma. Ibland består de av ett franchisenamn följt av ett nummer och/eller en annan titel. I resursen anges ofta den andra titeln på en ny rad och i ett annat typsnitt. Rekommenderad praxis är att ange alla dessa titlar tillsammans i egenskapen huvudtitel, inte som huvudtitel och övrig titelinformation eller huvudtitel och deltitel/delbeteckning. Lägg till interpunktion om det behövs för tydlighet, se [RDA 1.7.3](http://access.rdatoolkit.org/rdachp1_rda1-808.html). 
@@ -143,7 +143,7 @@ För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b<br/>
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
     
     
 ### Upphovsuppgift  
