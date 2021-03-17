@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Elektronisk seriell resurs
 order: 43
-date: 2020-11-12
+date: 2021-03-17
 tags:
 - seriell resurs
 - e-tidskrift
@@ -16,19 +16,19 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 [Inledning](#inledning) 
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- | ----------- | 
-[Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| ----------- |  ----------- | ----------- |
+|  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) |
-| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#sprak) |
-| | [Bärartyp](#barartyp) | [Genre/form](#genre-form) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Medietyp](#medietyp) | [Språk](#språk) |
+| | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillhörande media](#tillhorande-media) | [Innehållstyp](#innehallstyp) |
-| | [Anmärkning](#anmarkning)| |
+| | [Tillhörande media](#tillhörande-media) | [Innehållstyp](#innehållstyp) |
+| | [Anmärkning](#anmärkning)| |
 | | [Frekvens](#frekvens) | |
 | | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
+| | [Behandling vid titeländring](#behandling-vid-titeländring) |  |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs)| |
 | | [Relationer](#relationer) | | 
 
@@ -36,20 +36,18 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 
 ## Inledning
 Beskrivningen av en elektronisk seriell resurs innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår och bärartyp.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Många av egenskaperna finns redan i mallen Elektronisk seriell resurs, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Elektronisk  seriell resurs.  
 
-För information om katalogiseringsregler och Librispraxis, [se Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/seriella-resurser) samt [se RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsregler och Librispraxis, se [Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper/seriella-resurser) samt se [RDA Toolkit](https://access.rdatoolkit.org/).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
-
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!**
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.
@@ -65,7 +63,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```   
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
   ```Seriell resurs```
@@ -75,7 +73,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```dator, computer (kod = c)``` 
   
-### Barartyp  
+### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```onlineresurs, online resource (kod = cr)```
@@ -106,7 +104,7 @@ Skriv in uppgiften, inom parentes.
   Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2.](http://access.rdatoolkit.org/rdachp2_rda2-9147.html)<br/>
   ```Exempel: Advokaten```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
- Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
+ Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
   
 #### Övrig titelinformation
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
@@ -156,7 +154,7 @@ Används för akronymer som är en del av huvudtiteln.
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.       
   ```Exempel: [Göteborg]```
-  
+
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.         
@@ -188,7 +186,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```[2012-2013]```
   * ```[1988-]```
 
-### Tillhorande media 
+### Tillhörande media 
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
 Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, använd Tillhörande media för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
@@ -198,7 +196,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska resurser** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för resursen. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   Skriv in uppgiften under Benämning.  
@@ -217,7 +215,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
   
-### Behandling vid titelandring 
+### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entiteten:<br/> 
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
@@ -260,10 +258,10 @@ Använd Anmärkning (500) för att vid behov förtydliga typen av relation.
 
 För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
-[Läs mer om Verk och egenskaperna för Verk under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+Läs mer om Verk och egenskaperna för Verk under [den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket. [För instruktioner om Föredragen titel för verket, se Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange vid behov den föredragna titeln för verket. För instruktioner om Föredragen titel för verket, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -274,17 +272,17 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 Föredragen titel för ett verk med Primär medverkan med anges här.  
 
 ### Medverkan och funktion     
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+Följ instruktioner i [hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Sveriges advokatsamfund```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
-### Sprak
+### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
@@ -300,12 +298,12 @@ För en sorterad lista på koder, [se Formathandboken för Libris/Voyager - Funk
   * ```m (Monografiserie = marc/MonographicSeries```
 
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
+För anvisningar om hur man anger klassifikation, se [hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
   
 ### Amne  
-[Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+Se [hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: text, text (kod = txt)```
