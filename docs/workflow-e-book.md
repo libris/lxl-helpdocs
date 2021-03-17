@@ -2,7 +2,7 @@
 section: Materialtyper
 title: E-bok
 order: 42
-date: 2020-11-12
+date: 2021-03-17
 tags:
 - e-bok
 - e-bokskatalogisering
@@ -19,23 +19,23 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk)  |
+| | [Bärartyp](#bärartyp) | [Språk](#språk) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk)  |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Copyrightår](#copyrightar) | [Målgrupp](#malgrupp) | 
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehallstyp) | 
-| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) | 
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) | 
+| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) |
+| | [Anmärkning](#anmärkning) |
 | | [Digital karakteristika](#digital-karakteristika) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+| | [Annat bärarformat](#annat-bärarformat) | |
 | | [Elektronisk adress](#elektronisk-adress) | | 
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
 
 
 ## Inledning
@@ -46,12 +46,12 @@ Beskrivningen av en e-bok innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen E-bok, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj E-bok.  
 
-För information om katalogregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) och [se RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler och Librispraxis, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
@@ -59,9 +59,9 @@ För information om katalogregler och Librispraxis, [se Metadatabyrån](https://
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Elektronisk.  Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 
-[Läs mer om egenskaperna under Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Läs mer om [egenskaperna under Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-### Utgivningssatt 
+### Utgivningssätt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
@@ -71,7 +71,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```dator, computer, c```
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
   ```onlineresurs, online resource, cr```</BR>
@@ -156,7 +156,7 @@ Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
 * Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 #c) 
 
-### Copyrightar   
+### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
 ### Identifikator 
@@ -184,13 +184,13 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)
 
-### Omfang 
-Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, [se RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
+### Omfång 
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html). Ange även antal underenheter, t.ex. sidor, inom parentes efter antal enheter och typ, se [RDA 3.4.1.7.5](http://access.rdatoolkit.org/rdachp3_rda3-2245.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br>
  Skriv in uppgiften under Benämning.  
   ```Exempel:   1 onlineresurs (239 sidor)```  
 
-### Ovriga fysiska detaljer   
+### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)
 
 ### Seriemedlemskap
@@ -203,7 +203,7 @@ Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
 (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)</br>
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se även Serieuppgift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift). 
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se även [Serieuppgift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift). 
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
@@ -221,14 +221,14 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). [Se �
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny agent. I undantagsfall, skapa lokal entitet. [Se Agenter i Libris - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris) 
+  Vid behov, skapa ny agent. I undantagsfall, skapa lokal entitet. Se [Agenter i Libris - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris) 
   
 #### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
 ### Digital karakteristika
@@ -237,15 +237,10 @@ Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3
 Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
   ```Exempel: PDF```
 
-### Annat bararformat
+### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel), #z (Identifikator) samt 776 #w (Kontrollnummer). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-![Annat bärarformat 776](776.png)   
-  
-* Annat bärarformat/Typanmärkning (776 #i)   
-  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
-* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+  Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.
+  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
   
 ### Elektronisk adress
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).
@@ -258,7 +253,7 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 * Del av materialet som avses/Resurs/Benämning (appliesTo/Resource/label = 856 4/0 #3)</br>
 Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.
 
-### Malgruppsanmarkning  
+### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
@@ -285,7 +280,7 @@ Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna f�
  Föredragen titel för ett verk utan primär medverkan anges här.
  
 ### Medverkan och funktion
-[Följ instruktioner i Relationer till Agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
+Följ instruktioner i [Relationer till Agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
 
 #### Primär medverkan  
 * Medverkan och funktion/Primär medverkan/Agent/Person  
@@ -303,7 +298,7 @@ Ange den föredragna titeln för verket här, vid behov. [Följ anvisningarna f�
 * Medverkan och funktion/Medverkan/Funktion  
 (contribution/role = 700, 710 #4)
 
-### Sprak 
+### Språk 
 * Språk (language = 008/35-37)</br>
 Ange textens språk här. För en text på svenska, länka till svenska. För att ange att texten är på flera språk, länka till ytterligare en språkkod.
 För att ange originalspråk för ett översatt verk, se Översättning, nedan.
@@ -323,7 +318,7 @@ Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 #### Sammanfattningsspråk
-[Se Sammanfattning av innehåll](#sammanfattning-av-innehall).
+Se [Sammanfattning av innehåll](#sammanfattning-av-innehall).
 
 ### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
@@ -331,10 +326,10 @@ För översättningar i flera led, använd egenskapen Intermediärt språk till 
 Anmärkningen finns i mallen E-bok och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ### Relationer till ingaende verk och andra verk
-För instruktioner, [se Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
+För instruktioner, se [Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
 
 ### Genre form
-För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form).
+För anvisningar om hur man anger genre/form, se [hjälptexten Verk](https://libris-stg.kb.se/katalogisering/help/workflow-work#genre-form).
 
 ##### Exempel på användning av Genre/form
 **Roman**  
@@ -381,12 +376,12 @@ Genre/form (saogf-term, 655): Avhandlingar
 Innehåll (008/24-27): Avhandling
 
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, [se Klassifikation - Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
+För anvisningar om hur man anger klassifikation, se [Klassifikation - Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
-### Amne  
-* [Se instruktioner för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord)  
+### Ämne  
+* Se [instruktioner för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord)  
 
-### Malgrupp     
+### Målgrupp     
 * Målgrupp (008/22)
 <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
@@ -397,14 +392,14 @@ För anvisningar om hur man anger klassifikation, [se Klassifikation - Metadatab
 
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
 ```Exempel: text (txt)```
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet.
   I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
 
-### Sammanfattning av innehall
+### Sammanfattning av innehåll
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</br>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.
 Skriv in uppgiften under Benämning.</br>
@@ -419,7 +414,7 @@ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.</br>
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.<br>
 ```Exempel: Engelska```
   
-### Anmarkning om akademisk avhandling    
+### Anmärkning om akademisk avhandling    
 * Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)</br>
 Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.
 Skriv in anmärkningen under Benämning.
