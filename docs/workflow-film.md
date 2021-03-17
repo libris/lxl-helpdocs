@@ -81,7 +81,7 @@ Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) 
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [Librispraxis 2.2.2.3](http://access.rdatoolkit.org/kbspchp2_kbsp2-38.html). 
-  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, [se RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
+  <br/>Om titeln förekommer i källan på mer än ett språk eller i mer än en skriftart, se [RDA 2.3.2.4](http://access.rdatoolkit.org/rdachp2_rda2-3375.html) samt [Librispraxis för RDA 2.3.2.4](http://access.rdatoolkit.org/kbspchp2_kbsp2-84.html).  
  ```Exempel: The beguiled```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: The Beguiled, fileringsvärde: 4```  
@@ -110,7 +110,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
    ```Exempel: Titeln felstavad, korrekt titel:```   
    
 #### Delbeteckning och deltitel
-För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel#h-Titlarpadelarsektionerellersupplement): Titlar på delar, sektioner eller supplement
+För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån: Titlar på delar, sektioner eller supplement](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel#h-Titlarpadelarsektionerellersupplement).
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -184,7 +184,7 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
  
- Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
+ Läs mer om Utgivningstid i [Metadatabyrån: Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift#h-Utgivningstid).
   
 ### Copyrightår
 För film anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
@@ -234,7 +234,7 @@ Skriv in uppgiften under Benämning.
   Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
   
-### Ovriga fysiska detaljer   
+### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   ```Exempel: stum, svartvit```
   
@@ -297,7 +297,7 @@ Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://ww
 För en film är verkstypen Rörlig bild.  
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket).
+Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -351,7 +351,7 @@ För en film som är dubbad, lägg till:
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
 ```Exempel: engelska (eng)``` 
 
-### Relationer till ingaende verk och andra verk
+### Relationer till ingående verk och andra verk
 #### Relationer till ingående verk
 * Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
