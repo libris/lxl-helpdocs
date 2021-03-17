@@ -139,36 +139,44 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).</br>  
   
+  
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b</br>     
+     
      
 ### Upphovsuppgift
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".
 * Upphovsuppgift (responsibilityStatement = 245 #c)</br> 
   ```Exempel: developed by Revolution Software```</br>  
   
+  
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
   <br/>```Exempel: Version 1.2```</br>  
   
+  
 ### Utgivning  
 * Utgivning<br/> 
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.</br>  
+  
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Förenta staterna (xxu)```</br>  
  
+ 
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   ```Exempel: Burbank, California```</br>  
 
+
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   ```Exempel: Insomniac Games```</br>     
+  
   
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
@@ -181,6 +189,7 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   
 [Läs mer om utgivningstid i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
   
+
 ### Copyrightår
 För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11 i RDA Toolkit](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
@@ -188,6 +197,7 @@ För datorspel anges alltid copyrightår, även om det sammanfaller med utgivnin
   Se också [hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
 <br/>```Exempel: ©2017```</br>  
     
+
 ### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt se [Librispraxis i RDA Toolkit för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)<br/>
@@ -205,10 +215,12 @@ Skriv in uppgiften under Benämning.
    
 Notera att det är obligatoriskt att ange konsol i egenskapen [Systemkrav](#systemkrav).
   
+
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)  
   ```Exempel: ljud, svartvit```
   
+
 ### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften.
@@ -216,9 +228,11 @@ Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Ska
    * ```1 handledning (36 sidor)``` 
    * ```1 handledning (4 sidor) + spelkontroll i form av gitarr```
 
+
 ### Seriemedlemskap
 För anvisningar om hur man anger seriemedlemskap, se [Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift).<br/>
 Franchisenamn ska inte anges som serieuppgift, se [Titel](#titel).
+
 
 ### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
@@ -228,6 +242,7 @@ Skriv in uppgiften under Benämning. Åldersnivån kan om så önskas, precisera
 
 Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#målgrupp) under Instans av Verk.
 
+
 ### Systemkrav
 Det är obligatoriskt i Libris att ange konsol här. 
 * Systemkrav/Modell/Benämning (systemRequirement/MachineModel/label = 753 #a)</BR>
@@ -236,16 +251,19 @@ Skriv in uppgiften under Benämning.
 
 Konsol kan även, om så önskas, för att uppgiften ska bli synlig i lokala system, anges inom parentes efter [omfång](#omfång) eller i egenskapen [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter).
 
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Skriv in allmänna anmärkningar här. För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till.
   Skriv in uppgiften under Benämning.<BR/>
 ```Exempel: Avsett för 1-7 spelare, 1-2 spelare i nätverk```  
   
+
 ### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen. Uppgift om konsol ska alltid anges i egenskapen [Systemkrav](#Systemkrav). Om så önskas, för att den ska bli synlig i i lokala system, kan uppgift om konsol även anges här eller inom parentes efter [Omfång](#Omfång).
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext        (marc:hasSystemDetailsNote = 538 #a)</BR>
 ```Exempel: Systemkrav: 50 GB minimum på hårddisken ; dualshok 4 ; stöd för remote play```  
+
 
 ## Verk 
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
@@ -254,12 +272,15 @@ Läs mer om egenskaperna under [generell beskrivning av Verk](https://libris.kb.
 
 Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
 
+
 ### Instans av verk (instanceOf/Work)
 * Instans av verk/Multimedia (instanceOf/Work/Multimedia)  
 För ett datorspel är verkstypen Multimedia.  
 
+
 ### Verkets titel 
 Ange vid behov den föredragna titeln för verket här. Följ [anvisningarna för föredragen titel i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
+
 
 #### Verk utan primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)  
@@ -269,14 +290,17 @@ Ange  den föredragna titeln i Huvudtitel.
 Tillägget inom parentes (datorspel) görs för att skilja datorspelet Prototype från filmen Prototype.</BR> 
 Läs mer om [tillägg till föredragna titlar för verk i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket/tillagg-till-foredragna-titlar-for-verk).</BR>
 
+
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)</BR>
 Det är ovanligt att datorspel har primär medverkan. Ofta är det två eller flera agenter (programmerare, utvecklare etc.) som är gemensamt ansvariga för att ha skapat verket. För att en agent ska räknas som primär medverkande ska denne vara ansvarig för alla aspekter kopplade till skapandet av datorspelet. 
 Ange den föredragna titeln i Huvudtitel.
 
+
 ### Medverkan och funktion
 Följ instruktioner i [Relationer till agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
  
+
 #### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person 
 </BR>(contribution/PrimaryContribution/agent/Person = 100 1/- #a)
@@ -284,6 +308,7 @@ Följ instruktioner i [Relationer till agenter - Metadatabyrån](https://metadat
 </BR>(contribution/PrimaryContribution/agent/Organisation = 110 2/-)
 * Medverkan och funktion/Primär medverkan/Funktion
 </BR>(contribution/PrimaryContribution/role = 100, 110 #4)
+
 
 #### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person  
@@ -293,10 +318,12 @@ Följ instruktioner i [Relationer till agenter - Metadatabyrån](https://metadat
 * Medverkan och funktion/Medverkan/Funktion  
 (contribution/role = 700, 710 #4)
  
+
 #### Funktioner som saknar funktionskod
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
 ```Exempel: spelutvecklare```
   
+
 ### Språk 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
@@ -305,7 +332,8 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
   Länka till entitet. 
 För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
   
-#### Översättning  
+#
+### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -319,11 +347,13 @@ För datorspel som är/innehåller en översättning, lägg till:
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
 
+
 ### Relationer till ingående verk och andra verk
-För instruktioner, [se Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
+För instruktioner, se [Ingående verk/uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck)
+
 
 ### Genre form 
-För utförliga anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
+För utförliga anvisningar om hur man anger genre/form, se [hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br> 
 Länka till entiteten:</br> 
@@ -335,13 +365,16 @@ För datorspel ska typ av fil (= 008/26) anges med termen Dataspel, g i Genre/fo
 Välj Typ av fil.
 Länka till entiteten:</br>
  ```Dataspel, g```
-    
+  
+  
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
  
+
 ### Ämne  
 * Ämne  
   Länka  i första hand till entiteter för ämnesord. Följ instruktionerna för [Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).   
+
 
 ### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
@@ -351,11 +384,13 @@ För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatab
 
 För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Målgruppsanmärkning) under Instans.
  
+
 ### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
   ```datorprogram, computer program (kod = cop)```
   
+
 ### Anmärkningar
 #### Anmärkning om språk
  * Anmärkning/Anmärkning om språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)  
