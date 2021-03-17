@@ -30,7 +30,7 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
 | | [Digital karaktäristika](#digital-karaktäristika) | | |
 | | [Tillhörande media](#tillhörande-media) | | |
-| | [Villkor för användning och åtkomst](#villkor-for-användning-och-åtkomst) | | |
+| | [Villkor för användning och åtkomst](#villkor-för-användning-och-åtkomst) | | |
 | | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehåll) | | |
 | | [Anmärkning](#anmärkning)| |
 
