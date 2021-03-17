@@ -101,7 +101,7 @@ Skriv in uppgiften, inom parentes.
   
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
-  Återge huvudtiteln som den förekommer i källan, [se RDA 2.2.2.4.2.](http://access.rdatoolkit.org/rdachp2_rda2-9147.html)<br/>
+  Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2.](http://access.rdatoolkit.org/rdachp2_rda2-9147.html)<br/>
   ```Exempel: Advokaten```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
  Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
@@ -261,7 +261,7 @@ För att lägga till egenskaper under Instans av Verk, klicka på plustecknet ti
 Läs mer om Verk och egenskaperna för Verk under [den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket. För instruktioner om Föredragen titel för verket, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange vid behov den föredragna titeln för verket. För instruktioner om Föredragen titel för verket, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -279,7 +279,7 @@ Följ instruktioner i [hjälptexten Relationer till Agent](https://libris.kb.se/
   ```Exempel: Sveriges advokatsamfund```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/index.html)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
 ### Språk
