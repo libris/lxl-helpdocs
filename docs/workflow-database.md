@@ -74,17 +74,17 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: 2001-2721```  
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
   Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
+  ```Exempel: 1653-2945```</br>    
   
 ### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
-  ```Integrerande resurs```
+  ```Integrerande resurs```</br> 
   
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
-  ```dator, computer (kod = c)``` 
+  ```dator, computer (kod = c)```</br> 
   
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
