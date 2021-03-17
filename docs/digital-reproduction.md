@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Digital reproduktion
 order: 39
-date: 2020-11-12
+date: 2021-03-17
 tags:
 - digital reproduktion
 - digitalisering
@@ -128,8 +128,8 @@ Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodni
 <br/>```Offentlig anmärkning: Fritt tillgänglig via Kungliga biblioteket```
 <br/>```URI: http://urn.kb.se/resolve?urn=urn:nbn:se:kb:eod-1600793```
 
-### Villkor för använding och åtkomst
-* Villkor för anvädning och åtkomst/Användningsvillkor/Benämning (usageAndAccessPolicy/UsePolicy/label = 540 #a)
+### Villkor för användning och åtkomst
+* Villkor för användning och åtkomst/Användningsvillkor/Benämning (usageAndAccessPolicy/UsePolicy/label = 540 #a)
 <br/>```Exempel:``` 
 <br/>```Benämning: CC0``` 
 
