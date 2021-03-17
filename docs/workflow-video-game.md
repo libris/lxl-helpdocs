@@ -141,41 +141,36 @@ För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån
   
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
-<br/>* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
-<br/>* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
-    
+<br/> * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
+<br/> * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b  
+
 ### Upphovsuppgift  
 Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift när det klart framgår av resursen att det är en upphovsuppgift, t.ex. om ett namn på en agent föregås av "by" eller "av".  
 * Upphovsuppgift (responsibilityStatement = 245 #c)  
-  ```Exempel: developed by Revolution Software```<br/>
-  
+  ```Exempel: developed by Revolution Software```
   
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)
   <br/>```Exempel: Version 1.2```<br/>
   
-  
 ### Utgivning  
 * Utgivning   
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
-  
   
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Förenta staterna (xxu)```  
  
- 
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   ```Exempel: Burbank, California```  
-
 
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   ```Exempel: Insomniac Games```  
   
-  
+ 
 #### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. 
