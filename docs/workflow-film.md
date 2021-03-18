@@ -17,25 +17,25 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#bärartyp) | [Språk](#språk) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
+| | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](#ämne)  |
-| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
-| | [Omfång](#omfång) | [Bild- och filmtexter](#bild--och-filmtexter)|
+| | [Utgivning](#utgivning) | [Ämne](#-mne)  |
+| | [Copyrightår](#copyright-r) | [Målgrupp](#målgrupp) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#inneh-llstyp) |
+| | [Omfång](#omf-ng) | [Bild- och filmtexter](#bild--och-filmtexter)|
 | | [Speltid](#speltid) | [Inspelning](#inspelning) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkningar](#anmärkningar) |
-| | [Medföljande material](#medföljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll)  |
+| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Anmärkningar](#anm-rkningar) |
+| | [Medföljande material](#medf-ljande-material) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
 | | [Videokarakteristika](#videokarakteristika) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
-| | [Innehållsförteckning](#innehållsförteckning) | |
+| | [Målgruppsanmärkning](#m-lgruppsanm-rkning) | |
+| | [Innehållsförteckning](#inneh-llsförteckning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
-| | [Anmärkning](#anmärkning) | |
+| | [Anmärkning](#anm-rkning) | |
 | | [Elektronisk adress](#elektronisk-adress) | |
 
 ## Inledning
