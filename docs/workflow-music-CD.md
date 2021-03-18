@@ -215,7 +215,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   <br/>```Exempel: Dead End Exit Records```<br/>
   * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.    
-  
+
 #### EAN
   * Identifikator (identifiedBy)  
   Välj typ från lista.  
@@ -236,12 +236,12 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
-  
+
 ### Övriga fysiska detaljer   
   * Övriga fysiska detaljer (other physical details = 300 #b)     
   Skriv in uppgiften.  
   ```Exempel: mono```
-  
+
 ### Medföljande material
   * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
   Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.)</br> 
@@ -372,7 +372,7 @@ Föredragen titel för ett verk utan primär medverkan anges här.
 <br/>```Exempel:```
     * ```Sångare, sng```
     * ```Musiker, mus```<br/>
- Om funktion inte kan specificeras, välj funktionen "Framförande": 
+Om funktion inte kan specificeras, välj funktionen "Framförande": 
    <br/>```Exempel: Framförande, prf```  
 
 #### Medverkan
@@ -403,7 +403,7 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
     * ```Musikinspelningar```
     * ```Reggae```
 
-  Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+ Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ### Klassifikation  
   För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) under rubriken Klassifikation.
