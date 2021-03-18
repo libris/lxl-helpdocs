@@ -19,23 +19,23 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#bärartyp) | [Språk](#språk) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk)  |
+| | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk)  |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) | 
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) | 
-| | [Omfång](#omfang) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
-| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
+| | [Copyrightår](#copyright-r) | [Målgrupp](#målgrupp) | 
+| | [Identifikator](#identifikator) | [Innehållstyp](#inneh-llstyp) | 
+| | [Omfång](#omf-ng) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) |
+| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anm-rkning-om-akademisk-avhandling) |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) |
+| | [Anmärkning](#anm-rkning) |
 | | [Digital karakteristika](#digital-karakteristika) | |
-| | [Annat bärarformat](#annat-bärarformat) | |
+| | [Annat bärarformat](#annat-b-rarformat) | |
 | | [Elektronisk adress](#elektronisk-adress) | | 
-| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
+| | [Målgruppsanmärkning](#m-lgruppsanm-rkning) | |
 
 
 ## Inledning
