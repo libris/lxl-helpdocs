@@ -24,7 +24,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](#-mne)  |
-| | [Copyrightår](#copyright-r) | [Målgrupp](#målgrupp) |
+| | [Copyrightår](#copyright-r) | [Målgrupp](#m-lgrupp) |
 | | [Identifikator](#identifikator) | [Innehållstyp](#inneh-llstyp) |
 | | [Omfång](#omf-ng) | [Bild- och filmtexter](#bild--och-filmtexter)|
 | | [Speltid](#speltid) | [Inspelning](#inspelning) |
