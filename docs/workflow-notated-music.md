@@ -104,17 +104,17 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```  
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer. Länka till entitet.  
   ```Exempel: nc (= volym)```  
-  
+
 ### Titel  
 
 #### Huvudtitel    
@@ -152,7 +152,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   * ```Kaija Saariaho```
   * ```Sergej Prokofjew```
   * ```Ludwig van Beethoven ; herausgegeben von Rainer Cadenbach```
-  
+
 ### Upplageuppgift  
 * Upplageuppgift (editionStatement = 250 #a)  
   Skriv in upplagebeteckning här. Om de förekommer i källan ange även uppgifter om musikalietyp (partitur, klaverutdrag) och sättning (låg/hög röst) här.
@@ -172,18 +172,18 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
    I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
    En maskinell ändring av dessa poster kommer att ske på sikt.  
    Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.  
- 
+
 #### Utgivningsplats  
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
     Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
     Skriv in uppgiften under Benämning. Klamra vid behov.  
     ```Exempel: [Wiesbaden]```  
-    
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
-  
+
 #### Utgivarnamn  
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
     Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.       
@@ -193,7 +193,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
     Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.  
     Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
     Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
+
 #### År och datum 
 * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
     År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
@@ -242,7 +242,7 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
   <br/>```Exempel:```
   * ```2017```
   * ```[2017]```
-  
+
 ### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
@@ -257,7 +257,7 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
    * ```112 sidor```
    * ```1 partitur (ix, 43 sidor)```
    * ```1 klaverutdrag (18 sidor) + 2 stämmor```
-    
+
 ### Övriga fysiska detaljer
 * Övriga fysiska detaljer (other physical details = 300 #b)  
   Skriv in uppgiften.  
@@ -274,7 +274,7 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
-  
+
 ### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
   Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa   lokal entitet och välj ** Instans.) Lägg till Benämning.</br>
@@ -287,29 +287,29 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
   *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
   * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS! Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
-     
+   
 #### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 #a)  
   Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
   Skriv in uppgiften.   
   ```Exempel: Neue Ausgabe sämtlicher Werke. Serie 2, Kammermusik```  
-  
+
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
   Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
-  
+
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
   Skriv in uppgiften.  
    ```Exempel: Neue Ausgabe sämtlicher Werke. Serie 2, Kammermusik```
-   
+ 
 #### Numrering inom serie  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 #v, 830 #v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
-  
+
 #### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
@@ -323,7 +323,7 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
   När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett genom att lägga till Serieuppgift och Indikator för seriebiuppslag i det Seriemedlemskap som innehåller Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel.  
   Om man försöker göra tvärtom och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Noterad musik (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
   OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
-  
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Gör allmänna anmärkningar här.
@@ -463,7 +463,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.</BR>
   För ytterligare instruktioner om hur man anger relationer till agenter, se hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).</BR>
-  
+
 #### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
@@ -485,7 +485,7 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
   <br/>```Exempel:```
   * ```Sångtext/lyr```
   * ```Redaktör/edt```
-  
+
 ### Språk  
 * Språk (language = 008/35-37)  
   För instrumentalmusik, ange Icke-språkligt medium (=language/zxx). För texter till musik, ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
@@ -534,25 +534,25 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
   <br/>```Exempel:```
     * ```Sångtext på hebreiska```
     * ```Kritiska kommentarer på svenska och engelska```  
- 
+
 ### Målgrupp     
 * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.  
     ```Exempel: j (= barn- och ungdom, 0-16 år)```  
-  
+
 ### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: term/rda/NotatedMusic```
   
   För att lägga till ytterligare innehållstyp, länka till ytterligare en entitet. I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.
-  
+
 ### Har del
 * Har del (hasPart = 700 2/_ )  
   Här anges ingående verk om instansen manifesterar fler än ett verk, med föredragna titlar och medverkande.  
   För att ange verk som ingår i det beskrivna verket, klicka på pilen vid Verk och lägg in uppgifterna enligt instruktionerna nedan. För att ange ytterligare verk, klicka på ikonen med tre prickar längst till höger om Verk och välj Duplicera entitet.
-  
+
 #### Verk/Har titel/Titel
 * Huvudtitel (hasTitle/Title/mainTitle = 700 2/_ #a)  
    Ange den föredragna titeln för verket här, vid behov. Pregnanta titlar för musik anges ofilerade. Skriv in uppgiften.
@@ -600,7 +600,7 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
   Språk för översättning. Lägg till en förekomst av Språk under Har del/Verk genom att klicka på plustecknet vid Verk. Sök fram Språk i sidorutan, klicka på termen och sedan på Skapa lokal entitet. Lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 700 2/_ #l.  
     ```Exempel: Svenska```    
-    
+ 
 #### Relationer till andra verk
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t) 
   Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow/-agent-relation)
