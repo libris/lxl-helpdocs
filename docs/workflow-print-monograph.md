@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2021-02-12
+date: 2021-03-18
 tags:
 - monografi
 --- 
@@ -44,7 +44,7 @@ Beskrivningen av en tryckt monografi innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok.  
 
-För information om katalogiseringsanvisningar och Librispraxis se [Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/tryckta-monografier) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsanvisningar och Librispraxis se [Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/tryckta-monografier) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -73,12 +73,12 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
-  
+
 ### Bärartyp 
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
-  
+
 ### Titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)
@@ -142,7 +142,7 @@ Används inte. Se Varianttitel (246).
 Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
 * Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 #c) 
-  
+
 ### Tillverkning 
 
 #### Tillverkningsplats (Tillverkningsort) 
@@ -170,7 +170,7 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)
- 
+
 ### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
@@ -209,12 +209,12 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
   Vid behov, skapa ny agent, [se hjälptexten Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
-  
+
 #### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
-  
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
@@ -258,8 +258,8 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
- 
-### Relationer till ingaende verk och andra verk
+
+### Relationer till ingående verk och andra verk
 
 #### Relationer till ingående verk 
 * Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
@@ -300,7 +300,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   ```Exempel: svenska (swe)```   
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.  
   För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
-  
+
 #### Översättning   
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -345,22 +345,22 @@ Välj någon av övriga rubriker i listan.
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
-  
+
 #### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Välj Festskrift i listan över typer. Länka till entitet.    
   ```Exempel: Ja, resursen är en festskrift```    
-  
+
 #### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
   ```Exempel: f ( = roman)```
-   
+
 #### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Välj Konferenspublikation i listan över typer. Länka till entitet.         
   ```Exempel: Ja, resursen härrör från konferens```   
-     
+
 #### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
