@@ -121,7 +121,7 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
   * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)   
   Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.   
   ```Exempel: for computer and soprano```  
- 
+
 ### Upphovsuppgift
   * Upphovsuppgift (responsibilityStatement = 245 #c)  
   Skriv in uppgiften.
@@ -340,7 +340,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 #a)</br>
 Föredragen titel för ett verk utan primär medverkan anges här.  
 
-### Relationer till ingaende verk och andra verk
+### Relationer till ingående verk och andra verk
 
 #### Relationer till ingående verk
 * Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
@@ -368,11 +368,11 @@ Föredragen titel för ett verk utan primär medverkan anges här.
 <br/>```Exempel: Persson, Peps, 1946-```  
   * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-  För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
+  För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/index.html)
 <br/>```Exempel:```
     * ```Sångare, sng```
     * ```Musiker, mus```<br/>
-  Om funktion inte kan specificeras, välj funktionen "Framförande": 
+ Om funktion inte kan specificeras, välj funktionen "Framförande": 
    <br/>```Exempel: Framförande, prf```  
 
 #### Medverkan
@@ -413,7 +413,7 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
 
-  För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning) under rubriken Målgruppsanmärkning.
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#malgruppsanmarkning) under rubriken Målgruppsanmärkning.
 
 ### Innehållstyp
   * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
