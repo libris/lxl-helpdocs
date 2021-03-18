@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2021-03-12
+date: 2021-03-18
 tags:
 - ljudbok
 --- 
@@ -17,7 +17,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
@@ -26,7 +26,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Utgivning](#utgivning) | [Ämne](#-mne) |
 | | [Copyrightår eller p-år](#copyright-r-eller-p-år) | [Målgrupp](#m-lgrupp) |
 | | [Identifikator](#identifikator) |[Innehållstyp](#inneh-llstyp) |
-| | [Omfång](#omf-ng) | [Anmärkning om medverkande](#anmärkning-om-medverkande) |
+| | [Omfång](#omf-ng) | [Anmärkning om medverkande](#anm-rkning-om-medverkande) |
 | | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
 | | [Medföljande material](#medf-ljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
