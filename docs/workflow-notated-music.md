@@ -125,7 +125,7 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
   <br/>```Exempel:```
   * ```Lichtbogen```
   * ```Quartett Nr. 2 op. 92 für 2 Violinen, Viola und Violoncello```  
- För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
   ```Exempel: Huvudtitel: The best of Heavy metal, fileringsvärde: 4```  
   Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
 
@@ -139,7 +139,7 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
     ```Exempel: fler progglåtar : guldkorn från 70-talet```
   
-För att ange föredragen titel (=uniform titel), se Verk/Har titel/Titel/Huvudtitel.  
+<br/>För att ange föredragen titel (= uniform titel), se Verk/Har titel/Titel/Huvudtitel.  
 
 För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Varianttitel
   
@@ -304,7 +304,7 @@ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyr
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
   Skriv in uppgiften.  
    ```Exempel: Neue Ausgabe sämtlicher Werke. Serie 2, Kammermusik```
- 
+
 #### Numrering inom serie  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 #v, 830 #v)  
   Skriv in uppgiften.  
@@ -512,7 +512,7 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
    * ```Piano```
    * ```Blandad kör```
    * ```Menuetter```
-      
+<br/>
 Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.youtube.com/watch?v=aAMzfkh_ycA&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ### Klassifikation 
