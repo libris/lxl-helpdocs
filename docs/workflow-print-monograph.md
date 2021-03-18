@@ -68,7 +68,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
