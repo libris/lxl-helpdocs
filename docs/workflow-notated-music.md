@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musiktryck
 order: 49
-date: 2021-02-12
+date: 2021-03-18
 tags:
 - musiktryck
 --- 
@@ -15,41 +15,41 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 [Inledning](#inledning)
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- | ----------- | 
-|  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| ----------- |  ----------- | ----------- |
+|  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator)  | [Byta verkstyp](#byta-verkstyp) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-sprak) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) |
-| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+| | [Upplageuppgift](#upplageuppgift) | [Ämne](#-mne) |
+| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-spr-k) |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#m-lgrupp) |
+| | [Copyrightår](#copyright-r) | [Innehållstyp](#inneh-llstyp) | 
 | | [Identifikator](#identifikator) | [Har del](#har-del) |  
-| | [Omfång](#omfang) | |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | | 
-| | [Mått](#matt) | |
+| | [Omfång](#omf-ng) | |
+| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | | 
+| | [Mått](#m-tt) | |
 | | [Speltid](#speltid) | |
-| | [Medföljande material](#medfoljande-material) | |  
+| | [Medföljande material](#medf-ljande-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | |
+| | [Anmärkning](#anm-rkning) | |
 | | [Format för noterad musik](#format-for-noterad-musik) | |
-| | [Innehållsförteckning](#innehallsforteckning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | | 
+| | [Innehållsförteckning](#inneh-llsf-rteckning) | |
+| | [Målgruppsanmärkning](#malgruppsanm-rkning) | |
+| | [Annat bärarformat](#annat-b-rarformat) | | 
 
 ## Inledning
 
 Beskrivningen av ett musiktryck innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå.
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
 Många av egenskaperna finns redan i mallen Noterad musik, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Noterad musik.  
 
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Metadatabyrån](https://metadatabyran.kb.se/) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg INTE in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
@@ -100,7 +100,7 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
@@ -110,7 +110,7 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
   Länka till entitet.  
   ```Exempel: n (= omedierad)```  
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer. Länka till entitet.  
   ```Exempel: nc (= volym)```  
@@ -120,12 +120,12 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)   
   För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [Metadatabyrån, Grenrella anvisningar - RDA, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [Metadatabyrån, Generella anvisningar - RDA, Titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel).  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Lichtbogen```
   * ```Quartett Nr. 2 op. 92 für 2 Violinen, Viola und Violoncello```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
   ```Exempel: Huvudtitel: The best of Heavy metal, fileringsvärde: 4```  
   Se exempel i [formathandboken för Libris/Voyager - Fileringsindikator](https://katalogverk.kb.se/katalogisering/Formathandboken/index.html)
 
@@ -136,7 +136,7 @@ Lägg till genom att klicka på Lägg till egenskaper under: Instans, sök upp "
   * ```for nine musicians and live electronics```
   * ```auf kabardinische Themen```  
   
-  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
+Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
     ```Exempel: fler progglåtar : guldkorn från 70-talet```
   
 För att ange föredragen titel (=uniform titel), se Verk/Har titel/Titel/Huvudtitel.  
@@ -189,7 +189,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
     Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.       
     Skriv in uppgiften under Benämning.  
     ```Exempel: Breitkopf & Härtel```   
-    Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
+  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
     Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.  
     Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
     Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
@@ -221,7 +221,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
     * ```Datum: [1732?]-1756```
     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
- Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
+Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift#h-Utgivningstid).
 
 ### Tillverkning 
 * Tillverkning (manufacture)  
@@ -243,14 +243,14 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   * ```2017```
   * ```[2017]```
   
-### Copyrightar   
+### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   För musiktryck anges alltid copyrightår om det skiljer sig från utgivningstid (om de sammanfaller anges endast utgivningsår). Ange endast senaste copyrightåret.  
   För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184. Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
     Skriv in uppgiften.  
     ```Exempel: ©2017```   
 
-### Omfang   
+### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)  
   Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
@@ -258,12 +258,12 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
    * ```1 partitur (ix, 43 sidor)```
    * ```1 klaverutdrag (18 sidor) + 2 stämmor```
     
-### Ovriga fysiska detaljer
+### Övriga fysiska detaljer
 * Övriga fysiska detaljer (other physical details = 300 #b)  
   Skriv in uppgiften.  
   ```Exempel: faksimil```  
 
-### Matt 
+### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)  
   Skriv in uppgiften under Benämning.  
   ```Exempel: 24 cm``` 
@@ -275,7 +275,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
   
-### Medfoljande material
+### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)</br>
   Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa   lokal entitet och välj ** Instans.) Lägg till Benämning.</br>
   Skriv in uppgiften.    
@@ -324,7 +324,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   Om man försöker göra tvärtom och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Noterad musik (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
   OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
   
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)   
   Gör allmänna anmärkningar här.
   <br/>```Exempel:```
@@ -346,7 +346,7 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
   Skriv in uppgiften.  
   ```Exempel: rda```  
 
-### Innehallsforteckning  
+### Innehållsforteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   Musik- och teaterbiblioteket rekommenderar enkel innehållsförteckning för musiktryck.  
   För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Skriv in uppgiften under Benämning.
@@ -357,28 +357,26 @@ För Varianttitel och andra titelvarianter, [se hjälptexten för Instans](https
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)    
   För att skapa en utökad innehållsanmärkning med titlar och upphovsuppgifter, se hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning).
 
-### Malgruppsanmarkning
+### Målgruppsanmärkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
   För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
   ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
-### Annat bararformat
+### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-  
-  Om andra delfält i 776 önskas, skapa istället Instans som lokal entitet och lägg till önskade egenskaper.  
-  Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", skapa Instans som lokal entitet och lägg till Typanmärkning (= (776 #i) samt Har titel/Titel och Identifikator/ISBN/Värde. Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera det i befintliga beskrivningar.  
+  Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
+  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser) 
 
 ## Verk   
 
 ### Instans av Verk
 * Instans av Verk/Noterad musik (instanceOf/Work/NotatedMusic)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Noterad musik.  
-  Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+  Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
-  För att lägga till egenskaper under Instans av Verk/Noterad musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
+För att lägga till egenskaper under Instans av Verk/Noterad musik, klicka på plustecknet vid Instans av Verk/Noterad musik - Lägg till egenskaper under: Noterad musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
   
 ### Byta verkstyp
 Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
@@ -398,7 +396,7 @@ om du vill berika från mall för att få fram de vanligaste egenskaperna (Klick
 Se även hjälptexten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
  
 ### Verkets titel
-Ange den föredragna titeln för verket vid behov. [Följ anvisningar för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
+Ange den föredragna titeln för verket vid behov. Följ anvisningar för [Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). Pregnanta titlar för musik anges ofilerade enligt svensk musikbibliotekstradition.  
 
 #### Verkets titel - verk med primär medverkande
 Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
@@ -410,7 +408,7 @@ Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Ti
    * ```Symfoni```
    * ```Pianomusik```
  
-  Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
+Använd även Huvudtitel för *hela* den föredragna titeln då ordningen mellan uppgifterna i Har titel, Tonart, Version och språk för översättning blir felaktig i MARC-förhandsgranskningen, eller om den föredragna titeln är svår eller omöjlig att uttrycka med enbart dessa fält.
  <br/>```Exempel:```
     * ```Sonater och partitor, violin, BWV 1001-1006. Partita, nr 1, h-moll```
     * ```Kvartett, stråkar, nr 13, D. 804, op. 29:1, a-moll, "Rosamunde". Entr'acte```
@@ -474,7 +472,7 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
   * ```Binchois, Gilles, ca 1400-1460```
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
+För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/index.html)  
   ```Exempel: relator/composer (= Kompositör, tonsättare, cmp)```  
 
 #### Medverkan
@@ -488,7 +486,7 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
   * ```Sångtext/lyr```
   * ```Redaktör/edt```
   
-### Sprak  
+### Språk  
 * Språk (language = 008/35-37)  
   För instrumentalmusik, ange Icke-språkligt medium (=language/zxx). För texter till musik, ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.
@@ -520,13 +518,13 @@ Se instruktionsfilm [Lägga till genre/form på KB:s Youtubekanal](https://www.y
 ### Klassifikation 
 För anvisningar om hur man anger Klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
 
-### Amne  
+### Ämne  
 För samlingar där den geografiska eller kronologiska aspekten är framhävd får genre/form/besättning kompletteras med geografiska eller kronologiska ämnesord (i separata fält). Titel "French piano music" kan alltså indexeras med Piano och Frankrike.  
 Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ämne och klicka på plustecknet vid termen. Klicka sedan på plustecknet vid Ämne och välj typ i listan Alla typer: Geografiskt ämnesord eller Kronologiskt ämnesord. Sök upp ämnesordet, t ex Frankrike, och länka till entitet genom att klicka på plustecknet vid termen.  
    
 För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
   
-### Notationssystem och sprak
+### Notationssystem och språk
 * Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 #b)  
   Ange notationssystem [enligt KBSP för RDA 7.13.3.3 Ange typ av musiknotation](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html) 
   <br/>```Exempel:```
@@ -537,13 +535,13 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
     * ```Sångtext på hebreiska```
     * ```Kritiska kommentarer på svenska och engelska```  
  
-### Malgrupp     
+### Målgrupp     
 * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.  
     ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: term/rda/NotatedMusic```
