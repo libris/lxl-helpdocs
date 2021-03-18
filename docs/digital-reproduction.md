@@ -21,18 +21,18 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | ----------- | ----------- |  ----------- | ----------- |
 | [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
 | [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | [Innehas av](#innehas-av) |
-| [Beskrivningsnivå](#beskrivningsnivå)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmärkning) |
-| [Anmärkning](#anmärkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatorens-anmärkning)|
-| | [Utgivningssätt](#utgivningssätt) | | |
+| [Beskrivningsnivå](#beskrivningsniv-)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anm-rkning) |
+| [Anmärkning](#anm-rkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisat-rens-anm-rkning)|
+| | [Utgivningssätt](#utgivningss-tt) | | |
 | | [Medietyp](#medietyp) | | |
-| | [Bärartyp](#bärartyp) | | |
+| | [Bärartyp](#b-rartyp) | | |
 | | [Produktion](#produktion) | | |
 | | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
-| | [Digital karaktäristika](#digital-karaktäristika) | | |
-| | [Tillhörande media](#tillhörande-media) | | |
-| | [Villkor för användning och åtkomst](#villkor-för-användning-och-åtkomst) | | |
-| | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehåll) | | |
-| | [Anmärkning](#anmärkning)| |
+| | [Digital karaktäristika](#digital-karakt-ristika) | | |
+| | [Tillhörande media](#tillh-rande-media) | | |
+| | [Villkor för användning och åtkomst](#villkor-f-r-anv-ndning-och--tkomst) | | |
+| | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-inneh-ll) | | |
+| | [Anmärkning](#anm-rkning)| |
 
 
 
@@ -163,7 +163,7 @@ För information om egenskaperna, [se den generella hjälptexten för Beståndsr
 <br/>```Exempel:``` 
 <br/>```Digitaliserat exemplar``` 
 
-### Katalogisatorens anmärkning
+### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 852 #x) 
 <br/>```Exempel:``` 
 <br/>```[kbdkart = KB-specifik statistikkod]``` 
