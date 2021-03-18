@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Ljudbok
 order: 47
-date: 2020-11-12
+date: 2021-03-12
 tags:
 - ljudbok
 --- 
@@ -15,28 +15,28 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 [Inledning](#inledning)
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- | ----------- |  ----------- |
-| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| ----------- |  ----------- | ----------- |
+|  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](#amne) |
-| | [Copyrightår eller p-år](#copyrightar-eller-p-ar) | [Målgrupp](#malgrupp) |
-| | [Identifikator](#identifikator) |[Innehållstyp](#innehallstyp) |
-| | [Omfång](#omfang) | [Anmärkning om medverkande](#anmarkning-om-medverkande) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Medföljande material](#medfoljande-material) | |
+| | [Utgivning](#utgivning) | [Ämne](#-mne) |
+| | [Copyrightår eller p-år](#copyright-r-eller-p-år) | [Målgrupp](#m-lgrupp) |
+| | [Identifikator](#identifikator) |[Innehållstyp](#inneh-llstyp) |
+| | [Omfång](#omf-ng) | [Anmärkning om medverkande](#anmärkning-om-medverkande) |
+| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
+| | [Medföljande material](#medf-ljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsförteckning](#innehallsforteckning) | | 
-| | [Anmarkning](#anmarkning) | |
+| | [Innehållsförteckning](#inneh-llsf-rteckning) | | 
+| | [Anmarkning](#anm-rkning) | |
 | | [Digital karakteristika](#digital-karakteristika) | | 
 
 ## Inledning
 Beskrivningen av en ljudbok innehåller följande tre delar:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå.
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion (t.ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
@@ -47,14 +47,15 @@ För information om katalogregler och Librispraxis, se [Metadatabyrån](https://
 Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
+
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Ljudinspelning). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
@@ -64,7 +65,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```Audio, s (= audio)```
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer.
   Länka till entiteten:</br>
@@ -117,7 +118,7 @@ Välj först Har titel, välj sedan typ Parallelltitel.
 Skriv in uppgiften i Huvudtitel.     
   ```Exempel: The Great Northern War explained```</br>
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)  
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
   
@@ -178,9 +179,9 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
  
- Läs mer om Utgivningstid i [Metadatabyrån under Generella anvisningar - RDA, Manifestation/Instans, Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
+ Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift#h-Utgivningstid).
   
-### Copyrightar eller p-ar
+### Copyrightår eller p-år
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram © eller ℗, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.
@@ -226,8 +227,8 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.  
     
-### Omfang
-Ange antal enheter samt typ av enhet, [se RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
+### Omfång
+Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning.  
   ```Exempel: 11 CD (13 tim., 30 min.) ```
@@ -236,11 +237,11 @@ Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kod
 
 För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, se [Anmärkning](#anmarkning).
   
-### Ovriga fysiska detaljer   
+### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)     
   ```Exempel: stereo```
   
-### Medfoljande material
+### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
 Här anges medföljande material, t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften. 
 <br/>```Exempel: 1 bildhäfte (20 sidor)```<br/> 
@@ -250,10 +251,10 @@ Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäl
 ### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
    
-### Innehallsforteckning  
+### Innehållsförteckning  
 För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote). Skriv in uppgiften under Benämning.
@@ -279,7 +280,7 @@ Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://ww
 För en ljudbok är verkstypen Ljud.   
 
 ### Verkets titel
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/gemensamma-anvisningar-enligt-rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange vid behov den föredragna titeln för verket här. Följ [anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
 
 #### Verk med primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
@@ -290,7 +291,7 @@ Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna fö
  Föredragen titel för ett verk utan primär medverkan anges här.
 
 ### Medverkan och funktion
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
+Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance) 
 
 #### Primär medverkan
 * Medverkan och funktion/Primär medverkan/Agent/Person  
@@ -308,7 +309,7 @@ Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna fö
 * Medverkan och funktion/Medverkan/Funktion  
 (contribution/role = 700, 710 #4)
 
-### Sprak 
+### Språk 
 * Språk (language = 008/35-37)  
   Ange det talade språket här. För en text på svenska, länka till svenska. För att ange att texten är på flera språk, länka till ytterligare en språkkod.
 För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
@@ -327,7 +328,7 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
   
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
-### Relationer till ingaende verk och andra verk
+### Relationer till ingående verk och andra verk
 #### Relationer till ingående verk
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
@@ -358,28 +359,28 @@ Länka till entitet.</br>
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
    
-### Amne
+### Ämne
 * Ämne  
-  Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna under Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
+  Länka i första hand till entiteter för ämnesord. Följ instruktionerna under [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
   
-### Malgrupp     
+### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
     </br>Normalvärde för barn- och ungdomslitteratur.
  
-För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#Malgruppsanmarkning) under Instans.
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#M-lgruppsanm-rkning) under Instans.
 
-### Innehallstyp
+### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteteten: 
   </br>```SpokenWord, spw (= tal)```  
   
-### Anmarkning om medverkande
+### Anmärkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
    </br>```Exempel: Inläsare: Gunilla Röör```
   
-### Sammanfattning av innehall    
+### Sammanfattning av innehåll    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
      
