@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Bidrag
 order: 35
-date: 2020-11-12
+date: 2021-03-19
 tags:
 - Bidrag
 - Artikel
@@ -18,21 +18,21 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Bärartyp](#barartyp) | [Språk](#sprak)  |
+| | [Bärartyp](#b-rartyp) | [Språk](#spr-k)  |
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation)|
-| | [Utgivning](#utgivning) |[Ämne](#amne) |
-| | [Anmärkning](#anmarkning)| [Innehållstyp](#innehallstyp) |
-| | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehall)  |
-| | [Är del av](#ar-del-av)| |
-| | [Placering i värdpublikation](#placering-i-vardpublikation) | |
+| | [Utgivning](#utgivning) |[Ämne](#-mne) |
+| | [Anmärkning](#anm-rkning)| [Innehållstyp](#inneh-llstyp) |
+| | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
+| | [Är del av](#-r-del-av)| |
+| | [Placering i värdpublikation](#placering-i-v-rdpublikation) | |
 
 
 ## Inledning
 Beskrivningen av ett bidrag innehåller följande tre delar:  
-* [Adminmetadata - Metadatabryån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) - administrativa data om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - instans kan också kallas utgåva eller manifestation. Exempel på egenskaper under Instans är titel, upphov, utgivning och bärartyp.
 * [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – återger egenskaper för det abstrakta verket såsom medverkan och funktion, ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
 
@@ -47,18 +47,19 @@ Märkningen görs genom att lägga in en Systemteknisk anmärkning i posten för
 
 Många av egenskaperna finns redan i mallarna för  Bidrag, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. 
 
-För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) samt [se RDA Toolkit](https://access.rdatoolkit.org/). 
+För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](https://metadatabyran.kb.se/) samt [se RDA Toolkit](https://original.rdatoolkit.org/). 
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
 ## Adminmetadata
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris).
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!**
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken).  
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!**
 
 ## Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Tryck (för bidrag i tryckt publikation) eller Elektronisk (för bidrag i elektronisk publikation). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn. 
 
-### Utgivningssatt
+### Utgivningssätt
 * Utgivningssätt (issuanceType = 000/07)  
   Välj från lista:  
   ```Del av sammansatt resurs```</br>
@@ -71,7 +72,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
   * ```omedierad, unmediated (kod = n)``` (bidrag i tryckt publikation)
   * ```dator, computer (kod = c)``` (bidrag i elektronisk publikation)<br/>
   
-### Barartyp
+### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
   </br>```Exempel:```
@@ -113,10 +114,10 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
   * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
 År får endast innehålla siffror (0-9) och bokstaven u.
 
-### Anmarkning
+### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)<br/>
 
-### Tillhorande media 
+### Tillhörande media 
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
 Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk artikel**, använd Tillhörande media för att lägga in en elektronisk adress till artikeln. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
@@ -130,7 +131,7 @@ Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i för
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
 
-### Ar del av
+### Är del av
 Här anges värdpublikationen, d.v.s. den publikation som bidraget ingår i. Mallarna är förberedda för att beskriva värdpublikationen som lokal entitet men i första hand bör man länka till värdpublikationen. Värdpublikationen bör endast beskrivas som lokal entitet i de fall den inte har en post i Libris. 
 
 I Libris rekommenderas att man för bidrag alltid länkar till eller beskriver årsbokens/tidskriftens huvudpost, även när en årsboksårgång eller ett tidskriftshäfte har en monografisk/tematisk karaktär (med egen, distinkt titel, fullständig titelsida o.s.v., eller en tematitel). 
@@ -146,7 +147,7 @@ Lägg till Instans som lokal entitet. Lägg sedan till egenskaper för värdpubl
 ##### Värdpublikation med primär medverkan
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Agent<br/>
 Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Verk, lägg till egenskapen Medverkan och funktion och välj typ Primär medverkan. Under Agent, lägg till Agent som lokal entitet.<br/> 
-Skriv in uppgiften under Benämning. Använd korrekt namnform, [se Agenter som lokala entiteter - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris#Agentersomlokalaentiteter).<br/>
+Skriv in uppgiften under Benämning. Använd korrekt namnform, [se Agenter som lokala entiteter - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris#Agentersomlokalaentiteter).
     </br>```Exempel:```
     * ```Carlsson, Magnus```
     * ```Sverige. Socialtjänskommittén```
@@ -157,7 +158,7 @@ Länka till entitet:<br/>
 
 ##### Övriga egenskaper för värdpublikationen
 * Identifikator (identifiedBy = 773 #z ISBN, 773 #x ISSN)<br/>
-Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.<br/> 
+Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens identifikator (om sådan finns) i Värde.
     </br>```Exempel:```
     * ```9789186949372```
     * ```0008-011X```
@@ -166,7 +167,7 @@ Lägg till egenskapen Identifikator. Välj typ och ange värdpublikationens iden
 Lägg till egenskapen Har titel. Välj typ Titel.<br/> 
 Om värdpublikationen är en monografi, ange huvudtitel och eventuellt övrig titelinformation åtskild med interpunktion i Huvudtitel. Om Övrig titelinformation ska anges eller inte är en bedömningsfråga. Huvudtiteln kan i vissa fall vara ganska intetsägande medan övrig titelinformation ger tydligare information om innehållet. Dessutom minskar risken för sammanblandning av verk med samma huvudtitel.</br>
 ```Exempel: Historia - ekonomi - forskning : fem rapporter om idrott : rapporter till Idrottsutredningen```<br/>
-Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln<br/>
+Om värdpublikationen är en årsbok eller tidskrift, ange nyckeltiteln (om värdpublikationen har ISSN), annars huvudtiteln.
     </br>```Exempel:```
     * ```Karolinska förbundets årsbok```
     * ```Barnboken (Online)```
@@ -175,14 +176,14 @@ Om värdpublikationen är en monografi, lägg till egenskapen Uppgift om produkt
 Ange utgivningstiden för monografin.<br/>
 ```Exempel: 2002```
 
-### Placering i vardpublikation
+### Placering i värdpublikation
 Utformningen av uppgifterna i denna egenskap bygger främst på boken Bibliografiska referenser, utarbetad av SIS - allmänna standardiseringsgruppen [av Sten Hedberg med stöd av en arbetsgrupp utsedd av SAB:s kommitté för katalogisering och klassifikation]. - Stockholm : Standardiseringskommissionen i Sverige (SIS), 1991.
 * Del (part = 773 #g)<br/>
 Här anges i vilken årgång och/eller nummer av värdpublikationen bidraget är publicerat och/eller paginering.
 
 #### Bidrag i årsbok, tidskrift eller dagstidning
 * Del (part = 773 #g)<br/>
-Ange årgång och/eller nummer samt paginering.<br/>
+Ange årgång och/eller nummer samt paginering.
     </br>```Exempel:```
     * ```2018, sidorna 215-217```
     * ```2019(87):2, sidorna 145-172```
@@ -218,7 +219,7 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)</br>
 * Medverkan och funktion/Medverkan/Agent/Funktion (700 #4)
  
-### Sprak 
+### Språk 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: svenska (swe)```</BR> 
@@ -243,16 +244,16 @@ För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://lib
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
  
-### Amne  
+### Ämne  
 * Ämne  
 Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
   
-### Innehallstyp
+### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
   ```text, text (kod = txt)```
   
-### Sammanfattning av innehall
+### Sammanfattning av innehåll
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
 <br/>Skriv in uppgiften under Benämning.
