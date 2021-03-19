@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-11-12
+date: 2021-03-19
 tags:
 - seriell resurs
 - tidskrift
@@ -18,16 +18,16 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | ----------- |  ----------- | ----------- | 
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#språk) |
-| | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
+| | [Medietyp](#medietyp) | [Språk](#spr-k) |
+| | [Bärartyp](#b-rartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
+| | [Identifikator](#identifikator) | [Innehållstyp](#inneh-llstyp) |
 | | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
 | | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titeländring) |  |
-| | [Anmärkning](#anmärkning)| |
+| | [Behandling vid titeländring](#behandling-vid-titel-ndring) |  |
+| | [Anmärkning](#anm-rkning)| |
 | | [Relationer](#relationer) | | 
 
 
@@ -52,17 +52,17 @@ För information om katalogiseringsanvisningar och Librispraxis [se Seriella res
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)``` 
-  
+
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
   ```Exempel:  nc (= volym)```
-  
+
 ### Titel 
 
 #### Nyckeltitel
@@ -71,12 +71,12 @@ För information om katalogiseringsanvisningar och Librispraxis [se Seriella res
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
  ```Exempel:  Kammarmusik-nytt ```
- 
+
 * Har titel/Nyckeltitel/Särskiljande tillägg  
 (hasTitle/KeyTitle/qualifier = 222 #b)  
 Skriv in uppgiften, inom parentes.  
 ```Exempel: (Brämhult)```
-  
+
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
@@ -86,12 +86,12 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
-  
+
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
   ```Exempel: Kammarmusikförbundets tidskrift```
-  
+
 #### Varianttitel   
 Används till exempel för felaktigheter och tillfälliga variationer/mindre förändringar i huvudtiteln. Felaktigheter kan specificeras med Typanmärkning och tillfälliga variationer/mindre förändringar i huvudtiteln kan preciseras med Täckning och tillkomst. 
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
@@ -108,14 +108,14 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)    
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: Hushållningssällskapets magasin```  
-  
+ 
 * Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
-  
+
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
- 
+
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
@@ -124,24 +124,24 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
-    
+
 ### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
-  
+
   För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
-  
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskaper under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det.   
   Skriv in uppgiften under Benämning.    
   ```Exempel: [Göteborg]```
-  
+
 #### Utgivningsland
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```
-  
+
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
@@ -151,7 +151,7 @@ Används för akronymer som är en del av huvudtiteln.
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
   [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
-  
+
 #### År och datum    
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
@@ -176,7 +176,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
-  
+
 ### Identifikator  
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
@@ -187,7 +187,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```   
-  
+
 ### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
@@ -196,18 +196,18 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-    
+
 ### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
   Skriv in uppgiften under Benämning.    
   ```Exempel: 2011: 4-2013: 2```
-  
+
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-  
+
 ### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
@@ -238,7 +238,7 @@ Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](h
 Har införlivat (absorbed = 780 0/5)  
 Har delvis införlivat (absorbedInPart = 780 0/6)  
 Separerad från (separatedFrom = 780 0/7)  
-  
+ 
 Fortsättes av (continuedBy = 785 0/0)  
 Fortsättes delvis av (continuedInPartBy = 785 0/1)  
 Efterföljande (succeededBy = 785 0/2)  
@@ -247,7 +247,7 @@ Har uppgått i (absorbedBy = 785 0/4)
 Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
 Uppdelat på (splitInto = 785 0/6)  
 Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
-  
+
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
@@ -256,7 +256,7 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
 
 ### Medverkan och funktion     
 [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
+
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
@@ -264,13 +264,13 @@ Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogiseri
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, [se Libris formathandbok - Funktions- och relationskoder](http://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
-  
+
 ### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
    För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
-   
+ 
 ### Genre form 
 #### Typ av fortlöpande resurs  
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
@@ -281,7 +281,7 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
   * ```p (Tidskrift = marc/Periodical)```
   * ```m (Monografiserie = marc/MonographicSeries```
   * ```n (Dagstidning = marc/Newspaper```
-         
+    
 ### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -299,7 +299,7 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
-  
+
 #### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
@@ -312,7 +312,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 083 #2)  
   ```Exempel: 23/swe``` 
-   
+ 
 #### SAB-klassifikation  
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
@@ -335,15 +335,15 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: Ja, resursen härrör från konferens```      
-   
+
 ### Ämne  
 [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
-  
+
 ### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
-  
+
 ### Verkets titel
 * Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (hasExpression/Work/type/hasTitle/Title/mainTitle = 130 0/- #a)  
   Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av). Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Man behöver inte välja verkstyp här. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.    
