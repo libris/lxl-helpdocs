@@ -251,18 +251,19 @@ Sammanslagen till (mergedToForm = 785 0/7) Se [exempelpost i Libris katalogiseri
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
+
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
-[Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
+Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
 ### Medverkan och funktion     
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
 
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 #4)   
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, [se Libris formathandbok - Funktions- och relationskoder](http://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+För en sorterad lista på koder, se [Libris formathandbok - Funktions- och relationskoder](http://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
 
 ### Språk
@@ -337,7 +338,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Ja, resursen härrör från konferens```      
 
 ### Ämne  
-[Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+Se hjälptexten [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 ### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
