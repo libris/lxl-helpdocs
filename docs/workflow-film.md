@@ -277,14 +277,14 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
    <br/>```Exempel:```<br/> 
    * ```Produktion: Förenta staterna, 1972```<br/>
    * ```Produktion: Storbritannien, 2018```
-       
+   
 ### Elektronisk adress
 #### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
-    
+ 
 ## Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -320,7 +320,7 @@ Ange den föredragna titeln i Huvudtitel.
  ```Exempel: Moore, Andy, 1956-```
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   ```Exempel: relator/fmk (= filmskapare)```</br>
-  
+
 #### Medverkan
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)   
   ```Exempel: Wechselman, Maj, 1942-```  
@@ -376,10 +376,10 @@ För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk](
   <br/>```Exempel:```<br/> 
    * ```Spelfilmer```<br/> 
    * ```Dokumentärfilmer```
-  
+
 ### Klassifikation
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
- 
+
 ### Ämne  
 * Ämne  
   Länka i första hand till entiteter för ämnesord. [Följ instruktionerna under Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
@@ -400,7 +400,7 @@ För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se 
  Ange ytterligare språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram rätt entitet för språket.</BR>
  Länka till entitet.   
    ```Exempel: engelska (eng)``` 
- 
+
 ### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till någon av entiteterna:</BR>
@@ -435,12 +435,12 @@ Under inspelning kan man såväl göra anmärkning om inspelningens tid, plats o
 #### Anmärkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
   ```Exempel: Skådespelare: Nicole Kidman, Kirsten Dunst, Elle Fanning```
-  
+
 ### Sammanfattning av innehåll
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
 </br>```Exempel: Historien utspelar sig under amerikanska inbördeskriget på en internatskola för flickor i södern. När de avskärmade unga kvinnorna tar in en skadad fiendesoldat och ger honom skydd och vård stiger den sexuella spänningen, farliga rivaliteter bildas och tabun bryts i en oväntad vändning.```
-     
+
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
