@@ -364,7 +364,7 @@ Välj någon av övriga rubriker i listan.
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
-  [Se även Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
 
 #### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
