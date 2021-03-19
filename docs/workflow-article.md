@@ -78,7 +78,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
   </br>```Exempel:```
    * ```volym, volume (kod = nc)``` (bidrag i tryckt publikation)
    * ```onlineresurs, online resource (kod = cr)``` (bidrag i elektronisk publikation) 
-  
+
 ### Titel     
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)</br>
   ```Exempel: Herrgårdsbyggnader i Mälardalen under 1700- och 1800-talet```
@@ -229,21 +229,21 @@ För en artikel som är/innehåller en översättning, lägg till:
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.
   **Från och med version 1.18 skapas uppgiften automatiskt.**
-  
+
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
-  
+
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Ange originalspråk för översatt verk här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.</BR>
   ```Exempel: engelska (eng)```  
-  
+
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.
 
 ### Genre form 
 För anvisningar om hur man anger genre/form, [se hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
-    
+ 
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
- 
+
 ### Ämne  
 * Ämne  
 Länka  i första hand till entiteter för ämnesord. Följ [instruktionerna för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
