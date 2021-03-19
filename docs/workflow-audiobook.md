@@ -59,21 +59,21 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Audio, s (= audio)```
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer.
   Länka till entiteten:</br>
   ```Audio disc, sd (= ljudskiva)```</BR>
-  
+ 
   Om koden "d" (= ljudskiva) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system länka även till entiteten: </BR>
   ```Ljudskiva, d```
-  
+
 ### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
@@ -107,10 +107,10 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
   ```Exempel: Titeln felstavad, korrekt titel:```   
-    
+ 
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
-  
+
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
@@ -121,16 +121,16 @@ Skriv in uppgiften i Huvudtitel.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)  
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
-  
+
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
-  
+
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)</BR>
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
-  
+
 ### Utgivning  
 * Utgivning (publication)  
   Välj typ från lista. För monografisk resurs, använd Primär utgivning.  
@@ -138,24 +138,24 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
 Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c) finnas med.
- 
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br>
   ```Exempel: [Malmö]```  
-  
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
-  
+
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet. Skriv in uppgiften under Benämning.  
   ```Exempel: Bokfabriken```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.  
   Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
+
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
@@ -163,7 +163,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   ```Exempel: 2017```</br>
  
  Observera att År måste finnas med i beskrivningen, även om datum finns med.</br>
-  
+ 
   För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken.  
@@ -175,12 +175,12 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
 För att ange ett år utan klamrar eller andra tecken, använd År.
 
 För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste årtal kan anges, [följ exempel i hjälptexten Instans](https://libris.kb.se/katalogisering/help/workflow-instance#produktion): Produktion: Huvudsakligt tillgängliggörande. 
-  
+
 * Flera år (flerbandsverk)  
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
- 
+
  Läs mer om Utgivningstid i [Metadatabyrån - Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift#h-Utgivningstid).
-  
+
 ### Copyrightår eller p-år
 För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med med utgivningsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html). Det går bara att ange ett år här, så om både copyright- och p-år förekommer i resursen ange det senaste p-året.</br>
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
@@ -188,7 +188,7 @@ För fonogram anges alltid copyright- eller p-år, även om det sammanfaller med
    <br/>```Exempel:```
     * ```©2017```
     * ```℗2017```
-     
+
 ### Identifikator 
 Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivningsnummer (ljudinspelning) och ISBN förvalda.
 #### Utgivningsnummer (ljudinspelning)
@@ -203,7 +203,7 @@ Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivnin
   <br/>```Exempel: Naxos AudioBooks```<br/>
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.    
-  
+
 #### ISBN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
@@ -215,7 +215,7 @@ Flera typer av identifikatorer kan finnas på ljudböcker. I mallen är Utgivnin
   Ange eventuell bestämning.  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
-  
+
 ### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
 * Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 #z)  
@@ -226,7 +226,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Ange eventuell bestämning.  
-    
+
 ### Omfång
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig. 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
@@ -236,11 +236,11 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, se [Kodningsformat](#kodningsformat).
 
 För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, se [Anmärkning](#anmarkning).
-  
+
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)     
   ```Exempel: stereo```
-  
+
 ### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 #e)   
 Här anges medföljande material, t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Lägg till Benämning. Skriv in uppgiften. 
@@ -250,7 +250,7 @@ Ibland medföljer en extra MP3-CD (med samma ISBN) vid distribution och försäl
 
 ### Seriemedlemskap
 För anvisningar om hur man anger Seriemedlemskap, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#seriemedlemskap): Seriemedlemskap. 
-   
+
 ### Innehållsförteckning  
 För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
 
@@ -261,13 +261,13 @@ För anvisningar om hur man lägger till olika typer av innehållsförteckningar
   <br/>```Exempel:```
   * ```Inläst ur: Stockholm : Bonnier, 2012. ISBN 978-91-0-012761-9```
   * ```MP3```
-  
+
 ### Digital karakteristika
   * Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristic/EncodingFormat/label = 347#b)</BR>
 Ange kodningsformat här, se [RDA 3.19.3.3](http://access.rdatoolkit.org/rdachp3_rda3-5189.html).</BR>
 Lägg till Digital karakteristika. Lägg till Kodningsformat som lokal entitet. Skriv in uppgiften under Benämning.</BR>
   ```Exempel: MP3```
-  
+
 ## Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -318,32 +318,32 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
 **Från och med version 1.18 skapas uppgiften automatiskt.**
-  
-  **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**  
-  
+
+**Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**  
+ 
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Ange det språk som texten är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
  </br>```Exempel: engelska (eng)```  
-  
+
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 ### Relationer till ingående verk och andra verk
 #### Relationer till ingående verk
 * Ingående verk med primär medverkan (700 1/2 #a, ǂd, ǂt)  
   Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-  
+
 * Ingående verk utan Medverkan och funktion/Primär medverkan Har del/Verk/Har titel/Titel (730 0/2 #a)</br> 
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
-  
+
 #### Relationer till andra verk
 * Relationer till andra verk med primär medverkan (700 1/- #a, ǂd, ǂt)  
   Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-  
+
 * Relationer till andra verk utan Medverkan och funktion/Primär medverkan
  Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_ #a)</br>
  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
- 
+
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#genre-form) Genre form.
 
@@ -358,32 +358,32 @@ Länka till entitet.</br>
 
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation) Klassifikation.
-   
+
 ### Ämne
 * Ämne  
   Länka i första hand till entiteter för ämnesord. Följ instruktionerna under [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).   
-  
+
 ### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
     </br>Normalvärde för barn- och ungdomslitteratur.
- 
+
 För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#M-lgruppsanm-rkning) under Instans.
 
 ### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteteten: 
   </br>```SpokenWord, spw (= tal)```  
-  
+
 ### Anmärkning om medverkande
  * Anmärkning/Anmärkning om medverkande/Benämning (hasNote/marc:ParticipantOrPerformerNote/label = 511 #a)
    </br>```Exempel: Inläsare: Gunilla Röör```
-  
+
 ### Sammanfattning av innehåll    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
-     
+
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad```
