@@ -269,7 +269,7 @@ Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://ww
 För en e-bok är verkstypen Text.  
 
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. Följ [anvisningarna för föredragen titel i Metadatabrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
+Ange den föredragna titeln för verket här, vid behov. För instruktioner, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
 
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
