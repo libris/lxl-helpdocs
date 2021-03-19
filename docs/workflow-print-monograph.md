@@ -46,7 +46,7 @@ Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan be
 
 För information om katalogiseringsanvisningar och Librispraxis se [Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/tryckta-monografier) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
@@ -62,7 +62,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 ![Välj egenskap](plusegenskapinstans2.png)  
 
-[Läs mer om egenskaperna i den generella hjälptexten för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Läs mer om egenskaperna i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 ### Utgivningssätt 
 * Utgivningssätt (issuanceType)   
@@ -137,7 +137,7 @@ Används inte. Se Varianttitel (246).
 * Primär utgivning/Utgivning/Datum (date = 264 -/1 #c)  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.  
-  
+
 **Flera år (flerbandsverk):**  
 Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 #c)  
@@ -206,9 +206,9 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [S
   Man behöver inte välja verks- och instanstyp här.  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Medverkan och funktion/Primär medverkan/Agent/Person       (seriesMembership/inSeries/Instance/type/InstanceOf/Work/type/contribution/PrimaryContribution/Agent/Person = 800 #a)  
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny agent, [se hjälptexten Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
+  Vid behov, skapa ny agent, se hjälptexten [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
 
 #### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
@@ -220,7 +220,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 
 ### Innehållsförteckning
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
- 
+
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
 (tableofContents = 505 8/_ #t, #r)  
 
@@ -241,7 +241,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
-[Läs mer om egenskaperna under den generella beskrivningen av Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+Läs mer om egenskaperna under den generella beskrivningen av [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
 ## Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
@@ -262,7 +262,7 @@ Ange den föredragna titeln för verket här, vid behov. För instruktioner, se 
 
 #### Relationer till ingående verk 
 * Ingående verk med Primär medverkan (700 1/2 #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+  Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan 
   Har del/Verk/Har titel/Titel (730 0/2 #a)  
@@ -270,15 +270,15 @@ Ange den föredragna titeln för verket här, vid behov. För instruktioner, se 
 
 #### Relationer till andra verk  
   * Relationer till andra verk med Primär medverkan (700 1/- #a, ǂd, ǂt)  
-  [Se hjälptexten Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+  Se hjälptexten [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
    Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ### Medverkan och funktion
-[Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
+Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
 
@@ -304,9 +304,9 @@ Ange den föredragna titeln för verket här, vid behov. För instruktioner, se 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
 **Från och med version 1.18 skapas uppgiften automatiskt.**  
-  
+
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
-  
+
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Ange originalspråk för ett översatt verk här.   
 Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
@@ -324,7 +324,7 @@ Länka till entitet.
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
 Har del/Verk/Språk (Language/label = 730 #l)  
 Länka till entitet.  
-  
+
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
 
@@ -336,7 +336,7 @@ Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av
 ### Genre form
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
  Välj Genre/form i listan över typer.  
- 
+
 * Genre/form – termer som motsvarar marc-koder i 008  
 Välj någon av övriga rubriker i listan.
 
@@ -446,7 +446,7 @@ Innehåll (008/24-27): Avhandling
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)
 
 ### Ämne  
-* [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
+* Se hjälptexten [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 
 ### Målgrupp     
 * Målgrupp (008/22)
