@@ -270,7 +270,7 @@ För en sorterad lista på koder, [se Libris formathandbok - Funktions- och rela
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
    För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
- 
+
 ### Genre form 
 #### Typ av fortlöpande resurs  
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
@@ -281,7 +281,7 @@ I mallen för Tryckt seriell resurs ligger Tidskrift. Vid behov, ändra till Mon
   * ```p (Tidskrift = marc/Periodical)```
   * ```m (Monografiserie = marc/MonographicSeries```
   * ```n (Dagstidning = marc/Newspaper```
-    
+
 ### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -312,7 +312,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 083 #2)  
   ```Exempel: 23/swe``` 
- 
+
 #### SAB-klassifikation  
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
