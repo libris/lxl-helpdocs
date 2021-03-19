@@ -65,12 +65,12 @@ Läs mer om [egenskaperna under Instans](https://libris.kb.se/katalogisering/hel
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```dator, computer, c```
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
@@ -81,7 +81,7 @@ Läs mer om [egenskaperna under Instans](https://libris.kb.se/katalogisering/hel
   
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
-  
+
 ### Titel
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
@@ -222,12 +222,12 @@ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se ä
 Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent.   
  ```Exempel: Larsson, Stieg, 1954-2004```  
   Vid behov, skapa ny agent. I undantagsfall, skapa lokal entitet. Se [Agenter i Libris - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris) 
-  
+
 #### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 #v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
-  
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
@@ -278,7 +278,7 @@ Ange den föredragna titeln för verket här, vid behov. För instruktioner, se 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)</br>
  Föredragen titel för ett verk utan primär medverkan anges här.
- 
+
 ### Medverkan och funktion
 Följ instruktioner i [Relationer till Agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter) 
 
@@ -307,14 +307,14 @@ För att ange originalspråk för ett översatt verk, se Översättning, nedan.
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning. 
 </br>**Från och med version 1.18 skapas uppgiften automatiskt.**
-  
+
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**
-   
+
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h) 
 Ange originalspråk för ett översatt verk här.
 Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.</br>
   ```Exempel: engelska (eng)```  
-  
+
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 
 #### Sammanfattningsspråk
@@ -413,7 +413,7 @@ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.</br>
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)</br>
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.<br>
 ```Exempel: Engelska```
-  
+
 ### Anmärkning om akademisk avhandling    
 * Anmärkning om akademisk avhandling/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)</br>
 Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.
