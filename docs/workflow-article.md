@@ -109,9 +109,9 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```
-    
+
 #### År
-  * Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
+* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 #c)<br/>
 År får endast innehålla siffror (0-9) och bokstaven u.
 
 ### Anmärkning
@@ -150,7 +150,7 @@ Lägg till egenskapen Instans av verk och skapa Verk som lokal entitet. Under Ve
 Skriv in uppgiften under Benämning. Använd korrekt namnform, [se Agenter som lokala entiteter - Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/agenter-i-libris#Agentersomlokalaentiteter).
     </br>```Exempel:```
     * ```Carlsson, Magnus```
-    * ```Sverige. Socialtjänskommittén```
+    * ```Sverige. Socialtjänstkommittén```
     * ```International Congress on Military History (26 : Stockholm : 2000)```
 * Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Funktion<br/>
 Länka till entitet:<br/>
@@ -218,12 +218,12 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
 * Medverkan och funktion/Primär medverkan/Funktion (100 #4)</br>
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)</br>
 * Medverkan och funktion/Medverkan/Agent/Funktion (700 #4)
- 
+
 ### Språk 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
   ```Exempel: svenska (swe)```</BR> 
-  
+
 #### Översättning  
 För en artikel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
@@ -247,12 +247,12 @@ För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatab
 ### Ämne  
 * Ämne  
 Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
-  
+
 ### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entiteten:</BR>
   ```text, text (kod = txt)```
-  
+
 ### Sammanfattning av innehåll
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. 
