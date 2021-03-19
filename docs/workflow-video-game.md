@@ -268,7 +268,7 @@ För ett datorspel är verkstypen Multimedia.
 
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket här. Följ [anvisningarna för föredragen titel i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
+Ange vid behov den föredragna titeln för verket här. För instruktioner, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
 
 
 #### Verk utan primär medverkan
@@ -321,8 +321,7 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
   Länka till entitet. 
 För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
   
-#
-### Översättning  
+#### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
