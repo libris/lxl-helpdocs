@@ -56,7 +56,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
  
 ### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Konstruktion av sökingångar för verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/konstruktion-av-sokingangar-for-verk-och-uttryck).  
+Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
 
 #### Verkets titel
 ##### Verk med Primär medverkan
