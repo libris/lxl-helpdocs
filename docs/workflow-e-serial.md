@@ -83,7 +83,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
  Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
-  
+
 ### Titel
 Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA.
 
