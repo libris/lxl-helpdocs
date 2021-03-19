@@ -67,12 +67,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
   ```Seriell resurs```
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```dator, computer (kod = c)``` 
-  
+
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:  
@@ -93,24 +93,24 @@ Observera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieter
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
 Skriv in uppgiften.  
  ```Exempel:  Advokaten```
- 
+
 * Har titel/Nyckeltitel/Särskiljande tillägg  
 (hasTitle/KeyTitle/qualifier = 222 #b)  
 Skriv in uppgiften, inom parentes.  
 ```Exempel: (Stockholm. Online)```
-  
+
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
   Återge huvudtiteln som den förekommer i källan, se [RDA 2.2.2.4.2.](http://access.rdatoolkit.org/rdachp2_rda2-9147.html)<br/>
   ```Exempel: Advokaten```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.   
  Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
-  
+
 #### Övrig titelinformation
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 #b)  
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
   ```Exempel: tidskrift för Sveriges Advokatsamfund```
-  
+
 #### Varianttitel   
 Används till exempel för felaktigheter och tillfälliga variationer/mindre förändringar i huvudtiteln. Felaktigheter kan specificeras med Typanmärkning och tillfälliga variationer/mindre förändringar i huvudtiteln kan preciseras med Täckning och tillkomst. 
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
@@ -124,13 +124,13 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ #a)      
   ```Exempel: Hushållningssällskapets magasin```  
-  
+ 
 * Har titel/Varianttitel/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)   
   ```Exempel: 2011, nr 4-2012, nr 4``` 
-  
+
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
- 
+
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
@@ -138,11 +138,11 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   ```Exempel: ACMO```  
-    
+ 
 ### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
-  
+
   För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder. 
 
 #### Utgivningsland
@@ -163,7 +163,7 @@ Används för akronymer som är en del av huvudtiteln.
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
   [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
-  
+
 #### År och datum    
 * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
@@ -209,17 +209,17 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk resurs**, an
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-  
+
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-  
+
 ### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entiteten:<br/> 
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-  
+
 ### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)   
@@ -232,7 +232,7 @@ sök fram och lägg till egenskapen (relationen) genom att klicka på plusteckne
 ![Annat bärarformat 776](776elektroniskseriell.png)
 
 Här följer ett urval av de relationer som kan läggas till:  
-  
+
 Fortsätter (continues = 780 0/0)  
 Fortsätter delvis (continuesInPartBy = 780 0/1)  
 Föregående (precededBy = 780 0/2)  
@@ -241,7 +241,7 @@ Sammanslagen med (mergerOf = 780 0/4) ([Se exempelpost i Libris katalogisering](
 Har införlivat (absorbed = 780 0/5)  
 Har delvis införlivat (absorbedInPart = 780 0/6)  
 Separerad från (separatedFrom = 780 0/7)  
-  
+
 Fortsättes av (continuedBy = 785 0/0)  
 Fortsättes delvis av (continuedInPartBy = 785 0/1)  
 Efterföljande (succeededBy = 785 0/2)  
@@ -273,7 +273,7 @@ Föredragen titel för ett verk med Primär medverkan med anges här.
 
 ### Medverkan och funktion     
 Följ instruktioner i [hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
+
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- #a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
   ```Exempel: Sveriges advokatsamfund```  
@@ -281,13 +281,13 @@ Följ instruktioner i [hjälptexten Relationer till Agent](https://libris.kb.se/
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funktions- och relationskoder](https://katalogverk.kb.se/katalogisering/Formathandboken/Funktionskoder/index.html)    
   ```Exempel:  Utgivare (pbl = publisher)```
-  
+
 ### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
    För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
-   
+
 ### Genre form 
 #### Typ av fortlöpande resurs  
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
@@ -299,10 +299,10 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
 
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
-  
+
 ### Amne  
 Se hjälptexten [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
-  
+
 ### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
   Länka till entitet.  
