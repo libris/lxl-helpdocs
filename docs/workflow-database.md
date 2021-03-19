@@ -295,7 +295,7 @@ För utförliga anvisningar om hur man anger genre/form, se [hjälptexten Verk](
 <br/>```Exempel:```
   * ```Databas (= d)```
   * ```Uppdaterande webbplats (= w)```
-     
+
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
