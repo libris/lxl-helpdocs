@@ -107,7 +107,7 @@ En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som 
 
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
   ```Exempel: Titeln felstavad, korrekt titel:```   
- 
+
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#titel): Titel. 
 
