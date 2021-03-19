@@ -262,7 +262,7 @@ Läs mer om egenskaperna under [generell beskrivning av Verk](https://libris.kb.
 Läs mer om [Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html). 
 
 
-### Instans av verk (instanceOf/Work)
+### Instans av verk  
 * Instans av verk/Multimedia (instanceOf/Work/Multimedia)  
 För ett datorspel är verkstypen Multimedia.  
 
