@@ -320,7 +320,7 @@ Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ga
   </BR>Ange flera språk genom att klicka på plustecknet vid Språk (Lägg till språk) och sök fram entitet för språket.</BR>
   Länka till entitet. 
 För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
-  
+
 #### Översättning  
 För datorspel som är/innehåller en översättning, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
