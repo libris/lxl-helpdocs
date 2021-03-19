@@ -297,7 +297,7 @@ Läs mer om Verk och Instans på [Libris informationssidor på kb.se](https://ww
 För en film är verkstypen Rörlig bild.  
 
 ### Verkets titel 
-Ange vid behov den föredragna titeln för verket här. [Följ anvisningarna för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
+Ange vid behov den föredragna titeln för verket här. För instruktioner, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).
 
 #### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
