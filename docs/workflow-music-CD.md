@@ -84,7 +84,7 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
   ```Exempel: Huvudtitel: En schlager i Sverige, fileringsvärde: 3```  
   Se exempel i [Metadatabyrån - Fileringsindikator](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 
-  För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
+För att ange Föredragen titel, se Verk/Har titel/Titel/Huvudtitel.  
 
 #### Övrig titelinformation (undertitel)
   * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -287,7 +287,7 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
   För att lägga till egenskaper under Instans av Verk/Musik, klicka på plustecknet vid Instans av Verk/Musik - Lägg till egenskaper under: Musik. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Verkets titel
-  Ange vid behov den föredragna titeln för verket här. Följ [anvisningar för Föredragen titel för verket i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket). 
+  Ange vid behov den föredragna titeln för verket här. För instruktioner om Föredragen titel för verket, se [Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
 
 #### Verkets titel - verk med primär medverkan
   Föredragen titel för ett verk med primär medverkande ska anges i Har titel/Titel/Huvudtitel .</BR>
