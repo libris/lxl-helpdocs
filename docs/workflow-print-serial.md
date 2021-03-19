@@ -39,9 +39,9 @@ Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Tryckt seriell resurs, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Tryckt seriell resurs.  
 
-För information om katalogiseringsanvisningar och Librispraxis [se Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser) och [RDA Toolkit](https://access.rdatoolkit.org/).
+För information om katalogiseringsanvisningar och Librispraxis se [Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
-[Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
+Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ## Adminmetadata
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
@@ -80,12 +80,12 @@ Skriv in uppgiften, inom parentes.
 #### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 #a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. [Se Seriella resurser - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser).  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [Seriella resurser - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser).  
   Skriv in uppgiften under Huvudtitel.      
   ```Exempel: Kammarmusik-nytt```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
- [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+ Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -116,7 +116,7 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
 
-##### Deltitel  
+#### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
 #### Akronymer/Del av huvudtitel  
@@ -129,7 +129,7 @@ Används för akronymer som är en del av huvudtiteln.
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
 
-  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
+För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
 
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
@@ -147,10 +147,10 @@ Används för akronymer som är en del av huvudtiteln.
   För att lägga till Agent, klicka på Lägg till egenskaper under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```  
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
+Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
-  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
+  Se [exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).  
 
 #### År och datum    
 * Startår (startYear = 008/7-10)  
@@ -234,7 +234,7 @@ Fortsätter (continues = 780 0/0)
 Fortsätter delvis (continuesInPartBy = 780 0/1)  
 Föregående (precededBy = 780 0/2)  
 Ersätter delvis (precededInPartBy = 780 0/3)  
-Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
+Sammanslagen med (mergerOf = 780 0/4) Se [exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
 Har införlivat (absorbed = 780 0/5)  
 Har delvis införlivat (absorbedInPart = 780 0/6)  
 Separerad från (separatedFrom = 780 0/7)  
@@ -246,12 +246,12 @@ Ersättes delvis av (succeededInPartBy = 785 0/3)
 Har uppgått i (absorbedBy = 785 0/4)  
 Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
 Uppdelat på (splitInto = 785 0/6)  
-Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
+Sammanslagen till (mergedToForm = 785 0/7) Se [exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
 
 
 ## Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
 ### Medverkan och funktion     
