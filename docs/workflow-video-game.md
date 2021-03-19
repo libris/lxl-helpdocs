@@ -179,7 +179,6 @@ Många datorspel saknar en tydlig upphovsuppgift. Ange endast upphovsuppgift nä
   Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.
 
 [Läs mer om utgivningstid i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift).
-  
 
 ### Copyrightår
 För datorspel anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11 i RDA Toolkit](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
@@ -292,11 +291,11 @@ Följ instruktioner i [Relationer till agenter - Metadatabyrån](https://metadat
 </BR>(contribution/agent/Organisation = 710 2/-)
 * Medverkan och funktion/Medverkan/Funktion  
 (contribution/role = 700, 710 #4)
- 
+
 #### Funktioner som saknar funktionskod
 Utbudet av funktionskoder för agenter kopplade till datorspel är fortarande ganska begränsat. För att ange en funktion som inte har en motsvarande funktionskod, klicka på plustecknet vid Funktion (Lägg till funktion) och sedan på Skapa lokal entitet. Klicka på plustecknet Lägg till egenskaper under: Funktion och välj Benämning. Skriv in önskad term. Värdet exporteras till 7XX #e.</BR>
 ```Exempel: spelutvecklare```
-  
+
 ### Språk 
 * Språk (language = 008/35-37)</BR>
   Länka till entitet.  
