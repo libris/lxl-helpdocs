@@ -213,7 +213,7 @@ Föredragen titel för ett verk med Primär medverkan anges här.
 Föredragen titel för ett verk utan Primär medverkan anges här.
 
 ### Medverkan och funktion
-Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. [Följ instruktioner i Relationer till agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter). 
+Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Följ instruktioner i [Relationer till agenter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter). 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)</br>
 * Medverkan och funktion/Primär medverkan/Funktion (100 #4)</br>
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)</br>
@@ -246,7 +246,7 @@ För anvisningar om hur man anger klassifikation, [se Klassifikation i Metadatab
  
 ### Ämne  
 * Ämne  
-Länka  i första hand till entiteter för ämnesord. [Följ instruktionerna för Svenska Ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
+Länka  i första hand till entiteter för ämnesord. Följ [instruktionerna för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord).  
 
 ### Innehållstyp
  * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
