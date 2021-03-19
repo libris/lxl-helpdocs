@@ -298,10 +298,10 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
   * ```m (Monografiserie = marc/MonographicSeries```
 
 ### Klassifikation  
-För anvisningar om hur man anger klassifikation, se [hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
+För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
   
 ### Amne  
-Se [hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
+Se hjälptexten [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
   
 ### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 #b)  
