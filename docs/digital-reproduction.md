@@ -71,7 +71,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ### Instanstyp
 * Instanstyp
 <br/>Förval i mallen: Elektronisk
-  
+
 ### Reproduktion av
 * Reproduktion av (ReproductionOf = 776 #a #s #t #z #w)
 <br/>Länk till fysiskt original då funktionen Skapa digital reproduktion använts.
@@ -93,7 +93,7 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
 <br/>Förval i mallen: Computer 
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)
 I mallen är följande entiteter länkade:
