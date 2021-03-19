@@ -91,7 +91,7 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 <br/>Ändra vid behov
 
 ### Medietyp
-* Medietyp (mediaType/Mediatype = 337 #b)  
+* Medietyp (mediaType/Mediatype = 337 #b)
 <br/>Förval i mallen: Computer 
 
 ### Bärartyp
