@@ -68,13 +68,13 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```Video, v (= video)```
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Välj Bärartyp i listan över typer.
   Länka till entiteten:  
   ```Videodisc, vd (= videoskiva)```  
-  
+
 ### Titel  
 Notera att egenskapen Allmän medieterm (marc:mediaTerm = 245 #h) (= Medieterm) inte ska ingå i beskrivningar som görs enligt RDA. 
 
@@ -108,10 +108,10 @@ Om huvudtiteln är felstavad i källan anges en korrekt form av titeln som varia
 En varianttitel kan specificeras med en Typanmärkning, en anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. För att lägga till en Typanmärkning, klicka på plustecknet vid Varianttitel (Lägg till egenskaper under: Varianttitel) och välj Typanmärkning. 
   * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)<br/> 
    ```Exempel: Titeln felstavad, korrekt titel:```   
-   
+
 #### Delbeteckning och deltitel
 För anvisningar om hur man anger delbeteckning och deltitel, se [Metadatabyrån: Titlar på delar, sektioner eller supplement](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel#h-Titlarpadelarsektionerellersupplement).
-  
+
 #### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
@@ -122,18 +122,18 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
   ```Exempel: berättelser om mod```  
-  
+
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)</BR>
   <br/>```Exempel:```
      * ```written, produced and directed by Hilary Ng'weno```
      * ```av Astrid Lindgren ; producent: Waldemar Bergendahl ; regi: Lasse Hallström```
-  
+
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)</BR>
   Skriv in upplagebeteckning här. 
  <br/>```Exempel: Limited edition```  
-  
+
 ### Utgivning  
 Följ [Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-590.html) och ange distributionsuppgifter i avsnittet för utgivning. I filmbranschen är distributör motsvarigheten till utgivare. Produktionsland och produktionsår anges tills vidare i [Anmärkning](#anmarkning).
 * Utgivning (publication)  
@@ -142,17 +142,17 @@ Följ [Librispraxis för RDA 2.8](http://access.rdatoolkit.org/kbspchp2_kbsp2-59
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.  
   Vid postimport: I importerade poster förekommer ibland både År och Copyrightår inom Utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad.      
 Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c) finnas med.
- 
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
 Sök inte efter Plats som entitet. Skapa Plats som lokal entitet. Skriv in uppgiften under Benämning. Klamra vid behov.</br> 
   ```Exempel: [Stockholm]```  
-  
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
-  
+
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
 Sök inte efter Agent som entitet. Skapa agent som lokal entitet. Skriv in uppgiften under Benämning.  
@@ -160,7 +160,7 @@ Sök inte efter Agent som entitet. Skapa agent som lokal entitet. Skriv in uppgi
  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning inom respektive utgivningsavsnitt. Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum ska ligga inom Primär utgivning.</br>
   Se [exempel i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
+
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
@@ -185,14 +185,14 @@ För att ange ett osäkert utgivningsdatum där endast tidigaste och senaste år
  För anvisningar om hur man anger flera år (flerbandsverk), se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#utgivning): Utgivning. 
  
  Läs mer om Utgivningstid i [Metadatabyrån: Utgivningstid](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/utgivningsuppgift#h-Utgivningstid).
-  
+
 ### Copyrightår
 För film anges alltid copyrightår, även om det sammanfaller med utgivningsår/distributionsår, se [Librispraxis 2.11](http://access.rdatoolkit.org/kbspchp2_kbsp2-1030.html).
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram ©, kopiera härifrån eller sök på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). 
 <br/>```Exempel: ©2017```
-    
+
 ### Identifikator
 Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnummer (videoinspelning) och EAN förvalda.
 
@@ -208,7 +208,7 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
   ```Exempel: Njutafilms```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)<br/>
   Ange eventuell bestämning.<br/>
-  
+
 #### EAN
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
@@ -218,7 +218,7 @@ Flera typer av identifikatorer kan finnas på film. I mallen för Utgivningsnumm
   ```Exempel: 5705535059701```
 
 För anvisningar om hur man anger ISBN, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#identifikator): Identifikator
-   
+
 ### Omfång  
 Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.org/rdachp3_rda3-2098.html) samt [Librispraxis för Alternativ](http://access.rdatoolkit.org/kbspchp3_kbsp3-95.html). Ange speltid (inom parentes) efter omfång när uppgiften är lätt åtkomlig.
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)<br/>
@@ -226,18 +226,18 @@ Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
      * ```1 DVD-video (2 tim., 7 min.)```
      * ```1 Blu-ray Disc (1 tim., 40 min.)```
-     
+
 ### Speltid
 * Speltid/speltid/Värde (hasDuration/Duration/Value = 306 #a)</br>
   Vid behov anges speltid här i kodad form.
   Skriv in uppgiften under Värde enligt formen TTMMSS.</br>
   Om sekunder inte är kända ange 00.</br>
   ```Exempel: 011200```
-  
+
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   ```Exempel: stum, svartvit```
-  
+
 ### Medföljande material
 * Medföljs av/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans).</br> 
@@ -264,12 +264,12 @@ Notera att kodning av målgrupp, motsvarande 008/22, ska anges i [Målgrupp](#ma
 
 ### Innehållsförteckning  
 För anvisningar om hur man lägger till olika typer av innehållsförteckningar, se hjälptexten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance#innehallsforteckning): Innehållsförteckning.
-  
+
 ### Systemkrav och mediespecifika uppgifter
 Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annanstans i beskrivningen anges. Ange uppgiften som den är presenterad i resursen.
 * Har anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkning: Systemkrav och mediespecifika uppgifter/Anmärkningstext (marc:hasSystemDetailsNote = 538 #a)
   </BR>```Exempel: Systemkrav: Region 2 ; bildformat: 16:9 (2.35:1 ); ljudformat: Dolby digital 5.1```
-  
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här. Här anges tills vidare produktionsland och produktionsår. 
@@ -277,14 +277,14 @@ Här kan systemkrav och mediespecifika uppgifter som inte framgår någon annans
    <br/>```Exempel:```<br/> 
    * ```Produktion: Förenta staterna, 1972```<br/>
    * ```Produktion: Storbritannien, 2018```
-   
+
 ### Elektronisk adress
 #### Relaterad beskrivning eller innehall
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
   För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
- 
+
 ## Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.
 
@@ -326,7 +326,7 @@ Ange den föredragna titeln i Huvudtitel.
   ```Exempel: Wechselman, Maj, 1942-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   ```Exempel: relator/drt (= regissör)```</br>
-  
+
 ### Språk 
 * Språk (language = 008/35-37)</BR>
   Ange det talade eller sjungna språket här.</BR>
@@ -338,15 +338,15 @@ Ange den föredragna titeln i Huvudtitel.
   Länka till entitet. 
 
 För språk i bild- och filmtexter, samt i textskyltar i stumfilm, se egenskapen [Bild- och filmtexter](#bild-och-filmtexter).
- 
+
 #### Översättning  
 För en film som är dubbad, lägg till:  
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
 **Från och med version 1.18 skapas uppgiften automatiskt.** 
-   
+
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
-  
+
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 #h)  
   Filmens originalspråk anges här. För en engelsk film som är dubbad till svenska, ange engelska här. Lägg till Översättning av under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
 ```Exempel: engelska (eng)``` 
