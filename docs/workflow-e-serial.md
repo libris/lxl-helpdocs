@@ -78,10 +78,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entiteten:  
   ```onlineresurs, online resource (kod = cr)```
 
-Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
+ Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs, r```</BR>
   
-Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
+ Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva, o```</BR>
   
 ### Titel
@@ -131,14 +131,14 @@ Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preci
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
 
-##### Deltitel  
+#### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
 #### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   ```Exempel: ACMO```  
- 
+
 ### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
@@ -300,7 +300,7 @@ För en sorterad lista på koder, se [Formathandboken för Libris/Voyager - Funk
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se hjälptexten [Verk](https://libris.kb.se/katalogisering/help/workflow-work#klassifikation): Klassifikation.
 
-### Amne  
+### Ämne  
 Se hjälptexten [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh) 
 
 ### Innehållstyp
