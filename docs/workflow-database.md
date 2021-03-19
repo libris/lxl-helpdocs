@@ -75,28 +75,28 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```</br>    
-  
+
 ### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista:  
   ```Integrerande resurs```</br> 
-  
+
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entiteten:  
   ```dator, computer (kod = c)```</br> 
-  
+
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entiteten:</BR>
   ```onlineresurs, online resource (kod = cr)```
-   
+
   Om koden "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system, länka till entiteten:</BR>
   ```Onlineresurs (= r)```</BR>
-  
+
   Om koden "o" (= onlineutgåva) behövs i 008/23 (= form för manifestationen) för bibliotekets lokala system, länka till entiteten:</br>
   ```Onlineutgåva (= o)```</BR>
-  
+
 ### Titel 
 
 #### Huvudtitel 
@@ -122,7 +122,7 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- #a)  
   Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ABM```
-  
+
 #### Parallelltitel
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)<br/>
@@ -143,12 +143,12 @@ Om resursen byter titel ange den tidigare titeln här. Tidsintervall kan precise
 
 * Har titel/Tidigare Titel/Täckning eller tillkomst (hasTitle/FormerTitle/coverage = 246 #f)    
   ```Exempel: 2005-2009``` 
-  
+
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)
 
 Om upphovsuppgiften ändras i resursen, uppdatera Upphovsuppgift så att den speglar aktuell version. Gör en anmärkning om den tidigare upphovsuppgiften om det är viktigt för identifikation eller åtkomst, se [RDA 2.4.1.10.3](http://access.rdatoolkit.org/rdachp2_rda2-4776.html).
-    
+ 
 ### Utgivning
 * Utgivning  
 Välj typ från lista. För databaser och webbplatser, använd Primär utgivning. 
@@ -159,18 +159,18 @@ Välj typ från lista. För databaser och webbplatser, använd Primär utgivning
   ```Exempel: Sverige (sw)```<br/>
 
 Om utgivningslandet ändras i resursen, uppdatera Land så att det speglar aktuell version.
-  
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)<br/> 
   ```Exempel: Örebro```<br/> 
 
 Om utgivningsorten ändras i resursen, uppdatera Plats så att den speglar aktuell version. Gör en anmärkning om tidigare utgivningsort om det är viktigt för identifikation eller åtkomst, se [RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
-  
+
 #### Utgivarnamn
 * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
 
 Om utgivarnamnet ändras i resursen, uppdatera Agent så ett den speglar aktuell version. Gör en anmärkning om tidigare utgivare om det är viktigt för identifikation eller åtkomst, se [RDA 2.8.1.5.3](http://access.rdatoolkit.org/rdachp2_rda2-6444.html).
-    
+
 #### År och datum 
 För instruktioner om hur man anger utgivningstid för integrerande resurser, se [RDA 2.8.6.5](http://access.rdatoolkit.org/rdachp2_rda2-6867.html).
 * Startår (startYear = 008/7-10)  
@@ -195,7 +195,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, se
   <br/>```Exempel:```
   * ```[2012-2013]```
   * ```[1988-]```
-  
+
 ### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 #u)<br/>
   Använd Tillhörande media för **fritt tillgängliga resurser** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
@@ -213,7 +213,7 @@ För instruktioner om hur man anger utgivningstid för integrerande resurser, se
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-  
+
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
@@ -225,7 +225,7 @@ För integrerande resurser med fjärråtkomst anges alltid datum för när resur
 ```Exempel: Katalogiserad 2020-02-16```<br/>
 Gör anmärkningar om t.ex. tidigare upphovsuppgift eller utgivare om det bedöms vara viktigt för identifikation eller åtkomst.<br/> 
 ```Exempel: Utgiven av Södertörns högskolebibliotek, 2009-2017```    
-  
+
 ### Behandling vid titeländring 
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entiteten:  
@@ -254,7 +254,7 @@ Om en föredragen titel för verket är angiven i verksbeskrivningen och huvudti
 ### Medverkan och funktion  
 Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket. Relationer till utgivare (710) anges för närvarande också här.
 Följ [instruktioner i Relationer till agenter - Metabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
-  
+
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)
 * Medverkan och funktion/Primär medverkan/Agent/Organisation (110 2/- #a) 
 * Medverkan och funktion/Primär medverkan/Funktion (100/110 #4)   
@@ -265,7 +265,7 @@ Följ [instruktioner i Relationer till agenter - Metabyrån](https://metadatabyr
 Om en agent är angiven i Primär medverkan och det sker en förändring i upphovsansvaret för den integrerande resursen, uppdatera Primär medverkan så att den speglar aktuell version, se [RDA 6.1.3.3.1](http://access.rdatoolkit.org/rdachp6_rda6-1916.html).
 
 Om en agent är angiven i Medverkan, t.ex. en utgivare, och utgivaren ändras eller om en ny utgivare tillkommer, lägg till utgivaren i en ny Medverkan om det bedöms vara viktigt för identifikation eller åtkomst.
-  
+
 ### Språk
 * Språk (language = 008/35-37)  
   Länka till entitet. I mallen är "svenska" förifyllt. Ändra vid behov.<br/> 
@@ -279,7 +279,7 @@ Föredragen titel för ett verk utan Primär medverkan anges här.
 #### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)</BR>
 Föredragen titel för ett verk med Primär medverkan med anges här.  
-   
+
 ### Genre form 
 För utförliga anvisningar om hur man anger genre/form, se [hjälptexten Verk](https://libris.kb.se/katalogisering/help/workflow-work#genre): Genre form.
 * Genre/form - saogf-termer (genreForm = 655 -/7 #a, #2 saogf)</br>
@@ -289,13 +289,13 @@ För utförliga anvisningar om hur man anger genre/form, se [hjälptexten Verk](
   * ```Databaser```
   * ```Referensdatabaser```
   * ```Artikeldatabaser```
-  
+
 * Genre/form - Typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
 <br/>```Exempel:```
   * ```Databas (= d)```
   * ```Uppdaterande webbplats (= w)```
-         
+     
 ### Klassifikation  
 För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatabyrån](https://metadatabyran.kb.se/klassifikation).
 
@@ -311,7 +311,7 @@ För anvisningar om hur man anger klassifikation, se [Klassifikation i Metadatab
 ### Sammanfattning av innehåll    
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)</BR>
 Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning. Skriv in uppgiften under Benämning.
-     
+
 * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)</BR>
 Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
 ```Exempel: Ej preciserad```
