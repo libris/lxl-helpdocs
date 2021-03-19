@@ -71,7 +71,7 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
   </br>```Exempel:```
   * ```omedierad, unmediated (kod = n)``` (bidrag i tryckt publikation)
   * ```dator, computer (kod = c)``` (bidrag i elektronisk publikation)<br/>
-  
+
 ### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet:
@@ -91,20 +91,20 @@ Normalvärde för monografiska bidrag som t.ex. artiklar i en tidskrift/årsbok 
 #### Delbeteckning och deltitel
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
-  
+
 #### Parallelltitel
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 #a) med interpunktion.
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)
-     
+
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)<br/>
   ```Exempel: Johan Ahlner, Karin Kjellgren```
-  
+
 ### Utgivning  
 * Utgivning<br/>
   Välj typ från lista. För bidrag, använd Primär utgivning. 
- 
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
@@ -126,7 +126,7 @@ Om instansbeskrivningen gäller en **fritt tillgänglig elektronisk artikel**, a
    <br/>```Exempel:```
   * ```Fritt tillgänglig via tidskriftens webbplats``` 
   * ```Fritt tillgänglig``` 
-  
+
 Välj det mest beständiga länkmålet för fritt tillgängliga artiklar, i första hand en URI (t.ex. URN eller DOI), i andra hand en översiktssida från vilken artikeln är enkelt åtkomlig och i sista hand, länka direkt till den fritt tillgängliga resursen.
 
 **För avtalsbundna eller endast lokalt tillgängliga elektroniska artiklar** ange URI i beståndsposten. Instansbeskrivningen kan kompletteras med URI i Tillhörande media till en generell inloggningssida för en resurs där artikeln ingår. Förtydliga med lämplig anmärkningsfras i Offentlig anmärkning, t.ex. "Inloggning krävs".  
