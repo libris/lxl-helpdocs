@@ -31,7 +31,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Medföljande material](#medf-ljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#inneh-llsf-rteckning) | | 
-| | [Anmarkning](#anm-rkning) | |
+| | [Anmärkning](#anm-rkning) | |
 | | [Digital karakteristika](#digital-karakteristika) | | 
 
 ## Inledning
