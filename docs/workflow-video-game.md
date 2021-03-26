@@ -20,20 +20,20 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel)  |
 | | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Medietyp](#medietyp) | [Språk](#spr-k) |
-| | [Bärartyp](#b-rartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
+| | [Medietyp](#medietyp) | [Språk](#språk) |
+| | [Bärartyp](#bärartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| | [Upplageuppgift](#upplageuppgift) | [Ämne](#-mne) |
+| | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
 | | [Utgivning](#utgivning) | [Målgrupp](#m-lgrupp) |
-| | [Copyrightår](#copyright-r) | [Innehållstyp](#inneh-llstyp)  |
-| | [Omfång](#omf-ng) | [Anmärkningar](#anm-rkningar) |
-| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) |
-| | [Medföljande material](#medf-ljande-material) | |
+| | [Copyrightår](#copyright-r) | [Innehållstyp](#innehållstyp)  |
+| | [Omfång](#omfång) | [Anmärkningar](#anm-rkningar) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| | [Medföljande material](#medföljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Målgruppsanmärkning](#m-lgruppsanm-rkning) | |
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
 | | [Systemkrav](#systemkrav) | |
-| | [Anmärkning](#anm-rkning) | |
+| | [Anmärkning](#anmärkning) | |
 | | [Systemkrav och mediespecifika uppgifter](#systemkrav-och-mediespecifika-uppgifter) | |
 
 
