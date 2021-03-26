@@ -19,16 +19,16 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) |
-| | [Utgivningssätt](#utgivningss-tt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#spr-k) |
-| | [Bärartyp](#b-rartyp) | [Genre/form](#genre-form) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Medietyp](#medietyp) | [Språk](#språk) |
+| | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillhörande media](#tillh-rande-media) | [Innehållstyp](#inneh-llstyp) |
-| | [Anmärkning](#anm-rkning)| |
+| | [Tillhörande media](#tillh-rande-media) | [Innehållstyp](#innehållstyp) |
+| | [Anmärkning](#anmärkning)| |
 | | [Frekvens](#frekvens) | |
 | | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titel-ndring) |  |
+| | [Behandling vid titeländring](#behandling-vid-titeländring) |  |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs)| |
 | | [Relationer](#relationer) | | 
 
