@@ -19,7 +19,7 @@ tags:
 | [Titel](#titel)| | [Medföljande material](#medföljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmärkning) |
-| [Produktion](#produktion) | | [Innehållsförteckning](#innehållsf-rteckning) |
+| [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
