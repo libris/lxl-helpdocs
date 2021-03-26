@@ -18,27 +18,27 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Identifikator](#identifikator)  | [Byta verkstyp](#byta-verkstyp) |
-| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#b-rartyp) | [Språk](#spr-k) |
+| | [Bärartyp](#bärartyp) | [Språk](#språk) |
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
-| | [Upplageuppgift](#upplageuppgift) | [Ämne](#-mne) |
-| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-spr-k) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#m-lgrupp) |
-| | [Copyrightår](#copyright-r) | [Innehållstyp](#inneh-llstyp) | 
+| | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-språk) |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#målgrupp) |
+| | [Copyrightår](#copyrightår) | [Innehållstyp](#innehållstyp) | 
 | | [Identifikator](#identifikator) | [Har del](#har-del) |  
-| | [Omfång](#omf-ng) | |
-| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | | 
-| | [Mått](#m-tt) | |
+| | [Omfång](#omfång) | |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | | 
+| | [Mått](#mått) | |
 | | [Speltid](#speltid) | |
-| | [Medföljande material](#medf-ljande-material) | |  
+| | [Medföljande material](#medföljande-material) | |  
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anm-rkning) | |
-| | [Format för noterad musik](#format-for-noterad-musik) | |
-| | [Innehållsförteckning](#inneh-llsf-rteckning) | |
-| | [Målgruppsanmärkning](#malgruppsanm-rkning) | |
-| | [Annat bärarformat](#annat-b-rarformat) | | 
+| | [Anmärkning](#anmärkning) | |
+| | [Format för noterad musik](#format-för-noterad-musik) | |
+| | [Innehållsförteckning](#innehållsförteckning) | |
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
+| | [Annat bärarformat](#annat-bärarformat) | | 
 
 ## Inledning
 
