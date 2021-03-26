@@ -134,14 +134,9 @@ Från och med version 1.18 anges originalspråk för översättningar under Öve
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Ange originalspråk genom att länka till språk här.  
   ![Uppgift om originalversionens språk](translationof.png)  
-   
-För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
-![Intermediärt språk](intermediate_language.png)  
 
 Översättningens språk i klartext:  
-För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
-Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
-**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
+För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel. Det skapas automatiskt om Primär medverkan finns. Om Primär medverkan inte finns, behöver det skapas manuellt.  
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Verkstyp/Språk (Language/label = 130 #l)  
@@ -149,6 +144,11 @@ Länka till entitet.
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
 Har del/Verk/Verkstyp/Språk (Language/label = 730 #l)  
 Länka till entitet.  
+
+För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
+![Intermediärt språk](intermediate_language.png)  
+
+Mer information om översättningar finns på sidan [Uttryckets språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/uttryckets-sprak#h-Oversattning).  
   
 ##### Parallelltext  
 Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)  
