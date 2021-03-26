@@ -137,9 +137,9 @@ Från och med version 1.18 anges originalspråk för översättningar under Öve
    
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 ![Intermediärt språk](intermediate_language.png)  
- 
-För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
+Översättningens språk i klartext:  
+För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
 
