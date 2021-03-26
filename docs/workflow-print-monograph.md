@@ -16,25 +16,25 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#b-rartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
-| | [Titel](#titel) | [Språk](#spr-k) |
+| | [Bärartyp](#bärartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
+| | [Titel](#titel) | [Språk](#språk) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#m-lgrupp) | 
-| | [Copyrightår](#copyright-r) | [Innehållstyp](#inneh-llstyp) | 
-|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) |
-| | [Omfång](#omf-ng) | [Anmärkning om akademisk avhandling](#anm-rkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | |
-| | [Mått](#m-tt) | |
-| | [Medföljande material](#medf-ljande-material) | |
+| | [Tillverkning](#tillverkning) | [Målgrupp](#målgrupp) | 
+| | [Copyrightår](#copyrightår) | [Innehållstyp](#inneh-llstyp) | 
+|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| | [Omfång](#omfång) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |
+| | [Mått](#mått) | |
+| | [Medföljande material](#medföljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anm-rkning) | | 
-| | [Innehållsförteckning](#inneh-llsforteckning) | |
-| | [Målgruppsanmärkning](#m-lgruppsanm-rkning) | |
-| | [Annat bärarformat](#annat-b-rarformat) | |
+| | [Anmärkning](#anmärkning) | | 
+| | [Innehållsförteckning](#innehållsförteckning) | |
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
+| | [Annat bärarformat](#annat-bärarformat) | |
 
 ## Inledning
 Beskrivningen av en tryckt monografi innehåller följande tre delar:  
