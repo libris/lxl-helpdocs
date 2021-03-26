@@ -12,18 +12,18 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Instanstyp](#instanstyp) | | [Omfång](#omf-ng) | 
-| [Utgivningssätt](#utgivningss-tt)| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | 
-| [Medietyp](#medietyp) | | [Mått](#m-tt) |
-| [Bärartyp](#b-rartyp) | | [Klassifikation](#klassifikation) |
-| [Titel](#titel)| | [Medföljande material](#medf-ljande-material) | 
+| [Instanstyp](#instanstyp) | | [Omfång](#omfång) | 
+| [Utgivningssätt](#utgivningssätt)| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | 
+| [Medietyp](#medietyp) | | [Mått](#mått) |
+| [Bärartyp](#bärartyp) | | [Klassifikation](#klassifikation) |
+| [Titel](#titel)| | [Medföljande material](#medföljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
-| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anm-rkning) |
-| [Produktion](#produktion) | | [Innehållsförteckning](#inneh-llsf-rteckning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillg-ngligg-rande) | | [Målgruppsanmärkning](#m-lgruppsanm-rkning) |
+| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmärkning) |
+| [Produktion](#produktion) | | [Innehållsförteckning](#innehållsf-rteckning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Copyrightår](#copyright-r) | | |
+| [Copyrightår](#copyrightår) | | |
 
 
 ## Inledning
