@@ -18,22 +18,22 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Bärartyp](#b-rartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Titel](#titel) | [Språk](#spr-k)  |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| | [Medietyp](#medietyp) | [Relationer till ingaende verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
+| | [Bärartyp](#bärartyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Titel](#titel) | [Språk](#språk)  |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Målgrupp](#m-lgrupp)  |
-| | [Copyrightår eller p-år](#copyright-r-eller-p--r) | [Innehållstyp](#inneh-llstyp) |
+| | [Utgivning](#utgivning) | [Målgrupp](#målgrupp)  |
+| | [Copyrightår eller p-år](#copyrightår-eller-p-år) | [Innehållstyp](#innehållstyp) |
 | | [Identifikator](#identifikator) | [Inspelning](#inspelning) | 
-| | [Omfång](#omf-ng) | [Anmärkning om medverkande](#anm-rkning-om-medverkande) |
-| | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
-| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | |
-| | [Medföljande material](#medf-ljande-material) | |
+| | [Omfång](#omfång) | [Anmärkning om medverkande](#anmärkning-om-medverkande) |
+| | [Speltid](#speltid) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll)  |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |
+| | [Medföljande material](#medföljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Innehållsförteckning](#inneh-llsf-rteckning) | | 
-| | [Anmärkning](#anm-rkning) | | 
+| | [Innehållsförteckning](#innehållsförteckning) | | 
+| | [Anmärkning](#anmärkning) | | 
 | | [Elektronisk adress](#elektronisk-adress) | |
 
 
