@@ -18,16 +18,16 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna v
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- | ----------- |  ----------- |
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Bärartyp](#b-rartyp) | [Språk](#spr-k)  |
+| | [Bärartyp](#bärartyp) | [Språk](#språk)  |
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation)|
-| | [Utgivning](#utgivning) |[Ämne](#-mne) |
-| | [Anmärkning](#anm-rkning)| [Innehållstyp](#inneh-llstyp) |
-| | [Tillhörande media](#tillhorande-media) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll)  |
-| | [Är del av](#-r-del-av)| |
-| | [Placering i värdpublikation](#placering-i-v-rdpublikation) | |
+| | [Utgivning](#utgivning) |[Ämne](#ämne) |
+| | [Anmärkning](#anmärkning)| [Innehållstyp](#innehållstyp) |
+| | [Tillhörande media](#tillhörande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll)  |
+| | [Är del av](#är-del-av)| |
+| | [Placering i värdpublikation](#placering-i-värdpublikation) | |
 
 
 ## Inledning
