@@ -43,10 +43,10 @@ Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med il
 ![Ikoner för de olika verksyperna](verkstypsikoner.png)
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
-   
+
 ## Instans av verk
 * Instans av verk (instanceOf/Work)  
-  
+
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
 ![Lägg till egenskaper under Instans av verk](instansavverk.png)  
 
@@ -54,7 +54,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Sök fram och lägg till egenskap](instansavverkegenskap.png)  
 
- 
+
 ### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
 
@@ -84,34 +84,34 @@ Skriv in uppgiften.
   [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
   Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
- 
+
 #### Relationer till andra verk  
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
    [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
    Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
-  
+
 ### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
   [Följ instruktioner i hjälptexten Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-    
+
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
- 
+
 * Medverkan och funktion/Primär medverkan/Funktion  
 (contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
-  
+
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)  
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
-  
+
 * Medverkan och funktion/Medverkan/Agent/Organisation  
 (contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-  
+
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion  
 (contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
   Länka till entitet. [Se Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
@@ -123,12 +123,12 @@ Skriv in uppgiften.
   ```Exempel: svenska (swe)```   
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.  
   För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
-  
+
 #### Översättning   
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
 ```Exempel: objektet är/innehåller översättning```   
 *Uppgiften skapas automatiskt.*
-    
+
 Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.    
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
@@ -149,53 +149,53 @@ För översättningar i flera led, använd egenskapen Intermediärt språk till 
 ![Intermediärt språk](intermediate_language.png)  
 
 Mer information om översättningar finns på sidan [Uttryckets språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/uttryckets-sprak#h-Oversattning).  
-  
+
 ##### Parallelltext  
 Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)  
 
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
-  
+
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
 (hasNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Parallelltext på svenska och engelska```  
 Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går inte att lägga till egenskapen från Lägg till egenskaper.  
-  
+
 ### Genre form
 Länka till entiteter.  
  För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.  
  [Se instruktionsfilm Lägga till Genre/form](https://youtu.be/a6I_6K5STKw)  
- 
+
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).  
 
 ![Lägga till genre/form](genre_exempel.png) 
 
 #### Marc-koder i 008
 För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Trunkera med * för att se listan över typer under varje rubrik. Länka till entitet.  
- 
+
 ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)       
   ```Exempel: Ja, resursen härrör från konferens```   
-     
+
 ##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)     
   ```Exempel: Ja, resursen är en festskrift```    
-  
+
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)    
   ```Exempel: f ( = roman)```
-  
+
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)   
   ```Exempel: a (= självbiografi)```  
-   
+
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
  Skriv "avhandling" i sökrutan.  
  ```Exempel: Akademisk avhandling```  
   [Se även Anmärkning om akademisk avhandling nedan](#anmarkning-om-akademisk-avhandling).  
-    
+
 #### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
@@ -224,7 +224,7 @@ Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt klassifikation s
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 082 #2)  
   ```Exempel: 23/swe```  
-  
+
 #### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet. Skriv in uppgiften under Kod.  
@@ -238,7 +238,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift   
  (classification/ClassificationDdc/editionEnumeration = 083 #2)  
   ```Exempel: 23/swe``` 
-   
+ 
 #### SAB-klassifikation  
 **VERSION 1.19:**  SAB-klassifikation har sedan version 1.19 delvis placerats under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp, t ex Kc/VK. Kvar under Verk finns SAB utan medietillägg.   
@@ -260,17 +260,17 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8```  
-  
+
 ### Ämne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
-  
+
 ### Målgrupp     
 * Målgrupp (intendedAudience = 008/22)  
  Länka till entitet.
  <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
   Normalvärde för barn- och ungdomslitteratur.
-  
+
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
   Normalvärde för läromedel avsedda för skolbruk (till och med gymnasiet).  
 
@@ -284,12 +284,12 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```framförd musik (prm)```
   * ```stillbild (sti)```
   * ```text (txt)```  
-  
+
 [Läs mer om innehållstyp i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/innehallstyp).
-  
+
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
-  
+
 ### Sammanfattning av innehåll    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
  **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
@@ -297,18 +297,18 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
  [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
-  
+ 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
- 
+
 #### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```
-  
+
 ### Anmärkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
   Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
 Skriv in anmärkningen under Benämning.    
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018```
