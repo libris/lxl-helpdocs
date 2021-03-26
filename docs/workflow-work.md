@@ -136,7 +136,7 @@ Från och med version 1.18 anges originalspråk för översättningar under Öve
   ![Uppgift om originalversionens språk](translationof.png)  
 
 Översättningens språk i klartext:  
-För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel. Det skapas automatiskt om Primär medverkan finns. Om Primär medverkan inte finns, behöver det skapas manuellt.  
+För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel. Uppgiften skapas automatiskt om Primär medverkan finns. Om Primär medverkan saknas, behöver uppgiften anges manuellt.  
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
 Uttryck av/Verk/Verkstyp/Språk (Language/label = 130 #l)  
