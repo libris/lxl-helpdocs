@@ -25,17 +25,17 @@ Vid förändringar i huvudtiteln hos en integrerande resurs görs normalt ingen 
 | ----------- |  ----------- | ----------- | 
 [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Databaser](#databaser) | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) | 
-| | [Utgivningssätt](#utgivningss-tt) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Medietyp](#medietyp) | [Språk](#spr-k) |
-| | [Bärartyp](#b-rartyp) | [Genre form](#genre-form) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Medietyp](#medietyp) | [Språk](#språk) |
+| | [Bärartyp](#bärartyp) | [Genre form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Utgivning](#utgivning) | [Innehållstyp](#inneh-llstyp) |
-| | [Tillhörande media](#tillhörande-media) | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) |
+| | [Utgivning](#utgivning) | [Innehållstyp](#innehållstyp) |
+| | [Tillhörande media](#tillhörande-media) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 | | [Frekvens](#frekvens) |  |
 | | [Alfabet](#alfabet) |  |
-| | [Anmärkning](#anm-rkning)| | 
-| | [Behandling vid titeländring](#behandling-vid-titel-ndring)| | 
+| | [Anmärkning](#anmärkning)| | 
+| | [Behandling vid titeländring](#behandling-vid-titeländring)| | 
 
 
 ## Inledning
