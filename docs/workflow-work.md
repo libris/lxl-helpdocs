@@ -14,10 +14,10 @@ tags:
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
 | [Verkstyp](#verkstyp)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
-| [Verkets titel](#verkets-titel) |  | [Målgrupp](#m-lgrupp) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#inneh-llstyp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-inneh-ll) | 
-| [Språk](#spr-k) |  |  [Anmärkning om akademisk avhandling](#anm-rkning-om-akademisk-avhandling) | 
+| [Verkets titel](#verkets-titel) |  | [Målgrupp](#målgrupp) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehållstyp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) | 
+| [Språk](#språk) |  |  [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
