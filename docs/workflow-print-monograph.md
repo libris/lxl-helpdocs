@@ -24,7 +24,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Tillverkning](#tillverkning) | [Målgrupp](#målgrupp) | 
-| | [Copyrightår](#copyrightår) | [Innehållstyp](#inneh-llstyp) | 
+| | [Copyrightår](#copyrightår) | [Innehållstyp](#innehållstyp) | 
 |  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 | | [Omfång](#omfång) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
 | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |
@@ -188,7 +188,7 @@ Här anges medföljande material, som t ex bilagor.
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde  
  (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
-Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Serieuppgift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift#ISSN).  
+Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmärkning). Se [Serieuppgift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/serieuppgift#ISSN).  
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)
@@ -364,7 +364,7 @@ Välj någon av övriga rubriker i listan.
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
-  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+  Se även [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling).  
 
 #### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
