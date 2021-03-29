@@ -17,7 +17,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningss-tt) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#bärartyp) | [Språk](#språk) |
 | | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
@@ -26,9 +26,9 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Utgivning](#utgivning) | [Ämne](#ämne) |
 | | [Copyrightår eller p-år](#copyrightår-eller-p-år) | [Målgrupp](#målgrupp) |
 | | [Identifikator](#identifikator) |[Innehållstyp](#innehållstyp) |
-| | [Omfång](#omfång) | [Anmärkning om medverkande](#anm-rkning-om-medverkande) |
+| | [Omfång](#omfång) | [Anmärkning om medverkande](#anmärkning-om-medverkande) |
 | | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll)  |
-| | [Medföljande material](#medf-ljande-material) | |
+| | [Medföljande material](#medföljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Innehållsförteckning](#innehållsförteckning) | | 
 | | [Anmärkning](#anmärkning) | |
@@ -235,7 +235,7 @@ Ange antal enheter samt typ av enhet, se [RDA 3.4.1.3](http://access.rdatoolkit.
 
 Om filformatet är MP3 ska det inte anges här utan i Digital karakteristika/Kodningsformat/Benämning, se [Kodningsformat](#kodningsformat).
 
-För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, se [Anmärkning](#anmarkning).
+För att uppgiften om filformat ska vara synlig i Libris Webbsök eller i den lokala bibliotekskatalogen, ange den även i en anmärkning, se [Anmärkning](#anmärkning).
 
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 #b)     
@@ -369,7 +369,7 @@ För anvisningar om hur man anger klassifikation, se hjälptexten [Verk:](https:
   ```Exempel: j (= barn- och ungdom, 0-16 år)```
     </br>Normalvärde för barn- och ungdomslitteratur.
 
-För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#M-lgruppsanm-rkning) under Instans.
+För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Målgruppsanmärkning](#målgruppsanmärkning) under Instans.
 
 ### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
