@@ -19,7 +19,7 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | [Bestånd](#bestånd)
 | ----------- | ----------- |  ----------- | ----------- |
-| [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
+| [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
 | [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | [Innehas av](#innehas-av) |
 | [Beskrivningsnivå](#beskrivningsnivå)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmärkning) |
 | [Anmärkning](#anm-rkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning)|
@@ -49,7 +49,7 @@ För information om katalogiseringsregler och Librispraxis, [se Metadatabyrån](
 [Se även instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).
 
 ## Adminmetadata
-[Använd generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+[Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris)
 
 ### Bibliografi
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
