@@ -403,7 +403,7 @@ Litterär genre (008/33): Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
 Genre/form (saogf-term, 655): Lämpliga saogf-termer.  
-Se även [Svenska ämnesords översikt över Allmänna genre/formtermer](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord-genre-form/allmanna-genre-formtermer/allmanna-genre-formtermer-hierarkisk-lista).  
+Se även Svenska ämnesords översikt över [Allmänna genre/formtermer i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord-genre-form/allmanna-genre-formtermer).  
 Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Festskrift**  
