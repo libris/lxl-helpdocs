@@ -20,11 +20,11 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#bärartyp) | [Språk](#språk) |
-| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ing-ende-verk-och-andra-verk) |
+| | [Titel](#titel) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) |
 | | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](#-mne)  |
-| | [Copyrightår](#copyrightår) | [Målgrupp](#m-lgrupp) |
+| | [Utgivning](#utgivning) | [Ämne](#ämne)  |
+| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) |
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
 | | [Omfång](#omfång) | [Bild- och filmtexter](#bild--och-filmtexter)|
 | | [Speltid](#speltid) | [Inspelning](#inspelning) |
