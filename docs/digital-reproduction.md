@@ -22,13 +22,13 @@ I de fall egenskaperna finns beskrivna i generell hjälptext upprepas inte infor
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) | [Generell hjälptext för Bestånd](https://libris.kb.se/katalogisering/help/workflow-holding)
 | [Bibliografi](#bibliografi) | [Instanstyp](#instanstyp) | | [Innehas av](#innehas-av) |
 | [Beskrivningsnivå](#beskrivningsnivå)| [Reproduktion av](#reproduktion-av) | | [Anmärkning](#anmärkning) |
-| [Anmärkning](#anm-rkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning)|
+| [Anmärkning](#anmärkning) | [Identifikator](#identifikator) | | [Katalogisatörens anmärkning](#katalogisatörens-anmärkning)|
 | | [Utgivningssätt](#utgivningssätt) | | |
 | | [Medietyp](#medietyp) | | |
 | | [Bärartyp](#bärartyp) | | |
 | | [Produktion](#produktion) | | |
 | | [Indirekt identifierad av](#indirekt-identifierad-av) | | |
-| | [Digital karaktäristika](#digital-karaktäristika) | | |
+| | [Digital karakteristika](#digital-karakteristika) | | |
 | | [Tillhörande media](#tillhörande-media) | | |
 | | [Villkor för användning och åtkomst](#villkor-för-användning-och-åtkomst) | | |
 | | [Relaterad beskrivning eller innehåll](#relaterad-beskrivning-eller-innehåll) | | |
@@ -113,8 +113,8 @@ I mallen är följande entiteter länkade:
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/ISBN/value = 020 #z)
 <br/>ISBN hämtas från den fysiska förlagan (om sådant förekommer). Uppgiften är ifylld då funktionen Skapa digital reproduktion används.
 
-### Digital karaktäristika
-* Digital karaktäristika/Kodningsformat/Benämning (digitalCharacteristics/EncodingFormat/label = 347 #b)
+### Digital karakteristika
+* Digital karakteristika/Kodningsformat/Benämning (digitalCharacteristics/EncodingFormat/label = 347 #b)
 Ange kodningsformat här, se RDA 3.19.3.3. Ej obligatorisk uppgift, men om kodningsformat anges ska det göras här och inte i en anmärkning.
 <br/>```Exempel:``` 
 <br/>```Kodningsformat/Benämning: pdf```
