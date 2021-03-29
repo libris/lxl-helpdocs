@@ -24,7 +24,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillhörande media](#tillh-rande-media) | [Innehållstyp](#innehållstyp) |
+| | [Tillhörande media](#tillhörande-media) | [Innehållstyp](#innehållstyp) |
 | | [Anmärkning](#anmärkning)| |
 | | [Frekvens](#frekvens) | |
 | | [Alfabet](#alfabet) | |
