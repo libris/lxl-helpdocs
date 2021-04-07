@@ -156,6 +156,7 @@ Beskrivning av den auktoriserade agenten.
 * Födelse- och/eller dödstid (lifeSpan = 100 #d)
   <br/>Årtal används i första hand som särskiljande tillägg för personer. Redigera om det behövs.
   <br/>```Exempel: 1848-1920```
+  För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ### Nationalitet
 * Nationalitet/verksamhetsland (Nationality = 043 #a)
@@ -171,13 +172,15 @@ Beskrivning av den auktoriserade agenten.
 ### Födelsedatum
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/>```Exempel: 18480219```
-
+  <br/>```Exempel: 1848-02-19```
+  För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
+  
 ### Dödsdatum  
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
-  <br/>```Exempel: 19201209```
-
+  <br/>```Exempel: 1920-12-09```
+  För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
+  
 ### Variant
 * Variant (hasVariant = 400 #a #d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
@@ -199,7 +202,7 @@ Beskrivning av den auktoriserade agenten.
   
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [databasen ISNI - International Standard Name Identifier](http://www.isni.org/search)). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [databasen ISNI - International Standard Name Identifier](http://www.isni.org/search)). 
   <br/>```Exempel:```
   * ```Värde: 0000000121339888```
   * ```Typanmärkning: isni```
