@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2021-01-15
+date: 2021-04-07
 tags:
 - agenter
 - auktoriteter
@@ -133,6 +133,8 @@ Beskrivning av agenten som ska auktoriseras.
   * ```1858-1940```
   * ```1968-```
 
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
+
 ### Variant
 * Variant (hasVariant = 400 #a #d)
   <br/>Här anges variantnamn och alternativa namnformer samt födelse- och/eller dödstid. Hit hör stavningsvarianter, förkortningar, ändringar till följd av namnbyten, hänvisning från det andra ledet av sammansatt efternamn etc. Variantnamn kan t.ex. finnas i referenskällor eller i den bibliografiska informationen. Egenskapen upprepas om flera variantnamn behöver läggas till. 
@@ -198,16 +200,19 @@ Beskrivning av agenten som ska auktoriseras.
 * Födelsedatum (birthDate = 046 #f)
   <br/>Ange fullständigt födelsedatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/> ```Exempel:```
-  * ```18581120```
+  * ```1858-11-20```
   * ```1902```
+
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ### Dödsdatum
 * Dödsdatum (deathDate = 046 #g)
   <br/>Ange fullständigt dödsdatum om uppgiften är känd. I annat fall, ange känd uppgift.
   <br/>```Exempel:```
-  * ```19400316```
+  * ```1940-03-16```
   * ```1977```
 
+<br/>För osäkra och ungefärliga uppgifter, se information och exempel på sidan [Födelsetid och/eller dödstid i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid)
 
 ## Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
