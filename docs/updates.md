@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-02-10
+date: 2021-04-08
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-04-08
+* Hjälptexter för agenter uppdaterade med anledning av uppdaterade anvisningar för formatering av tidsangivelser. Utförlig information finns i [Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid#Osakerfodelsetidochellerdodstid).
 
 2021-02-10
 * Texten [Entiteter](https://libris.kb.se/katalogisering/help/entity-search) uppdaterad med exempel på hur olika typer av lokala entiteter skapas
