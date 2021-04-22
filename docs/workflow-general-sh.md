@@ -26,7 +26,7 @@ Resterande ämnesordssystems termer anges alltid som lokala entiteter.
 
 **Hjälptexterna för ämnesord innehåller instruktioner för följande typer av ämnesordskonstruktioner:**
 
-| [Länka ämnesord](#lanka-amnesord) | [Ämnesord som lokal entitet](#amnesord-som-lokal-entitet) | 
+| [Länka ämnesord](#länka-ämnesord) | [Ämnesord som lokal entitet](#ämnesord-som-lokal-entitet) | 
 | ------ |  ----------- |
 | | |
 | **Allmänt ämnesord** | **Allmänt ämnesord** |
@@ -43,7 +43,7 @@ Resterande ämnesordssystems termer anges alltid som lokala entiteter.
 | | |
 | **Sammansatt ämnesord** | **Sammansatt ämnesord** |
 | [Allmänt ämnesord med allmän underindelning från SAO auktoriserat som sträng](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh) </br>*Exempel: Hästar--religiösa aspekter sao* | [Allmänt ämnesord med allmän underindelning från SAO](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Myror--ekonomiska aspekter sao* |
-| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO](#lanka-amnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Grekland--Athen sao* |
+| [Geografiskt ämnesord med geografisk underindelning med auktoriserad sträng från SAO](#länka-ämnesord) </br>*Exempel: Förenta staterna--Alaska sao* | [Geografiskt ämnesord med geografisk underindelning från SAO](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Grekland--Athen sao* |
 | | [Allmänt ämnesord med valfri underindelning från KAO, MeSH, AGROVOC](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Präster--historia kao* |
 | | [Sammansatt ämnesord från system utan länkbar listkod (t.ex. RAMEAU)](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) </br>*Exempel: Cheval--Histoire rameau* |
 
