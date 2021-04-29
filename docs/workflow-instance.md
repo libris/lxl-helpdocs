@@ -65,7 +65,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```   
- 
+
 [Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
 
 ### Bärartyp  
@@ -76,7 +76,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```nb (= ark)```
   * ```nc (= volym)```
   * ```sd (= ljudskiva) + d (= ljudskiva)```   
-  
+
 [Om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/barartyp).  
 
 ### Titel   
@@ -115,7 +115,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```       
-    
+  
 #### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
@@ -133,7 +133,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   * ```Typanmärkning (246 #i): Skyddsomslag:```
   * ```Omslagstitel/Huvudtitel (246 #a): På väg mot döden```
   * ```Övrig titelinformation (246 #b): en Cooper och Fry-deckare```  
-  
+
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
 Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   
@@ -179,12 +179,12 @@ Skriv in uppgiften under Huvudtitel.
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```  
-  
+
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
- 
+
 ### Produktion  
 Uppgifter om Produktion anges endast för **opublicerade** resurser. För publicerat material, [se Utgivning.](#utgivning)  
 
@@ -288,12 +288,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  * ```Slutår: 9999```
  * ```Datum: 2019-```
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
- 
+
  <br/>```Exempel avslutat flerbandsverk:```
  * ```Startår: 1999```
  * ```Slutår: 2017```
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
- 
+
  <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
  * ```Startår: 1753```
  * ```Slutår: 1756```
@@ -360,7 +360,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 * Indirekt identifierad av/ISBN/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
-  
+
 ### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning. 
@@ -500,7 +500,7 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 * Del av materialet som avses/Resurs/Benämning  
 (appliesTo/Resource/label = 856 4/1 #3)  
 Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.   
-  
+
 #### Relaterad beskrivning eller innehåll
 För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll.
 * Relaterad beskrivning eller innehåll/Dokument/URI  
