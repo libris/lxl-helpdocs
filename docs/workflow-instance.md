@@ -56,7 +56,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
  <br/>```Exempel:```
   * ```Monografisk resurs```
   * ```Seriell resurs```  
-  
+
 ### Medietyp  
 * Medietyp (mediaType/Mediatype = 337 #b)  
   Länka till entitet.
@@ -65,9 +65,9 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```   
-  
-[Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
  
+[Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
+
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
   Länka till entitet.  
@@ -78,7 +78,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```sd (= ljudskiva) + d (= ljudskiva)```   
   
 [Om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/barartyp).  
- 
+
 ### Titel   
 
 #### Huvudtitel    
@@ -93,7 +93,7 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
-  
+
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 #### Varianttitel   
@@ -105,7 +105,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
  I äldre poster kan titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord ligga i [Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel](#titel-alternativ-stavning) (= 740). Använd i stället Varianttitel.  
 
   Varianttitel används för närvarande också för att ange titlar i icke-latinsk skrift.    
-  
+
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Varianttitel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
   [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
@@ -115,7 +115,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```       
-     
+    
 #### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
@@ -133,7 +133,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   * ```Typanmärkning (246 #i): Skyddsomslag:```
   * ```Omslagstitel/Huvudtitel (246 #a): På väg mot döden```
   * ```Övrig titelinformation (246 #b): en Cooper och Fry-deckare```  
-    
+  
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
 Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   
@@ -150,7 +150,7 @@ Exempel:
 ![Titeldel](titeldel.png)  
 
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.   
-  
+
 #### Parallelltitel  
 Ange parallelltitel endast här. Upprepa inte parallelltiteln efter Har titel/Titel/Huvudtitel.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 #a)   
@@ -158,11 +158,11 @@ Välj först Har titel, välj sedan typ Parallelltitel.
 Skriv in uppgiften under Huvudtitel.    
   ```Exempel: The Great Northern War explained```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.
- 
+
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 #b)   
 Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.  
   ```Exempel: Charles XII and the ideological address```  
-  
+
 ### Titel alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
@@ -184,13 +184,13 @@ Skriv in uppgiften under Huvudtitel.
 * Upplageuppgift (editionStatement = 250 #a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
-  
+ 
 ### Produktion  
 Uppgifter om Produktion anges endast för **opublicerade** resurser. För publicerat material, [se Utgivning.](#utgivning)  
 
 * Produktion (production)  
   Används för opublicerade resurser. Välj Produktion i listan. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Undantaget är samlingsposter. I dessa anges täckningstiden som Primär produktion med egenskaperna Startår och Slutår.  
-  
+
 #### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 #a)  
 Ej obligatoriskt. Ange uppgiften som lokal entitet.
@@ -206,17 +206,17 @@ Datum får innehålla text och interpunktionstecken.
   * ```[Ej efter 1900]```
   * ```[mellan 1780 och 1815?]```
   * ```1846```
- 
+
 ### Huvudsakligt tillgängliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity)  
   Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivning i de fall årtal/datum är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
-  
+
 #### Land
 *	Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
-  
+
 #### År
 *	År (year = 008/07-10).  
   År får endast innehålla siffror (0-9) och bokstaven u. Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
@@ -243,18 +243,18 @@ Välj typ Osäkert år från listan.
   Välj typ från lista. För monografier, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
- 
+
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
   Sök inte efter Plats som entitet. Skapa Plats som lokal entitet.  
   Skriv in uppgiften under Benämning.  
   ```Exempel: [Göteborg]```  
-  
+
 #### Utgivningsland  
 * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)``` 
-  
+
 #### Utgivarnamn
 * Agent/Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 #b)  
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.  
@@ -264,7 +264,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
 Land, År och eventuellt Datum  ska ligga inom Primär utgivning.   
   [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
-  
+
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
@@ -279,7 +279,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
     * ```[2017]```
     * ```[mellan 1863 och 1866?]```
-  
+
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår (inte År). Egenskaperna ska ligga i Primär utgivning. För ett avslutat flerbandsverk, där årtal inte behöver anges med klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 #c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) och välj ”Flera årtal (monografisk resurs)".  
  För ett pågående flerbandsverk, ange Slutår: 9999 samt Datum och bindestreck.    
@@ -288,26 +288,26 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  * ```Slutår: 9999```
  * ```Datum: 2019-```
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
-     
+ 
  <br/>```Exempel avslutat flerbandsverk:```
  * ```Startår: 1999```
  * ```Slutår: 2017```
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
-  
+ 
  <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
  * ```Startår: 1753```
  * ```Slutår: 1756```
  * ```Datum: [1753?]-1756```
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
-    
+
 * Flera år (faksimil)  
   Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning (= 008/06: r). Lägg till Årtal för ursprunglig utgivning (= 008/07-10) och Årtal för ny utgivning (= 008/11-14). Lägg sedan till Plats, Land, Agent och Datum (= 264 #c).     
-  
+
 ![Faksimil](faksimil.png)   
 
 * Flera år (osäkra år)  
   [Se Huvudsakligt tillgänggliggörande/Kompletterande datum](#huvudsakligt-tillgangliggorande) .   
-  
+
 
 ### Tillverkning 
 * Tillverkning (manufacture)  
@@ -315,25 +315,25 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 #### Tillverkningsplats (Tillverkningsort) 
 * Plats/Plats/Benämning (place/label = 264 -/3 #a)  
   ```Exempel: Falun```  
-  
+
 #### Tillverkningsnamn  
 * Agent/Agent/Benämning (agent/label = 264 -/3 #b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```   
-  
+
 #### Tillverkningstid   
 * Datum (= Tillverkningstid) (date = 264 -/3 #c)  
   Skriv in uppgiften. Klamra vid behov.
   <br/>```Exempel:```
   * ```2017```
   * ```[2017]```
-  
+
 ### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   [Se också hjälptexten Specialtecken](https://libris.kb.se/katalogisering/help/special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
-  
+
 ### Identifikator 
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
@@ -360,7 +360,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 * Indirekt identifierad av/ISBN/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
-    
+  
 ### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)   
   Skriv in uppgiften under Benämning. 
@@ -368,7 +368,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```319 sidor```
   * ```2 teckningar på 1 ark```
   * ```1 karta i 4 segment ```
-  
+
 ### Övriga fysiska detaljer   
 * Övriga fysiska detaljer (physicalDetailsNote = 300 #b)     
   Skriv in uppgiften.  
@@ -380,7 +380,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   <br/>```Exempel:```
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
- 
+
 ### Klassifikation  
 **VERSION 1.19:**  
 Några klassifikationssystem har flyttats från Verk till Instans i version 1.19. Det gäller:  
@@ -415,7 +415,7 @@ Skriv in uppgiften.
   *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
   * Vid export till marc21 skapas både 490 och 830 (800/810) från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält). OBS. Hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifylld Serieuppgift).  
-  
+
 #### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/Instance/type/InstanceofWork/Work/type/hasTitle/Title/mainTitle = 830 #a)  
   Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans: Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
@@ -429,7 +429,7 @@ Man behöver inte välja instans- och verkstyp här.
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
  Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/anmarkning-om-manifestationen).
-  
+
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
   Skriv in uppgiften.  
@@ -451,28 +451,28 @@ Man behöver inte välja instans- och verkstyp här.
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
-     
+
 ### Innehållsförteckning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsförteckning (505 #a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
-  
+
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsförteckning/Benämning, Upphovsuppgift, Kommentar (tableofContents = 505 8/_ #t, #r, #g)    
 För en utökad innehållsförteckning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del och välj Skapa lokal entitet. Skriv Utökad innehållsförteckning i rutan för Skapa lokal entitet och välj * Utökad innehållsförteckning. Utökad innehållsförteckning läggs till under Har del. Klicka på Utökad innehållsförteckning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsförteckning som lokal entitet (klicka på Duplicera entitet).  
  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
-   
+
 ### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
   Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
   ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
- 
+
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
   [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
-  
+
 ### Elektronisk adress
 
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
@@ -487,7 +487,7 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 * Del av materialet som avses/Resurs/Benämning  
 (appliesTo/Resource/label = 856 4/0 #3)  
   Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
-  
+
 #### Annan relaterad resurs
 * Annan relaterad resurs/Elektronisk/URI  
 (marc:versionOfResource/Electronic/URI = 856 4/1 #u)  
@@ -499,8 +499,8 @@ Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 (appliesTo/Resource/label = 856 4/1 #3)  
 Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
 
-  Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
-    
+Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
+  
 #### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI  
 (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)  
