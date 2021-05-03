@@ -369,17 +369,17 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   * ```2 teckningar på 1 ark```
   * ```1 karta i 4 segment ```
 
-### Övriga fysiska detaljer   
-* Övriga fysiska detaljer (physicalDetailsNote = 300 #b)     
-  Skriv in uppgiften.  
-  ```Exempel: illustrationer```  
-
 ### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)  
   Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
+
+### Övriga fysiska detaljer   
+* Övriga fysiska detaljer (physicalDetailsNote = 300 #b)     
+  Skriv in uppgiften.  
+  ```Exempel: illustrationer``` 
 
 ### Klassifikation  
 **VERSION 1.19:**  
