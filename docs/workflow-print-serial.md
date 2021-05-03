@@ -17,17 +17,17 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 | [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| | [Medietyp](#medietyp) | [Språk](#språk) |
-| | [Bärartyp](#bärartyp) | [Genre/form](#genre-form) |
-| | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |
-| | [Frekvens](#frekvens) | [Verkets titel](#verkets-titel) |
-| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
+| | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Utgivningssätt](#utgivningssätt) | [Språk](#språk) |
+| | [Medietyp](#medietyp) | [Genre/form](#genre-form) |
+| | [Bärartyp](#bärartyp) | [Klassifikation](#klassifikation) |
+| | [Titel](#titel) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Utgivning](#utgivning) | [Innehållstyp](#innehållstyp) |
+| | [Anmärkning](#anmärkning) | [Verkets titel](#verkets-titel) |
+| | [Frekvens](#frekvens) | |
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titeländring) |  |
-| | [Anmärkning](#anmärkning)| |
+| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | |
 | | [Relationer](#relationer) | | 
 
 
@@ -48,11 +48,6 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
 
 ## Instans
 
-### Utgivningssätt
-* Utgivningssätt (issuanceType)  
-  Välj från lista.  
-  ```Exempel: Seriell resurs```
-
 ### Identifikator  
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
@@ -63,6 +58,11 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```  
+
+### Utgivningssätt
+* Utgivningssätt (issuanceType)  
+  Välj från lista.  
+  ```Exempel: Seriell resurs```
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
