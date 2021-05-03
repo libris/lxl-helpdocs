@@ -16,24 +16,24 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- |
 |  [Adminmetadata - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/adminmetadata-i-libris) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#bärartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
-| | [Titel](#titel) | [Språk](#språk) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre/form](#genre-form) | 
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#målgrupp) | 
-| | [Copyrightår](#copyrightår) | [Innehållstyp](#innehållstyp) | 
-|  | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| | [Identifikator](#identifikator) | [Verkets titel](#verkets-titel) |
+| | [Utgivningssätt](#utgivningssätt) | [Medverkan och funktion](#medverkan-och-funktion) |
+| | [Medietyp](#medietyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingående-verk-och-andra-verk) |
+| | [Bärartyp](#bärartyp) | [Språk](#språk) |
+| | [Titel](#titel) | [Genre/form](#genre-form) | 
+| | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
+| | [Upplageuppgift](#upplageuppgift)  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Utgivning](#utgivning) | [Målgrupp](#målgrupp) | 
+| | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) | 
+| | [Copyrightår](#copyrightår) | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 | | [Omfång](#omfång) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |
 | | [Mått](#mått) | |
+| | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | |
 | | [Medföljande material](#medföljande-material) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmärkning) | | 
+| | [Målgruppsanmärkning](#målgruppsanmärkning) | | 
+| | [Anmärkning](#anmärkning) | |
 | | [Innehållsförteckning](#innehållsförteckning) | |
-| | [Målgruppsanmärkning](#målgruppsanmärkning) | |
 | | [Annat bärarformat](#annat-bärarformat) | |
 
 ## Inledning
