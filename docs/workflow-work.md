@@ -37,6 +37,7 @@ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). D
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
 
 ## Verkstyp
+(= 000/06)   
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
 
 Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med illustrerande ikoner:
