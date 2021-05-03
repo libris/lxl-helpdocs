@@ -26,7 +26,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Klar, spara post och gå till visningsläge | Ctrl+D |
 | Expandera alla fält i post 		|						Alt(+)+                 |
 | Kollapsa alla fält i post | Alt(+)-   										  |
-| Gå mellan postens visnings-/adminmetadatavy    |Ctrl+Shift+höger/vänsterpil   	  |
+| Gå mellan postens visnings-/adminmetadatavy    |Alt+Shift+höger/vänsterpil   	  |
 | Stäng ner sidorutan | Escape |
 | Välj ett element i sidorutan | Enter |
 | Förhandsgranska MARC21 | Alt+P |
