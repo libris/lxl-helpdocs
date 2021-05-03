@@ -13,8 +13,8 @@ tags:
 | ------ | ------ | ------ |
 | [Inledning](#inledning) | | [Identifikator](#identifikator) | 
 | [Instanstyp](#instanstyp) | | [Omfång](#omfång) | 
-| [Utgivningssätt](#utgivningssätt)| | [Övriga fysiska detaljer](#-vriga-fysiska-detaljer) | 
-| [Medietyp](#medietyp) | | [Mått](#mått) |
+| [Utgivningssätt](#utgivningssätt)| | [Mått](#mått) | 
+| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) |
 | [Bärartyp](#bärartyp) | | [Klassifikation](#klassifikation) |
 | [Titel](#titel)| | [Medföljande material](#medföljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
