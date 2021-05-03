@@ -215,7 +215,7 @@ Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/
   Skriv in uppgiften.  
   ```Exempel: 1```  
 
-  ### Målgruppsanmärkning  
+### Målgruppsanmärkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
 
