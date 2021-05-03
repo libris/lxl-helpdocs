@@ -201,7 +201,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-    
+
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
@@ -211,7 +211,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-  
+
 ### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
