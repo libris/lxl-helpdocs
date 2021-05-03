@@ -64,6 +64,11 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 Läs mer om egenskaperna i den generella hjälptexten för [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
+### Identifikator 
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
+* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
+Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
+
 ### Utgivningssätt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
@@ -154,11 +159,6 @@ Använd Startår och Slutår (inte År).
 ### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 #c)  
 
-### Identifikator 
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
-* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 #q)  
-Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
-
 ### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
 
@@ -168,11 +168,11 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 ### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 #a)
 
-### Övriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 #b)
-
 ### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
+
+### Övriga fysiska detaljer   
+* Övriga fysiska detaljer (other physical details = 300 #b)
 
 ### Medföljande material
 * Medföljs av/Instans/Instanstyp/Benämning (accompaniedBy/Instance/type/label = 300 #e)  
@@ -215,6 +215,10 @@ Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/
   Skriv in uppgiften.  
   ```Exempel: 1```  
 
+  ### Målgruppsanmärkning  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
+
 ### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)
 
@@ -223,10 +227,6 @@ Följ instruktioner i hjälptexten [Relationer till Agent](https://libris.kb.se/
 
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
 (tableofContents = 505 8/_ #t, #r)  
-
-### Målgruppsanmärkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
