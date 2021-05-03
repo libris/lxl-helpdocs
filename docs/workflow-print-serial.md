@@ -39,7 +39,7 @@ Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:
 
 Många av egenskaperna finns redan i mallen Tryckt seriell resurs, andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Tryckt seriell resurs.  
 
-För information om katalogiseringsanvisningar och Librispraxis se [Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser) och [RDA Toolkit](https://original.rdatoolkit.org/).
+För katalogiseringsanvisningar och information om Librispraxis se [Seriella resurser i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser) och [RDA Toolkit](https://original.rdatoolkit.org/).
 
 Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
@@ -52,6 +52,17 @@ Se även [instruktionsfilmer på KB:s Youtubekanal](https://www.youtube.com/play
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
+
+### Identifikator  
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
+  ```Exempel: ISSN```   
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```  
 
 ### Medietyp
 * Medietyp (mediaType/Mediatype = 337 #b)  
@@ -177,16 +188,10 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```2012-2013```
   * ```[1988-]```
 
-### Identifikator  
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 #a)  
-  Skriv in uppgiften.  
-  ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 #y)  
-  Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
+### Anmärkning
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
+  Skriv in allmänna anmärkningar här.  
+  Skriv in uppgiften under Benämning.  
 
 ### Frekvens   
 * Frekvens (frequency)  
@@ -196,13 +201,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 **Från och med version 1.7 behöver man inte längre ange "u" för okänd frekvens. Det skapas automatiskt vid marcexport om frekvens inte har angetts.**
   * Regelbundenhet (008/19)  
     **Från och med version 1.7 behöver man inte längre ange Regelbundenhet. "Inget försök att koda" skapas automatiskt vid marcexport.**
-
-### Numrering av seriell resurs  
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
-  Skriv in uppgiften under Benämning.    
-  ```Exempel: 2011: 4-2013: 2```
-
+    
 ### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
   Länka till entitet.  
@@ -212,11 +211,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-
-### Anmärkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
-  Skriv in allmänna anmärkningar här.  
-  Skriv in uppgiften under Benämning.  
+  
+### Numrering av seriell resurs  
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
+  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- #a)  
+  Skriv in uppgiften under Benämning.    
+  ```Exempel: 2011: 4-2013: 2```
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), med flera: 
