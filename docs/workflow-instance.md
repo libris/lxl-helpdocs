@@ -506,8 +506,8 @@ För att lägga in en elektronisk adress till en **relaterad resurs, till exempe
 (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)  
    Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
-(isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 #z)   
+(isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/2 #z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
 * Del av materialet som avses/Resurs/Benämning  
-(appliesTo/Resource/label = 856 4/1 #3)  
+(appliesTo/Resource/label = 856 4/2 #3)  
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
