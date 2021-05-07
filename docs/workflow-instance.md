@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2021-03-03
+date: 2021-05-07
 tags:
 - instans
 --- 
@@ -481,11 +481,10 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 **Om instansbeskrivningen gäller en elektronisk resurs**, använd Tillhörande media för att lägga in en elektronisk adress till resursen.
 * Tillhörande media/Mediaobjekt/URI  
 (associatedMedia/Mediaobject/uri = 856 4/0 #u)  
-  Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+ Lägg till Tillhörande media. Tryck Enter (Lägg till mediaobjekt under Tillhörande media). Välj Skapa lokal entitet. Klistra in aktuell URL i egenskapen URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning  
 (associatedMedia/Mediaobject/marc:publicNote = 856 4/0 #z)   
-  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
-* Del av materialet som avses/Resurs/Benämning  
+ * Del av materialet som avses/Resurs/Benämning  
 (appliesTo/Resource/label = 856 4/0 #3)  
   Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
 
