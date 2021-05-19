@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 12
-date: 2020-09-23
+date: 2021-05-19
 tags:
 - redigering
 - editor
@@ -112,6 +112,8 @@ Förutom de funktioner som är tillgängliga i visningsläget, se Verktyg ovan, 
  1. Lägg till egenskaper under: Instans. Används för att lägga till en eller flera nya egenskaper under instans. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen.
 <br/> Kortkommando: Alt + F 
  2. För att lägga till egenskaper inom Instans av Verk används + Egenskap uppe till höger inom rutan för Instans av Verk.
+
+I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel i katalogiseringsanvisningar i Metadatabyrån. I övriga fall, lägg **inte** in ISBD-interpunktion för att avsluta en egenskap.
 
 ### Ångra
 Du kan ångra text du skrivit in men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
