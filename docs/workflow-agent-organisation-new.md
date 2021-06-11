@@ -40,6 +40,8 @@ Hjälptexten beskriver de egenskaper som finns representerade i mallen för att 
 ## Inledning
 För information om katalogiseringsregler som gäller vid auktorisering, se [Auktoritetsarbete och agenter i Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter).
 
+Se även [Lathundar för agenter](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/lathundar-for-agenter).
+
 OBS! Var noggrann vid sökning/testlänkning för att säkerställa att auktoriserad namnform inte redan finns. Glöm inte att redigera Adminmetadata och spara innan vidare navigation i verktyget.
 
 Exemplen i hjälptexten är fiktiva.
