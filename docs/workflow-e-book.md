@@ -168,9 +168,9 @@ Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad 
 #### URN, DOI, handle
 * Identifikator/URN/Värde (identifiedBy/URN/value = 024 7/- #a</BR>
 Lägg till entitet under Identifikator och välj typ av identifikator i rullgardinsmenyn, till exempel:
-- URN
-- DOI
-- Hdl (= handle)
+ - URN
+ - DOI
+ - Hdl (= handle)
 Lägg in identifikatorn under Värde.  
 ```Exempel: Identifikator/URN/Värde: urn:nbn:se:su:diva-83163``` 
 
