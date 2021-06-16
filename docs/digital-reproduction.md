@@ -94,7 +94,7 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 <br/>Förval i mallen: Computer 
 
 ### Bärartyp
-* Bärartyp (carrierType/CarrierType = 338 #b)
+* Bärartyp (carrierType/CarrierType = 338 #b)  
 I mallen är följande entiteter länkade:
 <br/> * onlineresurs, online resource, cr
 <br/> * Onlineresurs, r (Nödvändig om koden  "r" (= fjärranslutning) behövs i 007/01 (= särskild bärarbeteckning) för bibliotekets lokala system)
