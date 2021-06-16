@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Skapa ny 
 order: 70
-date: 2021-04-07
+date: 2021-06-16
 tags:
 - agenter
 - auktoriteter
@@ -187,11 +187,11 @@ Beskrivning av agenten som ska auktoriseras.
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)).
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel:```
+  * ```ISNI:```
   * ```Värde: 0000000121339888```
-  * ```Typanmärkning: isni```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sidorutan öppnas. Sök efter och lägg till Identifikator. Välj typ (t.ex. ISNI) i rullgardinsmenyn.
 
 ### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043)
