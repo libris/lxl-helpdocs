@@ -166,8 +166,12 @@ Använd Startår och Slutår (inte År).
 Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad av](#indirekt-identifierad-av). Använd inte Ogiltigt värde. 
 
 #### URN, DOI, handle
-URN, DOI och handle anges i Identifikator. Välj typ av identifikator i rullgardinsmenyn (t.ex. URN, DOI eller Hdl). Skriv in identifikatorn under Värde.  
 * Identifikator/URN/Värde (identifiedBy/URN/value = 024 7/- #a</BR>
+Lägg till entitet under Identifikator och välj typ av identifikator i rullgardinsmenyn, till exempel:
+- URN
+- DOI
+- hdl (= handle)
+Lägg in identifikatorn under Värde.  
 ```Exempel: Identifikator/URN/Värde urn:nbn:se:su:diva-83163``` 
 
 ### Indirekt identifierad av  
