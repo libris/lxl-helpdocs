@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Redigera befintlig 
 order: 76
-date: 2021-01-15
+date: 2021-06-16
 tags:
 - agenter
 - auktoriteter
@@ -169,9 +169,12 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 För att lägga till: Klicka på plustecknet vid egenskapen Verksamhetsområde, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
 
 ### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)). 
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
+* Identifikator (identifiedBy = 024 #a)
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)).
+  <br/>```Exempel:```
+  * ```ISNI:```
+  * ```Värde: 0000000104839039```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sidorutan öppnas. Sök efter och lägg till Identifikator. Välj typ (t.ex. ISNI) i rullgardinsmenyn.
 
 
 ## Ytterligare egenskaper att lägga till vid behov
