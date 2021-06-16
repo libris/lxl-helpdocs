@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Digital reproduktion
 order: 39
-date: 2021-03-17
+date: 2021-06-16
 tags:
 - digital reproduktion
 - digitalisering
@@ -80,10 +80,9 @@ Saknas länk får man manuellt länka till det fysiska originalet. Klicka på pl
 
 ### Identifikator
 * Identifikator/Identifikator/Värde/Typanmärkning (identifiedBy/Identifier/value/typeNote = 024 #a #2)
-<br/>Välj typ Identifikator i rullgardinsmeny. Ange identifikator och eventuell typanmärkning.
+<br/>Välj typ av Identifikator i rullgardinsmenyn. Ange identifikator.
 <br/>```Exempel:```
-<br/>```Värde: urn:nbn:se:kb:dig-17390055```
-<br/>```Typanmärkning: uri```
+<br/>```Identifikator/URN/Värde: urn:nbn:se:kb:dig-17390055```
 
 ### Utgivningssätt
 * Utgivningssätt (issuanceType = 008/07)  
