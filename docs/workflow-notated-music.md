@@ -25,7 +25,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
 | | [Utgivning](#utgivning) |  [Notationssystem](#notationssystem) |
-| | [Tillverkning](#tillverkning) | [Anmärkning om språk] (#anmärkning-om-språk) |
+| | [Tillverkning](#tillverkning) | [Anmärkning om språk](#anmärkning-om-språk) |
 | | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) | 
 | | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |  
 | | [Omfång](#omfång) | [Har del](#har-del) |
