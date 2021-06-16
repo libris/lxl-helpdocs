@@ -79,8 +79,8 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Saknas länk får man manuellt länka till det fysiska originalet. Klicka på plustecknet inom Reproduktion av, sidorutan Lägg til entitet öppnas. Sök efter och länka till korrekt instans.
 
 ### Identifikator
-* Identifikator/Identifikator/Värde/Typanmärkning (identifiedBy/Identifier/value/typeNote = 024 #a #2)
-<br/>Välj typ av Identifikator i rullgardinsmenyn. Ange identifikator.
+* Identifikator/URN/Värde (identifiedBy/Identifier/value/typeNote = 024 7/- #a #2)
+<br/>Välj typ av Identifikator, t.ex. DOI, Hdl eller URN i rullgardinsmenyn. Ange identifikator.
 <br/>```Exempel:```
 <br/>```Identifikator/URN/Värde: urn:nbn:se:kb:dig-17390055```
 
