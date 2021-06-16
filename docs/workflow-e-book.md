@@ -170,9 +170,9 @@ Notera att felaktigt eller ogiltigt ISBN ska anges under [Indirekt identifierad 
 Lägg till entitet under Identifikator och välj typ av identifikator i rullgardinsmenyn, till exempel:
 - URN
 - DOI
-- hdl (= handle)
+- Hdl (= handle)
 Lägg in identifikatorn under Värde.  
-```Exempel: Identifikator/URN/Värde urn:nbn:se:su:diva-83163``` 
+```Exempel: Identifikator/URN/Värde: urn:nbn:se:su:diva-83163``` 
 
 ### Indirekt identifierad av  
 Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
