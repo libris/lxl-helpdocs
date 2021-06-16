@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Organisation - Skapa ny 
 order: 75
-date: 2021-01-15
+date: 2021-06-16
 tags:
 - agenter
 - auktoriteter
@@ -148,12 +148,14 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 ### Verksamhetens sluttid    
 * Verksamhetens sluttid/Slutdatum för aktivitetsperiod (activityEndDate = 046 #t)
   <br/>```Exempel: 1994```
-
+  
 ### Identifikator
-* Identifikator (identifiedBy = 024 #a #2)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas förslagsvis från [ISNI](http://www.isni.org/search)). 
-  <br/>```Exempel: Värde: 0000000104839039 samt Typanmärkning: ISNI ```
- <br/>OBS! Om ingen Identifikator läggs till behöver egenskapen raderas. 
+* Identifikator (identifiedBy = 024 #a)
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)).
+  <br/>```Exempel:```
+  * ```ISNI:```
+  * ```Värde: 0000000104839039```
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sidorutan öppnas. Sök efter och lägg till Identifikator. Välj typ (t.ex. ISNI) i rullgardinsmenyn.
  
 ### Nationalitet
 * Nationalitet/verksamhetsland (nationality = 043 #a)
