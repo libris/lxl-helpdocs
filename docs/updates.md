@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-04-08
+date: 2021-06-16
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-06-16
+* Anvisningar för angivelse av typ av musiknotation i hjälptexten för Musiktryck uppdaterade.
 
 2021-04-08
 * Hjälptexter för agenter uppdaterade med anledning av uppdaterade anvisningar för formatering av tidsangivelser. Utförlig information finns i [Metadatabyrån](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/fodelsetid-och-eller-dodstid#Osakerfodelsetidochellerdodstid).
