@@ -24,11 +24,11 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Titel](#titel) | [Genre/form](#genre-form) |
 | | [Upphovsuppgift](#upphovsuppgift) | [Klassifikation](#klassifikation) |
 | | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
-| | [Utgivning](#utgivning) |  [Notationssystem och språk](#notationssystem-och-språk) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#målgrupp) |
-| | [Copyrightår](#copyrightår) | [Innehållstyp](#innehållstyp) | 
-| | [Identifikator](#identifikator) | [Har del](#har-del) |  
-| | [Omfång](#omfång) | |
+| | [Utgivning](#utgivning) |  [Notationssystem](#notationssystem) |
+| | [Tillverkning](#tillverkning) | [Anmärkning om språk] (#anmärkning-om-språk) |
+| | [Copyrightår](#copyrightår) | [Målgrupp](#målgrupp) | 
+| | [Identifikator](#identifikator) | [Innehållstyp](#innehållstyp) |  
+| | [Omfång](#omfång) | [Har del](#har-del) |
 | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) | | 
 | | [Mått](#mått) | |
 | | [Speltid](#speltid) | |
@@ -526,7 +526,7 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
   
 ### Notationssystem
 * Notationssystem (= 546 #b)  
-  Ange notationssystem [Använd termerna i RDA 7.13.3.3 Ange typ av musiknotation](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
+  Ange notationssystem [Använd termerna i RDA 7.13.3.3] (http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
   Länka till entitet.
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
