@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2021-04-07
+date: 2021-06-16
 tags:
 - redigera agent
 - redigera auktoritet
@@ -205,11 +205,11 @@ Beskrivning av den auktoriserade agenten.
   
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
-  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [databasen ISNI - International Standard Name Identifier](http://www.isni.org/search)). 
+  <br/>ISNI som identifikator är valfri uppgift men önskvärt om tillgänglig (uppgiften hämtas från [ISNI](http://www.isni.org/search)).
   <br/>```Exempel:```
+  * ```ISNI:```
   * ```Värde: 0000000121339888```
-  * ```Typanmärkning: isni```
-  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Välj typen Identifikator i rullgardinsmenyn. Klicka på plustecknet inom Identifikator, sök efter och lägg till Typanmärkning.
+  <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sidorutan öppnas. Sök efter och lägg till Identifikator. Välj typ (t.ex. ISNI) i rullgardinsmenyn.
 
 ### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
