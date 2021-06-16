@@ -524,13 +524,16 @@ Lägg till Ämne genom att klicka på plustecknet vid Noterad musik, sök upp Ä
    
 För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
   
-### Notationssystem och språk
-* Anmärkning: Språk/Anmärkning om språk/Notationssystem /Notation/Benämning (hasNote/marc:LanguageNote/hasNotation/Notation/label = 546 #b)  
-  Ange notationssystem [enligt KBSP för RDA 7.13.3.3 Ange typ av musiknotation](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html) 
+### Notationssystem
+* Notationssystem (= 546 #b)  
+  Ange notationssystem [Använd termerna i RDA 7.13.3.3 Ange typ av musiknotation](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
+  Länka till entitet.
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
     * ```Grafisk notation```  
-* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 #a)
+
+### Anmärkning om språk
+* Anmärkning/Anmärkning om språk/Benämning (= 546 #a)
   <br/>```Exempel:```
     * ```Sångtext på hebreiska```
     * ```Kritiska kommentarer på svenska och engelska```  
