@@ -526,7 +526,7 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
   
 ### Notationssystem
 * Notationssystem (= 546 #b)  
-  Ange notationssystem [Använd termerna i RDA 7.13.3.3] (http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
+  Ange notationssystem [Använd termerna i RDA 7.13.3.3](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
   Länka till entitet.
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
