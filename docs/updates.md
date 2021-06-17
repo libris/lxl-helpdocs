@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-06-16
+date: 2021-06-17
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,6 +12,8 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2021-06-16
+* Hjälptexter för agenter uppdaterade med anledning av smärre formatändringar inom egenskapen Identifikator.
+
 * Anvisningar för angivelse av typ av musiknotation i hjälptexten för Musiktryck uppdaterade.
 
 2021-04-08
