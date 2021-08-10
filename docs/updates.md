@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-06-17
+date: 2021-08-10
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-08-10
+Exempel på flera år för faksimil har tagits bort från texten Instans. Se nyhet i [Metadatabyrån](https://metadatabyran.kb.se/).
 
 2021-06-16
 * Hjälptexter för agenter uppdaterade med anledning av smärre formatändringar inom egenskapen Identifikator.
