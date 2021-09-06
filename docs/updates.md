@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-08-10
+date: 2021-09-06
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-09-06
+* Texten Bidrag under rubriken Materialtyper har ersatts med länk till sidan [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
 
 2021-08-10
 Exempel på flera år för faksimil har tagits bort från texten Instans. Se nyhet i [Metadatabyrån](https://metadatabyran.kb.se/).
