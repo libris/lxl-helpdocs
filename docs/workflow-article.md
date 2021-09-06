@@ -8,4 +8,5 @@ tags:
 - Artikel
 --- 
 
+# Bidrag
 Se [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
