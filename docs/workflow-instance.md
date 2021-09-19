@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2021-08-10
+date: 2021-09-19
 tags:
 - instans
 --- 
@@ -497,7 +497,7 @@ Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resu
 
 #### Relaterad beskrivning eller innehåll
 För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll.
-* Relaterad beskrivning eller innehåll/Dokument/URI  
+* Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)  
 (isPrimaryTopicOf/Dokument/uri = 856 4/2 #u)  
    Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
