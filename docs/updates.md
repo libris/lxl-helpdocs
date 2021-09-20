@@ -12,8 +12,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 2021-09-20
-* I texten Instans har en felaktighet korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
-[Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+* I texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har en felaktighet korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
 
 2021-09-06
 * Texten Bidrag under rubriken Materialtyper har ersatts med länk till sidan [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
