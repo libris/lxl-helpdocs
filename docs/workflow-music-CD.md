@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Musik-CD
 order: 48
-date: 2021-03-18
+date: 2021-09-29
 tags:
 - musik-CD
 - ljudinspelning
@@ -273,8 +273,8 @@ Kommentar: Skivmärke kallas också skivetikett, fonogrammärke och label. Skivn
     * ```Titel från omslag``` 
 
 ### Elektronisk adress
-* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)</BR>
-  För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI .</BR>
+* Relaterad beskrivning eller innehåll/Dokument/Värddator (namn) (isPrimaryTopicOf/Dokument/marc:hostName = 856 4/2 ‡u)</BR>
+  För att lägga in elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar, innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen Värddator (namn). Klistra in aktuell URI .</BR>
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)</br>
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.
 
