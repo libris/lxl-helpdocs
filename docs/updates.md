@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-09-20
+date: 2021-09-29
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-09-29
+* Texterna [Film](https://libris.kb.se/katalogisering/help/workflow-film) och [Musik-CD](https://libris.kb.se/katalogisering/help/workflow-music-CD) har korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" (856 4/2 #u) har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
 
 2021-09-20
 * I texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har en felaktighet korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" (856 4/2 #u) har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
