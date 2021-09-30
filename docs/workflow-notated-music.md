@@ -526,11 +526,13 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
   
 ### Notationssystem
 * Notationssystem (= 546 #b)  
-  Ange notationssystem, [använd termerna i RDA 7.13.3.3](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
+  Ange typ av musiknotation, [använd termerna i RDA 7.13.3.3](http://access.rdatoolkit.org/kbspchp7_kbsp7-120.html).<br/>
   Länka till entitet.
   <br/>```Exempel:```
     * ```Traditionell västerländsk notskrift```
-    * ```Grafisk notation```  
+    * ```Grafisk notation``` 
+
+Om ingen av ovan nämnda termer är lämplig eller om mer detaljerad information om typ av musiknotation behöver anges, skapa lokal entitet och ange önskad term/information. För anvisningar, se [Metadatabyrån, Musiktryck, Typ av musiknotation](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/musiktryck#h-Typavmusiknotation)
 
 ### Anmärkning om språk
 * Anmärkning/Anmärkning om språk/Benämning (= 546 #a)
