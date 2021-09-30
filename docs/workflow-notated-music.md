@@ -532,7 +532,7 @@ För ytterligare instruktioner, se [Ämnesord i Libris](https://libris.kb.se/kat
     * ```Traditionell västerländsk notskrift```
     * ```Grafisk notation``` 
 
-Om ingen av ovan nämnda termer är lämplig eller om mer detaljerad information om typ av musiknotation behöver anges, skapa lokal entitet och ange önskad term/information. För anvisningar, se [Metadatabyrån, Musiktryck, Typ av musiknotation](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/musiktryck#h-Typavmusiknotation)
+Om ingen av ovan nämnda termer är lämplig eller om mer detaljerad information om typ av musiknotation behöver anges, skapa lokal entitet och ange önskad term/information. För anvisningar, se [Metadatabyrån, Musiktryck, Typ av musiknotation](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/musiktryck#h-Typavmusiknotation).
 
 ### Anmärkning om språk
 * Anmärkning/Anmärkning om språk/Benämning (= 546 #a)
