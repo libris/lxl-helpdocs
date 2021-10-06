@@ -2,7 +2,7 @@
 section: Hjälptexter agenter
 title: Person - Redigera befintlig 
 order: 71
-date: 2021-06-16
+date: 2021-10-06
 tags:
 - redigera agent
 - redigera auktoritet
@@ -213,7 +213,7 @@ Beskrivning av den auktoriserade agenten.
 
 ### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka.
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. Ange endast huvudordet för yrket och inte eventuella adjektivkonstruktioner (välj t.ex. Författare, inte Franska författare, välj Regissörer, inte Kvinnliga regissörer). Om den eftersökta termen saknas i Svenska ämnesord, föreslå en ny term.
    <br/>```Exempel:```
    * ```Romanförfattare ```
    * ```Översättare```
