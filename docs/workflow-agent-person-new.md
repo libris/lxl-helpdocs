@@ -167,7 +167,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 ### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. Ange endast huvudordet för yrket och inte eventuella adjektivkonstruktioner (välj t.ex. Författare, inte Franska författare, välj Regissörer, inte Kvinnliga regissörer). Om den eftersökta termen saknas i Svenska ämnesord, föreslå en ny term.
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. Ange endast huvudordet för yrket och inte eventuella adjektivkonstruktioner (välj t.ex. Författare, inte Franska författare, välj Regissörer, inte Kvinnliga regissörer). Om den eftersökta termen saknas i Svenska ämnesord, [föreslå en ny]https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-ny-term.
    <br/>```Exempel:```
    * ```Romanförfattare```
    * ```Översättare```
