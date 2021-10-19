@@ -13,12 +13,12 @@ På denna sida listas ändringar i hjälptexterna.
 
 
 2021-10-19
-* Några texter under Materialtyper har ersatts med länkar till motsvarande sidor under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån:  
+Några texter under Materialtyper har ersatts med länkar till motsvarande sidor under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån:  
 
-[Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)
-[Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction)
-[E-bok](https://libris.kb.se/katalogisering/help/workflow-e-book)
-[Elektronisk seriell resurs](https://libris.kb.se/katalogisering/help/workflow-e-serial)
+* [Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
+* [Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction)  
+* [E-bok](https://libris.kb.se/katalogisering/help/workflow-e-book)  
+* [Elektronisk seriell resurs](https://libris.kb.se/katalogisering/help/workflow-e-serial)  
 
 
 2021-09-29
