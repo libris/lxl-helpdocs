@@ -11,15 +11,13 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
-
-2021-10-19
+2021-10-19  
 Några texter under Materialtyper har ersatts med länkar till motsvarande sidor under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån:  
 
 * [Databas/webbplats](https://libris.kb.se/katalogisering/help/workflow-database)  
 * [Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction)  
 * [E-bok](https://libris.kb.se/katalogisering/help/workflow-e-book)  
 * [Elektronisk seriell resurs](https://libris.kb.se/katalogisering/help/workflow-e-serial)  
-
 
 2021-09-29
 * Texterna [Film](https://libris.kb.se/katalogisering/help/workflow-film) och [Musik-CD](https://libris.kb.se/katalogisering/help/workflow-music-CD) har korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" (856 4/2 #u) har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
