@@ -12,4 +12,4 @@ tags:
 
 # Elektronisk seriell resurs
 
-Se [E-tidskrifter och e-serier - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/e-tidskrifter-och-e-serier)  
+Se [E-tidskrifter och e-serier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/e-tidskrifter-och-e-serier)  
