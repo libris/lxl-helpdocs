@@ -28,7 +28,7 @@ Några texter under Materialtyper har ersatts med länkar till motsvarande sidor
 2021-09-06
 * Texten Bidrag under rubriken Materialtyper har ersatts med länk till sidan [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
 
-2021-08-10
+2021-08-10  
 Exempel på flera år för faksimil har tagits bort från texten Instans. Se nyhet i [Metadatabyrån](https://metadatabyran.kb.se/).
 
 2021-06-16
