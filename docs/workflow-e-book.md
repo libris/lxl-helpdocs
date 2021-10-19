@@ -10,4 +10,4 @@ tags:
 
 # E-bok
 
-Se [E-böcker - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/e-bocker)  
+Se [E-böcker i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/e-bocker)  
