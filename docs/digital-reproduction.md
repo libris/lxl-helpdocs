@@ -10,4 +10,4 @@ tags:
 
 # Digital reproduktion
 
-Se [Digitala reproduktioner - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/digitala-reproduktioner)
+Se [Digitala reproduktioner i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/digitala-reproduktioner)
