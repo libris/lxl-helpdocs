@@ -26,7 +26,8 @@ Några texter under Materialtyper har ersatts med länkar till motsvarande sidor
 * I texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har en felaktighet korrigerats. Den tidigare, felaktiga, texten "Relaterad beskrivning eller innehåll/Dokument/URI" (856 4/2 #u) har bytts mot den korrekta "Relaterad beskrivning eller innehåll/Dokument/Värddator (namn)".   
 
 2021-09-06
-* Texten Bidrag under rubriken Materialtyper har ersatts med länk till sidan [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
+* Texten Bidrag under rubriken Materialtyper har ersatts med länk till motsvarande sida i Metadatabyrån:
+[Bidrag](https://libris.kb.se/katalogisering/help/workflow-article)
 
 2021-08-10  
 Exempel på flera år för faksimil har tagits bort från texten Instans. Se nyhet i [Metadatabyrån](https://metadatabyran.kb.se/).
