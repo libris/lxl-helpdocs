@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-10-19
+date: 2021-10-20
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2021-10-20  
+Texten Tryckt seriell resurs under Materialtyper har ersatts med länk till motsvarande sida under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån:  
+* [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial) 
 
 2021-10-19  
 Några texter under Materialtyper har ersatts med länkar till motsvarande sidor under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån:  
