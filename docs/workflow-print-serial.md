@@ -11,4 +11,4 @@ tags:
 
 # Tryckt seriell resurs
 
-Se [Seriella resurser - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser)  
+Se [Tryckta seriella resurser - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/seriella-resurser)  
