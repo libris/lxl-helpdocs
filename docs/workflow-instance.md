@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2021-09-20
+date: 2021-10-28
 tags:
 - instans
 --- 
@@ -127,11 +127,11 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Exempel:  
  ![Omslagstitel](omslagstitel.png)   
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
+  För att ange att omslagstiteln endast står på skyddsomslag, använd Varianttitel och lägg till Typanmärkning (plustecknet vid Variantttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Typanmärkning (246 #i): Skyddsomslag:```
-  * ```Omslagstitel/Huvudtitel (246 #a): På väg mot döden```
+  * ``Varianttitel/Huvudtitel (246 #a): På väg mot döden```
   * ```Övrig titelinformation (246 #b): en Cooper och Fry-deckare```  
 
 #### Delbeteckning
