@@ -131,7 +131,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Typanmärkning (246 #i): Skyddsomslag:```
-  * ``Varianttitel/Huvudtitel (246 #a): På väg mot döden```
+  * ```Varianttitel/Huvudtitel (246 #a): På väg mot döden```
   * ```Övrig titelinformation (246 #b): en Cooper och Fry-deckare```  
 
 #### Delbeteckning
