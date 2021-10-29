@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-10-20
+date: 2021-10-29
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+
+2021-10-29  
+* Exemplet Skyddsomslag  i texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har korrigerats. Lägg titel från skyddsomslag i Varianttitel och lägg till typanmärkning.   
 
 2021-10-20  
 * Texten [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial) under Materialtyper har ersatts med länk till motsvarande sida under rubriken Materialtyper (Arbetsflöden) i Metadatabyrån.
