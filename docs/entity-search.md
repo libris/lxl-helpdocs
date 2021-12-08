@@ -122,7 +122,7 @@ Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall
 
 ### Släkt
 
-* **Släkt som Primär medverkan** (contribution/PrimaryContribution/agent/Family = 100 3/) eller Medverkan (contribution/Contribution/agent/Family =700 3/_)
+* **Släkt som Primär medverkan** (contribution/PrimaryContribution/agent/Family = 100 3/) **eller Medverkan** (contribution/Contribution/agent/Family =700 3/_)
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Släkt i rullmenyn för Skapa lokal entitet. Klicka på plustecknet inom Släkt, sök efter och lägg till Titel eller övrig beteckning. Skriv in korrekt namnform, ange släkt och årtal vid behov.
   <br/>```Exempel: Namn: Ibsen samt Titel eller övrig beteckning: släkt```
   
@@ -133,7 +133,6 @@ Nedan listas exempel på hur du skapar olika typer av lokala entiteter i de fall
 ### Möte
 
 * **Möte som Primär medverkan** (contribution/PrimaryContribution/agent/Meeting = 111 2/_) **eller Medverkan** (contribution/Contribution/agent/Meeting = 711 2/_)
-
 <br/>Vid Medverkan och funktion välj typ av medverkan i rullmenyn. Klicka på plustecknet vid Agent och välj Möte i rullmenyn för Skapa lokal entitet. Skriv in korrekt namnform. Tillsvidare används ingen interpunktion för möten.
   <br/>```Exempel: Namn: International Congress of Byzantine Studies samt Ordningstal: 21 samt Datum: 2006```
 
