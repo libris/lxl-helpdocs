@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord som lokal entitet
 order: 115
-date: 2021-01-11
+date: 2021-12-08
 tags:
 - ämnesord
 - koncept
@@ -25,8 +25,6 @@ Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under
 
 ## Ämnesord från system med listkod som länkad entitet
 Instruktionen används i de fall man vill ange ämnesord som en lokal entitet från kontrollerade ämnesordslistor vars listkod finns som en länkad enitet, t.ex. **agrovoc**, **kao** och **mesh**. Vissa ämnesordskonstruktioner från Svenska ämnesord (sao) läggs också in som lokala entiteter, t.ex. sammansatta geografiska ämnesord där den sammansatta konstruktionen inte finns auktoriserad eller konstruktioner av typen *Byggnader i litteraturen* där hela strängen läggs som ett enkelt ämnesord. [Mer information om den senare typen finns i riktlinjerna för Svenska ämnesord i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/sarskilda-amnesomraden/....i-bibeln-i-filmen-i-heraldiken-i-konsten).
-
-**OBS! Från version 1.17 av Libris katalogisering finns många fler listkoder som länkbara entiteter.**
 
 ### Enkelt ämnesord som lokal entitet med länkbar listkod
 
@@ -54,7 +52,7 @@ För att lägga till flera termer av samma typ kan den lokala entiteten kopieras
 
 Observera:
 * Ändra listkod vid behov! Radera befintlig kod och klicka på plustecknet intill Ingår i system för att söka efter och lägga till en annan.
-* Ändra termkomponenter vid behov! Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna först raderas. Klicka på plustecknet intill Termkomponenter och välj typen Geografiskt ämnesord respektive Underindelning för geografisk term.
+* Ändra termkomponenter vid behov! Ska en geografisk sammansatt term läggas till måste de befintliga termkomponenterna ändras. Välj typen Geografiskt ämnesord respektive Underindelning för geografisk term i rullgardinsmenyerna för Koncepttyp.
 
 För att lägga till flera termer av samma typ, eller flera underindelningar inom den sammansatta termen, kan kopierafunktionen användas.
 
