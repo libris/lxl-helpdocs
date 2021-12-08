@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Länka ämnesord
 order: 105
-date: 2020-02-25
+date: 2021-12-08
 tags:
 - ämnesord
 - länka ämnesord
@@ -26,8 +26,6 @@ Flera termer kan sökas efter/läggas till när sidorutan Lägg till entitet är
 **Exempel på att länka till ett enkelt ämnesord:**
 ![Länka enkelt ämnesord](LänkaEnkelt.png) 
 
-
-OBS! I Libris finns flera enkla geografiska ämnesord som man inte bör länka till. Enligt SAO:s riktlinjer är det endast länder och andra större geografiska enheter som beskrivs med en enkel term, alla mindre enheter beskrivs med sammansatta termer (SAO:s riktlinjer 3.5.3). Länka därför endast till ”godkända” entiteter, dvs. enkla termer för länder/större enheter och sammansatta termer för mindre enheter. I de fall det saknas en länkbar entitet, [se hjälptexten Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) under rubriken Sammansatt ämnesord som lokal entitet med länkbar listkod.
 
 ## Länka till ett sammansatt ämnesord
 
