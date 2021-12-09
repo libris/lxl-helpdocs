@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-10-29
+date: 2021-12-09
 tags:
 - ändringslogg
 - uppdateringar
@@ -11,6 +11,9 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
+
+2021-12-09
+* Text och exempel för sammansatta ämnesord som lokala entiteter är uppdaterade med anledning av förenkling i gränssnittet. Hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) har ändrats.
 
 2021-10-29  
 * Exemplet Skyddsomslag  i texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) har korrigerats. Lägg titel från skyddsomslag i Varianttitel och lägg till typanmärkning.   
