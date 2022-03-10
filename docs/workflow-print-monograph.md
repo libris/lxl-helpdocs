@@ -8,4 +8,5 @@ tags:
 --- 
 
 # Tryckt monografi
-Se [Tryckta monografier i Metadatabyrån] (https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/tryckta-monografier)
+
+Se [Tryckta monografier i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/tryckta-monografier)
