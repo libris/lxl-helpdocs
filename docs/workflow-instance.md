@@ -94,7 +94,7 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
 
-  För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
+För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 #### Varianttitel   
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel. 
