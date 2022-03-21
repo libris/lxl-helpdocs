@@ -127,7 +127,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Exempel:  
  ![Omslagstitel](omslagstitel.png)   
-  För att ange att omslagstiteln endast står på skyddsomslag, använd Varianttitel och lägg till Typanmärkning (plustecknet vid Variantttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
+  För att ange att omslagstiteln endast står på skyddsomslag, använd Varianttitel och lägg till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Typanmärkning (246 #i): Skyddsomslag:```
