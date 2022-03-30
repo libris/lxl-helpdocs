@@ -1,7 +1,7 @@
 ---
 section: Materialtyper
 title: Karta
-order: 45
+order: 46
 date: 2020-11-11
 tags:
 - karta
