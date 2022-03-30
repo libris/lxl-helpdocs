@@ -9,4 +9,4 @@ tags:
 
 # Handskrift
 
-Se [Handskrift - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/handskrift)  
+Se [Handskrifter - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/handskrifter)  
