@@ -2,7 +2,7 @@
 section: Hjälptexter ämnesord
 title: Ämnesord som lokal entitet
 order: 115
-date: 2021-12-08
+date: 2022-03-30
 tags:
 - ämnesord
 - koncept
@@ -85,9 +85,3 @@ Upprepa momenten ovan för att lägga till fler sammansatta termer eller kopiera
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
 * Välj aktuell typ av ämnesord i rullgardinsmenyn Skapa lokal entitet.
 * Skriv in aktuell term i Föredragen benämning.
-
-Observera! Undantag för Kronologiskt ämnesord:
-* Öppna sidorutan Lägg till entitet inom egenskapen Ämne. 
-* Välj Kronologiskt ämnesord i rullgardinsmenyn Skapa lokal entitet.
-* Öppna sidorutan Lägg till egenskaper under inom den tillagda ämnesordstypen. 
-* Sök efter och lägg till Föredragen benämning. Skriv in aktuell term.
