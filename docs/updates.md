@@ -12,6 +12,9 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 
+2022-03-30
+* Ny sida för mauskript med hänvisning till anvisningarna i Metadatabyrån: [Manuskript](https://libris.kb.se/katalogisering/help/workflow-manuscript)
+
 2021-12-09
 * Text och exempel för sammansatta ämnesord som lokala entiteter är uppdaterade med anledning av förenkling i gränssnittet. Hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh) har ändrats.
 
