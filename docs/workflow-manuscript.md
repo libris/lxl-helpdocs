@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Handskrift
 order: 45
-date: 2022-03-29
+date: 2022-03-30
 tags:
 - handskrift
 --- 
