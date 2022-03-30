@@ -13,7 +13,7 @@ På denna sida listas ändringar i hjälptexterna.
 
 
 2022-03-30
-Nytt i samband med version 1.125 av Libris katalogisering:
+</br>Nytt i samband med version 1.125 av Libris katalogisering:
 * Ny sida för mauskript med hänvisning till anvisningarna i Metadatabyrån: [Manuskript](https://libris.kb.se/katalogisering/help/workflow-manuscript)
 * Undantag för kronologiska ämnesord borttaget från hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh). Om ett kronologiskt ämnesord väljs som lokal entitet läggs nu en snippet till, precis som för de andra ämnesordstyperna.
 
