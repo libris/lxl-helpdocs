@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2021-12-09
+date: 2022-03-30
 tags:
 - ändringslogg
 - uppdateringar
