@@ -74,6 +74,7 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 **Sökning på specialtecken:**  
 Från och med version 1.15 av Libris katalogisering normaliseras diakriter vid import till Libris. Tecken bestående av två tecken (s.k. dekomponerade) rättas till sammansatta tecken (s.k. prekomponerade). Sökningen fungerar med både prekomponerade och dekomponerade tecken.
 Det fungerar att söka med eller utan diakriter i egenskaperna Har titel\Titel samt Medverkan. Egenskapen Upphovsuppgift kräver fortfarande exakt match vad gäller diakriter, apostrofer och accenttecken.
+
 <br/>`Exempel på polska:`
 <br/>Sökningen på titel med diakriter `Przejdź przez wodę, krocz przez ogień` respektive utan diakriter `Przejdz przez wode, krocz przez ogien` ger samma träffresultat.
 
