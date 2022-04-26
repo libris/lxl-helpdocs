@@ -429,11 +429,13 @@ Man behöver inte välja instans- och verkstyp här.
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
   Skriv in uppgiften.  
-   ```Exempel: Årstasällskapets skriftserie```   
+   ```Exempel: Årstasällskapets skriftserie```  
+
 #### Numrering inom serie  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 #v, 830 #v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
+
 #### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av Verk/Verk, anges.     
