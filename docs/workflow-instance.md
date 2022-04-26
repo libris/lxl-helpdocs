@@ -26,7 +26,7 @@ tags:
 | [Copyrightår](#copyrightår) | | |
 
 
-## Inledning
+## Inledningen
 **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
 [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).
 
