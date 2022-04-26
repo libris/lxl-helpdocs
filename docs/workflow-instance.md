@@ -26,7 +26,7 @@ tags:
 | [Copyrightår](#copyrightår) | | |
 
 
-## Inledningen
+## Inledning
 **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
 [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).
 
@@ -417,6 +417,7 @@ Skriv in uppgiften.
 Man behöver inte välja instans- och verkstyp här.  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```   
+
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
   Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.
