@@ -416,7 +416,7 @@ Skriv in uppgiften.
   Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans: Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Instans av Verk/Verk/Verkstyp/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
 Man behöver inte välja instans- och verkstyp här.  
   Skriv in uppgiften.   
-  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
+  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```   
 #### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Instanstyp/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/type/identifiedBy/ISSN/Value) (490 #x, 830 #x)  
   Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.
