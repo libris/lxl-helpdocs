@@ -36,10 +36,10 @@ En instans är en instans av ett verk, till exempel en viss utgåva av ett verk.
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans.** 
 
   * För utförligare instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation/Instans - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans)
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans)
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)   
 
-I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation/Instans - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans).  
+I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans).  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
