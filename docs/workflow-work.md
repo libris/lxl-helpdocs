@@ -21,7 +21,7 @@ tags:
 | [Genre/form](#genre-form) |  |  | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
-[Länkning till verk i Libris]([https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris))! 
+[Länkning till verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris)! 
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
