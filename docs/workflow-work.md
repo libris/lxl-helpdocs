@@ -291,23 +291,6 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
 
-### Sammanfattning av innehåll    
- * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
- **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
- Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
- Skriv in uppgiften under Benämning.  
-  ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
- [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
- 
- * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
- ```Exempel: Ej preciserad``` 
-
-#### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
-Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
-  ```Exempel: Engelska```
-
 ### Anmärkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
   Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
