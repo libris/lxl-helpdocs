@@ -22,7 +22,7 @@ tags:
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
-| [Tillverkning](#tillverkning) | | [Elektronisk adress](#tillhörande-media) |
+| [Tillverkning](#tillverkning) | | [Elektronisk adress](#elektronisk-adress) |
 | [Copyrightår](#copyrightår) | | |
 
 
