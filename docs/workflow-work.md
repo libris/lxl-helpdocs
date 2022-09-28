@@ -77,7 +77,7 @@ Skriv in uppgiften under Huvudtitel.
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 
-### Relationer till ingaende verk och andra verk
+### Relationer till ingående verk och andra verk
 
 #### Relationer till ingående verk  
 * Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)  
