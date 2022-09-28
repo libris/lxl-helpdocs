@@ -509,14 +509,13 @@ För att lägga in en elektronisk adress till en **relaterad resurs, till exempe
 (appliesTo/Resource/label = 856 4/2 #3)  
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
   
-  ### Sammanfattning av innehåll    
+### Sammanfattning av innehåll    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
  **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
  [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
- 
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
