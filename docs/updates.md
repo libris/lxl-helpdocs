@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2022-03-30
+date: 2022-09-29
 tags:
 - ändringslogg
 - uppdateringar
@@ -12,8 +12,11 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 
+2022-09-29
+</br>Ny hjälptext i samband med version 1.27 av Libris katalogisering: [Visa ändringshistorik](https://libris.kb.se/katalogisering/help/change-history)
+
 2022-03-30
-</br>Nytt i samband med version 1.125 av Libris katalogisering:
+</br>Nytt i samband med version 1.25 av Libris katalogisering:
 * Ny sida för handskrifter med hänvisning till anvisningarna i Metadatabyrån: [Handskrifter](https://libris.kb.se/katalogisering/help/workflow-manuscript)
 * Undantag för kronologiska ämnesord borttaget från hjälptexten [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh). Om ett kronologiskt ämnesord väljs som lokal entitet läggs nu en snippet till, precis som för de andra ämnesordstyperna.
 
