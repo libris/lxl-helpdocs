@@ -151,10 +151,7 @@ För översättningar i flera led, använd egenskapen Intermediärt språk till 
 Mer information om översättningar finns på sidan [Uttryckets språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/uttryckets-sprak#h-Oversattning).  
 
 ##### Parallelltext  
-Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)  
-
-#### Sammanfattningsspråk  
-Se Sammanfattning av innehåll   
+Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)   
 
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
