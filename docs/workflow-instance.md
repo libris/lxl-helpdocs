@@ -485,6 +485,23 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
  * Del av materialet som avses/Resurs/Benämning  
 (appliesTo/Resource/label = 856 4/0 #3)  
   Vid behov, lägg till Del av material som avses under Mediaobjekt och skapa Resurs som lokal entitet. Lägg till Benämning.  
+  
+### Sammanfattning av innehåll    
+ * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
+ **VERSION 1.19**: Sammanfattning av innehåll (summary) importeras till Instans istället för till Verk.  
+ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
+ Skriv in uppgiften under Benämning.  
+  ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
+ [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
+ 
+ * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
+ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
+ ```Exempel: Ej preciserad``` 
+
+#### Sammanfattningsspråk  
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
+Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
+  ```Exempel: Engelska```  
 
 #### Annan relaterad resurs
 **Om instansbeskrivningen inte gäller en elektronisk resurs**, använd Annan relaterad resurs för att lägga in en elektronisk adress till resursen i annat format. Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
