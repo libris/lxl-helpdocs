@@ -17,8 +17,7 @@ tags:
 | [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#målgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehållstyp) | 
-| [Språk](#språk) |  |  [Sammanfattning av innehåll](#sammanfattning-av-innehåll) | 
-| [Genre/form](#genre-form) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
+| [Språk](#språk) |  |  [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
 **VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
 [Länkning till verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris)! 
