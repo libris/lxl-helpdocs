@@ -23,7 +23,7 @@ tags:
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#elektronisk-adress) |
-| [Copyrightår](#copyrightår) | | |
+| [Copyrightår](#copyrightår) | | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
 
 
 ## Inledning
