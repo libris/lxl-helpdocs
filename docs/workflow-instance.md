@@ -22,7 +22,7 @@ tags:
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
-| [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Tillverkning](#tillverkning) | | [Elektronisk adress](#tillhörande-media) |
 | [Copyrightår](#copyrightår) | | |
 
 
@@ -472,7 +472,6 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
 
 ### Elektronisk adress
-
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
 
 #### Tillhörande media
