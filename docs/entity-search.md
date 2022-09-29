@@ -1,7 +1,7 @@
 ---
 section: Katalogiseringsverktyget
 title: Entiteter
-date: 2021-02-10
+date: 2022-09-29
 order: 19
 tags:
 - redigering
@@ -33,7 +33,7 @@ För att se alla entiteter av en viss typ, tryck Enter när markören står i s�
 ## Länka entitet
 Om det finns en befintlig lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en länkbar entitet eller låt den lokala entiteten ligga kvar.) 
 
-![Lokal entitet steg 3](lokalentitet3.png)
+![Lokal entitet steg 3](lankalokalentitet.png)
 
 
 ## Lägg till entitet eller skapa lokal entitet
@@ -42,7 +42,7 @@ När du gjort en entitetssökning kan du:
 **Lägga till entitet:**
 Om du fått fram ett önskat sökresultat kan du lägga till den relevanta entiteten genom att klicka på plustecknet till vänster om entiteten - “Lägg till". Entiteten lägger sig då i posten som en länk. Du kan även välja att granska entiteten innan du väljer att lägga till den. Klicka då på entitetens rubrik. Entiteten öppnas i ny flik.  
 
-![Lägg till entitet](laggtillentitet.png)  
+![Lägg till entitet](laggtilllankadentitet.png)  
 
 
 **Skapa lokal entitet:**
