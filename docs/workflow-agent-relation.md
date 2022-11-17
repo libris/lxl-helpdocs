@@ -14,7 +14,7 @@ Katalogiseringsregler och information om hur relationer anges i förhållande ti
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
 ## Verk som ämne 
-Läs viktig information om arbetet med att bryta ut och länka till verk: [Länkning till verk i Libris]((https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris)!
+Läs viktig information om arbetet med att bryta ut och länka till verk: [Länkning till verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris)!
 
 Tills vidare är rekommendationen att verk beskrivs som lokala entiteter. 
 
