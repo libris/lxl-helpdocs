@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Specialtecken
 order: 21
-date: 2020-02-20
+date: 2023-02-16
 tags:
 - special characters
 - specialtecken
@@ -14,7 +14,9 @@ tags:
 
 För att komma åt specialtecken, samt tecken på olika språk rekommenderar vi att arbeta med de verktyg som finns i operativsystemet för PC och MAC. Instruktioner följer nedan.
 
-* [Information om all världens unicode‐tecken finns på sidan Unicode Character Table](https://unicode-table.com). Där kan du även hämta deras unicode‐nummer.
+* [Information om specialtecken finns på sidan Unicode.org](https://home.unicode.org/). På sidan [Unicode 15.0 Character Code Charts](http://www.unicode.org/charts/) kan du hämta tecken och deras unicode‐nummer.
+
+* På sidan [Romaniseringsscheman i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/mangsprak/romaniseringsscheman) finns de tabeller som används vid mångspråksarbetet i Libris.
 
 ## Windows 
 Uppdatera till Windows 10 (eller senare version)
