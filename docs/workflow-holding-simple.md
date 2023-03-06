@@ -2,7 +2,7 @@
 section: Hjälptexter bestånd
 title: Enkel beståndsregistrering
 order: 135
-date: 2020-03-02
+date: 2023-03-06
 tags:
 - bestånd
 - beståndsregistrering
