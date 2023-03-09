@@ -158,4 +158,4 @@ Klistra in urklipp:
 Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.
 
 ## Inkommande länkar
-Gränssnittet använder en funktion för inkommande länkar som innebär att länkning mellan entiteter endast görs på ett ställe. Funktionen används för ämnesord där termer som ingår i en hierarki, dvs. bredare/smalare endast länkas på ett ställe. I den smalare termen länkas det till den bredare och funktionen för inkommande länkar visar då upp den motsatta relationen, dvs. "smalare" i beskrivningen av den bredare termen.
+Gränssnittet använder en funktion för inkommande länkar som innebär att länkning mellan entiteter endast görs på ett ställe. Funktionen används exempelvis för ämnesord där termer som ingår i en hierarki, dvs. bredare/smalare endast länkas på ett ställe. I den smalare termen länkas det till den bredare och funktionen för inkommande länkar visar då upp den motsatta relationen, dvs. "smalare" i beskrivningen av den bredare termen.
