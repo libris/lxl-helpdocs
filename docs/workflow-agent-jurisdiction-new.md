@@ -159,7 +159,7 @@ Namnform i flera led består av egenskaperna Är del av tillsammans med Namn på
 ## Ytterligare egenskaper att lägga till vid behov
 Vid behov är det möjligt att lägga till egenskaper som inte ingår i mallen. Nya egenskaper läggs till med hjälp av plustecknet i verktygsmenyn.
 
-### Tid for grundande
+### Tid för grundande
 * Tid för grundande/Startdatum (establishDate = 046 #q)
   <br/>```Exempel: 1965```
 
