@@ -13,7 +13,7 @@ tags:
 
 ![Knappen Katalogvård i Libris katalogisering](Katalogvard.png)
 
-Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler som inloggad användare har behörighet för. På sikt ska även dubbletthantering och sammanslagning av poster ingå i Katalogvård.
+Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler som inloggad användare har behörighet för.
 
 Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ kb.se
 
