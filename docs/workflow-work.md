@@ -63,15 +63,15 @@ Ange den föredragna titeln för verket här (direkt under Instans av verk), vid
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle). Om Primär medverkan finns i posten, exporteras uppgiften till 240 #a. Om Primär medverkan inte finns i posten, exporteras uppgiften till 130 #a.  
 Skriv in uppgiften.  
 
-I följande exempel har verket utkommit tidigare med annan titel. Ange då föredragen titel för verket här.    
+I följande exempel har verket utkommit tidigare med annan titel. Ange föredragen titel för verket här.    
  ```Exempel: Choklad```  
 
-I följande exempel har verket utkommit under olika titlar. Ange då föredragen titel för verket här.    
+I följande exempel har verket utkommit under olika titlar. Ange föredragen titel för verket här.    
 ```Exempel: Bibeln``` 
 
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till Fileringsvärde och ange en siffra.  
   
-För översättningar, ange originaltiteln under [Översättning av](#översättning-av)
+För översättningar, ange originaltiteln under [Översättning av](#översättning-av).  
 
 ### Relationer till ingående verk och andra verk
 
@@ -140,7 +140,7 @@ Originaltitel ("Föredragen titel för verket") för en översättning ska du an
 ```Exempel: Soldier spy```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
-Mer information om översättningar finns på sidorna [Språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning). Se också [Lathund för översatta verk](#lathund-för-översatta-verk)  
+Mer information om översättningar finns på sidan [Språk], i Metadatabyrån(https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning). Se också [Lathund för översatta verk], i Metadatabyrån(#lathund-för-översatta-verk)  
 
 ##### Parallelltext  
 Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk/samlingsverk-parallelltext---exempel)   
