@@ -14,7 +14,7 @@ tags:
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Genre/form](#genre-form) | 
 | [Verkstyp](#verkstyp)  |  | [Klassifikation](#klassifikation) | 
-| [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
+| [Föredragen titel för verket](#föredragen-titel-för-verket) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#målgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehållstyp) | 
 | [Språk](#språk) |  |  [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
