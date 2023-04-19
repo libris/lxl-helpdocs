@@ -138,9 +138,10 @@ Skriv in uppgiften.
 
 Originaltitel ("Föredragen titel för verket") för en översättning ska du ange här.  
 ```Exempel: Soldier spy```  
+
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
-Mer information om översättningar finns på sidan [Språk], i Metadatabyrån(https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning). Se också [Lathund för översatta verk], i Metadatabyrån(#lathund-för-översatta-verk)  
+Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för översatta verk](#lathund-för-översatta-verk), i Metadatabyrån.  
 
 ##### Parallelltext  
 Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk/samlingsverk-parallelltext---exempel)   
