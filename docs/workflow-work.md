@@ -55,27 +55,21 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 ![Sök fram och lägg till egenskap](instansavverkegenskap.png)  
 
 
-### Verkets titel
-Ange den föredragna titeln för verket här, vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
-
-#### Verkets titel
-##### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 #a)  
-  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
-  Skriv in uppgiften.  
-  ```Exempel: Soldier spy```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
-
-##### Verk utan Primär medverkan
-*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (expressionOf/Work/type: Work/hasTitle/Title/mainTitle = 130 #a)  
- "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
-Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Man behöver inte välja verkstyp här. Lägg till Har titel. Välj Titel.
-Skriv in uppgiften under Huvudtitel.  
-```Exempel: Bibeln``` 
-*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Deltitel  
-(expressionOf/Work/type: Work/hasTitle/Title/partName = 130 #p)  
-Lägg till eventuell deltitel.    
+### Föredragen titel för verket
+Ange den föredragna titeln för verket här (direkt under Instans av verk), vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
+  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle). Om Primär medverkan finns i posten, exporteras uppgiften till 240 #a. Om Primär medverkan inte finns i posten, exporteras uppgiften till 130 #a.  
 Skriv in uppgiften.  
+
+I följande exempel har verket utkommit tidigare med annan titel. Ange då föredragen titel för verket här.    
+ ```Exempel: Choklad```  
+
+I följande exempel har verket utkommit under olika titlar. Ange då föredragen titel för verket här.    
+```Exempel: Bibeln``` 
+
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till Fileringsvärde och ange en siffra.  
+  
+För översättningar, ange originaltiteln under [Översättning av](#översättning-av)
 
 ### Relationer till ingående verk och andra verk
 
@@ -122,36 +116,32 @@ Skriv in uppgiften.
   Länka till entitet.  
   ```Exempel: svenska (swe)```   
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.  
-  För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
+  För att ange originalspråk för ett översatt verk, se Översättning av, nedan. 
 
-#### Översättning   
+#### Översättning av 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
 ```Exempel: objektet är/innehåller översättning```   
   *Uppgiften skapas automatiskt.*
-
-Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.    
+   
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Ange originalspråk genom att länka till språk här.  
   ![Uppgift om originalversionens språk](translationof.png)  
 
-Översättningens språk i klartext:  
-För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel. Uppgiften skapas automatiskt om Primär medverkan finns. Om Primär medverkan saknas, behöver uppgiften anges manuellt.  
-
-Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Verkstyp/Språk (Language/label = 130 #l)  
-Länka till entitet.  
-Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
-Har del/Verk/Verkstyp/Språk (Language/label = 730 #l)  
-Länka till entitet.  
-
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 ![Intermediärt språk](intermediate_language.png)  
 
-Mer information om översättningar finns på sidan [Uttryckets språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/uttryckets-sprak#h-Oversattning).  
+* Har titel/Titel/Huvudtitel ((hasTitle/Title/mainTitle). Om Primär medverkan finns i posten, exporteras uppgiften till 240 #a. Om Primär medverkan inte finns i posten, exporteras uppgiften till 130 #a.  
+Skriv in uppgiften.  
+
+Originaltitel ("Föredragen titel för verket") för en översättning ska du ange här.  
+```Exempel: Soldier spy```  
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
+
+Mer information om översättningar finns på sidorna Språk, i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning). Se också [Lathund för översatta verk](#lathund-för-översatta-verk)  
 
 ##### Parallelltext  
-Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck/samlingsverk-parallelltext---exempel)   
+Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk/samlingsverk-parallelltext---exempel)   
 
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
