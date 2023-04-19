@@ -144,7 +144,7 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
 Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för översatta verk](#lathund-för-översatta-verk), i Metadatabyrån.  
 
 ##### Parallelltext  
-Se [Samlingsverk, Parallelltext i Metadatabyrån - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk/samlingsverk-parallelltext---exempel)   
+Se [Samlingsverk, Parallelltext - exempel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk/samlingsverk-parallelltext---exempel), i Metadatabyrån.    
 
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
