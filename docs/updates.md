@@ -11,7 +11,7 @@ tags:
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
 
-2023-04-20  
+2023-04-20
 </br>Texten Verk har uppdaterats i samband med releasen av Libris 1.30. Uttryck av ska inte längre användas för titlar utan Primär medverkan. Originaltitel för översättning ska i fortsättningen läggas in under Översättning av. [Verk](https://libris.kb.se/katalogisering/help/workflow-work)
 
 2022-09-29
