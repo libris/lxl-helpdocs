@@ -21,7 +21,7 @@ tags:
 | [Översättning av](#översättning-av) |  |  | 
 
 
-Mallen för att skapa nytt verk bör inte användas. Förberedelser för att kunna bryta ut verk pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
+Mallen för att skapa nytt verk bör inte användas. Du ska inte bryta ut verk ännu. Förberedelser för att kunna bryta ut verk pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
