@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2021-03-12
+date: 2023-04-21
 tags:
 - editor
 ---
@@ -41,8 +41,7 @@ För att lägga till ett verk utan primärt upphov som ämne (motsvarande Marc21
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
 * Välj typen Verk i rullgardinsmenyn Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
 * Ta bort egenskaperna Medverkan och funktion och Språk genom att klicka på soptunnan intill dessa
-* Klicka på plustecknet inom egenskapen Titel, sök efter och lägg till Delbeteckning respektive Deltitel
-* Ange föredragen titel för verket inom Huvudtitel, ange Delbeteckning och Deltitel
+* Ange föredragen titel för verket inom Huvudtitel, följt av en punkt och Deltitel och Delbeteckning
 
 **Verk innehållande deltitel och delbeteckning:**
-<br/>![Verk innehållande deltitel och delbeteckning](Verksomamnedeltitel.png)
+<br/>![Verk innehållande deltitel och delbeteckning](VerksomamneBibeln.png)
