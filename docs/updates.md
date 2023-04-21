@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2023-04-20
+date: 2023-04-21
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2023-04-21
+</br>Texten [Relationer till delar och verk]([https://libris.kb.se/katalogisering/help/workflow-agent-relation]) har uppdaterats i samband med releasen av Libris 1.30. För verk utan primärt upphov som innehåller deltitel och delbeteckning och som anges som ämne ska titel, deltitel och delbeteckning läggas i en sträng.
 
 2023-04-20
 </br>Texten [Verk](https://libris.kb.se/katalogisering/help/workflow-work) har uppdaterats i samband med releasen av Libris 1.30. Uttryck av ska inte längre användas för titlar utan Primär medverkan. Originaltitel för översättning ska i fortsättningen läggas in under Översättning av.  
