@@ -25,7 +25,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Spara, spara post utan att lämna redigeringsläget   | Ctrl+S |
 | Klar, spara post och gå till visningsläge | Ctrl+D |
 | Expandera alla fält i post 		|						Alt(+)+                 |
-| Kollapsa alla fält i post | Alt(+)-   										  |
+| Minimera alla fält i post | Alt(+)-   										  |
 | Gå mellan postens visnings-/adminmetadatavy | Alt+Shift+höger/vänsterpil  |
 | Stäng ner sidorutan | Escape |
 | Välj ett element i sidorutan | Enter |
@@ -48,7 +48,7 @@ För att underlätta arbetet har vi integrerat ett antal kortkommandon för PC r
 | Spara post utan att lämna redigeringsläget   | ⌘+S |
 | Klar, spara post och gå till visningsläge | ⌘+D |
 | Expandera alla fält i post 		|						Alt(+)+                 |
-| Kollapsa alla fält i post | Alt(+)-   										  |
+| Minimera alla fält i post | Alt(+)-   										  |
 | Gå mellan postens visnings-/adminmetadatavy       | ⌘+Shift+höger/vänster pil |
 | Stäng ner sidorutan | Escape |
 | Välj ett element i sidorutan | Enter |
