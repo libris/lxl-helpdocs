@@ -38,4 +38,4 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
     </br>Beståndet är flyttat. 
     
   * Flaggan är kvar i mottagarposten ifall att den behöver redigeras ytterligare. Den kan tas bort när beståndsflytten är gjord. Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
-  </br>![Funktionen Rensa flaggade poster](Rensaflaggadeposter.png)
+  </br>![Funktionen Rensa flaggor](rensaflaggor.png)
