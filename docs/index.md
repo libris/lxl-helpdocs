@@ -14,8 +14,8 @@ Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Ve
 
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
-En del instruktioner och arbetsflöden finns även filmatiserade och publicerade KB Play, i 
-spellistan [Metadata och katalogisering](https://kbplay.mediaflowportal.com/folder/92013/)). 
+En del instruktioner och arbetsflöden finns även filmatiserade och publicerade på KB Play, i 
+spellistan [Metadata och katalogisering](https://kbplay.mediaflowportal.com/folder/92013/). 
 
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
