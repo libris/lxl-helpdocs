@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2020-12-07
+date: 2023-04-25
 tags:
 - start
 ---
@@ -10,14 +10,12 @@ tags:
 # Start
 
 Hjälpsektionen innehåller information om det praktiska arbetet i Libris katalogisering. Förutom övergripande information under rubriken 
-Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Verk och Instans, länk till Adminmetadata i Libris - via Metadatabyrån samt hjälptexter för olika 
-Materialtyper, Agenter, Ämnesord och Bestånd.
+Katalogiseringsverktyget finns här de viktiga generella beskrivningarna för Verk och Instans samt hjälptexter för bl.a. Agenter, Ämnesord och Bestånd. Texterna för de olika materialtyperna finns endast i Metadatabyrån.
 
 Här finns också en sammanfattning av BIBFRAME på svenska, tillsammans med en kort parlör för de vanligaste termerna. 
 
-En del instruktioner och arbetsflöden finns även filmatiserade och publicerade på KB:s Youtubekanal, i 
-spellistan [Intruktionsfilmer för nya Libris och XL](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy). 
-Det finns också en [spellista för Librisutbildning](https://www.youtube.com/playlist?list=PLZVkEICvA5-HJMDbzzUBJFxetWYea3ZLC), med introduktion till Libris format och katalogiseringsverktyget.
+En del instruktioner och arbetsflöden finns även filmatiserade och publicerade KB Play, i 
+spellistan [Metadata och katalogisering](https://kbplay.mediaflowportal.com/folder/92013/)). 
 
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
