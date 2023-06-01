@@ -2,14 +2,14 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2023-04-21
+date: 2023-06-01
 tags:
 - editor
 ---
 
 # Relationer till delar och verk 
 
-Katalogiseringsregler och information om hur relationer anges i förhållande till delar och verk beskrivs i Metadatabyrån. Se [Ingående verk/uttryck](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk-uttryck), [Relaterade resurser](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser) och [Relationer till ämnen](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-amnen).
+Katalogiseringsregler och information om hur relationer anges i förhållande till delar och verk beskrivs i Metadatabyrån. Se [Ingående verk/uttryck](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk), [Relaterade resurser](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser) och [Relationer till ämnen](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-amnen).
 
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
