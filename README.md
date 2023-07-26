@@ -8,7 +8,9 @@ Innehåll:
 
 ## Bygga och konsumera projektet
 
-Kör `npm run build` för att bygga ihop en JSON-fil där all markdown är sorterad in i noder enligt avsnittens metadata.
+Kör `npm install` (testat med Node.js 14) för att installera nödvändiga saker.
+
+Kör sedan `npm run build` för att bygga ihop en JSON-fil där all markdown är sorterad in i noder enligt avsnittens metadata.
 
 Servera sedan build-foldern på lämpligt ställe.
 
