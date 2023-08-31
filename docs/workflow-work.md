@@ -26,9 +26,9 @@ Mallen för att skapa nytt verk bör inte användas. Du ska inte bryta ut verk �
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk. [Läs mer om Verk och Instans i startversionen på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2019-06-12-verk-och-instans-i-startversionen-av-nya-libris.html).  
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under "Instans av" utan att klicka på länksymbolen (Länka entitet) vid Instans av. [Läs mer om Verk och Instans i startversionen på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2019-06-12-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
-**Denna hjälptext beskriver de vanligaste egenskaperna under Instans av verk.** 
+**Denna hjälptext beskriver de vanligaste egenskaperna under Instans av.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck)
@@ -45,11 +45,11 @@ Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med il
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
 
-## Instans av verk
-* Instans av verk (instanceOf/Work)  
+## Instans av
+* Instans av (instanceOf)  
 
-För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
-![Lägg till egenskaper under Instans av verk](instansavverk.png)  
+För att lägga till egenskaper under "Instans av", klicka på plustecknet till höger om "Instans av" och verkstypen.  
+![Lägg till egenskaper under Instans av](instansavverk.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
@@ -57,7 +57,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 
 ### Föredragen titel för verket
-Ange den föredragna titeln för verket här (direkt under Instans av verk), vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
+Ange den föredragna titeln för verket här (direkt under Instans av), vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
   
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle). Om Primär medverkan finns i posten, exporteras uppgiften till 240 #a. Om Primär medverkan inte finns i posten, exporteras uppgiften till 130 #a.  
 Skriv in uppgiften.  
@@ -78,13 +78,13 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
 * Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)  
   [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
-  Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
+  Under "Instans av", lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
 
 #### Relationer till andra verk  
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
    [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
-   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
+   Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
 
 ### Medverkan och funktion  
 * Medverkan och funktion  
@@ -279,7 +279,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 
 [Läs mer om innehållstyp i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/innehallstyp).
 
- För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
+För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
 
 ### Anmärkning om akademisk avhandling    
