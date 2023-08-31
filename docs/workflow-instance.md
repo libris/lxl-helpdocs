@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2022-09-28
+date: 2023-08-31
 tags:
 - instans
 --- 
@@ -20,10 +20,10 @@ tags:
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmärkning) |
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Målgruppsanmärkning](#målgruppsanmärkning) |
-| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bärarformat) |
-| [Tillverkning](#tillverkning) | | [Elektronisk adress](#elektronisk-adress) |
-| [Copyrightår](#copyrightår) | | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Annat bärarformat](#annat-bärarformat) |
+| [Utgivning](#utgivning) | | [Elektronisk adress](#elektronisk-adress) |
+| [Tillverkning](#tillverkning) | | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
+| [Copyrightår](#copyrightår) | |  |
 
 
 ## Inledning
