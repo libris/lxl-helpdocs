@@ -438,10 +438,10 @@ Man behöver inte välja instans- och verkstyp här.
 
 #### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av Verk/Verk, anges.     
+  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie, men inte Ingår i serie/Instans/Instans av/Verk, anges.     
   Skriv in uppgiften.  
   ```Exempel: 0```   
-  Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av Verk/Verk (830) anges.   
+  Ange indikator 1 om dessutom Ingår i serie/Instans/Instans av/Verk (830) anges.   
   ```Exempel: 1```   
 
 ### Anmärkning
