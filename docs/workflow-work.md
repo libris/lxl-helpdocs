@@ -16,9 +16,9 @@ tags:
 | [Verkstyp](#verkstyp)  |  | [Klassifikation](#klassifikation) | 
 | [Föredragen titel för verket](#föredragen-titel-för-verket) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#målgrupp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehållstyp) | 
-| [Språk](#språk) |  |  [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
-| [Översättning av](#översättning-av) |  |  | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Målgruppsanmärkning](#målgruppsanmärkning) | 
+| [Språk](#språk) |  | [Innehållstyp](#innehållstyp) | 
+| [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
 
 Mallen för att skapa nytt verk bör inte användas. Du ska inte bryta ut verk ännu men förberedelser för att kunna göra det pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
