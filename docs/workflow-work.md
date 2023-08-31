@@ -200,7 +200,7 @@ Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt klassifikation s
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
   * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om "Instans av" och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod  
@@ -215,7 +215,7 @@ Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt klassifikation s
   ```Exempel: 23/swe```  
 
 #### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
+Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om "Instans av" och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet. Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod  
 (additionalClassificationDdc/ClassificationDdc/code = 083 0/- #a)  
