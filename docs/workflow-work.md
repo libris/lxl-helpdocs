@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2023-04-20
+date: 2023-08-31
 tags:
 - verk
 --- 
@@ -263,8 +263,11 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
   Normalvärde för läromedel avsedda för skolbruk (till och med gymnasiet).  
 
-  För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), [se generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
-
+### Målgruppsanmärkning  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
+  Under Målgrupp, skapa Målgrupp som lokal entitet (klicka i rutan Skapa lokal entitet och välj Målgrupp). Skriv in uppgiften under Benämning.  
+  ```Exempel: För årskurs 1```  
+  
 ### Innehållstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)   
   Länka till entitet.
