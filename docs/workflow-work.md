@@ -49,7 +49,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
 * Instans av (instanceOf)  
 
 För att lägga till egenskaper under "Instans av", klicka på plustecknet till höger om "Instans av" och verkstypen.  
-![Lägg till egenskaper under Instans av](instansavverk.png)  
+![Lägg till egenskaper under Instans av](instansav.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
