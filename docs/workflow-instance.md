@@ -460,12 +460,6 @@ För en utökad innehållsförteckning med titlar och upphovsuppgifter, lägg ti
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsförteckning som lokal entitet (klicka på Duplicera entitet).  
  [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
 
-### Målgruppsanmärkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)   
-  Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (klicka i rutan Skapa lokal entitet och välj Målgrupp). Skriv in uppgiften under Benämning.  
-  ```Exempel: För årskurs 1```  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
-
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
