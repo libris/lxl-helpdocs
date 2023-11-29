@@ -2,11 +2,11 @@
 section: Materialtyper
 title: Bidrag
 order: 35
-date: 2021-09-06
+date: 2023-11-29
 tags:
-- Bidrag
-- Artikel
+- arbetsflöden
+- katalogiseringsanvisningar
 --- 
 
-# Bidrag
-Se [Bidrag i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/bidrag)
+# Anvisningar för materialtyper
+Alla arbetsflöden och katalogiseringsanvisningar för specifika materialflöden finns samlade i Metadatabyrån. Se [Materialtyper (Arbetsflöden) i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden).
