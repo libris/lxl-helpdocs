@@ -183,7 +183,7 @@ Beskrivning av agenten som ska auktoriseras.
 * Beskrivning (description = 678)
   <br/>Används för att ange kortfattad biografisk information om personens liv eller historia.
   <br/>```Exempel:```
-  * ```Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  * ```Nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
 
 ### Identifikator
 * Identifikator (identifiedBy = 024 #a)
