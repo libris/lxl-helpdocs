@@ -92,25 +92,23 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
    * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
    * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
 
+För anvisningar, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)
+
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
 * Medverkan och funktion/Primär medverkan/Funktion  
 (contribution/PrimaryContribution/role = 100 #4)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
 * Medverkan och funktion/Medverkan/Agent/Person  
 (contribution/agent/Person = 700 1/- #a)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  Länka till entitet.
 
-* Medverkan och funktion/Medverkan/Agent/Organisation  
-(contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
-
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion  
-(contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
-  Länka till entitet. [Se Relationer till agenter](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/PrimaryContribution/role = 700 #4)  
+  Länka till entitet.
 
 ### Språk 
 * Språk (language = 008/35-37)  
