@@ -13,7 +13,7 @@ Katalogiseringsregler och information om hur relationer anges i förhållande ti
 
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
-Läs viktig information om arbetet med länkade verk i Libris: [Information om länkade verk i Libris]([https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris))!
+Läs viktig information om arbetet med [länkade verk i Libris]([https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris))!
 
 ## Verk som ämne 
 
