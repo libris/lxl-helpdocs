@@ -1,6 +1,6 @@
 ---
 section: Materialtyper
-title: Bidrag
+title: Anvisningar för materialtyper
 order: 35
 date: 2023-11-29
 tags:
