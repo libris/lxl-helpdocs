@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Relationer till delar och verk
 order: 29
-date: 2023-06-21
+date: 2023-11-29
 tags:
 - editor
 ---
@@ -13,16 +13,17 @@ Katalogiseringsregler och information om hur relationer anges i förhållande ti
 
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
-## Verk som ämne 
-Läs viktig information om arbetet med att bryta ut och länka till verk: [Länkning till verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris)!
+Läs viktig information om arbetet med länkade verk i Libris: [Information om länkade verk i Libris]([https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lankning-till-verk-i-libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris))!
 
-Tills vidare är rekommendationen att verk beskrivs som lokala entiteter. 
+## Verk som ämne 
+
+Tills vidare är rekommendationen att verk som ämne beskrivs som lokala entiteter. 
 
 ### Verk som ämne - lokal entitet 
 
 För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 #a #d #t):
 
-* Utgå från egenskapen Ämne inom Instans av Verk
+* Utgå från egenskapen Ämne inom Instans av / Verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
 * Välj typen Verk i rullgardinsmenyn Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
 * Ange föredragen titel för verket
@@ -37,7 +38,7 @@ För att lägga till en författares verk som ämne (motsvarande Marc21 600 1/4 
 
 För att lägga till ett verk utan primärt upphov som ämne (motsvarande Marc21 630 0/4 #a #n #p):
 
-* Utgå från egenskapen Ämne inom Instans av Verk
+* Utgå från egenskapen Ämne inom Instans av / Verk
 * Öppna sidorutan Lägg till entitet inom egenskapen Ämne
 * Välj typen Verk i rullgardinsmenyn Skapa lokal entitet. En snippet läggs till med egenskaperna Verkstyp, Har titel, Medverkan och funktion och Språk
 * Ta bort egenskapen Medverkan och funktion genom att klicka på soptunnan
