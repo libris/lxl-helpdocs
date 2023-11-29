@@ -32,15 +32,15 @@ Om du har gjort en uttömmande sökning och inte hittat någon post för den res
 
 För att skapa en ny post, klicka på Skapa ny. En meny med mallar visas. Mallen innehåller de vanligaste egenskaperna för respektive typ. Fler egenskaper kan läggas till via knappen Lägg till egenskaper (eller kortkommando Alt + F).
 Välj typ av post:
--	Instans  
+ *	Instans  
 Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper. Läs mer under Materialtyper i vänstermenyn.
--	Verk  
+ *	Verk  
 (Används ej)
--	Koncept  
+ *	Koncept  
 (Används endast av redaktionen för Svenska ämnesord och redaktionen för barnämnesord)
--	Agent  
+ * Agent  
 Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälptexter Agenter i vänstermenyn.
--	Från fil
+ *	Från fil
 
 ### Skapa ny från fil
 Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från fil.
@@ -67,5 +67,4 @@ Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. O
 För att importera en post, klicka på posten i träfflistan. [Följ anvisningar i Postimport i Libris i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/postimport-i-libris). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ## Kopiera
-Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, [se ovan under Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara.  
-Jämför gärna med funktionerna Berika från mall och Berika från post.
+Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, [se ovan under Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara. Jämför gärna med funktionerna Berika från mall och Berika från post.
