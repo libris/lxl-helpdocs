@@ -222,7 +222,7 @@ Beskrivning av den auktoriserade agenten.
 ### Beskrivning
 * Beskrivning (description = 678)
   <br/>Används för att ange kortfattad biografisk information är om personens liv eller historia.
-  <br/>```Exempel: Skönlitterär författare, nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
+  <br/>```Exempel: Nobelpristagare 1909, första kvinnliga ledamot av Svenska akademien 1914.```
   <br/>För att lägga till: Klicka på plustecknet i verktygsmenyn. Sök efter och lägg till Beskrivning. Ange uppgifterna i rutan.
 
 
