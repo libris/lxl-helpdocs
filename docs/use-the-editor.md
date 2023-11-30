@@ -164,7 +164,7 @@ Om posten har länkningar till andra poster (t.ex. bestånd) är typfältet lås
 | :----------- | :----------- |
 | Text (000/06=a i MARC21) | Instans (mall: Bok/Tryckt seriell/Äldre tryck)<br>Elektronisk (007c i MARC21) (mall: E-bok)<br>Tryck<br>Handskrift<br>Taktil resurs |   
 | Karta (000/06=e i MARC21) | Karta (007a i MARC21) (mall: Karta)<br>Kartglob (007d i MARC21)<br>Elektronisk (007c i MARC21)<br>Handskrift |   
-| Ljud (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21) | Elektronisk (007cr i MARC21) (mall: Ljudbok (strömmande)) | 
+| Ljud (t.ex. ljudbok) (000/06=i i MARC21) | Ljudinspelning (007s i MARC21) (mall: Ljudbok)<br>Elektronisk (007c i MARC21)<br>Elektronisk (007cr i MARC21) (mall: Ljudbok (strömmande)) | 
 | Musik (t.ex. musik-CD) (000/06=j i MARC21) | Ljudinspelning (007s i MARC21) (mall: Musik-CD)<br>Elektronisk (007c i MARC21) |   
 | Multimedia (000/06=m i MARC21) | Instans<br>Elektronisk (007c i MARC21) (mall: Datorspel) |   
 | Noterad musik (000/06=c i MARC21) | Instans (mall: Noterad musik)<br>Elektronisk (007c i MARC21)<br>Tryck<br>Handskrift<br>Taktil resurs |
