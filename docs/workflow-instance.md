@@ -11,19 +11,19 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
-| [Instanstyp](#instanstyp) | | [Omfång](#omfång) | 
-| [Utgivningssätt](#utgivningssätt)| | [Mått](#mått) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) |
-| [Bärartyp](#bärartyp) | | [Klassifikation](#klassifikation) |
-| [Titel](#titel)| | [Medföljande material](#medföljande-material) | 
-| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
+| [Inledning](#inledning) | | [Copyrightår](#copyrightår) | 
+| [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
+| [Utgivningssätt](#utgivningssätt)| | [Omfång](#omfång) | 
+| [Medietyp](#medietyp) | | [Mått](#mått) |
+| [Bärartyp](#bärartyp) | | [Övriga fysiska detaljer](#övriga-fysiska-detaljer) |
+| [Titel](#titel)| | [Klassifikation](#klassifikation) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medföljande-material)  |
+| [Medverkan och funktion](#medverkan-och-funktion) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmärkning) |
 | [Produktion](#produktion) | | [Innehållsförteckning](#innehållsförteckning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgängliggörande) | | [Annat bärarformat](#annat-bärarformat) |
 | [Utgivning](#utgivning) | | [Elektronisk adress](#elektronisk-adress) |
 | [Tillverkning](#tillverkning) | | [Sammanfattning av innehåll](#sammanfattning-av-innehåll) |
-| [Copyrightår](#copyrightår) | |  |
 
 
 ## Inledning
@@ -176,7 +176,25 @@ Skriv in uppgiften under Huvudtitel.
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
   Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```  
+  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+
+### Medverkan och funktion
+Från och med Libris version 1.33 kan du lägga till Medverkan och funktion under Instans. Använd Medverkan och funktion under Instans endast för funktioner som hör till Instans. Ett exempel är utgivare.
+
+* Medverkan och funktion/Medverkan/Agent/Organisation
+    (contribution/agent/Person = 710 2/- #a)  
+    Länka till entitet.
+
+* Medverkan och funktion/Medverkan/Funktion
+    (contribution/PrimaryContribution/role = 700 #4)
+    Länka till entitet.  
+  
+På id.kb.se listas alla funktioner:  
+[Funktioner möjliga att använda på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv)  
+[Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)  
+[Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)  
+
+För anvisningar och exempel, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
 
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)  
