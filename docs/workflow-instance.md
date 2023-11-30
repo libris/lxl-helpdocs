@@ -179,22 +179,31 @@ Skriv in uppgiften under Huvudtitel.
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 ### Medverkan och funktion
-Från och med Libris version 1.33 kan du lägga till Medverkan och funktion även under Instans. Använd Medverkan och funktion under Instans för funktioner som hör till Instans. Ett exempel är utgivare.
+Från och med Libris version 1.33 kan du lägga till Medverkan och funktion även under Instans. Ange relationer till de agenter som medverkar till instansen. Ett exempel är utgivare och förordsförfattare.
 
 * Medverkan och funktion/Medverkan/Agent/Organisation  
-(contribution/agent/Person = 710 2/- #a)  
+(contribution/Contribution/agent/Organization = 710 2/- #a)  
 Länka till entitet.
 
 * Medverkan och funktion/Medverkan/Funktion  
-(contribution/PrimaryContribution/role = 710 #4)  
+(contribution/Contribution/Contribution/role = 710 #4)  
 Länka till entitet.
 
-Medverkan och funktion som hör till verket ska även i fortsättningen ligga under Instans av / Verk. Exempel: författare, översättare.  
+* Medverkan och funktion/Medverkan/Agent/Person
+(contribution/Contribution/agent/Person = 700 1/- #a)  
+Länka till entitet.
+
+* Medverkan och funktion/Medverkan/Funktion  
+(contribution/Contribution/contribution/role = 700 #4)  
+Länka till entitet.
   
-På id.kb.se listas alla funktioner:  
-[Funktioner möjliga att använda på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv)  
+På id.kb.se listas funktioner:  
+[Funktioner möjliga att använda endast på instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FInstance&_sort=_sortKeyByLang.sv) 
 [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)  
+[Funktioner möjliga att använda på instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEmbodiment&_sort=_sortKeyByLang.sv)
 [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)  
+
+Medverkan och funktion som hör till verket ska även i fortsättningen ligga under Instans av / Verk.
 
 För anvisningar och exempel, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
 
