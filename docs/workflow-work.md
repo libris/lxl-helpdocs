@@ -28,7 +28,7 @@ Beskrivningen av ett verk innehåller information som ämne, klassifikation, spr
 
 Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under "Instans av" utan att klicka på länksymbolen (Länka entitet) vid Instans av. Mallen för att skapa nytt verk bör inte användas.
 
-**Denna hjälptext beskriver de vanligaste egenskaperna under Instans av.** 
+**Denna hjälptext beskriver de vanligaste egenskaperna under Instans av / Verk.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck)
@@ -45,10 +45,10 @@ Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med il
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
 
-## Instans av
+## Instans av / Verk
 * Instans av (instanceOf)  
 
-För att lägga till egenskaper under "Instans av", klicka på plustecknet till höger om "Instans av" och verkstypen.  
+För att lägga till egenskaper i beskrivningen av verket, klicka på plustecknet till höger om "Instans av" och verkstypen.  
 ![Lägg till egenskaper under Instans av](instansav.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
