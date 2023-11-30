@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2023-06-21
+date: 2023-11-30
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,14 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2023-11-30
+</br>Ändringar med anledning av version 1.33 av Libris katalogisering:
+</br>Texten [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor) har uppdaterats med informaion om verks- och instanstyp för strömmande ljudbok med anledning av version 1.33 av Libris katalogisering.
+
+</br>Texten [Verk](https://libris.kb.se/katalogisering/help/workflow-work) uppdaterad med anledning av nyheter för Medverkan och funktion.
+
+</br>Texten [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) uppdaterad med anledning av nyheter för Medverkan och funktion.
 
 2023-06-21
 </br>Texten [Relationer till delar och verk]([https://libris.kb.se/katalogisering/help/workflow-agent-relation]) har uppdaterats med något justerade exempel för verk som ämne.
