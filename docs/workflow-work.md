@@ -87,8 +87,8 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
    Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
 
 ### Medverkan och funktion  
-Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, redaktörer samt funktionskod för respektive agent. Från version 1.33 av Libris katalogisering finns vissa begränsningar för funktionerna. På id.kb.se listas alla funktioner: 
-   * [Funktioner möjliga att använda på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv) 
+Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, redaktörer samt funktionskod för respektive agent. Från version 1.33 av Libris katalogisering finns vissa begränsningar för funktionerna. På id.kb.se listas funktioner: 
+   * [Funktioner möjliga att använda endast på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv) 
    * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
    * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
 
