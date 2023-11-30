@@ -179,7 +179,7 @@ Skriv in uppgiften under Huvudtitel.
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 ### Medverkan och funktion
-Från och med Libris version 1.33 kan du lägga till Medverkan och funktion under Instans. Använd Medverkan och funktion under Instans endast för funktioner som hör till Instans. Ett exempel är utgivare.
+Från och med Libris version 1.33 kan du lägga till Medverkan och funktion även under Instans. Använd Medverkan och funktion under Instans för funktioner som hör till Instans. Ett exempel är utgivare.
 
 * Medverkan och funktion/Medverkan/Agent/Organisation  
 (contribution/agent/Person = 710 2/- #a)  
@@ -187,7 +187,9 @@ Länka till entitet.
 
 * Medverkan och funktion/Medverkan/Funktion  
 (contribution/PrimaryContribution/role = 710 #4)  
-Länka till entitet.  
+Länka till entitet.
+
+Medverkan och funktion som hör till verket ska även i fortsättningen ligga under Instans av / Verk. Exempel: författare, översättare.  
   
 På id.kb.se listas alla funktioner:  
 [Funktioner möjliga att använda på verk](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FWork&_sort=_sortKeyByLang.sv)  
