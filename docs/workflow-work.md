@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2023-11-29
+date: 2023-12-14
 tags:
 - verk
 --- 
@@ -20,9 +20,8 @@ tags:
 | [Språk](#språk) |  | [Innehållstyp](#innehållstyp) | 
 | [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
-
-Du ska inte bryta ut verk ännu men förberedelser för att kunna göra det pågår. Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
-
+Det är nu möjligt att bryta ut verk i Libris. Men du ska bara göra det i vissa fall. Arbete pågår med verk i Libris och det sker förändringar löpande. Det är viktigt att följa aktuella instruktioner! [Läs Att arbeta med länkade verk i Libris}(https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris)  
+Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
