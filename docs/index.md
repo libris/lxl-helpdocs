@@ -30,6 +30,7 @@ Här hittar du:
     * länkar till utbildningsmaterial och tjänster
  
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.  
+## Nyheter
 
 Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter](https://metadatabyran.kb.se/ovrigt/nyheter).
   
