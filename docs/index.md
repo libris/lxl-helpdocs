@@ -19,7 +19,7 @@ spellistan [Metadata och katalogisering](https://kbplay.mediaflowportal.com/fold
 
 Hjälpsektionen uppdateras kontinuerligt i takt med vidareutveckling som påverkar funktionaliteten i katalogiseringsverktyget. 
 
-### Vidare information
+## Vidare information
 * [Webbplatsen Metadatabyrån](https://metadatabyran.kb.se/)  
 Här hittar du:   
     * information om KB:s metadatastandarder
@@ -30,7 +30,7 @@ Här hittar du:
     * länkar till utbildningsmaterial och tjänster
  
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.  
-## Nyheter
+### Nyheter
 
 Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter](https://metadatabyran.kb.se/ovrigt/nyheter).
   
