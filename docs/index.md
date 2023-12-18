@@ -28,10 +28,9 @@ Här hittar du:
     * riktlinjer och praxis för auktoritetsarbete, klassifikation och ämnesord
     * exempel från Libris katalogisering
     * länkar till utbildningsmaterial och tjänster
-
-Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter.](https://metadatabyran.kb.se/ovrigt/nyheter).
-    
+ 
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.
-
-* [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
+Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter.](https://metadatabyran.kb.se/ovrigt/nyheter).
+  
+Följ också [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
 
