@@ -29,7 +29,8 @@ Här hittar du:
     * exempel från Libris katalogisering
     * länkar till utbildningsmaterial och tjänster
  
-Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.
+Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.  
+
 Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter.](https://metadatabyran.kb.se/ovrigt/nyheter).
   
 Följ också [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html)
