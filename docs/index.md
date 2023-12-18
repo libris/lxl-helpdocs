@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2023-04-25
+date: 2023-12-18
 tags:
 - start
 ---
@@ -27,7 +27,9 @@ Här hittar du:
     * anvisningar för katalogisering enligt RDA
     * riktlinjer och praxis för auktoritetsarbete, klassifikation och ämnesord
     * exempel från Libris katalogisering
-    * länkar till utbildningsmaterial och tjänster  
+    * länkar till utbildningsmaterial och tjänster
+
+Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyhetsflödet](https://metadatabyran.kb.se/ovrigt/nyheter).
     
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.
 
