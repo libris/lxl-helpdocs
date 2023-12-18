@@ -29,7 +29,7 @@ Här hittar du:
     * exempel från Libris katalogisering
     * länkar till utbildningsmaterial och tjänster
 
-Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyhetsflödet](https://metadatabyran.kb.se/ovrigt/nyheter).
+* Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyhetsflödet](https://metadatabyran.kb.se/ovrigt/nyheter).
     
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.
 
