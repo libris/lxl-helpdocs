@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2023-12-14
+date: 2024-01-16
 tags:
 - verk
 --- 
@@ -149,7 +149,12 @@ Se [Samlingsverk, Parallelltext - exempel](https://metadatabyran.kb.se/beskrivni
 * Anmärkning/Anmärkning om språk/Benämning  
 (hasNote/marc:LanguageNote/label = 546 #a)  
   ```Exempel: Parallelltext på svenska och engelska```  
-Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går inte att lägga till egenskapen från Lägg till egenskaper.  
+Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går inte att lägga till egenskapen från Lägg till egenskaper.
+
+#### Sammanfattningsspråk
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
+Lägg till Sammanfattning av innehåll. Lägg till Sammanfattning. Ta bort Benämning. Lägg till Språk. Länka till entiteten för sammanfattningens språk.  
+  ```Exempel: Engelska```  
 
 ### Genre form
 Länka till entiteter.  
