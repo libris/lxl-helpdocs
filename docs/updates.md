@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2023-11-30
+date: 2024-01-16
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2024-01-16
+</br>Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) uppdaterade då anvisningar för Sammanfattningsspråk flyttats från Instans till Verk.
 
 2023-11-30
 </br>Ändringar med anledning av version 1.33 av Libris katalogisering:
