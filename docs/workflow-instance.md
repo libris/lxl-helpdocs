@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2023-11-30
+date: 2024-01-16
 tags:
 - instans
 --- 
@@ -536,12 +536,7 @@ För att lägga in en elektronisk adress till en **relaterad resurs, till exempe
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
- [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/sammanfattning-av-innehall).  
+ [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
-
-#### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)  
-Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
-  ```Exempel: Engelska```  
