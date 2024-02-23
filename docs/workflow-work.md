@@ -291,4 +291,4 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 #a)  
   Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
 Skriv in anmärkningen under Benämning.    
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018  ```
