@@ -23,13 +23,13 @@ tags:
 | [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#övriga-funktioner) | 
 | [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#övriga-funktioner) |
 | [- Kopiera](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringsläge) | [Entitetsfunktioner](#6-entitetsfunktioner) |
-| [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
+| [- Skapa digital reproduktion](#verktyg) | [Ångra](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Förfrågan](#förfrågan) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Länkade verk i Libris](#länkade-verk-i-libris) |
-| [- Ändringsmeddelande](#ändringsmeddelande) |  |  |
-| [- Förhandsgranska MARC21](#förhandsgranska-marc21) |  |  | 
-| [- Ta bort Instans](#ta-bort-instans) |  |  |
+| [- Förfrågan](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Länkade verk i Libris](#länkade-verk-i-libris) |
+| [- Ändringsmeddelande](#ladda-ner-sammanslagen-marc21) |  |  |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) |  |  | 
+| [- Ta bort Instans](#ladda-ner-sammanslagen-marc21) |  |  |
 | [Redigera](#redigera) |  |  | 
 
 
