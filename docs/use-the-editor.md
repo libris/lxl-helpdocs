@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Att använda verktyget
 order: 12
-date: 2023-11-30
+date: 2024-03-07
 tags:
 - redigering
 - editor
@@ -26,7 +26,9 @@ tags:
 | [- Skapa digital reproduktion](#skapa-digital-reproduktion) | [Ångra](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [- Byta instanstyp](#byta-instanstyp) |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Länkade verk i Libris](#länkade-verk-i-libris) |
+| [- Förfrågan](#förfrågan) | [Spara och sluta redigera](#spara-och-sluta-redigera) | [Länkade verk i Libris](#länkade-verk-i-libris) |
+| [- Ändringsmeddelande](#ändringsmeddelande) |  |  |
+| [- Förhandsgranska MARC21](#förhandsgranska-marc21) |  |  | 
 | [- Ta bort Instans](#ta-bort-instans) |  |  |
 | [Redigera](#redigera) |  |  | 
 
@@ -77,13 +79,19 @@ För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna me
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Skapa digital reproduktion
-Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se hjälptexter för respektive materialtyp och [hjälptext för Digital reproduktion](https://libris.kb.se/katalogisering/help/digital-reproduction).
+Visas i poster som beskriver en fysisk resurs. Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se anvisningar för respektive materialtyp och [anvisning för Digital reproduktion i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/digitala-reproduktioner).
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem.
 
 #### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
+
+#### Förfrågan
+Funktion för att ställa frågor om en post. [Se anvisningar för cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/andringsmeddelanden-i-libris/ny-funktionalitet-cxz---andringsmeddelanden-och-fragor).
+
+#### Ändringsmeddelande
+Funktion för att skicka ändringsmeddelande om en post. [Se anvisningar för Cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/andringsmeddelanden-i-libris/ny-funktionalitet-cxz---andringsmeddelanden-och-fragor).
 
 #### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
