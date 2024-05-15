@@ -37,7 +37,7 @@ En instans är en instans av ett verk, till exempel en viss utgåva av ett verk.
 
   * För utförligare instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans)
-  * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)   
+  * [Se även instruktionsfilmer](https://kbplay.mediaflowportal.com/)   
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans).  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
@@ -134,7 +134,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
 
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
-Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   
+Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   <br>
 Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
