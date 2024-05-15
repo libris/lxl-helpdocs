@@ -159,7 +159,7 @@ Lägg till Sammanfattning av innehåll. Lägg till Sammanfattning. Ta bort Benä
 ### Genre form
 Länka till entiteter.  
  För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.  
- [Se instruktionsfilm Lägga till Genre/form](https://youtu.be/a6I_6K5STKw)  
+ [Se instruktionsfilm Lägga till Genre/form](https://kbplay.mediaflowportal.com/watch/1123263/)  
 
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).  
 
