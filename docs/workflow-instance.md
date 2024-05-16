@@ -490,7 +490,7 @@ Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga 
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
-  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser)
+  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser#h-Annatbararformat776)
 
 ### Elektronisk adress
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
