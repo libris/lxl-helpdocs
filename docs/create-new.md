@@ -22,7 +22,7 @@ Följ gällande anvisningar när du skapar en ny post.
 
 * [Metadatabyrån](https://metadatabyran.kb.se/)  
 * [Kärnelement för verk och uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/karnelement-for-verk-och-uttryck?searchTerm=K%C3%A4rnelement+f%C3%B6r+verk+och+uttryck)
-* [Kärnelement för manifestation](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/karnelement-for-manifestation]
+* [Kärnelement för manifestation](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/karnelement-for-manifestation)
 * [Kärnelement för relationer](https://metadatabyran.kb.se/generella-anvisningar---rda/relationer/karnelement-for-relationer?searchTerm=K%C3%A4rnelement+f%C3%B6r+relationer)
 
 ## Söka
