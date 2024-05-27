@@ -13,7 +13,7 @@ tags:
 
 ![Knappen Katalogvård i Libris katalogisering](Katalogvard.png)
 
-[Läs om ny funktionalitet för cxz - ändringsmeddelanden och frågor](https://metadatabyran.kb.se/beskrivning/specialanvisningar/andringsmeddelanden-i-libris/ny-funktionalitet-cxz---andringsmeddelanden-och-fragor)  
+[Läs om ny funktionalitet för cxz - ändringsmeddelanden och frågor](https://metadatabyran.kb.se/arbetsfloden/hantera-poster-i-libris/andringsmeddelanden-i-libris/ny-funktion-cxz---andringsmeddelanden-och-fragor)  
 
 Katalogvård är ingången för katalogvårdande städinsatser i katalogiseringsverktyget. I ett första skede går det att flytta bestånd (ett eller flera samtidigt) för de sigler som inloggad användare har behörighet för.
 
