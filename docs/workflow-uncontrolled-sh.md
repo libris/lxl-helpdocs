@@ -13,7 +13,7 @@ tags:
 # Okontrollerad term
 Hjälptexten beskriver hur okontrollerade termer läggs till verksbeskrivningen under Instans av Verk. 
 
-Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. [Se mer information om ämnesordsförslag i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-nytt-ord).
+Behov av att lägga till okontrollerade termer finns bl.a. i samband med ämnesordsförslag. [Se mer information om ämnesordsförslag i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-ny-term).
 
 Utgår katalogiseringen från en mall finns egenskapen Ämne redan tillagd under Instans av Verk. 
 <br/>För att lägga till egenskapen Ämne: Klicka på plustecknet inom Instans av Verk, sök efter och lägg till Ämne (subject).
