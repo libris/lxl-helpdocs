@@ -167,8 +167,7 @@ Beskrivning av agenten som ska auktoriseras.
 
 ### Har yrke eller sysselsättning
 * Har yrke eller sysselsättning (hasOccupation = 374)
-   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. Ange endast huvudordet för yrket och inte eventuella adjektivkonstruktioner (välj t.ex. Författare, inte Franska författare, välj Regissörer, inte Kvinnliga regissörer). Om den eftersökta termen saknas i Svenska ämnesord, [föreslå en ny]https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-ny-term.
-   <br/>```Exempel:```
+   <br/>Ange yrke eller sysselsättning om det behövs för att skilja en person från en annan, t.ex. när en persons födelsetid eller dödstid inte är tillgängligt. Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. Ange endast huvudordet för yrket och inte eventuella adjektivkonstruktioner (välj t.ex. Författare, inte Franska författare, välj Regissörer, inte Kvinnliga regissörer). Om den eftersökta termen saknas i Svenska ämnesord, [föreslå en ny](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord/foresla-ny-term).
    * ```Romanförfattare```
    * ```Översättare```
    <br/>För att lägga till: Klicka på plustecknet inom egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ, sök efter och välj önskad term. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
