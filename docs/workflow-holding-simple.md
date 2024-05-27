@@ -10,4 +10,4 @@ tags:
 
 # Enkel beståndsregistrering
 
-Se [Bestånd i Libris i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/bestand-i-libris)
+Se [Bestånd i Libris i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris)
