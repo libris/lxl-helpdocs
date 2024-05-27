@@ -27,19 +27,16 @@ tags:
 
 
 ## Inledning
-**VERSION 1.27**: Sammanfattning av innehåll (summary) ska endast ligga under Instans och inte under Verk.   
-[Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).
-
-
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
 
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans.** 
 
   * För utförligare instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans)
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans)
   * [Se även instruktionsfilmer](https://kbplay.mediaflowportal.com/)   
 
-I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans).  
+I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap. Använd vid behov klamrar inom en egenskap, enligt anvisningar i [Manifestation (Instans) - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans).  
+
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
@@ -47,8 +44,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 ![Sök fram och välj egenskap att lägga till](plusegenskapinstans2.png)  
 
 ### Instanstyp  
-En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp.  En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
-När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
+En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp. En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor). När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
 ### Utgivningssätt    
 * Utgivningssätt (issuanceType = 000/07)   
@@ -66,7 +62,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```s (= audio)```
   * ```v (= video)```   
 
-[Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/medietyp).
+[Om medietyper i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/medietyp).
 
 ### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 #b)  
@@ -77,7 +73,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
   * ```nc (= volym)```
   * ```sd (= ljudskiva) + d (= ljudskiva)```   
 
-[Om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/barartyp).  
+[Om bärartyper i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/barartyp).  
 
 ### Titel   
 
@@ -87,7 +83,7 @@ När man skapar Instans eller Verk som lokal entitet under en egenskap behöver 
  ```Exempel: En arbetsdag i skriftsamhället```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+ Se exempel på sidan [Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/titel/filering-av-titel)
 
 #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 #b)  
@@ -106,7 +102,7 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Varianttitel och ange en siffra. Fileringsvärdet exporteras dock inte till marc eftersom indikator för fileringsvärde inte används i 246.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
-  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+  [Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/titel/filering-av-titel)
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 #b)  
   Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra inom samma egenskap, åtskilda av mellanslag, kolon, mellanslag.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ #i)  
@@ -134,7 +130,8 @@ Används till exempel för felaktigheter och för att öka sökbarheten för tit
 
 #### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
-Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   <br>
+Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
+
 Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
@@ -142,6 +139,7 @@ Skriv in uppgiften under Delbeteckning.
 #### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)  
 Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.  
+
 Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
 Exempel:  
@@ -171,7 +169,7 @@ Skriv in uppgiften under Huvudtitel.
 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
-[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/titel/filering-av-titel)
+[Se exempel på sidan Filering av titel - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/titel/filering-av-titel)
 
 ### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 #c)    
@@ -205,7 +203,7 @@ På id.kb.se listas funktioner:
 
 Medverkan och funktion som hör till verket ska även i fortsättningen ligga under Instans av / Verk.
 
-För anvisningar och exempel, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)  
+För anvisningar och exempel, se [Agenter knutna till manifestation i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/agenter-knutna-till-manifestation)  
 
 ### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 #a)  
@@ -267,9 +265,7 @@ Välj typ Osäkert år från listan.
 
 ### Utgivning  
 * Utgivning (publication)  
-  Välj typ från lista. För monografier, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
+  Välj typ från lista. För monografier, använd Primär utgivning. I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning. NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
 
 #### Utgivningsplats
 * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 #a)  
@@ -287,21 +283,16 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   Sök inte efter Agent som entitet. Skapa Agent som lokal entitet.  
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum  ska ligga inom Primär utgivning.   
+  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning. Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning. Land, År och eventuellt Datum  ska ligga inom Primär utgivning.   
   [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
 
 #### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 #c)  
-  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
-  Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 008/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
-  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.  
+  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning. Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
+  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 008/07-10 och 264 -/1 #c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum. Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 #c)  
-  Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens 264 -/1 #c.    
+  Datum får innehålla text och interpunktionstecken. För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens 264 -/1 #c.    
   Skriv in uppgiften.
   <br/>```Exempel:```
     * ```[2017]```
@@ -451,7 +442,7 @@ Man behöver inte välja instans- och verkstyp här.
   Man behöver inte välja Instanstyp under Ingår i serie/Instans/Instanstyp.   
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
- Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/manifestation-instans/anmarkning-om-manifestationen).
+ Felaktiga ISSN i en instans ska återges under [Anmärkning](#anmarkning). Se [Anmärkning om manifestationen - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/egenskaper-som-beskriver-en-manifestation/anmarkning-om-manifestationen).
 
 #### Serieuppgift  
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 #a)  
@@ -490,7 +481,7 @@ Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga 
 ### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   Länka till utgåvan i annat bärarformat, till exempel från en tryckt utgåva till en elektronisk utgåva eller tvärtom.  
-  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser#h-Annatbararformat776)
+  [Annat bärarformat i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/relationer-mellan-manifestationer#h-Annatbararformat)
 
 ### Elektronisk adress
 Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken version länken går till (används normalt inte).  
@@ -531,12 +522,11 @@ För att lägga in en elektronisk adress till en **relaterad resurs, till exempe
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
   
 ### Sammanfattning av innehåll    
- * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)  
- **VERSION 1.27**: Sammanfattning av innehåll (summary) ska endast ligga under Instans och inte under Verk.  
+ * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
  Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg till Sammanfattning.  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
- [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sammanfattning-av-innehall).  
+ [Till Sammanfattning av innehåll i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/sammanfattning-av-innehall).  
  * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
