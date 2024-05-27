@@ -9,4 +9,4 @@ tags:
 
 # Utbildningsmaterial
 
-Se [Utbildningsmaterial i Metadatabyrån](https://metadatabyran.kb.se/utbildningsmaterial)
+Se [Utbildningsmaterial i Metadatabyrån](https://metadatabyran.kb.se/utbildning-och-stod/utbildningsmaterial)
