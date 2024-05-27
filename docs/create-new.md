@@ -21,7 +21,9 @@ tags:
 Följ gällande anvisningar när du skapar en ny post. 
 
 * [Metadatabyrån](https://metadatabyran.kb.se/)  
-* [Kärnelement och obligatoriska element](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/karnelement-och-obligatoriska-element)
+* [Kärnelement för verk och uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/karnelement-for-verk-och-uttryck?searchTerm=K%C3%A4rnelement+f%C3%B6r+verk+och+uttryck)
+* [Kärnelement för manifestation](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/karnelement-for-manifestation]
+* [Kärnelement för relationer](https://metadatabyran.kb.se/generella-anvisningar---rda/relationer/karnelement-for-relationer?searchTerm=K%C3%A4rnelement+f%C3%B6r+relationer)
 
 ## Söka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
@@ -64,7 +66,7 @@ Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 ### Importera från Andra källor
 Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. [Läs mer om sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
-För att importera en post, klicka på posten i träfflistan. [Följ anvisningar i Postimport i Libris i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/postimport-i-libris). Spara sedan posten till Libris databas genom att klicka på Spara.
+För att importera en post, klicka på posten i träfflistan. [Följ anvisningar om Postimport i Libris i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/postimport-i-libris?searchTerm=Postimport+i+Libris). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ## Kopiera
 Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner, [se ovan under Anvisningar och praxis](#anvisningar-och-praxis). Spara sedan posten till Libris databas genom att klicka på Spara. Jämför gärna med funktionerna Berika från mall och Berika från post.
