@@ -2,7 +2,7 @@
 section: Main
 title: Start
 order: 1
-date: 2023-12-18
+date: 2024-05-27
 tags:
 - start
 ---
@@ -32,7 +32,7 @@ Här hittar du:
 Information om regler och praxis kommer att successivt flyttas över till Metadatabyrån.  
 ### Nyheter
 
-Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad! Du kan [prenumerera på nyheter](https://metadatabyran.kb.se/ovrigt/nyheter).
+Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad! Där kan du också prenumerera på nyheter.
   
 Följ också och prenumerera på [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html).
 
