@@ -79,7 +79,7 @@ För att kopiera en hel post kan kopierafunktionen användas. Jämför gärna me
 <br/>Kortkommando: Ctrl + (pil upp) + C
 
 #### Skapa digital reproduktion
-Visas i poster som beskriver en fysisk resurs. Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se anvisningar för respektive materialtyp och [anvisning för Digital reproduktion i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden/digitala-reproduktioner).
+Visas i poster som beskriver en fysisk resurs. Med funktionen Skapa digital reproduktion skapas en post för digitaliseringen av ett fysiskt original (t.ex. monografi, bild, karta, äldre tryck). Utgå alltid från posten som beskriver det fysiska original som digitaliseringen avser. Relevanta egenskaper och värden är förifyllda, t.ex. länkning till originalet inom egenskapen Reproduktion av. Vissa uppgifter behöver anges manuellt eller korrigeras för att passa materialtypen. Se anvisningar för respektive materialtyp och [anvisning för Digitala reproduktioner i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/digitala-reproduktioner).
 
 #### Ladda ner sammanslagen MARC21
 Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem.
@@ -88,10 +88,10 @@ Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importera
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.
 
 #### Förfrågan
-Funktion för att ställa frågor om en post. [Se anvisningar för cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/andringsmeddelanden-i-libris/ny-funktionalitet-cxz---andringsmeddelanden-och-fragor).
+Funktion för att ställa frågor om en post. [Se anvisningar för cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/hantera-poster-i-libris/andringsmeddelanden-i-libris/ny-funktion-cxz---andringsmeddelanden-och-fragor).
 
 #### Ändringsmeddelande
-Funktion för att skicka ändringsmeddelande om en post. [Se anvisningar för Cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/andringsmeddelanden-i-libris/ny-funktionalitet-cxz---andringsmeddelanden-och-fragor).
+Funktion för att skicka ändringsmeddelande om en post. [Se anvisningar för Cxz - ändrings­meddelanden och frågor i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/hantera-poster-i-libris/andringsmeddelanden-i-libris/ny-funktion-cxz---andringsmeddelanden-och-fragor).
 
 #### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
@@ -210,4 +210,4 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
 ### Länkade verk i Libris
-Från och med version 1.33 av Libris katalogisering finns ny funktionalitet i gränssnittet för att arbeta med länkade verk i Libris. [För mer information om detta, se information i Metadatabyrån]([https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris)https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris).
+Från och med version 1.33 av Libris katalogisering finns ny funktionalitet i gränssnittet för att arbeta med länkade verk i Libris. [För mer information om detta, se information i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris?searchTerm=Att+arbeta+med+l%C3%A4nkade+verk+i+Libris).
