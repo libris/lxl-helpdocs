@@ -9,11 +9,11 @@ tags:
 
 # Relationer till delar och verk 
 
-Katalogiseringsregler och information om hur relationer anges i förhållande till delar och verk beskrivs i Metadatabyrån. Se [Ingående verk](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/ingaende-verk), [Relaterade resurser](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relaterade-resurser) och [Relationer till ämnen](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-amnen).
+Katalogiseringsregler och information om hur relationer anges i förhållande till delar och verk beskrivs i Metadatabyrån. Se [Relationer till ingående verk/uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-till-ingaende-verk-uttryck), [Relationer mellan verk/uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-mellan-verk-uttryck) och [Relationer till ämnen](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-till-amnen).
 
 För praktisk information om hantering av entiteter i Libris katalogisering, se hjälptext [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).
 
-Läs viktig information om arbetet med [länkade verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/information-om-lankade-verk-i-libris)!
+Läs viktig information om arbetet med [länkade verk i Libris](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris)!
 
 ## Verk som ämne 
 
