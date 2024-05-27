@@ -16,7 +16,7 @@ För att komma åt specialtecken, samt tecken på olika språk rekommenderar vi 
 
 * [Information om specialtecken finns på sidan Unicode.org](https://home.unicode.org/). På sidan [Unicode 15.0 Character Code Charts](http://www.unicode.org/charts/) kan du hämta tecken och deras unicode‐nummer.
 
-* På sidan [Romaniseringsscheman i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/specialanvisningar/mangsprak/romaniseringsscheman) finns de tabeller som används vid mångspråksarbetet i Libris.
+* På sidan [Libris romaniseringspraxis i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/mangsprak/libris-romaniseringspraxis) finns de tabeller som används vid mångspråksarbetet i Libris.
 
 ## Windows 
 Uppdatera till Windows 10 (eller senare version)
