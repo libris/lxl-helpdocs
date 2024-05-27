@@ -21,9 +21,9 @@ tags:
 | [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
 Det är nu möjligt att bryta ut verk i Libris. Men du ska bara göra det i vissa fall. Arbete pågår med verk i och det sker förändringar i verktyget och i praxis löpande. Det är viktigt att följa aktuella instruktioner!
-Läs [Att arbeta med länkade verk i Libris](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).  
+Läs [Att arbeta med länkade verk i Libris](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).  
 
-Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyheter) för att hålla dig uppdaterad!
+Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad!
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
@@ -32,7 +32,7 @@ Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att d
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av / Verk.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck)
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck)
   * [Se även instruktionsfilmer](https://kbplay.mediaflowportal.com/)
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
@@ -58,7 +58,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 
 ### Föredragen titel för verket
-Ange den föredragna titeln för verket här (direkt under Instans av), vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/foredragen-titel-for-verket).  
+Ange den föredragna titeln för verket här (direkt under Instans av), vid behov. [Följ anvisningar i Metadatabyrån - Föredragen titel för verket](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/foredragen-titel-for-verket).  
   
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle). Om Primär medverkan finns i posten, exporteras uppgiften till 240 #a. Om Primär medverkan inte finns i posten, exporteras uppgiften till 130 #a.  
 Skriv in uppgiften.  
@@ -93,7 +93,7 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
    * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
    * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
 
-För anvisningar, se [Relationer till agenter i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/relationer/relationer-till-agenter)
+För anvisningar, se [Agenter knutna till verk och uttryck i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/agenter-knutna-till-verk-och-uttryck)
 
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
@@ -140,10 +140,10 @@ Originaltitel ("Föredragen titel för verket") för en översättning ska du an
 
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
-Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för ett översatt verk](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-ett-oversatt-verk), i Metadatabyrån.  
+Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för ett översatt verk](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-ett-oversatt-verk), i Metadatabyrån.  
 
 ##### Parallelltext  
-Se [Lathund för parallelltext](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-parallelltext), i Metadatabyrån.    
+Se [Lathund för parallelltext](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-parallelltext), i Metadatabyrån.    
 
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
@@ -158,7 +158,8 @@ Lägg till Sammanfattning av innehåll. Lägg till Sammanfattning. Ta bort Benä
 
 ### Genre form
 Länka till entiteter.  
- För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.  
+ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan.
+ 
  [Se instruktionsfilm Lägga till Genre/form](https://kbplay.mediaflowportal.com/watch/1123263/)  
 
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).  
@@ -195,7 +196,7 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf efter sökordet, t.ex. "bilderböcker barngf".  
-[Mer information om listkoder](https://metadatabyran.kb.se/amnesord-och-genre-form/svenska-amnesord-genre-form).  
+[Mer information om listkoder](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris).  
 
 ### Klassifikation  
 **VERSION 1.19:**  
@@ -282,7 +283,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
   * ```stillbild (sti)```
   * ```text (txt)```  
 
-[Läs mer om innehållstyp i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/generella-anvisningar---rda/verk-och-uttryck/innehallstyp).
+[Läs mer om innehållstyp i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/innehallstyp).
 
 För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, länka till ytterligare en entitet. Välj Innehållstyp i listan (i stället för "Föreslagna typer").    
 I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöver inte ändras.   
