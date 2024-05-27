@@ -9,4 +9,4 @@ tags:
 --- 
 
 # Anvisningar för materialtyper
-Alla arbetsflöden och katalogiseringsanvisningar för specifika materialflöden finns samlade i Metadatabyrån. Se [Materialtyper (Arbetsflöden) i Metadatabyrån](https://metadatabyran.kb.se/beskrivning/materialtyper-arbetsfloden).
+Alla arbetsflöden och katalogiseringsanvisningar för specifika materialflöden finns samlade i Metadatabyrån. Se [Arbetsflöden i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden).
