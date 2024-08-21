@@ -46,4 +46,4 @@ Vokabulären i BIBFRAME 2.0 består av klasser och egenskaper (properties) hämt
 
 Texten är en bearbetad översättning av Library of Congress text [Overview of the BIBFRAME 2.0 Model](https://www.loc.gov/bibframe/docs/bibframe2-model.html)
 
-[Se även instruktionsfilmen BIBFRAME Svensk terminologi på KB:s Youtubekanal](https://youtu.be/LmhsXICZ0MQ)
+[Se även instruktionsfilmen BIBFRAME Svensk terminologi på KB Play]([https://youtu.be/LmhsXICZ0MQ](https://kbplay.mediaflowportal.com/watch/1099538/))
