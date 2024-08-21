@@ -11,7 +11,7 @@ tags:
 
 [Information om BIBFRAME - Introduktion till Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)
 
-Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet i finns MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
+Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet finns i MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
 
 |**Länkade data i XL**|**MARC21 i Voyager**|**Klartext i Voyager**|**RDA**|**Kommentar**|
 |:------------- |:------------- |:----- |:----- | :----- |
