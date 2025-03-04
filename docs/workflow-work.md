@@ -35,7 +35,7 @@ Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att d
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck)
   * Se även instruktionsfilmer:  
     [Librisutbildning](https://kbplay.mediaflowportal.com/folder/88157/)   
-    [Instruktionsfilmer - Libris](https://kbplay.mediaflowportal.com/folder/91512/)
+    [Instruktionsfilmer - Libris](https://kbplay.mediaflowportal.com/folder/91512/)  
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
 
 ## Verkstyp
