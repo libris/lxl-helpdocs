@@ -76,15 +76,14 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
 
 ### Relationer till ingående verk och andra verk
 
-#### Relationer till ingående verk  
-* Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)  
-  [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+#### Relationer till ingående verk   
+[Se Relationer till ingående verk/uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-till-ingaende-verk-uttryck).
+* Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)       
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
   Under "Instans av", lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
 
 #### Relationer till andra verk  
-* Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
-   [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+* Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)   
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
    Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
 
