@@ -35,7 +35,7 @@ Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att d
 **Denna hjälptext beskriver de vanligaste egenskaperna under Instans av / Verk.** 
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
-  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck)
+  * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck)
   * Se även instruktionsfilmer:
     
     [Librisutbildning](https://kbplay.mediaflowportal.com/folder/88157/)   
@@ -82,7 +82,7 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
 ### Relationer till ingående verk och andra verk
 
 #### Relationer till ingående verk   
-[Se Relationer till ingående verk/uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-till-ingaende-verk-uttryck).
+[Se Relationer till ingående verk/uttryck, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/relationer-till-ingaende-verk-uttryck).
 * Ingående verk med Primär medverkan (700 1/2 #a, #d, #t)       
 * Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 #a, #l, analytisk sökingång)  
   Under "Instans av", lägg till Har del. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk under Verk och länka till entitet.   
@@ -98,7 +98,7 @@ Under Medverkan och funktion, ange relationer till de agenter som medverkar i ve
    * [Funktioner möjliga att använda på verk och instans](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FCreation&_sort=_sortKeyByLang.sv)
    * [Funktioner möjliga att använda på verk, instans och bestånd](https://id.kb.se/find?q=%2a&%40type=Role&and-domain.%40id=https%3A%2F%2Fid.kb.se%2Fvocab%2FEndeavour&_sort=_sortKeyByLang.sv)
 
-För anvisningar, se [Agenter knutna till verk och uttryck i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/agenter-knutna-till-verk-och-uttryck)
+För anvisningar, se [Agenter knutna till verk och uttryck, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/agenter-knutna-till-verk-och-uttryck)
 
 * Medverkan och funktion/Primär medverkan/Agent/Person  
 (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
@@ -145,10 +145,10 @@ Originaltitel ("Föredragen titel för verket") för en översättning ska du an
 
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
-Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för ett översatt verk](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-ett-oversatt-verk), i Metadatabyrån.  
+Mer information om översättningar finns på sidan [Språk](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/egenskaper-som-beskriver-verk-och-uttryck/sprak#h-Oversattning), i Metadatabyrån. Se också [Lathund för ett översatt verk, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-ett-oversatt-verk).  
 
 ##### Parallelltext  
-Se [Lathund för parallelltext](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-parallelltext), i Metadatabyrån.    
+Se [Lathund för parallelltext, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris/lathund-for-parallelltext).    
 
 #### Anmärkning om språk    
 * Anmärkning/Anmärkning om språk/Benämning  
@@ -201,7 +201,7 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf efter sökordet, t.ex. "bilderböcker barngf".  
-[Mer information om listkoder](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris).  
+[Mer information om listkoder, i Metadatabyrån](https://metadatabyran.kb.se/amnesord-och-genre-form/amnesord-och-genre-form-i-libris).  
 
 ### Klassifikation  
 **VERSION 1.19:**  
