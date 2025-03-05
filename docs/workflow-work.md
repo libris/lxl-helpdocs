@@ -24,6 +24,9 @@ Det är nu möjligt att bryta ut verk i Libris. Men du ska bara göra det i viss
 Läs [Att arbeta med länkade verk i Libris](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).  
 
 Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad!
+
+Se också [Lathundar för verk i Libris, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris).
+
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under Instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
@@ -33,9 +36,11 @@ Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att d
 
   * För utförligare instruktioner om att lägga till och ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn
   * För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, [se Verk och uttryck - Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck)
-  * Se även instruktionsfilmer:  
+  * Se även instruktionsfilmer:
+    
     [Librisutbildning](https://kbplay.mediaflowportal.com/folder/88157/)   
-    [Instruktionsfilmer för Libris katalogisering](https://kbplay.mediaflowportal.com/folder/91512/)  
+    [Instruktionsfilmer för Libris katalogisering](https://kbplay.mediaflowportal.com/folder/91512/)
+    
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
 
 ## Verkstyp
