@@ -131,7 +131,8 @@ För anvisningar, se [Agenter knutna till verk och uttryck, i Metadatabyrån](ht
   *Uppgiften skapas automatiskt.*
    
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.
+  
   Klicka på plustecknet vid "Instans av", välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Ange originalspråk genom att länka till språk här.  
   ![Uppgift om originalversionens språk](translationof.png)  
 
