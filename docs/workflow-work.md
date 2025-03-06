@@ -174,6 +174,7 @@ Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-te
 
 #### Marc-koder i 008
 För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Trunkera med * för att se listan över typer under varje rubrik. Länka till entitet.  
+Läs mer på sidan [Exempel på användning av genre/form, i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/tryckta-monografier/verk---tryckta-monografier/exempel-pa-anvandning-av-genre-form)
 
 ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)       
