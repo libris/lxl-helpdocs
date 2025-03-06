@@ -20,10 +20,10 @@ tags:
 | [Språk](#språk) |  | [Innehållstyp](#innehållstyp) | 
 | [Översättning av](#översättning-av) |  | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) | 
 
-Det är nu möjligt att bryta ut verk i Libris. Men du ska bara göra det i vissa fall. Arbete pågår med verk i och det sker förändringar i verktyget och i praxis löpande. Det är viktigt att följa aktuella instruktioner!
+Det är möjligt att bryta ut verk i Libris. Men du ska bara göra det i vissa fall. Arbete pågår med verk i och det sker förändringar i verktyget och i praxis löpande. Det är viktigt att följa aktuella instruktioner!
 Läs [Att arbeta med länkade verk i Libris](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).  
 
-Följ också [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad!
+Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad!
 
 Se också [Lathundar för verk i Libris, i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/lathundar-for-verk-i-libris).
 
