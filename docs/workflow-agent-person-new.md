@@ -57,9 +57,8 @@ Information av administrativ karaktär som är väsentlig för auktoriseringen i
 
 ### Katalogiseringsregler
 * Katalogiseringsregler (descriptionConventions = 040 #e)
-  <br/>Förval: rda. Ändra vid behov. 
-  <br/>```Exempel:```
-  * ```Kod: rda```
+  <br/>Förval: RDA. Ändra vid behov. 
+  <br/>```Exempel: RDA```
 
 ### Katalogisatörens anmärkning
 * Katalogisatörens anmärkning (cataloguersNote = 667 #a)
@@ -248,8 +247,7 @@ Används för att ange fullständig namnform i de fall då förkortning används
   <br/>[Formuleras enligt instruktioner i Metadatabyrån)](https://metadatabyran.kb.se/auktoritetsarbete-och-agenter/personer/sarskiljande-tillagg-for-personer). Hämta i första hand termen från en kontrollerad vokabulär som Svenska ämnesord och länka. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till).
   <br/>```Exempel:```
   <br/>```Fiktiva gestalter sao```
-  <br/>```Professorer sao```
-  <br/>```Kung av Sverige```
+  <br/>```Helgon sao```
   <br/>Lägg till egenskapen genom att klicka på plustecknet i verktygsmenyn. 
 
 ### Ordningstal
