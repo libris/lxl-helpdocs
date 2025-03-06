@@ -89,8 +89,9 @@ För översättningar, ange originaltiteln under [Översättning av](#översätt
 
 #### Relationer till andra verk  
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)   
-*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
-   Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
+  Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till egenskap och välj Entitet. Skapa verk som lokal entitet. Ange Primär medverkan och Har titel / Titel / Huvudtitel.  
+* Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
+   Under "Instans av", lägg till Relation. Välj typ Relation. Lägg till egenskap och välj Entitet. Skapa verk som lokal entitet. Ange Har titel / Titel / Huvudtitel.       
 
 ### Medverkan och funktion  
 Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, redaktörer samt funktionskod för respektive agent. Från version 1.33 av Libris katalogisering finns vissa begränsningar för funktionerna. På id.kb.se listas funktioner: 
