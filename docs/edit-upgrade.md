@@ -49,8 +49,7 @@ När du har kopierat entiteten visas en ikon i verktyget där det möjligt att k
 Duplicera en entitet om du vill skapa ytterligare en, efter den första.  
 ![Duplicera](dupliceraentitet.PNG)    
 <br>  
-  
-  
+
 När du har klickat på Duplicera, skapas en likadan entitet och lägger sig direkt efter den första.
 ![Duplicerad entitet](dupliceradentitet.PNG)   
 <br>
@@ -59,7 +58,7 @@ När du har klickat på Duplicera, skapas en likadan entitet och lägger sig dir
 Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. Det går inte heller att ändra instanstyp med hjälp av Berika från mall.
 
 Om det i posten som ska berikas finns uppenbara felaktigheter, är det bättre att först radera dessa egenskaper innan man använder funktionen Berika från mall. Detta gör det möjligt att få med korrekta uppgifter från mallen.  
-
+<br>
 
 Berika från mall:   
 ![Berika från mall](berikafranmall.png)  
