@@ -37,7 +37,7 @@ Du kan kopiera en entitet till urklipp och klistra in den på annan plats i samm
 ![Kopiera till urklipp](kopieratillurklipp.PNG)  
 
 När du har kopierat entiteten visas en ikon i verktyget där det möjligt att klistrat in urklippet.  
-!Klistra in urklipp](kopieratillurklippikon.PNG)  
+![Klistra in urklipp](kopieratillurklippikon.PNG)  
 
 ## Duplicera
 Duplicera en entitet om du vill skapa ytterligare en, efter den första.  
