@@ -12,9 +12,11 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-från-mall) | 
-| [Redigera](#redigera) | | [Berika från post](#berika-från-post) | 
-| [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
+| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Duplicera](#duplicera) | 
+| [Redigera](#redigera) | | [Berika från mall](#berika-från-mall) | 
+| [Uppgradera](#uppgradera) | |[Berika från post](#berika-från-post)  |
+| [Kopiera till urklipp](#kopiera-till-urklipp) | |[Detaljerad berikning](#detaljerad-berikning)  |
+
 
 
 ## Anvisningar och praxis
