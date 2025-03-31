@@ -38,22 +38,22 @@ Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 Du kan kopiera en entitet till urklipp och klistra in den på annan plats i samma post eller i en annan post. Klicka på de tre punkterna till höger om entiteten och välj Kopiera till urklipp.  
   
 ![Kopiera till urklipp](kopieratillurklipp.PNG)  
-  
+ <br> 
   
   
 När du har kopierat entiteten visas en ikon i verktyget där det möjligt att klistra in urklippet.  
 ![Klistra in urklipp](kopieratillurklippikon.PNG)  
-  
+<br>  
   
 ## Duplicera
 Duplicera en entitet om du vill skapa ytterligare en, efter den första.  
 ![Duplicera](dupliceraentitet.PNG)    
-  
+<br>  
   
   
 När du har klickat på Duplicera, skapas en likadan entitet och lägger sig direkt efter den första.
 ![Duplicerad entitet](dupliceradentitet.PNG)   
-
+<br>
 
 ## Berika från mall
 Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. Det går inte heller att ändra instanstyp med hjälp av Berika från mall.
