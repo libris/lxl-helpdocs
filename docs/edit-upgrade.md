@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-11-11
+date: 2025-04-01
 tags:
 - redigering
 - uppgradering
