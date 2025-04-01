@@ -12,11 +12,9 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Duplicera](#duplicera) | 
-| [Redigera](#redigera) | | [Berika från mall](#berika-från-mall) | 
-| [Uppgradera](#uppgradera) | |[Berika från post](#berika-från-post)  |
-| [Kopiera till urklipp](#kopiera-till-urklipp) | |[Detaljerad berikning](#detaljerad-berikning)  |
-
+| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-från-mall) | 
+| [Redigera](#redigera) | | [Berika från post](#berika-från-post) | 
+| [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
 
 
 ## Anvisningar och praxis
@@ -33,25 +31,6 @@ Följ gällande anvisningar när du redigerar och uppgraderar en post.
 ## Uppgradera
 Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på [bestånd](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris). [Läs mer om beskrivningsnivå under Adminmetadata för Instans i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/adminmetadata-for-instans).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
-
-## Kopiera till urklipp  
-Du kan kopiera en entitet till urklipp och klistra in den på annan plats i samma post eller i en annan post. Klicka på de tre punkterna till höger om entiteten och välj Kopiera till urklipp.  
-  
-![Kopiera till urklipp](kopieratillurklipp.PNG)  
- <br> 
-  
-  
-När du har kopierat entiteten visas en ikon i verktyget där det möjligt att klistra in urklippet.  
-![Klistra in urklipp](kopieratillurklippikon.PNG) 
-<br>  
-## Duplicera
-Duplicera en entitet om du vill skapa ytterligare en, efter den första.  
-![Duplicera](dupliceraentitet.PNG)    
-<br>  
-
-När du har klickat på Duplicera, skapas en likadan entitet och lägger sig direkt efter den första.  
-![Duplicerad entitet](dupliceradentitet.PNG) 
-<br>
 
 ## Berika från mall
 Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. Det går inte heller att ändra instanstyp med hjälp av Berika från mall.
