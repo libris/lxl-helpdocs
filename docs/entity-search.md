@@ -52,6 +52,7 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 
 
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan entiteten.
+
 ![Lokal entitet steg 2](lokalentitet2.png)
 
 ## Exempel på lokala entiteter
