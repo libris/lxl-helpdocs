@@ -31,7 +31,7 @@ Följ gällande anvisningar när du redigerar och uppgraderar en post.
 [Läs under Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
 
 ## Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). [Läs mer om beskrivningsnivå under Adminmetadata för Instans i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/adminmetadata-for-instans).
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på [bestånd](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris). [Läs mer om beskrivningsnivå under Adminmetadata för Instans i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/adminmetadata-for-instans).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ## Kopiera till urklipp  
