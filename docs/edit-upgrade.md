@@ -49,7 +49,7 @@ Duplicera en entitet om du vill skapa ytterligare en, efter den första.
 ![Duplicera](dupliceraentitet.PNG)    
 <br>  
 
-När du har klickat på Duplicera, skapas en likadan entitet och lägger sig direkt efter den första.
+När du har klickat på Duplicera, skapas en likadan entitet och lägger sig direkt efter den första.  
 ![Duplicerad entitet](dupliceradentitet.PNG) 
 <br>
 
