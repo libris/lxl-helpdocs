@@ -77,3 +77,9 @@ Observera att du inte kan använda detaljerad berikning inom Instans av verk. F�
 
 Detaljerad berikning:    
 ![Detaljerad berikning](detaljerad.png)
+
+## Duplicera  
+Läs om att ![duplicera en entitet](https://libris.kb.se/katalogisering/help/entity-search).  
+
+## Kopiera till urklipp
+Läs om att ![kopiera till urklipp](https://libris.kb.se/katalogisering/help/entity-search).
