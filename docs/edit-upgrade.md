@@ -79,7 +79,7 @@ Detaljerad berikning:
 ![Detaljerad berikning](detaljerad.png)
 
 ## Duplicera   
-Läs om att ![duplicera en entitet](https://libris.kb.se/katalogisering/help/entity-search).  
+Läs om att [duplicera en entitet](https://libris.kb.se/katalogisering/help/entity-search).
 
 ## Kopiera till urklipp  
-Läs om att ![kopiera till urklipp](https://libris.kb.se/katalogisering/help/entity-search).
+Läs om att [kopiera till urklipp](https://libris.kb.se/katalogisering/help/entity-search).
