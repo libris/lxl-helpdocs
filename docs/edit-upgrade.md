@@ -32,6 +32,12 @@ Följ gällande anvisningar när du redigerar och uppgraderar en post.
 Med uppgradera menas att komplettera och redigera posten enligt anvisningar ([se Anvisningar och praxis](#anvisningar-och-praxis)) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på [bestånd](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris). [Läs mer om beskrivningsnivå under Adminmetadata för Instans i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/adminmetadata-for-instans).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
+## Duplicera   
+Läs om att [duplicera en entitet.](https://libris.kb.se/katalogisering/help/entity-search)  
+
+## Kopiera till urklipp  
+Läs om att [kopiera till urklipp.](https://libris.kb.se/katalogisering/help/entity-search)  
+
 ## Berika från mall
 Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. Det går inte heller att ändra instanstyp med hjälp av Berika från mall.
 
@@ -77,9 +83,3 @@ Observera att du inte kan använda detaljerad berikning inom Instans av verk. F�
 
 Detaljerad berikning:    
 ![Detaljerad berikning](detaljerad.png)
-
-## Duplicera   
-Läs om att [duplicera en entitet](https://libris.kb.se/katalogisering/help/entity-search)  
-
-## Kopiera till urklipp  
-Läs om att [kopiera till urklipp](https://libris.kb.se/katalogisering/help/entity-search)  
