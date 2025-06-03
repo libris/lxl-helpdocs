@@ -44,7 +44,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 ![Sök fram och välj egenskap att lägga till](plusegenskapinstans2.png)  
 
 ### Instanstyp  
-En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser är instanstyp inte angiven i förhandsposter och andra postinflöden, inte heller alltid i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. I mallarna för Bok (tryckt monografi), Noterad musik, Tryckt seriell resurs och Äldre tryck är dock instanstypen Tryck från och med version 1.15. Det är tillåtet men inte nödvändigt att byta instanstyp från Instans till specifik instanstyp. En maskinell ändring till specifik instanstyp kommer att göras senare. För instruktioner om att byta instanstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor). När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
+En instans är av en viss typ. Exempel på instanstyper är: Instans, Elektronisk, Arkiv, Handskrift, Ljudinspelning. För tryckta instanser kan det förekomma att instanstyp inte är angiven, t.ex. i äldre poster. Dessa poster har bara "Instans" som instanstyp men ingen specifik instanstyp. Ändra i sådana fall till korrekt instanstyp, t.ex. "Tryck" för en tryckt monografi. För instruktion om hur du byter instanstyp [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor). När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.  
 
 ### Utgivningssätt    
 * Utgivningssätt (issuanceType = 000/07)   
