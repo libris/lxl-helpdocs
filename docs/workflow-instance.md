@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2024-01-16
+date: 2025-06-03
 tags:
 - instans
 --- 
