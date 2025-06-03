@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2024-05-16
+date: 2025-06-03
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2025-06-03
+</br>Informationen om instanstyp uppdaterad på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) med anledning av ändringar i Libris version 1.39. Instanstypen är nu Tryck i poster för tryckta monografier. Poster för tryckta monografier med instanstyp Instans bör ändras till Tryck.  
 
 2024-05-16
 </br>Texterna [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) uppdaterade med ändrade länkar till filmer, nu på KB Play.
