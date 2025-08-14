@@ -10,5 +10,5 @@ tags:
 # Instans
 I Libris är formatet uppdelat i verk och instans. Vissa egenskaper hör till verket, medan andra hör till instansen. Läs mer i Metadatabyrån, på sidorna om [Manifestation (Instans)](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans).
 
-# Att lägga till och redigera egenskaper i Verk
+# Att lägga till och redigera egenskaper i Instans
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
