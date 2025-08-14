@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2025-06-03
+date: 2025-08-14
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,10 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2025-08-14
+</br>Sidorna [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) och [Verk](https://libris.kb.se/katalogisering/help/workflow-work) uppdaterade och innehåller nu endast kort text och länkar till
+[Manifestation (Instans)](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans)och [Verk och uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck) i Metadatabyrån samt [Att använda verktyget](https://libris-dev.kb.se/katalogisering/help/use-the-editor).
 
 2025-06-03
 </br>Informationen om instanstyp uppdaterad på sidan [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) med anledning av ändringar i Libris version 1.39. Instanstypen är nu Tryck i poster för tryckta monografier. Poster för tryckta monografier med instanstyp Instans bör ändras till Tryck.  
