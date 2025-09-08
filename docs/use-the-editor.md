@@ -210,4 +210,4 @@ Om det är mycket som behöver ändras kan det vara smidigare att radera de ber�
 Om det är mycket som behöver ändras kan det vara smidigare att radera de berörda egenskaperna och sedan berika från lämplig mall.
 
 ### Länkade verk i Libris
-Från och med version 1.33 av Libris katalogisering finns ny funktionalitet i gränssnittet för att arbeta med länkade verk i Libris. [För mer information om detta, se information i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris?searchTerm=Att+arbeta+med+l%C3%A4nkade+verk+i+Libris).
+Från och med version 1.33 av Libris katalogisering finns ny funktionalitet i gränssnittet för att arbeta med länkade verk i Libris. [För mer information om detta, se information i Metadatabyrån](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/att-arbeta-med-lankade-verk-i-libris).
