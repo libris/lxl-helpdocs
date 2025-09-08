@@ -13,4 +13,4 @@ order: 16
 
 Se [Postimport i Libris - Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/postimport-i-libris)  
 samt  
-[Andra källor - översikt över källorna och de delmängder som ingår](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html)
+[Andra källor - översikt över källorna och de delmängder som ingår](https://kb.se/for-bibliotekssektorn/tjanster-och-verktyg/arbeta-med-libris/katalogisering-i-libris/andra-kallor.html)
