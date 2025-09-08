@@ -2,7 +2,7 @@
 section: Ändringslogg
 title: Ändringslogg
 order: 150
-date: 2025-08-14
+date: 2025-09-08
 tags:
 - ändringslogg
 - uppdateringar
@@ -10,6 +10,9 @@ tags:
 
 # Ändringslogg
 På denna sida listas ändringar i hjälptexterna.
+
+2025-09-08
+</br>Uppdaterat ett flertal sidor med ändrade länkar (och i förekommande fall ändrade länktexter) till nya kb.se.
 
 2025-08-14
 </br>Sidorna [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) och [Verk](https://libris.kb.se/katalogisering/help/workflow-work) uppdaterade och innehåller nu endast kort text och länkar till
