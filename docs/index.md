@@ -34,5 +34,5 @@ Information om regler och praxis kommer att successivt flyttas över till Metada
 
 Följ [nyhetsflödet i Metadatabyrån](https://metadatabyran.kb.se/ovrigt/nyhetslistning) för att hålla dig uppdaterad! Där kan du också prenumerera på nyheter.
   
-Följ också och prenumerera på [Nyheter från Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris.html).
+Följ också och prenumerera på [Nyheter från Libris på kb.se](https://beta.kb.se/for-bibliotekssektorn/nytt-fran-kb.html?sv.target=12.5b5507eb18cedffd1a434463&sv.12.5b5507eb18cedffd1a434463.route=/news&keywords=Libris&page=1).
 
