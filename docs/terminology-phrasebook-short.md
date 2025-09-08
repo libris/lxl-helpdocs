@@ -10,7 +10,7 @@ tags:
 
 # BIBFRAME kort parlör
 
-[Information om BIBFRAME - Introduktion till Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)
+[Läs också om BIBFRAME under Standaarder, vokabulär och format i Libris, kb.se](https://kb.se/for-bibliotekssektorn/tjanster-och-verktyg/arbeta-med-libris/katalogisering-i-libris.html)
 
 Under kolumnen *Kommentar* finns förklaringar till begrepp där ingen motsvarighet finns i MARC21 eller RDA. Detta är nya begrepp hämtade från andra standarder.
 
