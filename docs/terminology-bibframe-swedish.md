@@ -10,7 +10,7 @@ tags:
 
 # BIBFRAME svensk terminologi
 
-[Information om BIBFRAME - Introduktion till Libris på kb.se](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/introduktion-till-libris.html)
+[Läs också om BIBFRAME under Standaarder, vokabulär och format i Libris, kb.se](https://kb.se/for-bibliotekssektorn/tjanster-och-verktyg/arbeta-med-libris/katalogisering-i-libris.html)
 
 BIBFRAME (Bibliographic Framework) är ett initiativ från Library of Congress som anpassar bibliografiska beskrivningsstandarder till en modell för länkade data. Syftet med övergången till länkade data är att göra den bibliografiska informationen mer användbar och synlig. Det gynnar inte bara biblioteken och dess användare, utan även samhället i stort.
 
