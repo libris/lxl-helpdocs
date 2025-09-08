@@ -10,4 +10,4 @@ tags:
 
 # Beståndsregistrering
 
-Se [Bestånd i Libris i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris)
+Se [Bestånd i Libris, i Metadatabyrån](https://metadatabyran.kb.se/arbetsfloden/bestand-i-libris)
