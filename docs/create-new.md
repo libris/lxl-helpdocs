@@ -26,7 +26,7 @@ Följ gällande anvisningar när du skapar en ny post.
 * [Kärnelement för relationer](https://metadatabyran.kb.se/generella-anvisningar---rda/relationer/karnelement-for-relationer?searchTerm=K%C3%A4rnelement+f%C3%B6r+relationer)
 
 ## Söka
-Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
+Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Att använda Librisdata på kb.se](https://kb.se/for-bibliotekssektorn/tjanster-och-verktyg/arbeta-med-libris/att-anvanda-librisdata.html).
 Undvik att skapa dubbletter. Läs mer under Sök i vänstermenyn.
 
 ## Skapa ny från mall
