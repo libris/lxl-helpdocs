@@ -23,7 +23,7 @@ Följ gällande anvisningar när du skapar en ny post.
 * [Metadatabyrån](https://metadatabyran.kb.se/)  
 * [Kärnelement för verk och uttryck](https://metadatabyran.kb.se/generella-anvisningar---rda/verk-och-uttryck/karnelement-for-verk-och-uttryck?searchTerm=K%C3%A4rnelement+f%C3%B6r+verk+och+uttryck)
 * [Kärnelement för manifestation](https://metadatabyran.kb.se/generella-anvisningar---rda/manifestation-instans/karnelement-for-manifestation)
-* [Kärnelement för relationer](https://metadatabyran.kb.se/generella-anvisningar---rda/relationer/karnelement-for-relationer?searchTerm=K%C3%A4rnelement+f%C3%B6r+relationer)
+* [Kärnelement för relationer](https://metadatabyran.kb.se/generella-anvisningar---rda/karnelement-och-obligatoriska-element/karnelement-och-obligatoriska-element-for-relationer)
 
 ## Söka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, [se Att använda Librisdata, på kb.se](https://kb.se/for-bibliotekssektorn/tjanster-och-verktyg/arbeta-med-libris/att-anvanda-librisdata.html).
