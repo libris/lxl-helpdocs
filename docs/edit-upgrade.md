@@ -15,6 +15,7 @@ tags:
 | [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-från-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-från-post) | 
 | [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
+| [Berika från urval](#berika-från-urval) |
 
 
 ## Anvisningar och praxis
@@ -58,6 +59,7 @@ När Berika från mall har använts visas en text som beskriver hur många egens
    * Sök fram posten (B) som ska berikas från fil, d.v.s. från post (A). 
    * Öppna redigeringsläge och välj "Berika från post" --> "Från fil" i verktygsmenyn.
    * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
+   * Redigera och spara.
  
    Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag bort Har komponent i den beståndspost som ska berikas. Välj sedan "Berika från post" --> "Från fil" i verktygsmenyn.  
  
@@ -69,7 +71,7 @@ När Berika från mall har använts visas en text som beskriver hur många egens
     </br>![Kopiera ID](KopieraID.PNG)
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
     </br>![Berika från ID](berikafranid.png)
-   * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
+   * Klistra in ID från (A). Post B berikas med metadata från A. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
 ## Detaljerad berikning
@@ -79,7 +81,21 @@ För att göra detta behöver du tillgång till den berikande postens ID (URI), 
 
 Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap. Att  **utöka**  innebär att information läggs till i den berikade posten.  **Ersätta**  resulterar i att den berikande posten skriver över egenskaper.
 
-Observera att du inte kan använda detaljerad berikning inom Instans av verk. För vissa egenskaper inom Instans av verk kan du i stället använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
+Observera att du inte kan använda detaljerad berikning inom Instans av verk. Använd funktionen Berika från urval i stället. För vissa egenskaper inom Instans av verk kan du även använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
 
 Detaljerad berikning:    
 ![Detaljerad berikning](detaljerad.png)
+
+## Berika från urval
+Funktionen Berika från urval är tillgänglig i Libris katalogisering fr.o.m. version 1.41.
+
+Med funktionen _Berika från urval_ kan du jämföra två poster och berika den ena (post B) med egenskaper från den andra (post A). Du kan handplocka egenskaper från post A eller välja att berika post B med samtliga egenskaper från post A. Post B berikas med metadata från post A även i de fall själva egenskaperna redan finns i B.
+
+* Sök fram den post (A) du vill berika från och flagga den. Flaggfunktionen finns i postens sammanfattning. Antalet flaggade entiteter visas intill rubriken Katalogvård i menyfältet.
+* I den post du vill berika (B), välj Berika från urval i verktygsmenyn.
+* Välj post (A) under Välj entitet att berika från. 
+* Du kan nu välja vilka egenskaper du vill berika med genom att klicka på respektive egenskaps benämning så att den blir blå(grön)-markerad. Du kan välja alla genom att bocka i Markera alla. All metadata inom en egenskap som inte redan finns i B förs över från A. Observera att viss metadata kan dubbleras.
+* Klicka på Klar för att redigera posten som berikats (B). Du har nu möjlighet att göra ändringar och radera eventuell överflödig metadata som förts över från A. Spara posten (B) när du är klar med redigeringen.
+
+Berika från urval:
+![Berika från urval](berika_urval.png)
