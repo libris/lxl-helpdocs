@@ -7,6 +7,7 @@ tags:
 - redigering
 - katalogvård
 - flytta bestånd
+- flaggade
 ---
 
 # Katalogvård
@@ -39,5 +40,12 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
   * Klart!
     </br>Beståndet är flyttat. 
     
-  * Flaggan är kvar i mottagarposten ifall att den behöver redigeras ytterligare. Den kan tas bort när beståndsflytten är gjord. Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
-  </br>![Funktionen Rensa flaggor](rensaflaggor.png)
+  * Flaggan är kvar i mottagarposten ifall denna behöver redigeras ytterligare. Flaggan kan tas bort när beståndsflytten är gjord.
+
+  * Ta bort flaggor
+    * I vyn **Flaggade** är det möjligt att se en lista på alla poster man flaggat samt flagga av poster en och en.
+    </br>![Flaggade](flaggade.png)
+    
+    * Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
+    </br>![Funktionen Rensa flaggor](rensaflaggor.png)
+
