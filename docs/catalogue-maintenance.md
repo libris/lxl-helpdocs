@@ -44,7 +44,7 @@ Frågor om behörigheter och sigler hänvisas till Libris kundservice libris @ k
 
   * Ta bort flaggor
     * I vyn **Flaggade** är det möjligt att se en lista på alla poster man flaggat samt flagga av poster en och en.
-    </br>![Flaggade](flaggade.png)
+    </br>![Flaggade](Flaggade.png)
     
     * Under inloggad profil (användarinställningar) kan samtliga flaggade poster rensas.
     </br>![Funktionen Rensa flaggor](rensaflaggor.png)
