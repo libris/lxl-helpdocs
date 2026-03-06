@@ -120,7 +120,7 @@ Med hierarkisk ordning mellan termer menas att vissa mer generella termer (breda
 
 Bredare implicerade termer som kommer att undertryckas markeras i gränssnittet med:
 * en streckad kantlinje
-</br>!(radering_implicerade_termer_1.png)
+</br>![Radering implicerade termer 1](radering_implicerade_termer_1.png)
 
 * en varning
-</br>!(radering_implicerade_termer_3.png)
+</br>![Radering implicerade termer 3](radering_implicerade_termer_3.png)
