@@ -19,16 +19,16 @@ tags:
 | [**Verktygsmeny i visningsläge**](#verktygsmeny-i-visningslage) | [**Verktygsmeny i redigeringsläge**](#verktygsmeny-i-redigeringslage) | [**Övriga funktioner**](#ovriga-funktioner) |
 | -------- | ----------- | ----------- |
 | [Visa som](#visa-som) | [Verktyg](#verktygsmeny-i-redigeringsläge) | [Ta bort egenskap](#övriga-funktioner) |
-| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Lägg till förekomst av egenskap](#övriga-funktioner) | 
-| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Hjälp i formuläret](#övriga-funktioner) | 
-| [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade)| [Lägg till/ta bort underliggande egenskap](#övriga-funktioner) |
-| [- Kopiera](#verktyg) | [- Berika från urval*](https://libris.kb.se/katalogisering/help/edit-upgrade) | [Entitetsfunktioner](#6-entitetsfunktioner) |
+| [Verktyg](#verktyg) | [- Berika från mall*](https://libris.kb.se/katalogisering/help/edit-upgrade#berika-från-mall) | [Lägg till förekomst av egenskap](#övriga-funktioner) | 
+| [- Expandera alla](#verktyg) | [- Berika från post*](https://libris.kb.se/katalogisering/help/edit-upgrade#berika-från-post) | [Hjälp i formuläret](#övriga-funktioner) | 
+| [- Minimera alla](#verktyg) | [- Detaljerad berikning*](https://libris.kb.se/katalogisering/help/edit-upgrade#detaljerad-berikning)| [Lägg till/ta bort underliggande egenskap](#övriga-funktioner) |
+| [- Kopiera](#verktyg) | [- Berika från urval*](https://libris.kb.se/katalogisering/help/edit-upgrade#berika-från-urval) | [Entitetsfunktioner](#6-entitetsfunktioner) |
 | [- Skapa digital reproduktion](#verktyg) | [Lägg till egenskaper](#verktygsmeny-i-redigeringsläge) | [Byta verkstyp och instanstyp](#byta-verkstyp-och-instanstyp) |
 | [- Ladda ner sammanslagen MARC21](#ladda-ner-sammanslagen-marc21) | [Ångra](#verktygsmeny-i-redigeringsläge) | [- Byta verkstyp](#byta-verkstyp) |
 | [- Ladda ner JSON-LD](#ladda-ner-sammanslagen-marc21) | [Avbryt](#avbryt) | [- Byta instanstyp](#byta-instanstyp) |
 | [- Förfrågan](#ladda-ner-sammanslagen-marc21) | [Spara](#spara) | [Länkade verk i Libris](#länkade-verk-i-libris) |
-| [- Ändringsmeddelande](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  |  |
-| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) |  |  | 
+| [- Ändringsmeddelande](#ladda-ner-sammanslagen-marc21) | [Spara och sluta redigera](#spara-och-sluta-redigera)  | [Validering av kategori](https://libris.kb.se/katalogisering/help/edit-upgrade#validering-av-kategori) |
+| [- Förhandsgranska MARC21](#ladda-ner-sammanslagen-marc21) |  | [Implicering av termer](https://libris.kb.se/katalogisering/help/edit-upgrade#implicering-av-termer) | 
 | [- Ta bort Instans](#ladda-ner-sammanslagen-marc21) |  |  |
 | [Redigera](#redigera) |  |  | 
 
