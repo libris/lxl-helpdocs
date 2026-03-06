@@ -12,10 +12,10 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-från-mall) | 
-| [Redigera](#redigera) | | [Berika från post](#berika-från-post) | 
-| [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
-| [Berika från urval](#berika-från-urval) |
+| [Anvisningar och praxis](#anvisningar-och-praxis) | [Berika från urval](#berika-från-urval) | [Berika från mall](#berika-från-mall) | 
+| [Redigera](#redigera) | [Berika från post](#berika-från-post) | [Validering av kategori](#validering-av-kategori) |
+| [Uppgradera](#uppgradera) | [Detaljerad berikning](#detaljerad-berikning) | [Implicering av termer](#implicering-av-termer) |
+
 
 
 ## Anvisningar och praxis
@@ -98,4 +98,29 @@ Med funktionen _Berika från urval_ kan du jämföra två poster och berika den 
 * Klicka på Klar för att redigera posten som berikats (B). Du har nu möjlighet att göra ändringar och radera eventuell överflödig metadata som förts över från A. Spara posten (B) när du är klar med redigeringen.
 
 Berika från urval:
-![Berika från urval](berika_urval.png)
+</br>![Berika från urval](berika_urval.png)
+
+## Validering av kategori
+Funktionen Validering av kategori är tillgänglig i Libris katalogisering fr.o.m. version 1.42.
+
+Funktionen tydliggör att egenskapen Kategori ska länka till termer från flera listor genom att varna om du glömt att lägga till termer från en av listorna. För närvarande fungerar valideringen för innehållstyper och genre/formtermer i Kategori för Verk och för bärartyper i Kategori för Instans.
+
+Exempel på fall då genre/formtermer angetts men innehållstyp saknas:
+</br>![Validering av innehållstyp](validering_innehållstyp.png)
+
+Exempel på fall då innehållstyp angetts men genre/formtermer saknas:
+</br>![Validering av genre/form](validering_genreform.png)
+
+## Implicering av termer
+Funktionen Implicering av termer är tillgänglig i Libris katalogisering fr.o.m. version 1.42.
+
+Funktionen ska tydliggöra den hierarkiska ordningen mellan termer i en termlista och underlätta förståelsen för vilken term som ska anges. Med hierarkisk ordning mellan termer menas att vissa mer generella termer (bredare termer) är överordnade andra mer specifika termer (smalare termer). Det betyder i sin tur att om en resurs beskrivs med en smalare term är det underförstått att den även kan beskrivas med den bredare termen. Denna bredare term impliceras alltså av den smalare termen och ska därför inte anges i beskrivningen. Den nya funktionen kommer automatiskt att undertrycka bredare implicerade termer när posten sparas om en smalare term finns angiven.
+
+Med hierarkisk ordning mellan termer menas att vissa mer generella termer (bredare termer) är överordnade andra mer specifika termer (smalare termer). Det betyder i sin tur att om en resurs beskrivs med en smalare term är det underförstått att den även kan beskrivas med den bredare termen. Denna bredare term impliceras alltså av den smalare termen och ska därför inte anges i beskrivningen.
+
+Bredare implicerade termer som kommer att undertryckas markeras i gränssnittet med:
+* en streckad kantlinje
+</br>!(radering_implicerade_termer_1.png)
+
+* en varning
+</br>!(radering_implicerade_termer_3.png)
